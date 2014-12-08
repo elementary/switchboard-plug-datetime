@@ -1,0 +1,107 @@
+# Hebrew translation for maya
+# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
+# This file is distributed under the same license as the maya package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: maya\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-28 05:03-0500\n"
+"PO-Revision-Date: 2013-07-21 20:40+0000\n"
+"Last-Translator: Danny Damsky <dannydamsky99@gmail.com>\n"
+"Language-Team: Hebrew <he@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2014-09-29 05:12+0000\n"
+"X-Generator: Launchpad (build 17196)\n"
+"Language: he\n"
+
+#: ../src//Plug.vala:31
+msgid "Suspend"
+msgstr "השהה"
+
+#: ../src//Plug.vala:32
+msgid "Shutdown"
+msgstr "כיבוי"
+
+#: ../src//Plug.vala:33
+msgid "Hibernate"
+msgstr "תרדמת"
+
+#: ../src//Plug.vala:34
+msgid "Ask me"
+msgstr "שאל אותי"
+
+#: ../src//Plug.vala:35
+msgid "Do nothing"
+msgstr "אל תעשה דבר"
+
+#: ../src//Plug.vala:63
+msgid "Power"
+msgstr "כח"
+
+#: ../src//Plug.vala:64
+msgid "Set display brightness, power button behavior, and sleep preferences"
+msgstr ""
+
+#: ../src//Plug.vala:117
+msgid "Plugged In"
+msgstr "התחבר"
+
+#: ../src//Plug.vala:118
+msgid "On Battery"
+msgstr ""
+
+#: ../src//Plug.vala:133
+msgid "Display brightness:"
+msgstr ""
+
+#: ../src//Plug.vala:143
+msgid "Dim screen when inactive:"
+msgstr ""
+
+#: ../src//Plug.vala:177
+msgid "Sleep button:"
+msgstr ""
+
+#: ../src//Plug.vala:177
+msgid "Suspend button:"
+msgstr ""
+
+#: ../src//Plug.vala:177
+msgid "Hibernate button:"
+msgstr ""
+
+#: ../src//Plug.vala:177
+msgid "Power button:"
+msgstr ""
+
+#: ../src//Plug.vala:196
+msgid "Sleep when inactive after:"
+msgstr ""
+
+#: ../src//Plug.vala:203
+msgid "5 min"
+msgstr "5 דקות"
+
+#: ../src//Plug.vala:204
+msgid "10 min"
+msgstr "10 דקות"
+
+#: ../src//Plug.vala:205
+msgid "30 min"
+msgstr "30 דקות"
+
+#: ../src//Plug.vala:206
+msgid "1 hour"
+msgstr "שעה"
+
+#: ../src//Plug.vala:207
+msgid "Never"
+msgstr "אף פעם"
+
+#: ../src//Plug.vala:230
+msgid "When power is critically low:"
+msgstr ""

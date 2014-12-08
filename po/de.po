@@ -1,0 +1,109 @@
+# German translation for maya
+# Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
+# This file is distributed under the same license as the maya package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: maya\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-28 05:03-0500\n"
+"PO-Revision-Date: 2014-10-09 06:36+0000\n"
+"Last-Translator: UweS <Unknown>\n"
+"Language-Team: German <de@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2014-10-10 05:18+0000\n"
+"X-Generator: Launchpad (build 17196)\n"
+"Language: de\n"
+
+#: ../src//Plug.vala:31
+msgid "Suspend"
+msgstr "Bereitschaft"
+
+#: ../src//Plug.vala:32
+msgid "Shutdown"
+msgstr "Herunterfahren"
+
+#: ../src//Plug.vala:33
+msgid "Hibernate"
+msgstr "Ruhezustand"
+
+#: ../src//Plug.vala:34
+msgid "Ask me"
+msgstr "Nachfragen"
+
+#: ../src//Plug.vala:35
+msgid "Do nothing"
+msgstr "Nichts tun"
+
+#: ../src//Plug.vala:63
+msgid "Power"
+msgstr "Stromversorgung"
+
+#: ../src//Plug.vala:64
+msgid "Set display brightness, power button behavior, and sleep preferences"
+msgstr ""
+"Bildschirmhelligkeit, Verhalten des An-/Ausknopfes und Schlafeinstellungen "
+"einrichten"
+
+#: ../src//Plug.vala:117
+msgid "Plugged In"
+msgstr "Netzbetrieb"
+
+#: ../src//Plug.vala:118
+msgid "On Battery"
+msgstr "Im Akkubetrieb"
+
+#: ../src//Plug.vala:133
+msgid "Display brightness:"
+msgstr "Bildschirmhelligkeit:"
+
+#: ../src//Plug.vala:143
+msgid "Dim screen when inactive:"
+msgstr "Bei Inaktivität Bildschirmhelligkeit reduzieren:"
+
+#: ../src//Plug.vala:177
+msgid "Sleep button:"
+msgstr "Schlafknopf:"
+
+#: ../src//Plug.vala:177
+msgid "Suspend button:"
+msgstr "Energiesparknopf:"
+
+#: ../src//Plug.vala:177
+msgid "Hibernate button:"
+msgstr "Ruhezustandsknopf:"
+
+#: ../src//Plug.vala:177
+msgid "Power button:"
+msgstr "An-/Ausknopf"
+
+#: ../src//Plug.vala:196
+msgid "Sleep when inactive after:"
+msgstr "Bei Inaktivität schlafen legen nach:"
+
+#: ../src//Plug.vala:203
+msgid "5 min"
+msgstr "5 Min."
+
+#: ../src//Plug.vala:204
+msgid "10 min"
+msgstr "10 Min."
+
+#: ../src//Plug.vala:205
+msgid "30 min"
+msgstr "30 Min."
+
+#: ../src//Plug.vala:206
+msgid "1 hour"
+msgstr "1 Stunde"
+
+#: ../src//Plug.vala:207
+msgid "Never"
+msgstr "Nie"
+
+#: ../src//Plug.vala:230
+msgid "When power is critically low:"
+msgstr "Wenn der Akku sehr schwach ist:"

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Date & Time
+Comment=Date and Time preferences panel
+Exec=switchboard -o system-pantheon-datetime
+Icon=preferences-system-time
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GNOME;GTK;Settings;X-PANTHEON-Switchboard-Plugs;
+OnlyShowIn=Pantheon;
+Keywords=Clock;Timezone;Location;
+X-GNOME-Gettext-Domain=pantheon-datetime-plug
