@@ -131,6 +131,16 @@ public class DateTime.Plug : Switchboard.Plug {
             });
 
             /*
+             * Setup TimeZone Button
+             */
+            time_zone_button.clicked.connect (() => {
+                var popover = new DateTime.TZPopover ();
+                popover.position = Gtk.PositionType.BOTTOM;
+                popover.relative_to = time_zone_button;
+                popover.show_all ();
+            });
+
+            /*
              * Setup Network Time
              */
             network_time_switch.notify["active"].connect (() => {

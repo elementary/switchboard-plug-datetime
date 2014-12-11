@@ -49,7 +49,7 @@ public class DateTime.TimeMap : Gtk.Grid {
     public TimeMap () {
         background_map = new Gdk.Pixbuf.from_file ("%s/images/bg.png".printf (Constants.PKGDATADIR));
         background_map_scale = background_map;
-        switch_to_tz (5.75f);
+        switch_to_tz (1);
         get_style_context ().add_class (Gtk.STYLE_CLASS_FRAME);
     }
 
