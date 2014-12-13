@@ -17,6 +17,7 @@ vala_precompile (VALA_C ${CMAKE_PROJECT_NAME}
     DateTime1.vala
     TimeMap.vala
     TZPopover.vala
+    CurrentTimeManager.vala
     ${CMAKE_CURRENT_BINARY_DIR}/config.vala
 PACKAGES
     gtk+-3.0

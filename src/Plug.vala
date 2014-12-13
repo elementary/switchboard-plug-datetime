@@ -2,9 +2,12 @@ public class DateTime.Plug : Switchboard.Plug {
     private Gtk.Grid main_grid;
     private DateTime1 datetime1;
     private TimeMap time_map;
+    private CurrentTimeManager ct_manager;
     private Settings clock_settings;
     private bool changing_clock_format = false;
-    private uint timeout = 0;
+
+    private Gtk.Label tz_continent_label;
+    private Gtk.Label tz_city_label;
 
     public Plug () {
         Object (category: Category.SYSTEM,
@@ -50,8 +53,8 @@ public class DateTime.Plug : Switchboard.Plug {
             var time_zone_grid = new Gtk.Grid ();
             time_zone_grid.column_spacing = 5;
             time_zone_grid.halign = Gtk.Align.CENTER;
-            var tz_continent_label = new Gtk.Label ("Europe");
-            var tz_city_label = new Gtk.Label ("Paris");
+            tz_continent_label = new Gtk.Label (null);
+            tz_city_label = new Gtk.Label (null);
             time_zone_grid.add (tz_continent_label);
             time_zone_grid.add (new Gtk.Separator (Gtk.Orientation.VERTICAL));
             time_zone_grid.add (tz_city_label);
@@ -80,17 +83,45 @@ public class DateTime.Plug : Switchboard.Plug {
             main_grid.attach (fake_grid_2, 3, 0, 1, 1);
             main_grid.show_all ();
 
+            bool syncing_datetime = false;
             /*
              * Setup Time
              */
             time_picker.time_changed.connect (() => {
-                warning ("CHANGED");
+                var now_local = new GLib.DateTime.now_local ();
+                var minutes = time_picker.time.get_minute () - now_local.get_minute ();
+                var hours = time_picker.time.get_hour () - now_local.get_hour ();
+                var now_utc = new GLib.DateTime.now_utc ();
+                var usec_utc = now_utc.add_hours (hours).add_minutes (minutes).to_unix ();
+                datetime1.set_time (usec_utc * 1000000, false, true);
+                ct_manager.datetime_has_changed ();
             });
-            var very_next_minute = time_picker.time.add_seconds (-time_picker.time.get_seconds ()).add_minutes (1);
-            var timespan = very_next_minute.difference (time_picker.time);
-            timeout = Timeout.add ((uint) (timespan/1000), () => {
-                time_picker.time = very_next_minute;
-                return false;
+
+            /*
+             * Setup Date
+             */
+            date_picker.notify["date"].connect (() => {
+                if (syncing_datetime == true)
+                    return;
+
+                var now_local = new GLib.DateTime.now_local ();
+                var years = date_picker.date.get_year () - now_local.get_year ();
+                var days = date_picker.date.get_day_of_year () - now_local.get_day_of_year ();
+                var now_utc = new GLib.DateTime.now_utc ();
+                var usec_utc = now_utc.add_years (years).add_days (days).to_unix ();
+                datetime1.set_time (usec_utc * 1000000, false, true);
+                ct_manager.datetime_has_changed ();
+            });
+
+            /*
+             * Stay synced with current time and date.
+             */
+            ct_manager = new CurrentTimeManager ();
+            ct_manager.time_has_changed.connect ((dt) => {
+                syncing_datetime = true;
+                time_picker.time = dt;
+                date_picker.date = dt;
+                syncing_datetime = false;
             });
 
             /*
@@ -135,9 +166,11 @@ public class DateTime.Plug : Switchboard.Plug {
              */
             time_zone_button.clicked.connect (() => {
                 var popover = new DateTime.TZPopover ();
+                popover.set_timezone (datetime1.Timezone);
                 popover.position = Gtk.PositionType.BOTTOM;
                 popover.relative_to = time_zone_button;
                 popover.show_all ();
+                popover.request_timezone_change.connect (change_tz);
             });
 
             /*
@@ -149,6 +182,8 @@ public class DateTime.Plug : Switchboard.Plug {
                 date_picker.sensitive = !active;
                 time_label.sensitive = !active;
                 date_label.sensitive = !active;
+                datetime1.SetNTP (active, true);
+                ct_manager.datetime_has_changed ();
             });
 
             try {
@@ -162,9 +197,23 @@ public class DateTime.Plug : Switchboard.Plug {
             }
 
             network_time_switch.active = datetime1.NTP;
+            change_tz (datetime1.Timezone);
         }
 
         return main_grid;
+    }
+
+    private void change_tz (string tz) {
+        var values = tz.split ("/", 2);
+        tz_continent_label.label = _(values[0]);
+        tz_city_label.label = values[1];
+        if (datetime1.Timezone != tz) {
+            datetime1.set_timezone (tz, true);
+            ct_manager.timezone_has_changed ();
+        }
+
+        var local_time = new GLib.DateTime.now_local ();
+        time_map.switch_to_tz ((float)(local_time.get_utc_offset ())/(float)(GLib.TimeSpan.HOUR));
     }
 
     public override void shown () {
