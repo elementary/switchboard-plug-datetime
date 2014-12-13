@@ -80,11 +80,6 @@ public class DateTime.TZPopover : Gtk.Popover {
         });
 
         city_list_store.set_sort_column_id (Gtk.TREE_SORTABLE_DEFAULT_SORT_COLUMN_ID, Gtk.SortType.ASCENDING);
-        parser.get_timezones ().foreach ((key, value) => {
-            city_list_store.append (out iter);
-            city_list_store.set (iter, 0, key, 1, value);
-        });
-
         city_view = new Gtk.TreeView.with_model (city_list_store);
         city_view.headers_visible = false;
         city_view.insert_column_with_attributes (-1, null, new Gtk.CellRendererText (), "text", 0);
@@ -130,7 +125,7 @@ public class DateTime.TZPopover : Gtk.Popover {
         parser.get_timezones_from_continent (continent).foreach ((key, value) => {
             Gtk.TreeIter iter;
             city_list_store.append (out iter);
-            city_list_store.set (iter, 0, _(key).replace("_", " ").replace ("/", ", "), 1, value);
+            city_list_store.set (iter, 0, Parser.format_city (key), 1, value);
             if (current_tz == value) {
                 city_view.get_selection ().select_iter (iter);
             }
@@ -164,20 +159,6 @@ public class DateTime.Parser : GLib.Object {
         }
     }
 
-    public HashTable<string, string> get_timezones () {
-        var timezones = new HashTable<string, string> (str_hash, str_equal);
-        foreach (var line in lines) {
-            var items = line.split ("\t", 4);
-            string key;
-            string value = items[2];
-            key = items[2].split ("/", 2)[1];
-
-            timezones.set (key, value);
-        }
-
-        return timezones;
-    }
-
     public HashTable<string, string> get_timezones_from_continent (string continent) {
         var timezones = new HashTable<string, string> (str_hash, str_equal);
         foreach (var line in lines) {
@@ -193,5 +174,9 @@ public class DateTime.Parser : GLib.Object {
         }
 
         return timezones;
+    }
+
+    public static string format_city (string city) {
+        return _(city).replace("_", " ").replace ("/", ", ");
     }
 }

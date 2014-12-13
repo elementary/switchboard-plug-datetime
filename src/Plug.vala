@@ -206,7 +206,7 @@ public class DateTime.Plug : Switchboard.Plug {
     private void change_tz (string tz) {
         var values = tz.split ("/", 2);
         tz_continent_label.label = _(values[0]);
-        tz_city_label.label = values[1];
+        tz_city_label.label = Parser.format_city (values[1]);
         if (datetime1.Timezone != tz) {
             datetime1.set_timezone (tz, true);
             ct_manager.timezone_has_changed ();
