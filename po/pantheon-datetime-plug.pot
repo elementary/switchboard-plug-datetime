@@ -1,0 +1,86 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-12-13 17:17+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../src//Plug.vala:15
+msgid "Date & Time"
+msgstr ""
+
+#: ../src//Plug.vala:16
+msgid "Date and Time preferences panel"
+msgstr ""
+
+#: ../src//Plug.vala:28
+msgid "Network Time:"
+msgstr ""
+
+#: ../src//Plug.vala:36
+msgid "Time:"
+msgstr ""
+
+#: ../src//Plug.vala:40
+msgid "Date:"
+msgstr ""
+
+#: ../src//Plug.vala:44
+msgid "Time Format:"
+msgstr ""
+
+#: ../src//Plug.vala:47
+msgid "24h"
+msgstr ""
+
+#: ../src//Plug.vala:48
+msgid "AM/PM"
+msgstr ""
+
+#: ../src//Plug.vala:50
+msgid "Time Zone:"
+msgstr ""
+
+#: ../src//TZPopover.vala:36
+msgid "Africa"
+msgstr ""
+
+#: ../src//TZPopover.vala:38
+msgid "America"
+msgstr ""
+
+#: ../src//TZPopover.vala:40
+msgid "Antarctica"
+msgstr ""
+
+#: ../src//TZPopover.vala:42
+msgid "Asia"
+msgstr ""
+
+#: ../src//TZPopover.vala:44
+msgid "Atlantic"
+msgstr ""
+
+#: ../src//TZPopover.vala:46
+msgid "Europe"
+msgstr ""
+
+#: ../src//TZPopover.vala:48
+msgid "Indian"
+msgstr ""
+
+#: ../src//TZPopover.vala:50
+msgid "Pacific"
+msgstr ""
