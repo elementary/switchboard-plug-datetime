@@ -46,6 +46,10 @@ public class DateTime.Plug : Switchboard.Plug {
             var time_format_combobox = new Gtk.ComboBoxText ();
             time_format_combobox.append ("24h", _("24h"));
             time_format_combobox.append ("ampm", _("AM/PM"));
+            if (Posix.nl_langinfo (Posix.NLItem.AM_STR) == "") {
+                time_format_label.no_show_all = true;
+                time_format_combobox.no_show_all = true;
+            }
 
             var time_zone_label = new Gtk.Label (_("Time Zone:"));
             time_zone_label.xalign = 1;
@@ -128,10 +132,12 @@ public class DateTime.Plug : Switchboard.Plug {
              * Setup Clock Format
              */
             clock_settings = new Settings ();
-            if (clock_settings.clock_format == "12h") {
-                time_format_combobox.active = 1;
-            } else {
+            Variant value;
+            value = clock_settings.schema.get_user_value ("clock-format");
+            if (value != null && clock_settings.clock_format == "24h") {
                 time_format_combobox.active = 0;
+            } else {
+                time_format_combobox.active = 1;
             }
 
             clock_settings.notify["clock-format"].connect (() => {
@@ -213,7 +219,10 @@ public class DateTime.Plug : Switchboard.Plug {
         }
 
         var local_time = new GLib.DateTime.now_local ();
-        time_map.switch_to_tz ((float)(local_time.get_utc_offset ())/(float)(GLib.TimeSpan.HOUR));
+        float offset = (float)(local_time.get_utc_offset ())/(float)(GLib.TimeSpan.HOUR);
+        if (local_time.is_daylight_savings ())
+            offset--;
+        time_map.switch_to_tz (offset);
     }
 
     public override void shown () {
@@ -230,7 +239,12 @@ public class DateTime.Plug : Switchboard.Plug {
 
     // 'search' returns results like ("Keyboard → Behavior → Duration", "keyboard<sep>behavior")
     public override async Gee.TreeMap<string, string> search (string search) {
-        return new Gee.TreeMap<string, string> (null, null);
+        var search_results = new Gee.TreeMap<string, string> ((GLib.CompareDataFunc<string>)strcmp, (Gee.EqualDataFunc<string>)str_equal);
+        search_results.set ("%s → %s".printf (display_name, _("Network Time")), "");
+        search_results.set ("%s → %s".printf (display_name, _("Time")), "");
+        search_results.set ("%s → %s".printf (display_name, _("Date")), "");
+        search_results.set ("%s → %s".printf (display_name, _("Time Zone")), "");
+        return search_results;
     }
 }
 

@@ -1,3 +1,4 @@
+
 public class DateTime.TZPopover : Gtk.Popover {
     public signal void request_timezone_change (string tz);
 
@@ -157,6 +158,9 @@ public class DateTime.Parser : GLib.Object {
         } catch (Error e) {
             critical (e.message);
         }
+#if GENERATE
+        generate_translation_template ();
+#endif
     }
 
     public HashTable<string, string> get_timezones_from_continent (string continent) {
@@ -168,7 +172,6 @@ public class DateTime.Parser : GLib.Object {
                 continue;
 
             string key = items[2].split ("/", 2)[1];
-            
 
             timezones.set (key, value);
         }
@@ -179,4 +182,19 @@ public class DateTime.Parser : GLib.Object {
     public static string format_city (string city) {
         return _(city).replace("_", " ").replace ("/", ", ");
     }
+
+#if GENERATE
+    public void generate_translation_template () {
+        var file = GLib.File.new_for_path (GLib.Environment.get_home_dir () + "/Translations.vala");
+        var dos = new GLib.DataOutputStream (file.create (GLib.FileCreateFlags.REPLACE_DESTINATION));
+        dos.put_string ("#if 0\n");
+        foreach (var line in lines) {
+            var items = line.split ("\t", 4);
+            string key = items[2].split ("/", 2)[1];
+            dos.put_string ("\\\\\\Translators: All \"\\\" and \"_\" will be replaced by \", \" and \" \".\n");
+            dos.put_string ("_(\""+key + "\");\n");
+        }
+        dos.put_string ("#endif\n");
+    }
+#endif
 }
