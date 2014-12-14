@@ -1,109 +1,1766 @@
-# French translation for maya
-# Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
-# This file is distributed under the same license as the maya package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
+# French translation for switchboard-plug-datetime
+# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
+# This file is distributed under the same license as the switchboard-plug-datetime package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: maya\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-28 05:03-0500\n"
-"PO-Revision-Date: 2014-10-21 07:09+0000\n"
-"Last-Translator: RM <l4rt1st-1nc0nnu@laposte.net>\n"
+"Project-Id-Version: switchboard-plug-datetime\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2014-12-13 22:07+0100\n"
+"PO-Revision-Date: 2014-12-13 23:05+0000\n"
+"Last-Translator: Corentin Noël <corentin@elementaryos.org>\n"
 "Language-Team: French <fr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2014-10-22 06:11+0000\n"
-"X-Generator: Launchpad (build 17203)\n"
-"Language: fr\n"
+"X-Launchpad-Export-Date: 2014-12-14 06:59+0000\n"
+"X-Generator: Launchpad (build 17286)\n"
 
-#: ../src//Plug.vala:31
-msgid "Suspend"
-msgstr "Mettre en veille"
+#: ../src//Translations.vala:3
+msgid "Andorra"
+msgstr "Andorre"
 
-#: ../src//Plug.vala:32
-msgid "Shutdown"
-msgstr "Éteindre"
+#: ../src//Translations.vala:5
+msgid "Dubai"
+msgstr "Dubaï"
 
-#: ../src//Plug.vala:33
-msgid "Hibernate"
-msgstr "Hiberner"
+#: ../src//Translations.vala:7
+msgid "Kabul"
+msgstr "Kaboul"
 
-#: ../src//Plug.vala:34
-msgid "Ask me"
-msgstr "Me demander quoi faire"
+#: ../src//Translations.vala:9
+msgid "Antigua"
+msgstr "Antigua"
 
-#: ../src//Plug.vala:35
-msgid "Do nothing"
-msgstr "Ne rien faire"
+#: ../src//Translations.vala:11
+msgid "Anguilla"
+msgstr "Anguilla"
 
-#: ../src//Plug.vala:63
-msgid "Power"
-msgstr "Alimentation"
+#: ../src//Translations.vala:13
+msgid "Tirane"
+msgstr "Tirana"
 
-#: ../src//Plug.vala:64
-msgid "Set display brightness, power button behavior, and sleep preferences"
-msgstr ""
-"Régler la luminosité de l'écran, le comportement du bouton d'alimentation, "
-"et les préférences de la mise en veille"
+#: ../src//Translations.vala:15
+msgid "Yerevan"
+msgstr "Erevan"
 
-#: ../src//Plug.vala:117
-msgid "Plugged In"
-msgstr "Sous secteur"
+#: ../src//Translations.vala:17
+msgid "Luanda"
+msgstr "Luanda"
 
-#: ../src//Plug.vala:118
-msgid "On Battery"
-msgstr "Sur batterie"
+#: ../src//Translations.vala:19
+msgid "McMurdo"
+msgstr "Base McMurdo"
 
-#: ../src//Plug.vala:133
-msgid "Display brightness:"
-msgstr "Luminosité de l'écran :"
+#: ../src//Translations.vala:21
+msgid "Rothera"
+msgstr "Base Rothera"
 
-#: ../src//Plug.vala:143
-msgid "Dim screen when inactive:"
-msgstr "Réduire la luminosité si inactif :"
+#: ../src//Translations.vala:23
+msgid "Palmer"
+msgstr "Base Palmer"
 
-#: ../src//Plug.vala:177
-msgid "Sleep button:"
-msgstr "Bouton de mise en veille:"
+#: ../src//Translations.vala:25
+msgid "Mawson"
+msgstr "Base Mawson"
 
-#: ../src//Plug.vala:177
-msgid "Suspend button:"
-msgstr "Bouton de mise en veille"
+#: ../src//Translations.vala:27
+msgid "Davis"
+msgstr "Base Davis"
 
-#: ../src//Plug.vala:177
-msgid "Hibernate button:"
-msgstr "Bouton d'hibernation:"
+#: ../src//Translations.vala:29
+msgid "Casey"
+msgstr "Base Casey"
 
-#: ../src//Plug.vala:177
-msgid "Power button:"
-msgstr "Bouton power:"
+#: ../src//Translations.vala:31
+msgid "Vostok"
+msgstr "Base Vostok"
 
-#: ../src//Plug.vala:196
-msgid "Sleep when inactive after:"
-msgstr "Hiberner si inactif après :"
+#: ../src//Translations.vala:33
+msgid "DumontDUrville"
+msgstr "Base Dumont d'Urville"
 
-#: ../src//Plug.vala:203
-msgid "5 min"
-msgstr "5 min"
+#: ../src//Translations.vala:35
+msgid "Syowa"
+msgstr "Base Syowa"
 
-#: ../src//Plug.vala:204
-msgid "10 min"
-msgstr "10 min"
+#: ../src//Translations.vala:37
+msgid "Troll"
+msgstr "Troll"
 
-#: ../src//Plug.vala:205
-msgid "30 min"
-msgstr "30 min"
+#: ../src//Translations.vala:39
+msgid "Argentina/Buenos_Aires"
+msgstr "Argentine/Buenos_Aires"
 
-#: ../src//Plug.vala:206
-msgid "1 hour"
-msgstr "1 heure"
+#: ../src//Translations.vala:41
+msgid "Argentina/Cordoba"
+msgstr "Argentine/Córdoba"
 
-#: ../src//Plug.vala:207
-msgid "Never"
-msgstr "Jamais"
+#: ../src//Translations.vala:43
+msgid "Argentina/Salta"
+msgstr "Argentine/Salta"
 
-#: ../src//Plug.vala:230
-msgid "When power is critically low:"
-msgstr "Lorsque la batterie est déchargée :"
+#: ../src//Translations.vala:45
+msgid "Argentina/Jujuy"
+msgstr "Argentine/Jujuy"
+
+#: ../src//Translations.vala:47
+msgid "Argentina/Tucuman"
+msgstr "Argentine/Tucumán"
+
+#: ../src//Translations.vala:49
+msgid "Argentina/Catamarca"
+msgstr "Argentine/Catamarca"
+
+#: ../src//Translations.vala:51
+msgid "Argentina/La_Rioja"
+msgstr "Argentine/La_Rioja"
+
+#: ../src//Translations.vala:53
+msgid "Argentina/San_Juan"
+msgstr "Argentine/San_Juan"
+
+#: ../src//Translations.vala:55
+msgid "Argentina/Mendoza"
+msgstr "Argentine/Mendoza"
+
+#: ../src//Translations.vala:57
+msgid "Argentina/San_Luis"
+msgstr "Argentine/San_Luis"
+
+#: ../src//Translations.vala:59
+msgid "Argentina/Rio_Gallegos"
+msgstr "Argentine/Río_Gallegos"
+
+#: ../src//Translations.vala:61
+msgid "Argentina/Ushuaia"
+msgstr "Argentine/Ushuaïa"
+
+#: ../src//Translations.vala:63
+msgid "Pago_Pago"
+msgstr "Pago_Pago"
+
+#: ../src//Translations.vala:65
+msgid "Vienna"
+msgstr "Vienne"
+
+#: ../src//Translations.vala:67
+msgid "Lord_Howe"
+msgstr "Lord_Howe"
+
+#: ../src//Translations.vala:69
+msgid "Macquarie"
+msgstr "Île Macquarie"
+
+#: ../src//Translations.vala:71
+msgid "Hobart"
+msgstr "Hobart"
+
+#: ../src//Translations.vala:73
+msgid "Currie"
+msgstr "Currie"
+
+#: ../src//Translations.vala:75
+msgid "Melbourne"
+msgstr "Melbourne"
+
+#: ../src//Translations.vala:77
+msgid "Sydney"
+msgstr "Sydney"
+
+#: ../src//Translations.vala:79
+msgid "Broken_Hill"
+msgstr "Broken_Hill"
+
+#: ../src//Translations.vala:81
+msgid "Brisbane"
+msgstr "Brisbane"
+
+#: ../src//Translations.vala:83
+msgid "Lindeman"
+msgstr "Lindeman"
+
+#: ../src//Translations.vala:85
+msgid "Adelaide"
+msgstr "Adelaïde"
+
+#: ../src//Translations.vala:87
+msgid "Darwin"
+msgstr "Darwin"
+
+#: ../src//Translations.vala:89
+msgid "Perth"
+msgstr "Perth"
+
+#: ../src//Translations.vala:91
+msgid "Eucla"
+msgstr "Eucla"
+
+#: ../src//Translations.vala:93
+msgid "Aruba"
+msgstr "Aruba"
+
+#: ../src//Translations.vala:95
+msgid "Mariehamn"
+msgstr "Mariehamn"
+
+#: ../src//Translations.vala:97
+msgid "Baku"
+msgstr "Bakou"
+
+#: ../src//Translations.vala:99
+msgid "Sarajevo"
+msgstr "Sarajevo"
+
+#: ../src//Translations.vala:101
+msgid "Barbados"
+msgstr "Barbade"
+
+#: ../src//Translations.vala:103
+msgid "Dhaka"
+msgstr "Dhâkâ"
+
+#: ../src//Translations.vala:105
+msgid "Brussels"
+msgstr "Bruxelles"
+
+#: ../src//Translations.vala:107
+msgid "Ouagadougou"
+msgstr "Ouagadougou"
+
+#: ../src//Translations.vala:109
+msgid "Sofia"
+msgstr "Sofia"
+
+#: ../src//Translations.vala:111
+msgid "Bahrain"
+msgstr "Bahreïn"
+
+#: ../src//Translations.vala:113
+msgid "Bujumbura"
+msgstr "Bujumbura"
+
+#: ../src//Translations.vala:115
+msgid "Porto-Novo"
+msgstr "Porto-Novo"
+
+#: ../src//Translations.vala:117
+msgid "St_Barthelemy"
+msgstr "St_Barthélémy"
+
+#: ../src//Translations.vala:119
+msgid "Bermuda"
+msgstr "Bermudes"
+
+#: ../src//Translations.vala:121
+msgid "Brunei"
+msgstr "Brunei"
+
+#: ../src//Translations.vala:123
+msgid "La_Paz"
+msgstr "La_Paz"
+
+#: ../src//Translations.vala:125
+msgid "Kralendijk"
+msgstr "Kralendijk"
+
+#: ../src//Translations.vala:127
+msgid "Noronha"
+msgstr "Noronha"
+
+#: ../src//Translations.vala:129
+msgid "Belem"
+msgstr "Belém"
+
+#: ../src//Translations.vala:131
+msgid "Fortaleza"
+msgstr "Fortaleza"
+
+#: ../src//Translations.vala:133
+msgid "Recife"
+msgstr "Récife"
+
+#: ../src//Translations.vala:135
+msgid "Araguaina"
+msgstr "Araguaína"
+
+#: ../src//Translations.vala:137
+msgid "Maceio"
+msgstr "Maceió"
+
+#: ../src//Translations.vala:139
+msgid "Bahia"
+msgstr "Bahia"
+
+#: ../src//Translations.vala:141
+msgid "Sao_Paulo"
+msgstr "São_Paulo"
+
+#: ../src//Translations.vala:143
+msgid "Campo_Grande"
+msgstr "Campo_Grande"
+
+#: ../src//Translations.vala:145
+msgid "Cuiaba"
+msgstr "Cuiabá"
+
+#: ../src//Translations.vala:147
+msgid "Santarem"
+msgstr "Santarem"
+
+#: ../src//Translations.vala:149
+msgid "Porto_Velho"
+msgstr "Porto_Velho"
+
+#: ../src//Translations.vala:151
+msgid "Boa_Vista"
+msgstr "Boa_Vista"
+
+#: ../src//Translations.vala:153
+msgid "Manaus"
+msgstr "Manaus"
+
+#: ../src//Translations.vala:155
+msgid "Eirunepe"
+msgstr "Eirunepe"
+
+#: ../src//Translations.vala:157
+msgid "Rio_Branco"
+msgstr "Rio_Branco"
+
+#: ../src//Translations.vala:159
+msgid "Nassau"
+msgstr "Nassau"
+
+#: ../src//Translations.vala:161
+msgid "Thimphu"
+msgstr "Thimphou"
+
+#: ../src//Translations.vala:163
+msgid "Gaborone"
+msgstr "Gaborone"
+
+#: ../src//Translations.vala:165
+msgid "Minsk"
+msgstr "Minsk"
+
+#: ../src//Translations.vala:167
+msgid "Belize"
+msgstr "Bélize"
+
+#: ../src//Translations.vala:169
+msgid "St_Johns"
+msgstr "St_Johns"
+
+#: ../src//Translations.vala:171
+msgid "Halifax"
+msgstr "Halifax"
+
+#: ../src//Translations.vala:173
+msgid "Glace_Bay"
+msgstr "Glace_Bay"
+
+#: ../src//Translations.vala:175
+msgid "Moncton"
+msgstr "Moncton"
+
+#: ../src//Translations.vala:177
+msgid "Goose_Bay"
+msgstr "Goose_Bay"
+
+#: ../src//Translations.vala:179
+msgid "Blanc-Sablon"
+msgstr "Blanc-Sablon"
+
+#: ../src//Translations.vala:181
+msgid "Toronto"
+msgstr "Toronto"
+
+#: ../src//Translations.vala:183
+msgid "Nipigon"
+msgstr "Nipigon"
+
+#: ../src//Translations.vala:185
+msgid "Thunder_Bay"
+msgstr "Thunder_Bay"
+
+#: ../src//Translations.vala:187
+msgid "Iqaluit"
+msgstr "Iqaluit"
+
+#: ../src//Translations.vala:189
+msgid "Pangnirtung"
+msgstr "Pangnirtung"
+
+#: ../src//Translations.vala:191
+msgid "Resolute"
+msgstr "Resolute"
+
+#: ../src//Translations.vala:193
+msgid "Atikokan"
+msgstr "Atikokan"
+
+#: ../src//Translations.vala:195
+msgid "Rankin_Inlet"
+msgstr "Rankin_Inlet"
+
+#: ../src//Translations.vala:197
+msgid "Winnipeg"
+msgstr "Winnipeg"
+
+#: ../src//Translations.vala:199
+msgid "Rainy_River"
+msgstr "Rainy_River"
+
+#: ../src//Translations.vala:201
+msgid "Regina"
+msgstr "Regina"
+
+#: ../src//Translations.vala:203
+msgid "Swift_Current"
+msgstr "Swift_Current"
+
+#: ../src//Translations.vala:205
+msgid "Edmonton"
+msgstr "Edmonton"
+
+#: ../src//Translations.vala:207
+msgid "Cambridge_Bay"
+msgstr "Cambridge_Bay"
+
+#: ../src//Translations.vala:209
+msgid "Yellowknife"
+msgstr "Yellowknife"
+
+#: ../src//Translations.vala:211
+msgid "Inuvik"
+msgstr "Inuvik"
+
+#: ../src//Translations.vala:213
+msgid "Creston"
+msgstr "Creston"
+
+#: ../src//Translations.vala:215
+msgid "Dawson_Creek"
+msgstr "Dawson_Creek"
+
+#: ../src//Translations.vala:217
+msgid "Vancouver"
+msgstr "Vancouver"
+
+#: ../src//Translations.vala:219
+msgid "Whitehorse"
+msgstr "Whitehorse"
+
+#: ../src//Translations.vala:221
+msgid "Dawson"
+msgstr "Dawson"
+
+#: ../src//Translations.vala:223
+msgid "Cocos"
+msgstr "Cocos"
+
+#: ../src//Translations.vala:225
+msgid "Kinshasa"
+msgstr "Kinshasa"
+
+#: ../src//Translations.vala:227
+msgid "Lubumbashi"
+msgstr "Lubumbashi"
+
+#: ../src//Translations.vala:229
+msgid "Bangui"
+msgstr "Bangui"
+
+#: ../src//Translations.vala:231
+msgid "Brazzaville"
+msgstr "Brazzaville"
+
+#: ../src//Translations.vala:233
+msgid "Zurich"
+msgstr "Zurich"
+
+#: ../src//Translations.vala:235
+msgid "Abidjan"
+msgstr "Abidjan"
+
+#: ../src//Translations.vala:237
+msgid "Rarotonga"
+msgstr "Rarotonga"
+
+#: ../src//Translations.vala:239
+msgid "Santiago"
+msgstr "Santiago"
+
+#: ../src//Translations.vala:241
+msgid "Easter"
+msgstr "Île_de_Pâques"
+
+#: ../src//Translations.vala:243
+msgid "Douala"
+msgstr "Douala"
+
+#: ../src//Translations.vala:245
+msgid "Shanghai"
+msgstr "Shanghai"
+
+#: ../src//Translations.vala:247
+msgid "Urumqi"
+msgstr "Ürümqi"
+
+#: ../src//Translations.vala:249
+msgid "Bogota"
+msgstr "Bogota"
+
+#: ../src//Translations.vala:251
+msgid "Costa_Rica"
+msgstr "Costa_Rica"
+
+#: ../src//Translations.vala:253
+msgid "Havana"
+msgstr "La Havane"
+
+#: ../src//Translations.vala:255
+msgid "Cape_Verde"
+msgstr "Cap-Vert"
+
+#: ../src//Translations.vala:257
+msgid "Curacao"
+msgstr "Curaçao"
+
+#: ../src//Translations.vala:259
+msgid "Christmas"
+msgstr "Port-Noël"
+
+#: ../src//Translations.vala:261
+msgid "Nicosia"
+msgstr "Nicosie"
+
+#: ../src//Translations.vala:263
+msgid "Prague"
+msgstr "Prague"
+
+#: ../src//Translations.vala:265
+msgid "Berlin"
+msgstr "Berlin"
+
+#: ../src//Translations.vala:267
+msgid "Busingen"
+msgstr "Büsingen"
+
+#: ../src//Translations.vala:269
+msgid "Djibouti"
+msgstr "Djibouti"
+
+#: ../src//Translations.vala:271
+msgid "Copenhagen"
+msgstr "Copenhague"
+
+#: ../src//Translations.vala:273
+msgid "Dominica"
+msgstr "Dominique"
+
+#: ../src//Translations.vala:275
+msgid "Santo_Domingo"
+msgstr "Santo_Domingo"
+
+#: ../src//Translations.vala:277
+msgid "Algiers"
+msgstr "Alger"
+
+#: ../src//Translations.vala:279
+msgid "Guayaquil"
+msgstr "Guayaquil"
+
+#: ../src//Translations.vala:281
+msgid "Galapagos"
+msgstr "Îles Galapagos"
+
+#: ../src//Translations.vala:283
+msgid "Tallinn"
+msgstr "Tallinn"
+
+#: ../src//Translations.vala:285
+msgid "Cairo"
+msgstr "Le Caire"
+
+#: ../src//Translations.vala:287
+msgid "El_Aaiun"
+msgstr "Laâyoune"
+
+#: ../src//Translations.vala:289
+msgid "Asmara"
+msgstr "Asmara"
+
+#: ../src//Translations.vala:291
+msgid "Madrid"
+msgstr "Madrid"
+
+#: ../src//Translations.vala:293
+msgid "Ceuta"
+msgstr "Ceuta"
+
+#: ../src//Translations.vala:295
+msgid "Canary"
+msgstr "Canari"
+
+#: ../src//Translations.vala:297
+msgid "Addis_Ababa"
+msgstr "Addis-Abeba"
+
+#: ../src//Translations.vala:299
+msgid "Helsinki"
+msgstr "Helsinki"
+
+#: ../src//Translations.vala:301
+msgid "Fiji"
+msgstr "Îles Fidji"
+
+#: ../src//Translations.vala:303
+msgid "Stanley"
+msgstr "Stanley"
+
+#: ../src//Translations.vala:305
+msgid "Chuuk"
+msgstr "Chuuk"
+
+#: ../src//Translations.vala:307
+msgid "Pohnpei"
+msgstr "Pohnpei"
+
+#: ../src//Translations.vala:309
+msgid "Kosrae"
+msgstr "Kosrae"
+
+#: ../src//Translations.vala:311
+msgid "Faroe"
+msgstr "Îles Féroé"
+
+#: ../src//Translations.vala:313
+msgid "Paris"
+msgstr "Paris"
+
+#: ../src//Translations.vala:315
+msgid "Libreville"
+msgstr "Libreville"
+
+#: ../src//Translations.vala:317
+msgid "London"
+msgstr "Londres"
+
+#: ../src//Translations.vala:319
+msgid "Grenada"
+msgstr "Grenade"
+
+#: ../src//Translations.vala:321
+msgid "Tbilisi"
+msgstr "Tbilissi"
+
+#: ../src//Translations.vala:323
+msgid "Cayenne"
+msgstr "Cayenne"
+
+#: ../src//Translations.vala:325
+msgid "Guernsey"
+msgstr "Guernesey"
+
+#: ../src//Translations.vala:327
+msgid "Accra"
+msgstr "Accra"
+
+#: ../src//Translations.vala:329
+msgid "Gibraltar"
+msgstr "Gibraltar"
+
+#: ../src//Translations.vala:331
+msgid "Godthab"
+msgstr "Godthab"
+
+#: ../src//Translations.vala:333
+msgid "Danmarkshavn"
+msgstr "Danmarkshavn"
+
+#: ../src//Translations.vala:335
+msgid "Scoresbysund"
+msgstr "Scoresbysund"
+
+#: ../src//Translations.vala:337
+msgid "Thule"
+msgstr "Thule"
+
+#: ../src//Translations.vala:339
+msgid "Banjul"
+msgstr "Banjul"
+
+#: ../src//Translations.vala:341
+msgid "Conakry"
+msgstr "Conakry"
+
+#: ../src//Translations.vala:343
+msgid "Guadeloupe"
+msgstr "Guadeloupe"
+
+#: ../src//Translations.vala:345
+msgid "Malabo"
+msgstr "Malabo"
+
+#: ../src//Translations.vala:347
+msgid "Athens"
+msgstr "Athènes"
+
+#: ../src//Translations.vala:349
+msgid "South_Georgia"
+msgstr "Géorgie_du_Sud"
+
+#: ../src//Translations.vala:351
+msgid "Guatemala"
+msgstr "Guatémala"
+
+#: ../src//Translations.vala:353
+msgid "Guam"
+msgstr "Guam"
+
+#: ../src//Translations.vala:355
+msgid "Bissau"
+msgstr "Bissau"
+
+#: ../src//Translations.vala:357
+msgid "Guyana"
+msgstr "Guyana"
+
+#: ../src//Translations.vala:359
+msgid "Hong_Kong"
+msgstr "Hong_Kong"
+
+#: ../src//Translations.vala:361
+msgid "Tegucigalpa"
+msgstr "Tegucigalpa"
+
+#: ../src//Translations.vala:363
+msgid "Zagreb"
+msgstr "Zagreb"
+
+#: ../src//Translations.vala:365
+msgid "Port-au-Prince"
+msgstr "Port-au-Prince"
+
+#: ../src//Translations.vala:367
+msgid "Budapest"
+msgstr "Budapest"
+
+#: ../src//Translations.vala:369
+msgid "Jakarta"
+msgstr "Jakarta"
+
+#: ../src//Translations.vala:371
+msgid "Pontianak"
+msgstr "Pontianak"
+
+#: ../src//Translations.vala:373
+msgid "Makassar"
+msgstr "Makassar"
+
+#: ../src//Translations.vala:375
+msgid "Jayapura"
+msgstr "Jayapura"
+
+#: ../src//Translations.vala:377
+msgid "Dublin"
+msgstr "Dublin"
+
+#: ../src//Translations.vala:379
+msgid "Jerusalem"
+msgstr "Jérusalem"
+
+#: ../src//Translations.vala:381
+msgid "Isle_of_Man"
+msgstr "Île_de_Man"
+
+#: ../src//Translations.vala:383
+msgid "Kolkata"
+msgstr "Calcutta"
+
+#: ../src//Translations.vala:385
+msgid "Chagos"
+msgstr "Chagos"
+
+#: ../src//Translations.vala:387
+msgid "Baghdad"
+msgstr "Bagdad"
+
+#: ../src//Translations.vala:389
+msgid "Tehran"
+msgstr "Téhéran"
+
+#: ../src//Translations.vala:391
+msgid "Reykjavik"
+msgstr "Reykjavik"
+
+#: ../src//Translations.vala:393
+msgid "Rome"
+msgstr "Rome"
+
+#: ../src//Translations.vala:395
+msgid "Jersey"
+msgstr "Jersey"
+
+#: ../src//Translations.vala:397
+msgid "Jamaica"
+msgstr "Jamaïque"
+
+#: ../src//Translations.vala:399
+msgid "Amman"
+msgstr "Amman"
+
+#: ../src//Translations.vala:401
+msgid "Tokyo"
+msgstr "Tokyo"
+
+#: ../src//Translations.vala:403
+msgid "Nairobi"
+msgstr "Nairobi"
+
+#: ../src//Translations.vala:405
+msgid "Bishkek"
+msgstr "Bichkek"
+
+#: ../src//Translations.vala:407
+msgid "Phnom_Penh"
+msgstr "Phnom_Penh"
+
+#: ../src//Translations.vala:409
+msgid "Tarawa"
+msgstr "Tarawa"
+
+#: ../src//Translations.vala:411
+msgid "Enderbury"
+msgstr "Enderbury"
+
+#: ../src//Translations.vala:413
+msgid "Kiritimati"
+msgstr "Kiritimati"
+
+#: ../src//Translations.vala:415
+msgid "Comoro"
+msgstr "Comores"
+
+#: ../src//Translations.vala:417
+msgid "St_Kitts"
+msgstr "St-Christophe-et-Niévès"
+
+#: ../src//Translations.vala:419
+msgid "Pyongyang"
+msgstr "Pyongyang"
+
+#: ../src//Translations.vala:421
+msgid "Seoul"
+msgstr "Séoul"
+
+#: ../src//Translations.vala:423
+msgid "Kuwait"
+msgstr "Koweït"
+
+#: ../src//Translations.vala:425
+msgid "Cayman"
+msgstr "Îles Caïmans"
+
+#: ../src//Translations.vala:427
+msgid "Almaty"
+msgstr "Almaty"
+
+#: ../src//Translations.vala:429
+msgid "Qyzylorda"
+msgstr "Kyzylorda"
+
+#: ../src//Translations.vala:431
+msgid "Aqtobe"
+msgstr "Aktioubé"
+
+#: ../src//Translations.vala:433
+msgid "Aqtau"
+msgstr "Aktaou"
+
+#: ../src//Translations.vala:435
+msgid "Oral"
+msgstr "Oural"
+
+#: ../src//Translations.vala:437
+msgid "Vientiane"
+msgstr "Vientiane"
+
+#: ../src//Translations.vala:439
+msgid "Beirut"
+msgstr "Beyrouth"
+
+#: ../src//Translations.vala:441
+msgid "St_Lucia"
+msgstr "Ste_Lucie"
+
+#: ../src//Translations.vala:443
+msgid "Vaduz"
+msgstr "Vaduz"
+
+#: ../src//Translations.vala:445
+msgid "Colombo"
+msgstr "Colombo"
+
+#: ../src//Translations.vala:447
+msgid "Monrovia"
+msgstr "Monrovia"
+
+#: ../src//Translations.vala:449
+msgid "Maseru"
+msgstr "Maseru"
+
+#: ../src//Translations.vala:451
+msgid "Vilnius"
+msgstr "Vilnius"
+
+#: ../src//Translations.vala:453
+msgid "Luxembourg"
+msgstr "Luxembourg"
+
+#: ../src//Translations.vala:455
+msgid "Riga"
+msgstr "Riga"
+
+#: ../src//Translations.vala:457
+msgid "Tripoli"
+msgstr "Tripoli"
+
+#: ../src//Translations.vala:459
+msgid "Casablanca"
+msgstr "Casablanca"
+
+#: ../src//Translations.vala:461
+msgid "Monaco"
+msgstr "Monaco"
+
+#: ../src//Translations.vala:463
+msgid "Chisinau"
+msgstr "Chișinău"
+
+#: ../src//Translations.vala:465
+msgid "Podgorica"
+msgstr "Podgorica"
+
+#: ../src//Translations.vala:467
+msgid "Marigot"
+msgstr "Marigot"
+
+#: ../src//Translations.vala:469
+msgid "Antananarivo"
+msgstr "Antananarivo"
+
+#: ../src//Translations.vala:471
+msgid "Majuro"
+msgstr "Majuro"
+
+#: ../src//Translations.vala:473
+msgid "Kwajalein"
+msgstr "Kwajalein"
+
+#: ../src//Translations.vala:475
+msgid "Skopje"
+msgstr "Skopje"
+
+#: ../src//Translations.vala:477
+msgid "Bamako"
+msgstr "Bamako"
+
+#: ../src//Translations.vala:479
+msgid "Rangoon"
+msgstr "Rangoun"
+
+#: ../src//Translations.vala:481
+msgid "Ulaanbaatar"
+msgstr "Oulan-Bator"
+
+#: ../src//Translations.vala:483
+msgid "Hovd"
+msgstr "Hovd"
+
+#: ../src//Translations.vala:485
+msgid "Choibalsan"
+msgstr "Choybalsan"
+
+#: ../src//Translations.vala:487
+msgid "Macau"
+msgstr "Macao"
+
+#: ../src//Translations.vala:489
+msgid "Saipan"
+msgstr "Saipan"
+
+#: ../src//Translations.vala:491
+msgid "Martinique"
+msgstr "Martinique"
+
+#: ../src//Translations.vala:493
+msgid "Nouakchott"
+msgstr "Nouakchott"
+
+#: ../src//Translations.vala:495
+msgid "Montserrat"
+msgstr "Montserrat"
+
+#: ../src//Translations.vala:497
+msgid "Malta"
+msgstr "Malte"
+
+#: ../src//Translations.vala:499
+msgid "Mauritius"
+msgstr "Île Maurice"
+
+#: ../src//Translations.vala:501
+msgid "Maldives"
+msgstr "Maldives"
+
+#: ../src//Translations.vala:503
+msgid "Blantyre"
+msgstr "Blantyre"
+
+#: ../src//Translations.vala:505
+msgid "Mexico_City"
+msgstr "Mexico"
+
+#: ../src//Translations.vala:507
+msgid "Cancun"
+msgstr "Cancún"
+
+#: ../src//Translations.vala:509
+msgid "Merida"
+msgstr "Mérida"
+
+#: ../src//Translations.vala:511
+msgid "Monterrey"
+msgstr "Monterrey"
+
+#: ../src//Translations.vala:513
+msgid "Matamoros"
+msgstr "Matamoros"
+
+#: ../src//Translations.vala:515
+msgid "Mazatlan"
+msgstr "Mazatlán"
+
+#: ../src//Translations.vala:517
+msgid "Chihuahua"
+msgstr "Chihuahua"
+
+#: ../src//Translations.vala:519
+msgid "Ojinaga"
+msgstr "Ojinaga"
+
+#: ../src//Translations.vala:521
+msgid "Hermosillo"
+msgstr "Hermosillo"
+
+#: ../src//Translations.vala:523
+msgid "Tijuana"
+msgstr "Tijuana"
+
+#: ../src//Translations.vala:525
+msgid "Santa_Isabel"
+msgstr "Santa_Isabel"
+
+#: ../src//Translations.vala:527
+msgid "Bahia_Banderas"
+msgstr "Bahia_Banderas"
+
+#: ../src//Translations.vala:529
+msgid "Kuala_Lumpur"
+msgstr "Kuala_Lumpur"
+
+#: ../src//Translations.vala:531
+msgid "Kuching"
+msgstr "Kuching"
+
+#: ../src//Translations.vala:533
+msgid "Maputo"
+msgstr "Maputo"
+
+#: ../src//Translations.vala:535
+msgid "Windhoek"
+msgstr "Windhoek"
+
+#: ../src//Translations.vala:537
+msgid "Noumea"
+msgstr "Nouméa"
+
+#: ../src//Translations.vala:539
+msgid "Niamey"
+msgstr "Niamey"
+
+#: ../src//Translations.vala:541
+msgid "Norfolk"
+msgstr "Norfolk"
+
+#: ../src//Translations.vala:543
+msgid "Lagos"
+msgstr "Lagos"
+
+#: ../src//Translations.vala:545
+msgid "Managua"
+msgstr "Managua"
+
+#: ../src//Translations.vala:547
+msgid "Amsterdam"
+msgstr "Amsterdam"
+
+#: ../src//Translations.vala:549
+msgid "Oslo"
+msgstr "Oslo"
+
+#: ../src//Translations.vala:551
+msgid "Kathmandu"
+msgstr "Katmandou"
+
+#: ../src//Translations.vala:553
+msgid "Nauru"
+msgstr "Nauru"
+
+#: ../src//Translations.vala:555
+msgid "Niue"
+msgstr "Niue"
+
+#: ../src//Translations.vala:557
+msgid "Auckland"
+msgstr "Auckland"
+
+#: ../src//Translations.vala:559
+msgid "Chatham"
+msgstr "Chatham"
+
+#: ../src//Translations.vala:561
+msgid "Muscat"
+msgstr "Mascate"
+
+#: ../src//Translations.vala:563
+msgid "Panama"
+msgstr "Panama"
+
+#: ../src//Translations.vala:565
+msgid "Lima"
+msgstr "Lima"
+
+#: ../src//Translations.vala:567
+msgid "Tahiti"
+msgstr "Tahiti"
+
+#: ../src//Translations.vala:569
+msgid "Marquesas"
+msgstr "Îles Marquises"
+
+#: ../src//Translations.vala:571
+msgid "Gambier"
+msgstr "Îles Gambier"
+
+#: ../src//Translations.vala:573
+msgid "Port_Moresby"
+msgstr "Port_Moresby"
+
+#: ../src//Translations.vala:575
+msgid "Bougainville"
+msgstr "Bougainville"
+
+#: ../src//Translations.vala:577
+msgid "Manila"
+msgstr "Manille"
+
+#: ../src//Translations.vala:579
+msgid "Karachi"
+msgstr "Karachi"
+
+#: ../src//Translations.vala:581
+msgid "Warsaw"
+msgstr "Varsovie"
+
+#: ../src//Translations.vala:583
+msgid "Miquelon"
+msgstr "Miquelon"
+
+#: ../src//Translations.vala:585
+msgid "Pitcairn"
+msgstr "Île Pitcairn"
+
+#: ../src//Translations.vala:587
+msgid "Puerto_Rico"
+msgstr "Porto_Rico"
+
+#: ../src//Translations.vala:589
+msgid "Gaza"
+msgstr "Gaza"
+
+#: ../src//Translations.vala:591
+msgid "Hebron"
+msgstr "Hébron"
+
+#: ../src//Translations.vala:593
+msgid "Lisbon"
+msgstr "Lisbonne"
+
+#: ../src//Translations.vala:595
+msgid "Madeira"
+msgstr "Madère"
+
+#: ../src//Translations.vala:597
+msgid "Azores"
+msgstr "Açores"
+
+#: ../src//Translations.vala:599
+msgid "Palau"
+msgstr "Palaos"
+
+#: ../src//Translations.vala:601
+msgid "Asuncion"
+msgstr "Asuncion"
+
+#: ../src//Translations.vala:603
+msgid "Qatar"
+msgstr "Qatar"
+
+#: ../src//Translations.vala:605
+msgid "Reunion"
+msgstr "Île de la Réunion"
+
+#: ../src//Translations.vala:607
+msgid "Bucharest"
+msgstr "Bucarest"
+
+#: ../src//Translations.vala:609
+msgid "Belgrade"
+msgstr "Belgrade"
+
+#: ../src//Translations.vala:611
+msgid "Kaliningrad"
+msgstr "Kaliningrad"
+
+#: ../src//Translations.vala:613
+msgid "Moscow"
+msgstr "Moscou"
+
+#: ../src//Translations.vala:615
+msgid "Simferopol"
+msgstr "Simferopol"
+
+#: ../src//Translations.vala:617
+msgid "Volgograd"
+msgstr "Volgograd"
+
+#: ../src//Translations.vala:619
+msgid "Samara"
+msgstr "Samara"
+
+#: ../src//Translations.vala:621
+msgid "Yekaterinburg"
+msgstr "Ekaterinbourg"
+
+#: ../src//Translations.vala:623
+msgid "Omsk"
+msgstr "Omsk"
+
+#: ../src//Translations.vala:625
+msgid "Novosibirsk"
+msgstr "Novossibirsk"
+
+#: ../src//Translations.vala:627
+msgid "Novokuznetsk"
+msgstr "Novokouznetsk"
+
+#: ../src//Translations.vala:629
+msgid "Krasnoyarsk"
+msgstr "Krasnoïarsk"
+
+#: ../src//Translations.vala:631
+msgid "Irkutsk"
+msgstr "Irkoutsk"
+
+#: ../src//Translations.vala:633
+msgid "Chita"
+msgstr "Chita"
+
+#: ../src//Translations.vala:635
+msgid "Yakutsk"
+msgstr "Iakoutsk"
+
+#: ../src//Translations.vala:637
+msgid "Khandyga"
+msgstr "Khandyga"
+
+#: ../src//Translations.vala:639
+msgid "Vladivostok"
+msgstr "Vladivostok"
+
+#: ../src//Translations.vala:641
+msgid "Sakhalin"
+msgstr "Sakhaline"
+
+#: ../src//Translations.vala:643
+msgid "Ust-Nera"
+msgstr "Oust-Nera"
+
+#: ../src//Translations.vala:645
+msgid "Magadan"
+msgstr "Magadan"
+
+#: ../src//Translations.vala:647
+msgid "Srednekolymsk"
+msgstr "Srednekolymsk"
+
+#: ../src//Translations.vala:649
+msgid "Kamchatka"
+msgstr "Kamtchatka"
+
+#: ../src//Translations.vala:651
+msgid "Anadyr"
+msgstr "Anadyr"
+
+#: ../src//Translations.vala:653
+msgid "Kigali"
+msgstr "Kigali"
+
+#: ../src//Translations.vala:655
+msgid "Riyadh"
+msgstr "Riyad"
+
+#: ../src//Translations.vala:657
+msgid "Guadalcanal"
+msgstr "Guadalcanal"
+
+#: ../src//Translations.vala:659
+msgid "Mahe"
+msgstr "Mahé"
+
+#: ../src//Translations.vala:661
+msgid "Khartoum"
+msgstr "Khartoum"
+
+#: ../src//Translations.vala:663
+msgid "Stockholm"
+msgstr "Stockholm"
+
+#: ../src//Translations.vala:665
+msgid "Singapore"
+msgstr "Singapour"
+
+#: ../src//Translations.vala:667
+msgid "St_Helena"
+msgstr "Ste_Hélène"
+
+#: ../src//Translations.vala:669
+msgid "Ljubljana"
+msgstr "Ljubljana"
+
+#: ../src//Translations.vala:671
+msgid "Longyearbyen"
+msgstr "Longyearbyen"
+
+#: ../src//Translations.vala:673
+msgid "Bratislava"
+msgstr "Bratislava"
+
+#: ../src//Translations.vala:675
+msgid "Freetown"
+msgstr "Freetown"
+
+#: ../src//Translations.vala:677
+msgid "San_Marino"
+msgstr "Saint-Marin"
+
+#: ../src//Translations.vala:679
+msgid "Dakar"
+msgstr "Dakar"
+
+#: ../src//Translations.vala:681
+msgid "Mogadishu"
+msgstr "Mogadiscio"
+
+#: ../src//Translations.vala:683
+msgid "Paramaribo"
+msgstr "Paramaribo"
+
+#: ../src//Translations.vala:685
+msgid "Juba"
+msgstr "Djouba"
+
+#: ../src//Translations.vala:687
+msgid "Sao_Tome"
+msgstr "São_Tomé"
+
+#: ../src//Translations.vala:689
+msgid "El_Salvador"
+msgstr "Salvador"
+
+#: ../src//Translations.vala:691
+msgid "Lower_Princes"
+msgstr "Lower_Princes"
+
+#: ../src//Translations.vala:693
+msgid "Damascus"
+msgstr "Damas"
+
+#: ../src//Translations.vala:695
+msgid "Mbabane"
+msgstr "Mbabané"
+
+#: ../src//Translations.vala:697
+msgid "Grand_Turk"
+msgstr "Grand_Turk"
+
+#: ../src//Translations.vala:699
+msgid "Ndjamena"
+msgstr "Ndjamena"
+
+#: ../src//Translations.vala:701
+msgid "Kerguelen"
+msgstr "Kerguelen"
+
+#: ../src//Translations.vala:703
+msgid "Lome"
+msgstr "Lomé"
+
+#: ../src//Translations.vala:705
+msgid "Bangkok"
+msgstr "Bangkok"
+
+#: ../src//Translations.vala:707
+msgid "Dushanbe"
+msgstr "Douchanbé"
+
+#: ../src//Translations.vala:709
+msgid "Fakaofo"
+msgstr "Fakaofo"
+
+#: ../src//Translations.vala:711
+msgid "Dili"
+msgstr "Dili"
+
+#: ../src//Translations.vala:713
+msgid "Ashgabat"
+msgstr "Achgabat"
+
+#: ../src//Translations.vala:715
+msgid "Tunis"
+msgstr "Tunis"
+
+#: ../src//Translations.vala:717
+msgid "Tongatapu"
+msgstr "Tongatapu"
+
+#: ../src//Translations.vala:719
+msgid "Istanbul"
+msgstr "Istanbul"
+
+#: ../src//Translations.vala:721
+msgid "Port_of_Spain"
+msgstr "Port-d'Espagne"
+
+#: ../src//Translations.vala:723
+msgid "Funafuti"
+msgstr "Funafuti"
+
+#: ../src//Translations.vala:725
+msgid "Taipei"
+msgstr "Taipei"
+
+#: ../src//Translations.vala:727
+msgid "Dar_es_Salaam"
+msgstr "Dar_es_Salaam"
+
+#: ../src//Translations.vala:729
+msgid "Kiev"
+msgstr "Kiev"
+
+#: ../src//Translations.vala:731
+msgid "Uzhgorod"
+msgstr "Oujhorod"
+
+#: ../src//Translations.vala:733
+msgid "Zaporozhye"
+msgstr "Zaporijia"
+
+#: ../src//Translations.vala:735
+msgid "Kampala"
+msgstr "Kampala"
+
+#: ../src//Translations.vala:737
+msgid "Johnston"
+msgstr "Johnston"
+
+#: ../src//Translations.vala:739
+msgid "Midway"
+msgstr "Midway"
+
+#: ../src//Translations.vala:741
+msgid "Wake"
+msgstr "Wake"
+
+#: ../src//Translations.vala:743
+msgid "New_York"
+msgstr "New_York"
+
+#: ../src//Translations.vala:745
+msgid "Detroit"
+msgstr "Détroit"
+
+#: ../src//Translations.vala:747
+msgid "Kentucky/Louisville"
+msgstr "Kentucky/Louisville"
+
+#: ../src//Translations.vala:749
+msgid "Kentucky/Monticello"
+msgstr "Kentucky/Monticello"
+
+#: ../src//Translations.vala:751
+msgid "Indiana/Indianapolis"
+msgstr "Indiana/Indianapolis"
+
+#: ../src//Translations.vala:753
+msgid "Indiana/Vincennes"
+msgstr "Indiana/Vincennes"
+
+#: ../src//Translations.vala:755
+msgid "Indiana/Winamac"
+msgstr "Indiana/Winamac"
+
+#: ../src//Translations.vala:757
+msgid "Indiana/Marengo"
+msgstr "Indiana/Marengo"
+
+#: ../src//Translations.vala:759
+msgid "Indiana/Petersburg"
+msgstr "Indiana/Petersburg"
+
+#: ../src//Translations.vala:761
+msgid "Indiana/Vevay"
+msgstr "Indiana/Vevay"
+
+#: ../src//Translations.vala:763
+msgid "Chicago"
+msgstr "Chicago"
+
+#: ../src//Translations.vala:765
+msgid "Indiana/Tell_City"
+msgstr "Indiana/Tell_City"
+
+#: ../src//Translations.vala:767
+msgid "Indiana/Knox"
+msgstr "Indiana/Knox"
+
+#: ../src//Translations.vala:769
+msgid "Menominee"
+msgstr "Menominee"
+
+#: ../src//Translations.vala:771
+msgid "North_Dakota/Center"
+msgstr "Dakota_du_Nord/Centre"
+
+#: ../src//Translations.vala:773
+msgid "North_Dakota/New_Salem"
+msgstr "Dakota_du_Nord/New_Salem"
+
+#: ../src//Translations.vala:775
+msgid "North_Dakota/Beulah"
+msgstr "Dakota_du_Nord/Beulah"
+
+#: ../src//Translations.vala:777
+msgid "Denver"
+msgstr "Denver"
+
+#: ../src//Translations.vala:779
+msgid "Boise"
+msgstr "Boise"
+
+#: ../src//Translations.vala:781
+msgid "Phoenix"
+msgstr "Phoenix"
+
+#: ../src//Translations.vala:783
+msgid "Los_Angeles"
+msgstr "Los_Angeles"
+
+#: ../src//Translations.vala:785
+msgid "Metlakatla"
+msgstr "Metlakatla"
+
+#: ../src//Translations.vala:787
+msgid "Anchorage"
+msgstr "Anchorage"
+
+#: ../src//Translations.vala:789
+msgid "Juneau"
+msgstr "Juneau"
+
+#: ../src//Translations.vala:791
+msgid "Sitka"
+msgstr "Sitka"
+
+#: ../src//Translations.vala:793
+msgid "Yakutat"
+msgstr "Yakutat"
+
+#: ../src//Translations.vala:795
+msgid "Nome"
+msgstr "Nome"
+
+#: ../src//Translations.vala:797
+msgid "Adak"
+msgstr "Île Adak"
+
+#: ../src//Translations.vala:799
+msgid "Honolulu"
+msgstr "Honolulu"
+
+#: ../src//Translations.vala:801
+msgid "Montevideo"
+msgstr "Montévidéo"
+
+#: ../src//Translations.vala:803
+msgid "Samarkand"
+msgstr "Samarcande"
+
+#: ../src//Translations.vala:805
+msgid "Tashkent"
+msgstr "Tachkent"
+
+#: ../src//Translations.vala:807
+msgid "Vatican"
+msgstr "Vatican"
+
+#: ../src//Translations.vala:809
+msgid "St_Vincent"
+msgstr "St_Vincent"
+
+#: ../src//Translations.vala:811
+msgid "Caracas"
+msgstr "Caracas"
+
+#: ../src//Translations.vala:813
+msgid "Tortola"
+msgstr "Tortola"
+
+#: ../src//Translations.vala:815
+msgid "St_Thomas"
+msgstr "St_Thomas"
+
+#: ../src//Translations.vala:817
+msgid "Ho_Chi_Minh"
+msgstr "Hô-Chi-Minh-Ville"
+
+#: ../src//Translations.vala:819
+msgid "Efate"
+msgstr "Éfaté"
+
+#: ../src//Translations.vala:821
+msgid "Wallis"
+msgstr "Wallis"
+
+#: ../src//Translations.vala:823
+msgid "Apia"
+msgstr "Apia"
+
+#: ../src//Translations.vala:825
+msgid "Aden"
+msgstr "Aden"
+
+#: ../src//Translations.vala:827
+msgid "Mayotte"
+msgstr "Mayotte"
+
+#: ../src//Translations.vala:829
+msgid "Johannesburg"
+msgstr "Johannesburg"
+
+#: ../src//Translations.vala:831
+msgid "Lusaka"
+msgstr "Lusaka"
+
+#: ../src//Translations.vala:833
+msgid "Harare"
+msgstr "Harare"
+
+#: ../src//Plug.vala:15
+msgid "Date & Time"
+msgstr "Date & Heure"
+
+#: ../src//Plug.vala:16
+msgid "Date and Time preferences panel"
+msgstr "Volet des préférences pour la date et l'heure"
+
+#: ../src//Plug.vala:28
+msgid "Network Time:"
+msgstr "Heure réseau :"
+
+#: ../src//Plug.vala:36
+msgid "Time:"
+msgstr "Heure :"
+
+#: ../src//Plug.vala:40
+msgid "Date:"
+msgstr "Date :"
+
+#: ../src//Plug.vala:44
+msgid "Time Format:"
+msgstr "Format du Temps :"
+
+#: ../src//Plug.vala:47
+msgid "24h"
+msgstr "24h"
+
+#: ../src//Plug.vala:48
+msgid "AM/PM"
+msgstr "AM/PM"
+
+#: ../src//Plug.vala:54
+msgid "Time Zone:"
+msgstr "Fuseau horaire :"
+
+#: ../src//Plug.vala:243
+msgid "Network Time"
+msgstr "Heure réseau"
+
+#: ../src//Plug.vala:244
+msgid "Time"
+msgstr "Heure"
+
+#: ../src//Plug.vala:245
+msgid "Date"
+msgstr "Date"
+
+#: ../src//Plug.vala:246
+msgid "Time Zone"
+msgstr "Fuseau horaire"
+
+#: ../src//TZPopover.vala:37
+msgid "Africa"
+msgstr "Afrique"
+
+#: ../src//TZPopover.vala:39
+msgid "America"
+msgstr "Amérique"
+
+#: ../src//TZPopover.vala:41
+msgid "Antarctica"
+msgstr "Antarctique"
+
+#: ../src//TZPopover.vala:43
+msgid "Asia"
+msgstr "Asie"
+
+#: ../src//TZPopover.vala:45
+msgid "Atlantic"
+msgstr "Atlantique"
+
+#: ../src//TZPopover.vala:47
+msgid "Europe"
+msgstr "Europe"
+
+#: ../src//TZPopover.vala:49
+msgid "Indian"
+msgstr "Indien"
+
+#: ../src//TZPopover.vala:51
+msgid "Pacific"
+msgstr "Pacifique"
