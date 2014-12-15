@@ -277,6 +277,7 @@ public class DateTime.Plug : Switchboard.Plug {
         search_results.set ("%s → %s".printf (display_name, _("Time")), "");
         search_results.set ("%s → %s".printf (display_name, _("Date")), "");
         search_results.set ("%s → %s".printf (display_name, _("Time Zone")), "");
+        search_results.set ("%s → %s".printf (display_name, _("Time Format")), "");
         return search_results;
     }
 }
