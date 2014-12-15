@@ -1,10 +1,10 @@
 find_package (PkgConfig)
 
 # Add all your dependencies to the list below
-pkg_check_modules (DEPS REQUIRED gthread-2.0 gtk+-3.0 switchboard-2.0 granite champlain-gtk-0.12 champlain-0.12 clutter-1.0)
+pkg_check_modules (DEPS REQUIRED gthread-2.0 gtk+-3.0 switchboard-2.0 granite)
 
 # Uncomment this to generate a new Translations.vala (will be placed in your desktop folder after opening the timezone popover)
-set (GENERATE_OPTION --define=GENERATE)
+# set (GENERATE_OPTION --define=GENERATE)
 
 add_definitions (${DEPS_CFLAGS})
 link_directories (${DEPS_LIBRARY_DIRS})
@@ -20,15 +20,13 @@ vala_precompile (VALA_C ${CMAKE_PROJECT_NAME}
     DateTime1.vala
     TimeMap.vala
     TZPopover.vala
+    Parser.vala
     CurrentTimeManager.vala
     ${CMAKE_CURRENT_BINARY_DIR}/config.vala
 PACKAGES
     gtk+-3.0
     switchboard-2.0
     granite
-    champlain-gtk-0.12
-    champlain-0.12
-    clutter-1.0
     posix
 OPTIONS
     --thread

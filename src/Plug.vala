@@ -1,3 +1,23 @@
+// -*- Mode: vala; indent-tabs-mode: nil; tab-width: 4 -*-
+/*-
+ * Copyright (c) 2014 Pantheon Developers (http://launchpad.net/switchboard-plug-datetime)
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ * Authored by: Corentin Noël <corentin@elementaryos.org>
+ */
+
 public class DateTime.Plug : Switchboard.Plug {
     private Gtk.Grid main_grid;
     private DateTime1 datetime1;
@@ -25,20 +45,16 @@ public class DateTime.Plug : Switchboard.Plug {
             main_grid.column_spacing = 12;
             main_grid.row_spacing = 6;
 
-            var network_time_label = new Gtk.Label ("<b>%s</b>".printf (_("Network Time:")));
+            var network_time_label = new Gtk.Label (_("Network Time:"));
             network_time_label.use_markup = true;
             network_time_label.xalign = 1;
             var network_time_switch = new Gtk.Switch ();
 
             var switch_grid = new Gtk.Grid ();
+            switch_grid.valign = Gtk.Align.CENTER;
             switch_grid.add (network_time_switch);
 
-            var time_label = new Gtk.Label (_("Time:"));
-            time_label.xalign = 1;
             var time_picker = new Granite.Widgets.TimePicker ();
-
-            var date_label = new Gtk.Label (_("Date:"));
-            date_label.xalign = 1;
             var date_picker = new Granite.Widgets.DatePicker ();
 
             var time_format_label = new Gtk.Label (_("Time Format:"));
@@ -46,6 +62,8 @@ public class DateTime.Plug : Switchboard.Plug {
             var time_format_combobox = new Gtk.ComboBoxText ();
             time_format_combobox.append ("24h", _("24h"));
             time_format_combobox.append ("ampm", _("AM/PM"));
+            var time_format_grid = new Gtk.Grid ();
+            time_format_grid.add (time_format_combobox);
             if (Posix.nl_langinfo (Posix.NLItem.AM_STR) == "") {
                 time_format_label.no_show_all = true;
                 time_format_combobox.no_show_all = true;
@@ -66,25 +84,26 @@ public class DateTime.Plug : Switchboard.Plug {
 
             time_map = new TimeMap ();
             time_map.expand = true;
+            time_map.map_selected.connect ((tz) => {
+                change_tz (tz);
+            });
 
-            main_grid.attach (network_time_label, 1, 0, 1, 1);
-            main_grid.attach (switch_grid, 2, 0, 1, 1);
-            main_grid.attach (time_label, 1, 1, 1, 1);
-            main_grid.attach (time_picker, 2, 1, 1, 1);
-            main_grid.attach (date_label, 1, 2, 1, 1);
-            main_grid.attach (date_picker, 2, 2, 1, 1);
+            main_grid.attach (time_map, 0, 1, 6, 1);
+            main_grid.attach (time_zone_label, 1, 0, 1, 1);
+            main_grid.attach (time_zone_button, 2, 0, 2, 1);
+            main_grid.attach (network_time_label, 1, 2, 1, 1);
+            main_grid.attach (switch_grid, 2, 2, 1, 1);
+            main_grid.attach (time_picker, 3, 2, 1, 1);
+            main_grid.attach (date_picker, 4, 2, 1, 1);
             main_grid.attach (time_format_label, 1, 3, 1, 1);
-            main_grid.attach (time_format_combobox, 2, 3, 1, 1);
-            main_grid.attach (time_zone_label, 1, 4, 1, 1);
-            main_grid.attach (time_zone_button, 2, 4, 1, 1);
-            main_grid.attach (time_map, 0, 5, 4, 1);
+            main_grid.attach (time_format_grid, 2, 3, 3, 1);
 
             var fake_grid_1 = new Gtk.Grid ();
             fake_grid_1.hexpand = true;
             var fake_grid_2 = new Gtk.Grid ();
             fake_grid_2.hexpand = true;
             main_grid.attach (fake_grid_1, 0, 0, 1, 1);
-            main_grid.attach (fake_grid_2, 3, 0, 1, 1);
+            main_grid.attach (fake_grid_2, 5, 0, 1, 1);
             main_grid.show_all ();
 
             bool syncing_datetime = false;
@@ -97,7 +116,11 @@ public class DateTime.Plug : Switchboard.Plug {
                 var hours = time_picker.time.get_hour () - now_local.get_hour ();
                 var now_utc = new GLib.DateTime.now_utc ();
                 var usec_utc = now_utc.add_hours (hours).add_minutes (minutes).to_unix ();
-                datetime1.set_time (usec_utc * 1000000, false, true);
+                try {
+                    datetime1.set_time (usec_utc * 1000000, false, true);
+                } catch (Error e) {
+                    critical (e.message);
+                }
                 ct_manager.datetime_has_changed ();
             });
 
@@ -113,7 +136,11 @@ public class DateTime.Plug : Switchboard.Plug {
                 var days = date_picker.date.get_day_of_year () - now_local.get_day_of_year ();
                 var now_utc = new GLib.DateTime.now_utc ();
                 var usec_utc = now_utc.add_years (years).add_days (days).to_unix ();
-                datetime1.set_time (usec_utc * 1000000, false, true);
+                try {
+                    datetime1.set_time (usec_utc * 1000000, false, true);
+                } catch (Error e) {
+                    critical (e.message);
+                }
                 ct_manager.datetime_has_changed ();
             });
 
@@ -186,9 +213,11 @@ public class DateTime.Plug : Switchboard.Plug {
                 bool active = network_time_switch.active;
                 time_picker.sensitive = !active;
                 date_picker.sensitive = !active;
-                time_label.sensitive = !active;
-                date_label.sensitive = !active;
-                datetime1.SetNTP (active, true);
+                try {
+                    datetime1.SetNTP (active, true);
+                } catch (Error e) {
+                    critical (e.message);
+                }
                 ct_manager.datetime_has_changed ();
             });
 
@@ -214,7 +243,11 @@ public class DateTime.Plug : Switchboard.Plug {
         tz_continent_label.label = _(values[0]);
         tz_city_label.label = Parser.format_city (values[1]);
         if (datetime1.Timezone != tz) {
-            datetime1.set_timezone (tz, true);
+            try {
+                datetime1.set_timezone (tz, true);
+            } catch (Error e) {
+                critical (e.message);
+            }
             ct_manager.timezone_has_changed ();
         }
 

@@ -1,3 +1,22 @@
+// -*- Mode: vala; indent-tabs-mode: nil; tab-width: 4 -*-
+/*-
+ * Copyright (c) 2014 Pantheon Developers (http://launchpad.net/switchboard-plug-datetime)
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ * Authored by: Corentin Noël <corentin@elementaryos.org>
+ */
 
 public class DateTime.TZPopover : Gtk.Popover {
     public signal void request_timezone_change (string tz);
@@ -14,13 +33,13 @@ public class DateTime.TZPopover : Gtk.Popover {
     Gtk.ListStore continent_list_store;
     Gtk.TreeView city_view;
     Gtk.ListStore city_list_store;
-    DateTime.Parser parser;
     string old_selection;
     string current_tz;
     bool setting_cities = false;
     public TZPopover () {
         var main_grid = new Gtk.Grid ();
         main_grid.margin = 6;
+        main_grid.margin_start = 0;
         add (main_grid);
         continent_list_store = new Gtk.ListStore (2, typeof (string), typeof (string));
         continent_list_store.set_default_sort_func ((model, a, b) => {
@@ -51,9 +70,12 @@ public class DateTime.TZPopover : Gtk.Popover {
         continent_list_store.set (iter, 0, _("Pacific"), 1, PACIFIC);
 
         continent_view = new Gtk.TreeView.with_model (continent_list_store);
+        continent_view.get_style_context ().add_class ("sidebar");
         continent_view.headers_visible = false;
         continent_view.get_selection ().mode = Gtk.SelectionMode.BROWSE;
-        continent_view.insert_column_with_attributes (-1, null, new Gtk.CellRendererText (), "text", 0);
+        var cellrenderer = new Gtk.CellRendererText ();
+        cellrenderer.xpad = 12;
+        continent_view.insert_column_with_attributes (-1, null, cellrenderer, "text", 0);
         continent_view.get_selection ().changed.connect (() => {
             Gtk.TreeIter activated_iter;
             if (continent_view.get_selection ().get_selected (null, out activated_iter)) {
@@ -66,11 +88,6 @@ public class DateTime.TZPopover : Gtk.Popover {
             }
         });
 
-        var continent_scrolled = new Gtk.ScrolledWindow (null, null);
-        continent_scrolled.add (continent_view);
-        continent_scrolled.hscrollbar_policy = Gtk.PolicyType.NEVER;
-
-        parser = new DateTime.Parser ();
         city_list_store = new Gtk.ListStore (2, typeof (string), typeof (string));
         city_list_store.set_default_sort_func ((model, a, b) => {
             Value value_a;
@@ -101,7 +118,8 @@ public class DateTime.TZPopover : Gtk.Popover {
         city_scrolled.add (city_view);
         city_scrolled.set_size_request (250, 200);
 
-        main_grid.add (continent_scrolled);
+        main_grid.add (continent_view);
+        main_grid.add (new Gtk.Separator (Gtk.Orientation.VERTICAL));
         main_grid.add (city_scrolled);
     }
 
@@ -123,78 +141,16 @@ public class DateTime.TZPopover : Gtk.Popover {
     private void change_city_from_continent (string continent) {
         setting_cities = true;
         city_list_store.clear ();
-        parser.get_timezones_from_continent (continent).foreach ((key, value) => {
+        Parser.get_default ().get_timezones_from_continent (continent).foreach ((key, value) => {
             Gtk.TreeIter iter;
             city_list_store.append (out iter);
             city_list_store.set (iter, 0, Parser.format_city (key), 1, value);
             if (current_tz == value) {
                 city_view.get_selection ().select_iter (iter);
+                city_view.scroll_to_cell (city_list_store.get_path (iter), null, false, 0, 0);
             }
         });
         setting_cities = false;
     }
 }
 
-public class DateTime.Parser : GLib.Object {
-    List<string> lines;
-    public Parser () {
-        var file = File.new_for_path ("/usr/share/zoneinfo/zone.tab");
-        if (!file.query_exists ()) {
-            critical ("/usr/share/zoneinfo/zone.tab doesn't exist !");
-            return;
-        }
-
-        lines = new List<string> ();
-        try {
-            var dis = new DataInputStream (file.read ());
-            string line;
-            while ((line = dis.read_line (null)) != null) {
-                if (line.has_prefix ("#")) {
-                    continue;
-                }
-
-                lines.append (line);
-            }
-        } catch (Error e) {
-            critical (e.message);
-        }
-#if GENERATE
-        generate_translation_template ();
-#endif
-    }
-
-    public HashTable<string, string> get_timezones_from_continent (string continent) {
-        var timezones = new HashTable<string, string> (str_hash, str_equal);
-        foreach (var line in lines) {
-            var items = line.split ("\t", 4);
-            string value = items[2];
-            if (value.has_prefix (continent) == false)
-                continue;
-
-            string key = items[2].split ("/", 2)[1];
-
-            timezones.set (key, value);
-        }
-
-        return timezones;
-    }
-
-    public static string format_city (string city) {
-        return _(city).replace("_", " ").replace ("/", ", ");
-    }
-
-#if GENERATE
-    public void generate_translation_template () {
-        var file = GLib.File.new_for_path (GLib.Environment.get_home_dir () + "/Translations.vala");
-        var dos = new GLib.DataOutputStream (file.create (GLib.FileCreateFlags.REPLACE_DESTINATION));
-        dos.put_string ("#if 0\n");
-        foreach (var line in lines) {
-            var items = line.split ("\t", 4);
-            string key = items[2].split ("/", 2)[1];
-            dos.put_string ("\\\\\\Translators: All \"\\\" and \"_\" will be replaced by \", \" and \" \".\n");
-            dos.put_string ("_(\""+key + "\");\n");
-        }
-        dos.put_string ("#endif\n");
-    }
-#endif
-}

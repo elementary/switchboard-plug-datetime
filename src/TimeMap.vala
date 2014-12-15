@@ -1,77 +1,56 @@
-public class DateTime.TimeMap : Gtk.Grid {
+// -*- Mode: vala; indent-tabs-mode: nil; tab-width: 4 -*-
+/*-
+ * Copyright (c) 2014 Pantheon Developers (http://launchpad.net/switchboard-plug-datetime)
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ * Authored by: Corentin Noël <corentin@elementaryos.org>
+ */
+
+
+public class DateTime.TimeMap : Gtk.EventBox {
     public const int BG_WIDTH = 800;
     public const int BG_HEIGHT = 409;
-    public const string TZ0 = "%s/images/timezone_0.png";
-    public const string TZ1 = "%s/images/timezone_1.png";
-    public const string TZ2 = "%s/images/timezone_2.png";
-    public const string TZ3 = "%s/images/timezone_3.png";
-    public const string TZ35 = "%s/images/timezone_3.5.png";
-    public const string TZ4 = "%s/images/timezone_4.png";
-    public const string TZ45 = "%s/images/timezone_4.5.png";
-    public const string TZ5 = "%s/images/timezone_5.png";
-    public const string TZ55 = "%s/images/timezone_5.5.png";
-    public const string TZ575 = "%s/images/timezone_5.75.png";
-    public const string TZ6 = "%s/images/timezone_6.png";
-    public const string TZ65 = "%s/images/timezone_6.5.png";
-    public const string TZ7 = "%s/images/timezone_7.png";
-    public const string TZ8 = "%s/images/timezone_8.png";
-    public const string TZ875 = "%s/images/timezone_8.75.png";
-    public const string TZ9 = "%s/images/timezone_9.png";
-    public const string TZ95 = "%s/images/timezone_9.5.png";
-    public const string TZ10 = "%s/images/timezone_10.png";
-    public const string TZ105 = "%s/images/timezone_10.5.png";
-    public const string TZ11 = "%s/images/timezone_11.png";
-    public const string TZ115 = "%s/images/timezone_11.5.png";
-    public const string TZ12 = "%s/images/timezone_12.png";
-    public const string TZ125 = "%s/images/timezone_12.75.png";
-    public const string TZ13 = "%s/images/timezone_13.png";
-    public const string TZ14 = "%s/images/timezone_14.png";
-    public const string TZm1 = "%s/images/timezone_-1.png";
-    public const string TZm2 = "%s/images/timezone_-2.png";
-    public const string TZm3 = "%s/images/timezone_-3.png";
-    public const string TZm35 = "%s/images/timezone_-3.5.png";
-    public const string TZm4 = "%s/images/timezone_-4.png";
-    public const string TZm45 = "%s/images/timezone_-4.5.png";
-    public const string TZm5 = "%s/images/timezone_-5.png";
-    public const string TZm55 = "%s/images/timezone_-5.5.png";
-    public const string TZm6 = "%s/images/timezone_-6.png";
-    public const string TZm7 = "%s/images/timezone_-7.png";
-    public const string TZm8 = "%s/images/timezone_-8.png";
-    public const string TZm9 = "%s/images/timezone_-9.png";
-    public const string TZm95 = "%s/images/timezone_-9.5.png";
-    public const string TZm10 = "%s/images/timezone_-10.png";
-    public const string TZm11 = "%s/images/timezone_-11.png";
+    public const string TZ = "%s/images/timezone_%s.png";
+
+    public signal void map_selected (string timezone);
 
     Gdk.Pixbuf background_map;
     Gdk.Pixbuf background_map_scale;
     Gdk.Pixbuf selected;
     Gdk.Pixbuf selected_scale;
     public TimeMap () {
-        background_map = new Gdk.Pixbuf.from_file ("%s/images/bg.png".printf (Constants.PKGDATADIR));
+        try {
+            background_map = new Gdk.Pixbuf.from_file ("%s/images/bg.png".printf (Constants.PKGDATADIR));
+        } catch (Error e) {
+            critical (e.message);
+        }
         background_map_scale = background_map;
         get_style_context ().add_class (Gtk.STYLE_CLASS_FRAME);
+        events |= Gdk.EventMask.BUTTON_PRESS_MASK;
+        button_press_event.connect (map_clicked);
     }
 
     /* Widget is asked to draw itself */
     public override bool draw (Cairo.Context cr) {
-        //base.draw (cr);
-        int width = get_allocated_width ();
-        int height = get_allocated_height ();
-        int draw_width = BG_WIDTH;
-        int draw_height = BG_HEIGHT;
-        double ratio = 1;
-        int x = (width - BG_WIDTH)/2;
-        int y = (height - BG_HEIGHT)/2;
+        int x, y, draw_width, draw_height;
+        get_current_background_properties (out x, out y, out draw_width, out draw_height);
 
-        if ((width < BG_WIDTH) || (height < BG_HEIGHT)) {
-            ratio = double.min ((double)width/(double)BG_WIDTH, (double)height/(double)BG_HEIGHT);
-            draw_width = (int)(ratio*(double)BG_WIDTH);
-            draw_height = (int)(ratio*(double)BG_HEIGHT);
+        if ((draw_width < BG_WIDTH) || (draw_height < BG_HEIGHT)) {
             background_map_scale = background_map.scale_simple (draw_width, draw_height, Gdk.InterpType.BILINEAR);
             selected_scale = selected.scale_simple (draw_width, draw_height, Gdk.InterpType.BILINEAR);
-            x = (width - draw_width)/2;
-            y = (height - draw_height)/2;
-        } else if (width >= BG_WIDTH && height >= BG_HEIGHT) {
+        } else {
             background_map_scale = background_map;
             selected_scale = selected;
         }
@@ -104,132 +83,123 @@ public class DateTime.TimeMap : Gtk.Grid {
 
     public void switch_to_tz (float offset) {
         try {
-            switch ((int)offset) {
-                case 1:
-                    selected = new Gdk.Pixbuf.from_file (TZ1.printf (Constants.PKGDATADIR));
-                    break;
-                case 2:
-                    selected = new Gdk.Pixbuf.from_file (TZ2.printf (Constants.PKGDATADIR));
-                    break;
-                case 3:
-                    if (offset == 3)
-                        selected = new Gdk.Pixbuf.from_file (TZ3.printf (Constants.PKGDATADIR));
-                    else
-                        selected = new Gdk.Pixbuf.from_file (TZ35.printf (Constants.PKGDATADIR));
-                    break;
-                case 4:
-                    if (offset == 4)
-                        selected = new Gdk.Pixbuf.from_file (TZ4.printf (Constants.PKGDATADIR));
-                    else
-                        selected = new Gdk.Pixbuf.from_file (TZ45.printf (Constants.PKGDATADIR));
-                    break;
-                case 5:
-                    if (offset == 5)
-                        selected = new Gdk.Pixbuf.from_file (TZ5.printf (Constants.PKGDATADIR));
-                    else if (offset == 5.5)
-                        selected = new Gdk.Pixbuf.from_file (TZ55.printf (Constants.PKGDATADIR));
-                    else
-                        selected = new Gdk.Pixbuf.from_file (TZ575.printf (Constants.PKGDATADIR));
-                    break;
-                case 6:
-                    if (offset == 6)
-                        selected = new Gdk.Pixbuf.from_file (TZ6.printf (Constants.PKGDATADIR));
-                    else
-                        selected = new Gdk.Pixbuf.from_file (TZ65.printf (Constants.PKGDATADIR));
-                    break;
-                case 7:
-                    selected = new Gdk.Pixbuf.from_file (TZ7.printf (Constants.PKGDATADIR));
-                    break;
-                case 8:
-                    if (offset == 8)
-                        selected = new Gdk.Pixbuf.from_file (TZ8.printf (Constants.PKGDATADIR));
-                    else
-                        selected = new Gdk.Pixbuf.from_file (TZ875.printf (Constants.PKGDATADIR));
-                    break;
-                case 9:
-                    if (offset == 9)
-                        selected = new Gdk.Pixbuf.from_file (TZ9.printf (Constants.PKGDATADIR));
-                    else
-                        selected = new Gdk.Pixbuf.from_file (TZ95.printf (Constants.PKGDATADIR));
-                    break;
-                case 10:
-                    if (offset == 10)
-                        selected = new Gdk.Pixbuf.from_file (TZ10.printf (Constants.PKGDATADIR));
-                    else
-                        selected = new Gdk.Pixbuf.from_file (TZ105.printf (Constants.PKGDATADIR));
-                    break;
-                case 11:
-                    if (offset == 11)
-                        selected = new Gdk.Pixbuf.from_file (TZ11.printf (Constants.PKGDATADIR));
-                    else
-                        selected = new Gdk.Pixbuf.from_file (TZ115.printf (Constants.PKGDATADIR));
-                    break;
-                case 12:
-                    if (offset == 12)
-                        selected = new Gdk.Pixbuf.from_file (TZ12.printf (Constants.PKGDATADIR));
-                    else
-                        selected = new Gdk.Pixbuf.from_file (TZ125.printf (Constants.PKGDATADIR));
-                    break;
-                case 13:
-                    selected = new Gdk.Pixbuf.from_file (TZ13.printf (Constants.PKGDATADIR));
-                    break;
-                case 14:
-                    selected = new Gdk.Pixbuf.from_file (TZ14.printf (Constants.PKGDATADIR));
-                    break;
-                case -1:
-                    selected = new Gdk.Pixbuf.from_file (TZm1.printf (Constants.PKGDATADIR));
-                    break;
-                case -2:
-                    selected = new Gdk.Pixbuf.from_file (TZm2.printf (Constants.PKGDATADIR));
-                    break;
-                case -3:
-                    if (offset == -3)
-                        selected = new Gdk.Pixbuf.from_file (TZm3.printf (Constants.PKGDATADIR));
-                    else
-                        selected = new Gdk.Pixbuf.from_file (TZm35.printf (Constants.PKGDATADIR));
-                    break;
-                case -4:
-                    if (offset == -4)
-                        selected = new Gdk.Pixbuf.from_file (TZm4.printf (Constants.PKGDATADIR));
-                    else
-                        selected = new Gdk.Pixbuf.from_file (TZm45.printf (Constants.PKGDATADIR));
-                    break;
-                case -5:
-                    if (offset == -5)
-                        selected = new Gdk.Pixbuf.from_file (TZm5.printf (Constants.PKGDATADIR));
-                    else
-                        selected = new Gdk.Pixbuf.from_file (TZm55.printf (Constants.PKGDATADIR));
-                    break;
-                case -6:
-                    selected = new Gdk.Pixbuf.from_file (TZm6.printf (Constants.PKGDATADIR));
-                    break;
-                case -7:
-                    selected = new Gdk.Pixbuf.from_file (TZm7.printf (Constants.PKGDATADIR));
-                    break;
-                case -8:
-                    selected = new Gdk.Pixbuf.from_file (TZm8.printf (Constants.PKGDATADIR));
-                    break;
-                case -9:
-                    if (offset == -9)
-                        selected = new Gdk.Pixbuf.from_file (TZm9.printf (Constants.PKGDATADIR));
-                    else
-                        selected = new Gdk.Pixbuf.from_file (TZm95.printf (Constants.PKGDATADIR));
-                    break;
-                case -10:
-                    selected = new Gdk.Pixbuf.from_file (TZm10.printf (Constants.PKGDATADIR));
-                    break;
-                case -11:
-                    selected = new Gdk.Pixbuf.from_file (TZm11.printf (Constants.PKGDATADIR));
-                    break;
-                default:
-                    selected = new Gdk.Pixbuf.from_file (TZ0.printf (Constants.PKGDATADIR));
-                    break;
-            }
+            //This doesn't work if the locale representation of 3.5 is 3,5 for example.
+            string buffer = "%g".printf (offset);
+            buffer = buffer.replace (Posix.nl_langinfo (Posix.NLItem.RADIXCHAR), ".");
+            selected = new Gdk.Pixbuf.from_file (TZ.printf (Constants.PKGDATADIR, buffer));
         } catch (Error e) {
             critical (e.message);
         }
 
         selected_scale = selected;
         queue_draw ();
+    }
+
+    private bool map_clicked (Gdk.EventButton event) {
+        if (event.type == Gdk.EventType.BUTTON_PRESS && event.button == Gdk.BUTTON_PRIMARY) {
+            int x, y, width, height;
+            get_current_background_properties (out x, out y, out width, out height);
+            if (event.x < x || event.x > x+width || event.y > y+height || event.y < y)
+                return false;
+
+            var locations = Parser.get_default ().get_locations ();
+            string location = "";
+            double distance = BG_WIDTH*BG_WIDTH + BG_HEIGHT*BG_HEIGHT;
+            locations.foreach ((key, val) => {
+                double latitude, longitude;
+                convert_string_to_longitude_latitude (key, out latitude, out longitude);
+                var pointx = convert_longtitude_to_x (longitude, width);
+                var pointy = convert_latitude_to_y (latitude, height);
+                
+                var dx = pointx - event.x + x;
+                var dy = pointy - event.y + y;
+                var dist = dx * dx + dy * dy;
+                if (dist < distance) {
+                    distance = dist;
+                    location = val;
+                }
+            });
+
+            if (location != "")
+                map_selected (location);
+
+            return true;
+        }
+
+        return false;
+    }
+
+    private void get_current_background_properties (out int x, out int y, out int draw_width, out int draw_height) {
+        int total_width = get_allocated_width ();
+        int total_height = get_allocated_height ();
+        draw_width = BG_WIDTH;
+        draw_height = BG_HEIGHT;
+        double ratio = 1;
+        x = (total_width - BG_WIDTH)/2;
+        y = (total_height - BG_HEIGHT)/2;
+
+        if (total_width < BG_WIDTH || total_height < BG_HEIGHT) {
+            ratio = double.min ((double)total_width/(double)BG_WIDTH, (double)total_height/(double)BG_HEIGHT);
+            draw_width = (int)(ratio*(double)BG_WIDTH);
+            draw_height = (int)(ratio*(double)BG_HEIGHT);
+            x = (total_width - draw_width)/2;
+            y = (total_height - draw_height)/2;
+        }
+    }
+
+    private void convert_string_to_longitude_latitude (string in_string, out double latitude, out double longitude) {
+        bool first = true;
+        string precedent_string = "";
+        string latitude_str = "";
+        string longitude_str = "";
+        foreach (char c in in_string.to_utf8 ()) {
+            if (c == '+' || c == '-') {
+                if (precedent_string != "") {
+                    if (first == true) {
+                        latitude_str = precedent_string;
+                    } else {
+                        longitude_str = precedent_string;
+                    }
+
+                    precedent_string = "";
+                }
+            }
+
+            precedent_string = "%s%c".printf (precedent_string, c);
+        }
+
+        if (precedent_string != "") {
+            longitude_str = precedent_string;
+        }
+
+        // latitudes are xx.xxxx, longitudes are xxx.xxxx, but the file does store them as integer…
+        latitude = double.parse (latitude_str) / GLib.Math.pow (10, latitude_str.length - 3);
+        longitude = double.parse (longitude_str) / GLib.Math.pow (10, longitude_str.length - 4);
+    }
+
+    private double convert_longtitude_to_x (double longitude, int map_width) {
+        double xdeg_offset = -6;
+        double x = (map_width * (180.0 + longitude) / 360.0) + (map_width * xdeg_offset / 180.0);
+        return x;
+    }
+
+    private double radians (double degrees) {
+        return (degrees / 180.0) * GLib.Math.PI;
+    }
+
+    private double convert_latitude_to_y (double latitude, double map_height) {
+        double bottom_lat = -59;
+        double top_lat = 81;
+        double top_per, y, full_range, top_offset, map_range;
+
+        top_per = top_lat / 180.0;
+        y = 1.25 * GLib.Math.log (GLib.Math.tan (GLib.Math.PI_4 + 0.4 * radians (latitude)));
+        full_range = 4.6068250867599998;
+        top_offset = full_range * top_per;
+        map_range = GLib.Math.fabs (1.25 * GLib.Math.log (GLib.Math.tan (GLib.Math.PI_4 + 0.4 * radians (bottom_lat))) - top_offset);
+        y = GLib.Math.fabs (y - top_offset);
+        y = y / map_range;
+        y = y * map_height;
+        return y;
     }
 }
