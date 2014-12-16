@@ -100,7 +100,10 @@ public class DateTime.TZPopover : Gtk.Popover {
         city_list_store.set_sort_column_id (Gtk.TREE_SORTABLE_DEFAULT_SORT_COLUMN_ID, Gtk.SortType.ASCENDING);
         city_view = new Gtk.TreeView.with_model (city_list_store);
         city_view.headers_visible = false;
-        city_view.insert_column_with_attributes (-1, null, new Gtk.CellRendererText (), "text", 0);
+        var city_cellrenderer = new Gtk.CellRendererText ();
+        city_cellrenderer.ellipsize_set = true;
+        city_cellrenderer.ellipsize = Pango.EllipsizeMode.END;
+        city_view.insert_column_with_attributes (-1, null, city_cellrenderer, "text", 0);
         city_view.get_selection ().changed.connect (() => {
             if (setting_cities == true)
                 return;
@@ -116,7 +119,8 @@ public class DateTime.TZPopover : Gtk.Popover {
 
         var city_scrolled = new Gtk.ScrolledWindow (null, null);
         city_scrolled.add (city_view);
-        city_scrolled.set_size_request (250, 200);
+        city_scrolled.set_size_request (300, 200);
+        city_scrolled.expand = true;
 
         main_grid.add (continent_view);
         main_grid.add (new Gtk.Separator (Gtk.Orientation.VERTICAL));
@@ -144,7 +148,7 @@ public class DateTime.TZPopover : Gtk.Popover {
         Parser.get_default ().get_timezones_from_continent (continent).foreach ((key, value) => {
             Gtk.TreeIter iter;
             city_list_store.append (out iter);
-            city_list_store.set (iter, 0, Parser.format_city (key), 1, value);
+            city_list_store.set (iter, 0, key, 1, value);
             if (current_tz == value) {
                 city_view.get_selection ().select_iter (iter);
                 city_view.scroll_to_cell (city_list_store.get_path (iter), null, false, 0, 0);

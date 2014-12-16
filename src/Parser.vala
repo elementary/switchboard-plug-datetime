@@ -61,7 +61,11 @@ public class DateTime.Parser : GLib.Object {
             if (value.has_prefix (continent) == false)
                 continue;
 
-            string key = items[2].split ("/", 2)[1];
+            string city = _(items[2]).split ("/", 2)[1];
+            string key = format_city (city);
+            if (items[3] != null && items[3] != "")
+                if (items[3] != "mainland" && items[3] != "most locations" && _(items[3]) != key)
+                    key = "%s - %s".printf (key, format_city (_(items[3])));
 
             timezones.set (key, value);
         }
@@ -82,7 +86,7 @@ public class DateTime.Parser : GLib.Object {
     }
 
     public static string format_city (string city) {
-        return _(city).replace("_", " ").replace ("/", ", ");
+        return city.replace("_", " ").replace ("/", ", ");
     }
 
 #if GENERATE
@@ -93,9 +97,14 @@ public class DateTime.Parser : GLib.Object {
             dos.put_string ("#if 0\n");
             foreach (var line in lines) {
                 var items = line.split ("\t", 4);
-                string key = items[2].split ("/", 2)[1];
-                dos.put_string ("\\\\\\Translators: All \"\\\" and \"_\" will be replaced by \", \" and \" \".\n");
-                dos.put_string ("_(\""+key + "\");\n");
+                string key = items[2];
+                string comment = items[3];
+                dos.put_string ("///Translators: Secondary \"/\" and all \"_\" will be replaced by \", \" and \" \".\n");
+                dos.put_string ("_(\""+ key + "\");\n");
+                if (comment != null && comment != "") {
+                    dos.put_string ("///Translators: Comment for Timezone %s\n".printf (key));
+                    dos.put_string ("_(\""+ comment + "\");\n");
+                }
             }
             dos.put_string ("#endif\n");
         } catch (Error e) {
