@@ -7,36 +7,36 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-12-13 22:07+0100\n"
-"PO-Revision-Date: 2014-12-14 13:19+0000\n"
-"Last-Translator: Corentin Noël <corentin@elementaryos.org>\n"
+"POT-Creation-Date: 2014-12-15 22:41+0100\n"
+"PO-Revision-Date: 2014-12-15 18:50+0000\n"
+"Last-Translator: UweS <Unknown>\n"
 "Language-Team: German <de@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2014-12-15 06:39+0000\n"
+"X-Launchpad-Export-Date: 2014-12-16 07:40+0000\n"
 "X-Generator: Launchpad (build 17286)\n"
 "Language: de\n"
 
 #: ../src//Translations.vala:3
 msgid "Andorra"
-msgstr ""
+msgstr "Andorra"
 
 #: ../src//Translations.vala:5
 msgid "Dubai"
-msgstr ""
+msgstr "Dubai"
 
 #: ../src//Translations.vala:7
 msgid "Kabul"
-msgstr ""
+msgstr "Kabul"
 
 #: ../src//Translations.vala:9
 msgid "Antigua"
-msgstr ""
+msgstr "Antigua"
 
 #: ../src//Translations.vala:11
 msgid "Anguilla"
-msgstr ""
+msgstr "Anguilla"
 
 #: ../src//Translations.vala:13
 msgid "Tirane"
@@ -48,7 +48,7 @@ msgstr ""
 
 #: ../src//Translations.vala:17
 msgid "Luanda"
-msgstr ""
+msgstr "Luanda"
 
 #: ../src//Translations.vala:19
 msgid "McMurdo"
@@ -92,19 +92,19 @@ msgstr ""
 
 #: ../src//Translations.vala:39
 msgid "Argentina/Buenos_Aires"
-msgstr ""
+msgstr "Argentinien/Buenos_Aires"
 
 #: ../src//Translations.vala:41
 msgid "Argentina/Cordoba"
-msgstr ""
+msgstr "Argentinien/Cordoba"
 
 #: ../src//Translations.vala:43
 msgid "Argentina/Salta"
-msgstr ""
+msgstr "Argentinien/Salta"
 
 #: ../src//Translations.vala:45
 msgid "Argentina/Jujuy"
-msgstr ""
+msgstr "Argentinien/Jujuy"
 
 #: ../src//Translations.vala:47
 msgid "Argentina/Tucuman"
@@ -144,7 +144,7 @@ msgstr ""
 
 #: ../src//Translations.vala:65
 msgid "Vienna"
-msgstr ""
+msgstr "Wien"
 
 #: ../src//Translations.vala:67
 msgid "Lord_Howe"
@@ -156,7 +156,7 @@ msgstr ""
 
 #: ../src//Translations.vala:71
 msgid "Hobart"
-msgstr ""
+msgstr "Hobart"
 
 #: ../src//Translations.vala:73
 msgid "Currie"
@@ -164,11 +164,11 @@ msgstr ""
 
 #: ../src//Translations.vala:75
 msgid "Melbourne"
-msgstr ""
+msgstr "Melbourne"
 
 #: ../src//Translations.vala:77
 msgid "Sydney"
-msgstr ""
+msgstr "Sydney"
 
 #: ../src//Translations.vala:79
 msgid "Broken_Hill"
@@ -176,7 +176,7 @@ msgstr ""
 
 #: ../src//Translations.vala:81
 msgid "Brisbane"
-msgstr ""
+msgstr "Brisbane"
 
 #: ../src//Translations.vala:83
 msgid "Lindeman"
@@ -184,15 +184,15 @@ msgstr ""
 
 #: ../src//Translations.vala:85
 msgid "Adelaide"
-msgstr ""
+msgstr "Adelaide"
 
 #: ../src//Translations.vala:87
 msgid "Darwin"
-msgstr ""
+msgstr "Darwin"
 
 #: ../src//Translations.vala:89
 msgid "Perth"
-msgstr ""
+msgstr "Perth"
 
 #: ../src//Translations.vala:91
 msgid "Eucla"
@@ -208,15 +208,15 @@ msgstr ""
 
 #: ../src//Translations.vala:97
 msgid "Baku"
-msgstr ""
+msgstr "Baku"
 
 #: ../src//Translations.vala:99
 msgid "Sarajevo"
-msgstr ""
+msgstr "Sarajevo"
 
 #: ../src//Translations.vala:101
 msgid "Barbados"
-msgstr ""
+msgstr "Barbados"
 
 #: ../src//Translations.vala:103
 msgid "Dhaka"
@@ -224,7 +224,7 @@ msgstr ""
 
 #: ../src//Translations.vala:105
 msgid "Brussels"
-msgstr ""
+msgstr "Brüssel"
 
 #: ../src//Translations.vala:107
 msgid "Ouagadougou"
@@ -232,11 +232,11 @@ msgstr ""
 
 #: ../src//Translations.vala:109
 msgid "Sofia"
-msgstr ""
+msgstr "Sofia"
 
 #: ../src//Translations.vala:111
 msgid "Bahrain"
-msgstr ""
+msgstr "Bahrain"
 
 #: ../src//Translations.vala:113
 msgid "Bujumbura"
@@ -252,15 +252,15 @@ msgstr ""
 
 #: ../src//Translations.vala:119
 msgid "Bermuda"
-msgstr ""
+msgstr "Bermuda"
 
 #: ../src//Translations.vala:121
 msgid "Brunei"
-msgstr ""
+msgstr "Brunei"
 
 #: ../src//Translations.vala:123
 msgid "La_Paz"
-msgstr ""
+msgstr "La_Paz"
 
 #: ../src//Translations.vala:125
 msgid "Kralendijk"
@@ -276,11 +276,11 @@ msgstr ""
 
 #: ../src//Translations.vala:131
 msgid "Fortaleza"
-msgstr ""
+msgstr "Fortaleza"
 
 #: ../src//Translations.vala:133
 msgid "Recife"
-msgstr ""
+msgstr "Recife"
 
 #: ../src//Translations.vala:135
 msgid "Araguaina"
@@ -292,11 +292,11 @@ msgstr ""
 
 #: ../src//Translations.vala:139
 msgid "Bahia"
-msgstr ""
+msgstr "Bahia"
 
 #: ../src//Translations.vala:141
 msgid "Sao_Paulo"
-msgstr ""
+msgstr "Sao_Paulo"
 
 #: ../src//Translations.vala:143
 msgid "Campo_Grande"
@@ -320,7 +320,7 @@ msgstr ""
 
 #: ../src//Translations.vala:153
 msgid "Manaus"
-msgstr ""
+msgstr "Manaus"
 
 #: ../src//Translations.vala:155
 msgid "Eirunepe"
@@ -328,11 +328,11 @@ msgstr ""
 
 #: ../src//Translations.vala:157
 msgid "Rio_Branco"
-msgstr ""
+msgstr "Rio_Branco"
 
 #: ../src//Translations.vala:159
 msgid "Nassau"
-msgstr ""
+msgstr "Nassau"
 
 #: ../src//Translations.vala:161
 msgid "Thimphu"
@@ -344,11 +344,11 @@ msgstr ""
 
 #: ../src//Translations.vala:165
 msgid "Minsk"
-msgstr ""
+msgstr "Minsk"
 
 #: ../src//Translations.vala:167
 msgid "Belize"
-msgstr ""
+msgstr "Belize"
 
 #: ../src//Translations.vala:169
 msgid "St_Johns"
@@ -356,7 +356,7 @@ msgstr ""
 
 #: ../src//Translations.vala:171
 msgid "Halifax"
-msgstr ""
+msgstr "Halifax"
 
 #: ../src//Translations.vala:173
 msgid "Glace_Bay"
@@ -376,7 +376,7 @@ msgstr ""
 
 #: ../src//Translations.vala:181
 msgid "Toronto"
-msgstr ""
+msgstr "Toronto"
 
 #: ../src//Translations.vala:183
 msgid "Nipigon"
@@ -1664,7 +1664,7 @@ msgstr ""
 
 #: ../src//Translations.vala:825
 msgid "Aden"
-msgstr ""
+msgstr "Aden"
 
 #: ../src//Translations.vala:827
 msgid "Mayotte"
@@ -1672,96 +1672,92 @@ msgstr ""
 
 #: ../src//Translations.vala:829
 msgid "Johannesburg"
-msgstr ""
+msgstr "Johannesburg"
 
 #: ../src//Translations.vala:831
 msgid "Lusaka"
-msgstr ""
+msgstr "Lusaka"
 
 #: ../src//Translations.vala:833
 msgid "Harare"
-msgstr ""
+msgstr "Harare"
 
-#: ../src//Plug.vala:15
+#: ../src//Plug.vala:35
 msgid "Date & Time"
-msgstr ""
-
-#: ../src//Plug.vala:16
-msgid "Date and Time preferences panel"
-msgstr ""
-
-#: ../src//Plug.vala:28
-msgid "Network Time:"
-msgstr ""
+msgstr "Datum & Uhrzeit"
 
 #: ../src//Plug.vala:36
-msgid "Time:"
-msgstr ""
-
-#: ../src//Plug.vala:40
-msgid "Date:"
-msgstr ""
-
-#: ../src//Plug.vala:44
-msgid "Time Format:"
-msgstr ""
-
-#: ../src//Plug.vala:47
-msgid "24h"
-msgstr ""
+msgid "Date and Time preferences panel"
+msgstr "Einstellungen für Datum und Uhrzeit"
 
 #: ../src//Plug.vala:48
+msgid "Network Time:"
+msgstr "Netzwerkzeit:"
+
+#: ../src//Plug.vala:60
+msgid "Time Format:"
+msgstr "Zeitformat:"
+
+#: ../src//Plug.vala:63
+msgid "24h"
+msgstr "24-Stunden-System"
+
+#: ../src//Plug.vala:64
 msgid "AM/PM"
-msgstr ""
+msgstr "12-Stunden-System"
 
-#: ../src//Plug.vala:54
+#: ../src//Plug.vala:72
 msgid "Time Zone:"
-msgstr ""
+msgstr "Zeitzone:"
 
-#: ../src//Plug.vala:243
+#: ../src//Plug.vala:276
 msgid "Network Time"
-msgstr ""
+msgstr "Netzwerkzeit"
 
-#: ../src//Plug.vala:244
+#: ../src//Plug.vala:277
 msgid "Time"
-msgstr ""
+msgstr "Uhrzeit"
 
-#: ../src//Plug.vala:245
+#: ../src//Plug.vala:278
 msgid "Date"
-msgstr ""
+msgstr "Datum"
 
-#: ../src//Plug.vala:246
+#: ../src//Plug.vala:279
 msgid "Time Zone"
+msgstr "Zeitzone"
+
+#: ../src//Plug.vala:280
+msgid "Time Format"
 msgstr ""
 
-#: ../src//TZPopover.vala:37
+#: ../src//TZPopover.vala:56
 msgid "Africa"
-msgstr ""
+msgstr "Afrika"
 
-#: ../src//TZPopover.vala:39
+#: ../src//TZPopover.vala:58
 msgid "America"
-msgstr ""
+msgstr "Amerika"
 
-#: ../src//TZPopover.vala:41
+#: ../src//TZPopover.vala:60
 msgid "Antarctica"
-msgstr ""
+msgstr "Antarktis"
 
-#: ../src//TZPopover.vala:43
+#: ../src//TZPopover.vala:62
 msgid "Asia"
-msgstr ""
+msgstr "Asien"
 
-#: ../src//TZPopover.vala:45
+#: ../src//TZPopover.vala:64
 msgid "Atlantic"
-msgstr ""
+msgstr "Atlantik"
 
-#: ../src//TZPopover.vala:47
+#: ../src//TZPopover.vala:66
 msgid "Europe"
-msgstr ""
+msgstr "Europa"
 
-#: ../src//TZPopover.vala:49
+#: ../src//TZPopover.vala:68
 msgid "Indian"
-msgstr ""
+msgstr "Indischer_Ozean"
 
-#: ../src//TZPopover.vala:51
+#: ../src//TZPopover.vala:70
 msgid "Pacific"
-msgstr ""
+msgstr "Pazifik"

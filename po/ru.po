@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-12-13 22:07+0100\n"
+"POT-Creation-Date: 2014-12-15 22:41+0100\n"
 "PO-Revision-Date: 2014-12-14 14:20+0000\n"
 "Last-Translator: Andru <razandale@gmail.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2014-12-15 06:40+0000\n"
+"X-Launchpad-Export-Date: 2014-12-16 07:41+0000\n"
 "X-Generator: Launchpad (build 17286)\n"
 "Language: ru\n"
 
@@ -1682,86 +1682,82 @@ msgstr ""
 msgid "Harare"
 msgstr ""
 
-#: ../src//Plug.vala:15
+#: ../src//Plug.vala:35
 msgid "Date & Time"
 msgstr ""
 
-#: ../src//Plug.vala:16
+#: ../src//Plug.vala:36
 msgid "Date and Time preferences panel"
 msgstr ""
 
-#: ../src//Plug.vala:28
+#: ../src//Plug.vala:48
 msgid "Network Time:"
 msgstr ""
 
-#: ../src//Plug.vala:36
-msgid "Time:"
-msgstr ""
-
-#: ../src//Plug.vala:40
-msgid "Date:"
-msgstr ""
-
-#: ../src//Plug.vala:44
+#: ../src//Plug.vala:60
 msgid "Time Format:"
 msgstr ""
 
-#: ../src//Plug.vala:47
+#: ../src//Plug.vala:63
 msgid "24h"
 msgstr ""
 
-#: ../src//Plug.vala:48
+#: ../src//Plug.vala:64
 msgid "AM/PM"
 msgstr ""
 
-#: ../src//Plug.vala:54
+#: ../src//Plug.vala:72
 msgid "Time Zone:"
 msgstr ""
 
-#: ../src//Plug.vala:243
+#: ../src//Plug.vala:276
 msgid "Network Time"
 msgstr ""
 
-#: ../src//Plug.vala:244
+#: ../src//Plug.vala:277
 msgid "Time"
 msgstr ""
 
-#: ../src//Plug.vala:245
+#: ../src//Plug.vala:278
 msgid "Date"
 msgstr ""
 
-#: ../src//Plug.vala:246
+#: ../src//Plug.vala:279
 msgid "Time Zone"
 msgstr ""
 
-#: ../src//TZPopover.vala:37
+#: ../src//Plug.vala:280
+msgid "Time Format"
+msgstr ""
+
+#: ../src//TZPopover.vala:56
 msgid "Africa"
 msgstr ""
 
-#: ../src//TZPopover.vala:39
+#: ../src//TZPopover.vala:58
 msgid "America"
 msgstr ""
 
-#: ../src//TZPopover.vala:41
+#: ../src//TZPopover.vala:60
 msgid "Antarctica"
 msgstr ""
 
-#: ../src//TZPopover.vala:43
+#: ../src//TZPopover.vala:62
 msgid "Asia"
 msgstr ""
 
-#: ../src//TZPopover.vala:45
+#: ../src//TZPopover.vala:64
 msgid "Atlantic"
 msgstr ""
 
-#: ../src//TZPopover.vala:47
+#: ../src//TZPopover.vala:66
 msgid "Europe"
 msgstr ""
 
-#: ../src//TZPopover.vala:49
+#: ../src//TZPopover.vala:68
 msgid "Indian"
 msgstr ""
 
-#: ../src//TZPopover.vala:51
+#: ../src//TZPopover.vala:70
 msgid "Pacific"
 msgstr ""
