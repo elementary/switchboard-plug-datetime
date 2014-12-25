@@ -8,14 +8,15 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-power\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2014-12-16 17:24+0100\n"
-"PO-Revision-Date: 2014-12-16 18:24+0000\n"
-"Last-Translator: Roman Maurer <Unknown>\n"
+"PO-Revision-Date: 2014-12-24 10:20+0000\n"
+"Last-Translator: Jernej Virag <Unknown>\n"
 "Language-Team: Slovenian <sl@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2014-12-17 07:40+0000\n"
+"X-Launchpad-Export-Date: 2014-12-25 06:43+0000\n"
 "X-Generator: Launchpad (build 17286)\n"
+"Language: sl\n"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:3
@@ -1115,12 +1116,12 @@ msgstr "Evropa/Berlin"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:437
 msgid "Europe/Busingen"
-msgstr ""
+msgstr "Evropa/Busingen"
 
 #. /Translators: Comment for Timezone Europe/Busingen
 #: ../src//Translations.vala:439
 msgid "Busingen"
-msgstr ""
+msgstr "Busingen"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:441
@@ -1479,7 +1480,7 @@ msgstr "Azija/Jeruzalem"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:585
 msgid "Europe/Isle_of_Man"
-msgstr ""
+msgstr "Evropa/Otok Man"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:587
@@ -1514,7 +1515,7 @@ msgstr "Evropa/Rim"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:599
 msgid "Europe/Jersey"
-msgstr ""
+msgstr "Evropa/Jersey"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:601
@@ -3067,80 +3068,80 @@ msgstr "Afrika/Harare"
 
 #: ../src//Plug.vala:35
 msgid "Date & Time"
-msgstr ""
+msgstr "Datum in čas"
 
 #: ../src//Plug.vala:36
 msgid "Date and Time preferences panel"
-msgstr ""
+msgstr "Nastavitve za datum in čas"
 
 #: ../src//Plug.vala:48
 msgid "Network Time:"
-msgstr ""
+msgstr "Omrežni čas:"
 
 #: ../src//Plug.vala:60
 msgid "Time Format:"
-msgstr ""
+msgstr "Oblika za čas:"
 
 #: ../src//Plug.vala:63
 msgid "24h"
-msgstr ""
+msgstr "24 urna oblika"
 
 #: ../src//Plug.vala:64
 msgid "AM/PM"
-msgstr ""
+msgstr "AM/PM oblika"
 
 #: ../src//Plug.vala:72
 msgid "Time Zone:"
-msgstr ""
+msgstr "Časovni pas:"
 
 #: ../src//Plug.vala:276
 msgid "Network Time"
-msgstr ""
+msgstr "Omrežni čas"
 
 #: ../src//Plug.vala:277
 msgid "Time"
-msgstr ""
+msgstr "Čas"
 
 #: ../src//Plug.vala:278
 msgid "Date"
-msgstr ""
+msgstr "Datum"
 
 #: ../src//Plug.vala:279
 msgid "Time Zone"
-msgstr ""
+msgstr "Časovni pas"
 
 #: ../src//Plug.vala:280
 msgid "Time Format"
-msgstr ""
+msgstr "Oblika za čas"
 
 #: ../src//TZPopover.vala:56
 msgid "Africa"
-msgstr ""
+msgstr "Afrika"
 
 #: ../src//TZPopover.vala:58
 msgid "America"
-msgstr ""
+msgstr "Amerika"
 
 #: ../src//TZPopover.vala:60
 msgid "Antarctica"
-msgstr ""
+msgstr "Antarktika"
 
 #: ../src//TZPopover.vala:62
 msgid "Asia"
-msgstr ""
+msgstr "Azija"
 
 #: ../src//TZPopover.vala:64
 msgid "Atlantic"
-msgstr ""
+msgstr "Atlantik"
 
 #: ../src//TZPopover.vala:66
 msgid "Europe"
-msgstr ""
+msgstr "Evropa"
 
 #: ../src//TZPopover.vala:68
 msgid "Indian"
-msgstr ""
+msgstr "Indija"
 
 #: ../src//TZPopover.vala:70
 msgid "Pacific"
-msgstr ""
+msgstr "Pacifik"
