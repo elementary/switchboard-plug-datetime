@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-power\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-16 17:24+0100\n"
-"PO-Revision-Date: 2014-12-16 17:54+0000\n"
-"Last-Translator: Antti Markus <Unknown>\n"
+"PO-Revision-Date: 2015-02-10 20:01+0000\n"
+"Last-Translator: Kristjan Vool <tictac7x@gmail.com>\n"
 "Language-Team: Estonian <et@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2014-12-17 07:38+0000\n"
-"X-Generator: Launchpad (build 17286)\n"
+"X-Launchpad-Export-Date: 2015-02-11 06:36+0000\n"
+"X-Generator: Launchpad (build 17336)\n"
 "Language: et\n"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
@@ -3068,11 +3068,11 @@ msgstr "Aafrika/Harare"
 
 #: ../src//Plug.vala:35
 msgid "Date & Time"
-msgstr ""
+msgstr "Kuupäev ja kellaaeg"
 
 #: ../src//Plug.vala:36
 msgid "Date and Time preferences panel"
-msgstr ""
+msgstr "Kuupäeva ja kellaaja eelistuste paneel"
 
 #: ../src//Plug.vala:48
 msgid "Network Time:"
@@ -3104,7 +3104,7 @@ msgstr ""
 
 #: ../src//Plug.vala:278
 msgid "Date"
-msgstr ""
+msgstr "Kuupäev"
 
 #: ../src//Plug.vala:279
 msgid "Time Zone"
