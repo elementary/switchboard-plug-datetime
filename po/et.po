@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-power\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-16 17:24+0100\n"
-"PO-Revision-Date: 2015-02-10 20:01+0000\n"
-"Last-Translator: Kristjan Vool <tictac7x@gmail.com>\n"
+"PO-Revision-Date: 2015-02-16 15:02+0000\n"
+"Last-Translator: Tõnis Rand <tonis.rand@gmail.com>\n"
 "Language-Team: Estonian <et@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-02-11 06:36+0000\n"
-"X-Generator: Launchpad (build 17336)\n"
+"X-Launchpad-Export-Date: 2015-02-17 06:36+0000\n"
+"X-Generator: Launchpad (build 17341)\n"
 "Language: et\n"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
@@ -66,17 +66,17 @@ msgstr "Antarktika/McMurdo"
 #. /Translators: Comment for Timezone Antarctica/McMurdo
 #: ../src//Translations.vala:21
 msgid "McMurdo, South Pole, Scott (New Zealand time)"
-msgstr ""
+msgstr "McMurdo, Lõunapoolus, Scott (Uus-Meremaa aeg)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:23
 msgid "Antarctica/Rothera"
-msgstr ""
+msgstr "Antarktika/Rothera"
 
 #. /Translators: Comment for Timezone Antarctica/Rothera
 #: ../src//Translations.vala:25
 msgid "Rothera Station, Adelaide Island"
-msgstr ""
+msgstr "Rothera jaam, Adelaide saar"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:27
@@ -86,7 +86,7 @@ msgstr "Antarktika/Palmer"
 #. /Translators: Comment for Timezone Antarctica/Palmer
 #: ../src//Translations.vala:29
 msgid "Palmer Station, Anvers Island"
-msgstr ""
+msgstr "Palmeri jaam, Anversi saar"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:31
@@ -96,7 +96,7 @@ msgstr "Antarktika/Mawson"
 #. /Translators: Comment for Timezone Antarctica/Mawson
 #: ../src//Translations.vala:33
 msgid "Mawson Station, Holme Bay"
-msgstr ""
+msgstr "Mawsoni jaam, Holme laht"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:35
@@ -106,7 +106,7 @@ msgstr "Antarktika/Davis"
 #. /Translators: Comment for Timezone Antarctica/Davis
 #: ../src//Translations.vala:37
 msgid "Davis Station, Vestfold Hills"
-msgstr ""
+msgstr "Davise jaam, Vestfold Hills"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:39
@@ -116,7 +116,7 @@ msgstr "Antarktika/Casey"
 #. /Translators: Comment for Timezone Antarctica/Casey
 #: ../src//Translations.vala:41
 msgid "Casey Station, Bailey Peninsula"
-msgstr ""
+msgstr "Casey jaam, Bailey poolsaar"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:43
@@ -126,7 +126,7 @@ msgstr "Antarktika/Vostok"
 #. /Translators: Comment for Timezone Antarctica/Vostok
 #: ../src//Translations.vala:45
 msgid "Vostok Station, Lake Vostok"
-msgstr ""
+msgstr "Vostoki jaam, Vostoki järv"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:47
@@ -136,7 +136,7 @@ msgstr "Antarktika/DumontDUrville"
 #. /Translators: Comment for Timezone Antarctica/DumontDUrville
 #: ../src//Translations.vala:49
 msgid "Dumont-d'Urville Station, Adelie Land"
-msgstr ""
+msgstr "Dumont-d'Urville jaam, Adelie maa"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:51
@@ -146,7 +146,7 @@ msgstr "Antarktika/Syowa"
 #. /Translators: Comment for Timezone Antarctica/Syowa
 #: ../src//Translations.vala:53
 msgid "Syowa Station, E Ongul I"
-msgstr ""
+msgstr "Syowa jaam, E Ongul I"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:55
