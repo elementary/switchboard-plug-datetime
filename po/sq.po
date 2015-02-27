@@ -3,14 +3,14 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-16 17:24+0100\n"
-"PO-Revision-Date: 2014-12-16 18:25+0000\n"
-"Last-Translator: Besnik <besnik@programeshqip.org>\n"
+"PO-Revision-Date: 2015-02-26 15:10+0000\n"
+"Last-Translator: Indrit Bashkimi <indrit.bashkimi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2014-12-17 07:36+0000\n"
-"X-Generator: Launchpad (build 17286)\n"
+"X-Launchpad-Export-Date: 2015-02-27 05:58+0000\n"
+"X-Generator: Launchpad (build 17361)\n"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:3
@@ -250,7 +250,7 @@ msgstr ""
 #. /Translators: Comment for Timezone America/Argentina/San_Luis
 #: ../src//Translations.vala:97
 msgid "San Luis (SL)"
-msgstr ""
+msgstr "San Luis (SL)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:99
@@ -3062,7 +3062,7 @@ msgstr "Afrikë/Harare"
 
 #: ../src//Plug.vala:35
 msgid "Date & Time"
-msgstr ""
+msgstr "Data dhe Ora"
 
 #: ../src//Plug.vala:36
 msgid "Date and Time preferences panel"
@@ -3098,7 +3098,7 @@ msgstr ""
 
 #: ../src//Plug.vala:278
 msgid "Date"
-msgstr ""
+msgstr "Data"
 
 #: ../src//Plug.vala:279
 msgid "Time Zone"
