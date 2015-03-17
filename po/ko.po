@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-power\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2014-12-16 17:24+0100\n"
-"PO-Revision-Date: 2014-12-16 18:08+0000\n"
-"Last-Translator: Eunju Kim <Unknown>\n"
+"PO-Revision-Date: 2015-03-17 04:01+0000\n"
+"Last-Translator: MinSik CHO <Unknown>\n"
 "Language-Team: Korean <ko@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2014-12-17 07:39+0000\n"
-"X-Generator: Launchpad (build 17286)\n"
+"X-Launchpad-Export-Date: 2015-03-17 05:49+0000\n"
+"X-Generator: Launchpad (build 17389)\n"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:3
@@ -65,7 +65,7 @@ msgstr "남극대륙/맥머도(McMurdo)"
 #. /Translators: Comment for Timezone Antarctica/McMurdo
 #: ../src//Translations.vala:21
 msgid "McMurdo, South Pole, Scott (New Zealand time)"
-msgstr ""
+msgstr "맥머도 기지, 남극, 스콧 (뉴질랜드 표준시)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:23
@@ -125,7 +125,7 @@ msgstr "남극대륙/보스토크(Vostok)"
 #. /Translators: Comment for Timezone Antarctica/Vostok
 #: ../src//Translations.vala:45
 msgid "Vostok Station, Lake Vostok"
-msgstr ""
+msgstr "보스토크 기지, 보스토크 호수"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:47
@@ -135,7 +135,7 @@ msgstr "남극대륙/드몬두르빌(DumontDUrville)"
 #. /Translators: Comment for Timezone Antarctica/DumontDUrville
 #: ../src//Translations.vala:49
 msgid "Dumont-d'Urville Station, Adelie Land"
-msgstr ""
+msgstr "듀몬트 듀르빌 기지, 아델리 섬"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:51
@@ -150,12 +150,12 @@ msgstr "쇼와 기지 (Syowa Station), 동부 옹굴 섬(E Ongul I)"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:55
 msgid "Antarctica/Troll"
-msgstr ""
+msgstr "남극/트롤"
 
 #. /Translators: Comment for Timezone Antarctica/Troll
 #: ../src//Translations.vala:57
 msgid "Troll Station, Queen Maud Land"
-msgstr ""
+msgstr "트롤 기지, 퀸 모드 섬"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:59
@@ -305,7 +305,7 @@ msgstr "남극대륙/맥쿼리(Macquarie)"
 #. /Translators: Comment for Timezone Antarctica/Macquarie
 #: ../src//Translations.vala:117
 msgid "Macquarie Island"
-msgstr ""
+msgstr "맥쿼리 섬"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:119
@@ -500,7 +500,7 @@ msgstr "아메리카/라_파스(La_Paz)"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:195
 msgid "America/Kralendijk"
-msgstr ""
+msgstr "아메리카/크라렌디직"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:197
@@ -756,7 +756,7 @@ msgstr "아메리카/토론토(Toronto)"
 #. /Translators: Comment for Timezone America/Toronto
 #: ../src//Translations.vala:297
 msgid "Eastern Time - Ontario & Quebec - most locations"
-msgstr ""
+msgstr "동부표준시 - 온타리오 & 퀘벡 - 대부분 지역"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:299
@@ -807,7 +807,7 @@ msgstr "아메리카/레졸루트(Resolute)"
 #. /Translators: Comment for Timezone America/Resolute
 #: ../src//Translations.vala:317
 msgid "Central Time - Resolute, Nunavut"
-msgstr ""
+msgstr "중부표준시 - 레졸루트, 누나붓"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:319
@@ -912,7 +912,7 @@ msgstr "산지 표준시 - 노스웨스트 테리토리 서부 (west Northwest T
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:359
 msgid "America/Creston"
-msgstr ""
+msgstr "아메리카/크레스톤"
 
 #. /Translators: Comment for Timezone America/Creston
 #: ../src//Translations.vala:361
