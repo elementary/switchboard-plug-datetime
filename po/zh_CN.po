@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-16 17:24+0100\n"
-"PO-Revision-Date: 2015-01-25 04:46+0000\n"
+"PO-Revision-Date: 2015-03-19 12:56+0000\n"
 "Last-Translator: colindemian <dengmengpc@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <zh_CN@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-01-26 07:08+0000\n"
-"X-Generator: Launchpad (build 17306)\n"
+"X-Launchpad-Export-Date: 2015-03-20 05:25+0000\n"
+"X-Generator: Launchpad (build 17405)\n"
 "Language: \n"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
@@ -121,12 +121,12 @@ msgstr "凯西站，贝利半岛"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:43
 msgid "Antarctica/Vostok"
-msgstr "南极洲/东方"
+msgstr "南极洲/东方站"
 
 #. /Translators: Comment for Timezone Antarctica/Vostok
 #: ../src//Translations.vala:45
 msgid "Vostok Station, Lake Vostok"
-msgstr ""
+msgstr "沃斯托克科考站，沃斯托克湖"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:47
@@ -316,7 +316,7 @@ msgstr "澳洲/霍巴特"
 #. /Translators: Comment for Timezone Australia/Hobart
 #: ../src//Translations.vala:121
 msgid "Tasmania - most locations"
-msgstr "塔斯马尼亚——大部分地区"
+msgstr "塔斯马尼亚 - 大部分地区"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:123
@@ -326,7 +326,7 @@ msgstr "澳洲∕柯里"
 #. /Translators: Comment for Timezone Australia/Currie
 #: ../src//Translations.vala:125
 msgid "Tasmania - King Island"
-msgstr "塔斯马尼亚——金岛"
+msgstr "塔斯马尼亚 - 金岛"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:127
@@ -346,7 +346,7 @@ msgstr "澳洲/悉尼"
 #. /Translators: Comment for Timezone Australia/Sydney
 #: ../src//Translations.vala:133
 msgid "New South Wales - most locations"
-msgstr "新南威尔士——大部分地区"
+msgstr "新南威尔士 - 大部分地区"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:135
@@ -356,7 +356,7 @@ msgstr "澳洲∕布罗肯希尔"
 #. /Translators: Comment for Timezone Australia/Broken_Hill
 #: ../src//Translations.vala:137
 msgid "New South Wales - Yancowinna"
-msgstr "新南威尔士——扬科维纳"
+msgstr "新南威尔士 - 扬科维纳"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:139
@@ -366,7 +366,7 @@ msgstr "澳洲/布里斯班"
 #. /Translators: Comment for Timezone Australia/Brisbane
 #: ../src//Translations.vala:141
 msgid "Queensland - most locations"
-msgstr "昆士兰——大部分地区"
+msgstr "昆士兰 - 大部分地区"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:143
@@ -376,7 +376,7 @@ msgstr "澳洲/林德曼"
 #. /Translators: Comment for Timezone Australia/Lindeman
 #: ../src//Translations.vala:145
 msgid "Queensland - Holiday Islands"
-msgstr "昆士兰——假日群岛"
+msgstr "昆士兰 - 假日群岛"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:147
@@ -406,7 +406,7 @@ msgstr "澳洲/珀斯"
 #. /Translators: Comment for Timezone Australia/Perth
 #: ../src//Translations.vala:157
 msgid "Western Australia - most locations"
-msgstr "澳大利亚西部——大部分地区"
+msgstr "澳大利亚西部 - 大部分地区"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:159
@@ -416,7 +416,7 @@ msgstr "澳洲/尤克拉"
 #. /Translators: Comment for Timezone Australia/Eucla
 #: ../src//Translations.vala:161
 msgid "Western Australia - Eucla area"
-msgstr "澳大利亚西部——尤克拉地区"
+msgstr "澳大利亚西部 - 尤克拉地区"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:163
@@ -706,7 +706,7 @@ msgstr "美洲/哈利法克斯"
 #. /Translators: Comment for Timezone America/Halifax
 #: ../src//Translations.vala:277
 msgid "Atlantic Time - Nova Scotia (most places), PEI"
-msgstr "大西洋时间——新斯科舍（大部分地区），爱德华王子岛"
+msgstr "大西洋时间 - 新斯科舍（大部分地区），爱德华王子岛"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:279
@@ -717,7 +717,7 @@ msgstr "美洲/格莱斯湾"
 #: ../src//Translations.vala:281
 msgid ""
 "Atlantic Time - Nova Scotia - places that did not observe DST 1966-1971"
-msgstr "大西洋时间——新斯科舍——不遵守DST1966——1971的地方"
+msgstr "大西洋时间 - 新斯科舍 - 不遵循 DST 1966-1971 的地区"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:283
@@ -727,7 +727,7 @@ msgstr "美洲∕蒙克顿"
 #. /Translators: Comment for Timezone America/Moncton
 #: ../src//Translations.vala:285
 msgid "Atlantic Time - New Brunswick"
-msgstr "大西洋时间——新不伦瑞克"
+msgstr "大西洋时间 - 新不伦瑞克"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:287
@@ -737,7 +737,7 @@ msgstr "美洲/古斯湾"
 #. /Translators: Comment for Timezone America/Goose_Bay
 #: ../src//Translations.vala:289
 msgid "Atlantic Time - Labrador - most locations"
-msgstr "大西洋时间——拉布拉多——大部分地区"
+msgstr "大西洋时间 - 拉布拉多 - 大部分地区"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:291
@@ -747,7 +747,7 @@ msgstr "美洲∕布朗萨布隆"
 #. /Translators: Comment for Timezone America/Blanc-Sablon
 #: ../src//Translations.vala:293
 msgid "Atlantic Standard Time - Quebec - Lower North Shore"
-msgstr "大西洋标准时间——魁北克——下北岸"
+msgstr "大西洋标准时间 - 魁北克 - 下北岸"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:295
@@ -768,7 +768,7 @@ msgstr "美洲/尼皮贡"
 #: ../src//Translations.vala:301
 msgid ""
 "Eastern Time - Ontario & Quebec - places that did not observe DST 1967-1973"
-msgstr "东部时间——安大略和魁北克——不遵守DST1967——1973的地方"
+msgstr "东部时间 - 安大略和魁北克 - 不遵循 DST 1967-1973 的地区"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:303
@@ -778,7 +778,7 @@ msgstr "美洲/桑德湾"
 #. /Translators: Comment for Timezone America/Thunder_Bay
 #: ../src//Translations.vala:305
 msgid "Eastern Time - Thunder Bay, Ontario"
-msgstr "东部时间——桑德湾，安大略"
+msgstr "东部时间 - 桑德湾，安大略"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:307
@@ -788,7 +788,7 @@ msgstr "美洲/伊卡卢伊特"
 #. /Translators: Comment for Timezone America/Iqaluit
 #: ../src//Translations.vala:309
 msgid "Eastern Time - east Nunavut - most locations"
-msgstr "东部时间——纽纳瓦特东部——大部分地区"
+msgstr "东部时间 - 纽纳瓦特东部 - 大部分地区"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:311
@@ -798,7 +798,7 @@ msgstr "美洲/庞纳唐"
 #. /Translators: Comment for Timezone America/Pangnirtung
 #: ../src//Translations.vala:313
 msgid "Eastern Time - Pangnirtung, Nunavut"
-msgstr "东部时间——庞纳唐，纽纳瓦特"
+msgstr "东部时间 - 庞纳唐，纽纳瓦特"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:315
@@ -818,7 +818,7 @@ msgstr "美洲∕阿蒂科肯"
 #. /Translators: Comment for Timezone America/Atikokan
 #: ../src//Translations.vala:321
 msgid "Eastern Standard Time - Atikokan, Ontario and Southampton I, Nunavut"
-msgstr "东部标准时间——阿蒂科肯，安大略和南安普敦岛，纽纳瓦特"
+msgstr "东部标准时间 - 阿蒂科肯，安大略和南安普敦岛，纽纳瓦特"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:323
@@ -828,7 +828,7 @@ msgstr "美洲/兰金因莱特"
 #. /Translators: Comment for Timezone America/Rankin_Inlet
 #: ../src//Translations.vala:325
 msgid "Central Time - central Nunavut"
-msgstr "中部时间——纽纳瓦特中部"
+msgstr "中部时间 - 纽纳瓦特中部"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:327
@@ -838,7 +838,7 @@ msgstr "美洲/温尼伯"
 #. /Translators: Comment for Timezone America/Winnipeg
 #: ../src//Translations.vala:329
 msgid "Central Time - Manitoba & west Ontario"
-msgstr "中部时间——马尼托巴和安大略西部"
+msgstr "中部时间 - 马尼托巴和安大略西部"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:331
@@ -848,7 +848,7 @@ msgstr "美洲/雷尼里弗"
 #. /Translators: Comment for Timezone America/Rainy_River
 #: ../src//Translations.vala:333
 msgid "Central Time - Rainy River & Fort Frances, Ontario"
-msgstr "中部时间——雷尼河和弗朗西斯堡，安大略"
+msgstr "中部时间 - 雷尼河和弗朗西斯堡，安大略"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:335
@@ -858,7 +858,7 @@ msgstr "美洲/里贾那"
 #. /Translators: Comment for Timezone America/Regina
 #: ../src//Translations.vala:337
 msgid "Central Standard Time - Saskatchewan - most locations"
-msgstr "中部标准时间——萨斯喀彻温——大部分地区"
+msgstr "中部标准时间 - 萨斯喀彻温 - 大部分地区"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:339
@@ -868,7 +868,7 @@ msgstr "美洲/斯威夫特卡伦特"
 #. /Translators: Comment for Timezone America/Swift_Current
 #: ../src//Translations.vala:341
 msgid "Central Standard Time - Saskatchewan - midwest"
-msgstr "中部标准时间——萨斯喀彻温——中西部"
+msgstr "中部标准时间 - 萨斯喀彻温 - 中西部"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:343
@@ -878,7 +878,7 @@ msgstr "美洲/埃德蒙顿"
 #. /Translators: Comment for Timezone America/Edmonton
 #: ../src//Translations.vala:345
 msgid "Mountain Time - Alberta, east British Columbia & west Saskatchewan"
-msgstr "山地时间——艾伯塔，不列颠哥伦比亚东部和萨斯喀彻温西部"
+msgstr "山地时间 - 艾伯塔，不列颠哥伦比亚东部和萨斯喀彻温西部"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:347
@@ -888,7 +888,7 @@ msgstr "美洲/剑桥湾"
 #. /Translators: Comment for Timezone America/Cambridge_Bay
 #: ../src//Translations.vala:349
 msgid "Mountain Time - west Nunavut"
-msgstr "山地时间——纽纳瓦特西部"
+msgstr "山地时间 - 纽纳瓦特西部"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:351
@@ -898,7 +898,7 @@ msgstr "美洲/耶洛奈夫"
 #. /Translators: Comment for Timezone America/Yellowknife
 #: ../src//Translations.vala:353
 msgid "Mountain Time - central Northwest Territories"
-msgstr "山地时间——西北区中部"
+msgstr "山地时间 - 西北区中部"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:355
@@ -908,7 +908,7 @@ msgstr "美洲/伊努维克"
 #. /Translators: Comment for Timezone America/Inuvik
 #: ../src//Translations.vala:357
 msgid "Mountain Time - west Northwest Territories"
-msgstr "山地时间——西西北区"
+msgstr "山地时间 - 西西北区"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:359
@@ -929,7 +929,7 @@ msgstr "美洲/道森克里克"
 #: ../src//Translations.vala:365
 msgid ""
 "Mountain Standard Time - Dawson Creek & Fort Saint John, British Columbia"
-msgstr "山地标准时间——道生克里克和圣约翰堡，不列颠哥伦比亚"
+msgstr "山地标准时间 - 道生克里克和圣约翰堡，不列颠哥伦比亚"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:367
@@ -939,7 +939,7 @@ msgstr "美洲/温哥华"
 #. /Translators: Comment for Timezone America/Vancouver
 #: ../src//Translations.vala:369
 msgid "Pacific Time - west British Columbia"
-msgstr "太平洋时间——不列颠哥伦比亚西部"
+msgstr "太平洋时间 - 西不列颠哥伦比亚"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:371
@@ -949,7 +949,7 @@ msgstr "美洲/怀特霍斯"
 #. /Translators: Comment for Timezone America/Whitehorse
 #: ../src//Translations.vala:373
 msgid "Pacific Time - south Yukon"
-msgstr "太平洋时间——育空南部"
+msgstr "太平洋时间 - 育空南部"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:375
@@ -959,7 +959,7 @@ msgstr "美洲/道森"
 #. /Translators: Comment for Timezone America/Dawson
 #: ../src//Translations.vala:377
 msgid "Pacific Time - north Yukon"
-msgstr "太平洋时间——育空北部"
+msgstr "太平洋时间 - 育空北部"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:379
@@ -1455,7 +1455,7 @@ msgstr "亚洲∕望加锡"
 #: ../src//Translations.vala:575
 msgid ""
 "east & south Borneo, Sulawesi (Celebes), Bali, Nusa Tengarra, west Timor"
-msgstr ""
+msgstr "东/南婆罗州，苏拉威西岛（西里伯斯岛），巴厘岛，努沙登加拉群岛，西帝汶"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:577
@@ -1465,7 +1465,7 @@ msgstr "亚洲/查亚普拉"
 #. /Translators: Comment for Timezone Asia/Jayapura
 #: ../src//Translations.vala:579
 msgid "west New Guinea (Irian Jaya) & Malukus (Moluccas)"
-msgstr ""
+msgstr "西新几内亚（伊里安查亚）& 马鲁古群岛（摩鹿加群岛）"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:581
@@ -1780,7 +1780,7 @@ msgstr "亚洲/科布多"
 #. /Translators: Comment for Timezone Asia/Hovd
 #: ../src//Translations.vala:711
 msgid "Bayan-Olgiy, Govi-Altai, Hovd, Uvs, Zavkhan"
-msgstr "巴彦——乌列盖，戈壁阿尔泰，科布多，乌布苏，扎布汗"
+msgstr "巴彦 - 乌列盖，戈壁阿尔泰，科布多，乌布苏，扎布汗"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:713
@@ -1845,7 +1845,7 @@ msgstr "美洲/墨西哥城"
 #. /Translators: Comment for Timezone America/Mexico_City
 #: ../src//Translations.vala:737
 msgid "Central Time - most locations"
-msgstr "中部时间——大部分地区"
+msgstr "中部时间 - 大部分地区"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:739
@@ -1855,7 +1855,7 @@ msgstr "美洲/坎昆"
 #. /Translators: Comment for Timezone America/Cancun
 #: ../src//Translations.vala:741
 msgid "Central Time - Quintana Roo"
-msgstr "中部时间——金塔纳罗奥"
+msgstr "中部时间 - 金塔纳罗奥"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:743
@@ -1865,7 +1865,7 @@ msgstr "美洲/梅里达"
 #. /Translators: Comment for Timezone America/Merida
 #: ../src//Translations.vala:745
 msgid "Central Time - Campeche, Yucatan"
-msgstr "中部时间——康佩什，尤卡坦"
+msgstr "中部时间 - 康佩什，尤卡坦"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:747
@@ -1877,7 +1877,7 @@ msgstr "美洲/蒙特雷"
 msgid ""
 "Mexican Central Time - Coahuila, Durango, Nuevo Leon, Tamaulipas away from "
 "US border"
-msgstr "墨西哥中部时间——远离美国边境的科阿韦拉，杜兰戈，新莱昂，塔毛利帕斯"
+msgstr "墨西哥中部时间 - 远离美国边境的科阿韦拉，杜兰戈，新莱昂，塔毛利帕斯"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:751
@@ -1888,7 +1888,7 @@ msgstr "美洲/马塔莫罗斯"
 #: ../src//Translations.vala:753
 msgid ""
 "US Central Time - Coahuila, Durango, Nuevo Leon, Tamaulipas near US border"
-msgstr "美国中部时间——靠近美国边境的科阿韦拉，杜兰戈，新莱昂，塔毛利帕斯"
+msgstr "美国中部时间 - 靠近美国边境的科阿韦拉，杜兰戈，新莱昂，塔毛利帕斯"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:755
@@ -1898,7 +1898,7 @@ msgstr "美洲/马萨特兰"
 #. /Translators: Comment for Timezone America/Mazatlan
 #: ../src//Translations.vala:757
 msgid "Mountain Time - S Baja, Nayarit, Sinaloa"
-msgstr "山地时间——巴哈南部，纳亚里特，锡那罗亚"
+msgstr "山地时间 - 巴哈南部，纳亚里特，锡那罗亚"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:759
@@ -1908,7 +1908,7 @@ msgstr "美洲/奇瓦瓦"
 #. /Translators: Comment for Timezone America/Chihuahua
 #: ../src//Translations.vala:761
 msgid "Mexican Mountain Time - Chihuahua away from US border"
-msgstr "墨西哥山地时间——美国边境的奇瓦瓦"
+msgstr "墨西哥山地时间 - 美国边境的奇瓦瓦"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:763
@@ -1918,7 +1918,7 @@ msgstr "美洲/奥希纳加"
 #. /Translators: Comment for Timezone America/Ojinaga
 #: ../src//Translations.vala:765
 msgid "US Mountain Time - Chihuahua near US border"
-msgstr "美国山地时间——靠近美国边境的奇瓦瓦"
+msgstr "美国山地时间 - 靠近美国边境的奇瓦瓦"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:767
@@ -1928,7 +1928,7 @@ msgstr "美洲/哈模斯罗"
 #. /Translators: Comment for Timezone America/Hermosillo
 #: ../src//Translations.vala:769
 msgid "Mountain Standard Time - Sonora"
-msgstr "山地标准时间——索诺拉"
+msgstr "山地标准时间 - 索诺拉"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:771
@@ -1938,7 +1938,7 @@ msgstr "美洲/提华纳"
 #. /Translators: Comment for Timezone America/Tijuana
 #: ../src//Translations.vala:773
 msgid "US Pacific Time - Baja California near US border"
-msgstr "美国太平洋地区时间——靠近美国边境的下加利福尼亚"
+msgstr "美国太平洋地区时间 - 靠近美国边境的下加利福尼亚"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:775
@@ -1948,7 +1948,7 @@ msgstr "美国/圣伊莎贝尔"
 #. /Translators: Comment for Timezone America/Santa_Isabel
 #: ../src//Translations.vala:777
 msgid "Mexican Pacific Time - Baja California away from US border"
-msgstr "墨西哥太平洋地区时间——远离美国边境的下加利福尼亚"
+msgstr "墨西哥太平洋地区时间 - 远离美国边境的下加利福尼亚"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:779
@@ -2153,7 +2153,7 @@ msgstr "亚洲/加沙"
 #. /Translators: Comment for Timezone Asia/Gaza
 #: ../src//Translations.vala:863
 msgid "Gaza Strip"
-msgstr ""
+msgstr "加沙地带"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:865
@@ -2228,7 +2228,7 @@ msgstr "欧洲/加里宁格勒"
 #. /Translators: Comment for Timezone Europe/Kaliningrad
 #: ../src//Translations.vala:895
 msgid "Moscow-01 - Kaliningrad"
-msgstr "莫斯科—01——加里宁格勒"
+msgstr "莫斯科-01 - 加里宁格勒"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:897
@@ -2238,7 +2238,7 @@ msgstr "欧洲/莫斯科"
 #. /Translators: Comment for Timezone Europe/Moscow
 #: ../src//Translations.vala:899
 msgid "Moscow+00 - west Russia"
-msgstr "莫斯科+00——俄罗斯西部"
+msgstr "莫斯科+00 - 西俄罗斯"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:901
@@ -2258,7 +2258,7 @@ msgstr "欧洲∕伏尔加格勒"
 #. /Translators: Comment for Timezone Europe/Volgograd
 #: ../src//Translations.vala:907
 msgid "Moscow+00 - Caspian Sea"
-msgstr "莫斯科+00——里海"
+msgstr "莫斯科+00 - 里海"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:909
@@ -2268,7 +2268,7 @@ msgstr "欧洲/萨马拉"
 #. /Translators: Comment for Timezone Europe/Samara
 #: ../src//Translations.vala:911
 msgid "Moscow+00 (Moscow+01 after 2014-10-26) - Samara, Udmurtia"
-msgstr ""
+msgstr "莫斯科+00 (莫斯科+01 2014年10月26日后) - 萨马拉，乌德穆尔特共和国"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:913
@@ -2278,7 +2278,7 @@ msgstr "亚洲/叶卡杰琳堡"
 #. /Translators: Comment for Timezone Asia/Yekaterinburg
 #: ../src//Translations.vala:915
 msgid "Moscow+02 - Urals"
-msgstr "莫斯科+02——乌拉尔山脉"
+msgstr "莫斯科+02 - 乌拉尔"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:917
@@ -2288,7 +2288,7 @@ msgstr "亚洲/鄂木斯克"
 #. /Translators: Comment for Timezone Asia/Omsk
 #: ../src//Translations.vala:919
 msgid "Moscow+03 - west Siberia"
-msgstr "莫斯科+03——西伯利亚西部"
+msgstr "莫斯科+03 - 西西伯利亚"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:921
@@ -2298,7 +2298,7 @@ msgstr "亚洲/新西伯利亚"
 #. /Translators: Comment for Timezone Asia/Novosibirsk
 #: ../src//Translations.vala:923
 msgid "Moscow+03 - Novosibirsk"
-msgstr "莫斯科+03——新西伯利亚"
+msgstr "莫斯科+03 - 新西伯利亚"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:925
@@ -2318,7 +2318,7 @@ msgstr "亚洲/克拉斯诺亚尔斯克"
 #. /Translators: Comment for Timezone Asia/Krasnoyarsk
 #: ../src//Translations.vala:931
 msgid "Moscow+04 - Yenisei River"
-msgstr "莫斯科+04——叶尼塞河"
+msgstr "莫斯科+04 - 叶尼塞河"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:933
@@ -2328,7 +2328,7 @@ msgstr "亚洲/伊尔库次克"
 #. /Translators: Comment for Timezone Asia/Irkutsk
 #: ../src//Translations.vala:935
 msgid "Moscow+05 - Lake Baikal"
-msgstr "莫斯科+05——贝加尔湖"
+msgstr "莫斯科+05 - 贝加尔湖"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:937
@@ -2348,7 +2348,7 @@ msgstr "亚洲/雅库茨克"
 #. /Translators: Comment for Timezone Asia/Yakutsk
 #: ../src//Translations.vala:943
 msgid "Moscow+06 - Lena River"
-msgstr "莫斯科+06——勒拿河"
+msgstr "莫斯科+06 - 勒拿河"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:945
@@ -2358,7 +2358,7 @@ msgstr "亚洲/汉德加"
 #. /Translators: Comment for Timezone Asia/Khandyga
 #: ../src//Translations.vala:947
 msgid "Moscow+06 - Tomponsky, Ust-Maysky"
-msgstr ""
+msgstr "莫斯科+06 -Tomponsky 特区， Ust-Maysky 特区"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:949
@@ -2368,7 +2368,7 @@ msgstr "亚洲/海参崴"
 #. /Translators: Comment for Timezone Asia/Vladivostok
 #: ../src//Translations.vala:951
 msgid "Moscow+07 - Amur River"
-msgstr "莫斯科+07——阿穆尔河"
+msgstr "莫斯科+07 - 阿穆尔河 (黑龙江)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:953
@@ -2378,7 +2378,7 @@ msgstr "亚洲∕萨哈林"
 #. /Translators: Comment for Timezone Asia/Sakhalin
 #: ../src//Translations.vala:955
 msgid "Moscow+07 - Sakhalin Island"
-msgstr "莫斯科+07——萨哈林岛"
+msgstr "莫斯科+07 - 库页岛"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:957
@@ -2408,7 +2408,7 @@ msgstr "亚洲/中科雷姆斯克"
 #. /Translators: Comment for Timezone Asia/Srednekolymsk
 #: ../src//Translations.vala:967
 msgid "Moscow+08 - E Sakha, N Kuril Is"
-msgstr ""
+msgstr "莫斯科+08 - 萨哈西，千岛群岛北"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:969
@@ -2698,7 +2698,7 @@ msgstr "美洲/底特律"
 #. /Translators: Comment for Timezone America/Detroit
 #: ../src//Translations.vala:1085
 msgid "Eastern Time - Michigan - most locations"
-msgstr "东部时间——密歇根——大部分地区"
+msgstr "东部时间 - 密歇根 - 大部分地区"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:1087
@@ -2708,7 +2708,7 @@ msgstr "美洲/肯塔基/路易斯维尔"
 #. /Translators: Comment for Timezone America/Kentucky/Louisville
 #: ../src//Translations.vala:1089
 msgid "Eastern Time - Kentucky - Louisville area"
-msgstr "东部时间——肯塔基——路易斯维尔地区"
+msgstr "东部时间 - 肯塔基 - 路易斯维尔地区"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:1091
@@ -2718,7 +2718,7 @@ msgstr "美洲/肯塔基/蒙蒂塞洛"
 #. /Translators: Comment for Timezone America/Kentucky/Monticello
 #: ../src//Translations.vala:1093
 msgid "Eastern Time - Kentucky - Wayne County"
-msgstr "东部时间——肯塔基——韦恩县"
+msgstr "东部时间 - 肯塔基 - 韦恩县"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:1095
@@ -2728,7 +2728,7 @@ msgstr "美洲/印第安纳/印第安纳波利斯"
 #. /Translators: Comment for Timezone America/Indiana/Indianapolis
 #: ../src//Translations.vala:1097
 msgid "Eastern Time - Indiana - most locations"
-msgstr "东部时间——印地安纳——大部分地区"
+msgstr "东部时间 - 印地安纳 - 大部分地区"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:1099
@@ -2738,7 +2738,7 @@ msgstr "美洲∕印第安纳∕温森斯"
 #. /Translators: Comment for Timezone America/Indiana/Vincennes
 #: ../src//Translations.vala:1101
 msgid "Eastern Time - Indiana - Daviess, Dubois, Knox & Martin Counties"
-msgstr "东部时间——印地安纳——戴维斯，杜波依斯，诺克斯和马丁县"
+msgstr "东部时间 - 印地安纳 - 戴维斯，杜波依斯，诺克斯和马丁县"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:1103
@@ -2748,7 +2748,7 @@ msgstr "美洲∕印第安纳∕威纳马克"
 #. /Translators: Comment for Timezone America/Indiana/Winamac
 #: ../src//Translations.vala:1105
 msgid "Eastern Time - Indiana - Pulaski County"
-msgstr "东部时间——印地安纳——珀拉斯凯县"
+msgstr "东部时间 - 印地安纳 - 珀拉斯凯县"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:1107
@@ -2758,7 +2758,7 @@ msgstr "美洲/印第安纳/马伦戈"
 #. /Translators: Comment for Timezone America/Indiana/Marengo
 #: ../src//Translations.vala:1109
 msgid "Eastern Time - Indiana - Crawford County"
-msgstr "东部时间——印地安那——克劳福德县"
+msgstr "东部时间 - 印地安那 - 克劳福德县"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:1111
@@ -2768,7 +2768,7 @@ msgstr "美洲∕印第安那∕彼得斯堡"
 #. /Translators: Comment for Timezone America/Indiana/Petersburg
 #: ../src//Translations.vala:1113
 msgid "Eastern Time - Indiana - Pike County"
-msgstr "东部时间——印地安那——派克县"
+msgstr "东部时间 - 印地安那 - 派克县"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:1115
@@ -2778,7 +2778,7 @@ msgstr "美洲/印第安那/韦韦"
 #. /Translators: Comment for Timezone America/Indiana/Vevay
 #: ../src//Translations.vala:1117
 msgid "Eastern Time - Indiana - Switzerland County"
-msgstr "东部时间——印地安纳——瑞士县"
+msgstr "东部时间 - 印地安纳 - 瑞士县"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:1119
@@ -2798,7 +2798,7 @@ msgstr "美洲∕印第安纳∕特尔城"
 #. /Translators: Comment for Timezone America/Indiana/Tell_City
 #: ../src//Translations.vala:1125
 msgid "Central Time - Indiana - Perry County"
-msgstr "中部时间——印地安纳——佩里县"
+msgstr "中部时间 - 印地安纳 - 佩里县"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:1127
@@ -2808,7 +2808,7 @@ msgstr "美洲/印第安纳/诺克斯"
 #. /Translators: Comment for Timezone America/Indiana/Knox
 #: ../src//Translations.vala:1129
 msgid "Central Time - Indiana - Starke County"
-msgstr "中部时间——印地安纳——斯塔克县"
+msgstr "中部时间 - 印地安纳 - 斯塔克县"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:1131
@@ -2819,7 +2819,7 @@ msgstr "美洲/梅诺米尼"
 #: ../src//Translations.vala:1133
 msgid ""
 "Central Time - Michigan - Dickinson, Gogebic, Iron & Menominee Counties"
-msgstr "中部时间——密歇根——迪金森，戈吉比克，艾恩和梅诺米尼县"
+msgstr "中部时间 - 密歇根 - 迪金森，戈吉比克，艾恩和梅诺米尼县"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:1135
@@ -2829,7 +2829,7 @@ msgstr "美洲∕北达科他∕中部"
 #. /Translators: Comment for Timezone America/North_Dakota/Center
 #: ../src//Translations.vala:1137
 msgid "Central Time - North Dakota - Oliver County"
-msgstr "中部时间——北达科他——奥利弗县"
+msgstr "中部时间 - 北达科他 - 奥利弗县"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:1139
@@ -2839,7 +2839,7 @@ msgstr "美洲∕北达科他∕纽沙伦"
 #. /Translators: Comment for Timezone America/North_Dakota/New_Salem
 #: ../src//Translations.vala:1141
 msgid "Central Time - North Dakota - Morton County (except Mandan area)"
-msgstr "中部时间——北达科他——莫顿县（曼丹地区除外）"
+msgstr "中部时间 - 北达科他 - 莫顿县（曼丹地区除外）"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:1143
@@ -2869,7 +2869,7 @@ msgstr "美洲/博伊西"
 #. /Translators: Comment for Timezone America/Boise
 #: ../src//Translations.vala:1153
 msgid "Mountain Time - south Idaho & east Oregon"
-msgstr "山地时间——爱达荷南部和俄勒冈东部"
+msgstr "山地时间 - 爱达荷南部和俄勒冈东部"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:1155
@@ -2919,7 +2919,7 @@ msgstr "美洲/朱诺"
 #. /Translators: Comment for Timezone America/Juneau
 #: ../src//Translations.vala:1173
 msgid "Alaska Time - Alaska panhandle"
-msgstr "阿拉斯加时间——阿拉斯加“锅柄”(狭长地带)"
+msgstr "阿拉斯加时间 - 阿拉斯加狭地"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:1175
@@ -2939,7 +2939,7 @@ msgstr "美洲/亚库塔特"
 #. /Translators: Comment for Timezone America/Yakutat
 #: ../src//Translations.vala:1181
 msgid "Alaska Time - Alaska panhandle neck"
-msgstr "阿拉斯加时间——阿拉斯加“锅柄”（狭长地带）颈"
+msgstr "阿拉斯加时间 - 阿拉斯加狭地颈"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:1183
@@ -2949,7 +2949,7 @@ msgstr "美洲/诺姆"
 #. /Translators: Comment for Timezone America/Nome
 #: ../src//Translations.vala:1185
 msgid "Alaska Time - west Alaska"
-msgstr "阿拉斯加时间——阿拉斯加西部"
+msgstr "阿拉斯加时间 - 阿拉斯加西部"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:1187
