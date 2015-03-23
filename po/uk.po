@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-16 17:24+0100\n"
-"PO-Revision-Date: 2014-12-16 18:30+0000\n"
-"Last-Translator: yurchor <Unknown>\n"
+"PO-Revision-Date: 2015-03-22 08:49+0000\n"
+"Last-Translator: lem8r <Unknown>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2014-12-17 07:41+0000\n"
-"X-Generator: Launchpad (build 17286)\n"
+"X-Launchpad-Export-Date: 2015-03-23 05:36+0000\n"
+"X-Generator: Launchpad (build 17405)\n"
 "Language: uk\n"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
@@ -3082,7 +3082,7 @@ msgstr "Африка/Хараре"
 
 #: ../src//Plug.vala:35
 msgid "Date & Time"
-msgstr ""
+msgstr "Дата і час"
 
 #: ../src//Plug.vala:36
 msgid "Date and Time preferences panel"
