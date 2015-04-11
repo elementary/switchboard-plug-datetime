@@ -8,60 +8,60 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-16 17:24+0100\n"
-"PO-Revision-Date: 2014-12-14 13:00+0000\n"
-"Last-Translator: Michael Moroni <michael.moroni@openmailbox.org>\n"
+"PO-Revision-Date: 2015-04-11 01:13+0000\n"
+"Last-Translator: Adolfo Jayme <fitoschido@gmail.com>\n"
 "Language-Team: Esperanto <eo@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2014-12-17 07:38+0000\n"
-"X-Generator: Launchpad (build 17286)\n"
+"X-Launchpad-Export-Date: 2015-04-11 05:56+0000\n"
+"X-Generator: Launchpad (build 17423)\n"
 "Language: eo\n"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:3
 msgid "Europe/Andorra"
-msgstr ""
+msgstr "Eŭropo/Andoro"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:5
 msgid "Asia/Dubai"
-msgstr ""
+msgstr "Azio/Dubajo"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:7
 msgid "Asia/Kabul"
-msgstr ""
+msgstr "Azio/Kabulo"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:9
 msgid "America/Antigua"
-msgstr ""
+msgstr "Ameriko/Antigvo"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:11
 msgid "America/Anguilla"
-msgstr ""
+msgstr "Ameriko/Angvilo"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:13
 msgid "Europe/Tirane"
-msgstr ""
+msgstr "Eŭropo/Tirano"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:15
 msgid "Asia/Yerevan"
-msgstr ""
+msgstr "Azio/Erevano"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:17
 msgid "Africa/Luanda"
-msgstr ""
+msgstr "Afriko/Luando"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:19
 msgid "Antarctica/McMurdo"
-msgstr ""
+msgstr "Antarkto/McMurdo"
 
 #. /Translators: Comment for Timezone Antarctica/McMurdo
 #: ../src//Translations.vala:21
@@ -3124,19 +3124,19 @@ msgstr ""
 
 #: ../src//TZPopover.vala:60
 msgid "Antarctica"
-msgstr ""
+msgstr "Antarkto"
 
 #: ../src//TZPopover.vala:62
 msgid "Asia"
-msgstr ""
+msgstr "Azio"
 
 #: ../src//TZPopover.vala:64
 msgid "Atlantic"
-msgstr ""
+msgstr "Atlantiko"
 
 #: ../src//TZPopover.vala:66
 msgid "Europe"
-msgstr ""
+msgstr "Eŭropo"
 
 #: ../src//TZPopover.vala:68
 msgid "Indian"
@@ -3144,4 +3144,4 @@ msgstr ""
 
 #: ../src//TZPopover.vala:70
 msgid "Pacific"
-msgstr ""
+msgstr "Pacifiko"
