@@ -3,14 +3,14 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-16 17:24+0100\n"
-"PO-Revision-Date: 2015-02-27 23:57+0000\n"
+"PO-Revision-Date: 2015-04-27 20:33+0000\n"
 "Last-Translator: Indrit Bashkimi <indrit.bashkimi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-02-28 06:41+0000\n"
-"X-Generator: Launchpad (build 17361)\n"
+"X-Launchpad-Export-Date: 2015-04-28 05:51+0000\n"
+"X-Generator: Launchpad (build 17453)\n"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:3
@@ -3074,15 +3074,15 @@ msgstr ""
 
 #: ../src//Plug.vala:60
 msgid "Time Format:"
-msgstr ""
+msgstr "Formati i orës:"
 
 #: ../src//Plug.vala:63
 msgid "24h"
-msgstr ""
+msgstr "24 orë"
 
 #: ../src//Plug.vala:64
 msgid "AM/PM"
-msgstr ""
+msgstr "PD/MD"
 
 #: ../src//Plug.vala:72
 msgid "Time Zone:"
@@ -3090,11 +3090,11 @@ msgstr ""
 
 #: ../src//Plug.vala:276
 msgid "Network Time"
-msgstr ""
+msgstr "Ora nga interneti"
 
 #: ../src//Plug.vala:277
 msgid "Time"
-msgstr ""
+msgstr "Ora"
 
 #: ../src//Plug.vala:278
 msgid "Date"
@@ -3106,7 +3106,7 @@ msgstr ""
 
 #: ../src//Plug.vala:280
 msgid "Time Format"
-msgstr ""
+msgstr "Formati i Orës"
 
 #: ../src//TZPopover.vala:56
 msgid "Africa"
