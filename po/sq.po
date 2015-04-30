@@ -1,16 +1,18 @@
+# Indrit Bashkimi <indrit.bashkimi@gmail.com>, 2015.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-16 17:24+0100\n"
-"PO-Revision-Date: 2015-04-28 17:47+0000\n"
+"PO-Revision-Date: 2015-04-29 06:54+0000\n"
 "Last-Translator: Indrit Bashkimi <indrit.bashkimi@gmail.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language-Team: sq\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-04-29 05:46+0000\n"
+"X-Launchpad-Export-Date: 2015-04-30 05:34+0000\n"
 "X-Generator: Launchpad (build 17453)\n"
+"Language: sq\n"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:3
@@ -245,7 +247,7 @@ msgstr "Mendoza (MZ)"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:95
 msgid "America/Argentina/San_Luis"
-msgstr ""
+msgstr "Amerikë/Argjentinë/San_Luis"
 
 #. /Translators: Comment for Timezone America/Argentina/San_Luis
 #: ../src//Translations.vala:97
@@ -295,7 +297,7 @@ msgstr ""
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:115
 msgid "Antarctica/Macquarie"
-msgstr ""
+msgstr "Antarktidë/Macquarie"
 
 #. /Translators: Comment for Timezone Antarctica/Macquarie
 #: ../src//Translations.vala:117
@@ -3086,7 +3088,7 @@ msgstr "PD/MD"
 
 #: ../src//Plug.vala:72
 msgid "Time Zone:"
-msgstr ""
+msgstr "Zona kohore:"
 
 #: ../src//Plug.vala:276
 msgid "Network Time"
@@ -3102,7 +3104,7 @@ msgstr "Data"
 
 #: ../src//Plug.vala:279
 msgid "Time Zone"
-msgstr ""
+msgstr "Zona kohore"
 
 #: ../src//Plug.vala:280
 msgid "Time Format"
@@ -3110,32 +3112,32 @@ msgstr "Formati i orës"
 
 #: ../src//TZPopover.vala:56
 msgid "Africa"
-msgstr ""
+msgstr "Afrikë"
 
 #: ../src//TZPopover.vala:58
 msgid "America"
-msgstr ""
+msgstr "Amerikë"
 
 #: ../src//TZPopover.vala:60
 msgid "Antarctica"
-msgstr ""
+msgstr "Antarktidë"
 
 #: ../src//TZPopover.vala:62
 msgid "Asia"
-msgstr ""
+msgstr "Azi"
 
 #: ../src//TZPopover.vala:64
 msgid "Atlantic"
-msgstr ""
+msgstr "Atlantik"
 
 #: ../src//TZPopover.vala:66
 msgid "Europe"
-msgstr ""
+msgstr "Evropë"
 
 #: ../src//TZPopover.vala:68
 msgid "Indian"
-msgstr ""
+msgstr "Indian"
 
 #: ../src//TZPopover.vala:70
 msgid "Pacific"
-msgstr ""
+msgstr "Paqësor"
