@@ -47,7 +47,7 @@ public class DateTime.Plug : Switchboard.Plug {
 
             var network_time_label = new Gtk.Label (_("Network Time:"));
             network_time_label.use_markup = true;
-            network_time_label.xalign = 1;
+            ((Gtk.Misc) network_time_label).xalign = 1;
             var network_time_switch = new Gtk.Switch ();
 
             var switch_grid = new Gtk.Grid ();
@@ -58,7 +58,7 @@ public class DateTime.Plug : Switchboard.Plug {
             var date_picker = new Granite.Widgets.DatePicker ();
 
             var time_format_label = new Gtk.Label (_("Time Format:"));
-            time_format_label.xalign = 1;
+            ((Gtk.Misc) time_format_label).xalign = 1;
             var time_format_combobox = new Gtk.ComboBoxText ();
             time_format_combobox.append ("24h", _("24h"));
             time_format_combobox.append ("ampm", _("AM/PM"));
@@ -70,7 +70,7 @@ public class DateTime.Plug : Switchboard.Plug {
             }
 
             var time_zone_label = new Gtk.Label (_("Time Zone:"));
-            time_zone_label.xalign = 1;
+            ((Gtk.Misc) time_zone_label).xalign = 1;
             var time_zone_button = new Gtk.Button ();
             var time_zone_grid = new Gtk.Grid ();
             time_zone_grid.column_spacing = 5;
