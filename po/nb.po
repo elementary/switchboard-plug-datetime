@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-16 17:24+0100\n"
-"PO-Revision-Date: 2015-04-05 03:58+0000\n"
-"Last-Translator: kingu <comradekingu@gmail.com>\n"
+"PO-Revision-Date: 2015-08-31 18:32+0000\n"
+"Last-Translator: ProsjektX <Unknown>\n"
 "Language-Team: Norwegian Bokmal <nb@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-08-05 06:03+0000\n"
-"X-Generator: Launchpad (build 17656)\n"
+"X-Launchpad-Export-Date: 2015-09-01 05:40+0000\n"
+"X-Generator: Launchpad (build 17690)\n"
 "Language: nb\n"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
@@ -3124,11 +3124,11 @@ msgstr ""
 
 #: ../src//TZPopover.vala:60
 msgid "Antarctica"
-msgstr ""
+msgstr "Antarktis"
 
 #: ../src//TZPopover.vala:62
 msgid "Asia"
-msgstr ""
+msgstr "Asia"
 
 #: ../src//TZPopover.vala:64
 msgid "Atlantic"
@@ -3136,11 +3136,11 @@ msgstr ""
 
 #: ../src//TZPopover.vala:66
 msgid "Europe"
-msgstr ""
+msgstr "Europa"
 
 #: ../src//TZPopover.vala:68
 msgid "Indian"
-msgstr ""
+msgstr "Indisk"
 
 #: ../src//TZPopover.vala:70
 msgid "Pacific"
