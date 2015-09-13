@@ -38,8 +38,6 @@ add_definitions (-DGETTEXT_PACKAGE=\"${GETTEXT_PACKAGE}\")
 add_definitions (-w)
 
 # Files
-install (FILES "${CMAKE_CURRENT_SOURCE_DIR}/data/pantheon-plug-datetime.desktop" DESTINATION "${CMAKE_INSTALL_FULL_DATAROOTDIR}/applications")
-# Files
 file (GLOB images "${CMAKE_CURRENT_SOURCE_DIR}/data/images/*")
 install (FILES ${images} DESTINATION ${PKGDATADIR}/images/)
 
