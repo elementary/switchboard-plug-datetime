@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-16 17:24+0100\n"
-"PO-Revision-Date: 2015-10-21 18:03+0000\n"
-"Last-Translator: Yuly Nesterov <crow@rikka.io>\n"
+"PO-Revision-Date: 2015-10-22 23:20+0000\n"
+"Last-Translator: Maxim Taranov <png2378@protonmail.ch>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-10-22 05:56+0000\n"
+"X-Launchpad-Export-Date: 2015-10-23 05:51+0000\n"
 "X-Generator: Launchpad (build 17812)\n"
 "Language: ru\n"
 
@@ -2384,7 +2384,7 @@ msgstr "Азия/Владивосток"
 #. /Translators: Comment for Timezone Asia/Vladivostok
 #: ../src//Translations.vala:951
 msgid "Moscow+07 - Amur River"
-msgstr "Москва+07 - Амур"
+msgstr "Москва (+07) - Амур"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:953
@@ -2926,7 +2926,7 @@ msgstr "Америка/Анкоридж"
 #. /Translators: Comment for Timezone America/Anchorage
 #: ../src//Translations.vala:1169
 msgid "Alaska Time"
-msgstr "Аляска время"
+msgstr "Аляска"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src//Translations.vala:1171
