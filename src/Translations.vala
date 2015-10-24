@@ -274,11 +274,11 @@ _("Newfoundland Time, including SE Labrador");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("America/Halifax");
 ///Translators: Comment for Timezone America/Halifax
-_("Atlantic Time - Nova Scotia (most places), PEI");
+_("Atlantic Time - Nova Scotia (peninsula), PEI");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("America/Glace_Bay");
 ///Translators: Comment for Timezone America/Glace_Bay
-_("Atlantic Time - Nova Scotia - places that did not observe DST 1966-1971");
+_("Atlantic Time - Nova Scotia (Cape Breton)");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("America/Moncton");
 ///Translators: Comment for Timezone America/Moncton
@@ -363,6 +363,10 @@ _("Mountain Standard Time - Creston, British Columbia");
 _("America/Dawson_Creek");
 ///Translators: Comment for Timezone America/Dawson_Creek
 _("Mountain Standard Time - Dawson Creek & Fort Saint John, British Columbia");
+///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
+_("America/Fort_Nelson");
+///Translators: Comment for Timezone America/Fort_Nelson
+_("Mountain Standard Time - Fort Nelson, British Columbia");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("America/Vancouver");
 ///Translators: Comment for Timezone America/Vancouver
@@ -738,7 +742,7 @@ _("Central Time - most locations");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("America/Cancun");
 ///Translators: Comment for Timezone America/Cancun
-_("Central Time - Quintana Roo");
+_("Eastern Standard Time - Quintana Roo");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("America/Merida");
 ///Translators: Comment for Timezone America/Merida
