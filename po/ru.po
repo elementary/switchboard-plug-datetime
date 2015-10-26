@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-24 12:21+0200\n"
-"PO-Revision-Date: 2015-10-24 15:36+0000\n"
-"Last-Translator: Yuly Nesterov <crow@rikka.io>\n"
+"PO-Revision-Date: 2015-10-25 15:49+0000\n"
+"Last-Translator: zEvilz <zevilz13@gmail.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-10-25 05:47+0000\n"
+"X-Launchpad-Export-Date: 2015-10-26 05:26+0000\n"
 "X-Generator: Launchpad (build 17812)\n"
 "Language: ru\n"
 
@@ -44,11 +44,11 @@ msgstr "Европа"
 
 #: ../src/TZPopover.vala:68
 msgid "Indian"
-msgstr "Индийский"
+msgstr "Индийский океан"
 
 #: ../src/TZPopover.vala:70
 msgid "Pacific"
-msgstr "Тихоокеанское"
+msgstr "Океания"
 
 #: ../src/Plug.vala:35
 msgid "Date & Time"
@@ -60,7 +60,7 @@ msgstr "Панель настройки даты и времени"
 
 #: ../src/Plug.vala:48
 msgid "Network Time:"
-msgstr "Время сети:"
+msgstr "Синхронизация с интернетом:"
 
 #: ../src/Plug.vala:60
 msgid "Time Format:"
@@ -363,7 +363,7 @@ msgstr "Архипелаг Огненная Земля (TF)"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:107
 msgid "Pacific/Pago_Pago"
-msgstr "Тихий океан/Паго_Паго"
+msgstr "Океания/Паго_Паго"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:109
@@ -850,7 +850,7 @@ msgstr "Америка/Нипигон"
 msgid ""
 "Eastern Time - Ontario & Quebec - places that did not observe DST 1967-1973"
 msgstr ""
-"осточное время - Онтарио и Квебек - где не учитывается дневной стандарт 1967-"
+"Восточное время - Онтарио и Квебек - не учитывается дневной стандарт 1967-"
 "1973"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
@@ -927,7 +927,7 @@ msgstr "Центральное время - Манитоба и западный
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:331
 msgid "America/Rainy_River"
-msgstr "Америка/река_Рейни"
+msgstr "Америка/Рейни_Ривер"
 
 #. /Translators: Comment for Timezone America/Rainy_River
 #: ../src/Translations.vala:333
@@ -947,7 +947,7 @@ msgstr "Центральное стандартное время - Саскач�
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:339
 msgid "America/Swift_Current"
-msgstr "Америка/Суифт-Каррент"
+msgstr "Америка/Свифт_Каррент"
 
 #. /Translators: Comment for Timezone America/Swift_Current
 #: ../src/Translations.vala:341
@@ -1003,7 +1003,7 @@ msgstr "Америка/Крестон"
 #. /Translators: Comment for Timezone America/Creston
 #: ../src/Translations.vala:361
 msgid "Mountain Standard Time - Creston, British Columbia"
-msgstr "UTC -7:00 - Крестон, Британская Колумбия"
+msgstr "UTC (-7:00) - Крестон, Британская Колумбия"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:363
@@ -1060,7 +1060,7 @@ msgstr "Тихоокеанское время - северный Юкон"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:383
 msgid "Indian/Cocos"
-msgstr "Индия/Кокосовые_острова"
+msgstr "Индийский_океан/Кокосовые_острова"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:385
@@ -1105,7 +1105,7 @@ msgstr "Африка/Абиджан"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:401
 msgid "Pacific/Rarotonga"
-msgstr "Тихий океан/Раротонга"
+msgstr "Океания/Раротонга"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:403
@@ -1132,7 +1132,7 @@ msgstr "основная часть"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:407
 msgid "Pacific/Easter"
-msgstr "Тихий океан/Остров_Пасхи"
+msgstr "Океания/Остров_Пасхи"
 
 #. /Translators: Comment for Timezone Pacific/Easter
 #: ../src/Translations.vala:409
@@ -1192,7 +1192,7 @@ msgstr "Америка/Кюрасао"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:431
 msgid "Indian/Christmas"
-msgstr "Индия/Остров_Рождества"
+msgstr "Индийский_океан/Остров_Рождества"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:433
@@ -1260,7 +1260,7 @@ msgstr "материк"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:459
 msgid "Pacific/Galapagos"
-msgstr "Тихий океан/Галапагоские_острова"
+msgstr "Океания/Галапагосские_острова"
 
 #. /Translators: Comment for Timezone Pacific/Galapagos
 #: ../src/Translations.vala:461
@@ -1305,7 +1305,7 @@ msgstr "Сеута и Мелилла"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:479
 msgid "Atlantic/Canary"
-msgstr "Атлантический океан/Канары"
+msgstr "Атлантика/Канарские_острова"
 
 #. /Translators: Comment for Timezone Atlantic/Canary
 #: ../src/Translations.vala:481
@@ -1325,17 +1325,17 @@ msgstr "Европа/Хельсинки"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:487
 msgid "Pacific/Fiji"
-msgstr "Тихий океан/Фиджи"
+msgstr "Океания/Фиджи"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:489
 msgid "Atlantic/Stanley"
-msgstr "Атлантический океан/Фолклендские_острова"
+msgstr "Атлантика/Фолклендские_острова"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:491
 msgid "Pacific/Chuuk"
-msgstr "Тихий океан/Чуук"
+msgstr "Океания/Чуук"
 
 #. /Translators: Comment for Timezone Pacific/Chuuk
 #: ../src/Translations.vala:493
@@ -1345,7 +1345,7 @@ msgstr "Чуук (Трук) и Яп"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:495
 msgid "Pacific/Pohnpei"
-msgstr "Тихий океан/Понпеи"
+msgstr "Океания/Понпеи"
 
 #. /Translators: Comment for Timezone Pacific/Pohnpei
 #: ../src/Translations.vala:497
@@ -1355,7 +1355,7 @@ msgstr "Понпеи (Понапе)"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:499
 msgid "Pacific/Kosrae"
-msgstr "Тихий океан/Кусаие"
+msgstr "Океания/Кусаие"
 
 #. /Translators: Comment for Timezone Pacific/Kosrae
 #: ../src/Translations.vala:501
@@ -1365,7 +1365,7 @@ msgstr "Косрае"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:503
 msgid "Atlantic/Faroe"
-msgstr "Атлантический океан/Фарерские_острова"
+msgstr "Атлантика/Фарерские_острова"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:505
@@ -1425,7 +1425,7 @@ msgstr "Америка/Денмаркшавн"
 #. /Translators: Comment for Timezone America/Danmarkshavn
 #: ../src/Translations.vala:529
 msgid "east coast, north of Scoresbysund"
-msgstr "востоное побережье, север Скорсбизунд"
+msgstr "восточное побережье, север Скорсбизунд"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:531
@@ -1475,7 +1475,7 @@ msgstr "Европа/Афины"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:549
 msgid "Atlantic/South_Georgia"
-msgstr "Атлантический океан/Южная_Георгия"
+msgstr "Атлантика/Южная_Георгия"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:551
@@ -1485,7 +1485,7 @@ msgstr "Америка/Гватемала"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:553
 msgid "Pacific/Guam"
-msgstr "Тихий океан/Гуам"
+msgstr "Океания/Гуам"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:555
@@ -1603,7 +1603,7 @@ msgstr "Азия/Тегеран"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:599
 msgid "Atlantic/Reykjavik"
-msgstr "Атлантический океан/Рейкявик"
+msgstr "Атлантика/Рейкьявик"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:601
@@ -1648,7 +1648,7 @@ msgstr "Азия/Пномпень"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:617
 msgid "Pacific/Tarawa"
-msgstr "Тихий океан/Тарава"
+msgstr "Океания/Тарава"
 
 #. /Translators: Comment for Timezone Pacific/Tarawa
 #: ../src/Translations.vala:619
@@ -1668,7 +1668,7 @@ msgstr "Феникс, острова"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:625
 msgid "Pacific/Kiritimati"
-msgstr "Тихий океан/Киритимати"
+msgstr "Океания/Киритимати"
 
 #. /Translators: Comment for Timezone Pacific/Kiritimati
 #: ../src/Translations.vala:627
@@ -1833,17 +1833,17 @@ msgstr "Америка/Маригот"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:693
 msgid "Indian/Antananarivo"
-msgstr "Индия/Антананариву"
+msgstr "Индийский_океан/Антананариву"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:695
 msgid "Pacific/Majuro"
-msgstr "Тихий океан/Маджуро"
+msgstr "Океания/Маджуро"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:699
 msgid "Pacific/Kwajalein"
-msgstr "Тихий океан/Кваджалейн"
+msgstr "Океания/Кваджалейн"
 
 #. /Translators: Comment for Timezone Pacific/Kwajalein
 #: ../src/Translations.vala:701
@@ -1898,7 +1898,7 @@ msgstr "Азия/Макао"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:723
 msgid "Pacific/Saipan"
-msgstr "Тихий океан/Сайпан"
+msgstr "Океания/Сайпан"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:725
@@ -1923,12 +1923,12 @@ msgstr "Европа/Мальта"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:733
 msgid "Indian/Mauritius"
-msgstr "Индия/Маврикий"
+msgstr "Индийский_океан/Маврикий"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:735
 msgid "Indian/Maldives"
-msgstr "Индия/Мальдивская_респ"
+msgstr "Индийский_океан/Мальдивская_респ"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:737
@@ -2096,7 +2096,7 @@ msgstr "Африка/Виндхук"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:799
 msgid "Pacific/Noumea"
-msgstr "Тихий океан/Нумеа"
+msgstr "Океания/Нумеа"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:801
@@ -2106,7 +2106,7 @@ msgstr "Африка/Ниамей"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:803
 msgid "Pacific/Norfolk"
-msgstr "Тихий океан/Норфолк"
+msgstr "Океания/Norfolk"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:805
@@ -2136,22 +2136,22 @@ msgstr "Азия/Катманду"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:815
 msgid "Pacific/Nauru"
-msgstr "Тихий океан/Науру"
+msgstr "Океания/Науру"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:817
 msgid "Pacific/Niue"
-msgstr "Тихий океан/Ниуэ"
+msgstr "Океания/Ниуэ"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:819
 msgid "Pacific/Auckland"
-msgstr "Тихий океан/Окленд"
+msgstr "Океания/Окленд"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:823
 msgid "Pacific/Chatham"
-msgstr "Тихий океан/Чатем"
+msgstr "Океания/Чатем"
 
 #. /Translators: Comment for Timezone Pacific/Chatham
 #: ../src/Translations.vala:825
@@ -2176,7 +2176,7 @@ msgstr "Америка/Лима"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:833
 msgid "Pacific/Tahiti"
-msgstr "Тихий океан/Таити"
+msgstr "Океания/Таити"
 
 #. /Translators: Comment for Timezone Pacific/Tahiti
 #: ../src/Translations.vala:835
@@ -2186,7 +2186,7 @@ msgstr "Острова Общества"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:837
 msgid "Pacific/Marquesas"
-msgstr "Тихий океан/Маркизские_острова"
+msgstr "Океания/Маркизские_острова"
 
 #. /Translators: Comment for Timezone Pacific/Marquesas
 #: ../src/Translations.vala:839
@@ -2196,7 +2196,7 @@ msgstr "Маркизские острова"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:841
 msgid "Pacific/Gambier"
-msgstr "Тихий океан/Гамбье"
+msgstr "Океания/Гамбье"
 
 #. /Translators: Comment for Timezone Pacific/Gambier
 #: ../src/Translations.vala:843
@@ -2206,12 +2206,12 @@ msgstr "Острова Гамбье"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:845
 msgid "Pacific/Port_Moresby"
-msgstr "Тихий океан/Порт_Морсби"
+msgstr "Океания/Порт_Морсби"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:849
 msgid "Pacific/Bougainville"
-msgstr "Тихий океан/Бугенвиль, Папуа-Новая Гвинея"
+msgstr "Океания/Бугенвиль, Папуа-Новая Гвинея"
 
 #. /Translators: Comment for Timezone Pacific/Bougainville
 #: ../src/Translations.vala:851
@@ -2241,7 +2241,7 @@ msgstr "Америка/Микелон"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:861
 msgid "Pacific/Pitcairn"
-msgstr "Тихий океан/Острова_Питкерн"
+msgstr "Океания/Острова_Питкерн"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:863
@@ -2276,7 +2276,7 @@ msgstr "Европа/Лиссабон"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:877
 msgid "Atlantic/Madeira"
-msgstr "Атлантический океан/Мадейра"
+msgstr "Атлантика/Мадейра"
 
 #. /Translators: Comment for Timezone Atlantic/Madeira
 #: ../src/Translations.vala:879
@@ -2286,7 +2286,7 @@ msgstr "Мадейра, острова"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:881
 msgid "Atlantic/Azores"
-msgstr "Атлантический океан/Азорские_острова"
+msgstr "Атлантика/Азорские_острова"
 
 #. /Translators: Comment for Timezone Atlantic/Azores
 #: ../src/Translations.vala:883
@@ -2296,7 +2296,7 @@ msgstr "Азорские острова"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:885
 msgid "Pacific/Palau"
-msgstr "Тихий океан/Палау"
+msgstr "Океания/Палау"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:887
@@ -2311,7 +2311,7 @@ msgstr "Азия/Катар"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:891
 msgid "Indian/Reunion"
-msgstr "Индия/Реюньон"
+msgstr "Индийский_океан/Реюньон"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:893
@@ -2546,12 +2546,12 @@ msgstr "Азия/Эр-Рияд"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:985
 msgid "Pacific/Guadalcanal"
-msgstr "Тихий океан/Гуадалканал"
+msgstr "Океания/Гуадалканал"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:987
 msgid "Indian/Mahe"
-msgstr "Индия/Маэ"
+msgstr "Индийский_океан/Маэ"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:989
@@ -2571,7 +2571,7 @@ msgstr "Азия/Сингапур"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:995
 msgid "Atlantic/St_Helena"
-msgstr "Атлантический океан/Св_Елена"
+msgstr "Атлантика/Остров_Святой_Елены"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:997
@@ -2656,7 +2656,7 @@ msgstr "Африка/Нджамена"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1029
 msgid "Indian/Kerguelen"
-msgstr "Индия/Кергелен"
+msgstr "Индийский_океан/Кергелен"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1031
@@ -2676,7 +2676,7 @@ msgstr "Азия/Душанбе"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1037
 msgid "Pacific/Fakaofo"
-msgstr "Тихий океан/Факаофо"
+msgstr "Океания/Факаофо"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1039
@@ -2696,7 +2696,7 @@ msgstr "Африка/Тунис"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1045
 msgid "Pacific/Tongatapu"
-msgstr "Тихий океан/Тонгатапу"
+msgstr "Океания/Тонгатапу"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1047
@@ -2711,7 +2711,7 @@ msgstr "Америка/Порт_оф_Спейн"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1051
 msgid "Pacific/Funafuti"
-msgstr "Тихий океан/Фунафути"
+msgstr "Океания/Фунафути"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1053
@@ -2756,7 +2756,7 @@ msgstr "Африка/Кампала"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1071
 msgid "Pacific/Johnston"
-msgstr "Тихий океан/Джонстон"
+msgstr "Океания/Джонстон"
 
 #. /Translators: Comment for Timezone Pacific/Johnston
 #: ../src/Translations.vala:1073
@@ -2766,7 +2766,7 @@ msgstr "Атолл Джонстон"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1075
 msgid "Pacific/Midway"
-msgstr "Тихий океан/Мидуэй"
+msgstr "Океания/Мидуэй"
 
 #. /Translators: Comment for Timezone Pacific/Midway
 #: ../src/Translations.vala:1077
@@ -2776,7 +2776,7 @@ msgstr "Мидуэй, острова"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1079
 msgid "Pacific/Wake"
-msgstr "Тихий океан/Уэйк"
+msgstr "Океания/Уэйк"
 
 #. /Translators: Comment for Timezone Pacific/Wake
 #: ../src/Translations.vala:1081
@@ -2846,7 +2846,7 @@ msgstr "Восточное время - Индиана - округ Дейвес
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1107
 msgid "America/Indiana/Winamac"
-msgstr "Америка/Индиана/Winamac"
+msgstr "Америка/Индиана/Уинамак"
 
 #. /Translators: Comment for Timezone America/Indiana/Winamac
 #: ../src/Translations.vala:1109
@@ -2856,7 +2856,7 @@ msgstr "Восточное время - Индиана - округ Пуласк
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1111
 msgid "America/Indiana/Marengo"
-msgstr "Америка/Индиана/Marengo"
+msgstr "Америка/Индиана/Маренго"
 
 #. /Translators: Comment for Timezone America/Indiana/Marengo
 #: ../src/Translations.vala:1113
@@ -2876,7 +2876,7 @@ msgstr "Восточное время - Индиана - округ Пайк"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1119
 msgid "America/Indiana/Vevay"
-msgstr "Америка/Индиана/Vevay"
+msgstr "Америка/Индиана/Вивей"
 
 #. /Translators: Comment for Timezone America/Indiana/Vevay
 #: ../src/Translations.vala:1121
@@ -2896,7 +2896,7 @@ msgstr "Центральное время"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1127
 msgid "America/Indiana/Tell_City"
-msgstr "Америка/Индиана/Tell_City"
+msgstr "Америка/Индиана/Телл-Сити"
 
 #. /Translators: Comment for Timezone America/Indiana/Tell_City
 #: ../src/Translations.vala:1129
@@ -2906,7 +2906,7 @@ msgstr "Центральное время - Индиана - округ Перр
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1131
 msgid "America/Indiana/Knox"
-msgstr "Америка/Индиана/Knox"
+msgstr "Америка/Индиана/Нокс"
 
 #. /Translators: Comment for Timezone America/Indiana/Knox
 #: ../src/Translations.vala:1133
@@ -3043,7 +3043,7 @@ msgstr "Америка/Якутат"
 #. /Translators: Comment for Timezone America/Yakutat
 #: ../src/Translations.vala:1185
 msgid "Alaska Time - Alaska panhandle neck"
-msgstr "Аляска время - Аляска, перешеек"
+msgstr "Время Аляски - Аляска, перешеек"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1187
@@ -3053,7 +3053,7 @@ msgstr "Америка/Ном"
 #. /Translators: Comment for Timezone America/Nome
 #: ../src/Translations.vala:1189
 msgid "Alaska Time - west Alaska"
-msgstr "Аляска время - западная Аляска"
+msgstr "Время Аляски - Западная Аляска"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1191
@@ -3068,7 +3068,7 @@ msgstr "Алеутские острова"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1195
 msgid "Pacific/Honolulu"
-msgstr "Тихий океан/Гонолулу"
+msgstr "Океания/Гонолулу"
 
 #. /Translators: Comment for Timezone Pacific/Honolulu
 #: ../src/Translations.vala:1197
@@ -3133,17 +3133,17 @@ msgstr "Азия/Хо-Чи-Мин"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1221
 msgid "Pacific/Efate"
-msgstr "Тихий океан/Эфате"
+msgstr "Океания/Эфате"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1223
 msgid "Pacific/Wallis"
-msgstr "Тихий океан/Уоллис"
+msgstr "Океания/Уоллис"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1225
 msgid "Pacific/Apia"
-msgstr "Тихий океан/Апиа"
+msgstr "Океания/Апиа"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1227
@@ -3153,7 +3153,7 @@ msgstr "Азия/Аден"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1229
 msgid "Indian/Mayotte"
-msgstr "Индия/Майотта"
+msgstr "Индийский_океан/Майотта"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1231

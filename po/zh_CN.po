@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-24 12:21+0200\n"
-"PO-Revision-Date: 2015-03-19 12:56+0000\n"
+"PO-Revision-Date: 2015-10-25 12:48+0000\n"
 "Last-Translator: colindemian <dengmengpc@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <zh_CN@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-10-25 05:48+0000\n"
+"X-Launchpad-Export-Date: 2015-10-26 05:26+0000\n"
 "X-Generator: Launchpad (build 17812)\n"
 "Language: \n"
 
@@ -786,7 +786,7 @@ msgstr "美洲/哈利法克斯"
 #. /Translators: Comment for Timezone America/Halifax
 #: ../src/Translations.vala:277
 msgid "Atlantic Time - Nova Scotia (peninsula), PEI"
-msgstr ""
+msgstr "大西洋时间 - 新斯科舍(半岛), PEI"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:279
@@ -796,7 +796,7 @@ msgstr "美洲/格莱斯湾"
 #. /Translators: Comment for Timezone America/Glace_Bay
 #: ../src/Translations.vala:281
 msgid "Atlantic Time - Nova Scotia (Cape Breton)"
-msgstr ""
+msgstr "大西洋时间 - 新斯科舍(布雷顿角)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:283
@@ -1013,12 +1013,12 @@ msgstr "山地标准时间 - 道生克里克和圣约翰堡，不列颠哥伦比
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:367
 msgid "America/Fort_Nelson"
-msgstr ""
+msgstr "北美洲/纳尔逊堡"
 
 #. /Translators: Comment for Timezone America/Fort_Nelson
 #: ../src/Translations.vala:369
 msgid "Mountain Standard Time - Fort Nelson, British Columbia"
-msgstr ""
+msgstr "山地时间 - 纳尔逊堡, 不列颠哥伦比亚"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:371
@@ -1944,7 +1944,7 @@ msgstr "美洲/坎昆"
 #. /Translators: Comment for Timezone America/Cancun
 #: ../src/Translations.vala:745
 msgid "Eastern Standard Time - Quintana Roo"
-msgstr ""
+msgstr "东部标准时间 - 金塔纳罗奥州"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:747
