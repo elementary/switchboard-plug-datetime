@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-24 12:21+0200\n"
-"PO-Revision-Date: 2015-10-29 22:38+0000\n"
-"Last-Translator: Yulia Poyarkova <Unknown>\n"
+"PO-Revision-Date: 2015-10-30 11:59+0000\n"
+"Last-Translator: Maxim Taranov <png2378@protonmail.ch>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-10-30 05:36+0000\n"
+"X-Launchpad-Export-Date: 2015-10-31 05:36+0000\n"
 "X-Generator: Launchpad (build 17838)\n"
 "Language: ru\n"
 
@@ -2104,7 +2104,7 @@ msgstr "Африка/Ниамей"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:803
 msgid "Pacific/Norfolk"
-msgstr "Океания/Norfolk"
+msgstr "Океания/Норфолк"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:805
