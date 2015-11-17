@@ -3,94 +3,94 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-24 12:21+0200\n"
-"PO-Revision-Date: 2014-12-16 18:07+0000\n"
-"Last-Translator: George Machitidze <giomac@gmail.com>\n"
+"PO-Revision-Date: 2015-11-16 18:31+0000\n"
+"Last-Translator: Beqa Arabuli <arabulibeqa@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-10-25 05:46+0000\n"
-"X-Generator: Launchpad (build 17812)\n"
+"X-Launchpad-Export-Date: 2015-11-17 05:55+0000\n"
+"X-Generator: Launchpad (build 17847)\n"
 
 #: ../src/TZPopover.vala:56
 msgid "Africa"
-msgstr ""
+msgstr "აფრიკა"
 
 #: ../src/TZPopover.vala:58
 msgid "America"
-msgstr ""
+msgstr "ამერიკა"
 
 #: ../src/TZPopover.vala:60
 msgid "Antarctica"
-msgstr ""
+msgstr "ანტარქტიკა"
 
 #: ../src/TZPopover.vala:62
 msgid "Asia"
-msgstr ""
+msgstr "აზია"
 
 #: ../src/TZPopover.vala:64
 msgid "Atlantic"
-msgstr ""
+msgstr "ატლანტიკა"
 
 #: ../src/TZPopover.vala:66
 msgid "Europe"
-msgstr ""
+msgstr "ევროპა"
 
 #: ../src/TZPopover.vala:68
 msgid "Indian"
-msgstr ""
+msgstr "ინდოეთის ოკეანე"
 
 #: ../src/TZPopover.vala:70
 msgid "Pacific"
-msgstr ""
+msgstr "წყნარი ოკეანე"
 
 #: ../src/Plug.vala:35
 msgid "Date & Time"
-msgstr ""
+msgstr "თარიღი & დრო"
 
 #: ../src/Plug.vala:36
 msgid "Date and Time preferences panel"
-msgstr ""
+msgstr "თარიღის და დროის პარამეტრების პანელი"
 
 #: ../src/Plug.vala:48
 msgid "Network Time:"
-msgstr ""
+msgstr "ქსელის დრო:"
 
 #: ../src/Plug.vala:60
 msgid "Time Format:"
-msgstr ""
+msgstr "დროის ფორმატი:"
 
 #: ../src/Plug.vala:63
 msgid "24h"
-msgstr ""
+msgstr "24ს"
 
 #: ../src/Plug.vala:64
 msgid "AM/PM"
-msgstr ""
+msgstr "AM/PM"
 
 #: ../src/Plug.vala:72
 msgid "Time Zone:"
-msgstr ""
+msgstr "სასაათო სარტყელი:"
 
 #: ../src/Plug.vala:277
 msgid "Network Time"
-msgstr ""
+msgstr "ქსელის დრო"
 
 #: ../src/Plug.vala:278
 msgid "Time"
-msgstr ""
+msgstr "დრო"
 
 #: ../src/Plug.vala:279
 msgid "Date"
-msgstr ""
+msgstr "თარიღი"
 
 #: ../src/Plug.vala:280
 msgid "Time Zone"
-msgstr ""
+msgstr "სასაათო სარტყელი"
 
 #: ../src/Plug.vala:281
 msgid "Time Format"
-msgstr ""
+msgstr "დროის ფორმატი"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:3
@@ -110,17 +110,17 @@ msgstr "აზია/ქაბული"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:9
 msgid "America/Antigua"
-msgstr ""
+msgstr "ამერიკა/ანტიგუა"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:11
 msgid "America/Anguilla"
-msgstr ""
+msgstr "ამერიკა/ანგილია"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:13
 msgid "Europe/Tirane"
-msgstr ""
+msgstr "ევროპა/ტირანა"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:15
@@ -130,107 +130,107 @@ msgstr "აზია/ერევანი"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:17
 msgid "Africa/Luanda"
-msgstr ""
+msgstr "აფრიკა/ლუანდა"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:19
 msgid "Antarctica/McMurdo"
-msgstr ""
+msgstr "ანტარქტიკა/მაკ-მერდო"
 
 #. /Translators: Comment for Timezone Antarctica/McMurdo
 #: ../src/Translations.vala:21
 msgid "McMurdo, South Pole, Scott (New Zealand time)"
-msgstr ""
+msgstr "მაკ-მერდო, სამხრეთი პოლუსი, სკოტი (ახალი ზელანდიის დრო)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:23
 msgid "Antarctica/Rothera"
-msgstr ""
+msgstr "ანტარქტიკა/როთერა"
 
 #. /Translators: Comment for Timezone Antarctica/Rothera
 #: ../src/Translations.vala:25
 msgid "Rothera Station, Adelaide Island"
-msgstr ""
+msgstr "როთერას სადგური, კუნძული ადელაიდა"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:27
 msgid "Antarctica/Palmer"
-msgstr ""
+msgstr "ანტარქტიკა/პალმერი"
 
 #. /Translators: Comment for Timezone Antarctica/Palmer
 #: ../src/Translations.vala:29
 msgid "Palmer Station, Anvers Island"
-msgstr ""
+msgstr "პალმერის სადგური, კუნძული ანვერსი"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:31
 msgid "Antarctica/Mawson"
-msgstr ""
+msgstr "ანტარქტიკა/მოუსონი"
 
 #. /Translators: Comment for Timezone Antarctica/Mawson
 #: ../src/Translations.vala:33
 msgid "Mawson Station, Holme Bay"
-msgstr ""
+msgstr "მოუსონის სადგური, ჰოლმის ყურე"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:35
 msgid "Antarctica/Davis"
-msgstr ""
+msgstr "ანტარქტიკა/დევისი"
 
 #. /Translators: Comment for Timezone Antarctica/Davis
 #: ../src/Translations.vala:37
 msgid "Davis Station, Vestfold Hills"
-msgstr ""
+msgstr "დევისის სადგური, ვესთფოლდ ჰილსი"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:39
 msgid "Antarctica/Casey"
-msgstr ""
+msgstr "ანტარქტიკა/კეისი"
 
 #. /Translators: Comment for Timezone Antarctica/Casey
 #: ../src/Translations.vala:41
 msgid "Casey Station, Bailey Peninsula"
-msgstr ""
+msgstr "კეისის სადგური, ბეილის ნახევარკუნძული"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:43
 msgid "Antarctica/Vostok"
-msgstr ""
+msgstr "ანტარქტიკა/ვოსტოკი"
 
 #. /Translators: Comment for Timezone Antarctica/Vostok
 #: ../src/Translations.vala:45
 msgid "Vostok Station, Lake Vostok"
-msgstr ""
+msgstr "ვოსტოკის სადგური, ვოსტოკის ტბა"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:47
 msgid "Antarctica/DumontDUrville"
-msgstr ""
+msgstr "ანტარქტიკა/დიუმონ-დურვილი"
 
 #. /Translators: Comment for Timezone Antarctica/DumontDUrville
 #: ../src/Translations.vala:49
 msgid "Dumont-d'Urville Station, Adelie Land"
-msgstr ""
+msgstr "დიუმონ-დურვილის სადგური, ადელის მიწა"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:51
 msgid "Antarctica/Syowa"
-msgstr ""
+msgstr "ანტარქტიკა/სეოვა"
 
 #. /Translators: Comment for Timezone Antarctica/Syowa
 #: ../src/Translations.vala:53
 msgid "Syowa Station, E Ongul I"
-msgstr ""
+msgstr "სეოვას სადგური, ე ონგულ ი"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:55
 msgid "Antarctica/Troll"
-msgstr ""
+msgstr "ანტარქტიკა/ტროლი"
 
 #. /Translators: Comment for Timezone Antarctica/Troll
 #: ../src/Translations.vala:57
 msgid "Troll Station, Queen Maud Land"
-msgstr ""
+msgstr "ტროლის სადგური, ქუინ მაუდ ლენდი"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:59
@@ -240,67 +240,67 @@ msgstr "ამერიკა/არგენტინა/ბუენოს_ა
 #. /Translators: Comment for Timezone America/Argentina/Buenos_Aires
 #: ../src/Translations.vala:61
 msgid "Buenos Aires (BA, CF)"
-msgstr ""
+msgstr "ბუენოს-აირესი (BA, CF)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:63
 msgid "America/Argentina/Cordoba"
-msgstr ""
+msgstr "ამერიკა/არგენტინა/კორდობა"
 
 #. /Translators: Comment for Timezone America/Argentina/Cordoba
 #: ../src/Translations.vala:65
 msgid "most locations (CB, CC, CN, ER, FM, MN, SE, SF)"
-msgstr ""
+msgstr "მდებარეობების უმეტესობა (CB, CC, CN, ER, FM, MN, SE, SF)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:67
 msgid "America/Argentina/Salta"
-msgstr ""
+msgstr "ამერიკა/არგენტინა/სალტა"
 
 #. /Translators: Comment for Timezone America/Argentina/Salta
 #: ../src/Translations.vala:69
 msgid "(SA, LP, NQ, RN)"
-msgstr ""
+msgstr "(SA, LP, NQ, RN)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:71
 msgid "America/Argentina/Jujuy"
-msgstr ""
+msgstr "ამერიკა/არგენტინა/ჯუჯუი"
 
 #. /Translators: Comment for Timezone America/Argentina/Jujuy
 #: ../src/Translations.vala:73
 msgid "Jujuy (JY)"
-msgstr ""
+msgstr "ჯუჯუი (JY)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:75
 msgid "America/Argentina/Tucuman"
-msgstr ""
+msgstr "ამერიკა/არგენტინა/ტუკუმენი"
 
 #. /Translators: Comment for Timezone America/Argentina/Tucuman
 #: ../src/Translations.vala:77
 msgid "Tucuman (TM)"
-msgstr ""
+msgstr "ტუკუმენი (TM)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:79
 msgid "America/Argentina/Catamarca"
-msgstr ""
+msgstr "ამერიკა/არგენტინა/კატამარკა"
 
 #. /Translators: Comment for Timezone America/Argentina/Catamarca
 #: ../src/Translations.vala:81
 msgid "Catamarca (CT), Chubut (CH)"
-msgstr ""
+msgstr "კატამარკა (CT), ჩუბუტი (CH)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:83
 msgid "America/Argentina/La_Rioja"
-msgstr ""
+msgstr "ამერიკა/არგენტინა/ლა-რიოჰა"
 
 #. /Translators: Comment for Timezone America/Argentina/La_Rioja
 #: ../src/Translations.vala:85
 msgid "La Rioja (LR)"
-msgstr ""
+msgstr "ლა-რიოჰა (LR)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:87
@@ -355,7 +355,7 @@ msgstr ""
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:107
 msgid "Pacific/Pago_Pago"
-msgstr ""
+msgstr "წყნარი ოკეანე/პაგო-პაგო"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:109
@@ -365,12 +365,12 @@ msgstr "ევროპა/ვენა"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:111
 msgid "Australia/Lord_Howe"
-msgstr ""
+msgstr "ავსტრალია/ლორდ-ჰაუ"
 
 #. /Translators: Comment for Timezone Australia/Lord_Howe
 #: ../src/Translations.vala:113
 msgid "Lord Howe Island"
-msgstr ""
+msgstr "კუნძული ლორდ-ჰოუ"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:115
@@ -385,7 +385,7 @@ msgstr ""
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:119
 msgid "Australia/Hobart"
-msgstr ""
+msgstr "ავსტრალია/ჰობარტი"
 
 #. /Translators: Comment for Timezone Australia/Hobart
 #: ../src/Translations.vala:121
@@ -3127,24 +3127,24 @@ msgstr ""
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1227
 msgid "Asia/Aden"
-msgstr ""
+msgstr "აზია/ადენი"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1229
 msgid "Indian/Mayotte"
-msgstr ""
+msgstr "ინდოეთის ოკეანე/მაიოტი"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1231
 msgid "Africa/Johannesburg"
-msgstr ""
+msgstr "აფრიკა/იოჰანესბურგი"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1233
 msgid "Africa/Lusaka"
-msgstr ""
+msgstr "აფრიკა/ლუსაკა"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1235
 msgid "Africa/Harare"
-msgstr ""
+msgstr "აფრიკა/ჰარარე"
