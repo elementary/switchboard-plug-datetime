@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-power\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2015-10-24 12:21+0200\n"
-"PO-Revision-Date: 2015-02-25 09:50+0000\n"
-"Last-Translator: Tomo Moto <Unknown>\n"
+"PO-Revision-Date: 2015-11-25 08:25+0000\n"
+"Last-Translator: Petr Dombek <dombek@oblati.cz>\n"
 "Language-Team: German <de@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-10-25 05:46+0000\n"
-"X-Generator: Launchpad (build 17812)\n"
+"X-Launchpad-Export-Date: 2015-11-26 05:37+0000\n"
+"X-Generator: Launchpad (build 17850)\n"
 
 #: ../src/TZPopover.vala:56
 msgid "Africa"
@@ -71,7 +71,7 @@ msgstr "24h"
 
 #: ../src/Plug.vala:64
 msgid "AM/PM"
-msgstr ""
+msgstr "12hodinový"
 
 #: ../src/Plug.vala:72
 msgid "Time Zone:"
@@ -145,7 +145,7 @@ msgstr "Antarktis/McMurdo"
 #. /Translators: Comment for Timezone Antarctica/McMurdo
 #: ../src/Translations.vala:21
 msgid "McMurdo, South Pole, Scott (New Zealand time)"
-msgstr ""
+msgstr "McMurdo, Jižní pól, Scott (Nový Zéland)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:23
@@ -205,7 +205,7 @@ msgstr "Antarktis/Vostok"
 #. /Translators: Comment for Timezone Antarctica/Vostok
 #: ../src/Translations.vala:45
 msgid "Vostok Station, Lake Vostok"
-msgstr ""
+msgstr "Polární stanice Vostok, jezero Vostok"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:47
@@ -215,7 +215,7 @@ msgstr "Antarktis/DumontDUrville"
 #. /Translators: Comment for Timezone Antarctica/DumontDUrville
 #: ../src/Translations.vala:49
 msgid "Dumont-d'Urville Station, Adelie Land"
-msgstr ""
+msgstr "Polární stanice Dumont d'Urville, Adélina země"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:51
@@ -230,12 +230,12 @@ msgstr "Syowa Station, E Ongul I"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:55
 msgid "Antarctica/Troll"
-msgstr ""
+msgstr "Antarktida, Troll"
 
 #. /Translators: Comment for Timezone Antarctica/Troll
 #: ../src/Translations.vala:57
 msgid "Troll Station, Queen Maud Land"
-msgstr ""
+msgstr "Polární stanice Troll, Země královny Maud"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:59
@@ -385,7 +385,7 @@ msgstr "Antarktida/Macquarie"
 #. /Translators: Comment for Timezone Antarctica/Macquarie
 #: ../src/Translations.vala:117
 msgid "Macquarie Island"
-msgstr ""
+msgstr "Ostrov Macquarie"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:119
@@ -580,7 +580,7 @@ msgstr "Amerika/La_Paz"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:195
 msgid "America/Kralendijk"
-msgstr ""
+msgstr "Amerika, Kralendijk"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:197
