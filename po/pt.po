@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-24 12:21+0200\n"
-"PO-Revision-Date: 2014-12-26 19:57+0000\n"
+"PO-Revision-Date: 2015-11-29 22:45+0000\n"
 "Last-Translator: Pedro Monteiro <Unknown>\n"
 "Language-Team: Portuguese <pt@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-10-25 05:47+0000\n"
-"X-Generator: Launchpad (build 17812)\n"
+"X-Launchpad-Export-Date: 2015-11-30 05:34+0000\n"
+"X-Generator: Launchpad (build 17850)\n"
 "Language: pt\n"
 
 #: ../src/TZPopover.vala:56
@@ -786,7 +786,7 @@ msgstr "América/Halifax"
 #. /Translators: Comment for Timezone America/Halifax
 #: ../src/Translations.vala:277
 msgid "Atlantic Time - Nova Scotia (peninsula), PEI"
-msgstr ""
+msgstr "Atlantic Time - Nova Scotia (peninsula), PEI"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:279
@@ -796,7 +796,7 @@ msgstr "América/Glace_Bay"
 #. /Translators: Comment for Timezone America/Glace_Bay
 #: ../src/Translations.vala:281
 msgid "Atlantic Time - Nova Scotia (Cape Breton)"
-msgstr ""
+msgstr "Atlantic Time - Nova Scotia (Cape Breton)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:283
@@ -1017,12 +1017,12 @@ msgstr ""
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:367
 msgid "America/Fort_Nelson"
-msgstr ""
+msgstr "America/Fort_Nelson"
 
 #. /Translators: Comment for Timezone America/Fort_Nelson
 #: ../src/Translations.vala:369
 msgid "Mountain Standard Time - Fort Nelson, British Columbia"
-msgstr ""
+msgstr "Mountain Standard Time - Fort Nelson, British Columbia"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:371
@@ -1949,7 +1949,7 @@ msgstr "América/Cancun"
 #. /Translators: Comment for Timezone America/Cancun
 #: ../src/Translations.vala:745
 msgid "Eastern Standard Time - Quintana Roo"
-msgstr ""
+msgstr "Eastern Standard Time - Quintana Roo"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:747
