@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-24 12:21+0200\n"
-"PO-Revision-Date: 2015-07-27 20:34+0000\n"
+"PO-Revision-Date: 2015-12-11 10:21+0000\n"
 "Last-Translator: Nazar <n.suhovich@gmail.com>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-10-25 05:48+0000\n"
-"X-Generator: Launchpad (build 17812)\n"
+"X-Launchpad-Export-Date: 2015-12-12 05:59+0000\n"
+"X-Generator: Launchpad (build 17865)\n"
 "Language: uk\n"
 
 #: ../src/TZPopover.vala:56
@@ -48,7 +48,7 @@ msgstr "Індійська"
 
 #: ../src/TZPopover.vala:70
 msgid "Pacific"
-msgstr ""
+msgstr "Тихоокеанський"
 
 #: ../src/Plug.vala:35
 msgid "Date & Time"
@@ -1001,7 +1001,7 @@ msgstr "Америка/Крестон"
 #. /Translators: Comment for Timezone America/Creston
 #: ../src/Translations.vala:361
 msgid "Mountain Standard Time - Creston, British Columbia"
-msgstr ""
+msgstr "Гірський стандартний час - Крестон, Британська Колумбія"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:363
@@ -1135,7 +1135,7 @@ msgstr "Тихий океан/Острів Пасхи"
 #. /Translators: Comment for Timezone Pacific/Easter
 #: ../src/Translations.vala:409
 msgid "Easter Island"
-msgstr ""
+msgstr "Острів Пасхи"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:411
@@ -1150,7 +1150,7 @@ msgstr "Азія/Шанхай"
 #. /Translators: Comment for Timezone Asia/Shanghai
 #: ../src/Translations.vala:415
 msgid "Beijing Time"
-msgstr ""
+msgstr "Пекінський час"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:417
@@ -1160,7 +1160,7 @@ msgstr "Азія/Urumqi"
 #. /Translators: Comment for Timezone Asia/Urumqi
 #: ../src/Translations.vala:419
 msgid "Xinjiang Time"
-msgstr ""
+msgstr "Синьцзянський час"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:421
@@ -1210,12 +1210,12 @@ msgstr "Європа/Берлін"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:441
 msgid "Europe/Busingen"
-msgstr ""
+msgstr "Європа/Бюзінген-ам-Гохрайн"
 
 #. /Translators: Comment for Timezone Europe/Busingen
 #: ../src/Translations.vala:443
 msgid "Busingen"
-msgstr ""
+msgstr "Бюзінген-ам-Гохрайн"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:445
@@ -1333,22 +1333,22 @@ msgstr "Атлантика/Стенлі"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:491
 msgid "Pacific/Chuuk"
-msgstr ""
+msgstr "Тихоокеанський/Чуук"
 
 #. /Translators: Comment for Timezone Pacific/Chuuk
 #: ../src/Translations.vala:493
 msgid "Chuuk (Truk) and Yap"
-msgstr ""
+msgstr "Чуук (Трук) і Яп"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:495
 msgid "Pacific/Pohnpei"
-msgstr ""
+msgstr "Тихоокеанський/Понпеї"
 
 #. /Translators: Comment for Timezone Pacific/Pohnpei
 #: ../src/Translations.vala:497
 msgid "Pohnpei (Ponape)"
-msgstr ""
+msgstr "Понпеї (Понапе)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:499
@@ -1550,6 +1550,8 @@ msgstr "Азія/Макассар"
 msgid ""
 "east & south Borneo, Sulawesi (Celebes), Bali, Nusa Tengarra, west Timor"
 msgstr ""
+"східний і південний Калімантан (Борнео), Сулавесі (Целебес), Балі, Нуса, "
+"західний Тимор"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:581
@@ -1559,7 +1561,7 @@ msgstr "Азія/Jayapura"
 #. /Translators: Comment for Timezone Asia/Jayapura
 #: ../src/Translations.vala:583
 msgid "west New Guinea (Irian Jaya) & Malukus (Moluccas)"
-msgstr ""
+msgstr "Західне Папуа (Іріан-Джая) і Молуккські острови"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:585
@@ -2053,12 +2055,12 @@ msgstr ""
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:783
 msgid "America/Bahia_Banderas"
-msgstr ""
+msgstr "Америка/Бахія Бандерас"
 
 #. /Translators: Comment for Timezone America/Bahia_Banderas
 #: ../src/Translations.vala:785
 msgid "Mexican Central Time - Bahia de Banderas"
-msgstr ""
+msgstr "Мексиканський центральний час - Бахія Бандерас"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:787
@@ -2208,12 +2210,12 @@ msgstr "Тихий океан/Port_Moresby"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:849
 msgid "Pacific/Bougainville"
-msgstr ""
+msgstr "Тихоокеанський/Бугенвіль"
 
 #. /Translators: Comment for Timezone Pacific/Bougainville
 #: ../src/Translations.vala:851
 msgid "Bougainville"
-msgstr ""
+msgstr "Бугенвіль"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:853
@@ -2253,17 +2255,17 @@ msgstr "Азія/Газа"
 #. /Translators: Comment for Timezone Asia/Gaza
 #: ../src/Translations.vala:867
 msgid "Gaza Strip"
-msgstr ""
+msgstr "Сектор Гази"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:869
 msgid "Asia/Hebron"
-msgstr ""
+msgstr "Азія/Хеврон"
 
 #. /Translators: Comment for Timezone Asia/Hebron
 #: ../src/Translations.vala:871
 msgid "West Bank"
-msgstr ""
+msgstr "Західний берег ріки Йордан"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:873
@@ -2613,7 +2615,7 @@ msgstr "Америка/Paramaribo"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1013
 msgid "Africa/Juba"
-msgstr ""
+msgstr "Африка/Джуба"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1015
@@ -2628,7 +2630,7 @@ msgstr "Америка/Ель-Сальвадор"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1019
 msgid "America/Lower_Princes"
-msgstr ""
+msgstr "Америка/Лоувер Прінсес"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1021
@@ -2945,12 +2947,12 @@ msgstr "Центральний час - Північна Дакота - Окру
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1147
 msgid "America/North_Dakota/Beulah"
-msgstr ""
+msgstr "Америка/Північна Дакота/Беула"
 
 #. /Translators: Comment for Timezone America/North_Dakota/Beulah
 #: ../src/Translations.vala:1149
 msgid "Central Time - North Dakota - Mercer County"
-msgstr ""
+msgstr "Центральний час - Північна Дакота - Округ Мерсер"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1151
@@ -2980,7 +2982,7 @@ msgstr "Америка/Фенікс"
 #. /Translators: Comment for Timezone America/Phoenix
 #: ../src/Translations.vala:1161
 msgid "Mountain Standard Time - Arizona (except Navajo)"
-msgstr ""
+msgstr "Гірський стандартний час - Аризона (крім Навахо)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1163
@@ -2995,12 +2997,12 @@ msgstr "Тихоокеанський час"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1167
 msgid "America/Metlakatla"
-msgstr ""
+msgstr "Америка/Метлакатла"
 
 #. /Translators: Comment for Timezone America/Metlakatla
 #: ../src/Translations.vala:1169
 msgid "Pacific Standard Time - Annette Island, Alaska"
-msgstr ""
+msgstr "Тихоокеанський стандартний час - Острів Анетт, Аляска"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1171
@@ -3025,12 +3027,12 @@ msgstr "Аляска"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1179
 msgid "America/Sitka"
-msgstr ""
+msgstr "Америка/Сітка"
 
 #. /Translators: Comment for Timezone America/Sitka
 #: ../src/Translations.vala:1181
 msgid "Alaska Time - southeast Alaska panhandle"
-msgstr ""
+msgstr "Час Аляски - Південно-Східна Аляска"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1183
