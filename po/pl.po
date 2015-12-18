@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-24 12:21+0200\n"
-"PO-Revision-Date: 2015-12-07 13:31+0000\n"
+"PO-Revision-Date: 2015-12-17 15:43+0000\n"
 "Last-Translator: Piotr Strębski <strebski@o2.pl>\n"
 "Language-Team: Polish <pl@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-12-08 05:51+0000\n"
-"X-Generator: Launchpad (build 17862)\n"
+"X-Launchpad-Export-Date: 2015-12-18 05:53+0000\n"
+"X-Generator: Launchpad (build 17865)\n"
 "Language: pl\n"
 
 #: ../src/TZPopover.vala:56
@@ -788,7 +788,7 @@ msgstr "Ameryka/Halifax"
 #. /Translators: Comment for Timezone America/Halifax
 #: ../src/Translations.vala:277
 msgid "Atlantic Time - Nova Scotia (peninsula), PEI"
-msgstr ""
+msgstr "Czas atlantycki - Nowa Szkocja (półwysep), PEI"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:279
@@ -798,7 +798,7 @@ msgstr "Ameryka/Glace_Bay"
 #. /Translators: Comment for Timezone America/Glace_Bay
 #: ../src/Translations.vala:281
 msgid "Atlantic Time - Nova Scotia (Cape Breton)"
-msgstr ""
+msgstr "Czas atlantycki - Nowa Szkocja (Cape Breton)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:283
@@ -1025,7 +1025,7 @@ msgstr "Ameryka/Fort_Nelson"
 #. /Translators: Comment for Timezone America/Fort_Nelson
 #: ../src/Translations.vala:369
 msgid "Mountain Standard Time - Fort Nelson, British Columbia"
-msgstr ""
+msgstr "Czas górski - Fort Nelson, Kolumbia Brytyjska"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:371
@@ -1552,6 +1552,8 @@ msgstr "Azja/Makassar"
 msgid ""
 "east & south Borneo, Sulawesi (Celebes), Bali, Nusa Tengarra, west Timor"
 msgstr ""
+"Wschodnie i południowe Borneo, Sulawesi (Celebes), Bali, Małe Wyspy "
+"Sundajskie, Timor zachodni"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:581
@@ -1561,7 +1563,7 @@ msgstr "Azja/Jayapura"
 #. /Translators: Comment for Timezone Asia/Jayapura
 #: ../src/Translations.vala:583
 msgid "west New Guinea (Irian Jaya) & Malukus (Moluccas)"
-msgstr ""
+msgstr "Zachodnia Nowa Gwinea (Irian Zachodni) i Moluki (Malukus)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:585
@@ -1951,7 +1953,7 @@ msgstr "Ameryka/Cancun"
 #. /Translators: Comment for Timezone America/Cancun
 #: ../src/Translations.vala:745
 msgid "Eastern Standard Time - Quintana Roo"
-msgstr ""
+msgstr "Czas wschodni - Quintana Roo"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:747
@@ -2375,7 +2377,7 @@ msgstr "Europa/Samara"
 #. /Translators: Comment for Timezone Europe/Samara
 #: ../src/Translations.vala:915
 msgid "Moscow+00 (Moscow+01 after 2014-10-26) - Samara, Udmurtia"
-msgstr ""
+msgstr "Moskwa+00 (Moskwa+01po 26.10.2014) - Samara, Udmurcja"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:917
@@ -2415,7 +2417,7 @@ msgstr "Azja/Nowokuźnieck"
 #. /Translators: Comment for Timezone Asia/Novokuznetsk
 #: ../src/Translations.vala:931
 msgid "Moscow+03 (Moscow+04 after 2014-10-26) - Kemerovo"
-msgstr ""
+msgstr "Moskwa+03 (Moskwa+04 po 26.10.2014) - Kemerowo"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:933
@@ -2445,7 +2447,7 @@ msgstr "Azja/Czyta"
 #. /Translators: Comment for Timezone Asia/Chita
 #: ../src/Translations.vala:943
 msgid "Moscow+06 (Moscow+05 after 2014-10-26) - Zabaykalsky"
-msgstr ""
+msgstr "Moskwa+06 (Moskwa+05 po 26.10.2014) - Kraj Zabajkalski"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:945
@@ -2465,7 +2467,7 @@ msgstr "Azja/Chandyga"
 #. /Translators: Comment for Timezone Asia/Khandyga
 #: ../src/Translations.vala:951
 msgid "Moscow+06 - Tomponsky, Ust-Maysky"
-msgstr ""
+msgstr "Moskwa+06 - Ułus tompoński, Ułus ust'-majski"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:953
@@ -2505,7 +2507,7 @@ msgstr "Azja/Magadan"
 #. /Translators: Comment for Timezone Asia/Magadan
 #: ../src/Translations.vala:967
 msgid "Moscow+08 (Moscow+07 after 2014-10-26) - Magadan"
-msgstr ""
+msgstr "Moskwa+08 (Mokwa+07 po 26.10.2014) - Magadan"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:969
@@ -2515,7 +2517,7 @@ msgstr "Azja/Sriedniekołymsk"
 #. /Translators: Comment for Timezone Asia/Srednekolymsk
 #: ../src/Translations.vala:971
 msgid "Moscow+08 - E Sakha, N Kuril Is"
-msgstr ""
+msgstr "Moskwa+08 - Jakucja Wschodnia, Północne Wyspy Kurylskie"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:973
@@ -2525,7 +2527,7 @@ msgstr "Azja/Kamczatka"
 #. /Translators: Comment for Timezone Asia/Kamchatka
 #: ../src/Translations.vala:975
 msgid "Moscow+08 (Moscow+09 after 2014-10-26) - Kamchatka"
-msgstr ""
+msgstr "Moskwa+08 (Moskwa+09 po 26.10.2014) - Kamczatka"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:977
@@ -2535,7 +2537,7 @@ msgstr "Azja/Anadyr"
 #. /Translators: Comment for Timezone Asia/Anadyr
 #: ../src/Translations.vala:979
 msgid "Moscow+08 (Moscow+09 after 2014-10-26) - Bering Sea"
-msgstr ""
+msgstr "Moskwa+08 (Moskwa+09 po 26.10.2014) - Morze Beringa"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:981
@@ -2635,7 +2637,7 @@ msgstr "Ameryka/Salwador"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1019
 msgid "America/Lower_Princes"
-msgstr ""
+msgstr "Ameryka/Lower_Prince's_Quarter"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1021
@@ -2953,12 +2955,12 @@ msgstr ""
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1147
 msgid "America/North_Dakota/Beulah"
-msgstr ""
+msgstr "Ameryka/Dakota_Północna/Beulah"
 
 #. /Translators: Comment for Timezone America/North_Dakota/Beulah
 #: ../src/Translations.vala:1149
 msgid "Central Time - North Dakota - Mercer County"
-msgstr ""
+msgstr "Czas centralny - Dakota Północna - Hrabstwo Mercer"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1151
@@ -2988,7 +2990,7 @@ msgstr "Ameryka/Phoenix"
 #. /Translators: Comment for Timezone America/Phoenix
 #: ../src/Translations.vala:1161
 msgid "Mountain Standard Time - Arizona (except Navajo)"
-msgstr ""
+msgstr "Czas górski - Arizona (z wyjątkiem Navajo)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1163
@@ -3008,7 +3010,7 @@ msgstr "Ameryka/Metlakatla"
 #. /Translators: Comment for Timezone America/Metlakatla
 #: ../src/Translations.vala:1169
 msgid "Pacific Standard Time - Annette Island, Alaska"
-msgstr ""
+msgstr "Czas pacyficzny - Wyspa Annette, Alaska"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1171
@@ -3038,7 +3040,7 @@ msgstr "Ameryka/Sitka"
 #. /Translators: Comment for Timezone America/Sitka
 #: ../src/Translations.vala:1181
 msgid "Alaska Time - southeast Alaska panhandle"
-msgstr ""
+msgstr "Czas alaskański - Alaska południowowschodnia"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1183
