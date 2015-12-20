@@ -33,7 +33,7 @@ public class DateTime.Plug : Switchboard.Plug {
         Object (category: Category.SYSTEM,
             code_name: "system-pantheon-datetime",
             display_name: _("Date & Time"),
-            description: _("Date and Time preferences panel"),
+            description: _("Configure date, time, and select time zone"),
             icon: "preferences-system-time");
     }
 
