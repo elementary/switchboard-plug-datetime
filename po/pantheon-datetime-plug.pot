@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-24 12:21+0200\n"
+"POT-Creation-Date: 2015-12-21 12:21-0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,44 +17,12 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../src/TZPopover.vala:56
-msgid "Africa"
-msgstr ""
-
-#: ../src/TZPopover.vala:58
-msgid "America"
-msgstr ""
-
-#: ../src/TZPopover.vala:60
-msgid "Antarctica"
-msgstr ""
-
-#: ../src/TZPopover.vala:62
-msgid "Asia"
-msgstr ""
-
-#: ../src/TZPopover.vala:64
-msgid "Atlantic"
-msgstr ""
-
-#: ../src/TZPopover.vala:66
-msgid "Europe"
-msgstr ""
-
-#: ../src/TZPopover.vala:68
-msgid "Indian"
-msgstr ""
-
-#: ../src/TZPopover.vala:70
-msgid "Pacific"
-msgstr ""
-
 #: ../src/Plug.vala:35
 msgid "Date & Time"
 msgstr ""
 
 #: ../src/Plug.vala:36
-msgid "Date and Time preferences panel"
+msgid "Configure date, time, and select time zone"
 msgstr ""
 
 #: ../src/Plug.vala:48
@@ -3151,4 +3119,36 @@ msgstr ""
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1235
 msgid "Africa/Harare"
+msgstr ""
+
+#: ../src/TZPopover.vala:56
+msgid "Africa"
+msgstr ""
+
+#: ../src/TZPopover.vala:58
+msgid "America"
+msgstr ""
+
+#: ../src/TZPopover.vala:60
+msgid "Antarctica"
+msgstr ""
+
+#: ../src/TZPopover.vala:62
+msgid "Asia"
+msgstr ""
+
+#: ../src/TZPopover.vala:64
+msgid "Atlantic"
+msgstr ""
+
+#: ../src/TZPopover.vala:66
+msgid "Europe"
+msgstr ""
+
+#: ../src/TZPopover.vala:68
+msgid "Indian"
+msgstr ""
+
+#: ../src/TZPopover.vala:70
+msgid "Pacific"
 msgstr ""
