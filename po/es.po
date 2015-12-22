@@ -7,56 +7,24 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-24 12:21+0200\n"
+"POT-Creation-Date: 2015-12-21 12:21-0200\n"
 "PO-Revision-Date: 2015-04-10 22:24+0000\n"
 "Last-Translator: Adolfo Jayme <fitoschido@gmail.com>\n"
 "Language-Team: Spanish <es@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-10-25 05:47+0000\n"
-"X-Generator: Launchpad (build 17812)\n"
+"X-Launchpad-Export-Date: 2015-12-22 05:13+0000\n"
+"X-Generator: Launchpad (build 17865)\n"
 "Language: es\n"
-
-#: ../src/TZPopover.vala:56
-msgid "Africa"
-msgstr "África"
-
-#: ../src/TZPopover.vala:58
-msgid "America"
-msgstr "América"
-
-#: ../src/TZPopover.vala:60
-msgid "Antarctica"
-msgstr "Antártida"
-
-#: ../src/TZPopover.vala:62
-msgid "Asia"
-msgstr "Asia"
-
-#: ../src/TZPopover.vala:64
-msgid "Atlantic"
-msgstr "Atlántico"
-
-#: ../src/TZPopover.vala:66
-msgid "Europe"
-msgstr "Europa"
-
-#: ../src/TZPopover.vala:68
-msgid "Indian"
-msgstr "Índico"
-
-#: ../src/TZPopover.vala:70
-msgid "Pacific"
-msgstr "Pacífico"
 
 #: ../src/Plug.vala:35
 msgid "Date & Time"
 msgstr "Fecha y hora"
 
 #: ../src/Plug.vala:36
-msgid "Date and Time preferences panel"
-msgstr "Panel de preferencias de fecha y hora"
+msgid "Configure date, time, and select time zone"
+msgstr ""
 
 #: ../src/Plug.vala:48
 msgid "Network Time:"
@@ -3171,3 +3139,35 @@ msgstr "África/Lusaka"
 #: ../src/Translations.vala:1235
 msgid "Africa/Harare"
 msgstr "África/Harare"
+
+#: ../src/TZPopover.vala:56
+msgid "Africa"
+msgstr "África"
+
+#: ../src/TZPopover.vala:58
+msgid "America"
+msgstr "América"
+
+#: ../src/TZPopover.vala:60
+msgid "Antarctica"
+msgstr "Antártida"
+
+#: ../src/TZPopover.vala:62
+msgid "Asia"
+msgstr "Asia"
+
+#: ../src/TZPopover.vala:64
+msgid "Atlantic"
+msgstr "Atlántico"
+
+#: ../src/TZPopover.vala:66
+msgid "Europe"
+msgstr "Europa"
+
+#: ../src/TZPopover.vala:68
+msgid "Indian"
+msgstr "Índico"
+
+#: ../src/TZPopover.vala:70
+msgid "Pacific"
+msgstr "Pacífico"

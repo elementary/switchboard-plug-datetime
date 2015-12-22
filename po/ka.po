@@ -2,55 +2,23 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-24 12:21+0200\n"
+"POT-Creation-Date: 2015-12-21 12:21-0200\n"
 "PO-Revision-Date: 2015-11-16 18:31+0000\n"
 "Last-Translator: Beqa Arabuli <arabulibeqa@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-11-17 05:55+0000\n"
-"X-Generator: Launchpad (build 17847)\n"
-
-#: ../src/TZPopover.vala:56
-msgid "Africa"
-msgstr "აფრიკა"
-
-#: ../src/TZPopover.vala:58
-msgid "America"
-msgstr "ამერიკა"
-
-#: ../src/TZPopover.vala:60
-msgid "Antarctica"
-msgstr "ანტარქტიკა"
-
-#: ../src/TZPopover.vala:62
-msgid "Asia"
-msgstr "აზია"
-
-#: ../src/TZPopover.vala:64
-msgid "Atlantic"
-msgstr "ატლანტიკა"
-
-#: ../src/TZPopover.vala:66
-msgid "Europe"
-msgstr "ევროპა"
-
-#: ../src/TZPopover.vala:68
-msgid "Indian"
-msgstr "ინდოეთის ოკეანე"
-
-#: ../src/TZPopover.vala:70
-msgid "Pacific"
-msgstr "წყნარი ოკეანე"
+"X-Launchpad-Export-Date: 2015-12-22 05:12+0000\n"
+"X-Generator: Launchpad (build 17865)\n"
 
 #: ../src/Plug.vala:35
 msgid "Date & Time"
 msgstr "თარიღი & დრო"
 
 #: ../src/Plug.vala:36
-msgid "Date and Time preferences panel"
-msgstr "თარიღის და დროის პარამეტრების პანელი"
+msgid "Configure date, time, and select time zone"
+msgstr ""
 
 #: ../src/Plug.vala:48
 msgid "Network Time:"
@@ -3148,3 +3116,35 @@ msgstr "აფრიკა/ლუსაკა"
 #: ../src/Translations.vala:1235
 msgid "Africa/Harare"
 msgstr "აფრიკა/ჰარარე"
+
+#: ../src/TZPopover.vala:56
+msgid "Africa"
+msgstr "აფრიკა"
+
+#: ../src/TZPopover.vala:58
+msgid "America"
+msgstr "ამერიკა"
+
+#: ../src/TZPopover.vala:60
+msgid "Antarctica"
+msgstr "ანტარქტიკა"
+
+#: ../src/TZPopover.vala:62
+msgid "Asia"
+msgstr "აზია"
+
+#: ../src/TZPopover.vala:64
+msgid "Atlantic"
+msgstr "ატლანტიკა"
+
+#: ../src/TZPopover.vala:66
+msgid "Europe"
+msgstr "ევროპა"
+
+#: ../src/TZPopover.vala:68
+msgid "Indian"
+msgstr "ინდოეთის ოკეანე"
+
+#: ../src/TZPopover.vala:70
+msgid "Pacific"
+msgstr "წყნარი ოკეანე"

@@ -7,56 +7,24 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-24 12:21+0200\n"
+"POT-Creation-Date: 2015-12-21 12:21-0200\n"
 "PO-Revision-Date: 2015-10-25 12:48+0000\n"
 "Last-Translator: colindemian <dengmengpc@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <zh_CN@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-10-26 05:26+0000\n"
-"X-Generator: Launchpad (build 17812)\n"
+"X-Launchpad-Export-Date: 2015-12-22 05:13+0000\n"
+"X-Generator: Launchpad (build 17865)\n"
 "Language: \n"
-
-#: ../src/TZPopover.vala:56
-msgid "Africa"
-msgstr "非洲"
-
-#: ../src/TZPopover.vala:58
-msgid "America"
-msgstr "美洲"
-
-#: ../src/TZPopover.vala:60
-msgid "Antarctica"
-msgstr "南极洲"
-
-#: ../src/TZPopover.vala:62
-msgid "Asia"
-msgstr "亚洲"
-
-#: ../src/TZPopover.vala:64
-msgid "Atlantic"
-msgstr "大西洋"
-
-#: ../src/TZPopover.vala:66
-msgid "Europe"
-msgstr "欧洲"
-
-#: ../src/TZPopover.vala:68
-msgid "Indian"
-msgstr "印度洋"
-
-#: ../src/TZPopover.vala:70
-msgid "Pacific"
-msgstr "太平洋"
 
 #: ../src/Plug.vala:35
 msgid "Date & Time"
 msgstr "日期和时间"
 
 #: ../src/Plug.vala:36
-msgid "Date and Time preferences panel"
-msgstr "日期和时间首选项面板"
+msgid "Configure date, time, and select time zone"
+msgstr ""
 
 #: ../src/Plug.vala:48
 msgid "Network Time:"
@@ -3154,3 +3122,35 @@ msgstr "非洲/卢萨卡"
 #: ../src/Translations.vala:1235
 msgid "Africa/Harare"
 msgstr "非洲/哈拉雷"
+
+#: ../src/TZPopover.vala:56
+msgid "Africa"
+msgstr "非洲"
+
+#: ../src/TZPopover.vala:58
+msgid "America"
+msgstr "美洲"
+
+#: ../src/TZPopover.vala:60
+msgid "Antarctica"
+msgstr "南极洲"
+
+#: ../src/TZPopover.vala:62
+msgid "Asia"
+msgstr "亚洲"
+
+#: ../src/TZPopover.vala:64
+msgid "Atlantic"
+msgstr "大西洋"
+
+#: ../src/TZPopover.vala:66
+msgid "Europe"
+msgstr "欧洲"
+
+#: ../src/TZPopover.vala:68
+msgid "Indian"
+msgstr "印度洋"
+
+#: ../src/TZPopover.vala:70
+msgid "Pacific"
+msgstr "太平洋"

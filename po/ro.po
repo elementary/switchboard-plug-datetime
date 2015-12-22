@@ -7,55 +7,23 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-24 12:21+0200\n"
+"POT-Creation-Date: 2015-12-21 12:21-0200\n"
 "PO-Revision-Date: 2014-12-16 18:20+0000\n"
 "Last-Translator: MIrcea Daniel <Unknown>\n"
 "Language-Team: Romanian <ro@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-10-25 05:47+0000\n"
-"X-Generator: Launchpad (build 17812)\n"
+"X-Launchpad-Export-Date: 2015-12-22 05:13+0000\n"
+"X-Generator: Launchpad (build 17865)\n"
 "Language: ro\n"
-
-#: ../src/TZPopover.vala:56
-msgid "Africa"
-msgstr ""
-
-#: ../src/TZPopover.vala:58
-msgid "America"
-msgstr ""
-
-#: ../src/TZPopover.vala:60
-msgid "Antarctica"
-msgstr ""
-
-#: ../src/TZPopover.vala:62
-msgid "Asia"
-msgstr ""
-
-#: ../src/TZPopover.vala:64
-msgid "Atlantic"
-msgstr ""
-
-#: ../src/TZPopover.vala:66
-msgid "Europe"
-msgstr ""
-
-#: ../src/TZPopover.vala:68
-msgid "Indian"
-msgstr ""
-
-#: ../src/TZPopover.vala:70
-msgid "Pacific"
-msgstr ""
 
 #: ../src/Plug.vala:35
 msgid "Date & Time"
 msgstr ""
 
 #: ../src/Plug.vala:36
-msgid "Date and Time preferences panel"
+msgid "Configure date, time, and select time zone"
 msgstr ""
 
 #: ../src/Plug.vala:48
@@ -3154,3 +3122,35 @@ msgstr "Africa/Lusaka"
 #: ../src/Translations.vala:1235
 msgid "Africa/Harare"
 msgstr "Africa/Harare"
+
+#: ../src/TZPopover.vala:56
+msgid "Africa"
+msgstr ""
+
+#: ../src/TZPopover.vala:58
+msgid "America"
+msgstr ""
+
+#: ../src/TZPopover.vala:60
+msgid "Antarctica"
+msgstr ""
+
+#: ../src/TZPopover.vala:62
+msgid "Asia"
+msgstr ""
+
+#: ../src/TZPopover.vala:64
+msgid "Atlantic"
+msgstr ""
+
+#: ../src/TZPopover.vala:66
+msgid "Europe"
+msgstr ""
+
+#: ../src/TZPopover.vala:68
+msgid "Indian"
+msgstr ""
+
+#: ../src/TZPopover.vala:70
+msgid "Pacific"
+msgstr ""
