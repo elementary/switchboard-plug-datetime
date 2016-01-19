@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-datetime\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2015-12-21 12:21-0200\n"
-"PO-Revision-Date: 2014-12-16 19:16+0000\n"
+"PO-Revision-Date: 2016-01-19 00:48+0000\n"
 "Last-Translator: Corentin Noël <corentin@elementaryos.org>\n"
 "Language-Team: French <fr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-12-22 05:12+0000\n"
-"X-Generator: Launchpad (build 17865)\n"
+"X-Launchpad-Export-Date: 2016-01-19 05:53+0000\n"
+"X-Generator: Launchpad (build 17886)\n"
 
 #: ../src/Plug.vala:35
 msgid "Date & Time"
@@ -23,7 +23,7 @@ msgstr "Date & Heure"
 
 #: ../src/Plug.vala:36
 msgid "Configure date, time, and select time zone"
-msgstr ""
+msgstr "Configurer la date, l'heure et sélectionner le fuseau horaire"
 
 #: ../src/Plug.vala:48
 msgid "Network Time:"
@@ -754,7 +754,7 @@ msgstr "Amérique/Halifax"
 #. /Translators: Comment for Timezone America/Halifax
 #: ../src/Translations.vala:277
 msgid "Atlantic Time - Nova Scotia (peninsula), PEI"
-msgstr ""
+msgstr "Heure de l'Atlantique - Nouvelle-Écosse (péninsule), PEI"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:279
@@ -764,7 +764,7 @@ msgstr "Amérique/Glace_Bay"
 #. /Translators: Comment for Timezone America/Glace_Bay
 #: ../src/Translations.vala:281
 msgid "Atlantic Time - Nova Scotia (Cape Breton)"
-msgstr ""
+msgstr "Heure de l'Atlantique - Nouvelle-Écosse (Île du Cap-Breton), PEI"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:283
@@ -986,12 +986,12 @@ msgstr ""
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:367
 msgid "America/Fort_Nelson"
-msgstr ""
+msgstr "Amérique/Fort Nelson"
 
 #. /Translators: Comment for Timezone America/Fort_Nelson
 #: ../src/Translations.vala:369
 msgid "Mountain Standard Time - Fort Nelson, British Columbia"
-msgstr ""
+msgstr "Heure des Montagnes - Fort Nelson, Columbie Britanique"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:371
@@ -1919,7 +1919,7 @@ msgstr "Amérique/Cancun"
 #. /Translators: Comment for Timezone America/Cancun
 #: ../src/Translations.vala:745
 msgid "Eastern Standard Time - Quintana Roo"
-msgstr ""
+msgstr "Heure de l'Est - Quintana Roo"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:747
