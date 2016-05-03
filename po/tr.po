@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-30 15:37+0400\n"
-"PO-Revision-Date: 2016-02-01 19:56+0000\n"
+"PO-Revision-Date: 2016-05-03 01:15+0000\n"
 "Last-Translator: Sadık Poyraz <sadikpoyraz01@gmail.com>\n"
 "Language-Team: Turkish <tr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-05-01 05:51+0000\n"
+"X-Launchpad-Export-Date: 2016-05-03 05:43+0000\n"
 "X-Generator: Launchpad (build 17995)\n"
 "Language: tr\n"
 
@@ -66,7 +66,7 @@ msgstr "Antartika/McMurdo"
 #. /Translators: Comment for Timezone Antarctica/McMurdo
 #: ../src/Translations.vala:21
 msgid "New Zealand time - McMurdo, South Pole"
-msgstr ""
+msgstr "Yeni Zelanda Saati - McMurdo, South Pole"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:23
@@ -76,7 +76,7 @@ msgstr "Antartika/Casey"
 #. /Translators: Comment for Timezone Antarctica/Casey
 #: ../src/Translations.vala:25
 msgid "Casey"
-msgstr ""
+msgstr "Casey"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:27
@@ -86,7 +86,7 @@ msgstr "Antartika/Davis"
 #. /Translators: Comment for Timezone Antarctica/Davis
 #: ../src/Translations.vala:29
 msgid "Davis"
-msgstr ""
+msgstr "Davis"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:31
@@ -96,7 +96,7 @@ msgstr "Antartika/DumontDUrville"
 #. /Translators: Comment for Timezone Antarctica/DumontDUrville
 #: ../src/Translations.vala:33
 msgid "Dumont-d'Urville"
-msgstr ""
+msgstr "DumontDUrville"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:35
@@ -106,7 +106,7 @@ msgstr "Antartika/Mawson"
 #. /Translators: Comment for Timezone Antarctica/Mawson
 #: ../src/Translations.vala:37
 msgid "Mawson"
-msgstr ""
+msgstr "Mawson"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:39
@@ -116,7 +116,7 @@ msgstr "Antartika/Palmer"
 #. /Translators: Comment for Timezone Antarctica/Palmer
 #: ../src/Translations.vala:41
 msgid "Palmer"
-msgstr ""
+msgstr "Palmer"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:43
@@ -126,7 +126,7 @@ msgstr "Antartika/Rothera"
 #. /Translators: Comment for Timezone Antarctica/Rothera
 #: ../src/Translations.vala:45
 msgid "Rothera"
-msgstr ""
+msgstr "Rothera"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:47
@@ -136,7 +136,7 @@ msgstr "Antartika/Syowa"
 #. /Translators: Comment for Timezone Antarctica/Syowa
 #: ../src/Translations.vala:49
 msgid "Syowa"
-msgstr ""
+msgstr "Syowa"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:51
@@ -146,7 +146,7 @@ msgstr "Antarktika/Troll"
 #. /Translators: Comment for Timezone Antarctica/Troll
 #: ../src/Translations.vala:53
 msgid "Troll"
-msgstr ""
+msgstr "Troll"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:55
@@ -156,7 +156,7 @@ msgstr "Antartika/Vostok"
 #. /Translators: Comment for Timezone Antarctica/Vostok
 #: ../src/Translations.vala:57
 msgid "Vostok"
-msgstr ""
+msgstr "Vostok"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:59
@@ -1867,7 +1867,7 @@ msgstr "Amerika/Meksiko"
 #. /Translators: Comment for Timezone America/Mexico_City
 #: ../src/Translations.vala:741
 msgid "Central Time"
-msgstr ""
+msgstr "Merkez Saati"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:743
@@ -2407,7 +2407,7 @@ msgstr ""
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:957
 msgid "Asia/Chita"
-msgstr ""
+msgstr "Asya/Chita"
 
 #. /Translators: Comment for Timezone Asia/Chita
 #: ../src/Translations.vala:959
@@ -2427,7 +2427,7 @@ msgstr ""
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:965
 msgid "Asia/Khandyga"
-msgstr ""
+msgstr "Asya/Khandyga"
 
 #. /Translators: Comment for Timezone Asia/Khandyga
 #: ../src/Translations.vala:967
@@ -2447,7 +2447,7 @@ msgstr ""
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:973
 msgid "Asia/Ust-Nera"
-msgstr ""
+msgstr "Asya/Ust-Nera"
 
 #. /Translators: Comment for Timezone Asia/Ust-Nera
 #: ../src/Translations.vala:975
@@ -2477,7 +2477,7 @@ msgstr ""
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:985
 msgid "Asia/Srednekolymsk"
-msgstr ""
+msgstr "Asya/Srednekolymsk"
 
 #. /Translators: Comment for Timezone Asia/Srednekolymsk
 #: ../src/Translations.vala:987
@@ -2587,7 +2587,7 @@ msgstr "Amerika/Paramaribo"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1029
 msgid "Africa/Juba"
-msgstr ""
+msgstr "Afrika/Juba"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1031
@@ -2602,7 +2602,7 @@ msgstr "Amerika/El_Salvador"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1035
 msgid "America/Lower_Princes"
-msgstr ""
+msgstr "Amerika/Lower_Princes"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1037
@@ -2747,7 +2747,7 @@ msgstr "Pasifik/Midway"
 #. /Translators: Comment for Timezone Pacific/Midway
 #: ../src/Translations.vala:1093
 msgid "Midway Islands"
-msgstr ""
+msgstr "Midway Adaları"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1095
@@ -2757,7 +2757,7 @@ msgstr "Pasifik/Wake"
 #. /Translators: Comment for Timezone Pacific/Wake
 #: ../src/Translations.vala:1097
 msgid "Wake Island"
-msgstr ""
+msgstr "Wake Adası"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1099
@@ -2922,7 +2922,7 @@ msgstr ""
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1163
 msgid "America/North_Dakota/Beulah"
-msgstr ""
+msgstr "Amerika/Kuzey_Dakota/Beulah"
 
 #. /Translators: Comment for Timezone America/North_Dakota/Beulah
 #: ../src/Translations.vala:1165
@@ -2967,7 +2967,7 @@ msgstr "Amerika/Los_Angeles"
 #. /Translators: Comment for Timezone America/Los_Angeles
 #: ../src/Translations.vala:1181 ../src/TZPopover.vala:70
 msgid "Pacific"
-msgstr ""
+msgstr "Pasifik"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1183
@@ -2992,7 +2992,7 @@ msgstr ""
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1191
 msgid "America/Sitka"
-msgstr ""
+msgstr "Amerika/Sitka"
 
 #. /Translators: Comment for Timezone America/Sitka
 #: ../src/Translations.vala:1193
@@ -3002,7 +3002,7 @@ msgstr ""
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1195
 msgid "America/Metlakatla"
-msgstr ""
+msgstr "Amerika/Metlakatla"
 
 #. /Translators: Comment for Timezone America/Metlakatla
 #: ../src/Translations.vala:1197
@@ -3146,35 +3146,35 @@ msgstr "Afrika/Harare"
 
 #: ../src/TZPopover.vala:56
 msgid "Africa"
-msgstr ""
+msgstr "Afrika"
 
 #: ../src/TZPopover.vala:58
 msgid "America"
-msgstr ""
+msgstr "Amerika"
 
 #: ../src/TZPopover.vala:60
 msgid "Antarctica"
-msgstr ""
+msgstr "Antartika"
 
 #: ../src/TZPopover.vala:62
 msgid "Asia"
-msgstr ""
+msgstr "Asya"
 
 #: ../src/TZPopover.vala:64
 msgid "Atlantic"
-msgstr ""
+msgstr "Atlantik"
 
 #: ../src/TZPopover.vala:66
 msgid "Europe"
-msgstr ""
+msgstr "Avrupa"
 
 #: ../src/TZPopover.vala:68
 msgid "Indian"
-msgstr ""
+msgstr "Hint"
 
 #: ../src/Plug.vala:35
 msgid "Date & Time"
-msgstr "Tarih & Zaman"
+msgstr "Tarih ve Zaman"
 
 #: ../src/Plug.vala:36
 msgid "Configure date, time, and select time zone"

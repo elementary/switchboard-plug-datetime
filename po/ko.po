@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-power\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2016-04-30 15:37+0400\n"
-"PO-Revision-Date: 2016-05-01 21:13+0000\n"
+"PO-Revision-Date: 2016-05-02 14:47+0000\n"
 "Last-Translator: Jung-Kyu Park <bagjunggyu@gmail.com>\n"
 "Language-Team: Korean <ko@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-05-02 05:47+0000\n"
+"X-Launchpad-Export-Date: 2016-05-03 05:43+0000\n"
 "X-Generator: Launchpad (build 17995)\n"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
@@ -745,7 +745,7 @@ msgstr "아메리카/블랑-사브론(Blanc-Sablon)"
 #. /Translators: Comment for Timezone America/Blanc-Sablon
 #: ../src/Translations.vala:293
 msgid "AST - QC (Lower North Shore)"
-msgstr ""
+msgstr "AST - QC (북쪽 해변 아래지역)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:295
@@ -755,7 +755,7 @@ msgstr "아메리카/토론토(Toronto)"
 #. /Translators: Comment for Timezone America/Toronto
 #: ../src/Translations.vala:297
 msgid "Eastern - ON, QC (most areas)"
-msgstr ""
+msgstr "동부(Eastern) - ON, QC (대부분의 지역)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:299
@@ -765,7 +765,7 @@ msgstr "아메리카/니피곤(Nipigon)"
 #. /Translators: Comment for Timezone America/Nipigon
 #: ../src/Translations.vala:301
 msgid "Eastern - ON, QC (no DST 1967-73)"
-msgstr ""
+msgstr "동부(Eastern) - ON, QC (no DST 1967-73)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:303
@@ -775,7 +775,7 @@ msgstr "아메리카/썬더_베이(Thunder_Bay)"
 #. /Translators: Comment for Timezone America/Thunder_Bay
 #: ../src/Translations.vala:305
 msgid "Eastern - ON (Thunder Bay)"
-msgstr ""
+msgstr "동부(Eastern) - ON (썬더 베이 - Thunder Bay)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:307
@@ -785,7 +785,7 @@ msgstr "아메리카/이칼루이트(Iqaluit)"
 #. /Translators: Comment for Timezone America/Iqaluit
 #: ../src/Translations.vala:309
 msgid "Eastern - NU (most east areas)"
-msgstr ""
+msgstr "동부(Eastern) - NU (대부분의 지역)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:311
@@ -795,7 +795,7 @@ msgstr "아메리카/팡니르텅(Pangnirtung)"
 #. /Translators: Comment for Timezone America/Pangnirtung
 #: ../src/Translations.vala:313
 msgid "Eastern - NU (Pangnirtung)"
-msgstr ""
+msgstr "동부(Eastern) - NU (팽니텅 - Pangnirtung)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:315
@@ -805,7 +805,7 @@ msgstr "아메리카/아티코칸(Atikokan)"
 #. /Translators: Comment for Timezone America/Atikokan
 #: ../src/Translations.vala:317
 msgid "EST - ON (Atikokan); NU (Coral H)"
-msgstr ""
+msgstr "EST - ON (아티코칸 - Atikokan); NU (코랄 H -Coral H)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:319
@@ -815,7 +815,7 @@ msgstr "아메리카/위니펙(Winnipeg)"
 #. /Translators: Comment for Timezone America/Winnipeg
 #: ../src/Translations.vala:321
 msgid "Central - ON (west); Manitoba"
-msgstr ""
+msgstr "중앙(Central) - ON (서부 - west); 마니토바(Manitoba)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:323
@@ -825,7 +825,7 @@ msgstr "아메리카/레이니_리버(Rainy_River)"
 #. /Translators: Comment for Timezone America/Rainy_River
 #: ../src/Translations.vala:325
 msgid "Central - ON (Rainy R, Ft Frances)"
-msgstr ""
+msgstr "중앙(Central) - ON (Rainy R, Ft Frances)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:327
@@ -835,7 +835,7 @@ msgstr "아메리카/레졸루트(Resolute)"
 #. /Translators: Comment for Timezone America/Resolute
 #: ../src/Translations.vala:329
 msgid "Central - NU (Resolute)"
-msgstr ""
+msgstr "중앙(Central) - NU (Resolute)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:331
@@ -845,7 +845,7 @@ msgstr "아메리카/란킨_인레트(Rankin_Inlet)"
 #. /Translators: Comment for Timezone America/Rankin_Inlet
 #: ../src/Translations.vala:333
 msgid "Central - NU (central)"
-msgstr ""
+msgstr "중앙(Central) - NU (센트럴 - central)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:335
@@ -855,7 +855,7 @@ msgstr "아메리카/리자이나(Regina)"
 #. /Translators: Comment for Timezone America/Regina
 #: ../src/Translations.vala:337
 msgid "CST - SK (most areas)"
-msgstr ""
+msgstr "CST - SK (대부분의 지역)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:339
@@ -865,7 +865,7 @@ msgstr "아메리카/스위프트_커런트(Swift_Current)"
 #. /Translators: Comment for Timezone America/Swift_Current
 #: ../src/Translations.vala:341
 msgid "CST - SK (midwest)"
-msgstr ""
+msgstr "CST - SK (중서부 - midwest)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:343
