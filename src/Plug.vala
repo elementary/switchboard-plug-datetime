@@ -159,8 +159,8 @@ public class DateTime.Plug : Switchboard.Plug {
              * Setup Clock Format
              */
             clock_settings = new Settings ();
-            Variant value;
-            value = clock_settings.schema.get_user_value ("clock-format");
+            Variant value; 
+            value = clock_settings.schema.get_value ("clock-format");
             if (value != null && clock_settings.clock_format == "24h") {
                 time_format_combobox.active = 0;
             } else {
