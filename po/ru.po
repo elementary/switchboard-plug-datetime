@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-30 15:37+0400\n"
-"PO-Revision-Date: 2016-04-30 19:28+0000\n"
-"Last-Translator: Yuly Nesterov <crow@rikka.io>\n"
+"PO-Revision-Date: 2016-05-07 13:36+0000\n"
+"Last-Translator: Maxim Taranov <png2378@gmail.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-05-01 05:50+0000\n"
-"X-Generator: Launchpad (build 17995)\n"
+"X-Launchpad-Export-Date: 2016-05-08 04:51+0000\n"
+"X-Generator: Launchpad (build 18025)\n"
 "Language: ru\n"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
@@ -61,7 +61,7 @@ msgstr "Африка/Луанда"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:19
 msgid "Antarctica/McMurdo"
-msgstr "Антарктида/Марк-Мердо"
+msgstr "Антарктида/Мак-Мердо"
 
 #. /Translators: Comment for Timezone Antarctica/McMurdo
 #: ../src/Translations.vala:21
@@ -316,7 +316,7 @@ msgstr "Австралия/Хобарт"
 #. /Translators: Comment for Timezone Australia/Hobart
 #: ../src/Translations.vala:121
 msgid "Tasmania (most areas)"
-msgstr "Тасмания (большинство областей)"
+msgstr "Тасмания (большинство территории)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:123
@@ -346,7 +346,7 @@ msgstr "Австралия/Сидней"
 #. /Translators: Comment for Timezone Australia/Sydney
 #: ../src/Translations.vala:133
 msgid "New South Wales (most areas)"
-msgstr "Новый Южный Уэльс (большинство областей)"
+msgstr "Новый Южный Уэльс (большинство территории)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:135
@@ -366,7 +366,7 @@ msgstr "Австралия/Брисбен"
 #. /Translators: Comment for Timezone Australia/Brisbane
 #: ../src/Translations.vala:141
 msgid "Queensland (most areas)"
-msgstr "Квинсленд (большинство областей)"
+msgstr "Квинсленд (большинство территории)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:143
@@ -406,7 +406,7 @@ msgstr "Австралия/Перт"
 #. /Translators: Comment for Timezone Australia/Perth
 #: ../src/Translations.vala:157
 msgid "Western Australia (most areas)"
-msgstr "Западная Австралия (большинство областей)"
+msgstr "Западная Австралия (большинство территории)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:159
@@ -706,7 +706,7 @@ msgstr "Америка/Галифакс"
 #. /Translators: Comment for Timezone America/Halifax
 #: ../src/Translations.vala:277
 msgid "Atlantic - NS (most areas); PE"
-msgstr "Атлантика (большинство областей) - NS; PE"
+msgstr "Атлантика (большинство территории) - NS; PE"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:279
@@ -736,7 +736,7 @@ msgstr "Америка/Гус-Бей"
 #. /Translators: Comment for Timezone America/Goose_Bay
 #: ../src/Translations.vala:289
 msgid "Atlantic - Labrador (most areas)"
-msgstr "Атлантика - Лабрадор (большинство областей)"
+msgstr "Атлантика - Лабрадор (большинство территории)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:291
@@ -756,7 +756,7 @@ msgstr "Америка/Торонто"
 #. /Translators: Comment for Timezone America/Toronto
 #: ../src/Translations.vala:297
 msgid "Eastern - ON, QC (most areas)"
-msgstr "Восточный - ON, QC (большинство областей)"
+msgstr "Восточный - ON, QC (большинство территории)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:299
@@ -856,7 +856,7 @@ msgstr "Америка/Реджайна"
 #. /Translators: Comment for Timezone America/Regina
 #: ../src/Translations.vala:337
 msgid "CST - SK (most areas)"
-msgstr "CST - SK (большинство областей)"
+msgstr "CST - SK (большинство территории)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:339
@@ -946,7 +946,7 @@ msgstr "Америка/Ванкувер"
 #. /Translators: Comment for Timezone America/Vancouver
 #: ../src/Translations.vala:373
 msgid "Pacific - BC (most areas)"
-msgstr "Тихоокенский - BC (большинство областей)"
+msgstr "Тихоокенский - BC (большинство территории)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:375
@@ -1026,7 +1026,7 @@ msgstr "Америка/Сантьяго"
 #. /Translators: Comment for Timezone America/Santiago
 #: ../src/Translations.vala:405
 msgid "Chile (most areas)"
-msgstr "Чили (большинство областей)"
+msgstr "Чили (большинство территории)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:407
@@ -1111,7 +1111,7 @@ msgstr "Европа/Берлин"
 #. /Translators: Comment for Timezone Europe/Berlin
 #: ../src/Translations.vala:439
 msgid "Germany (most areas)"
-msgstr "Германия (большинство областей)"
+msgstr "Германия (большинство территории)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:441
@@ -1326,7 +1326,7 @@ msgstr "Америка/Готхоб"
 #. /Translators: Comment for Timezone America/Godthab
 #: ../src/Translations.vala:525
 msgid "Greenland (most areas)"
-msgstr "Гренландия (большинство областей)"
+msgstr "Гренландия (большинство территории)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:527
@@ -1624,7 +1624,7 @@ msgstr "Азия/Алматы"
 #. /Translators: Comment for Timezone Asia/Almaty
 #: ../src/Translations.vala:643
 msgid "Kazakhstan (most areas)"
-msgstr "Казахстан (большинство областей)"
+msgstr "Казахстан (большинство территории)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:645
@@ -1759,7 +1759,7 @@ msgstr "Океания/Маджуро"
 #. /Translators: Comment for Timezone Pacific/Majuro
 #: ../src/Translations.vala:697
 msgid "Marshall Islands (most areas)"
-msgstr "Маршалловы Острова (большинство областей)"
+msgstr "Маршалловы Острова (большинство территории)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:699
@@ -1794,7 +1794,7 @@ msgstr "Азия/Улан-Батор"
 #. /Translators: Comment for Timezone Asia/Ulaanbaatar
 #: ../src/Translations.vala:711
 msgid "Mongolia (most areas)"
-msgstr "Монголия (большинство областей)"
+msgstr "Монголия (большинство территории)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:713
@@ -1934,7 +1934,7 @@ msgstr "Америка/Чиуауа"
 #. /Translators: Comment for Timezone America/Chihuahua
 #: ../src/Translations.vala:765
 msgid "Mountain Time - Chihuahua (most areas)"
-msgstr "Горное время - Чихуахуа (большинство областей)"
+msgstr "Горное время - Чихуахуа (большинство территории)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:767
@@ -1944,7 +1944,7 @@ msgstr "Америка/Охинага"
 #. /Translators: Comment for Timezone America/Ojinaga
 #: ../src/Translations.vala:769
 msgid "Mountain Time US - Chihuahua (US border)"
-msgstr "Горное время США - Чихуахуа (большинство областей)"
+msgstr "Горное время США - Чихуахуа (большинство территории)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:771
@@ -2064,7 +2064,7 @@ msgstr "Океания/Окленд"
 #. /Translators: Comment for Timezone Pacific/Auckland
 #: ../src/Translations.vala:817
 msgid "New Zealand (most areas)"
-msgstr "Новая Зеландия (большинство областей)"
+msgstr "Новая Зеландия (большинство территории)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:819
@@ -2129,7 +2129,7 @@ msgstr "Океания/Порт_Морсби"
 #. /Translators: Comment for Timezone Pacific/Port_Moresby
 #: ../src/Translations.vala:843
 msgid "Papua New Guinea (most areas)"
-msgstr "Папуа — Новая Гвинея (большинство областей)"
+msgstr "Папуа — Новая Гвинея (большинство территории)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:845
@@ -2709,7 +2709,7 @@ msgstr "Европа/Киев"
 #. /Translators: Comment for Timezone Europe/Kiev
 #: ../src/Translations.vala:1075
 msgid "Ukraine (most areas)"
-msgstr "Украина (большинство областей)"
+msgstr "Украина (большинство территории)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1077
@@ -2774,7 +2774,7 @@ msgstr "Америка/Нью_Йорк"
 #. /Translators: Comment for Timezone America/New_York
 #: ../src/Translations.vala:1101
 msgid "Eastern (most areas)"
-msgstr "Восточный (большинство областей)"
+msgstr "Восточный (большинство территории)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1103
@@ -2784,7 +2784,7 @@ msgstr "Америка/Детройт"
 #. /Translators: Comment for Timezone America/Detroit
 #: ../src/Translations.vala:1105
 msgid "Eastern - MI (most areas)"
-msgstr "Восточное - MI (большинство областей)"
+msgstr "Восточное - MI (большинство территории)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1107
@@ -2814,7 +2814,7 @@ msgstr "Америка/Индиана/Индианаполис"
 #. /Translators: Comment for Timezone America/Indiana/Indianapolis
 #: ../src/Translations.vala:1117
 msgid "Eastern - IN (most areas)"
-msgstr "Восточное - IN (большинство областей)"
+msgstr "Восточное - IN (большинство территории)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1119
@@ -2874,7 +2874,7 @@ msgstr "Америка/Чикаго"
 #. /Translators: Comment for Timezone America/Chicago
 #: ../src/Translations.vala:1141
 msgid "Central (most areas)"
-msgstr "Центральное (большинство областей)"
+msgstr "Центральное (большинство территории)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1143
@@ -2944,7 +2944,7 @@ msgstr "Америка/Денвер"
 #. /Translators: Comment for Timezone America/Denver
 #: ../src/Translations.vala:1169
 msgid "Mountain (most areas)"
-msgstr "Гора (большинство областей)"
+msgstr "Гора (большинство территории)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1171
@@ -2984,7 +2984,7 @@ msgstr "Америка/Анкоридж"
 #. /Translators: Comment for Timezone America/Anchorage
 #: ../src/Translations.vala:1185
 msgid "Alaska (most areas)"
-msgstr "Аляска (большинство областей)"
+msgstr "Аляска (большинство территории)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1187
