@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-30 15:37+0400\n"
-"PO-Revision-Date: 2014-12-16 17:47+0000\n"
-"Last-Translator: Alexander Todorov <Unknown>\n"
+"PO-Revision-Date: 2016-08-04 20:13+0000\n"
+"Last-Translator: Stanislav <stunito0o0o0@gmail.com>\n"
 "Language-Team: Bulgarian <bg@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-05-01 05:49+0000\n"
-"X-Generator: Launchpad (build 17995)\n"
+"X-Launchpad-Export-Date: 2016-08-05 05:45+0000\n"
+"X-Generator: Launchpad (build 18169)\n"
 "Language: bg\n"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
@@ -116,7 +116,7 @@ msgstr "Антарктика/Палмър"
 #. /Translators: Comment for Timezone Antarctica/Palmer
 #: ../src/Translations.vala:41
 msgid "Palmer"
-msgstr ""
+msgstr "Палмър"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:43
@@ -126,7 +126,7 @@ msgstr "Антарктика/Ротера"
 #. /Translators: Comment for Timezone Antarctica/Rothera
 #: ../src/Translations.vala:45
 msgid "Rothera"
-msgstr ""
+msgstr "Ротера"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:47
@@ -136,7 +136,7 @@ msgstr "Антарктика/Сиова"
 #. /Translators: Comment for Timezone Antarctica/Syowa
 #: ../src/Translations.vala:49
 msgid "Syowa"
-msgstr ""
+msgstr "Сьова"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:51
@@ -156,7 +156,7 @@ msgstr "Антарктика/Восток"
 #. /Translators: Comment for Timezone Antarctica/Vostok
 #: ../src/Translations.vala:57
 msgid "Vostok"
-msgstr ""
+msgstr "Восток"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:59
@@ -296,7 +296,7 @@ msgstr "Австралия/Лорд_Хове"
 #. /Translators: Comment for Timezone Australia/Lord_Howe
 #: ../src/Translations.vala:113
 msgid "Lord Howe Island"
-msgstr ""
+msgstr "Остров Лорд Хауи"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:115
@@ -306,7 +306,7 @@ msgstr ""
 #. /Translators: Comment for Timezone Antarctica/Macquarie
 #: ../src/Translations.vala:117
 msgid "Macquarie Island"
-msgstr ""
+msgstr "остров Макуори"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:119
@@ -316,7 +316,7 @@ msgstr "Австралия/Хобарт"
 #. /Translators: Comment for Timezone Australia/Hobart
 #: ../src/Translations.vala:121
 msgid "Tasmania (most areas)"
-msgstr ""
+msgstr "Тасмания (повечето части)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:123
@@ -326,7 +326,7 @@ msgstr "Австралия/Къри"
 #. /Translators: Comment for Timezone Australia/Currie
 #: ../src/Translations.vala:125
 msgid "Tasmania (King Island)"
-msgstr ""
+msgstr "Тасмания (остров Кинг)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:127
@@ -336,7 +336,7 @@ msgstr "Австралия/Мелбърн"
 #. /Translators: Comment for Timezone Australia/Melbourne
 #: ../src/Translations.vala:129
 msgid "Victoria"
-msgstr ""
+msgstr "Виктория"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:131
