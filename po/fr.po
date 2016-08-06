@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-datetime\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2016-04-30 15:37+0400\n"
-"PO-Revision-Date: 2016-06-17 15:18+0000\n"
-"Last-Translator: Corentin Noël <corentin@elementaryos.org>\n"
+"PO-Revision-Date: 2016-08-05 17:31+0000\n"
+"Last-Translator: Nikos <Unknown>\n"
 "Language-Team: French <fr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-06-18 06:07+0000\n"
-"X-Generator: Launchpad (build 18097)\n"
+"X-Launchpad-Export-Date: 2016-08-06 05:48+0000\n"
+"X-Generator: Launchpad (build 18169)\n"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:3
@@ -65,7 +65,7 @@ msgstr "Antarctique/McMurdo"
 #. /Translators: Comment for Timezone Antarctica/McMurdo
 #: ../src/Translations.vala:21
 msgid "New Zealand time - McMurdo, South Pole"
-msgstr ""
+msgstr "Nouvelle Zélande - McMurdo, pôle Sud"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:23
