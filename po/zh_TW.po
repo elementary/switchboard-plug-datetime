@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-30 15:37+0400\n"
-"PO-Revision-Date: 2015-04-12 14:26+0000\n"
-"Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
+"PO-Revision-Date: 2016-08-06 09:28+0000\n"
+"Last-Translator: 賴家亨 <laichiaheng@outlook.com>\n"
 "Language-Team: Chinese (Traditional) <zh_TW@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-05-01 05:51+0000\n"
-"X-Generator: Launchpad (build 17995)\n"
+"X-Launchpad-Export-Date: 2016-08-07 05:47+0000\n"
+"X-Generator: Launchpad (build 18169)\n"
 "Language: zh_TW\n"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
@@ -1036,7 +1036,7 @@ msgstr "太平洋/復活島"
 #. /Translators: Comment for Timezone Pacific/Easter
 #: ../src/Translations.vala:409
 msgid "Easter Island"
-msgstr ""
+msgstr "復活島"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:411
@@ -2182,7 +2182,7 @@ msgstr ""
 #. /Translators: Comment for Timezone Asia/Hebron
 #: ../src/Translations.vala:867
 msgid "West Bank"
-msgstr ""
+msgstr "約旦河西岸地區"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:869
@@ -2407,7 +2407,7 @@ msgstr ""
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:957
 msgid "Asia/Chita"
-msgstr ""
+msgstr "亞洲/赤塔"
 
 #. /Translators: Comment for Timezone Asia/Chita
 #: ../src/Translations.vala:959
