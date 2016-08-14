@@ -3,13 +3,13 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-30 15:37+0400\n"
-"PO-Revision-Date: 2016-08-09 12:50+0000\n"
+"PO-Revision-Date: 2016-08-13 21:18+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-08-10 05:43+0000\n"
+"X-Launchpad-Export-Date: 2016-08-14 05:39+0000\n"
 "X-Generator: Launchpad (build 18169)\n"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
@@ -1100,7 +1100,7 @@ msgstr "Europa/Praha"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:437
 msgid "Europe/Berlin"
-msgstr "Europa/Berlinas"
+msgstr "Europa/Berlynas"
 
 #. /Translators: Comment for Timezone Europe/Berlin
 #: ../src/Translations.vala:439
@@ -1678,7 +1678,7 @@ msgstr "Amerika/St_Lucia"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:667
 msgid "Europe/Vaduz"
-msgstr "Europa/Vaduz"
+msgstr "Europa/Vaducas"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:669
@@ -1703,7 +1703,7 @@ msgstr "Europa/Vilnius"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:677
 msgid "Europe/Luxembourg"
-msgstr "Europa/Luksemburgas"
+msgstr "Europa/Liuksemburgas"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:679
@@ -1723,12 +1723,12 @@ msgstr "Afrika/Kasablanka"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:685
 msgid "Europe/Monaco"
-msgstr "Europa/Monako"
+msgstr "Europa/Monakas"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:687
 msgid "Europe/Chisinau"
-msgstr "Europa/Chisinau"
+msgstr "Europa/Kišiniovas"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:689
@@ -1768,7 +1768,7 @@ msgstr "Kwajalein"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:703
 msgid "Europe/Skopje"
-msgstr "Europa/Skopje"
+msgstr "Europa/Skopjė"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:705
@@ -2236,7 +2236,7 @@ msgstr "Indiana/Reunion"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:889
 msgid "Europe/Bucharest"
-msgstr "Europa/Buchareštas"
+msgstr "Europa/Bukareštas"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:891
@@ -2531,7 +2531,7 @@ msgstr "Afrika/Khartoum"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1007
 msgid "Europe/Stockholm"
-msgstr "Europa/Stoholmas"
+msgstr "Europa/Stokholmas"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1009
@@ -2546,7 +2546,7 @@ msgstr "Atlantika/St_Helena"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1013
 msgid "Europe/Ljubljana"
-msgstr "Europa/Liublijana"
+msgstr "Europa/Liubliana"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1015
@@ -2566,7 +2566,7 @@ msgstr "Afrika/Freetown"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1021
 msgid "Europe/San_Marino"
-msgstr "Europa/San_Marino"
+msgstr "Europa/San_Marinas"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1023
@@ -2706,7 +2706,7 @@ msgstr "Ukraina (dauguma vietovių)"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1077
 msgid "Europe/Uzhgorod"
-msgstr "Europas/Uzhgorod"
+msgstr "Europa/Užhorodas"
 
 #. /Translators: Comment for Timezone Europe/Uzhgorod
 #: ../src/Translations.vala:1079
