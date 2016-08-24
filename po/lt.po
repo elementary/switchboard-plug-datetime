@@ -3,14 +3,14 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-30 15:37+0400\n"
-"PO-Revision-Date: 2016-08-13 21:18+0000\n"
+"PO-Revision-Date: 2016-08-23 20:28+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-08-14 05:39+0000\n"
-"X-Generator: Launchpad (build 18169)\n"
+"X-Launchpad-Export-Date: 2016-08-24 05:51+0000\n"
+"X-Generator: Launchpad (build 18179)\n"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:3
@@ -440,7 +440,7 @@ msgstr "Amerika/Barbadosas"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:173
 msgid "Asia/Dhaka"
-msgstr "Azija/Dhaka"
+msgstr "Azija/Daka"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:175
@@ -460,7 +460,7 @@ msgstr "Europa/Sofija"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:181
 msgid "Asia/Bahrain"
-msgstr "Azija/Bahrain"
+msgstr "Azija/Bahreinas"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:183
@@ -665,7 +665,7 @@ msgstr "Amerika/Nassau"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:263
 msgid "Asia/Thimphu"
-msgstr "Azija/Thimphu"
+msgstr "Azija/Timpu"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:265
@@ -1040,7 +1040,7 @@ msgstr "Afrika/Douala"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:413
 msgid "Asia/Shanghai"
-msgstr "Azija/Šanhajus"
+msgstr "Azija/Šanchajus"
 
 #. /Translators: Comment for Timezone Asia/Shanghai
 #: ../src/Translations.vala:415
@@ -1050,7 +1050,7 @@ msgstr "Pekino laikas"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:417
 msgid "Asia/Urumqi"
-msgstr "Azija/Urumqi"
+msgstr "Azija/Urumgis"
 
 #. /Translators: Comment for Timezone Asia/Urumqi
 #: ../src/Translations.vala:419
@@ -1090,7 +1090,7 @@ msgstr "Indiana/Christmas"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:433
 msgid "Asia/Nicosia"
-msgstr "Azija/Nikozija"
+msgstr "Azija/Nikosija"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:435
@@ -1405,7 +1405,7 @@ msgstr "Amerika/Guyana"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:559
 msgid "Asia/Hong_Kong"
-msgstr "Azija/Hong_Kongas"
+msgstr "Azija/Hongkongas"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:561
@@ -1430,7 +1430,7 @@ msgstr "Europa/Budapeštas"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:569
 msgid "Asia/Jakarta"
-msgstr "Azija/Jakarta"
+msgstr "Azija/Džakarta"
 
 #. /Translators: Comment for Timezone Asia/Jakarta
 #: ../src/Translations.vala:571
@@ -1440,7 +1440,7 @@ msgstr "Java, Sumatra"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:573
 msgid "Asia/Pontianak"
-msgstr "Azika/Pontianak"
+msgstr "Azija/Pontianakas"
 
 #. /Translators: Comment for Timezone Asia/Pontianak
 #: ../src/Translations.vala:575
@@ -1450,7 +1450,7 @@ msgstr "Borneo (vakarų, centrinė)"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:577
 msgid "Asia/Makassar"
-msgstr "Azija/Makassar"
+msgstr "Azija/Makasaras"
 
 #. /Translators: Comment for Timezone Asia/Makassar
 #: ../src/Translations.vala:579
@@ -1463,7 +1463,7 @@ msgstr ""
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:581
 msgid "Asia/Jayapura"
-msgstr "Azija/Jayapura"
+msgstr "Azija/Džajapūras"
 
 #. /Translators: Comment for Timezone Asia/Jayapura
 #: ../src/Translations.vala:583
@@ -1503,7 +1503,7 @@ msgstr "Azija/Bagdadas"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:597
 msgid "Asia/Tehran"
-msgstr "Azija/Tehran"
+msgstr "Azija/Teheranas"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:599
@@ -1528,7 +1528,7 @@ msgstr "Amerika/Jamaika"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:607
 msgid "Asia/Amman"
-msgstr "Azija/Amman"
+msgstr "Azija/Amanas"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:609
@@ -1548,7 +1548,7 @@ msgstr "Azija/Biškekas"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:615
 msgid "Asia/Phnom_Penh"
-msgstr "Azija/Phnom_Penh"
+msgstr "Azija/Pnompenis"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:617
@@ -1593,7 +1593,7 @@ msgstr "Amerika/St_Kitts"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:633
 msgid "Asia/Pyongyang"
-msgstr "Azija/Pyongyang"
+msgstr "Azija/Pchenjanas"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:635
@@ -1613,7 +1613,7 @@ msgstr "Amerika/Cayman"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:641
 msgid "Asia/Almaty"
-msgstr "Azija/Almaty"
+msgstr "Azija/Almata"
 
 #. /Translators: Comment for Timezone Asia/Almaty
 #: ../src/Translations.vala:643
@@ -1623,7 +1623,7 @@ msgstr "Kazachstanas (dauguma vietovių)"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:645
 msgid "Asia/Qyzylorda"
-msgstr "Azija/Qyzylorda"
+msgstr "Azija/Kyzylorda"
 
 #. /Translators: Comment for Timezone Asia/Qyzylorda
 #: ../src/Translations.vala:647
@@ -1633,7 +1633,7 @@ msgstr "Kyzylorda/Kzyl Orda"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:649
 msgid "Asia/Aqtobe"
-msgstr "Azija/Aqtobe"
+msgstr "Azija/Aktiubinskas"
 
 #. /Translators: Comment for Timezone Asia/Aqtobe
 #: ../src/Translations.vala:651
@@ -1643,7 +1643,7 @@ msgstr "Aktobė/Aktiubinskas"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:653
 msgid "Asia/Aqtau"
-msgstr "Azija/Aqtau"
+msgstr "Azija/Aktau"
 
 #. /Translators: Comment for Timezone Asia/Aqtau
 #: ../src/Translations.vala:655
@@ -1653,7 +1653,7 @@ msgstr "Atyrau/Gurjevas"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:657
 msgid "Asia/Oral"
-msgstr "Azija/Oral"
+msgstr "Azija/Oralas"
 
 #. /Translators: Comment for Timezone Asia/Oral
 #: ../src/Translations.vala:659
@@ -1663,7 +1663,7 @@ msgstr "Vakarų Kazachstanas"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:661
 msgid "Asia/Vientiane"
-msgstr "Azija/Vientiane"
+msgstr "Azija/Vientianas"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:663
@@ -1683,7 +1683,7 @@ msgstr "Europa/Vaducas"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:669
 msgid "Asia/Colombo"
-msgstr "Azija/Colombo"
+msgstr "Azija/Kolombas"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:671
@@ -1778,12 +1778,12 @@ msgstr "Afrika/Bamako"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:707
 msgid "Asia/Rangoon"
-msgstr "Azija/Rangoon"
+msgstr "Azija/Rangūnas"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:709
 msgid "Asia/Ulaanbaatar"
-msgstr "Azija/Ulaanbaatar"
+msgstr "Azija/Ulan Batoras"
 
 #. /Translators: Comment for Timezone Asia/Ulaanbaatar
 #: ../src/Translations.vala:711
@@ -1793,7 +1793,7 @@ msgstr "Mongolija (dauguma vietovių)"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:713
 msgid "Asia/Hovd"
-msgstr "Azija/Hovd"
+msgstr "Azija/Houdas"
 
 #. /Translators: Comment for Timezone Asia/Hovd
 #: ../src/Translations.vala:715
@@ -1803,7 +1803,7 @@ msgstr "Bajan Ulegėjus, Gobio Altajus, Kobdas, Ubsas, Dzabchanas"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:717
 msgid "Asia/Choibalsan"
-msgstr "Azija/Choibalsan"
+msgstr "Azija/Čoibalsanas"
 
 #. /Translators: Comment for Timezone Asia/Choibalsan
 #: ../src/Translations.vala:719
@@ -1813,7 +1813,7 @@ msgstr "Dornodas, Suche batoras"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:721
 msgid "Asia/Macau"
-msgstr "Azija/Macau"
+msgstr "Azija/Makao"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:723
@@ -1971,7 +1971,7 @@ msgstr "Centrinis laikas - Bahia de Banderas"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:783
 msgid "Asia/Kuala_Lumpur"
-msgstr "Azija/Kuala_Lumpuras"
+msgstr "Azija/Kvala_Lumpūras"
 
 #. /Translators: Comment for Timezone Asia/Kuala_Lumpur
 #: ../src/Translations.vala:785
@@ -1981,7 +1981,7 @@ msgstr "Malaizija (pusiasalis)"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:787
 msgid "Asia/Kuching"
-msgstr "Azija/Kuching"
+msgstr "Azija/Kučingas"
 
 #. /Translators: Comment for Timezone Asia/Kuching
 #: ../src/Translations.vala:789
@@ -2071,7 +2071,7 @@ msgstr "Čatemo salos"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:823
 msgid "Asia/Muscat"
-msgstr "Azija/Muskatas"
+msgstr "Azija/Maskatas"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:825
@@ -2141,7 +2141,7 @@ msgstr "Azija/Manila"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:851
 msgid "Asia/Karachi"
-msgstr "Azija/Karachi"
+msgstr "Azija/Karačis"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:853
@@ -2466,7 +2466,7 @@ msgstr "MSK+08 - Magadanas"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:981
 msgid "Asia/Sakhalin"
-msgstr "Azija/Sakhalin"
+msgstr "Azija/Sachalinas"
 
 #. /Translators: Comment for Timezone Asia/Sakhalin
 #: ../src/Translations.vala:983
@@ -2486,7 +2486,7 @@ msgstr "MSK+08 - Jakutija (E); Šiaurės Kurilų salos"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:989
 msgid "Asia/Kamchatka"
-msgstr "Azija/Kamčatka"
+msgstr "Azija/Kamčiatka"
 
 #. /Translators: Comment for Timezone Asia/Kamchatka
 #: ../src/Translations.vala:991
@@ -2496,7 +2496,7 @@ msgstr "MSK+09 - Kamčiatka"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:993
 msgid "Asia/Anadyr"
-msgstr "Azija/Anadyr"
+msgstr "Azija/Anadyris"
 
 #. /Translators: Comment for Timezone Asia/Anadyr
 #: ../src/Translations.vala:995
@@ -2511,7 +2511,7 @@ msgstr "Afrika/Kigali"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:999
 msgid "Asia/Riyadh"
-msgstr "Azija/Riyadh"
+msgstr "Azija/Rijadas"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1001
@@ -2651,12 +2651,12 @@ msgstr "Pacific/Fakaofo"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1055
 msgid "Asia/Dili"
-msgstr "Azija/Dili"
+msgstr "Azija/Dilis"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1057
 msgid "Asia/Ashgabat"
-msgstr "Azija/Ashgabat"
+msgstr "Azija/Ašchabadas"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1059
@@ -2686,7 +2686,7 @@ msgstr "Pacific/Funafuti"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1069
 msgid "Asia/Taipei"
-msgstr "Azija/Taipei"
+msgstr "Azija/Taipėjus"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1071
@@ -3121,7 +3121,7 @@ msgstr "Pacific/Apia"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1243
 msgid "Asia/Aden"
-msgstr "Azija/Aden"
+msgstr "Azija/Adenas"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1245
