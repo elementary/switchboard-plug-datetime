@@ -119,7 +119,7 @@ public class DateTime.TZPopover : Gtk.Popover {
 
         var city_scrolled = new Gtk.ScrolledWindow (null, null);
         city_scrolled.add (city_view);
-        city_scrolled.set_size_request (300, 200);
+        city_scrolled.set_size_request (300, 220);
         city_scrolled.expand = true;
 
         main_grid.add (continent_view);
