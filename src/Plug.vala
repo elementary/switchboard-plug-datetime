@@ -25,7 +25,6 @@ public class DateTime.Plug : Switchboard.Plug {
     private CurrentTimeManager ct_manager;
     private Settings clock_settings;
     private bool changing_clock_format = false;
-
     private Gtk.Label tz_continent_label;
     private Gtk.Label tz_city_label;
 
@@ -197,13 +196,14 @@ public class DateTime.Plug : Switchboard.Plug {
             /*
              * Setup TimeZone Button
              */
+            var popover = new DateTime.TZPopover ();
+            popover.relative_to = time_zone_button;
+            popover.request_timezone_change.connect (change_tz);
+            popover.position = Gtk.PositionType.BOTTOM;
+            popover.show_all ();
             time_zone_button.clicked.connect (() => {
-                var popover = new DateTime.TZPopover ();
                 popover.set_timezone (datetime1.Timezone);
-                popover.position = Gtk.PositionType.BOTTOM;
-                popover.relative_to = time_zone_button;
-                popover.show_all ();
-                popover.request_timezone_change.connect (change_tz);
+                popover.visible = !popover.visible;
             });
 
             /*
@@ -260,15 +260,15 @@ public class DateTime.Plug : Switchboard.Plug {
     }
 
     public override void shown () {
-        
+
     }
 
     public override void hidden () {
-        
+
     }
 
     public override void search_callback (string location) {
-        
+
     }
 
     // 'search' returns results like ("Keyboard → Behavior → Duration", "keyboard<sep>behavior")

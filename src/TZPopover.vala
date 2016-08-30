@@ -26,6 +26,7 @@ public class DateTime.TZPopover : Gtk.Popover {
     private const string ANTARTICA = "Antarctica";
     private const string ASIA = "Asia";
     private const string ATLANTIC = "Atlantic";
+    private const string AUSTRALIA = "Australia";
     private const string EUROPE = "Europe";
     private const string INDIAN = "Indian";
     private const string PACIFIC = "Pacific";
@@ -36,11 +37,11 @@ public class DateTime.TZPopover : Gtk.Popover {
     string old_selection;
     string current_tz;
     bool setting_cities = false;
+
     public TZPopover () {
         var main_grid = new Gtk.Grid ();
         main_grid.margin = 6;
         main_grid.margin_start = 0;
-        add (main_grid);
         continent_list_store = new Gtk.ListStore (2, typeof (string), typeof (string));
         continent_list_store.set_default_sort_func ((model, a, b) => {
             Value value_a;
@@ -63,6 +64,8 @@ public class DateTime.TZPopover : Gtk.Popover {
         continent_list_store.append (out iter);
         continent_list_store.set (iter, 0, _("Atlantic"), 1, ATLANTIC);
         continent_list_store.append (out iter);
+        continent_list_store.set (iter, 0, _("Australia"), 1, AUSTRALIA);
+        continent_list_store.append (out iter);
         continent_list_store.set (iter, 0, _("Europe"), 1, EUROPE);
         continent_list_store.append (out iter);
         continent_list_store.set (iter, 0, _("Indian"), 1, INDIAN);
@@ -73,6 +76,7 @@ public class DateTime.TZPopover : Gtk.Popover {
         continent_view.get_style_context ().add_class ("sidebar");
         continent_view.headers_visible = false;
         continent_view.get_selection ().mode = Gtk.SelectionMode.BROWSE;
+
         var cellrenderer = new Gtk.CellRendererText ();
         cellrenderer.xpad = 12;
         continent_view.insert_column_with_attributes (-1, null, cellrenderer, "text", 0);
@@ -100,8 +104,11 @@ public class DateTime.TZPopover : Gtk.Popover {
         city_list_store.set_sort_column_id (Gtk.TREE_SORTABLE_DEFAULT_SORT_COLUMN_ID, Gtk.SortType.ASCENDING);
         city_view = new Gtk.TreeView.with_model (city_list_store);
         city_view.headers_visible = false;
+
         var city_cellrenderer = new Gtk.CellRendererText ();
         city_cellrenderer.ellipsize_set = true;
+        city_cellrenderer.width_chars = 50;
+        city_cellrenderer.wrap_mode = Pango.WrapMode.WORD_CHAR;
         city_cellrenderer.ellipsize = Pango.EllipsizeMode.END;
         city_view.insert_column_with_attributes (-1, null, city_cellrenderer, "text", 0);
         city_view.get_selection ().changed.connect (() => {
@@ -119,12 +126,12 @@ public class DateTime.TZPopover : Gtk.Popover {
 
         var city_scrolled = new Gtk.ScrolledWindow (null, null);
         city_scrolled.add (city_view);
-        city_scrolled.set_size_request (300, 200);
-        city_scrolled.expand = true;
+        city_scrolled.set_policy (Gtk.PolicyType.NEVER, Gtk.PolicyType.AUTOMATIC);
 
         main_grid.add (continent_view);
         main_grid.add (new Gtk.Separator (Gtk.Orientation.VERTICAL));
         main_grid.add (city_scrolled);
+        add (main_grid);
     }
 
     public void set_timezone (string tz) {
@@ -154,6 +161,7 @@ public class DateTime.TZPopover : Gtk.Popover {
                 city_view.scroll_to_cell (city_list_store.get_path (iter), null, false, 0, 0);
             }
         });
+
         setting_cities = false;
     }
 }
