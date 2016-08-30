@@ -21,7 +21,6 @@
 public class DateTime.Plug : Switchboard.Plug {
     private Gtk.Grid main_grid;
     private DateTime1 datetime1;
-    private DateTime.TZPopover popover;
     private TimeMap time_map;
     private CurrentTimeManager ct_manager;
     private Settings clock_settings;
