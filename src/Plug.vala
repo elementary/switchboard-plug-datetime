@@ -72,7 +72,6 @@ public class DateTime.Plug : Switchboard.Plug {
             var time_zone_label = new Gtk.Label (_("Time Zone:"));
             ((Gtk.Misc) time_zone_label).xalign = 1;
             var time_zone_button = new Gtk.Button ();
-            var popover = new DateTime.TZPopover ();
             var time_zone_grid = new Gtk.Grid ();
             time_zone_grid.column_spacing = 5;
             time_zone_grid.halign = Gtk.Align.CENTER;
@@ -198,12 +197,14 @@ public class DateTime.Plug : Switchboard.Plug {
             /*
              * Setup TimeZone Button
              */
+            var popover = new DateTime.TZPopover ();
+            popover.relative_to = time_zone_button;
+            popover.request_timezone_change.connect (change_tz);
+            popover.position = Gtk.PositionType.BOTTOM;
+            popover.show_all ();
             time_zone_button.clicked.connect (() => {
                 popover.set_timezone (datetime1.Timezone);
-                popover.position = Gtk.PositionType.BOTTOM;
-                popover.relative_to = time_zone_button;
-                popover.show_all ();
-                popover.request_timezone_change.connect (change_tz);
+                popover.visible = !popover.visible;
             });
 
             /*
