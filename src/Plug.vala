@@ -238,8 +238,8 @@ public class DateTime.Plug : Switchboard.Plug {
         return main_grid;
     }
 
-    private void change_tz (string _tz) {
-        var tz = _(_tz);
+    private void change_tz (string timezone) {
+        var tz = timezone;
         var values = tz.split ("/", 2);
         tz_continent_label.label = values[0];
         tz_city_label.label = Parser.format_city (values[1]);
