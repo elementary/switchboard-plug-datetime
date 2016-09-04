@@ -12,7 +12,7 @@ set (PLUGCATEGORY "system")
 # Set the Title to use for the Plug in the Overview and in the Titlebar
 set (PLUGTITLE "Date & Time")
 # Set the version for the plug
-set (VERSION "0.1.0.2")
+set (VERSION "0.1.1.1")
 set (PLUGDESCRIPTION "Power")
 # The symbolic name of the Icon to use for the plug
 set (PLUGICON "preferences-system-power")
