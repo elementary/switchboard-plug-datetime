@@ -240,12 +240,13 @@ public class DateTime.Plug : Switchboard.Plug {
 
     private void change_tz (string _tz) {
         var tz = _(_tz);
+        var english_tz = _tz;
         var values = tz.split ("/", 2);
         tz_continent_label.label = values[0];
         tz_city_label.label = Parser.format_city (values[1]);
-        if (datetime1.Timezone != tz) {
+        if (datetime1.Timezone != english_tz) {
             try {
-                datetime1.set_timezone (tz, true);
+                datetime1.set_timezone (english_tz, true);
             } catch (Error e) {
                 critical (e.message);
             }
