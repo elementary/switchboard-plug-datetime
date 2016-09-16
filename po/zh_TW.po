@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-30 15:37+0400\n"
-"PO-Revision-Date: 2016-08-06 09:28+0000\n"
-"Last-Translator: 賴家亨 <laichiaheng@outlook.com>\n"
+"PO-Revision-Date: 2016-09-15 19:00+0000\n"
+"Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <zh_TW@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-09-12 06:13+0000\n"
+"X-Launchpad-Export-Date: 2016-09-16 08:11+0000\n"
 "X-Generator: Launchpad (build 18186)\n"
 "Language: zh_TW\n"
 
@@ -3178,7 +3178,7 @@ msgstr "日期和時間"
 
 #: ../src/Plug.vala:36
 msgid "Configure date, time, and select time zone"
-msgstr ""
+msgstr "調整日期、時間、和選擇時區"
 
 #: ../src/Plug.vala:48
 msgid "Network Time:"
