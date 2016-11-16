@@ -29,11 +29,15 @@ public class DateTime.Plug : Switchboard.Plug {
     private Gtk.Label tz_city_label;
 
     public Plug () {
+        var settings = new Gee.TreeMap<string, string?> (null, null);
+        settings.set ("time", null);
+        settings.set ("date", null);
         Object (category: Category.SYSTEM,
             code_name: "system-pantheon-datetime",
             display_name: _("Date & Time"),
             description: _("Configure date, time, and select time zone"),
-            icon: "preferences-system-time");
+            icon: "preferences-system-time",
+            supported_settings: settings);
     }
 
     public override Gtk.Widget get_widget () {
