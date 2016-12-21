@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-30 15:37+0400\n"
-"PO-Revision-Date: 2014-12-16 17:49+0000\n"
-"Last-Translator: Robert Antoni Buj Gelonch <Unknown>\n"
+"PO-Revision-Date: 2016-12-20 16:01+0000\n"
+"Last-Translator: Davidmp <rbndavid@gmail.com>\n"
 "Language-Team: Catalan <ca@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-11-25 06:50+0000\n"
-"X-Generator: Launchpad (build 18282)\n"
+"X-Launchpad-Export-Date: 2016-12-21 05:37+0000\n"
+"X-Generator: Launchpad (build 18298)\n"
 "Language: ca\n"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
@@ -396,7 +396,7 @@ msgstr "Austràlia/Darwin"
 #. /Translators: Comment for Timezone Australia/Darwin
 #: ../src/Translations.vala:153
 msgid "Northern Territory"
-msgstr ""
+msgstr "Territori del Nord"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:155
@@ -561,7 +561,7 @@ msgstr "Amèrica/Maceio"
 #. /Translators: Comment for Timezone America/Maceio
 #: ../src/Translations.vala:219
 msgid "Alagoas, Sergipe"
-msgstr ""
+msgstr "Alagoas, Sergipe"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:221
@@ -571,7 +571,7 @@ msgstr "Amèrica/Bahia"
 #. /Translators: Comment for Timezone America/Bahia
 #: ../src/Translations.vala:223
 msgid "Bahia"
-msgstr ""
+msgstr "Bahia"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:225
@@ -591,7 +591,7 @@ msgstr "Amèrica/Campo_Grande"
 #. /Translators: Comment for Timezone America/Campo_Grande
 #: ../src/Translations.vala:231
 msgid "Mato Grosso do Sul"
-msgstr ""
+msgstr "Mato Grosso do Sul"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:233
@@ -601,7 +601,7 @@ msgstr "Amèrica/Cuiaba"
 #. /Translators: Comment for Timezone America/Cuiaba
 #: ../src/Translations.vala:235
 msgid "Mato Grosso"
-msgstr ""
+msgstr "Mato Grosso"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:237
@@ -1026,7 +1026,7 @@ msgstr "Amèrica/Santiago"
 #. /Translators: Comment for Timezone America/Santiago
 #: ../src/Translations.vala:405
 msgid "Chile (most areas)"
-msgstr ""
+msgstr "Xile (la majoria de les àrees)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:407
@@ -1036,7 +1036,7 @@ msgstr "Pacífic/Pasqua"
 #. /Translators: Comment for Timezone Pacific/Easter
 #: ../src/Translations.vala:409
 msgid "Easter Island"
-msgstr ""
+msgstr "Illa de Pasqua"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:411
@@ -1166,7 +1166,7 @@ msgstr "Pacífic/Galàpagos"
 #. /Translators: Comment for Timezone Pacific/Galapagos
 #: ../src/Translations.vala:461
 msgid "Galapagos Islands"
-msgstr ""
+msgstr "Illes Galàpagos"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:463
@@ -1196,7 +1196,7 @@ msgstr "Europa/Madrid"
 #. /Translators: Comment for Timezone Europe/Madrid
 #: ../src/Translations.vala:473
 msgid "Spain (mainland)"
-msgstr ""
+msgstr "Espanya (península)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:475
@@ -1206,7 +1206,7 @@ msgstr "Àfrica/Ceuta"
 #. /Translators: Comment for Timezone Africa/Ceuta
 #: ../src/Translations.vala:477
 msgid "Ceuta, Melilla"
-msgstr ""
+msgstr "Ceuta, Melilla"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:479
@@ -2112,7 +2112,7 @@ msgstr "Pacífic/Gambier"
 #. /Translators: Comment for Timezone Pacific/Gambier
 #: ../src/Translations.vala:839
 msgid "Gambier Islands"
-msgstr ""
+msgstr "Illes Gambier"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:841
@@ -2202,7 +2202,7 @@ msgstr "Atlàntic/Madeira"
 #. /Translators: Comment for Timezone Atlantic/Madeira
 #: ../src/Translations.vala:875
 msgid "Madeira Islands"
-msgstr ""
+msgstr "Madeira"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:877
@@ -2212,7 +2212,7 @@ msgstr "Atlàntic/Azores"
 #. /Translators: Comment for Timezone Atlantic/Azores
 #: ../src/Translations.vala:879
 msgid "Azores"
-msgstr ""
+msgstr "Açores"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:881
@@ -2757,7 +2757,7 @@ msgstr "Pacífic/Wake"
 #. /Translators: Comment for Timezone Pacific/Wake
 #: ../src/Translations.vala:1097
 msgid "Wake Island"
-msgstr ""
+msgstr "Illa Wake"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1099
@@ -2967,7 +2967,7 @@ msgstr "Amèrica/Los_Àngeles"
 #. /Translators: Comment for Timezone America/Los_Angeles
 #: ../src/Translations.vala:1181 ../src/TZPopover.vala:70
 msgid "Pacific"
-msgstr ""
+msgstr "Pacífic"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1183
@@ -3146,11 +3146,11 @@ msgstr "Àfrica/Harare"
 
 #: ../src/TZPopover.vala:56
 msgid "Africa"
-msgstr ""
+msgstr "Àfrica"
 
 #: ../src/TZPopover.vala:58
 msgid "America"
-msgstr ""
+msgstr "Amèrica"
 
 #: ../src/TZPopover.vala:60
 msgid "Antarctica"
@@ -3158,64 +3158,64 @@ msgstr ""
 
 #: ../src/TZPopover.vala:62
 msgid "Asia"
-msgstr ""
+msgstr "Àsia"
 
 #: ../src/TZPopover.vala:64
 msgid "Atlantic"
-msgstr ""
+msgstr "Atlàntic"
 
 #: ../src/TZPopover.vala:66
 msgid "Europe"
-msgstr ""
+msgstr "Europa"
 
 #: ../src/TZPopover.vala:68
 msgid "Indian"
-msgstr ""
+msgstr "Indi"
 
 #: ../src/Plug.vala:35
 msgid "Date & Time"
-msgstr ""
+msgstr "Data i hora"
 
 #: ../src/Plug.vala:36
 msgid "Configure date, time, and select time zone"
-msgstr ""
+msgstr "Configureu la data, l'hora i seleccioneu la zona horària"
 
 #: ../src/Plug.vala:48
 msgid "Network Time:"
-msgstr ""
+msgstr "Hora de la xarxa:"
 
 #: ../src/Plug.vala:60
 msgid "Time Format:"
-msgstr ""
+msgstr "Format de l'hora"
 
 #: ../src/Plug.vala:63
 msgid "24h"
-msgstr ""
+msgstr "24 h"
 
 #: ../src/Plug.vala:64
 msgid "AM/PM"
-msgstr ""
+msgstr "AM/PM"
 
 #: ../src/Plug.vala:72
 msgid "Time Zone:"
-msgstr ""
+msgstr "Zona horària:"
 
 #: ../src/Plug.vala:277
 msgid "Network Time"
-msgstr ""
+msgstr "Hora de la xarxa"
 
 #: ../src/Plug.vala:278
 msgid "Time"
-msgstr ""
+msgstr "Hora"
 
 #: ../src/Plug.vala:279
 msgid "Date"
-msgstr ""
+msgstr "Data"
 
 #: ../src/Plug.vala:280
 msgid "Time Zone"
-msgstr ""
+msgstr "Zona horària"
 
 #: ../src/Plug.vala:281
 msgid "Time Format"
-msgstr ""
+msgstr "Format de l'hora"
