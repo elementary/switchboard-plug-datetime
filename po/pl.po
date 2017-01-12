@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-04-30 15:37+0400\n"
+"POT-Creation-Date: 2017-01-11 10:03+0300\n"
 "PO-Revision-Date: 2016-06-14 21:59+0000\n"
 "Last-Translator: Damian Woźniak <fiszet@gmail.com>\n"
 "Language-Team: Polish <pl@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-11-25 06:51+0000\n"
-"X-Generator: Launchpad (build 18282)\n"
+"X-Launchpad-Export-Date: 2017-01-12 06:05+0000\n"
+"X-Generator: Launchpad (build 18302)\n"
 "Language: pl\n"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
@@ -2970,7 +2970,7 @@ msgid "America/Los_Angeles"
 msgstr "Ameryka/Los_Angeles"
 
 #. /Translators: Comment for Timezone America/Los_Angeles
-#: ../src/Translations.vala:1181 ../src/TZPopover.vala:70
+#: ../src/Translations.vala:1181 ../src/TZPopover.vala:73
 msgid "Pacific"
 msgstr "Ocean Spokojny"
 
@@ -3149,78 +3149,82 @@ msgstr "Afryka/Lusaka"
 msgid "Africa/Harare"
 msgstr "Afryka/Harara"
 
-#: ../src/TZPopover.vala:56
+#: ../src/TZPopover.vala:57
 msgid "Africa"
 msgstr "Afryka"
 
-#: ../src/TZPopover.vala:58
+#: ../src/TZPopover.vala:59
 msgid "America"
 msgstr "Ameryka"
 
-#: ../src/TZPopover.vala:60
+#: ../src/TZPopover.vala:61
 msgid "Antarctica"
 msgstr "Antarktyda"
 
-#: ../src/TZPopover.vala:62
+#: ../src/TZPopover.vala:63
 msgid "Asia"
 msgstr "Azja"
 
-#: ../src/TZPopover.vala:64
+#: ../src/TZPopover.vala:65
 msgid "Atlantic"
 msgstr "Ocean Atlantycki"
 
-#: ../src/TZPopover.vala:66
+#: ../src/TZPopover.vala:67
+msgid "Australia"
+msgstr ""
+
+#: ../src/TZPopover.vala:69
 msgid "Europe"
 msgstr "Europa"
 
-#: ../src/TZPopover.vala:68
+#: ../src/TZPopover.vala:71
 msgid "Indian"
 msgstr "Ocean Indyjski"
 
-#: ../src/Plug.vala:35
+#: ../src/Plug.vala:37
 msgid "Date & Time"
 msgstr "Data i czas"
 
-#: ../src/Plug.vala:36
+#: ../src/Plug.vala:38
 msgid "Configure date, time, and select time zone"
 msgstr "Konfiguruj datę, czas oraz wybierz strefę czasową"
 
-#: ../src/Plug.vala:48
+#: ../src/Plug.vala:51
 msgid "Network Time:"
 msgstr "Czas sieciowy:"
 
-#: ../src/Plug.vala:60
+#: ../src/Plug.vala:63
 msgid "Time Format:"
 msgstr "Format czasu:"
 
-#: ../src/Plug.vala:63
+#: ../src/Plug.vala:66
 msgid "24h"
 msgstr "24-godzinny"
 
-#: ../src/Plug.vala:64
+#: ../src/Plug.vala:67
 msgid "AM/PM"
 msgstr "rano/po południu"
 
-#: ../src/Plug.vala:72
+#: ../src/Plug.vala:75
 msgid "Time Zone:"
 msgstr "Strefa czasowa:"
 
-#: ../src/Plug.vala:277
+#: ../src/Plug.vala:282
 msgid "Network Time"
 msgstr "Czas sieciowy"
 
-#: ../src/Plug.vala:278
+#: ../src/Plug.vala:283
 msgid "Time"
 msgstr "Czas"
 
-#: ../src/Plug.vala:279
+#: ../src/Plug.vala:284
 msgid "Date"
 msgstr "Data"
 
-#: ../src/Plug.vala:280
+#: ../src/Plug.vala:285
 msgid "Time Zone"
 msgstr "Strefa czasowa"
 
-#: ../src/Plug.vala:281
+#: ../src/Plug.vala:286
 msgid "Time Format"
 msgstr "Format czasu"
