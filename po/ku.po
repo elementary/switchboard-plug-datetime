@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-datetime\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2017-01-11 10:03+0300\n"
-"PO-Revision-Date: 2017-01-19 19:17+0000\n"
+"PO-Revision-Date: 2017-01-28 01:32+0000\n"
 "Last-Translator: Rokar <Unknown>\n"
 "Language-Team: Kurdish <ku@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-01-21 06:52+0000\n"
-"X-Generator: Launchpad (build 18302)\n"
+"X-Launchpad-Export-Date: 2017-01-28 06:09+0000\n"
+"X-Generator: Launchpad (build 18315)\n"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:3
@@ -3209,16 +3209,16 @@ msgstr ""
 
 #: ../src/Plug.vala:283
 msgid "Time"
-msgstr ""
+msgstr "Dem"
 
 #: ../src/Plug.vala:284
 msgid "Date"
-msgstr ""
+msgstr "Roj"
 
 #: ../src/Plug.vala:285
 msgid "Time Zone"
-msgstr ""
+msgstr "Para Saetê"
 
 #: ../src/Plug.vala:286
 msgid "Time Format"
-msgstr ""
+msgstr "Formata Demê"
