@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-datetime\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2017-01-11 10:03+0300\n"
-"PO-Revision-Date: 2017-01-28 01:32+0000\n"
+"PO-Revision-Date: 2017-02-08 12:55+0000\n"
 "Last-Translator: Rokar <Unknown>\n"
 "Language-Team: Kurdish <ku@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-01-29 05:09+0000\n"
-"X-Generator: Launchpad (build 18315)\n"
+"X-Launchpad-Export-Date: 2017-02-09 05:59+0000\n"
+"X-Generator: Launchpad (build 18326)\n"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:3
@@ -75,7 +75,7 @@ msgstr ""
 #. /Translators: Comment for Timezone Antarctica/Casey
 #: ../src/Translations.vala:25
 msgid "Casey"
-msgstr ""
+msgstr "Antarctica/Casey"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:27
@@ -85,7 +85,7 @@ msgstr ""
 #. /Translators: Comment for Timezone Antarctica/Davis
 #: ../src/Translations.vala:29
 msgid "Davis"
-msgstr ""
+msgstr "Antarctica/Davis"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:31
@@ -95,7 +95,7 @@ msgstr ""
 #. /Translators: Comment for Timezone Antarctica/DumontDUrville
 #: ../src/Translations.vala:33
 msgid "Dumont-d'Urville"
-msgstr ""
+msgstr "Antarctica/DumontDUrville"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:35
@@ -105,7 +105,7 @@ msgstr ""
 #. /Translators: Comment for Timezone Antarctica/Mawson
 #: ../src/Translations.vala:37
 msgid "Mawson"
-msgstr ""
+msgstr "Antarctica/Mawson"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:39
@@ -115,7 +115,7 @@ msgstr ""
 #. /Translators: Comment for Timezone Antarctica/Palmer
 #: ../src/Translations.vala:41
 msgid "Palmer"
-msgstr ""
+msgstr "Antarctica/Palmer"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:43
@@ -125,7 +125,7 @@ msgstr ""
 #. /Translators: Comment for Timezone Antarctica/Rothera
 #: ../src/Translations.vala:45
 msgid "Rothera"
-msgstr ""
+msgstr "Antarctica/Rothera"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:47
@@ -135,7 +135,7 @@ msgstr ""
 #. /Translators: Comment for Timezone Antarctica/Syowa
 #: ../src/Translations.vala:49
 msgid "Syowa"
-msgstr ""
+msgstr "Antarctica/Syowa"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:51
@@ -155,7 +155,7 @@ msgstr ""
 #. /Translators: Comment for Timezone Antarctica/Vostok
 #: ../src/Translations.vala:57
 msgid "Vostok"
-msgstr ""
+msgstr "Antarctica/Vostok"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:59
@@ -295,7 +295,7 @@ msgstr ""
 #. /Translators: Comment for Timezone Australia/Lord_Howe
 #: ../src/Translations.vala:113
 msgid "Lord Howe Island"
-msgstr ""
+msgstr "Australia/Lord_Howe"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:115
@@ -335,7 +335,7 @@ msgstr ""
 #. /Translators: Comment for Timezone Australia/Melbourne
 #: ../src/Translations.vala:129
 msgid "Victoria"
-msgstr ""
+msgstr "Victoria"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:131
@@ -385,7 +385,7 @@ msgstr ""
 #. /Translators: Comment for Timezone Australia/Adelaide
 #: ../src/Translations.vala:149
 msgid "South Australia"
-msgstr ""
+msgstr "Awustralyaya Başûr"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:151
@@ -540,7 +540,7 @@ msgstr ""
 #. /Translators: Comment for Timezone America/Recife
 #: ../src/Translations.vala:211
 msgid "Pernambuco"
-msgstr ""
+msgstr "Pernambuco"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:213
@@ -550,7 +550,7 @@ msgstr ""
 #. /Translators: Comment for Timezone America/Araguaina
 #: ../src/Translations.vala:215
 msgid "Tocantins"
-msgstr ""
+msgstr "Tocantins"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:217
@@ -560,7 +560,7 @@ msgstr ""
 #. /Translators: Comment for Timezone America/Maceio
 #: ../src/Translations.vala:219
 msgid "Alagoas, Sergipe"
-msgstr ""
+msgstr "Alagoas, Sergipe"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:221
@@ -570,7 +570,7 @@ msgstr ""
 #. /Translators: Comment for Timezone America/Bahia
 #: ../src/Translations.vala:223
 msgid "Bahia"
-msgstr ""
+msgstr "America/Bahia"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:225
@@ -590,7 +590,7 @@ msgstr ""
 #. /Translators: Comment for Timezone America/Campo_Grande
 #: ../src/Translations.vala:231
 msgid "Mato Grosso do Sul"
-msgstr ""
+msgstr "Mato Grosso do Sul"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:233
@@ -600,7 +600,7 @@ msgstr ""
 #. /Translators: Comment for Timezone America/Cuiaba
 #: ../src/Translations.vala:235
 msgid "Mato Grosso"
-msgstr ""
+msgstr "Mato Grosso"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:237
@@ -630,7 +630,7 @@ msgstr ""
 #. /Translators: Comment for Timezone America/Boa_Vista
 #: ../src/Translations.vala:247
 msgid "Roraima"
-msgstr ""
+msgstr "Roraima"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:249
@@ -660,7 +660,7 @@ msgstr ""
 #. /Translators: Comment for Timezone America/Rio_Branco
 #: ../src/Translations.vala:259
 msgid "Acre"
-msgstr ""
+msgstr "Akre"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:261
