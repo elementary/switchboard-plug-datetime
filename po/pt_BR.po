@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-01-11 10:03+0300\n"
-"PO-Revision-Date: 2016-09-12 03:40+0000\n"
+"PO-Revision-Date: 2017-02-12 16:53+0000\n"
 "Last-Translator: Lains <Unknown>\n"
 "Language-Team: Brazilian Portuguese <pt_BR@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-01-12 06:06+0000\n"
-"X-Generator: Launchpad (build 18302)\n"
+"X-Launchpad-Export-Date: 2017-02-13 05:59+0000\n"
+"X-Generator: Launchpad (build 18326)\n"
 "Language: pt_BR\n"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
@@ -36,7 +36,7 @@ msgstr "Ásia/Cabul"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:9
 msgid "America/Antigua"
-msgstr "América/Antígua"
+msgstr "América/Antigua"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:11
@@ -51,7 +51,7 @@ msgstr "Europa/Tirana"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:15
 msgid "Asia/Yerevan"
-msgstr "Ásia/Yerevan"
+msgstr "Ásia/Ierevan"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:17
@@ -161,7 +161,7 @@ msgstr "Vostok"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:59
 msgid "America/Argentina/Buenos_Aires"
-msgstr "América/Argentina/Buenos Aires"
+msgstr "América/Argentina/Buenos_Aires"
 
 #. /Translators: Comment for Timezone America/Argentina/Buenos_Aires
 #: ../src/Translations.vala:61
@@ -296,7 +296,7 @@ msgstr "Austrália/Lord Howe"
 #. /Translators: Comment for Timezone Australia/Lord_Howe
 #: ../src/Translations.vala:113
 msgid "Lord Howe Island"
-msgstr "Ilha Lord Howe"
+msgstr "Ilha de Lord Howe"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:115
@@ -336,7 +336,7 @@ msgstr "Austrália/Melbourne"
 #. /Translators: Comment for Timezone Australia/Melbourne
 #: ../src/Translations.vala:129
 msgid "Victoria"
-msgstr "Victoria"
+msgstr "Vitória"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:131
@@ -346,7 +346,7 @@ msgstr "Austrália/Sidnei"
 #. /Translators: Comment for Timezone Australia/Sydney
 #: ../src/Translations.vala:133
 msgid "New South Wales (most areas)"
-msgstr "New South Wales (maior parte das áreas)"
+msgstr "Nova South Wales (maior parte das áreas)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:135
@@ -356,7 +356,7 @@ msgstr "Austrália/Broken Hill"
 #. /Translators: Comment for Timezone Australia/Broken_Hill
 #: ../src/Translations.vala:137
 msgid "New South Wales (Yancowinna)"
-msgstr "New South Wales (Yancowinna)"
+msgstr "Nova South Wales (Yancowinna)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:139
@@ -386,7 +386,7 @@ msgstr "Austrália/Adelaide"
 #. /Translators: Comment for Timezone Australia/Adelaide
 #: ../src/Translations.vala:149
 msgid "South Australia"
-msgstr "Sul da Austrália"
+msgstr "Austrália do Sul"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:151
@@ -396,7 +396,7 @@ msgstr "Austrália/Darwin"
 #. /Translators: Comment for Timezone Australia/Darwin
 #: ../src/Translations.vala:153
 msgid "Northern Territory"
-msgstr "Northern Territory"
+msgstr "Território do Norte"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:155
@@ -436,7 +436,7 @@ msgstr "Ásia/Baku"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:169
 msgid "Europe/Sarajevo"
-msgstr "Europa/Sarajevo"
+msgstr "Europa/Saraievo"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:171
@@ -446,7 +446,7 @@ msgstr "América/Barbados"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:173
 msgid "Asia/Dhaka"
-msgstr "Ásia/Dhaka"
+msgstr "Ásia/Daca"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:175
