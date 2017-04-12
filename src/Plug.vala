@@ -61,7 +61,7 @@ public class DateTime.Plug : Switchboard.Plug {
 
             if (Posix.nl_langinfo (Posix.NLItem.AM_STR) == "") {
                 time_format_label.no_show_all = true;
-                time_format_combobox.no_show_all = true;
+                time_format.no_show_all = true;
             }
 
             var time_zone_label = new Gtk.Label (_("Time Zone:"));
