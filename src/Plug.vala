@@ -93,6 +93,12 @@ public class DateTime.Plug : Switchboard.Plug {
                 change_tz (tz);
             });
 
+            var week_number_label = new Gtk.Label (_("Show week numbers:"));
+            week_number_label.xalign = 1;
+
+            var week_number_switch = new Gtk.Switch ();
+            week_number_switch.halign = Gtk.Align.START;
+
             var widget_grid = new Gtk.Grid ();
             widget_grid.halign = Gtk.Align.CENTER;
             widget_grid.column_spacing = 12;
@@ -107,7 +113,9 @@ public class DateTime.Plug : Switchboard.Plug {
             widget_grid.attach (network_time_switch, 1, 3, 1, 1);
             widget_grid.attach (time_picker, 2, 3, 1, 1);
             widget_grid.attach (date_picker, 3, 3, 1, 1);
-
+            widget_grid.attach (week_number_label, 0, 4, 1, 1);
+            widget_grid.attach (week_number_switch, 1, 4, 1, 1);
+            
             main_grid = new Gtk.Grid ();
             main_grid.row_spacing = 24;
             main_grid.margin = 24;
@@ -245,6 +253,17 @@ public class DateTime.Plug : Switchboard.Plug {
             network_time_switch.active = datetime1.NTP;
             change_tz (datetime1.Timezone);
 
+            var source = SettingsSchemaSource.get_default ();
+            var schema = source.lookup ("org.pantheon.desktop.wingpanel.indicators.datetime", false);
+
+            if (schema == null) {
+                week_number_label.no_show_all = true;
+                week_number_switch.no_show_all = true;
+            } else {
+                var week_number_settings = new GLib.Settings ("org.pantheon.desktop.wingpanel.indicators.datetime");
+                week_number_settings.bind ("show-weeks", week_number_switch, "active", SettingsBindFlags.DEFAULT);
+            }
+            
             auto_time_zone_switch.bind_property ("active", time_zone_button, "sensitive", BindingFlags.INVERT_BOOLEAN);
             auto_time_zone_switch.bind_property ("active", time_zone_label, "sensitive", BindingFlags.INVERT_BOOLEAN);
             auto_time_zone_switch.bind_property ("active", time_map, "sensitive", BindingFlags.INVERT_BOOLEAN);
