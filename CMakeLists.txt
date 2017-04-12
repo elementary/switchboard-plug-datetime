@@ -13,7 +13,7 @@ set (PLUGCATEGORY "system")
 set (PLUGTITLE "Date & Time")
 # Set the version for the plug
 set (VERSION "0.1.1.1")
-set (PLUGDESCRIPTION "Date & Time)
+set (PLUGDESCRIPTION "Date & Time")
 # The symbolic name of the Icon to use for the plug
 set (PLUGICON "preferences-system-time")
 
