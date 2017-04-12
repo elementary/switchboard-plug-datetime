@@ -55,9 +55,9 @@ public class DateTime.Plug : Switchboard.Plug {
             var time_format_label = new Gtk.Label (_("Time Format:"));
             time_format_label.xalign = 1;
 
-            var time_format_combobox = new Gtk.ComboBoxText ();
-            time_format_combobox.append ("24h", _("24h"));
-            time_format_combobox.append ("ampm", _("AM/PM"));
+            var time_format = new Granite.Widgets.ModeButton ();
+            time_format.append_text (_("AM/PM"));
+            time_format.append_text (_("24h"));
 
             if (Posix.nl_langinfo (Posix.NLItem.AM_STR) == "") {
                 time_format_label.no_show_all = true;
@@ -92,14 +92,14 @@ public class DateTime.Plug : Switchboard.Plug {
             main_grid.column_spacing = 12;
             main_grid.row_spacing = 12;
             main_grid.attach (time_map, 0, 0, 5, 1);
-            main_grid.attach (time_zone_label, 0, 1, 1, 1);
-            main_grid.attach (time_zone_button, 1, 1, 3, 1);
-            main_grid.attach (network_time_label, 0, 2, 1, 1);
-            main_grid.attach (network_time_switch, 1, 2, 1, 1);
-            main_grid.attach (time_picker, 2, 2, 1, 1);
-            main_grid.attach (date_picker, 3, 2, 1, 1);
-            main_grid.attach (time_format_label, 0, 3, 1, 1);
-            main_grid.attach (time_format_combobox, 1, 3, 3, 1);
+            main_grid.attach (time_format_label, 0, 1, 1, 1);
+            main_grid.attach (time_format, 1, 1, 3, 1);
+            main_grid.attach (time_zone_label, 0, 2, 1, 1);
+            main_grid.attach (time_zone_button, 1, 2, 3, 1);
+            main_grid.attach (network_time_label, 0, 3, 1, 1);
+            main_grid.attach (network_time_switch, 1, 3, 1, 1);
+            main_grid.attach (time_picker, 2, 3, 1, 1);
+            main_grid.attach (date_picker, 3, 3, 1, 1);
 
             main_grid.show_all ();
 
@@ -159,9 +159,9 @@ public class DateTime.Plug : Switchboard.Plug {
             Variant value;
             value = clock_settings.schema.get_value ("clock-format");
             if (value != null && clock_settings.clock_format == "24h") {
-                time_format_combobox.active = 0;
+                time_format.selected = 1;
             } else {
-                time_format_combobox.active = 1;
+                time_format.selected = 0;
             }
 
             clock_settings.notify["clock-format"].connect (() => {
@@ -170,19 +170,19 @@ public class DateTime.Plug : Switchboard.Plug {
 
                 changing_clock_format = true;
                 if (clock_settings.clock_format == "12h") {
-                    time_format_combobox.active = 1;
+                    time_format.selected = 0;
                 } else {
-                    time_format_combobox.active = 0;
+                    time_format.selected = 1;
                 }
                 changing_clock_format = false;
             });
 
-            time_format_combobox.changed.connect (() => {
+            time_format.mode_changed.connect (() => {
                 if (changing_clock_format == true)
                     return;
 
                 changing_clock_format = true;
-                if (time_format_combobox.active == 0) {
+                if (time_format.selected == 1) {
                     clock_settings.clock_format = "24h";
                 } else {
                     clock_settings.clock_format = "12h";
