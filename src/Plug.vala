@@ -122,8 +122,6 @@ public class DateTime.Plug : Switchboard.Plug {
             main_grid.attach (time_map, 0, 0, 1, 1);
             main_grid.attach (widget_grid, 0, 1, 1, 1);
 
-            main_grid.show_all ();
-
             bool syncing_datetime = false;
             /*
              * Setup Time
@@ -253,23 +251,33 @@ public class DateTime.Plug : Switchboard.Plug {
             network_time_switch.active = datetime1.NTP;
             change_tz (datetime1.Timezone);
 
-            var source = SettingsSchemaSource.get_default ();
-            var schema = source.lookup ("org.pantheon.desktop.wingpanel.indicators.datetime", false);
+            var schema_source = SettingsSchemaSource.get_default ();
 
-            if (schema == null) {
+            var weeks_schema = schema_source.lookup ("org.pantheon.desktop.wingpanel.indicators.datetime", false);
+
+            if (weeks_schema == null) {
                 week_number_label.no_show_all = true;
                 week_number_switch.no_show_all = true;
             } else {
                 var week_number_settings = new GLib.Settings ("org.pantheon.desktop.wingpanel.indicators.datetime");
                 week_number_settings.bind ("show-weeks", week_number_switch, "active", SettingsBindFlags.DEFAULT);
             }
-            
-            auto_time_zone_switch.bind_property ("active", time_zone_button, "sensitive", BindingFlags.INVERT_BOOLEAN);
-            auto_time_zone_switch.bind_property ("active", time_zone_label, "sensitive", BindingFlags.INVERT_BOOLEAN);
-            auto_time_zone_switch.bind_property ("active", time_map, "sensitive", BindingFlags.INVERT_BOOLEAN);
 
-            var time_zone_settings = new GLib.Settings ("org.gnome.desktop.datetime");
-            time_zone_settings.bind ("automatic-timezone", auto_time_zone_switch, "active", SettingsBindFlags.DEFAULT);
+            var auto_time_zone_schema = schema_source.lookup ("org.gnome.desktop.datetime", false);
+
+            if (auto_time_zone_schema == null) {
+                auto_time_zone_label.no_show_all = true;
+                auto_time_zone_switch.no_show_all = true;
+            } else {
+                auto_time_zone_switch.bind_property ("active", time_zone_button, "sensitive", BindingFlags.INVERT_BOOLEAN);
+                auto_time_zone_switch.bind_property ("active", time_zone_label, "sensitive", BindingFlags.INVERT_BOOLEAN);
+                auto_time_zone_switch.bind_property ("active", time_map, "sensitive", BindingFlags.INVERT_BOOLEAN);
+
+                var time_zone_settings = new GLib.Settings ("org.gnome.desktop.datetime");
+                time_zone_settings.bind ("automatic-timezone", auto_time_zone_switch, "active", SettingsBindFlags.DEFAULT);
+            }
+
+            main_grid.show_all ();
         }
 
         return main_grid;
