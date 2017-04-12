@@ -18,10 +18,10 @@ include (ValaPrecompile)
 vala_precompile (VALA_C ${CMAKE_PROJECT_NAME}
     Plug.vala
     DateTime1.vala
-    TimeMap.vala
-    TZPopover.vala
     Parser.vala
     CurrentTimeManager.vala
+    Widgets/TimeMap.vala
+    Widgets/TZPopover.vala
     ${CMAKE_CURRENT_BINARY_DIR}/config.vala
 PACKAGES
     gtk+-3.0
