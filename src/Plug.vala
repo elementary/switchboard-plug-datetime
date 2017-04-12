@@ -68,10 +68,17 @@ public class DateTime.Plug : Switchboard.Plug {
             time_zone_label.xalign = 1;
 
             tz_continent_label = new Gtk.Label (null);
+            tz_continent_label.xalign = 1;
+
             tz_city_label = new Gtk.Label (null);
+            tz_city_label.xalign = 0;
+
+            var size_group = new Gtk.SizeGroup (Gtk.SizeGroupMode.HORIZONTAL);
+            size_group.add_widget (tz_continent_label);
+            size_group.add_widget (tz_city_label);
 
             var time_zone_grid = new Gtk.Grid ();
-            time_zone_grid.column_spacing = 5;
+            time_zone_grid.column_spacing = 6;
             time_zone_grid.halign = Gtk.Align.CENTER;
             time_zone_grid.add (tz_continent_label);
             time_zone_grid.add (new Gtk.Separator (Gtk.Orientation.VERTICAL));
