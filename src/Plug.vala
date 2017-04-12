@@ -86,20 +86,24 @@ public class DateTime.Plug : Switchboard.Plug {
                 change_tz (tz);
             });
 
+            var widget_grid = new Gtk.Grid ();
+            widget_grid.halign = Gtk.Align.CENTER;
+            widget_grid.column_spacing = 12;
+            widget_grid.row_spacing = 12;
+            widget_grid.attach (time_format_label, 0, 0, 1, 1);
+            widget_grid.attach (time_format, 1, 0, 3, 1);
+            widget_grid.attach (time_zone_label, 0, 1, 1, 1);
+            widget_grid.attach (time_zone_button, 1, 1, 3, 1);
+            widget_grid.attach (network_time_label, 0, 2, 1, 1);
+            widget_grid.attach (network_time_switch, 1, 2, 1, 1);
+            widget_grid.attach (time_picker, 2, 2, 1, 1);
+            widget_grid.attach (date_picker, 3, 2, 1, 1);
+
             main_grid = new Gtk.Grid ();
-            main_grid.halign = Gtk.Align.CENTER;
-            main_grid.margin = 12;
-            main_grid.column_spacing = 12;
-            main_grid.row_spacing = 12;
-            main_grid.attach (time_map, 0, 0, 5, 1);
-            main_grid.attach (time_format_label, 0, 1, 1, 1);
-            main_grid.attach (time_format, 1, 1, 3, 1);
-            main_grid.attach (time_zone_label, 0, 2, 1, 1);
-            main_grid.attach (time_zone_button, 1, 2, 3, 1);
-            main_grid.attach (network_time_label, 0, 3, 1, 1);
-            main_grid.attach (network_time_switch, 1, 3, 1, 1);
-            main_grid.attach (time_picker, 2, 3, 1, 1);
-            main_grid.attach (date_picker, 3, 3, 1, 1);
+            main_grid.row_spacing = 24;
+            main_grid.margin = 24;
+            main_grid.attach (time_map, 0, 0, 1, 1);
+            main_grid.attach (widget_grid, 0, 1, 1, 1);
 
             main_grid.show_all ();
 
