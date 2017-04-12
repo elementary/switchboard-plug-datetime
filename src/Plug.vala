@@ -72,6 +72,11 @@ public class DateTime.Plug : Switchboard.Plug {
             size_group.add_widget (tz_continent_label);
             size_group.add_widget (tz_city_label);
 
+            var auto_time_zone_label = new Gtk.Label (_("Automatically update time zone:"));
+
+            var auto_time_zone_switch = new Gtk.Switch ();
+            auto_time_zone_switch.halign = Gtk.Align.START;
+
             var time_zone_grid = new Gtk.Grid ();
             time_zone_grid.column_spacing = 6;
             time_zone_grid.halign = Gtk.Align.CENTER;
@@ -94,12 +99,14 @@ public class DateTime.Plug : Switchboard.Plug {
             widget_grid.row_spacing = 12;
             widget_grid.attach (time_format_label, 0, 0, 1, 1);
             widget_grid.attach (time_format, 1, 0, 3, 1);
-            widget_grid.attach (time_zone_label, 0, 1, 1, 1);
-            widget_grid.attach (time_zone_button, 1, 1, 3, 1);
-            widget_grid.attach (network_time_label, 0, 2, 1, 1);
-            widget_grid.attach (network_time_switch, 1, 2, 1, 1);
-            widget_grid.attach (time_picker, 2, 2, 1, 1);
-            widget_grid.attach (date_picker, 3, 2, 1, 1);
+            widget_grid.attach (auto_time_zone_label, 0, 1, 1, 1);
+            widget_grid.attach (auto_time_zone_switch, 1, 1, 1, 1);
+            widget_grid.attach (time_zone_label, 0, 2, 1, 1);
+            widget_grid.attach (time_zone_button, 1, 2, 3, 1);
+            widget_grid.attach (network_time_label, 0, 3, 1, 1);
+            widget_grid.attach (network_time_switch, 1, 3, 1, 1);
+            widget_grid.attach (time_picker, 2, 3, 1, 1);
+            widget_grid.attach (date_picker, 3, 3, 1, 1);
 
             main_grid = new Gtk.Grid ();
             main_grid.row_spacing = 24;
@@ -237,6 +244,13 @@ public class DateTime.Plug : Switchboard.Plug {
 
             network_time_switch.active = datetime1.NTP;
             change_tz (datetime1.Timezone);
+
+            auto_time_zone_switch.bind_property ("active", time_zone_button, "sensitive", BindingFlags.INVERT_BOOLEAN);
+            auto_time_zone_switch.bind_property ("active", time_zone_label, "sensitive", BindingFlags.INVERT_BOOLEAN);
+            auto_time_zone_switch.bind_property ("active", time_map, "sensitive", BindingFlags.INVERT_BOOLEAN);
+
+            var time_zone_settings = new GLib.Settings ("org.gnome.desktop.datetime");
+            time_zone_settings.bind ("automatic-timezone", auto_time_zone_switch, "active", SettingsBindFlags.DEFAULT);
         }
 
         return main_grid;
