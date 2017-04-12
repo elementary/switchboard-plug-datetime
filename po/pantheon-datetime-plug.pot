@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-12 15:42-0700\n"
+"POT-Creation-Date: 2017-04-13 06:41+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3171,27 +3171,27 @@ msgstr ""
 msgid "Time Zone:"
 msgstr ""
 
-#: ../src/Plug.vala:91
+#: ../src/Plug.vala:108
 msgid "Show week numbers:"
 msgstr ""
 
-#: ../src/Plug.vala:293
+#: ../src/Plug.vala:299
 msgid "Network Time"
 msgstr ""
 
-#: ../src/Plug.vala:294
+#: ../src/Plug.vala:300
 msgid "Time"
 msgstr ""
 
-#: ../src/Plug.vala:295
+#: ../src/Plug.vala:301
 msgid "Date"
 msgstr ""
 
-#: ../src/Plug.vala:296
+#: ../src/Plug.vala:302
 msgid "Time Zone"
 msgstr ""
 
-#: ../src/Plug.vala:297
+#: ../src/Plug.vala:303
 msgid "Time Format"
 msgstr ""
 
