@@ -63,10 +63,17 @@ public class DateTime.Plug : Switchboard.Plug {
             time_zone_label.xalign = 1;
 
             tz_continent_label = new Gtk.Label (null);
+            tz_continent_label.xalign = 1;
+
             tz_city_label = new Gtk.Label (null);
+            tz_city_label.xalign = 0;
+
+            var size_group = new Gtk.SizeGroup (Gtk.SizeGroupMode.HORIZONTAL);
+            size_group.add_widget (tz_continent_label);
+            size_group.add_widget (tz_city_label);
 
             var time_zone_grid = new Gtk.Grid ();
-            time_zone_grid.column_spacing = 5;
+            time_zone_grid.column_spacing = 6;
             time_zone_grid.halign = Gtk.Align.CENTER;
             time_zone_grid.add (tz_continent_label);
             time_zone_grid.add (new Gtk.Separator (Gtk.Orientation.VERTICAL));
@@ -81,20 +88,24 @@ public class DateTime.Plug : Switchboard.Plug {
                 change_tz (tz);
             });
 
+            var widget_grid = new Gtk.Grid ();
+            widget_grid.halign = Gtk.Align.CENTER;
+            widget_grid.column_spacing = 12;
+            widget_grid.row_spacing = 12;
+            widget_grid.attach (time_format_label, 0, 0, 1, 1);
+            widget_grid.attach (time_format, 1, 0, 3, 1);
+            widget_grid.attach (time_zone_label, 0, 1, 1, 1);
+            widget_grid.attach (time_zone_button, 1, 1, 3, 1);
+            widget_grid.attach (network_time_label, 0, 2, 1, 1);
+            widget_grid.attach (network_time_switch, 1, 2, 1, 1);
+            widget_grid.attach (time_picker, 2, 2, 1, 1);
+            widget_grid.attach (date_picker, 3, 2, 1, 1);
+
             main_grid = new Gtk.Grid ();
-            main_grid.halign = Gtk.Align.CENTER;
-            main_grid.margin = 12;
-            main_grid.column_spacing = 12;
-            main_grid.row_spacing = 12;
-            main_grid.attach (time_map, 0, 0, 5, 1);
-            main_grid.attach (time_format_label, 0, 1, 1, 1);
-            main_grid.attach (time_format, 1, 1, 3, 1);
-            main_grid.attach (time_zone_label, 0, 2, 1, 1);
-            main_grid.attach (time_zone_button, 1, 2, 3, 1);
-            main_grid.attach (network_time_label, 0, 3, 1, 1);
-            main_grid.attach (network_time_switch, 1, 3, 1, 1);
-            main_grid.attach (time_picker, 2, 3, 1, 1);
-            main_grid.attach (date_picker, 3, 3, 1, 1);
+            main_grid.row_spacing = 24;
+            main_grid.margin = 24;
+            main_grid.attach (time_map, 0, 0, 1, 1);
+            main_grid.attach (widget_grid, 0, 1, 1, 1);
 
             main_grid.show_all ();
 
