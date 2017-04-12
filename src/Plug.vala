@@ -59,11 +59,6 @@ public class DateTime.Plug : Switchboard.Plug {
             time_format.append_text (_("AM/PM"));
             time_format.append_text (_("24h"));
 
-            if (Posix.nl_langinfo (Posix.NLItem.AM_STR) == "") {
-                time_format_label.no_show_all = true;
-                time_format.no_show_all = true;
-            }
-
             var time_zone_label = new Gtk.Label (_("Time Zone:"));
             time_zone_label.xalign = 1;
 
