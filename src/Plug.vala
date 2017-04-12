@@ -42,47 +42,42 @@ public class DateTime.Plug : Switchboard.Plug {
 
     public override Gtk.Widget get_widget () {
         if (main_grid == null) {
-            main_grid = new Gtk.Grid ();
-            main_grid.expand = true;
-            main_grid.margin = 12;
-            main_grid.column_spacing = 12;
-            main_grid.row_spacing = 6;
 
             var network_time_label = new Gtk.Label (_("Network Time:"));
-            network_time_label.use_markup = true;
-            ((Gtk.Misc) network_time_label).xalign = 1;
-            var network_time_switch = new Gtk.Switch ();
+            network_time_label.xalign = 1;
 
-            var switch_grid = new Gtk.Grid ();
-            switch_grid.valign = Gtk.Align.CENTER;
-            switch_grid.add (network_time_switch);
+            var network_time_switch = new Gtk.Switch ();
+            network_time_switch.halign = Gtk.Align.START;
 
             var time_picker = new Granite.Widgets.TimePicker ();
             var date_picker = new Granite.Widgets.DatePicker ();
 
             var time_format_label = new Gtk.Label (_("Time Format:"));
-            ((Gtk.Misc) time_format_label).xalign = 1;
+            time_format_label.xalign = 1;
+
             var time_format_combobox = new Gtk.ComboBoxText ();
             time_format_combobox.append ("24h", _("24h"));
             time_format_combobox.append ("ampm", _("AM/PM"));
-            var time_format_grid = new Gtk.Grid ();
-            time_format_grid.add (time_format_combobox);
+
             if (Posix.nl_langinfo (Posix.NLItem.AM_STR) == "") {
                 time_format_label.no_show_all = true;
                 time_format_combobox.no_show_all = true;
             }
 
             var time_zone_label = new Gtk.Label (_("Time Zone:"));
-            ((Gtk.Misc) time_zone_label).xalign = 1;
-            var time_zone_button = new Gtk.Button ();
+            time_zone_label.xalign = 1;
+
+            tz_continent_label = new Gtk.Label (null);
+            tz_city_label = new Gtk.Label (null);
+
             var time_zone_grid = new Gtk.Grid ();
             time_zone_grid.column_spacing = 5;
             time_zone_grid.halign = Gtk.Align.CENTER;
-            tz_continent_label = new Gtk.Label (null);
-            tz_city_label = new Gtk.Label (null);
             time_zone_grid.add (tz_continent_label);
             time_zone_grid.add (new Gtk.Separator (Gtk.Orientation.VERTICAL));
             time_zone_grid.add (tz_city_label);
+
+            var time_zone_button = new Gtk.Button ();
             time_zone_button.add (time_zone_grid);
 
             time_map = new TimeMap ();
@@ -91,22 +86,21 @@ public class DateTime.Plug : Switchboard.Plug {
                 change_tz (tz);
             });
 
-            main_grid.attach (time_map, 0, 1, 6, 1);
-            main_grid.attach (time_zone_label, 1, 0, 1, 1);
-            main_grid.attach (time_zone_button, 2, 0, 2, 1);
-            main_grid.attach (network_time_label, 1, 2, 1, 1);
-            main_grid.attach (switch_grid, 2, 2, 1, 1);
-            main_grid.attach (time_picker, 3, 2, 1, 1);
-            main_grid.attach (date_picker, 4, 2, 1, 1);
-            main_grid.attach (time_format_label, 1, 3, 1, 1);
-            main_grid.attach (time_format_grid, 2, 3, 3, 1);
+            main_grid = new Gtk.Grid ();
+            main_grid.halign = Gtk.Align.CENTER;
+            main_grid.margin = 12;
+            main_grid.column_spacing = 12;
+            main_grid.row_spacing = 12;
+            main_grid.attach (time_map, 0, 0, 5, 1);
+            main_grid.attach (time_zone_label, 0, 1, 1, 1);
+            main_grid.attach (time_zone_button, 1, 1, 3, 1);
+            main_grid.attach (network_time_label, 0, 2, 1, 1);
+            main_grid.attach (network_time_switch, 1, 2, 1, 1);
+            main_grid.attach (time_picker, 2, 2, 1, 1);
+            main_grid.attach (date_picker, 3, 2, 1, 1);
+            main_grid.attach (time_format_label, 0, 3, 1, 1);
+            main_grid.attach (time_format_combobox, 1, 3, 3, 1);
 
-            var fake_grid_1 = new Gtk.Grid ();
-            fake_grid_1.hexpand = true;
-            var fake_grid_2 = new Gtk.Grid ();
-            fake_grid_2.hexpand = true;
-            main_grid.attach (fake_grid_1, 0, 0, 1, 1);
-            main_grid.attach (fake_grid_2, 5, 0, 1, 1);
             main_grid.show_all ();
 
             bool syncing_datetime = false;
