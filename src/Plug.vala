@@ -81,7 +81,6 @@ public class DateTime.Plug : Switchboard.Plug {
             time_zone_button.add (time_zone_grid);
 
             time_map = new TimeMap ();
-            time_map.expand = true;
             time_map.map_selected.connect ((tz) => {
                 change_tz (tz);
             });

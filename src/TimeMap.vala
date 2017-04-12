@@ -20,53 +20,28 @@
 
 
 public class DateTime.TimeMap : Gtk.EventBox {
-    public const int BG_WIDTH = 800;
-    public const int BG_HEIGHT = 409;
-    public const string TZ = "%s/images/timezone_%s.png";
+    public const int BG_WIDTH = 768;
+    public const int BG_HEIGHT = 382;
+    public const string TZ = "%s/images/timezone_%s.svg";
 
     public signal void map_selected (string timezone);
 
-    Gdk.Pixbuf background_map;
-    Gdk.Pixbuf background_map_scale;
-    Gdk.Pixbuf selected;
-    Gdk.Pixbuf selected_scale;
+    Gtk.Image background_map;
+    Gtk.Image selected;
     public TimeMap () {
-        try {
-            background_map = new Gdk.Pixbuf.from_file ("%s/images/bg.png".printf (Constants.PKGDATADIR));
-        } catch (Error e) {
-            critical (e.message);
-        }
-        background_map_scale = background_map;
-        get_style_context ().add_class (Gtk.STYLE_CLASS_FRAME);
+        background_map = new Gtk.Image.from_file ("%s/images/bg.svg".printf (Constants.PKGDATADIR));
+
+        selected = new Gtk.Image ();
+
+        var overlay = new Gtk.Overlay ();
+        overlay.set_size_request (BG_WIDTH, BG_HEIGHT);
+        overlay.add_overlay (background_map);
+        overlay.add_overlay (selected);
+
+        add (overlay);
+
         events |= Gdk.EventMask.BUTTON_PRESS_MASK;
         button_press_event.connect (map_clicked);
-    }
-
-    /* Widget is asked to draw itself */
-    public override bool draw (Cairo.Context cr) {
-        int x, y, draw_width, draw_height;
-        get_current_background_properties (out x, out y, out draw_width, out draw_height);
-
-        if ((draw_width < BG_WIDTH) || (draw_height < BG_HEIGHT)) {
-            background_map_scale = background_map.scale_simple (draw_width, draw_height, Gdk.InterpType.BILINEAR);
-            selected_scale = selected.scale_simple (draw_width, draw_height, Gdk.InterpType.BILINEAR);
-        } else {
-            background_map_scale = background_map;
-            selected_scale = selected;
-        }
-
-        if (x < 0)
-            x = 0;
-        if (y < 0)
-            y = 0;
-        cr.set_operator (Cairo.Operator.OVER);
-        Gdk.cairo_set_source_pixbuf (cr, background_map_scale, x, y);
-        cr.paint ();
-        Gdk.cairo_set_source_pixbuf (cr, selected_scale, x, y);
-        cr.paint ();
-        get_style_context ().render_frame (cr, x, y, draw_width, draw_height);
-
-        return false;
     }
 
     public override void get_preferred_width (out int minimum_width, out int natural_width) {
@@ -86,12 +61,10 @@ public class DateTime.TimeMap : Gtk.EventBox {
             //This doesn't work if the locale representation of 3.5 is 3,5 for example.
             string buffer = "%g".printf (offset);
             buffer = buffer.replace (Posix.nl_langinfo (Posix.NLItem.RADIXCHAR), ".");
-            selected = new Gdk.Pixbuf.from_file (TZ.printf (Constants.PKGDATADIR, buffer));
+            selected.file = TZ.printf (Constants.PKGDATADIR, buffer);
         } catch (Error e) {
             critical (e.message);
         }
-
-        selected_scale = selected;
         queue_draw ();
     }
 
