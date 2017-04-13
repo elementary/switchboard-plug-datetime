@@ -20,13 +20,12 @@
 
 public class DateTime.Plug : Switchboard.Plug {
     private Gtk.Grid main_grid;
+    private TimeZoneButton time_zone_button;
     private DateTime1 datetime1;
     private TimeMap time_map;
     private CurrentTimeManager ct_manager;
     private Settings clock_settings;
     private bool changing_clock_format = false;
-    private Gtk.Label tz_continent_label;
-    private Gtk.Label tz_city_label;
 
     public Plug () {
         var settings = new Gee.TreeMap<string, string?> (null, null);
@@ -62,25 +61,7 @@ public class DateTime.Plug : Switchboard.Plug {
             var time_zone_label = new Gtk.Label (_("Time Zone:"));
             time_zone_label.xalign = 1;
 
-            tz_continent_label = new Gtk.Label (null);
-            tz_continent_label.xalign = 1;
-
-            tz_city_label = new Gtk.Label (null);
-            tz_city_label.xalign = 0;
-
-            var size_group = new Gtk.SizeGroup (Gtk.SizeGroupMode.HORIZONTAL);
-            size_group.add_widget (tz_continent_label);
-            size_group.add_widget (tz_city_label);
-
-            var time_zone_grid = new Gtk.Grid ();
-            time_zone_grid.column_spacing = 6;
-            time_zone_grid.halign = Gtk.Align.CENTER;
-            time_zone_grid.add (tz_continent_label);
-            time_zone_grid.add (new Gtk.Separator (Gtk.Orientation.VERTICAL));
-            time_zone_grid.add (tz_city_label);
-
-            var time_zone_button = new Gtk.Button ();
-            time_zone_button.add (time_zone_grid);
+            time_zone_button = new TimeZoneButton ();
 
             time_map = new TimeMap ();
             time_map.expand = true;
@@ -265,8 +246,8 @@ public class DateTime.Plug : Switchboard.Plug {
         var tz = _(_tz);
         var english_tz = _tz;
         var values = tz.split ("/", 2);
-        tz_continent_label.label = values[0];
-        tz_city_label.label = Parser.format_city (values[1]);
+        time_zone_button.continent_label.label = values[0];
+        time_zone_button.city_label.label = Parser.format_city (values[1]);
         if (datetime1.Timezone != english_tz) {
             try {
                 datetime1.set_timezone (english_tz, true);
