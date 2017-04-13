@@ -26,7 +26,6 @@ public class DateTime.TimeZoneButton : Gtk.Button {
     public string time_zone {
         set {
             var values = value.split ("/", 2);
-
             continent_label.label = values[0];
             city_label.label = Parser.format_city (values[1]);
         }
