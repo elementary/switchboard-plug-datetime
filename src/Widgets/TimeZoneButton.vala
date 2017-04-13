@@ -19,9 +19,18 @@
  * Authored by: Corentin Noël <corentin@elementary.io>
 */
 
-public class TimeZoneButton : Gtk.Button {
-    public Gtk.Label continent_label;
-    public Gtk.Label city_label;
+public class DateTime.TimeZoneButton : Gtk.Button {
+    private Gtk.Label city_label;
+    private Gtk.Label continent_label;
+
+    public string time_zone {
+        set {
+            var values = value.split ("/", 2);
+
+            continent_label.label = values[0];
+            city_label.label = Parser.format_city (values[1]);
+        }
+    }
 
     construct {
         continent_label = new Gtk.Label (null);

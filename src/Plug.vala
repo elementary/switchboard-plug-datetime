@@ -205,6 +205,7 @@ public class DateTime.Plug : Switchboard.Plug {
             popover.request_timezone_change.connect (change_tz);
             popover.position = Gtk.PositionType.BOTTOM;
             popover.show_all ();
+
             time_zone_button.clicked.connect (() => {
                 popover.set_timezone (datetime1.Timezone);
                 popover.visible = !popover.visible;
@@ -245,9 +246,9 @@ public class DateTime.Plug : Switchboard.Plug {
     private void change_tz (string _tz) {
         var tz = _(_tz);
         var english_tz = _tz;
-        var values = tz.split ("/", 2);
-        time_zone_button.continent_label.label = values[0];
-        time_zone_button.city_label.label = Parser.format_city (values[1]);
+
+        time_zone_button.time_zone = tz;
+
         if (datetime1.Timezone != english_tz) {
             try {
                 datetime1.set_timezone (english_tz, true);
@@ -258,9 +259,12 @@ public class DateTime.Plug : Switchboard.Plug {
         }
 
         var local_time = new GLib.DateTime.now_local ();
+
         float offset = (float)(local_time.get_utc_offset ())/(float)(GLib.TimeSpan.HOUR);
+
         if (local_time.is_daylight_savings ())
             offset--;
+
         time_map.switch_to_tz (offset);
     }
 
