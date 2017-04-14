@@ -62,6 +62,7 @@ public class DateTime.Plug : Switchboard.Plug {
             time_zone_label.xalign = 1;
 
             time_zone_button = new TimeZoneButton ();
+            time_zone_button.request_timezone_change.connect (change_tz);
 
             time_map = new TimeMap ();
             time_map.expand = true;
@@ -195,20 +196,6 @@ public class DateTime.Plug : Switchboard.Plug {
                 }
 
                 changing_clock_format = false;
-            });
-
-            /*
-             * Setup TimeZone Button
-             */
-            var popover = new DateTime.TZPopover ();
-            popover.relative_to = time_zone_button;
-            popover.request_timezone_change.connect (change_tz);
-            popover.position = Gtk.PositionType.BOTTOM;
-            popover.show_all ();
-
-            time_zone_button.clicked.connect (() => {
-                popover.set_timezone (datetime1.Timezone);
-                popover.visible = !popover.visible;
             });
 
             /*

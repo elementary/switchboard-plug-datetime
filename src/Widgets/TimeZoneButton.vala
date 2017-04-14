@@ -20,14 +20,19 @@
 */
 
 public class DateTime.TimeZoneButton : Gtk.Button {
+    public signal void request_timezone_change (string tz);
+
     private Gtk.Label city_label;
     private Gtk.Label continent_label;
+    private DateTime.TZPopover popover;
 
     public string time_zone {
         set {
             var values = value.split ("/", 2);
             continent_label.label = values[0];
             city_label.label = Parser.format_city (values[1]);
+
+            popover.set_timezone (value);
         }
     }
 
@@ -50,5 +55,18 @@ public class DateTime.TimeZoneButton : Gtk.Button {
         grid.add (city_label);
 
         add (grid);
+
+        popover = new DateTime.TZPopover ();
+        popover.relative_to = this;
+        popover.position = Gtk.PositionType.BOTTOM;
+        popover.show_all ();
+
+        popover.request_timezone_change.connect ((tz) => {
+            request_timezone_change (tz);
+        });
+
+        this.clicked.connect (() => {
+            popover.visible = !popover.visible;
+        });
     }
 }
