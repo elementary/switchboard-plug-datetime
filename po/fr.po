@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-datetime\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-01-11 10:03+0300\n"
-"PO-Revision-Date: 2017-04-15 00:48+0000\n"
+"PO-Revision-Date: 2017-04-15 00:50+0000\n"
 "Last-Translator: Corentin Noël <corentin@elementary.io>\n"
 "Language-Team: French <https://l10n.elementary.io/projects/switchboard"
 "/switchboard-plug-datetime/fr/>\n"
@@ -778,7 +778,7 @@ msgstr "Amérique/Thunder_Bay"
 #. /Translators: Comment for Timezone America/Thunder_Bay
 #: ../src/Translations.vala:305
 msgid "Eastern - ON (Thunder Bay)"
-msgstr "Eastern - ON (Thunder Bay)"
+msgstr "Est - ON (Thunder Bay)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:307
@@ -818,7 +818,7 @@ msgstr "Amérique/Winnipeg"
 #. /Translators: Comment for Timezone America/Winnipeg
 #: ../src/Translations.vala:321
 msgid "Central - ON (west); Manitoba"
-msgstr "Central - ON (west); Manitoba"
+msgstr "Centre - ON (ouest); Manitoba"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:323
@@ -838,7 +838,7 @@ msgstr "Amérique/Resolute"
 #. /Translators: Comment for Timezone America/Resolute
 #: ../src/Translations.vala:329
 msgid "Central - NU (Resolute)"
-msgstr "Central - NU (Resolute)"
+msgstr "Centre - NU (Resolute)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:331
@@ -1053,7 +1053,7 @@ msgstr "Asie/Shanghai"
 #. /Translators: Comment for Timezone Asia/Shanghai
 #: ../src/Translations.vala:415
 msgid "Beijing Time"
-msgstr "Temps de Pékin"
+msgstr "Heure de Pékin"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:417
@@ -1932,7 +1932,7 @@ msgstr "Amérique/Chihuahua"
 #. /Translators: Comment for Timezone America/Chihuahua
 #: ../src/Translations.vala:765
 msgid "Mountain Time - Chihuahua (most areas)"
-msgstr "Temps des Rocheuses - Chihuahua (principales régions)"
+msgstr "Heure des Rocheuses - Chihuahua (principales régions)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:767
@@ -1942,7 +1942,7 @@ msgstr "Amérique/Ojinaga"
 #. /Translators: Comment for Timezone America/Ojinaga
 #: ../src/Translations.vala:769
 msgid "Mountain Time US - Chihuahua (US border)"
-msgstr "Temps des Rocheuses - Chihuahua (frontière USA)"
+msgstr "Heure des Rocheuses - Chihuahua (frontière USA)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:771
@@ -1952,7 +1952,7 @@ msgstr "Amerique/Hermosillo"
 #. /Translators: Comment for Timezone America/Hermosillo
 #: ../src/Translations.vala:773
 msgid "Mountain Standard Time - Sonora"
-msgstr "Heure des Montagnes - Sonora"
+msgstr "Heure des Rocheuses - Sonora"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:775
@@ -3195,7 +3195,7 @@ msgstr "Heure réseau :"
 
 #: ../src/Plug.vala:63
 msgid "Time Format:"
-msgstr "Format du Temps :"
+msgstr "Format de l'heure :"
 
 #: ../src/Plug.vala:66
 msgid "24h"
