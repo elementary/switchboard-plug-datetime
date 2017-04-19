@@ -2,50 +2,53 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-11 10:03+0300\n"
-"PO-Revision-Date: 2014-12-14 13:00+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2017-04-13 06:45+0700\n"
+"PO-Revision-Date: 2017-04-19 19:40+0000\n"
+"Last-Translator: Benjamin CARADEUC <bencrdc@gmail.com>\n"
+"Language-Team: French <https://l10n.elementary.io/projects/switchboard"
+"/switchboard-plug-datetime/fr_CA/>\n"
+"Language: fr_CA\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 2.13-dev\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:06+0000\n"
-"X-Generator: Launchpad (build 18302)\n"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:3
 msgid "Europe/Andorra"
-msgstr ""
+msgstr "Europe/Andorre"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:5
 msgid "Asia/Dubai"
-msgstr ""
+msgstr "Asie/Dubaï"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:7
 msgid "Asia/Kabul"
-msgstr ""
+msgstr "Asie/Kaboul"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:9
 msgid "America/Antigua"
-msgstr ""
+msgstr "Amerique/Antigua"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:11
 msgid "America/Anguilla"
-msgstr ""
+msgstr "Amérique/Anguilla"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:13
 msgid "Europe/Tirane"
-msgstr ""
+msgstr "Europe/Tirana"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:15
 msgid "Asia/Yerevan"
-msgstr ""
+msgstr "Asie/Erevan"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:17
@@ -2959,7 +2962,7 @@ msgid "America/Los_Angeles"
 msgstr ""
 
 #. /Translators: Comment for Timezone America/Los_Angeles
-#: ../src/Translations.vala:1181 ../src/TZPopover.vala:73
+#: ../src/Translations.vala:1181 ../src/Widgets/TZPopover.vala:73
 msgid "Pacific"
 msgstr ""
 
@@ -3138,38 +3141,6 @@ msgstr ""
 msgid "Africa/Harare"
 msgstr ""
 
-#: ../src/TZPopover.vala:57
-msgid "Africa"
-msgstr ""
-
-#: ../src/TZPopover.vala:59
-msgid "America"
-msgstr ""
-
-#: ../src/TZPopover.vala:61
-msgid "Antarctica"
-msgstr ""
-
-#: ../src/TZPopover.vala:63
-msgid "Asia"
-msgstr ""
-
-#: ../src/TZPopover.vala:65
-msgid "Atlantic"
-msgstr ""
-
-#: ../src/TZPopover.vala:67
-msgid "Australia"
-msgstr ""
-
-#: ../src/TZPopover.vala:69
-msgid "Europe"
-msgstr ""
-
-#: ../src/TZPopover.vala:71
-msgid "Indian"
-msgstr ""
-
 #: ../src/Plug.vala:37
 msgid "Date & Time"
 msgstr ""
@@ -3178,42 +3149,78 @@ msgstr ""
 msgid "Configure date, time, and select time zone"
 msgstr ""
 
-#: ../src/Plug.vala:51
+#: ../src/Plug.vala:46
 msgid "Network Time:"
 msgstr ""
 
-#: ../src/Plug.vala:63
+#: ../src/Plug.vala:55
 msgid "Time Format:"
 msgstr ""
 
-#: ../src/Plug.vala:66
-msgid "24h"
-msgstr ""
-
-#: ../src/Plug.vala:67
+#: ../src/Plug.vala:59
 msgid "AM/PM"
 msgstr ""
 
-#: ../src/Plug.vala:75
+#: ../src/Plug.vala:60
+msgid "24h"
+msgstr ""
+
+#: ../src/Plug.vala:62
 msgid "Time Zone:"
 msgstr ""
 
-#: ../src/Plug.vala:282
+#: ../src/Plug.vala:91
+msgid "Show week numbers:"
+msgstr ""
+
+#: ../src/Plug.vala:301
 msgid "Network Time"
 msgstr ""
 
-#: ../src/Plug.vala:283
+#: ../src/Plug.vala:302
 msgid "Time"
 msgstr ""
 
-#: ../src/Plug.vala:284
+#: ../src/Plug.vala:303
 msgid "Date"
 msgstr ""
 
-#: ../src/Plug.vala:285
+#: ../src/Plug.vala:304
 msgid "Time Zone"
 msgstr ""
 
-#: ../src/Plug.vala:286
+#: ../src/Plug.vala:305
 msgid "Time Format"
+msgstr ""
+
+#: ../src/Widgets/TZPopover.vala:57
+msgid "Africa"
+msgstr ""
+
+#: ../src/Widgets/TZPopover.vala:59
+msgid "America"
+msgstr ""
+
+#: ../src/Widgets/TZPopover.vala:61
+msgid "Antarctica"
+msgstr ""
+
+#: ../src/Widgets/TZPopover.vala:63
+msgid "Asia"
+msgstr ""
+
+#: ../src/Widgets/TZPopover.vala:65
+msgid "Atlantic"
+msgstr ""
+
+#: ../src/Widgets/TZPopover.vala:67
+msgid "Australia"
+msgstr ""
+
+#: ../src/Widgets/TZPopover.vala:69
+msgid "Europe"
+msgstr ""
+
+#: ../src/Widgets/TZPopover.vala:71
+msgid "Indian"
 msgstr ""
