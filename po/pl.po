@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-04-13 06:45+0700\n"
-"PO-Revision-Date: 2017-05-08 20:07+0000\n"
-"Last-Translator: Piotr Strebski <strebski@o2.pl>\n"
+"PO-Revision-Date: 2017-05-08 20:08+0000\n"
+"Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <https://l10n.elementary.io/projects/switchboard"
 "/switchboard-plug-datetime/pl/>\n"
 "Language: pl\n"
@@ -3170,7 +3170,7 @@ msgstr "Format czasu:"
 
 #: ../src/Plug.vala:59
 msgid "AM/PM"
-msgstr "rano/po południu"
+msgstr "12-godzinny"
 
 #: ../src/Plug.vala:60
 msgid "24h"
