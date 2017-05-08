@@ -7,16 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-11 10:03+0300\n"
+"POT-Creation-Date: 2017-04-13 06:45+0700\n"
 "PO-Revision-Date: 2017-01-11 11:37+0000\n"
 "Last-Translator: Kirill Romanov <djaler1@gmail.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:05+0000\n"
 "X-Generator: Launchpad (build 18302)\n"
-"Language: ru\n"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:3
@@ -1911,8 +1911,7 @@ msgstr "Америка/Матаморос"
 #. /Translators: Comment for Timezone America/Matamoros
 #: ../src/Translations.vala:757
 msgid "Central Time US - Coahuila, Nuevo Leon, Tamaulipas (US border)"
-msgstr ""
-"Центральное время США - Коауила, Нуэво-Леон, Тамаулипас (граница США)"
+msgstr "Центральное время США - Коауила, Нуэво-Леон, Тамаулипас (граница США)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:759
@@ -2972,7 +2971,7 @@ msgid "America/Los_Angeles"
 msgstr "Америка/Лос_Анжелес"
 
 #. /Translators: Comment for Timezone America/Los_Angeles
-#: ../src/Translations.vala:1181 ../src/TZPopover.vala:73
+#: ../src/Translations.vala:1181 ../src/Widgets/TZPopover.vala:73
 msgid "Pacific"
 msgstr "Океания"
 
@@ -3151,38 +3150,6 @@ msgstr "Африка/Лусака"
 msgid "Africa/Harare"
 msgstr "Африка/Хараре"
 
-#: ../src/TZPopover.vala:57
-msgid "Africa"
-msgstr "Африка"
-
-#: ../src/TZPopover.vala:59
-msgid "America"
-msgstr "Америка"
-
-#: ../src/TZPopover.vala:61
-msgid "Antarctica"
-msgstr "Антарктида"
-
-#: ../src/TZPopover.vala:63
-msgid "Asia"
-msgstr "Азия"
-
-#: ../src/TZPopover.vala:65
-msgid "Atlantic"
-msgstr "Атлантика"
-
-#: ../src/TZPopover.vala:67
-msgid "Australia"
-msgstr "Австралия"
-
-#: ../src/TZPopover.vala:69
-msgid "Europe"
-msgstr "Европа"
-
-#: ../src/TZPopover.vala:71
-msgid "Indian"
-msgstr "Индийский океан"
-
 #: ../src/Plug.vala:37
 msgid "Date & Time"
 msgstr "Дата и время"
@@ -3191,42 +3158,78 @@ msgstr "Дата и время"
 msgid "Configure date, time, and select time zone"
 msgstr "Настройка даты, времени, выбор временной зоны"
 
-#: ../src/Plug.vala:51
+#: ../src/Plug.vala:46
 msgid "Network Time:"
 msgstr "Время сети:"
 
-#: ../src/Plug.vala:63
+#: ../src/Plug.vala:55
 msgid "Time Format:"
 msgstr "Формат времени:"
 
-#: ../src/Plug.vala:66
-msgid "24h"
-msgstr "24-часовой"
-
-#: ../src/Plug.vala:67
+#: ../src/Plug.vala:59
 msgid "AM/PM"
 msgstr "AM/PM"
 
-#: ../src/Plug.vala:75
+#: ../src/Plug.vala:60
+msgid "24h"
+msgstr "24-часовой"
+
+#: ../src/Plug.vala:62
 msgid "Time Zone:"
 msgstr "Часовой пояс:"
 
-#: ../src/Plug.vala:282
+#: ../src/Plug.vala:91
+msgid "Show week numbers:"
+msgstr ""
+
+#: ../src/Plug.vala:301
 msgid "Network Time"
 msgstr "Время сети"
 
-#: ../src/Plug.vala:283
+#: ../src/Plug.vala:302
 msgid "Time"
 msgstr "Время"
 
-#: ../src/Plug.vala:284
+#: ../src/Plug.vala:303
 msgid "Date"
 msgstr "Дата"
 
-#: ../src/Plug.vala:285
+#: ../src/Plug.vala:304
 msgid "Time Zone"
 msgstr "Часовой пояс"
 
-#: ../src/Plug.vala:286
+#: ../src/Plug.vala:305
 msgid "Time Format"
 msgstr "Формат времени"
+
+#: ../src/Widgets/TZPopover.vala:57
+msgid "Africa"
+msgstr "Африка"
+
+#: ../src/Widgets/TZPopover.vala:59
+msgid "America"
+msgstr "Америка"
+
+#: ../src/Widgets/TZPopover.vala:61
+msgid "Antarctica"
+msgstr "Антарктида"
+
+#: ../src/Widgets/TZPopover.vala:63
+msgid "Asia"
+msgstr "Азия"
+
+#: ../src/Widgets/TZPopover.vala:65
+msgid "Atlantic"
+msgstr "Атлантика"
+
+#: ../src/Widgets/TZPopover.vala:67
+msgid "Australia"
+msgstr "Австралия"
+
+#: ../src/Widgets/TZPopover.vala:69
+msgid "Europe"
+msgstr "Европа"
+
+#: ../src/Widgets/TZPopover.vala:71
+msgid "Indian"
+msgstr "Индийский океан"

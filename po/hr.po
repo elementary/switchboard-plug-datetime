@@ -6,11 +6,12 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-power\n"
-"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2017-01-11 10:03+0300\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-13 06:45+0700\n"
 "PO-Revision-Date: 2017-01-11 23:08+0000\n"
 "Last-Translator: gogo <trebelnik2@gmail.com>\n"
 "Language-Team: Croatian <hr@li.org>\n"
+"Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -2969,7 +2970,7 @@ msgid "America/Los_Angeles"
 msgstr "Amerika/Los_Angeles"
 
 #. /Translators: Comment for Timezone America/Los_Angeles
-#: ../src/Translations.vala:1181 ../src/TZPopover.vala:73
+#: ../src/Translations.vala:1181 ../src/Widgets/TZPopover.vala:73
 msgid "Pacific"
 msgstr "Tihi ocean"
 
@@ -3148,38 +3149,6 @@ msgstr "Afrika/Lusaka"
 msgid "Africa/Harare"
 msgstr "Afrika/Harare"
 
-#: ../src/TZPopover.vala:57
-msgid "Africa"
-msgstr "Afrika"
-
-#: ../src/TZPopover.vala:59
-msgid "America"
-msgstr "Amerika"
-
-#: ../src/TZPopover.vala:61
-msgid "Antarctica"
-msgstr "Antarktika"
-
-#: ../src/TZPopover.vala:63
-msgid "Asia"
-msgstr "Azija"
-
-#: ../src/TZPopover.vala:65
-msgid "Atlantic"
-msgstr "Atlantik"
-
-#: ../src/TZPopover.vala:67
-msgid "Australia"
-msgstr "Australija"
-
-#: ../src/TZPopover.vala:69
-msgid "Europe"
-msgstr "Europa"
-
-#: ../src/TZPopover.vala:71
-msgid "Indian"
-msgstr "Indija"
-
 #: ../src/Plug.vala:37
 msgid "Date & Time"
 msgstr "Datum i vrijeme"
@@ -3188,42 +3157,78 @@ msgstr "Datum i vrijeme"
 msgid "Configure date, time, and select time zone"
 msgstr "Prilagodite datum, vrijeme i odaberite vremensku zonu"
 
-#: ../src/Plug.vala:51
+#: ../src/Plug.vala:46
 msgid "Network Time:"
 msgstr "Mrežno vrijeme:"
 
-#: ../src/Plug.vala:63
+#: ../src/Plug.vala:55
 msgid "Time Format:"
 msgstr "Format vremena:"
 
-#: ../src/Plug.vala:66
-msgid "24h"
-msgstr "24 satni"
-
-#: ../src/Plug.vala:67
+#: ../src/Plug.vala:59
 msgid "AM/PM"
 msgstr "AM/PM"
 
-#: ../src/Plug.vala:75
+#: ../src/Plug.vala:60
+msgid "24h"
+msgstr "24 satni"
+
+#: ../src/Plug.vala:62
 msgid "Time Zone:"
 msgstr "Vremenska zona:"
 
-#: ../src/Plug.vala:282
+#: ../src/Plug.vala:91
+msgid "Show week numbers:"
+msgstr ""
+
+#: ../src/Plug.vala:301
 msgid "Network Time"
 msgstr "Mrežno vrijeme"
 
-#: ../src/Plug.vala:283
+#: ../src/Plug.vala:302
 msgid "Time"
 msgstr "Vrijeme"
 
-#: ../src/Plug.vala:284
+#: ../src/Plug.vala:303
 msgid "Date"
 msgstr "Datum"
 
-#: ../src/Plug.vala:285
+#: ../src/Plug.vala:304
 msgid "Time Zone"
 msgstr "Vremenska zona"
 
-#: ../src/Plug.vala:286
+#: ../src/Plug.vala:305
 msgid "Time Format"
 msgstr "Format vremena"
+
+#: ../src/Widgets/TZPopover.vala:57
+msgid "Africa"
+msgstr "Afrika"
+
+#: ../src/Widgets/TZPopover.vala:59
+msgid "America"
+msgstr "Amerika"
+
+#: ../src/Widgets/TZPopover.vala:61
+msgid "Antarctica"
+msgstr "Antarktika"
+
+#: ../src/Widgets/TZPopover.vala:63
+msgid "Asia"
+msgstr "Azija"
+
+#: ../src/Widgets/TZPopover.vala:65
+msgid "Atlantic"
+msgstr "Atlantik"
+
+#: ../src/Widgets/TZPopover.vala:67
+msgid "Australia"
+msgstr "Australija"
+
+#: ../src/Widgets/TZPopover.vala:69
+msgid "Europe"
+msgstr "Europa"
+
+#: ../src/Widgets/TZPopover.vala:71
+msgid "Indian"
+msgstr "Indija"
