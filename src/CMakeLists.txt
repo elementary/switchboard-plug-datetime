@@ -21,6 +21,7 @@ vala_precompile (VALA_C ${CMAKE_PROJECT_NAME}
     Parser.vala
     CurrentTimeManager.vala
     Widgets/TimeMap.vala
+    Widgets/TimeZoneButton.vala
     Widgets/TZPopover.vala
     ${CMAKE_CURRENT_BINARY_DIR}/config.vala
 PACKAGES

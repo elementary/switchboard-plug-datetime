@@ -1,3 +1,9 @@
+switchboard-plug-datetime (0.1.2) xenial; urgency=medium
+
+  * New upstream release.
+
+ -- Cody Garver <cody@elementary.io>  Fri, 21 Apr 2017 13:27:35 -0500
+
 switchboard-plug-datetime (0.1.1.1) xenial; urgency=medium
 
   * New upstream release.
