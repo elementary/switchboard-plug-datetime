@@ -7,16 +7,105 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-11 10:03+0300\n"
+"POT-Creation-Date: 2017-06-08 18:44+0200\n"
 "PO-Revision-Date: 2016-06-19 20:01+0000\n"
 "Last-Translator: Roman Sytnyk <Unknown>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:06+0000\n"
 "X-Generator: Launchpad (build 18302)\n"
-"Language: uk\n"
+
+#: ../src/Widgets/TZPopover.vala:57
+msgid "Africa"
+msgstr "Африка"
+
+#: ../src/Widgets/TZPopover.vala:59
+msgid "America"
+msgstr "Америка"
+
+#: ../src/Widgets/TZPopover.vala:61
+msgid "Antarctica"
+msgstr "Антарктика"
+
+#: ../src/Widgets/TZPopover.vala:63
+msgid "Asia"
+msgstr "Азія"
+
+#: ../src/Widgets/TZPopover.vala:65
+msgid "Atlantic"
+msgstr "Атлантика"
+
+#: ../src/Widgets/TZPopover.vala:67
+msgid "Australia"
+msgstr ""
+
+#: ../src/Widgets/TZPopover.vala:69
+msgid "Europe"
+msgstr "Європа"
+
+#: ../src/Widgets/TZPopover.vala:71
+msgid "Indian"
+msgstr "Індійська"
+
+#. /Translators: Comment for Timezone America/Los_Angeles
+#: ../src/Widgets/TZPopover.vala:73 ../src/Translations.vala:1181
+msgid "Pacific"
+msgstr "Тихоокеанський"
+
+#: ../src/Plug.vala:36
+msgid "Date & Time"
+msgstr "Дата і час"
+
+#: ../src/Plug.vala:37
+msgid "Configure date, time, and select time zone"
+msgstr "Налаштувати дату, час і обрати часовий пояс"
+
+#: ../src/Plug.vala:45
+msgid "Network Time:"
+msgstr "Час з мережі"
+
+#: ../src/Plug.vala:54
+msgid "Time Format:"
+msgstr "Формат часу:"
+
+#: ../src/Plug.vala:58
+msgid "AM/PM"
+msgstr "AM/PM"
+
+#: ../src/Plug.vala:59
+msgid "24h"
+msgstr "24-годинний"
+
+#: ../src/Plug.vala:61
+msgid "Time Zone:"
+msgstr "Часовий пояс:"
+
+#: ../src/Plug.vala:73
+msgid "Show week numbers:"
+msgstr ""
+
+#: ../src/Plug.vala:273
+msgid "Network Time"
+msgstr "Час з мережі"
+
+#: ../src/Plug.vala:274
+msgid "Time"
+msgstr "Час"
+
+#: ../src/Plug.vala:275
+msgid "Date"
+msgstr "Дата"
+
+#: ../src/Plug.vala:276
+msgid "Time Zone"
+msgstr "Часовий пояс"
+
+#: ../src/Plug.vala:277
+msgid "Time Format"
+msgstr "Формат часу"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:3
@@ -2964,11 +3053,6 @@ msgstr ""
 msgid "America/Los_Angeles"
 msgstr "Америка/Лос Анжелес"
 
-#. /Translators: Comment for Timezone America/Los_Angeles
-#: ../src/Translations.vala:1181 ../src/TZPopover.vala:73
-msgid "Pacific"
-msgstr "Тихоокеанський"
-
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1183
 msgid "America/Anchorage"
@@ -3143,83 +3227,3 @@ msgstr "Африка/Лусака"
 #: ../src/Translations.vala:1251
 msgid "Africa/Harare"
 msgstr "Африка/Хараре"
-
-#: ../src/TZPopover.vala:57
-msgid "Africa"
-msgstr "Африка"
-
-#: ../src/TZPopover.vala:59
-msgid "America"
-msgstr "Америка"
-
-#: ../src/TZPopover.vala:61
-msgid "Antarctica"
-msgstr "Антарктика"
-
-#: ../src/TZPopover.vala:63
-msgid "Asia"
-msgstr "Азія"
-
-#: ../src/TZPopover.vala:65
-msgid "Atlantic"
-msgstr "Атлантика"
-
-#: ../src/TZPopover.vala:67
-msgid "Australia"
-msgstr ""
-
-#: ../src/TZPopover.vala:69
-msgid "Europe"
-msgstr "Європа"
-
-#: ../src/TZPopover.vala:71
-msgid "Indian"
-msgstr "Індійська"
-
-#: ../src/Plug.vala:37
-msgid "Date & Time"
-msgstr "Дата і час"
-
-#: ../src/Plug.vala:38
-msgid "Configure date, time, and select time zone"
-msgstr "Налаштувати дату, час і обрати часовий пояс"
-
-#: ../src/Plug.vala:51
-msgid "Network Time:"
-msgstr "Час з мережі"
-
-#: ../src/Plug.vala:63
-msgid "Time Format:"
-msgstr "Формат часу:"
-
-#: ../src/Plug.vala:66
-msgid "24h"
-msgstr "24-годинний"
-
-#: ../src/Plug.vala:67
-msgid "AM/PM"
-msgstr "AM/PM"
-
-#: ../src/Plug.vala:75
-msgid "Time Zone:"
-msgstr "Часовий пояс:"
-
-#: ../src/Plug.vala:282
-msgid "Network Time"
-msgstr "Час з мережі"
-
-#: ../src/Plug.vala:283
-msgid "Time"
-msgstr "Час"
-
-#: ../src/Plug.vala:284
-msgid "Date"
-msgstr "Дата"
-
-#: ../src/Plug.vala:285
-msgid "Time Zone"
-msgstr "Часовий пояс"
-
-#: ../src/Plug.vala:286
-msgid "Time Format"
-msgstr "Формат часу"
