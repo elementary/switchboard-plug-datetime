@@ -2,15 +2,105 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-11 10:03+0300\n"
+"POT-Creation-Date: 2017-06-08 18:44+0200\n"
 "PO-Revision-Date: 2017-01-28 06:59+0000\n"
 "Last-Translator: Ryo Nakano <Unknown>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2017-01-29 05:09+0000\n"
 "X-Generator: Launchpad (build 18315)\n"
+
+#: ../src/Widgets/TZPopover.vala:57
+msgid "Africa"
+msgstr "アフリカ"
+
+#: ../src/Widgets/TZPopover.vala:59
+msgid "America"
+msgstr "アメリカ"
+
+#: ../src/Widgets/TZPopover.vala:61
+msgid "Antarctica"
+msgstr "南極大陸"
+
+#: ../src/Widgets/TZPopover.vala:63
+msgid "Asia"
+msgstr "アジア"
+
+#: ../src/Widgets/TZPopover.vala:65
+msgid "Atlantic"
+msgstr "大西洋"
+
+#: ../src/Widgets/TZPopover.vala:67
+msgid "Australia"
+msgstr "オーストラリア"
+
+#: ../src/Widgets/TZPopover.vala:69
+msgid "Europe"
+msgstr "ヨーロッパ"
+
+#: ../src/Widgets/TZPopover.vala:71
+msgid "Indian"
+msgstr "インド"
+
+#. /Translators: Comment for Timezone America/Los_Angeles
+#: ../src/Widgets/TZPopover.vala:73 ../src/Translations.vala:1181
+msgid "Pacific"
+msgstr "太平洋"
+
+#: ../src/Plug.vala:36
+msgid "Date & Time"
+msgstr "日付と時刻"
+
+#: ../src/Plug.vala:37
+msgid "Configure date, time, and select time zone"
+msgstr "日付と時刻の設定、タイムゾーンの選択をします"
+
+#: ../src/Plug.vala:45
+msgid "Network Time:"
+msgstr "ネットワーク時間"
+
+#: ../src/Plug.vala:54
+msgid "Time Format:"
+msgstr "時間フォーマット:"
+
+#: ../src/Plug.vala:58
+msgid "AM/PM"
+msgstr "午前/午後"
+
+#: ../src/Plug.vala:59
+msgid "24h"
+msgstr "24時間"
+
+#: ../src/Plug.vala:61
+msgid "Time Zone:"
+msgstr "タイムゾーン:"
+
+#: ../src/Plug.vala:73
+msgid "Show week numbers:"
+msgstr ""
+
+#: ../src/Plug.vala:273
+msgid "Network Time"
+msgstr "ネットワーク時間"
+
+#: ../src/Plug.vala:274
+msgid "Time"
+msgstr "時間"
+
+#: ../src/Plug.vala:275
+msgid "Date"
+msgstr "日付"
+
+#: ../src/Plug.vala:276
+msgid "Time Zone"
+msgstr "タイムゾーン"
+
+#: ../src/Plug.vala:277
+msgid "Time Format"
+msgstr "時刻の形式"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:3
@@ -525,7 +615,9 @@ msgstr "アメリカ/フォルタレザ"
 #. /Translators: Comment for Timezone America/Fortaleza
 #: ../src/Translations.vala:207
 msgid "Brazil (northeast: MA, PI, CE, RN, PB)"
-msgstr "ブラジル（北東部 ： マラニャン、ピアウイ、セアラー、リオ・グランデ・ド・ノルテ、パライバ ）"
+msgstr ""
+"ブラジル（北東部 ： マラニャン、ピアウイ、セアラー、リオ・グランデ・ド・ノル"
+"テ、パライバ ）"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:209
@@ -576,8 +668,9 @@ msgstr "アメリカ/サンパウロ"
 #: ../src/Translations.vala:227
 msgid "Brazil (southeast: GO, DF, MG, ES, RJ, SP, PR, SC, RS)"
 msgstr ""
-"ブラジル（南東 ： "
-"ゴイアス、連邦直轄区、ミナスジェライス、エスピリト・サント、リオデジャネイロ、サン・パウロ、パラナ、サンタカタリーナ、リオグランデ・ド・スル ）"
+"ブラジル（南東 ： ゴイアス、連邦直轄区、ミナスジェライス、エスピリト・サン"
+"ト、リオデジャネイロ、サン・パウロ、パラナ、サンタカタリーナ、リオグランデ・"
+"ド・スル ）"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:229
@@ -1458,7 +1551,9 @@ msgstr "アジア/マカッサル"
 #: ../src/Translations.vala:579
 msgid ""
 "Borneo (east, south); Sulawesi/Celebes, Bali, Nusa Tengarra; Timor (west)"
-msgstr "ボルネオ（東、南） ; スラウェシ/セレベス、バリ、ヌサTengarra ; ティモール（西）"
+msgstr ""
+"ボルネオ（東、南） ; スラウェシ/セレベス、バリ、ヌサTengarra ; ティモール"
+"（西）"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:581
@@ -1893,7 +1988,9 @@ msgstr "アメリカ/モンテレイ"
 #. /Translators: Comment for Timezone America/Monterrey
 #: ../src/Translations.vala:753
 msgid "Central Time - Durango; Coahuila, Nuevo Leon, Tamaulipas (most areas)"
-msgstr "中部標準時 - ドゥランゴ; コアウイラ、ヌエボレオン、タマウリパス (ほとんどの地域)"
+msgstr ""
+"中部標準時 - ドゥランゴ; コアウイラ、ヌエボレオン、タマウリパス (ほとんどの地"
+"域)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:755
@@ -1903,7 +2000,8 @@ msgstr "アメリカ/マタモロス"
 #. /Translators: Comment for Timezone America/Matamoros
 #: ../src/Translations.vala:757
 msgid "Central Time US - Coahuila, Nuevo Leon, Tamaulipas (US border)"
-msgstr "アメリア中部標準時 - コアウイラ、ヌエボレオン、タマウリパス（アメリカ国境)"
+msgstr ""
+"アメリア中部標準時 - コアウイラ、ヌエボレオン、タマウリパス（アメリカ国境)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:759
@@ -2960,11 +3058,6 @@ msgstr ""
 msgid "America/Los_Angeles"
 msgstr "アメリカ/ロサンゼルス"
 
-#. /Translators: Comment for Timezone America/Los_Angeles
-#: ../src/Translations.vala:1181 ../src/TZPopover.vala:73
-msgid "Pacific"
-msgstr "太平洋"
-
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1183
 msgid "America/Anchorage"
@@ -3139,83 +3232,3 @@ msgstr "アフリカ/ルサカ"
 #: ../src/Translations.vala:1251
 msgid "Africa/Harare"
 msgstr "アフリカ/ハラレ"
-
-#: ../src/TZPopover.vala:57
-msgid "Africa"
-msgstr "アフリカ"
-
-#: ../src/TZPopover.vala:59
-msgid "America"
-msgstr "アメリカ"
-
-#: ../src/TZPopover.vala:61
-msgid "Antarctica"
-msgstr "南極大陸"
-
-#: ../src/TZPopover.vala:63
-msgid "Asia"
-msgstr "アジア"
-
-#: ../src/TZPopover.vala:65
-msgid "Atlantic"
-msgstr "大西洋"
-
-#: ../src/TZPopover.vala:67
-msgid "Australia"
-msgstr "オーストラリア"
-
-#: ../src/TZPopover.vala:69
-msgid "Europe"
-msgstr "ヨーロッパ"
-
-#: ../src/TZPopover.vala:71
-msgid "Indian"
-msgstr "インド"
-
-#: ../src/Plug.vala:37
-msgid "Date & Time"
-msgstr "日付と時刻"
-
-#: ../src/Plug.vala:38
-msgid "Configure date, time, and select time zone"
-msgstr "日付と時刻の設定、タイムゾーンの選択をします"
-
-#: ../src/Plug.vala:51
-msgid "Network Time:"
-msgstr "ネットワーク時間"
-
-#: ../src/Plug.vala:63
-msgid "Time Format:"
-msgstr "時間フォーマット:"
-
-#: ../src/Plug.vala:66
-msgid "24h"
-msgstr "24時間"
-
-#: ../src/Plug.vala:67
-msgid "AM/PM"
-msgstr "午前/午後"
-
-#: ../src/Plug.vala:75
-msgid "Time Zone:"
-msgstr "タイムゾーン:"
-
-#: ../src/Plug.vala:282
-msgid "Network Time"
-msgstr "ネットワーク時間"
-
-#: ../src/Plug.vala:283
-msgid "Time"
-msgstr "時間"
-
-#: ../src/Plug.vala:284
-msgid "Date"
-msgstr "日付"
-
-#: ../src/Plug.vala:285
-msgid "Time Zone"
-msgstr "タイムゾーン"
-
-#: ../src/Plug.vala:286
-msgid "Time Format"
-msgstr "時刻の形式"

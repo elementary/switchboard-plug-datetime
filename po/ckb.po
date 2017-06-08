@@ -2,15 +2,105 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-11 10:03+0300\n"
+"POT-Creation-Date: 2017-06-08 18:44+0200\n"
 "PO-Revision-Date: 2014-12-14 12:59+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:06+0000\n"
 "X-Generator: Launchpad (build 18302)\n"
+
+#: ../src/Widgets/TZPopover.vala:57
+msgid "Africa"
+msgstr ""
+
+#: ../src/Widgets/TZPopover.vala:59
+msgid "America"
+msgstr ""
+
+#: ../src/Widgets/TZPopover.vala:61
+msgid "Antarctica"
+msgstr ""
+
+#: ../src/Widgets/TZPopover.vala:63
+msgid "Asia"
+msgstr ""
+
+#: ../src/Widgets/TZPopover.vala:65
+msgid "Atlantic"
+msgstr ""
+
+#: ../src/Widgets/TZPopover.vala:67
+msgid "Australia"
+msgstr ""
+
+#: ../src/Widgets/TZPopover.vala:69
+msgid "Europe"
+msgstr ""
+
+#: ../src/Widgets/TZPopover.vala:71
+msgid "Indian"
+msgstr ""
+
+#. /Translators: Comment for Timezone America/Los_Angeles
+#: ../src/Widgets/TZPopover.vala:73 ../src/Translations.vala:1181
+msgid "Pacific"
+msgstr ""
+
+#: ../src/Plug.vala:36
+msgid "Date & Time"
+msgstr ""
+
+#: ../src/Plug.vala:37
+msgid "Configure date, time, and select time zone"
+msgstr ""
+
+#: ../src/Plug.vala:45
+msgid "Network Time:"
+msgstr ""
+
+#: ../src/Plug.vala:54
+msgid "Time Format:"
+msgstr ""
+
+#: ../src/Plug.vala:58
+msgid "AM/PM"
+msgstr ""
+
+#: ../src/Plug.vala:59
+msgid "24h"
+msgstr ""
+
+#: ../src/Plug.vala:61
+msgid "Time Zone:"
+msgstr ""
+
+#: ../src/Plug.vala:73
+msgid "Show week numbers:"
+msgstr ""
+
+#: ../src/Plug.vala:273
+msgid "Network Time"
+msgstr ""
+
+#: ../src/Plug.vala:274
+msgid "Time"
+msgstr ""
+
+#: ../src/Plug.vala:275
+msgid "Date"
+msgstr ""
+
+#: ../src/Plug.vala:276
+msgid "Time Zone"
+msgstr ""
+
+#: ../src/Plug.vala:277
+msgid "Time Format"
+msgstr ""
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:3
@@ -2958,11 +3048,6 @@ msgstr ""
 msgid "America/Los_Angeles"
 msgstr ""
 
-#. /Translators: Comment for Timezone America/Los_Angeles
-#: ../src/Translations.vala:1181 ../src/TZPopover.vala:73
-msgid "Pacific"
-msgstr ""
-
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1183
 msgid "America/Anchorage"
@@ -3136,84 +3221,4 @@ msgstr ""
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1251
 msgid "Africa/Harare"
-msgstr ""
-
-#: ../src/TZPopover.vala:57
-msgid "Africa"
-msgstr ""
-
-#: ../src/TZPopover.vala:59
-msgid "America"
-msgstr ""
-
-#: ../src/TZPopover.vala:61
-msgid "Antarctica"
-msgstr ""
-
-#: ../src/TZPopover.vala:63
-msgid "Asia"
-msgstr ""
-
-#: ../src/TZPopover.vala:65
-msgid "Atlantic"
-msgstr ""
-
-#: ../src/TZPopover.vala:67
-msgid "Australia"
-msgstr ""
-
-#: ../src/TZPopover.vala:69
-msgid "Europe"
-msgstr ""
-
-#: ../src/TZPopover.vala:71
-msgid "Indian"
-msgstr ""
-
-#: ../src/Plug.vala:37
-msgid "Date & Time"
-msgstr ""
-
-#: ../src/Plug.vala:38
-msgid "Configure date, time, and select time zone"
-msgstr ""
-
-#: ../src/Plug.vala:51
-msgid "Network Time:"
-msgstr ""
-
-#: ../src/Plug.vala:63
-msgid "Time Format:"
-msgstr ""
-
-#: ../src/Plug.vala:66
-msgid "24h"
-msgstr ""
-
-#: ../src/Plug.vala:67
-msgid "AM/PM"
-msgstr ""
-
-#: ../src/Plug.vala:75
-msgid "Time Zone:"
-msgstr ""
-
-#: ../src/Plug.vala:282
-msgid "Network Time"
-msgstr ""
-
-#: ../src/Plug.vala:283
-msgid "Time"
-msgstr ""
-
-#: ../src/Plug.vala:284
-msgid "Date"
-msgstr ""
-
-#: ../src/Plug.vala:285
-msgid "Time Zone"
-msgstr ""
-
-#: ../src/Plug.vala:286
-msgid "Time Format"
 msgstr ""
