@@ -18,6 +18,95 @@ msgstr ""
 "X-Launchpad-Export-Date: 2017-01-12 06:05+0000\n"
 "X-Generator: Launchpad (build 18302)\n"
 
+#: ../src/Widgets/TZPopover.vala:57
+msgid "Africa"
+msgstr "Afrika"
+
+#: ../src/Widgets/TZPopover.vala:59
+msgid "America"
+msgstr "Amerika"
+
+#: ../src/Widgets/TZPopover.vala:61
+msgid "Antarctica"
+msgstr "Antarktika"
+
+#: ../src/Widgets/TZPopover.vala:63
+msgid "Asia"
+msgstr "Azija"
+
+#: ../src/Widgets/TZPopover.vala:65
+msgid "Atlantic"
+msgstr "Atlantik"
+
+#: ../src/Widgets/TZPopover.vala:67
+msgid "Australia"
+msgstr "Australija"
+
+#: ../src/Widgets/TZPopover.vala:69
+msgid "Europe"
+msgstr "Europa"
+
+#: ../src/Widgets/TZPopover.vala:71
+msgid "Indian"
+msgstr "Indija"
+
+#. /Translators: Comment for Timezone America/Los_Angeles
+#: ../src/Widgets/TZPopover.vala:73 ../src/Translations.vala:1181
+msgid "Pacific"
+msgstr "Tihi ocean"
+
+#: ../src/Plug.vala:36
+msgid "Date & Time"
+msgstr "Datum i vrijeme"
+
+#: ../src/Plug.vala:37
+msgid "Configure date, time, and select time zone"
+msgstr "Prilagodite datum, vrijeme i odaberite vremensku zonu"
+
+#: ../src/Plug.vala:45
+msgid "Network Time:"
+msgstr "Mrežno vrijeme:"
+
+#: ../src/Plug.vala:54
+msgid "Time Format:"
+msgstr "Format vremena:"
+
+#: ../src/Plug.vala:58
+msgid "AM/PM"
+msgstr "AM/PM"
+
+#: ../src/Plug.vala:59
+msgid "24h"
+msgstr "24 satni"
+
+#: ../src/Plug.vala:61
+msgid "Time Zone:"
+msgstr "Vremenska zona:"
+
+#: ../src/Plug.vala:73
+msgid "Show week numbers:"
+msgstr ""
+
+#: ../src/Plug.vala:273
+msgid "Network Time"
+msgstr "Mrežno vrijeme"
+
+#: ../src/Plug.vala:274
+msgid "Time"
+msgstr "Vrijeme"
+
+#: ../src/Plug.vala:275
+msgid "Date"
+msgstr "Datum"
+
+#: ../src/Plug.vala:276
+msgid "Time Zone"
+msgstr "Vremenska zona"
+
+#: ../src/Plug.vala:277
+msgid "Time Format"
+msgstr "Format vremena"
+
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:3
 msgid "Europe/Andorra"

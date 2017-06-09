@@ -20,6 +20,95 @@ msgstr ""
 "X-Language: da_DK\n"
 "X-Source-Language: C\n"
 
+#: ../src/Widgets/TZPopover.vala:57
+msgid "Africa"
+msgstr "Afrika"
+
+#: ../src/Widgets/TZPopover.vala:59
+msgid "America"
+msgstr "Amerika"
+
+#: ../src/Widgets/TZPopover.vala:61
+msgid "Antarctica"
+msgstr "Antarktis"
+
+#: ../src/Widgets/TZPopover.vala:63
+msgid "Asia"
+msgstr "Asien"
+
+#: ../src/Widgets/TZPopover.vala:65
+msgid "Atlantic"
+msgstr "Atlanterhavet"
+
+#: ../src/Widgets/TZPopover.vala:67
+msgid "Australia"
+msgstr "Australien"
+
+#: ../src/Widgets/TZPopover.vala:69
+msgid "Europe"
+msgstr "Europa"
+
+#: ../src/Widgets/TZPopover.vala:71
+msgid "Indian"
+msgstr "Indien"
+
+#. /Translators: Comment for Timezone America/Los_Angeles
+#: ../src/Widgets/TZPopover.vala:73 ../src/Translations.vala:1181
+msgid "Pacific"
+msgstr "Stillehavet"
+
+#: ../src/Plug.vala:36
+msgid "Date & Time"
+msgstr "Dato og klokkeslæt"
+
+#: ../src/Plug.vala:37
+msgid "Configure date, time, and select time zone"
+msgstr "Konfigurér dato, klokkeslæt og vælg tidszone"
+
+#: ../src/Plug.vala:45
+msgid "Network Time:"
+msgstr "Netværkstid:"
+
+#: ../src/Plug.vala:54
+msgid "Time Format:"
+msgstr "Tidsformat:"
+
+#: ../src/Plug.vala:58
+msgid "AM/PM"
+msgstr "AM/PM"
+
+#: ../src/Plug.vala:59
+msgid "24h"
+msgstr "24t"
+
+#: ../src/Plug.vala:61
+msgid "Time Zone:"
+msgstr "Tidszone:"
+
+#: ../src/Plug.vala:73
+msgid "Show week numbers:"
+msgstr ""
+
+#: ../src/Plug.vala:273
+msgid "Network Time"
+msgstr "Netværkstid"
+
+#: ../src/Plug.vala:274
+msgid "Time"
+msgstr "Tid"
+
+#: ../src/Plug.vala:275
+msgid "Date"
+msgstr "Dato"
+
+#: ../src/Plug.vala:276
+msgid "Time Zone"
+msgstr "Tidszone"
+
+#: ../src/Plug.vala:277
+msgid "Time Format"
+msgstr "Tidsformat"
+
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:3
 msgid "Europe/Andorra"

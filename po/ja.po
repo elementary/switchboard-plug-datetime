@@ -15,6 +15,95 @@ msgstr ""
 "X-Generator: Weblate 2.13-dev\n"
 "X-Launchpad-Export-Date: 2017-01-29 05:09+0000\n"
 
+#: ../src/Widgets/TZPopover.vala:57
+msgid "Africa"
+msgstr "アフリカ"
+
+#: ../src/Widgets/TZPopover.vala:59
+msgid "America"
+msgstr "アメリカ"
+
+#: ../src/Widgets/TZPopover.vala:61
+msgid "Antarctica"
+msgstr "南極大陸"
+
+#: ../src/Widgets/TZPopover.vala:63
+msgid "Asia"
+msgstr "アジア"
+
+#: ../src/Widgets/TZPopover.vala:65
+msgid "Atlantic"
+msgstr "大西洋"
+
+#: ../src/Widgets/TZPopover.vala:67
+msgid "Australia"
+msgstr "オーストラリア"
+
+#: ../src/Widgets/TZPopover.vala:69
+msgid "Europe"
+msgstr "ヨーロッパ"
+
+#: ../src/Widgets/TZPopover.vala:71
+msgid "Indian"
+msgstr "インド"
+
+#. /Translators: Comment for Timezone America/Los_Angeles
+#: ../src/Widgets/TZPopover.vala:73 ../src/Translations.vala:1181
+msgid "Pacific"
+msgstr "太平洋"
+
+#: ../src/Plug.vala:36
+msgid "Date & Time"
+msgstr "日付と時刻"
+
+#: ../src/Plug.vala:37
+msgid "Configure date, time, and select time zone"
+msgstr "日付と時刻の設定、タイムゾーンの選択をします"
+
+#: ../src/Plug.vala:45
+msgid "Network Time:"
+msgstr "ネットワーク時間"
+
+#: ../src/Plug.vala:54
+msgid "Time Format:"
+msgstr "時間フォーマット:"
+
+#: ../src/Plug.vala:58
+msgid "AM/PM"
+msgstr "午前/午後"
+
+#: ../src/Plug.vala:59
+msgid "24h"
+msgstr "24時間"
+
+#: ../src/Plug.vala:61
+msgid "Time Zone:"
+msgstr "タイムゾーン:"
+
+#: ../src/Plug.vala:73
+msgid "Show week numbers:"
+msgstr ""
+
+#: ../src/Plug.vala:273
+msgid "Network Time"
+msgstr "ネットワーク時間"
+
+#: ../src/Plug.vala:274
+msgid "Time"
+msgstr "時間"
+
+#: ../src/Plug.vala:275
+msgid "Date"
+msgstr "日付"
+
+#: ../src/Plug.vala:276
+msgid "Time Zone"
+msgstr "タイムゾーン"
+
+#: ../src/Plug.vala:277
+msgid "Time Format"
+msgstr "時刻の形式"
+
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:3
 msgid "Europe/Andorra"

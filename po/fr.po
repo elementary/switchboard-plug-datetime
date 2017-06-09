@@ -20,6 +20,95 @@ msgstr ""
 "X-Generator: Weblate 2.13-dev\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:04+0000\n"
 
+#: ../src/Widgets/TZPopover.vala:57
+msgid "Africa"
+msgstr "Afrique"
+
+#: ../src/Widgets/TZPopover.vala:59
+msgid "America"
+msgstr "Amérique"
+
+#: ../src/Widgets/TZPopover.vala:61
+msgid "Antarctica"
+msgstr "Antarctique"
+
+#: ../src/Widgets/TZPopover.vala:63
+msgid "Asia"
+msgstr "Asie"
+
+#: ../src/Widgets/TZPopover.vala:65
+msgid "Atlantic"
+msgstr "Atlantique"
+
+#: ../src/Widgets/TZPopover.vala:67
+msgid "Australia"
+msgstr "Australie"
+
+#: ../src/Widgets/TZPopover.vala:69
+msgid "Europe"
+msgstr "Europe"
+
+#: ../src/Widgets/TZPopover.vala:71
+msgid "Indian"
+msgstr "Indien"
+
+#. /Translators: Comment for Timezone America/Los_Angeles
+#: ../src/Widgets/TZPopover.vala:73 ../src/Translations.vala:1181
+msgid "Pacific"
+msgstr "Pacifique"
+
+#: ../src/Plug.vala:36
+msgid "Date & Time"
+msgstr "Date & Heure"
+
+#: ../src/Plug.vala:37
+msgid "Configure date, time, and select time zone"
+msgstr "Configurer la date, l'heure et sélectionner le fuseau horaire"
+
+#: ../src/Plug.vala:45
+msgid "Network Time:"
+msgstr "Heure réseau :"
+
+#: ../src/Plug.vala:54
+msgid "Time Format:"
+msgstr "Format du Temps :"
+
+#: ../src/Plug.vala:58
+msgid "AM/PM"
+msgstr "AM/PM"
+
+#: ../src/Plug.vala:59
+msgid "24h"
+msgstr "24h"
+
+#: ../src/Plug.vala:61
+msgid "Time Zone:"
+msgstr "Fuseau horaire :"
+
+#: ../src/Plug.vala:73
+msgid "Show week numbers:"
+msgstr ""
+
+#: ../src/Plug.vala:273
+msgid "Network Time"
+msgstr "Heure réseau"
+
+#: ../src/Plug.vala:274
+msgid "Time"
+msgstr "Heure"
+
+#: ../src/Plug.vala:275
+msgid "Date"
+msgstr "Date"
+
+#: ../src/Plug.vala:276
+msgid "Time Zone"
+msgstr "Fuseau horaire"
+
+#: ../src/Plug.vala:277
+msgid "Time Format"
+msgstr "Format de l'heure"
+
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:3
 msgid "Europe/Andorra"
