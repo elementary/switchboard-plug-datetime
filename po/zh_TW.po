@@ -7,16 +7,105 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-11 10:03+0300\n"
+"POT-Creation-Date: 2017-06-08 18:44+0200\n"
 "PO-Revision-Date: 2016-09-15 19:00+0000\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <zh_TW@li.org>\n"
+"Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:06+0000\n"
 "X-Generator: Launchpad (build 18302)\n"
-"Language: zh_TW\n"
+
+#: ../src/Widgets/TZPopover.vala:57
+msgid "Africa"
+msgstr "非洲"
+
+#: ../src/Widgets/TZPopover.vala:59
+msgid "America"
+msgstr "美洲"
+
+#: ../src/Widgets/TZPopover.vala:61
+msgid "Antarctica"
+msgstr "南極洲"
+
+#: ../src/Widgets/TZPopover.vala:63
+msgid "Asia"
+msgstr "亞洲"
+
+#: ../src/Widgets/TZPopover.vala:65
+msgid "Atlantic"
+msgstr "大西洋"
+
+#: ../src/Widgets/TZPopover.vala:67
+msgid "Australia"
+msgstr ""
+
+#: ../src/Widgets/TZPopover.vala:69
+msgid "Europe"
+msgstr "歐洲"
+
+#: ../src/Widgets/TZPopover.vala:71
+msgid "Indian"
+msgstr "印度"
+
+#. /Translators: Comment for Timezone America/Los_Angeles
+#: ../src/Widgets/TZPopover.vala:73 ../src/Translations.vala:1181
+msgid "Pacific"
+msgstr "太平洋"
+
+#: ../src/Plug.vala:36
+msgid "Date & Time"
+msgstr "日期和時間"
+
+#: ../src/Plug.vala:37
+msgid "Configure date, time, and select time zone"
+msgstr "調整日期、時間、和選擇時區"
+
+#: ../src/Plug.vala:45
+msgid "Network Time:"
+msgstr "網路時間："
+
+#: ../src/Plug.vala:54
+msgid "Time Format:"
+msgstr "時間格式："
+
+#: ../src/Plug.vala:58
+msgid "AM/PM"
+msgstr "上午/下午"
+
+#: ../src/Plug.vala:59
+msgid "24h"
+msgstr "24時制"
+
+#: ../src/Plug.vala:61
+msgid "Time Zone:"
+msgstr "時區："
+
+#: ../src/Plug.vala:73
+msgid "Show week numbers:"
+msgstr ""
+
+#: ../src/Plug.vala:273
+msgid "Network Time"
+msgstr "網路時間"
+
+#: ../src/Plug.vala:274
+msgid "Time"
+msgstr "時間"
+
+#: ../src/Plug.vala:275
+msgid "Date"
+msgstr "日期"
+
+#: ../src/Plug.vala:276
+msgid "Time Zone"
+msgstr "時區"
+
+#: ../src/Plug.vala:277
+msgid "Time Format"
+msgstr "時間格式"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:3
@@ -2964,11 +3053,6 @@ msgstr ""
 msgid "America/Los_Angeles"
 msgstr "美洲/洛杉磯"
 
-#. /Translators: Comment for Timezone America/Los_Angeles
-#: ../src/Translations.vala:1181 ../src/TZPopover.vala:73
-msgid "Pacific"
-msgstr "太平洋"
-
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1183
 msgid "America/Anchorage"
@@ -3143,83 +3227,3 @@ msgstr "非洲/路沙卡"
 #: ../src/Translations.vala:1251
 msgid "Africa/Harare"
 msgstr "非洲/哈拉雷"
-
-#: ../src/TZPopover.vala:57
-msgid "Africa"
-msgstr "非洲"
-
-#: ../src/TZPopover.vala:59
-msgid "America"
-msgstr "美洲"
-
-#: ../src/TZPopover.vala:61
-msgid "Antarctica"
-msgstr "南極洲"
-
-#: ../src/TZPopover.vala:63
-msgid "Asia"
-msgstr "亞洲"
-
-#: ../src/TZPopover.vala:65
-msgid "Atlantic"
-msgstr "大西洋"
-
-#: ../src/TZPopover.vala:67
-msgid "Australia"
-msgstr ""
-
-#: ../src/TZPopover.vala:69
-msgid "Europe"
-msgstr "歐洲"
-
-#: ../src/TZPopover.vala:71
-msgid "Indian"
-msgstr "印度"
-
-#: ../src/Plug.vala:37
-msgid "Date & Time"
-msgstr "日期和時間"
-
-#: ../src/Plug.vala:38
-msgid "Configure date, time, and select time zone"
-msgstr "調整日期、時間、和選擇時區"
-
-#: ../src/Plug.vala:51
-msgid "Network Time:"
-msgstr "網路時間："
-
-#: ../src/Plug.vala:63
-msgid "Time Format:"
-msgstr "時間格式："
-
-#: ../src/Plug.vala:66
-msgid "24h"
-msgstr "24時制"
-
-#: ../src/Plug.vala:67
-msgid "AM/PM"
-msgstr "上午/下午"
-
-#: ../src/Plug.vala:75
-msgid "Time Zone:"
-msgstr "時區："
-
-#: ../src/Plug.vala:282
-msgid "Network Time"
-msgstr "網路時間"
-
-#: ../src/Plug.vala:283
-msgid "Time"
-msgstr "時間"
-
-#: ../src/Plug.vala:284
-msgid "Date"
-msgstr "日期"
-
-#: ../src/Plug.vala:285
-msgid "Time Zone"
-msgstr "時區"
-
-#: ../src/Plug.vala:286
-msgid "Time Format"
-msgstr "時間格式"
