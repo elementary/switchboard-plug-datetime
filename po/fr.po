@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-datetime\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-04-13 06:45+0700\n"
-"PO-Revision-Date: 2017-06-22 09:32+0000\n"
+"PO-Revision-Date: 2017-07-07 09:38+0000\n"
 "Last-Translator: Corentin Noël <corentin@elementary.io>\n"
 "Language-Team: French <https://l10n.elementary.io/projects/switchboard"
 "/switchboard-plug-datetime/fr/>\n"
@@ -87,7 +87,7 @@ msgstr "Fuseau horaire :"
 
 #: ../src/Plug.vala:73
 msgid "Show week numbers:"
-msgstr "Afficher les numéros de semaines :"
+msgstr "Afficher les numéros de la semaine :"
 
 #: ../src/Plug.vala:273
 msgid "Network Time"
