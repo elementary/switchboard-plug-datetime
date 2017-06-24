@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-04-13 06:45+0700\n"
-"PO-Revision-Date: 2017-04-23 20:51+0000\n"
-"Last-Translator: Ryo Nakano <nscnskichiro0911@gmail.com>\n"
+"PO-Revision-Date: 2017-06-24 10:36+0000\n"
+"Last-Translator: Ryo Nakano <rmfmada3q@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/switchboard"
 "/switchboard-plug-datetime/ja/>\n"
 "Language: ja\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2.13-dev\n"
+"X-Generator: Weblate 2.14\n"
 "X-Launchpad-Export-Date: 2017-01-29 05:09+0000\n"
 
 #: ../src/Widgets/TZPopover.vala:57
@@ -82,7 +82,7 @@ msgstr "タイムゾーン:"
 
 #: ../src/Plug.vala:73
 msgid "Show week numbers:"
-msgstr ""
+msgstr "週番号を表示する："
 
 #: ../src/Plug.vala:273
 msgid "Network Time"
@@ -307,7 +307,7 @@ msgstr "カタマルカ (CT); チュブ (CH)"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:83
 msgid "America/Argentina/La_Rioja"
-msgstr "America/Argentina/La_Rioja"
+msgstr "アメリカ/アルゼンチン/ラ・リオハ"
 
 #. /Translators: Comment for Timezone America/Argentina/La_Rioja
 #: ../src/Translations.vala:85
