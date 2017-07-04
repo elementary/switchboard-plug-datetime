@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-04-13 06:45+0700\n"
-"PO-Revision-Date: 2017-04-13 09:06+0000\n"
-"Last-Translator: colindemian <colindemian@outlook.com>\n"
-"Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
-"switchboard/switchboard-plug-datetime/zh_CN/>\n"
+"PO-Revision-Date: 2017-07-04 07:53+0000\n"
+"Last-Translator: LIU Song <mail@liusong.net>\n"
+"Language-Team: Chinese (Simplified) "
+"<https://l10n.elementary.io/projects/switchboard/switchboard-plug-"
+"datetime/zh_CN/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2.13-dev\n"
+"X-Generator: Weblate 2.14\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:06+0000\n"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
@@ -348,7 +349,7 @@ msgstr "澳洲/悉尼"
 #. /Translators: Comment for Timezone Australia/Sydney
 #: ../src/Translations.vala:133
 msgid "New South Wales (most areas)"
-msgstr ""
+msgstr "新南威尔士州（大部分地区）"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:135
@@ -358,7 +359,7 @@ msgstr "澳洲∕布罗肯希尔"
 #. /Translators: Comment for Timezone Australia/Broken_Hill
 #: ../src/Translations.vala:137
 msgid "New South Wales (Yancowinna)"
-msgstr ""
+msgstr "新南威尔士州（扬科维纳）"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:139
@@ -368,7 +369,7 @@ msgstr "澳洲/布里斯班"
 #. /Translators: Comment for Timezone Australia/Brisbane
 #: ../src/Translations.vala:141
 msgid "Queensland (most areas)"
-msgstr ""
+msgstr "昆士兰岛（大部分地区）"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:143
