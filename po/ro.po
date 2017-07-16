@@ -7,105 +7,19 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-08 18:44+0200\n"
-"PO-Revision-Date: 2016-12-14 13:40+0000\n"
-"Last-Translator: Marius Albina <marius.albina@gmail.com>\n"
-"Language-Team: Romanian <ro@li.org>\n"
+"POT-Creation-Date: 2017-04-13 06:45+0700\n"
+"PO-Revision-Date: 2017-06-13 01:51+0000\n"
+"Last-Translator: Nicolae Crefelean <kneekoo@yahoo.com>\n"
+"Language-Team: Romanian <https://l10n.elementary.io/projects/switchboard"
+"/switchboard-plug-datetime/ro/>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2;\n"
+"X-Generator: Weblate 2.14\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:05+0000\n"
-"X-Generator: Launchpad (build 18302)\n"
-
-#: ../src/Widgets/TZPopover.vala:57
-msgid "Africa"
-msgstr "Africa"
-
-#: ../src/Widgets/TZPopover.vala:59
-msgid "America"
-msgstr "America"
-
-#: ../src/Widgets/TZPopover.vala:61
-msgid "Antarctica"
-msgstr "Antarctica"
-
-#: ../src/Widgets/TZPopover.vala:63
-msgid "Asia"
-msgstr "Asia"
-
-#: ../src/Widgets/TZPopover.vala:65
-msgid "Atlantic"
-msgstr "Atlantic"
-
-#: ../src/Widgets/TZPopover.vala:67
-msgid "Australia"
-msgstr ""
-
-#: ../src/Widgets/TZPopover.vala:69
-msgid "Europe"
-msgstr "Europa"
-
-#: ../src/Widgets/TZPopover.vala:71
-msgid "Indian"
-msgstr "Indian"
-
-#. /Translators: Comment for Timezone America/Los_Angeles
-#: ../src/Widgets/TZPopover.vala:73 ../src/Translations.vala:1181
-msgid "Pacific"
-msgstr "Pacific"
-
-#: ../src/Plug.vala:36
-msgid "Date & Time"
-msgstr "Data și ora"
-
-#: ../src/Plug.vala:37
-msgid "Configure date, time, and select time zone"
-msgstr "Setează data, ora si selectează fusul orar"
-
-#: ../src/Plug.vala:45
-msgid "Network Time:"
-msgstr "Ora rețelei:"
-
-#: ../src/Plug.vala:54
-msgid "Time Format:"
-msgstr "Formatul orei:"
-
-#: ../src/Plug.vala:58
-msgid "AM/PM"
-msgstr "AM/PM"
-
-#: ../src/Plug.vala:59
-msgid "24h"
-msgstr "24 de ore"
-
-#: ../src/Plug.vala:61
-msgid "Time Zone:"
-msgstr "Fus orar:"
-
-#: ../src/Plug.vala:73
-msgid "Show week numbers:"
-msgstr ""
-
-#: ../src/Plug.vala:273
-msgid "Network Time"
-msgstr "Ora rețelei"
-
-#: ../src/Plug.vala:274
-msgid "Time"
-msgstr "Oră"
-
-#: ../src/Plug.vala:275
-msgid "Date"
-msgstr "Dată"
-
-#: ../src/Plug.vala:276
-msgid "Time Zone"
-msgstr "Fus orar"
-
-#: ../src/Plug.vala:277
-msgid "Time Format"
-msgstr "Format oră"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:3
@@ -135,12 +49,12 @@ msgstr "America/Anguilla"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:13
 msgid "Europe/Tirane"
-msgstr "Europa/Tirane"
+msgstr "Europa/Tirana"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:15
 msgid "Asia/Yerevan"
-msgstr "Asia/Yerevan"
+msgstr "Asia/Erevan"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:17
@@ -3057,6 +2971,11 @@ msgstr "MST - Arizona (excepție Navajo)"
 msgid "America/Los_Angeles"
 msgstr "America/Los_Angeles"
 
+#. /Translators: Comment for Timezone America/Los_Angeles
+#: ../src/Translations.vala:1181 ../src/Widgets/TZPopover.vala:73
+msgid "Pacific"
+msgstr "Pacific"
+
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1183
 msgid "America/Anchorage"
@@ -3231,3 +3150,87 @@ msgstr "Africa/Lusaka"
 #: ../src/Translations.vala:1251
 msgid "Africa/Harare"
 msgstr "Africa/Harare"
+
+#: ../src/Plug.vala:37
+msgid "Date & Time"
+msgstr "Data și ora"
+
+#: ../src/Plug.vala:38
+msgid "Configure date, time, and select time zone"
+msgstr "Setează data, ora si selectează fusul orar"
+
+#: ../src/Plug.vala:46
+msgid "Network Time:"
+msgstr "Ora rețelei:"
+
+#: ../src/Plug.vala:55
+msgid "Time Format:"
+msgstr "Formatul orei:"
+
+#: ../src/Plug.vala:59
+msgid "AM/PM"
+msgstr "AM/PM"
+
+#: ../src/Plug.vala:60
+msgid "24h"
+msgstr "24 de ore"
+
+#: ../src/Plug.vala:62
+msgid "Time Zone:"
+msgstr "Fus orar:"
+
+#: ../src/Plug.vala:91
+msgid "Show week numbers:"
+msgstr ""
+
+#: ../src/Plug.vala:301
+msgid "Network Time"
+msgstr "Ora rețelei"
+
+#: ../src/Plug.vala:302
+msgid "Time"
+msgstr "Oră"
+
+#: ../src/Plug.vala:303
+msgid "Date"
+msgstr "Dată"
+
+#: ../src/Plug.vala:304
+msgid "Time Zone"
+msgstr "Fus orar"
+
+#: ../src/Plug.vala:305
+msgid "Time Format"
+msgstr "Format oră"
+
+#: ../src/Widgets/TZPopover.vala:57
+msgid "Africa"
+msgstr "Africa"
+
+#: ../src/Widgets/TZPopover.vala:59
+msgid "America"
+msgstr "America"
+
+#: ../src/Widgets/TZPopover.vala:61
+msgid "Antarctica"
+msgstr "Antarctica"
+
+#: ../src/Widgets/TZPopover.vala:63
+msgid "Asia"
+msgstr "Asia"
+
+#: ../src/Widgets/TZPopover.vala:65
+msgid "Atlantic"
+msgstr "Atlantic"
+
+#: ../src/Widgets/TZPopover.vala:67
+msgid "Australia"
+msgstr ""
+
+#: ../src/Widgets/TZPopover.vala:69
+msgid "Europe"
+msgstr "Europa"
+
+#: ../src/Widgets/TZPopover.vala:71
+msgid "Indian"
+msgstr "Indian"

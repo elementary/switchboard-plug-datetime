@@ -8,105 +8,18 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-08 18:44+0200\n"
-"PO-Revision-Date: 2016-06-22 12:28+0000\n"
-"Last-Translator: SSX <ssx1337ssy@gmail.com>\n"
-"Language-Team: Deutsch <>\n"
+"POT-Creation-Date: 2017-04-13 06:45+0700\n"
+"PO-Revision-Date: 2017-06-26 20:22+0000\n"
+"Last-Translator: Uwe S <saabisto@gmx.de>\n"
+"Language-Team: German <https://l10n.elementary.io/projects/switchboard"
+"/switchboard-plug-datetime/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.14\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:04+0000\n"
-"X-Generator: Launchpad (build 18302)\n"
-
-#: ../src/Widgets/TZPopover.vala:57
-msgid "Africa"
-msgstr "Afrika"
-
-#: ../src/Widgets/TZPopover.vala:59
-msgid "America"
-msgstr "Amerika"
-
-#: ../src/Widgets/TZPopover.vala:61
-msgid "Antarctica"
-msgstr "Antarktis"
-
-#: ../src/Widgets/TZPopover.vala:63
-msgid "Asia"
-msgstr "Asien"
-
-#: ../src/Widgets/TZPopover.vala:65
-msgid "Atlantic"
-msgstr "Atlantik"
-
-#: ../src/Widgets/TZPopover.vala:67
-msgid "Australia"
-msgstr ""
-
-#: ../src/Widgets/TZPopover.vala:69
-msgid "Europe"
-msgstr "Europa"
-
-#: ../src/Widgets/TZPopover.vala:71
-msgid "Indian"
-msgstr "Indischer Ozean"
-
-#. /Translators: Comment for Timezone America/Los_Angeles
-#: ../src/Widgets/TZPopover.vala:73 ../src/Translations.vala:1181
-msgid "Pacific"
-msgstr "Pazifik"
-
-#: ../src/Plug.vala:36
-msgid "Date & Time"
-msgstr "Datum & Uhrzeit"
-
-#: ../src/Plug.vala:37
-msgid "Configure date, time, and select time zone"
-msgstr "Datum und Zeit einstellen, Zeitzone auswählen"
-
-#: ../src/Plug.vala:45
-msgid "Network Time:"
-msgstr "Netzwerkzeit:"
-
-#: ../src/Plug.vala:54
-msgid "Time Format:"
-msgstr "Zeitformat:"
-
-#: ../src/Plug.vala:58
-msgid "AM/PM"
-msgstr "12-Stunden-System"
-
-#: ../src/Plug.vala:59
-msgid "24h"
-msgstr "24-Stunden-System"
-
-#: ../src/Plug.vala:61
-msgid "Time Zone:"
-msgstr "Zeitzone:"
-
-#: ../src/Plug.vala:73
-msgid "Show week numbers:"
-msgstr ""
-
-#: ../src/Plug.vala:273
-msgid "Network Time"
-msgstr "Netzwerkzeit"
-
-#: ../src/Plug.vala:274
-msgid "Time"
-msgstr "Uhrzeit"
-
-#: ../src/Plug.vala:275
-msgid "Date"
-msgstr "Datum"
-
-#: ../src/Plug.vala:276
-msgid "Time Zone"
-msgstr "Zeitzone"
-
-#: ../src/Plug.vala:277
-msgid "Time Format"
-msgstr "Zeitformat"
 
 #
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
@@ -749,7 +662,7 @@ msgstr "Amerika/Santarem"
 #. /Translators: Comment for Timezone America/Santarem
 #: ../src/Translations.vala:239
 msgid "Para (west)"
-msgstr ""
+msgstr "Para (West)"
 
 #
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
@@ -896,7 +809,7 @@ msgstr "Amerika/Blanc-Sablon"
 #. /Translators: Comment for Timezone America/Blanc-Sablon
 #: ../src/Translations.vala:293
 msgid "AST - QC (Lower North Shore)"
-msgstr ""
+msgstr "AST - QC (untere Nordküste)"
 
 #
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
@@ -918,7 +831,7 @@ msgstr "Amerika/Nipigon"
 #. /Translators: Comment for Timezone America/Nipigon
 #: ../src/Translations.vala:301
 msgid "Eastern - ON, QC (no DST 1967-73)"
-msgstr ""
+msgstr "Östlich - ON, QC (kein DST 1967-73)"
 
 #
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
@@ -929,7 +842,7 @@ msgstr "Amerika/Thunder_Bay"
 #. /Translators: Comment for Timezone America/Thunder_Bay
 #: ../src/Translations.vala:305
 msgid "Eastern - ON (Thunder Bay)"
-msgstr ""
+msgstr "Östlich - ON (Thunder Bay)"
 
 #
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
@@ -940,7 +853,7 @@ msgstr "Amerika/Iqaluit"
 #. /Translators: Comment for Timezone America/Iqaluit
 #: ../src/Translations.vala:309
 msgid "Eastern - NU (most east areas)"
-msgstr ""
+msgstr "Östlich - NU (meiste östliche Regionen)"
 
 #
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
@@ -951,7 +864,7 @@ msgstr "Amerika/Pangnirtung"
 #. /Translators: Comment for Timezone America/Pangnirtung
 #: ../src/Translations.vala:313
 msgid "Eastern - NU (Pangnirtung)"
-msgstr ""
+msgstr "Östlich - NU (Pangnirtung)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:315
@@ -972,7 +885,7 @@ msgstr "Amerika/Winnipeg"
 #. /Translators: Comment for Timezone America/Winnipeg
 #: ../src/Translations.vala:321
 msgid "Central - ON (west); Manitoba"
-msgstr ""
+msgstr "Zentral - ON (West); Manitoba"
 
 #
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
@@ -983,7 +896,7 @@ msgstr "Amerika/Rainy_River"
 #. /Translators: Comment for Timezone America/Rainy_River
 #: ../src/Translations.vala:325
 msgid "Central - ON (Rainy R, Ft Frances)"
-msgstr ""
+msgstr "Zentral - ON (Rainy R, Ft Frances)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:327
@@ -993,7 +906,7 @@ msgstr "Amerika/Resolute"
 #. /Translators: Comment for Timezone America/Resolute
 #: ../src/Translations.vala:329
 msgid "Central - NU (Resolute)"
-msgstr ""
+msgstr "Zentral - NU (Resolute)"
 
 #
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
@@ -1004,7 +917,7 @@ msgstr "Amerika/Rankin_Inlet"
 #. /Translators: Comment for Timezone America/Rankin_Inlet
 #: ../src/Translations.vala:333
 msgid "Central - NU (central)"
-msgstr ""
+msgstr "Zentral - NU (zentral)"
 
 #
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
@@ -1015,7 +928,7 @@ msgstr "Amerika/Regina"
 #. /Translators: Comment for Timezone America/Regina
 #: ../src/Translations.vala:337
 msgid "CST - SK (most areas)"
-msgstr ""
+msgstr "CST - SK (meiste Regionen)"
 
 #
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
@@ -1026,7 +939,7 @@ msgstr "Amerika/Swift_Current"
 #. /Translators: Comment for Timezone America/Swift_Current
 #: ../src/Translations.vala:341
 msgid "CST - SK (midwest)"
-msgstr ""
+msgstr "CST - SK (Mittelwest)"
 
 #
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
@@ -1036,8 +949,9 @@ msgstr "Amerika/Edmonton"
 
 #. /Translators: Comment for Timezone America/Edmonton
 #: ../src/Translations.vala:345
+#, fuzzy
 msgid "Mountain - AB; BC (E); SK (W)"
-msgstr ""
+msgstr "Mountain - AB; BC (E); SK (W)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:347
@@ -1047,7 +961,7 @@ msgstr "Amerika/Cambridge_Bay"
 #. /Translators: Comment for Timezone America/Cambridge_Bay
 #: ../src/Translations.vala:349
 msgid "Mountain - NU (west)"
-msgstr ""
+msgstr "Mountain - NU (West)"
 
 #
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
@@ -1058,7 +972,7 @@ msgstr "Amerika/Yellowknife"
 #. /Translators: Comment for Timezone America/Yellowknife
 #: ../src/Translations.vala:353
 msgid "Mountain - NT (central)"
-msgstr ""
+msgstr "Mountain - NT (zentral)"
 
 #
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
@@ -1069,7 +983,7 @@ msgstr "Amerika/Inuvik"
 #. /Translators: Comment for Timezone America/Inuvik
 #: ../src/Translations.vala:357
 msgid "Mountain - NT (west)"
-msgstr ""
+msgstr "Mountain - NT (West)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:359
@@ -3336,13 +3250,18 @@ msgstr "Amerika/Phoenix"
 #. /Translators: Comment for Timezone America/Phoenix
 #: ../src/Translations.vala:1177
 msgid "MST - Arizona (except Navajo)"
-msgstr ""
+msgstr "MST - Arizona (außer Navajo)"
 
 #
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1179
 msgid "America/Los_Angeles"
 msgstr "Amerika/Los_Angeles"
+
+#. /Translators: Comment for Timezone America/Los_Angeles
+#: ../src/Translations.vala:1181 ../src/Widgets/TZPopover.vala:73
+msgid "Pacific"
+msgstr "Pazifik"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1183
@@ -3352,7 +3271,7 @@ msgstr "Amerika/Anchorage"
 #. /Translators: Comment for Timezone America/Anchorage
 #: ../src/Translations.vala:1185
 msgid "Alaska (most areas)"
-msgstr ""
+msgstr "Alaska (meiste Regionen)"
 
 #
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
@@ -3393,8 +3312,9 @@ msgstr "Amerika/Yakutat"
 
 #. /Translators: Comment for Timezone America/Yakutat
 #: ../src/Translations.vala:1201
+#, fuzzy
 msgid "Alaska - Yakutat"
-msgstr ""
+msgstr "Alaska - Yakutat"
 
 #
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
@@ -3405,7 +3325,7 @@ msgstr "Amerika/Nome"
 #. /Translators: Comment for Timezone America/Nome
 #: ../src/Translations.vala:1205
 msgid "Alaska (west)"
-msgstr ""
+msgstr "Alaska (West)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1207
@@ -3444,7 +3364,7 @@ msgstr "Asien/Samarkand"
 #. /Translators: Comment for Timezone Asia/Samarkand
 #: ../src/Translations.vala:1219
 msgid "Uzbekistan (west)"
-msgstr ""
+msgstr "Usbekistan (West)"
 
 #
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
@@ -3455,7 +3375,7 @@ msgstr "Asien/Taschkent"
 #. /Translators: Comment for Timezone Asia/Tashkent
 #: ../src/Translations.vala:1223
 msgid "Uzbekistan (east)"
-msgstr ""
+msgstr "Usbekistan (Ost)"
 
 #
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
@@ -3490,7 +3410,7 @@ msgstr "Amerika/St._Thomas"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1235
 msgid "Asia/Ho_Chi_Minh"
-msgstr "Asien/Ho_Chi_Minh_Stadt"
+msgstr "Asien/Ho-Chi-Minh-Stadt"
 
 #
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
@@ -3536,3 +3456,87 @@ msgstr "Afrika/Lusaka"
 #: ../src/Translations.vala:1251
 msgid "Africa/Harare"
 msgstr "Afrika/Harare"
+
+#: ../src/Plug.vala:37
+msgid "Date & Time"
+msgstr "Datum & Uhrzeit"
+
+#: ../src/Plug.vala:38
+msgid "Configure date, time, and select time zone"
+msgstr "Datum und Zeit einstellen, Zeitzone auswählen"
+
+#: ../src/Plug.vala:46
+msgid "Network Time:"
+msgstr "Netzwerkzeit:"
+
+#: ../src/Plug.vala:55
+msgid "Time Format:"
+msgstr "Zeitformat:"
+
+#: ../src/Plug.vala:59
+msgid "AM/PM"
+msgstr "12-Stunden-System"
+
+#: ../src/Plug.vala:60
+msgid "24h"
+msgstr "24-Stunden-System"
+
+#: ../src/Plug.vala:62
+msgid "Time Zone:"
+msgstr "Zeitzone:"
+
+#: ../src/Plug.vala:91
+msgid "Show week numbers:"
+msgstr "Kalenderwochen anzeigen:"
+
+#: ../src/Plug.vala:301
+msgid "Network Time"
+msgstr "Netzwerkzeit"
+
+#: ../src/Plug.vala:302
+msgid "Time"
+msgstr "Uhrzeit"
+
+#: ../src/Plug.vala:303
+msgid "Date"
+msgstr "Datum"
+
+#: ../src/Plug.vala:304
+msgid "Time Zone"
+msgstr "Zeitzone"
+
+#: ../src/Plug.vala:305
+msgid "Time Format"
+msgstr "Zeitformat"
+
+#: ../src/Widgets/TZPopover.vala:57
+msgid "Africa"
+msgstr "Afrika"
+
+#: ../src/Widgets/TZPopover.vala:59
+msgid "America"
+msgstr "Amerika"
+
+#: ../src/Widgets/TZPopover.vala:61
+msgid "Antarctica"
+msgstr "Antarktis"
+
+#: ../src/Widgets/TZPopover.vala:63
+msgid "Asia"
+msgstr "Asien"
+
+#: ../src/Widgets/TZPopover.vala:65
+msgid "Atlantic"
+msgstr "Atlantik"
+
+#: ../src/Widgets/TZPopover.vala:67
+msgid "Australia"
+msgstr "Australien"
+
+#: ../src/Widgets/TZPopover.vala:69
+msgid "Europe"
+msgstr "Europa"
+
+#: ../src/Widgets/TZPopover.vala:71
+msgid "Indian"
+msgstr "Indischer Ozean"

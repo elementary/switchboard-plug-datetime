@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-datetime\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-08 18:44+0200\n"
+"POT-Creation-Date: 2017-04-13 06:45+0700\n"
 "PO-Revision-Date: 2016-12-16 10:15+0000\n"
 "Last-Translator: ablimet <Unknown>\n"
 "Language-Team: Uyghur <ug@li.org>\n"
@@ -17,95 +17,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:06+0000\n"
 "X-Generator: Launchpad (build 18302)\n"
-
-#: ../src/Widgets/TZPopover.vala:57
-msgid "Africa"
-msgstr "ئافرىقا"
-
-#: ../src/Widgets/TZPopover.vala:59
-msgid "America"
-msgstr "ئامرىكا"
-
-#: ../src/Widgets/TZPopover.vala:61
-msgid "Antarctica"
-msgstr "ئانتاركتىكا"
-
-#: ../src/Widgets/TZPopover.vala:63
-msgid "Asia"
-msgstr "ئاسىيا"
-
-#: ../src/Widgets/TZPopover.vala:65
-msgid "Atlantic"
-msgstr "ئاتلانتىك ئوكيان"
-
-#: ../src/Widgets/TZPopover.vala:67
-msgid "Australia"
-msgstr ""
-
-#: ../src/Widgets/TZPopover.vala:69
-msgid "Europe"
-msgstr "ياۋروپا"
-
-#: ../src/Widgets/TZPopover.vala:71
-msgid "Indian"
-msgstr "ھىندى ئوكيان"
-
-#. /Translators: Comment for Timezone America/Los_Angeles
-#: ../src/Widgets/TZPopover.vala:73 ../src/Translations.vala:1181
-msgid "Pacific"
-msgstr "تىنچ ئوكيان"
-
-#: ../src/Plug.vala:36
-msgid "Date & Time"
-msgstr "چىسلا ۋە ۋاقىت"
-
-#: ../src/Plug.vala:37
-msgid "Configure date, time, and select time zone"
-msgstr "چىسلا، ۋاقىتنى تەڭشەڭ، ۋە ۋاقىت رايونىنى تاللاڭ"
-
-#: ../src/Plug.vala:45
-msgid "Network Time:"
-msgstr "تور ۋاقتى："
-
-#: ../src/Plug.vala:54
-msgid "Time Format:"
-msgstr "ۋاقىت فورماتى："
-
-#: ../src/Plug.vala:58
-msgid "AM/PM"
-msgstr "12سائەتلىك"
-
-#: ../src/Plug.vala:59
-msgid "24h"
-msgstr "24سائەتلىك"
-
-#: ../src/Plug.vala:61
-msgid "Time Zone:"
-msgstr "ۋاقىت رايونى："
-
-#: ../src/Plug.vala:73
-msgid "Show week numbers:"
-msgstr ""
-
-#: ../src/Plug.vala:273
-msgid "Network Time"
-msgstr "تور ۋاقتى"
-
-#: ../src/Plug.vala:274
-msgid "Time"
-msgstr "ۋاقىت"
-
-#: ../src/Plug.vala:275
-msgid "Date"
-msgstr "چىسلا"
-
-#: ../src/Plug.vala:276
-msgid "Time Zone"
-msgstr "ۋاقىت رايونى"
-
-#: ../src/Plug.vala:277
-msgid "Time Format"
-msgstr "ۋاقىت فورماتى"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:3
@@ -3059,6 +2970,11 @@ msgstr "MST - ئارىزونا (ناۋاجودىن باشقا)"
 msgid "America/Los_Angeles"
 msgstr "ئامرىكا/لوس ئانژىلىس"
 
+#. /Translators: Comment for Timezone America/Los_Angeles
+#: ../src/Translations.vala:1181 ../src/Widgets/TZPopover.vala:73
+msgid "Pacific"
+msgstr "تىنچ ئوكيان"
+
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1183
 msgid "America/Anchorage"
@@ -3233,3 +3149,87 @@ msgstr "ئافرىقا/لۇساكا"
 #: ../src/Translations.vala:1251
 msgid "Africa/Harare"
 msgstr "ئافرىقا/ھارارې"
+
+#: ../src/Plug.vala:37
+msgid "Date & Time"
+msgstr "چىسلا ۋە ۋاقىت"
+
+#: ../src/Plug.vala:38
+msgid "Configure date, time, and select time zone"
+msgstr "چىسلا، ۋاقىتنى تەڭشەڭ، ۋە ۋاقىت رايونىنى تاللاڭ"
+
+#: ../src/Plug.vala:46
+msgid "Network Time:"
+msgstr "تور ۋاقتى："
+
+#: ../src/Plug.vala:55
+msgid "Time Format:"
+msgstr "ۋاقىت فورماتى："
+
+#: ../src/Plug.vala:59
+msgid "AM/PM"
+msgstr "12سائەتلىك"
+
+#: ../src/Plug.vala:60
+msgid "24h"
+msgstr "24سائەتلىك"
+
+#: ../src/Plug.vala:62
+msgid "Time Zone:"
+msgstr "ۋاقىت رايونى："
+
+#: ../src/Plug.vala:91
+msgid "Show week numbers:"
+msgstr ""
+
+#: ../src/Plug.vala:301
+msgid "Network Time"
+msgstr "تور ۋاقتى"
+
+#: ../src/Plug.vala:302
+msgid "Time"
+msgstr "ۋاقىت"
+
+#: ../src/Plug.vala:303
+msgid "Date"
+msgstr "چىسلا"
+
+#: ../src/Plug.vala:304
+msgid "Time Zone"
+msgstr "ۋاقىت رايونى"
+
+#: ../src/Plug.vala:305
+msgid "Time Format"
+msgstr "ۋاقىت فورماتى"
+
+#: ../src/Widgets/TZPopover.vala:57
+msgid "Africa"
+msgstr "ئافرىقا"
+
+#: ../src/Widgets/TZPopover.vala:59
+msgid "America"
+msgstr "ئامرىكا"
+
+#: ../src/Widgets/TZPopover.vala:61
+msgid "Antarctica"
+msgstr "ئانتاركتىكا"
+
+#: ../src/Widgets/TZPopover.vala:63
+msgid "Asia"
+msgstr "ئاسىيا"
+
+#: ../src/Widgets/TZPopover.vala:65
+msgid "Atlantic"
+msgstr "ئاتلانتىك ئوكيان"
+
+#: ../src/Widgets/TZPopover.vala:67
+msgid "Australia"
+msgstr ""
+
+#: ../src/Widgets/TZPopover.vala:69
+msgid "Europe"
+msgstr "ياۋروپا"
+
+#: ../src/Widgets/TZPopover.vala:71
+msgid "Indian"
+msgstr "ھىندى ئوكيان"
