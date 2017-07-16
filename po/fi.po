@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-13 06:45+0700\n"
+"POT-Creation-Date: 2017-07-17 01:33+0200\n"
 "PO-Revision-Date: 2017-06-12 06:39+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
-"Language-Team: Finnish <https://l10n.elementary.io/projects/switchboard"
-"/switchboard-plug-datetime/fi/>\n"
+"Language-Team: Finnish <https://l10n.elementary.io/projects/switchboard/"
+"switchboard-plug-datetime/fi/>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,6 +19,58 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 2.14\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:04+0000\n"
+
+#: ../src/Plug.vala:36
+msgid "Date & Time"
+msgstr "Päiväys ja aika"
+
+#: ../src/Plug.vala:37
+msgid "Configure date, time, and select time zone"
+msgstr "Määritä aika, päivä ja aikavyöhyke"
+
+#: ../src/Plug.vala:45
+msgid "Network Time:"
+msgstr "Verkkoaika:"
+
+#: ../src/Plug.vala:54
+msgid "Time Format:"
+msgstr "Ajan esitysmuoto:"
+
+#: ../src/Plug.vala:58
+msgid "AM/PM"
+msgstr "AM/PM"
+
+#: ../src/Plug.vala:59
+msgid "24h"
+msgstr "24 tuntia"
+
+#: ../src/Plug.vala:61
+msgid "Time Zone:"
+msgstr "Aikavyöhyke:"
+
+#: ../src/Plug.vala:73
+msgid "Show week numbers:"
+msgstr "Näytä viikkonumerot:"
+
+#: ../src/Plug.vala:273
+msgid "Network Time"
+msgstr "Verkkoaika"
+
+#: ../src/Plug.vala:274
+msgid "Time"
+msgstr "Aika"
+
+#: ../src/Plug.vala:275
+msgid "Date"
+msgstr "Päivä"
+
+#: ../src/Plug.vala:276
+msgid "Time Zone"
+msgstr "Aikavyöhyke"
+
+#: ../src/Plug.vala:277
+msgid "Time Format"
+msgstr "Ajan esitysmuoto"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:3
@@ -3145,58 +3197,6 @@ msgstr "Afrikka/Lusaka"
 #: ../src/Translations.vala:1251
 msgid "Africa/Harare"
 msgstr "Afrikka/Harare"
-
-#: ../src/Plug.vala:37
-msgid "Date & Time"
-msgstr "Päiväys ja aika"
-
-#: ../src/Plug.vala:38
-msgid "Configure date, time, and select time zone"
-msgstr "Määritä aika, päivä ja aikavyöhyke"
-
-#: ../src/Plug.vala:46
-msgid "Network Time:"
-msgstr "Verkkoaika:"
-
-#: ../src/Plug.vala:55
-msgid "Time Format:"
-msgstr "Ajan esitysmuoto:"
-
-#: ../src/Plug.vala:59
-msgid "AM/PM"
-msgstr "AM/PM"
-
-#: ../src/Plug.vala:60
-msgid "24h"
-msgstr "24 tuntia"
-
-#: ../src/Plug.vala:62
-msgid "Time Zone:"
-msgstr "Aikavyöhyke:"
-
-#: ../src/Plug.vala:91
-msgid "Show week numbers:"
-msgstr "Näytä viikkonumerot:"
-
-#: ../src/Plug.vala:301
-msgid "Network Time"
-msgstr "Verkkoaika"
-
-#: ../src/Plug.vala:302
-msgid "Time"
-msgstr "Aika"
-
-#: ../src/Plug.vala:303
-msgid "Date"
-msgstr "Päivä"
-
-#: ../src/Plug.vala:304
-msgid "Time Zone"
-msgstr "Aikavyöhyke"
-
-#: ../src/Plug.vala:305
-msgid "Time Format"
-msgstr "Ajan esitysmuoto"
 
 #: ../src/Widgets/TZPopover.vala:57
 msgid "Africa"

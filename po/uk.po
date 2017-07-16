@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-13 06:45+0700\n"
+"POT-Creation-Date: 2017-07-17 01:44+0200\n"
 "PO-Revision-Date: 2016-06-19 20:01+0000\n"
 "Last-Translator: Roman Sytnyk <Unknown>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
@@ -17,6 +17,58 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:06+0000\n"
 "X-Generator: Launchpad (build 18302)\n"
+
+#: ../src/Plug.vala:36
+msgid "Date & Time"
+msgstr "Дата і час"
+
+#: ../src/Plug.vala:37
+msgid "Configure date, time, and select time zone"
+msgstr "Налаштувати дату, час і обрати часовий пояс"
+
+#: ../src/Plug.vala:45
+msgid "Network Time:"
+msgstr "Час з мережі"
+
+#: ../src/Plug.vala:54
+msgid "Time Format:"
+msgstr "Формат часу:"
+
+#: ../src/Plug.vala:58
+msgid "AM/PM"
+msgstr "AM/PM"
+
+#: ../src/Plug.vala:59
+msgid "24h"
+msgstr "24-годинний"
+
+#: ../src/Plug.vala:61
+msgid "Time Zone:"
+msgstr "Часовий пояс:"
+
+#: ../src/Plug.vala:73
+msgid "Show week numbers:"
+msgstr ""
+
+#: ../src/Plug.vala:273
+msgid "Network Time"
+msgstr "Час з мережі"
+
+#: ../src/Plug.vala:274
+msgid "Time"
+msgstr "Час"
+
+#: ../src/Plug.vala:275
+msgid "Date"
+msgstr "Дата"
+
+#: ../src/Plug.vala:276
+msgid "Time Zone"
+msgstr "Часовий пояс"
+
+#: ../src/Plug.vala:277
+msgid "Time Format"
+msgstr "Формат часу"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:3
@@ -3143,58 +3195,6 @@ msgstr "Африка/Лусака"
 #: ../src/Translations.vala:1251
 msgid "Africa/Harare"
 msgstr "Африка/Хараре"
-
-#: ../src/Plug.vala:37
-msgid "Date & Time"
-msgstr "Дата і час"
-
-#: ../src/Plug.vala:38
-msgid "Configure date, time, and select time zone"
-msgstr "Налаштувати дату, час і обрати часовий пояс"
-
-#: ../src/Plug.vala:46
-msgid "Network Time:"
-msgstr "Час з мережі"
-
-#: ../src/Plug.vala:55
-msgid "Time Format:"
-msgstr "Формат часу:"
-
-#: ../src/Plug.vala:59
-msgid "AM/PM"
-msgstr "AM/PM"
-
-#: ../src/Plug.vala:60
-msgid "24h"
-msgstr "24-годинний"
-
-#: ../src/Plug.vala:62
-msgid "Time Zone:"
-msgstr "Часовий пояс:"
-
-#: ../src/Plug.vala:91
-msgid "Show week numbers:"
-msgstr ""
-
-#: ../src/Plug.vala:301
-msgid "Network Time"
-msgstr "Час з мережі"
-
-#: ../src/Plug.vala:302
-msgid "Time"
-msgstr "Час"
-
-#: ../src/Plug.vala:303
-msgid "Date"
-msgstr "Дата"
-
-#: ../src/Plug.vala:304
-msgid "Time Zone"
-msgstr "Часовий пояс"
-
-#: ../src/Plug.vala:305
-msgid "Time Format"
-msgstr "Формат часу"
 
 #: ../src/Widgets/TZPopover.vala:57
 msgid "Africa"

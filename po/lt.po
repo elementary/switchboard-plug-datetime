@@ -2,56 +2,19 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-13 06:45+0700\n"
+"POT-Creation-Date: 2017-07-17 01:40+0200\n"
 "PO-Revision-Date: 2017-06-18 20:18+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
-"Language-Team: Lithuanian <https://l10n.elementary.io/projects/switchboard"
-"/switchboard-plug-datetime/lt/>\n"
+"Language-Team: Lithuanian <https://l10n.elementary.io/projects/switchboard/"
+"switchboard-plug-datetime/lt/>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"(n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n"
+"%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 2.14\n"
 "X-Launchpad-Export-Date: 2017-01-14 06:12+0000\n"
-
-#: ../src/Widgets/TZPopover.vala:57
-msgid "Africa"
-msgstr "Afrika"
-
-#: ../src/Widgets/TZPopover.vala:59
-msgid "America"
-msgstr "Amerika"
-
-#: ../src/Widgets/TZPopover.vala:61
-msgid "Antarctica"
-msgstr "Antarktida"
-
-#: ../src/Widgets/TZPopover.vala:63
-msgid "Asia"
-msgstr "Azija"
-
-#: ../src/Widgets/TZPopover.vala:65
-msgid "Atlantic"
-msgstr "Atlanto vandenynas"
-
-#: ../src/Widgets/TZPopover.vala:67
-msgid "Australia"
-msgstr "Australija"
-
-#: ../src/Widgets/TZPopover.vala:69
-msgid "Europe"
-msgstr "Europa"
-
-#: ../src/Widgets/TZPopover.vala:71
-msgid "Indian"
-msgstr "Indijos vandenynas"
-
-#. /Translators: Comment for Timezone America/Los_Angeles
-#: ../src/Widgets/TZPopover.vala:73 ../src/Translations.vala:1181
-msgid "Pacific"
-msgstr "Ramusis vandenynas"
 
 #: ../src/Plug.vala:36
 msgid "Date & Time"
@@ -3235,58 +3198,6 @@ msgstr "Afrika/Lusaka"
 #: ../src/Translations.vala:1251
 msgid "Africa/Harare"
 msgstr "Afrika/Hararė"
-
-#: ../src/Plug.vala:37
-msgid "Date & Time"
-msgstr "Data ir laikas"
-
-#: ../src/Plug.vala:38
-msgid "Configure date, time, and select time zone"
-msgstr "Konfigūruoti datą, laiką ir pasirinkti laiko juostą"
-
-#: ../src/Plug.vala:46
-msgid "Network Time:"
-msgstr "Tinklo laikas:"
-
-#: ../src/Plug.vala:55
-msgid "Time Format:"
-msgstr "Laiko formatas:"
-
-#: ../src/Plug.vala:59
-msgid "AM/PM"
-msgstr "12 val. (AM/PM)"
-
-#: ../src/Plug.vala:60
-msgid "24h"
-msgstr "24 val."
-
-#: ../src/Plug.vala:62
-msgid "Time Zone:"
-msgstr "Laiko juosta:"
-
-#: ../src/Plug.vala:91
-msgid "Show week numbers:"
-msgstr ""
-
-#: ../src/Plug.vala:301
-msgid "Network Time"
-msgstr "Tinklo laikas"
-
-#: ../src/Plug.vala:302
-msgid "Time"
-msgstr "Laikas"
-
-#: ../src/Plug.vala:303
-msgid "Date"
-msgstr "Data"
-
-#: ../src/Plug.vala:304
-msgid "Time Zone"
-msgstr "Laiko juosta"
-
-#: ../src/Plug.vala:305
-msgid "Time Format"
-msgstr "Laiko formatas"
 
 #: ../src/Widgets/TZPopover.vala:57
 msgid "Africa"
