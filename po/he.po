@@ -8,11 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: timezones.tip\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-13 06:45+0700\n"
+"POT-Creation-Date: 2017-06-08 18:44+0200\n"
 "PO-Revision-Date: 2017-07-07 14:32+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
-"Language-Team: Hebrew <https://l10n.elementary.io/projects/switchboard"
-"/switchboard-plug-datetime/he/>\n"
+"Language-Team: Hebrew <https://l10n.elementary.io/projects/switchboard/"
+"switchboard-plug-datetime/he/>\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,6 +20,95 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 2.14\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:04+0000\n"
+
+#: ../src/Widgets/TZPopover.vala:57
+msgid "Africa"
+msgstr "אפריקה"
+
+#: ../src/Widgets/TZPopover.vala:59
+msgid "America"
+msgstr "אמריקה"
+
+#: ../src/Widgets/TZPopover.vala:61
+msgid "Antarctica"
+msgstr "אנרקטיקה"
+
+#: ../src/Widgets/TZPopover.vala:63
+msgid "Asia"
+msgstr "אסיה"
+
+#: ../src/Widgets/TZPopover.vala:65
+msgid "Atlantic"
+msgstr "האוקיינוס האטלנטי"
+
+#: ../src/Widgets/TZPopover.vala:67
+msgid "Australia"
+msgstr "אוסטרליה"
+
+#: ../src/Widgets/TZPopover.vala:69
+msgid "Europe"
+msgstr "אירופה"
+
+#: ../src/Widgets/TZPopover.vala:71
+msgid "Indian"
+msgstr "האוקיינוס ההודי"
+
+#. /Translators: Comment for Timezone America/Los_Angeles
+#: ../src/Widgets/TZPopover.vala:73 ../src/Translations.vala:1181
+msgid "Pacific"
+msgstr ""
+
+#: ../src/Plug.vala:36
+msgid "Date & Time"
+msgstr "תאריך ושעה"
+
+#: ../src/Plug.vala:37
+msgid "Configure date, time, and select time zone"
+msgstr "הגדרת התאריך, השעה ובחירת אזור הזמן"
+
+#: ../src/Plug.vala:45
+msgid "Network Time:"
+msgstr "זמן רשת:"
+
+#: ../src/Plug.vala:54
+msgid "Time Format:"
+msgstr "תבנית הזמן:"
+
+#: ../src/Plug.vala:58
+msgid "AM/PM"
+msgstr "AM/PM"
+
+#: ../src/Plug.vala:59
+msgid "24h"
+msgstr "24 ש׳"
+
+#: ../src/Plug.vala:61
+msgid "Time Zone:"
+msgstr "אזור זמן:"
+
+#: ../src/Plug.vala:73
+msgid "Show week numbers:"
+msgstr "הצגת מספרי השבועות:"
+
+#: ../src/Plug.vala:273
+msgid "Network Time"
+msgstr "זמן רשת"
+
+#: ../src/Plug.vala:274
+msgid "Time"
+msgstr "שעה"
+
+#: ../src/Plug.vala:275
+msgid "Date"
+msgstr "תאריך"
+
+#: ../src/Plug.vala:276
+msgid "Time Zone"
+msgstr "אזור זמן"
+
+#: ../src/Plug.vala:277
+msgid "Time Format"
+msgstr "תבנית שעה"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:3
@@ -2967,11 +3056,6 @@ msgstr ""
 msgid "America/Los_Angeles"
 msgstr "אמריקה/לוס-אנג'לס"
 
-#. /Translators: Comment for Timezone America/Los_Angeles
-#: ../src/Translations.vala:1181 ../src/Widgets/TZPopover.vala:73
-msgid "Pacific"
-msgstr ""
-
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1183
 msgid "America/Anchorage"
@@ -3146,87 +3230,3 @@ msgstr "אפריקה/לוקאסה"
 #: ../src/Translations.vala:1251
 msgid "Africa/Harare"
 msgstr "אפריקה/הרארה"
-
-#: ../src/Plug.vala:37
-msgid "Date & Time"
-msgstr "תאריך ושעה"
-
-#: ../src/Plug.vala:38
-msgid "Configure date, time, and select time zone"
-msgstr "הגדרת התאריך, השעה ובחירת אזור הזמן"
-
-#: ../src/Plug.vala:46
-msgid "Network Time:"
-msgstr "זמן רשת:"
-
-#: ../src/Plug.vala:55
-msgid "Time Format:"
-msgstr "תבנית הזמן:"
-
-#: ../src/Plug.vala:59
-msgid "AM/PM"
-msgstr "AM/PM"
-
-#: ../src/Plug.vala:60
-msgid "24h"
-msgstr "24 ש׳"
-
-#: ../src/Plug.vala:62
-msgid "Time Zone:"
-msgstr "אזור זמן:"
-
-#: ../src/Plug.vala:91
-msgid "Show week numbers:"
-msgstr "הצגת מספרי השבועות:"
-
-#: ../src/Plug.vala:301
-msgid "Network Time"
-msgstr "זמן רשת"
-
-#: ../src/Plug.vala:302
-msgid "Time"
-msgstr "שעה"
-
-#: ../src/Plug.vala:303
-msgid "Date"
-msgstr "תאריך"
-
-#: ../src/Plug.vala:304
-msgid "Time Zone"
-msgstr "אזור זמן"
-
-#: ../src/Plug.vala:305
-msgid "Time Format"
-msgstr "תבנית שעה"
-
-#: ../src/Widgets/TZPopover.vala:57
-msgid "Africa"
-msgstr "אפריקה"
-
-#: ../src/Widgets/TZPopover.vala:59
-msgid "America"
-msgstr "אמריקה"
-
-#: ../src/Widgets/TZPopover.vala:61
-msgid "Antarctica"
-msgstr "אנרקטיקה"
-
-#: ../src/Widgets/TZPopover.vala:63
-msgid "Asia"
-msgstr "אסיה"
-
-#: ../src/Widgets/TZPopover.vala:65
-msgid "Atlantic"
-msgstr "האוקיינוס האטלנטי"
-
-#: ../src/Widgets/TZPopover.vala:67
-msgid "Australia"
-msgstr "אוסטרליה"
-
-#: ../src/Widgets/TZPopover.vala:69
-msgid "Europe"
-msgstr "אירופה"
-
-#: ../src/Widgets/TZPopover.vala:71
-msgid "Indian"
-msgstr "האוקיינוס ההודי"
