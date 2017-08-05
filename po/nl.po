@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-08 18:44+0200\n"
-"PO-Revision-Date: 2017-06-18 21:20+0000\n"
-"Last-Translator: Rowan Hoogervorst <rowtricker@gmail.com>\n"
-"Language-Team: Dutch <https://l10n.elementary.io/projects/switchboard/"
-"switchboard-plug-datetime/nl/>\n"
+"PO-Revision-Date: 2017-08-05 16:10+0000\n"
+"Last-Translator: Bart Willems <bwillems@protonmail.com>\n"
+"Language-Team: Dutch <https://weblate.elementary.io/projects/switchboard"
+"/switchboard-plug-datetime/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.14\n"
+"X-Generator: Weblate 2.15\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:04+0000\n"
 
 #: ../src/Widgets/TZPopover.vala:57
@@ -217,7 +217,7 @@ msgstr "Antarctica/Rothera"
 #. /Translators: Comment for Timezone Antarctica/Rothera
 #: ../src/Translations.vala:45
 msgid "Rothera"
-msgstr ""
+msgstr "Rothera"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:47
