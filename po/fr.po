@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-datetime\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-08 18:44+0200\n"
+"POT-Creation-Date: 2017-08-06 09:25-0700\n"
 "PO-Revision-Date: 2017-01-11 21:21+0000\n"
 "Last-Translator: Corentin Noël <corentin@elementaryos.org>\n"
 "Language-Team: French <fr@li.org>\n"
@@ -17,43 +17,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:04+0000\n"
 "X-Generator: Launchpad (build 18302)\n"
-
-#: ../src/Widgets/TZPopover.vala:57
-msgid "Africa"
-msgstr "Afrique"
-
-#: ../src/Widgets/TZPopover.vala:59
-msgid "America"
-msgstr "Amérique"
-
-#: ../src/Widgets/TZPopover.vala:61
-msgid "Antarctica"
-msgstr "Antarctique"
-
-#: ../src/Widgets/TZPopover.vala:63
-msgid "Asia"
-msgstr "Asie"
-
-#: ../src/Widgets/TZPopover.vala:65
-msgid "Atlantic"
-msgstr "Atlantique"
-
-#: ../src/Widgets/TZPopover.vala:67
-msgid "Australia"
-msgstr "Australie"
-
-#: ../src/Widgets/TZPopover.vala:69
-msgid "Europe"
-msgstr "Europe"
-
-#: ../src/Widgets/TZPopover.vala:71
-msgid "Indian"
-msgstr "Indien"
-
-#. /Translators: Comment for Timezone America/Los_Angeles
-#: ../src/Widgets/TZPopover.vala:73 ../src/Translations.vala:1181
-msgid "Pacific"
-msgstr "Pacifique"
 
 #: ../src/Plug.vala:36
 msgid "Date & Time"
@@ -3054,6 +3017,11 @@ msgstr ""
 msgid "America/Los_Angeles"
 msgstr "Amérique/Los_Angeles"
 
+#. /Translators: Comment for Timezone America/Los_Angeles
+#: ../src/Translations.vala:1181 ../src/Widgets/TZPopover.vala:73
+msgid "Pacific"
+msgstr "Pacifique"
+
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1183
 msgid "America/Anchorage"
@@ -3228,3 +3196,35 @@ msgstr "Afrique/Lusaka"
 #: ../src/Translations.vala:1251
 msgid "Africa/Harare"
 msgstr "Afrique/Harare"
+
+#: ../src/Widgets/TZPopover.vala:57
+msgid "Africa"
+msgstr "Afrique"
+
+#: ../src/Widgets/TZPopover.vala:59
+msgid "America"
+msgstr "Amérique"
+
+#: ../src/Widgets/TZPopover.vala:61
+msgid "Antarctica"
+msgstr "Antarctique"
+
+#: ../src/Widgets/TZPopover.vala:63
+msgid "Asia"
+msgstr "Asie"
+
+#: ../src/Widgets/TZPopover.vala:65
+msgid "Atlantic"
+msgstr "Atlantique"
+
+#: ../src/Widgets/TZPopover.vala:67
+msgid "Australia"
+msgstr "Australie"
+
+#: ../src/Widgets/TZPopover.vala:69
+msgid "Europe"
+msgstr "Europe"
+
+#: ../src/Widgets/TZPopover.vala:71
+msgid "Indian"
+msgstr "Indien"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-08 18:44+0200\n"
+"POT-Creation-Date: 2017-08-06 09:25-0700\n"
 "PO-Revision-Date: 2017-01-27 10:02+0000\n"
 "Last-Translator: Damian Woźniak <fiszet@gmail.com>\n"
 "Language-Team: Polish <pl@li.org>\n"
@@ -17,43 +17,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2017-01-28 06:09+0000\n"
 "X-Generator: Launchpad (build 18315)\n"
-
-#: ../src/Widgets/TZPopover.vala:57
-msgid "Africa"
-msgstr "Afryka"
-
-#: ../src/Widgets/TZPopover.vala:59
-msgid "America"
-msgstr "Ameryka"
-
-#: ../src/Widgets/TZPopover.vala:61
-msgid "Antarctica"
-msgstr "Antarktyda"
-
-#: ../src/Widgets/TZPopover.vala:63
-msgid "Asia"
-msgstr "Azja"
-
-#: ../src/Widgets/TZPopover.vala:65
-msgid "Atlantic"
-msgstr "Ocean Atlantycki"
-
-#: ../src/Widgets/TZPopover.vala:67
-msgid "Australia"
-msgstr "Australia"
-
-#: ../src/Widgets/TZPopover.vala:69
-msgid "Europe"
-msgstr "Europa"
-
-#: ../src/Widgets/TZPopover.vala:71
-msgid "Indian"
-msgstr "Ocean Indyjski"
-
-#. /Translators: Comment for Timezone America/Los_Angeles
-#: ../src/Widgets/TZPopover.vala:73 ../src/Translations.vala:1181
-msgid "Pacific"
-msgstr "Ocean Spokojny"
 
 #: ../src/Plug.vala:36
 msgid "Date & Time"
@@ -3058,6 +3021,11 @@ msgstr "MST - Arizona (z wyjątkiem Navajo)"
 msgid "America/Los_Angeles"
 msgstr "Ameryka/Los_Angeles"
 
+#. /Translators: Comment for Timezone America/Los_Angeles
+#: ../src/Translations.vala:1181 ../src/Widgets/TZPopover.vala:73
+msgid "Pacific"
+msgstr "Ocean Spokojny"
+
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1183
 msgid "America/Anchorage"
@@ -3232,3 +3200,35 @@ msgstr "Afryka/Lusaka"
 #: ../src/Translations.vala:1251
 msgid "Africa/Harare"
 msgstr "Afryka/Harara"
+
+#: ../src/Widgets/TZPopover.vala:57
+msgid "Africa"
+msgstr "Afryka"
+
+#: ../src/Widgets/TZPopover.vala:59
+msgid "America"
+msgstr "Ameryka"
+
+#: ../src/Widgets/TZPopover.vala:61
+msgid "Antarctica"
+msgstr "Antarktyda"
+
+#: ../src/Widgets/TZPopover.vala:63
+msgid "Asia"
+msgstr "Azja"
+
+#: ../src/Widgets/TZPopover.vala:65
+msgid "Atlantic"
+msgstr "Ocean Atlantycki"
+
+#: ../src/Widgets/TZPopover.vala:67
+msgid "Australia"
+msgstr "Australia"
+
+#: ../src/Widgets/TZPopover.vala:69
+msgid "Europe"
+msgstr "Europa"
+
+#: ../src/Widgets/TZPopover.vala:71
+msgid "Indian"
+msgstr "Ocean Indyjski"

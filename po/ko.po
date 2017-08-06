@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-power\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-08 18:44+0200\n"
+"POT-Creation-Date: 2017-08-06 09:25-0700\n"
 "PO-Revision-Date: 2017-01-11 22:39+0000\n"
 "Last-Translator: Jung-Kyu Park <bagjunggyu@gmail.com>\n"
 "Language-Team: Korean <ko@li.org>\n"
@@ -17,43 +17,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:04+0000\n"
 "X-Generator: Launchpad (build 18302)\n"
-
-#: ../src/Widgets/TZPopover.vala:57
-msgid "Africa"
-msgstr "아프리카(Africa)"
-
-#: ../src/Widgets/TZPopover.vala:59
-msgid "America"
-msgstr "아메리카(America)"
-
-#: ../src/Widgets/TZPopover.vala:61
-msgid "Antarctica"
-msgstr "남극 대륙(Antarctica)"
-
-#: ../src/Widgets/TZPopover.vala:63
-msgid "Asia"
-msgstr "아시아(Asia)"
-
-#: ../src/Widgets/TZPopover.vala:65
-msgid "Atlantic"
-msgstr "대서양(Atlantic)"
-
-#: ../src/Widgets/TZPopover.vala:67
-msgid "Australia"
-msgstr "호주"
-
-#: ../src/Widgets/TZPopover.vala:69
-msgid "Europe"
-msgstr "유럽(Europe)"
-
-#: ../src/Widgets/TZPopover.vala:71
-msgid "Indian"
-msgstr "인도(Indian)"
-
-#. /Translators: Comment for Timezone America/Los_Angeles
-#: ../src/Widgets/TZPopover.vala:73 ../src/Translations.vala:1181
-msgid "Pacific"
-msgstr "태평양(Pacific)"
 
 #: ../src/Plug.vala:36
 msgid "Date & Time"
@@ -3063,6 +3026,11 @@ msgstr "MST - 애리조나(Arizona), 나바호(Navajo) 제외"
 msgid "America/Los_Angeles"
 msgstr "아메리카/로스_엔젤레스(Los_Angeles)"
 
+#. /Translators: Comment for Timezone America/Los_Angeles
+#: ../src/Translations.vala:1181 ../src/Widgets/TZPopover.vala:73
+msgid "Pacific"
+msgstr "태평양(Pacific)"
+
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1183
 msgid "America/Anchorage"
@@ -3237,3 +3205,35 @@ msgstr "아프리카/루사카(Lusaka)"
 #: ../src/Translations.vala:1251
 msgid "Africa/Harare"
 msgstr "아프리카/하라레(Harare)"
+
+#: ../src/Widgets/TZPopover.vala:57
+msgid "Africa"
+msgstr "아프리카(Africa)"
+
+#: ../src/Widgets/TZPopover.vala:59
+msgid "America"
+msgstr "아메리카(America)"
+
+#: ../src/Widgets/TZPopover.vala:61
+msgid "Antarctica"
+msgstr "남극 대륙(Antarctica)"
+
+#: ../src/Widgets/TZPopover.vala:63
+msgid "Asia"
+msgstr "아시아(Asia)"
+
+#: ../src/Widgets/TZPopover.vala:65
+msgid "Atlantic"
+msgstr "대서양(Atlantic)"
+
+#: ../src/Widgets/TZPopover.vala:67
+msgid "Australia"
+msgstr "호주"
+
+#: ../src/Widgets/TZPopover.vala:69
+msgid "Europe"
+msgstr "유럽(Europe)"
+
+#: ../src/Widgets/TZPopover.vala:71
+msgid "Indian"
+msgstr "인도(Indian)"
