@@ -8,18 +8,15 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-08 18:44+0200\n"
-"PO-Revision-Date: 2017-05-08 20:08+0000\n"
-"Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
-"Language-Team: Polish <https://l10n.elementary.io/projects/switchboard/"
-"switchboard-plug-datetime/pl/>\n"
+"PO-Revision-Date: 2017-01-27 10:02+0000\n"
+"Last-Translator: Damian Woźniak <fiszet@gmail.com>\n"
+"Language-Team: Polish <pl@li.org>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 2.13-dev\n"
 "X-Launchpad-Export-Date: 2017-01-28 06:09+0000\n"
+"X-Generator: Launchpad (build 18315)\n"
 
 #: ../src/Widgets/TZPopover.vala:57
 msgid "Africa"
@@ -76,7 +73,7 @@ msgstr "Format czasu:"
 
 #: ../src/Plug.vala:58
 msgid "AM/PM"
-msgstr "12-godzinny"
+msgstr "rano/po południu"
 
 #: ../src/Plug.vala:59
 msgid "24h"
@@ -88,7 +85,7 @@ msgstr "Strefa czasowa:"
 
 #: ../src/Plug.vala:73
 msgid "Show week numbers:"
-msgstr "Wyświetl numery tygodnia:"
+msgstr ""
 
 #: ../src/Plug.vala:273
 msgid "Network Time"

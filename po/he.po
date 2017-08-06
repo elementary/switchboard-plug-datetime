@@ -9,49 +9,47 @@ msgstr ""
 "Project-Id-Version: timezones.tip\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-08 18:44+0200\n"
-"PO-Revision-Date: 2017-07-07 14:32+0000\n"
-"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
-"Language-Team: Hebrew <https://l10n.elementary.io/projects/switchboard/"
-"switchboard-plug-datetime/he/>\n"
-"Language: he\n"
+"PO-Revision-Date: 2014-12-16 17:58+0000\n"
+"Last-Translator: Oron Peled <Unknown>\n"
+"Language-Team: Hebrew\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.14\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:04+0000\n"
+"X-Generator: Launchpad (build 18302)\n"
 
 #: ../src/Widgets/TZPopover.vala:57
 msgid "Africa"
-msgstr "אפריקה"
+msgstr ""
 
 #: ../src/Widgets/TZPopover.vala:59
 msgid "America"
-msgstr "אמריקה"
+msgstr ""
 
 #: ../src/Widgets/TZPopover.vala:61
 msgid "Antarctica"
-msgstr "אנרקטיקה"
+msgstr ""
 
 #: ../src/Widgets/TZPopover.vala:63
 msgid "Asia"
-msgstr "אסיה"
+msgstr ""
 
 #: ../src/Widgets/TZPopover.vala:65
 msgid "Atlantic"
-msgstr "האוקיינוס האטלנטי"
+msgstr ""
 
 #: ../src/Widgets/TZPopover.vala:67
 msgid "Australia"
-msgstr "אוסטרליה"
+msgstr ""
 
 #: ../src/Widgets/TZPopover.vala:69
 msgid "Europe"
-msgstr "אירופה"
+msgstr ""
 
 #: ../src/Widgets/TZPopover.vala:71
 msgid "Indian"
-msgstr "האוקיינוס ההודי"
+msgstr ""
 
 #. /Translators: Comment for Timezone America/Los_Angeles
 #: ../src/Widgets/TZPopover.vala:73 ../src/Translations.vala:1181
@@ -60,55 +58,55 @@ msgstr ""
 
 #: ../src/Plug.vala:36
 msgid "Date & Time"
-msgstr "תאריך ושעה"
+msgstr ""
 
 #: ../src/Plug.vala:37
 msgid "Configure date, time, and select time zone"
-msgstr "הגדרת התאריך, השעה ובחירת אזור הזמן"
+msgstr ""
 
 #: ../src/Plug.vala:45
 msgid "Network Time:"
-msgstr "זמן רשת:"
+msgstr ""
 
 #: ../src/Plug.vala:54
 msgid "Time Format:"
-msgstr "תבנית הזמן:"
+msgstr ""
 
 #: ../src/Plug.vala:58
 msgid "AM/PM"
-msgstr "AM/PM"
+msgstr ""
 
 #: ../src/Plug.vala:59
 msgid "24h"
-msgstr "24 ש׳"
+msgstr ""
 
 #: ../src/Plug.vala:61
 msgid "Time Zone:"
-msgstr "אזור זמן:"
+msgstr ""
 
 #: ../src/Plug.vala:73
 msgid "Show week numbers:"
-msgstr "הצגת מספרי השבועות:"
+msgstr ""
 
 #: ../src/Plug.vala:273
 msgid "Network Time"
-msgstr "זמן רשת"
+msgstr ""
 
 #: ../src/Plug.vala:274
 msgid "Time"
-msgstr "שעה"
+msgstr ""
 
 #: ../src/Plug.vala:275
 msgid "Date"
-msgstr "תאריך"
+msgstr ""
 
 #: ../src/Plug.vala:276
 msgid "Time Zone"
-msgstr "אזור זמן"
+msgstr ""
 
 #: ../src/Plug.vala:277
 msgid "Time Format"
-msgstr "תבנית שעה"
+msgstr ""
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:3
@@ -3104,7 +3102,7 @@ msgstr "אמריקה/יקוטט"
 #. /Translators: Comment for Timezone America/Yakutat
 #: ../src/Translations.vala:1201
 msgid "Alaska - Yakutat"
-msgstr "אלסקה - יקוטט"
+msgstr ""
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1203
@@ -3114,7 +3112,7 @@ msgstr "אמריקה/נום"
 #. /Translators: Comment for Timezone America/Nome
 #: ../src/Translations.vala:1205
 msgid "Alaska (west)"
-msgstr "אלסקה (מערב)"
+msgstr ""
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1207
@@ -3124,7 +3122,7 @@ msgstr "אמריקה/אדק"
 #. /Translators: Comment for Timezone America/Adak
 #: ../src/Translations.vala:1209
 msgid "Aleutian Islands"
-msgstr "האיים האלאוטיים"
+msgstr ""
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1211
@@ -3134,7 +3132,7 @@ msgstr "האוקיינוס-השקט/הונולולו"
 #. /Translators: Comment for Timezone Pacific/Honolulu
 #: ../src/Translations.vala:1213
 msgid "Hawaii"
-msgstr "הוואי"
+msgstr ""
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1215
@@ -3149,7 +3147,7 @@ msgstr "אסיה/סמרקנד"
 #. /Translators: Comment for Timezone Asia/Samarkand
 #: ../src/Translations.vala:1219
 msgid "Uzbekistan (west)"
-msgstr "אוזבקיסטן (מערב)"
+msgstr ""
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1221
@@ -3159,7 +3157,7 @@ msgstr "אסיה/טשקנט"
 #. /Translators: Comment for Timezone Asia/Tashkent
 #: ../src/Translations.vala:1223
 msgid "Uzbekistan (east)"
-msgstr "אוזבקיסטן (מזרח)"
+msgstr ""
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1225

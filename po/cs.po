@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-power\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-13 06:45+0700\n"
+"POT-Creation-Date: 2017-06-08 18:44+0200\n"
 "PO-Revision-Date: 2016-08-06 21:44+0000\n"
 "Last-Translator: Marek Suchánek <suchm@seznam.cz>\n"
 "Language-Team: German <de@li.org>\n"
@@ -3053,11 +3053,6 @@ msgstr ""
 msgid "America/Los_Angeles"
 msgstr "Amerika/Los_Angeles"
 
-#. /Translators: Comment for Timezone America/Los_Angeles
-#: ../src/Translations.vala:1181 ../src/Widgets/TZPopover.vala:73
-msgid "Pacific"
-msgstr "Tichý oceán"
-
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1183
 msgid "America/Anchorage"
@@ -3232,87 +3227,3 @@ msgstr "Afrika/Lusaka"
 #: ../src/Translations.vala:1251
 msgid "Africa/Harare"
 msgstr "Afrika/Harare"
-
-#: ../src/Plug.vala:37
-msgid "Date & Time"
-msgstr "Datum & Čas"
-
-#: ../src/Plug.vala:38
-msgid "Configure date, time, and select time zone"
-msgstr ""
-
-#: ../src/Plug.vala:46
-msgid "Network Time:"
-msgstr "Síťový čas:"
-
-#: ../src/Plug.vala:55
-msgid "Time Format:"
-msgstr "Formát času:"
-
-#: ../src/Plug.vala:59
-msgid "AM/PM"
-msgstr "12hodinový"
-
-#: ../src/Plug.vala:60
-msgid "24h"
-msgstr "24h"
-
-#: ../src/Plug.vala:62
-msgid "Time Zone:"
-msgstr "Časové pásmo:"
-
-#: ../src/Plug.vala:91
-msgid "Show week numbers:"
-msgstr ""
-
-#: ../src/Plug.vala:301
-msgid "Network Time"
-msgstr "Síťový čas"
-
-#: ../src/Plug.vala:302
-msgid "Time"
-msgstr "Čas"
-
-#: ../src/Plug.vala:303
-msgid "Date"
-msgstr "Datum"
-
-#: ../src/Plug.vala:304
-msgid "Time Zone"
-msgstr "Časové pásmo"
-
-#: ../src/Plug.vala:305
-msgid "Time Format"
-msgstr "Formát času"
-
-#: ../src/Widgets/TZPopover.vala:57
-msgid "Africa"
-msgstr "Afrika"
-
-#: ../src/Widgets/TZPopover.vala:59
-msgid "America"
-msgstr "Amerika"
-
-#: ../src/Widgets/TZPopover.vala:61
-msgid "Antarctica"
-msgstr "Antarktida"
-
-#: ../src/Widgets/TZPopover.vala:63
-msgid "Asia"
-msgstr "Asie"
-
-#: ../src/Widgets/TZPopover.vala:65
-msgid "Atlantic"
-msgstr "Atlantický oceán"
-
-#: ../src/Widgets/TZPopover.vala:67
-msgid "Australia"
-msgstr ""
-
-#: ../src/Widgets/TZPopover.vala:69
-msgid "Europe"
-msgstr "Evropa"
-
-#: ../src/Widgets/TZPopover.vala:71
-msgid "Indian"
-msgstr "Indický oceán"
