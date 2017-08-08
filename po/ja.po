@@ -2,55 +2,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-13 06:45+0700\n"
-"PO-Revision-Date: 2017-06-24 10:36+0000\n"
-"Last-Translator: Ryo Nakano <rmfmada3q@gmail.com>\n"
-"Language-Team: Japanese <https://l10n.elementary.io/projects/switchboard"
-"/switchboard-plug-datetime/ja/>\n"
-"Language: ja\n"
+"POT-Creation-Date: 2017-08-06 09:25-0700\n"
+"PO-Revision-Date: 2017-01-28 06:59+0000\n"
+"Last-Translator: Ryo Nakano <Unknown>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2.14\n"
 "X-Launchpad-Export-Date: 2017-01-29 05:09+0000\n"
-
-#: ../src/Widgets/TZPopover.vala:57
-msgid "Africa"
-msgstr "アフリカ"
-
-#: ../src/Widgets/TZPopover.vala:59
-msgid "America"
-msgstr "アメリカ"
-
-#: ../src/Widgets/TZPopover.vala:61
-msgid "Antarctica"
-msgstr "南極大陸"
-
-#: ../src/Widgets/TZPopover.vala:63
-msgid "Asia"
-msgstr "アジア"
-
-#: ../src/Widgets/TZPopover.vala:65
-msgid "Atlantic"
-msgstr "大西洋"
-
-#: ../src/Widgets/TZPopover.vala:67
-msgid "Australia"
-msgstr "オーストラリア"
-
-#: ../src/Widgets/TZPopover.vala:69
-msgid "Europe"
-msgstr "ヨーロッパ"
-
-#: ../src/Widgets/TZPopover.vala:71
-msgid "Indian"
-msgstr "インド"
-
-#. /Translators: Comment for Timezone America/Los_Angeles
-#: ../src/Widgets/TZPopover.vala:73 ../src/Translations.vala:1181
-msgid "Pacific"
-msgstr "太平洋"
+"X-Generator: Launchpad (build 18315)\n"
 
 #: ../src/Plug.vala:36
 msgid "Date & Time"
@@ -82,7 +43,7 @@ msgstr "タイムゾーン:"
 
 #: ../src/Plug.vala:73
 msgid "Show week numbers:"
-msgstr "週番号を表示する："
+msgstr ""
 
 #: ../src/Plug.vala:273
 msgid "Network Time"
@@ -307,7 +268,7 @@ msgstr "カタマルカ (CT); チュブ (CH)"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:83
 msgid "America/Argentina/La_Rioja"
-msgstr "アメリカ/アルゼンチン/ラ・リオハ"
+msgstr "America/Argentina/La_Rioja"
 
 #. /Translators: Comment for Timezone America/Argentina/La_Rioja
 #: ../src/Translations.vala:85
@@ -3239,58 +3200,6 @@ msgstr "アフリカ/ルサカ"
 #: ../src/Translations.vala:1251
 msgid "Africa/Harare"
 msgstr "アフリカ/ハラレ"
-
-#: ../src/Plug.vala:37
-msgid "Date & Time"
-msgstr "日付と時刻"
-
-#: ../src/Plug.vala:38
-msgid "Configure date, time, and select time zone"
-msgstr "日付と時刻の設定、タイムゾーンの選択をします"
-
-#: ../src/Plug.vala:46
-msgid "Network Time:"
-msgstr "ネットワーク時間："
-
-#: ../src/Plug.vala:55
-msgid "Time Format:"
-msgstr "時間フォーマット:"
-
-#: ../src/Plug.vala:59
-msgid "AM/PM"
-msgstr "午前/午後"
-
-#: ../src/Plug.vala:60
-msgid "24h"
-msgstr "24時間"
-
-#: ../src/Plug.vala:62
-msgid "Time Zone:"
-msgstr "タイムゾーン:"
-
-#: ../src/Plug.vala:91
-msgid "Show week numbers:"
-msgstr ""
-
-#: ../src/Plug.vala:301
-msgid "Network Time"
-msgstr "ネットワーク時間"
-
-#: ../src/Plug.vala:302
-msgid "Time"
-msgstr "時間"
-
-#: ../src/Plug.vala:303
-msgid "Date"
-msgstr "日付"
-
-#: ../src/Plug.vala:304
-msgid "Time Zone"
-msgstr "タイムゾーン"
-
-#: ../src/Plug.vala:305
-msgid "Time Format"
-msgstr "時刻の形式"
 
 #: ../src/Widgets/TZPopover.vala:57
 msgid "Africa"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-13 06:45+0700\n"
+"POT-Creation-Date: 2017-08-06 09:25-0700\n"
 "PO-Revision-Date: 2015-11-16 18:31+0000\n"
 "Last-Translator: Beqa Arabuli <arabulibeqa@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,43 +12,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:04+0000\n"
 "X-Generator: Launchpad (build 18302)\n"
-
-#: ../src/Widgets/TZPopover.vala:57
-msgid "Africa"
-msgstr "აფრიკა"
-
-#: ../src/Widgets/TZPopover.vala:59
-msgid "America"
-msgstr "ამერიკა"
-
-#: ../src/Widgets/TZPopover.vala:61
-msgid "Antarctica"
-msgstr "ანტარქტიკა"
-
-#: ../src/Widgets/TZPopover.vala:63
-msgid "Asia"
-msgstr "აზია"
-
-#: ../src/Widgets/TZPopover.vala:65
-msgid "Atlantic"
-msgstr "ატლანტიკა"
-
-#: ../src/Widgets/TZPopover.vala:67
-msgid "Australia"
-msgstr ""
-
-#: ../src/Widgets/TZPopover.vala:69
-msgid "Europe"
-msgstr "ევროპა"
-
-#: ../src/Widgets/TZPopover.vala:71
-msgid "Indian"
-msgstr "ინდოეთის ოკეანე"
-
-#. /Translators: Comment for Timezone America/Los_Angeles
-#: ../src/Widgets/TZPopover.vala:73 ../src/Translations.vala:1181
-msgid "Pacific"
-msgstr "წყნარი ოკეანე"
 
 #: ../src/Plug.vala:36
 msgid "Date & Time"
@@ -3227,58 +3190,6 @@ msgstr "აფრიკა/ლუსაკა"
 #: ../src/Translations.vala:1251
 msgid "Africa/Harare"
 msgstr "აფრიკა/ჰარარე"
-
-#: ../src/Plug.vala:37
-msgid "Date & Time"
-msgstr "თარიღი & დრო"
-
-#: ../src/Plug.vala:38
-msgid "Configure date, time, and select time zone"
-msgstr ""
-
-#: ../src/Plug.vala:46
-msgid "Network Time:"
-msgstr "ქსელის დრო:"
-
-#: ../src/Plug.vala:55
-msgid "Time Format:"
-msgstr "დროის ფორმატი:"
-
-#: ../src/Plug.vala:59
-msgid "AM/PM"
-msgstr "AM/PM"
-
-#: ../src/Plug.vala:60
-msgid "24h"
-msgstr "24ს"
-
-#: ../src/Plug.vala:62
-msgid "Time Zone:"
-msgstr "სასაათო სარტყელი:"
-
-#: ../src/Plug.vala:91
-msgid "Show week numbers:"
-msgstr ""
-
-#: ../src/Plug.vala:301
-msgid "Network Time"
-msgstr "ქსელის დრო"
-
-#: ../src/Plug.vala:302
-msgid "Time"
-msgstr "დრო"
-
-#: ../src/Plug.vala:303
-msgid "Date"
-msgstr "თარიღი"
-
-#: ../src/Plug.vala:304
-msgid "Time Zone"
-msgstr "სასაათო სარტყელი"
-
-#: ../src/Plug.vala:305
-msgid "Time Format"
-msgstr "დროის ფორმატი"
 
 #: ../src/Widgets/TZPopover.vala:57
 msgid "Africa"
