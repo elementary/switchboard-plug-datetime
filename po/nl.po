@@ -8,54 +8,17 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-08 18:44+0200\n"
-"PO-Revision-Date: 2017-06-18 21:20+0000\n"
-"Last-Translator: Rowan Hoogervorst <rowtricker@gmail.com>\n"
-"Language-Team: Dutch <https://l10n.elementary.io/projects/switchboard/"
-"switchboard-plug-datetime/nl/>\n"
+"PO-Revision-Date: 2017-08-05 16:10+0000\n"
+"Last-Translator: Bart Willems <bwillems@protonmail.com>\n"
+"Language-Team: Dutch <https://weblate.elementary.io/projects/switchboard"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.14\n"
+"X-Generator: Weblate 2.15\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:04+0000\n"
-
-#: ../src/Widgets/TZPopover.vala:57
-msgid "Africa"
-msgstr "Afrika"
-
-#: ../src/Widgets/TZPopover.vala:59
-msgid "America"
-msgstr "Amerika"
-
-#: ../src/Widgets/TZPopover.vala:61
-msgid "Antarctica"
-msgstr "Antarctica"
-
-#: ../src/Widgets/TZPopover.vala:63
-msgid "Asia"
-msgstr "Azië"
-
-#: ../src/Widgets/TZPopover.vala:65
-msgid "Atlantic"
-msgstr "Atlantisch"
-
-#: ../src/Widgets/TZPopover.vala:67
-msgid "Australia"
-msgstr ""
-
-#: ../src/Widgets/TZPopover.vala:69
-msgid "Europe"
-msgstr "Europa"
-
-#: ../src/Widgets/TZPopover.vala:71
-msgid "Indian"
-msgstr "Indisch"
-
-#. /Translators: Comment for Timezone America/Los_Angeles
-#: ../src/Widgets/TZPopover.vala:73 ../src/Translations.vala:1181
-msgid "Pacific"
-msgstr "Grote Oceaan"
+"X-Generator: Launchpad (build 18302)\n"
 
 #: ../src/Plug.vala:36
 msgid "Date & Time"
@@ -157,7 +120,7 @@ msgstr "Antarctica/McMurdo"
 #. /Translators: Comment for Timezone Antarctica/McMurdo
 #: ../src/Translations.vala:21
 msgid "New Zealand time - McMurdo, South Pole"
-msgstr "Nieuw-Zeelandse tijd - McMurdo, Zuidpool"
+msgstr ""
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:23
@@ -167,7 +130,7 @@ msgstr "Antarctica/Casey"
 #. /Translators: Comment for Timezone Antarctica/Casey
 #: ../src/Translations.vala:25
 msgid "Casey"
-msgstr "Casey"
+msgstr ""
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:27
@@ -177,7 +140,7 @@ msgstr "Antarctica/Davis"
 #. /Translators: Comment for Timezone Antarctica/Davis
 #: ../src/Translations.vala:29
 msgid "Davis"
-msgstr "Davis"
+msgstr ""
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:31
@@ -187,7 +150,7 @@ msgstr "Antarctica/DumontDUrville"
 #. /Translators: Comment for Timezone Antarctica/DumontDUrville
 #: ../src/Translations.vala:33
 msgid "Dumont-d'Urville"
-msgstr "Dumont-d'Urville"
+msgstr ""
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:35
@@ -197,7 +160,7 @@ msgstr "Antarctica/Mawson"
 #. /Translators: Comment for Timezone Antarctica/Mawson
 #: ../src/Translations.vala:37
 msgid "Mawson"
-msgstr "Mawson"
+msgstr ""
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:39
@@ -217,7 +180,7 @@ msgstr "Antarctica/Rothera"
 #. /Translators: Comment for Timezone Antarctica/Rothera
 #: ../src/Translations.vala:45
 msgid "Rothera"
-msgstr ""
+msgstr "Rothera"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:47
@@ -3055,6 +3018,11 @@ msgstr ""
 msgid "America/Los_Angeles"
 msgstr "Amerika/Los_Angeles"
 
+#. /Translators: Comment for Timezone America/Los_Angeles
+#: ../src/Translations.vala:1181 ../src/Widgets/TZPopover.vala:73
+msgid "Pacific"
+msgstr "Grote Oceaan"
+
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1183
 msgid "America/Anchorage"
@@ -3229,3 +3197,35 @@ msgstr "Afrika/Lusaka"
 #: ../src/Translations.vala:1251
 msgid "Africa/Harare"
 msgstr "Afrika/Harare"
+
+#: ../src/Widgets/TZPopover.vala:57
+msgid "Africa"
+msgstr "Afrika"
+
+#: ../src/Widgets/TZPopover.vala:59
+msgid "America"
+msgstr "Amerika"
+
+#: ../src/Widgets/TZPopover.vala:61
+msgid "Antarctica"
+msgstr "Antarctica"
+
+#: ../src/Widgets/TZPopover.vala:63
+msgid "Asia"
+msgstr "Azië"
+
+#: ../src/Widgets/TZPopover.vala:65
+msgid "Atlantic"
+msgstr "Atlantisch"
+
+#: ../src/Widgets/TZPopover.vala:67
+msgid "Australia"
+msgstr ""
+
+#: ../src/Widgets/TZPopover.vala:69
+msgid "Europe"
+msgstr "Europa"
+
+#: ../src/Widgets/TZPopover.vala:71
+msgid "Indian"
+msgstr "Indisch"

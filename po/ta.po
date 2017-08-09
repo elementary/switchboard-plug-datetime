@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-power\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-13 06:45+0700\n"
+"POT-Creation-Date: 2017-08-06 09:25-0700\n"
 "PO-Revision-Date: 2014-12-16 18:28+0000\n"
 "Last-Translator: Felix <Unknown>\n"
 "Language-Team: Tamil <ta@li.org>\n"
@@ -17,43 +17,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:05+0000\n"
 "X-Generator: Launchpad (build 18302)\n"
-
-#: ../src/Widgets/TZPopover.vala:57
-msgid "Africa"
-msgstr ""
-
-#: ../src/Widgets/TZPopover.vala:59
-msgid "America"
-msgstr ""
-
-#: ../src/Widgets/TZPopover.vala:61
-msgid "Antarctica"
-msgstr ""
-
-#: ../src/Widgets/TZPopover.vala:63
-msgid "Asia"
-msgstr ""
-
-#: ../src/Widgets/TZPopover.vala:65
-msgid "Atlantic"
-msgstr ""
-
-#: ../src/Widgets/TZPopover.vala:67
-msgid "Australia"
-msgstr ""
-
-#: ../src/Widgets/TZPopover.vala:69
-msgid "Europe"
-msgstr ""
-
-#: ../src/Widgets/TZPopover.vala:71
-msgid "Indian"
-msgstr ""
-
-#. /Translators: Comment for Timezone America/Los_Angeles
-#: ../src/Widgets/TZPopover.vala:73 ../src/Translations.vala:1181
-msgid "Pacific"
-msgstr ""
 
 #: ../src/Plug.vala:36
 msgid "Date & Time"
@@ -3232,58 +3195,6 @@ msgstr "ஆப்ரிக்கா/லுசகா"
 #: ../src/Translations.vala:1251
 msgid "Africa/Harare"
 msgstr "ஆப்ரிக்கா/ஹராரெ"
-
-#: ../src/Plug.vala:37
-msgid "Date & Time"
-msgstr ""
-
-#: ../src/Plug.vala:38
-msgid "Configure date, time, and select time zone"
-msgstr ""
-
-#: ../src/Plug.vala:46
-msgid "Network Time:"
-msgstr ""
-
-#: ../src/Plug.vala:55
-msgid "Time Format:"
-msgstr ""
-
-#: ../src/Plug.vala:59
-msgid "AM/PM"
-msgstr ""
-
-#: ../src/Plug.vala:60
-msgid "24h"
-msgstr ""
-
-#: ../src/Plug.vala:62
-msgid "Time Zone:"
-msgstr ""
-
-#: ../src/Plug.vala:91
-msgid "Show week numbers:"
-msgstr ""
-
-#: ../src/Plug.vala:301
-msgid "Network Time"
-msgstr ""
-
-#: ../src/Plug.vala:302
-msgid "Time"
-msgstr ""
-
-#: ../src/Plug.vala:303
-msgid "Date"
-msgstr ""
-
-#: ../src/Plug.vala:304
-msgid "Time Zone"
-msgstr ""
-
-#: ../src/Plug.vala:305
-msgid "Time Format"
-msgstr ""
 
 #: ../src/Widgets/TZPopover.vala:57
 msgid "Africa"

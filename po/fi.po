@@ -7,55 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-08 18:44+0200\n"
-"PO-Revision-Date: 2017-06-12 06:39+0000\n"
-"Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
-"Language-Team: Finnish <https://l10n.elementary.io/projects/switchboard/"
-"switchboard-plug-datetime/fi/>\n"
+"POT-Creation-Date: 2017-08-06 09:25-0700\n"
+"PO-Revision-Date: 2015-12-28 08:43+0000\n"
+"Last-Translator: Jiri Grönroos <Unknown>\n"
+"Language-Team: Finnish <fi@li.org>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.14\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:04+0000\n"
-
-#: ../src/Widgets/TZPopover.vala:57
-msgid "Africa"
-msgstr "Afrikka"
-
-#: ../src/Widgets/TZPopover.vala:59
-msgid "America"
-msgstr "Amerikka"
-
-#: ../src/Widgets/TZPopover.vala:61
-msgid "Antarctica"
-msgstr "Etelämanner"
-
-#: ../src/Widgets/TZPopover.vala:63
-msgid "Asia"
-msgstr "Aasia"
-
-#: ../src/Widgets/TZPopover.vala:65
-msgid "Atlantic"
-msgstr "Atlantti"
-
-#: ../src/Widgets/TZPopover.vala:67
-msgid "Australia"
-msgstr ""
-
-#: ../src/Widgets/TZPopover.vala:69
-msgid "Europe"
-msgstr "Eurooppa"
-
-#: ../src/Widgets/TZPopover.vala:71
-msgid "Indian"
-msgstr "Intianmeri"
-
-#. /Translators: Comment for Timezone America/Los_Angeles
-#: ../src/Widgets/TZPopover.vala:73 ../src/Translations.vala:1181
-msgid "Pacific"
-msgstr "Tyynimeri"
+"X-Generator: Launchpad (build 18302)\n"
 
 #: ../src/Plug.vala:36
 msgid "Date & Time"
@@ -87,7 +48,7 @@ msgstr "Aikavyöhyke:"
 
 #: ../src/Plug.vala:73
 msgid "Show week numbers:"
-msgstr "Näytä viikkonumerot:"
+msgstr ""
 
 #: ../src/Plug.vala:273
 msgid "Network Time"
@@ -3055,6 +3016,11 @@ msgstr ""
 msgid "America/Los_Angeles"
 msgstr "Amerikka/Los_Angeles"
 
+#. /Translators: Comment for Timezone America/Los_Angeles
+#: ../src/Translations.vala:1181 ../src/Widgets/TZPopover.vala:73
+msgid "Pacific"
+msgstr "Tyynimeri"
+
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1183
 msgid "America/Anchorage"
@@ -3229,3 +3195,35 @@ msgstr "Afrikka/Lusaka"
 #: ../src/Translations.vala:1251
 msgid "Africa/Harare"
 msgstr "Afrikka/Harare"
+
+#: ../src/Widgets/TZPopover.vala:57
+msgid "Africa"
+msgstr "Afrikka"
+
+#: ../src/Widgets/TZPopover.vala:59
+msgid "America"
+msgstr "Amerikka"
+
+#: ../src/Widgets/TZPopover.vala:61
+msgid "Antarctica"
+msgstr "Etelämanner"
+
+#: ../src/Widgets/TZPopover.vala:63
+msgid "Asia"
+msgstr "Aasia"
+
+#: ../src/Widgets/TZPopover.vala:65
+msgid "Atlantic"
+msgstr "Atlantti"
+
+#: ../src/Widgets/TZPopover.vala:67
+msgid "Australia"
+msgstr ""
+
+#: ../src/Widgets/TZPopover.vala:69
+msgid "Europe"
+msgstr "Eurooppa"
+
+#: ../src/Widgets/TZPopover.vala:71
+msgid "Indian"
+msgstr "Intianmeri"
