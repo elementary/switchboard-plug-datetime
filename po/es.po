@@ -7,16 +7,55 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-06 09:25-0700\n"
-"PO-Revision-Date: 2017-01-27 17:15+0000\n"
-"Last-Translator: Mario Rodrigo <capitantrueno@gmail.com>\n"
-"Language-Team: Spanish <es@li.org>\n"
+"POT-Creation-Date: 2017-06-08 18:44+0200\n"
+"PO-Revision-Date: 2017-07-15 02:06+0000\n"
+"Last-Translator: haggen svastian <h2gn@openmailbox.org>\n"
+"Language-Team: Spanish <https://l10n.elementary.io/projects/switchboard/"
+"switchboard-plug-datetime/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.14\n"
 "X-Launchpad-Export-Date: 2017-01-28 06:09+0000\n"
-"X-Generator: Launchpad (build 18315)\n"
+
+#: ../src/Widgets/TZPopover.vala:57
+msgid "Africa"
+msgstr "África"
+
+#: ../src/Widgets/TZPopover.vala:59
+msgid "America"
+msgstr "América"
+
+#: ../src/Widgets/TZPopover.vala:61
+msgid "Antarctica"
+msgstr "Antártida"
+
+#: ../src/Widgets/TZPopover.vala:63
+msgid "Asia"
+msgstr "Asia"
+
+#: ../src/Widgets/TZPopover.vala:65
+msgid "Atlantic"
+msgstr "Atlántico"
+
+#: ../src/Widgets/TZPopover.vala:67
+msgid "Australia"
+msgstr "Australia"
+
+#: ../src/Widgets/TZPopover.vala:69
+msgid "Europe"
+msgstr "Europa"
+
+#: ../src/Widgets/TZPopover.vala:71
+msgid "Indian"
+msgstr "Índico"
+
+#. /Translators: Comment for Timezone America/Los_Angeles
+#: ../src/Widgets/TZPopover.vala:73 ../src/Translations.vala:1181
+msgid "Pacific"
+msgstr "Pacífico"
 
 #: ../src/Plug.vala:36
 msgid "Date & Time"
@@ -48,7 +87,7 @@ msgstr "Huso horario:"
 
 #: ../src/Plug.vala:73
 msgid "Show week numbers:"
-msgstr ""
+msgstr "Mostrar números de semana:"
 
 #: ../src/Plug.vala:273
 msgid "Network Time"
@@ -233,7 +272,7 @@ msgstr "Argentina (mayor parte de las áreas: CB, CC, CN, ER, FM, MN, SE, SF)"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:67
 msgid "America/Argentina/Salta"
-msgstr "America/Argentina/Salta"
+msgstr "América/Argentina/Salta"
 
 #. /Translators: Comment for Timezone America/Argentina/Salta
 #: ../src/Translations.vala:69
@@ -258,7 +297,7 @@ msgstr "América/Argentina/Tucuman"
 #. /Translators: Comment for Timezone America/Argentina/Tucuman
 #: ../src/Translations.vala:77
 msgid "Tucuman (TM)"
-msgstr "Tucuman (TM)"
+msgstr "Tucumán (TM)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:79
@@ -303,7 +342,7 @@ msgstr "Mendoza (MZ)"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:95
 msgid "America/Argentina/San_Luis"
-msgstr "America/Argentina/San_Luis"
+msgstr "América/Argentina/San_Luis"
 
 #. /Translators: Comment for Timezone America/Argentina/San_Luis
 #: ../src/Translations.vala:97
@@ -623,7 +662,7 @@ msgstr "América/Bahia"
 #. /Translators: Comment for Timezone America/Bahia
 #: ../src/Translations.vala:223
 msgid "Bahia"
-msgstr "Bahia"
+msgstr "Bahía"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:225
@@ -643,7 +682,7 @@ msgstr "América/Campo_Grande"
 #. /Translators: Comment for Timezone America/Campo_Grande
 #: ../src/Translations.vala:231
 msgid "Mato Grosso do Sul"
-msgstr "Mato Grosso do Sul"
+msgstr "Mato Grosso del Sur"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:233
@@ -658,7 +697,7 @@ msgstr "Mato Grosso"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:237
 msgid "America/Santarem"
-msgstr "America/Santarem"
+msgstr "América/Santarém"
 
 #. /Translators: Comment for Timezone America/Santarem
 #: ../src/Translations.vala:239
@@ -983,7 +1022,7 @@ msgstr "Hora de la montaña, MST (BC, Dawson Cr, Ft. St John)"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:367
 msgid "America/Fort_Nelson"
-msgstr "America/Fort_Nelson"
+msgstr "América/Fort_Nelson"
 
 #. /Translators: Comment for Timezone America/Fort_Nelson
 #: ../src/Translations.vala:369
@@ -1720,7 +1759,7 @@ msgstr "Kazajistán Oeste"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:661
 msgid "Asia/Vientiane"
-msgstr "Asia/Vientiane"
+msgstr "Asia/Vientián"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:663
@@ -2094,7 +2133,7 @@ msgstr "Europa/Oslo"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:809
 msgid "Asia/Kathmandu"
-msgstr "Asia/Kathmandu"
+msgstr "Asia/Kathmandú"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:811
@@ -2769,7 +2808,7 @@ msgstr "Europa/Uzhgorod"
 #. /Translators: Comment for Timezone Europe/Uzhgorod
 #: ../src/Translations.vala:1079
 msgid "Ruthenia"
-msgstr "Ruthenia"
+msgstr "Rutenia"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1081
@@ -3021,11 +3060,6 @@ msgstr "MST (AZ, excepto Navajo)"
 msgid "America/Los_Angeles"
 msgstr "América/Los_Angeles"
 
-#. /Translators: Comment for Timezone America/Los_Angeles
-#: ../src/Translations.vala:1181 ../src/Widgets/TZPopover.vala:73
-msgid "Pacific"
-msgstr "Pacífico"
-
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1183
 msgid "America/Anchorage"
@@ -3179,7 +3213,7 @@ msgstr "Pacífico/Apia"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1243
 msgid "Asia/Aden"
-msgstr "Asia/Aden"
+msgstr "Asia/Adén"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1245
@@ -3200,35 +3234,3 @@ msgstr "África/Lusaka"
 #: ../src/Translations.vala:1251
 msgid "Africa/Harare"
 msgstr "África/Harare"
-
-#: ../src/Widgets/TZPopover.vala:57
-msgid "Africa"
-msgstr "África"
-
-#: ../src/Widgets/TZPopover.vala:59
-msgid "America"
-msgstr "América"
-
-#: ../src/Widgets/TZPopover.vala:61
-msgid "Antarctica"
-msgstr "Antártida"
-
-#: ../src/Widgets/TZPopover.vala:63
-msgid "Asia"
-msgstr "Asia"
-
-#: ../src/Widgets/TZPopover.vala:65
-msgid "Atlantic"
-msgstr "Atlántico"
-
-#: ../src/Widgets/TZPopover.vala:67
-msgid "Australia"
-msgstr "Australia"
-
-#: ../src/Widgets/TZPopover.vala:69
-msgid "Europe"
-msgstr "Europa"
-
-#: ../src/Widgets/TZPopover.vala:71
-msgid "Indian"
-msgstr "Índico"
