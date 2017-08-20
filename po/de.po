@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-06 09:25-0700\n"
-"PO-Revision-Date: 2017-08-19 15:32+0000\n"
+"PO-Revision-Date: 2017-08-20 11:57+0000\n"
 "Last-Translator: Jörg Arnold <j0ar@posteo.de>\n"
 "Language-Team: German <https://weblate.elementary.io/projects/switchboard"
 "/switchboard-plug-datetime/de/>\n"
@@ -872,7 +872,7 @@ msgstr "Amerika/Tortola"
 #. /Translators: Comment for Timezone America/Toronto
 #: ../src/Translations.vala:297
 msgid "Eastern - ON, QC (most areas)"
-msgstr "Östlich - ON, QC (meisten Regionen)"
+msgstr "Eastern - ON, QC (meisten Regionen)"
 
 #
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
@@ -883,7 +883,7 @@ msgstr "Amerika/Nipigon"
 #. /Translators: Comment for Timezone America/Nipigon
 #: ../src/Translations.vala:301
 msgid "Eastern - ON, QC (no DST 1967-73)"
-msgstr "Östlich - ON, QC (no DST 1967-73)"
+msgstr "Eastern - ON, QC (no DST 1967-73)"
 
 #
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
@@ -894,7 +894,7 @@ msgstr "Amerika/Thunder_Bay"
 #. /Translators: Comment for Timezone America/Thunder_Bay
 #: ../src/Translations.vala:305
 msgid "Eastern - ON (Thunder Bay)"
-msgstr "Östlich - ON (Thunder Bay)"
+msgstr "Eastern - ON (Thunder Bay)"
 
 #
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
@@ -905,7 +905,7 @@ msgstr "Amerika/Iqaluit"
 #. /Translators: Comment for Timezone America/Iqaluit
 #: ../src/Translations.vala:309
 msgid "Eastern - NU (most east areas)"
-msgstr "Östlich - NU (meisten östlichen Regionen)"
+msgstr "Eastern - NU (meisten östlichen Regionen)"
 
 #
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
@@ -916,7 +916,7 @@ msgstr "Amerika/Pangnirtung"
 #. /Translators: Comment for Timezone America/Pangnirtung
 #: ../src/Translations.vala:313
 msgid "Eastern - NU (Pangnirtung)"
-msgstr "Östlich - NU (Pangnirtung)"
+msgstr "Eastern - NU (Pangnirtung)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:315
@@ -3098,7 +3098,7 @@ msgstr "Amerika/New_York"
 #. /Translators: Comment for Timezone America/New_York
 #: ../src/Translations.vala:1101
 msgid "Eastern (most areas)"
-msgstr "Östlich (meisten Regionen)"
+msgstr "Eastern (meisten Regionen)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1103
@@ -3108,7 +3108,7 @@ msgstr "Amerika/Detroit"
 #. /Translators: Comment for Timezone America/Detroit
 #: ../src/Translations.vala:1105
 msgid "Eastern - MI (most areas)"
-msgstr "Östlich - MI (meisten Regionen)"
+msgstr "Eastern - MI (meisten Regionen)"
 
 #
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
@@ -3119,7 +3119,7 @@ msgstr "Amerika/Kentucky/Louisville"
 #. /Translators: Comment for Timezone America/Kentucky/Louisville
 #: ../src/Translations.vala:1109
 msgid "Eastern - KY (Louisville area)"
-msgstr "Östlich -KY (Louisville Region)"
+msgstr "Eastern - KY (Louisville Region)"
 
 #
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
@@ -3130,7 +3130,7 @@ msgstr "Amerika/Kentucky/Monticello"
 #. /Translators: Comment for Timezone America/Kentucky/Monticello
 #: ../src/Translations.vala:1113
 msgid "Eastern - KY (Wayne)"
-msgstr "Östlich - KY (Wayne)"
+msgstr "Eastern - KY (Wayne)"
 
 #
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
@@ -3141,7 +3141,7 @@ msgstr "Amerika/Indiana/Indianapolis"
 #. /Translators: Comment for Timezone America/Indiana/Indianapolis
 #: ../src/Translations.vala:1117
 msgid "Eastern - IN (most areas)"
-msgstr "Östlich - IN (meisten Regionen)"
+msgstr "Eastern - IN (meisten Regionen)"
 
 #
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
@@ -3152,7 +3152,7 @@ msgstr "Amerika/Indiana/Vincennes"
 #. /Translators: Comment for Timezone America/Indiana/Vincennes
 #: ../src/Translations.vala:1121
 msgid "Eastern - IN (Da, Du, K, Mn)"
-msgstr "Östlich - IN (Da, Du, K, Mn)"
+msgstr "Eastern - IN (Da, Du, K, Mn)"
 
 #
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
@@ -3163,7 +3163,7 @@ msgstr "Amerika/Indiana/Winamac"
 #. /Translators: Comment for Timezone America/Indiana/Winamac
 #: ../src/Translations.vala:1125
 msgid "Eastern - IN (Pulaski)"
-msgstr "Östlich - IN (Pulaski)"
+msgstr "Eastern - IN (Pulaski)"
 
 #
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
@@ -3174,7 +3174,7 @@ msgstr "Amerika/Indiana/Marengo"
 #. /Translators: Comment for Timezone America/Indiana/Marengo
 #: ../src/Translations.vala:1129
 msgid "Eastern - IN (Crawford)"
-msgstr "Östlich - IN (Crawford)"
+msgstr "Eastern - IN (Crawford)"
 
 #
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
@@ -3185,7 +3185,7 @@ msgstr "Amerika/Indiana/Petersburg"
 #. /Translators: Comment for Timezone America/Indiana/Petersburg
 #: ../src/Translations.vala:1133
 msgid "Eastern - IN (Pike)"
-msgstr "Östlich - IN (Pike)"
+msgstr "Eastern - IN (Pike)"
 
 #
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
@@ -3196,7 +3196,7 @@ msgstr "Amerika/Indiana/Vevay"
 #. /Translators: Comment for Timezone America/Indiana/Vevay
 #: ../src/Translations.vala:1137
 msgid "Eastern - IN (Switzerland)"
-msgstr "Östlich - IN (Switzerland)"
+msgstr "Eastern - IN (Switzerland)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1139
