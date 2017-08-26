@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-06 09:25-0700\n"
-"PO-Revision-Date: 2017-08-26 14:09+0000\n"
+"PO-Revision-Date: 2017-08-26 14:10+0000\n"
 "Last-Translator: anmcp <anmcpinho@gmail.com>\n"
 "Language-Team: Portuguese <https://weblate.elementary.io/projects/switchboard"
 "/switchboard-plug-datetime/pt/>\n"
@@ -195,7 +195,7 @@ msgstr "Syowa"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:51
 msgid "Antarctica/Troll"
-msgstr "Antarctica/Troll"
+msgstr "Antárctica/Troll"
 
 #. /Translators: Comment for Timezone Antarctica/Troll
 #: ../src/Translations.vala:53
