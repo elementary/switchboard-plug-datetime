@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-06 09:25-0700\n"
-"PO-Revision-Date: 2017-09-08 06:56+0000\n"
+"PO-Revision-Date: 2017-12-20 16:57+0000\n"
 "Last-Translator: Julio García <yllelder@gmail.com>\n"
 "Language-Team: Spanish <https://weblate.elementary.io/projects/switchboard"
 "/switchboard-plug-datetime/es/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.16\n"
+"X-Generator: Weblate 2.18\n"
 "X-Launchpad-Export-Date: 2017-01-28 06:09+0000\n"
 
 #: ../src/Plug.vala:36
@@ -50,7 +50,7 @@ msgstr "Huso horario:"
 
 #: ../src/Plug.vala:73
 msgid "Show week numbers:"
-msgstr ""
+msgstr "Mostrar números de la semana:"
 
 #: ../src/Plug.vala:273
 msgid "Network Time"
