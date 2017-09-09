@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-06 09:25-0700\n"
 "PO-Revision-Date: 2017-09-09 22:53+0000\n"
-"Last-Translator: Simon Van Accoleyen <thegalaxiasgroup@gmail.com>\n"
+"Last-Translator: Corentin Noël <corentin@elementary.io>\n"
 "Language-Team: French <https://weblate.elementary.io/projects/switchboard"
 "/switchboard-plug-datetime/fr/>\n"
 "Language: fr\n"
@@ -50,7 +50,7 @@ msgstr "Fuseau horaire :"
 
 #: ../src/Plug.vala:73
 msgid "Show week numbers:"
-msgstr "Afficher les numéros de semaines: "
+msgstr "Afficher les numéros de semaines :"
 
 #: ../src/Plug.vala:273
 msgid "Network Time"
