@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-datetime\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-06 09:25-0700\n"
-"PO-Revision-Date: 2017-09-09 22:53+0000\n"
-"Last-Translator: Corentin Noël <corentin@elementary.io>\n"
+"PO-Revision-Date: 2017-09-09 22:54+0000\n"
+"Last-Translator: Simon Van Accoleyen <thegalaxiasgroup@gmail.com>\n"
 "Language-Team: French <https://weblate.elementary.io/projects/switchboard"
 "/switchboard-plug-datetime/fr/>\n"
 "Language: fr\n"
@@ -840,7 +840,7 @@ msgstr "Amérique/Iqaluit"
 #. /Translators: Comment for Timezone America/Iqaluit
 #: ../src/Translations.vala:309
 msgid "Eastern - NU (most east areas)"
-msgstr "Eastern - NU (la plupart des zones est)"
+msgstr "Est - NU (la plupart des zones est)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:311
