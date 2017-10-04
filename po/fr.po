@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-datetime\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-06 09:25-0700\n"
-"PO-Revision-Date: 2017-09-09 22:54+0000\n"
-"Last-Translator: Simon Van Accoleyen <thegalaxiasgroup@gmail.com>\n"
+"PO-Revision-Date: 2017-10-04 15:52+0000\n"
+"Last-Translator: Damien Bouthier <dbouthier@gmail.com>\n"
 "Language-Team: French <https://weblate.elementary.io/projects/switchboard"
 "/switchboard-plug-datetime/fr/>\n"
 "Language: fr\n"
@@ -870,7 +870,7 @@ msgstr "Amérique/Winnipeg"
 #. /Translators: Comment for Timezone America/Winnipeg
 #: ../src/Translations.vala:321
 msgid "Central - ON (west); Manitoba"
-msgstr "Central - ON (west); Manitoba"
+msgstr "Centre - ON (ouest); Manitoba"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:323
@@ -890,7 +890,7 @@ msgstr "Amérique/Resolute"
 #. /Translators: Comment for Timezone America/Resolute
 #: ../src/Translations.vala:329
 msgid "Central - NU (Resolute)"
-msgstr "Central - NU (Resolute)"
+msgstr "Centre - NU (Resolute)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:331
