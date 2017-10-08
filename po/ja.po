@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-06 09:25-0700\n"
-"PO-Revision-Date: 2017-08-09 11:35+0000\n"
+"PO-Revision-Date: 2017-10-08 14:37+0000\n"
 "Last-Translator: Ryo Nakano <rmfmada3q@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.elementary.io/projects/switchboard"
 "/switchboard-plug-datetime/ja/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2.15\n"
+"X-Generator: Weblate 2.16\n"
 "X-Launchpad-Export-Date: 2017-01-29 05:09+0000\n"
 
 #: ../src/Plug.vala:36
@@ -25,7 +25,7 @@ msgstr "日付と時刻の設定、タイムゾーンの選択をします"
 
 #: ../src/Plug.vala:45
 msgid "Network Time:"
-msgstr "ネットワーク時間"
+msgstr "ネットワーク時間："
 
 #: ../src/Plug.vala:54
 msgid "Time Format:"
