@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-datetime\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-06 09:25-0700\n"
-"PO-Revision-Date: 2017-10-04 15:52+0000\n"
-"Last-Translator: Damien Bouthier <dbouthier@gmail.com>\n"
+"PO-Revision-Date: 2017-10-28 10:36+0000\n"
+"Last-Translator: Thomas <thomas.nicolle25@outlook.fr>\n"
 "Language-Team: French <https://weblate.elementary.io/projects/switchboard"
 "/switchboard-plug-datetime/fr/>\n"
 "Language: fr\n"
@@ -800,7 +800,7 @@ msgstr "Amérique/Blanc-Sablon"
 #. /Translators: Comment for Timezone America/Blanc-Sablon
 #: ../src/Translations.vala:293
 msgid "AST - QC (Lower North Shore)"
-msgstr ""
+msgstr "AST - QC (Basse-Côte-Nord)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:295
