@@ -39,9 +39,6 @@ public class DateTime.TZPopover : Gtk.Popover {
     bool setting_cities = false;
 
     public TZPopover () {
-        var main_grid = new Gtk.Grid ();
-        main_grid.margin = 6;
-        main_grid.margin_start = 0;
         continent_list_store = new Gtk.ListStore (2, typeof (string), typeof (string));
         continent_list_store.set_default_sort_func ((model, a, b) => {
             Value value_a;
@@ -128,9 +125,14 @@ public class DateTime.TZPopover : Gtk.Popover {
         city_scrolled.add (city_view);
         city_scrolled.set_policy (Gtk.PolicyType.NEVER, Gtk.PolicyType.AUTOMATIC);
 
+        var main_grid = new Gtk.Grid ();
+        main_grid.margin_top = 6;
+        main_grid.margin_bottom = 6;
         main_grid.add (continent_view);
         main_grid.add (new Gtk.Separator (Gtk.Orientation.VERTICAL));
         main_grid.add (city_scrolled);
+        main_grid.show_all ();
+
         add (main_grid);
     }
 
