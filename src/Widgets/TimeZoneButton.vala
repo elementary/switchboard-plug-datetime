@@ -59,8 +59,7 @@ public class DateTime.TimeZoneButton : Gtk.Button {
         popover = new DateTime.TZPopover ();
         popover.relative_to = this;
         popover.position = Gtk.PositionType.BOTTOM;
-        popover.show_all ();
-
+        
         popover.request_timezone_change.connect ((tz) => {
             request_timezone_change (tz);
         });
