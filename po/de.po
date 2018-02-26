@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-06 09:25-0700\n"
-"PO-Revision-Date: 2018-02-05 00:12+0000\n"
-"Last-Translator: Julian Raschke <julian@raschke.de>\n"
+"PO-Revision-Date: 2018-02-27 00:04+0000\n"
+"Last-Translator: Floris Remmert <fadenfisch95@gmail.com>\n"
 "Language-Team: German <https://weblate.elementary.io/projects/switchboard"
 "/switchboard-plug-datetime/de/>\n"
 "Language: de\n"
@@ -883,7 +883,7 @@ msgstr "Amerika/Nipigon"
 #. /Translators: Comment for Timezone America/Nipigon
 #: ../src/Translations.vala:301
 msgid "Eastern - ON, QC (no DST 1967-73)"
-msgstr "Eastern - ON, QC (no DST 1967-73)"
+msgstr "Östlich - ON, QC (no DST 1967-73)"
 
 #
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
