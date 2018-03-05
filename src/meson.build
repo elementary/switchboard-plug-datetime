@@ -21,7 +21,8 @@ shared_module(
         dependency('granite'),
         dependency('gtk+-3.0'),
         meson.get_compiler('vala').find_library('posix'),
-        switchboard_dep
+        switchboard_dep,
+        meson.get_compiler('c').find_library('m', required : false)
     ],
     install: true,
     install_dir : join_paths(switchboard_dep.get_pkgconfig_variable('plugsdir'), 'system')
