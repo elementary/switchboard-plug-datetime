@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-datetime\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-06 09:25-0700\n"
-"PO-Revision-Date: 2017-10-28 10:36+0000\n"
+"PO-Revision-Date: 2018-03-09 09:08+0000\n"
 "Last-Translator: Thomas <thomas.nicolle25@outlook.fr>\n"
 "Language-Team: French <https://weblate.elementary.io/projects/switchboard"
 "/switchboard-plug-datetime/fr/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 2.16\n"
+"X-Generator: Weblate 2.18\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:04+0000\n"
 
 #: ../src/Plug.vala:36
@@ -910,7 +910,7 @@ msgstr "Amérique/Regina"
 #. /Translators: Comment for Timezone America/Regina
 #: ../src/Translations.vala:337
 msgid "CST - SK (most areas)"
-msgstr ""
+msgstr "CST - SK (la plupart des régions)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:339
@@ -920,7 +920,7 @@ msgstr "Amérique/Swift_Current"
 #. /Translators: Comment for Timezone America/Swift_Current
 #: ../src/Translations.vala:341
 msgid "CST - SK (midwest)"
-msgstr ""
+msgstr "CST - SK (midwest)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:343
