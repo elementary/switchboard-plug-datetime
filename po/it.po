@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-06 09:25-0700\n"
-"PO-Revision-Date: 2018-03-11 21:17+0000\n"
-"Last-Translator: Fabio Zaramella <fabiozaramella@hotmail.it>\n"
+"PO-Revision-Date: 2018-03-11 21:18+0000\n"
+"Last-Translator: Massimiliano Paladini <palamaxx@gmail.com>\n"
 "Language-Team: Italian <https://weblate.elementary.io/projects/switchboard"
 "/switchboard-plug-datetime/it/>\n"
 "Language: it\n"
@@ -790,7 +790,7 @@ msgstr "America/Goose_Bay"
 #. /Translators: Comment for Timezone America/Goose_Bay
 #: ../src/Translations.vala:289
 msgid "Atlantic - Labrador (most areas)"
-msgstr ""
+msgstr "Atlantico - Labrador (regioni principali)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:291
