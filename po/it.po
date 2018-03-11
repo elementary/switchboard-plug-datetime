@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-06 09:25-0700\n"
-"PO-Revision-Date: 2018-03-11 20:10+0000\n"
-"Last-Translator: Massimiliano Paladini <palamaxx@gmail.com>\n"
+"PO-Revision-Date: 2018-03-11 21:16+0000\n"
+"Last-Translator: Fabio Zaramella <fabiozaramella@hotmail.it>\n"
 "Language-Team: Italian <https://weblate.elementary.io/projects/switchboard"
 "/switchboard-plug-datetime/it/>\n"
 "Language: it\n"
@@ -66,7 +66,7 @@ msgstr "Data"
 
 #: ../src/Plug.vala:276
 msgid "Time Zone"
-msgstr "Fuso Orario"
+msgstr "Fuso orario"
 
 #: ../src/Plug.vala:277
 msgid "Time Format"
@@ -105,7 +105,7 @@ msgstr "Europa/Tirana"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:15
 msgid "Asia/Yerevan"
-msgstr "Asia/Erewan"
+msgstr "Asia/Erevan"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:17
@@ -145,7 +145,7 @@ msgstr "Davis"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:31
 msgid "Antarctica/DumontDUrville"
-msgstr "Antartide/DumontDUrville"
+msgstr "Antartide/Dumont_d'Urville"
 
 #. /Translators: Comment for Timezone Antarctica/DumontDUrville
 #: ../src/Translations.vala:33
@@ -185,12 +185,12 @@ msgstr "Rothera"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:47
 msgid "Antarctica/Syowa"
-msgstr "Antartide/Syowa"
+msgstr "Antartide/Shōwa"
 
 #. /Translators: Comment for Timezone Antarctica/Syowa
 #: ../src/Translations.vala:49
 msgid "Syowa"
-msgstr "Syowa"
+msgstr "Shōwa"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:51
@@ -230,7 +230,7 @@ msgstr "America/Argentina/Cordoba"
 #. /Translators: Comment for Timezone America/Argentina/Cordoba
 #: ../src/Translations.vala:65
 msgid "Argentina (most areas: CB, CC, CN, ER, FM, MN, SE, SF)"
-msgstr "Argentina (maggior parte delle zone: CB, CC, CN, ER, FM, MN, SE, SF)"
+msgstr "Argentina (la maggior parte delle aree: CB, CC, CN, ER, FM, MN, SE, SF)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:67
@@ -255,12 +255,12 @@ msgstr "Jujuy (JY)"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:75
 msgid "America/Argentina/Tucuman"
-msgstr "America/Argentina/Tucuman"
+msgstr "America/Argentina/Tucumán"
 
 #. /Translators: Comment for Timezone America/Argentina/Tucuman
 #: ../src/Translations.vala:77
 msgid "Tucuman (TM)"
-msgstr "Tucuman (TM)"
+msgstr "Tucumán (TM)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:79
@@ -335,7 +335,7 @@ msgstr "Terra del Fuoco (TF)"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:107
 msgid "Pacific/Pago_Pago"
-msgstr "Oceano Pacifico/Pago_Pago"
+msgstr "Pacifico/Pago_Pago"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:109
@@ -355,7 +355,7 @@ msgstr "Isola di Lord Howe"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:115
 msgid "Antarctica/Macquarie"
-msgstr "Antarctica/Macquarie"
+msgstr "Antartide/Macquarie"
 
 #. /Translators: Comment for Timezone Antarctica/Macquarie
 #: ../src/Translations.vala:117
@@ -370,7 +370,7 @@ msgstr "Australia/Hobart"
 #. /Translators: Comment for Timezone Australia/Hobart
 #: ../src/Translations.vala:121
 msgid "Tasmania (most areas)"
-msgstr "Tasmania (maggior parte delle zone)"
+msgstr "Tasmania (la maggior parte delle aree)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:123
@@ -400,7 +400,7 @@ msgstr "Australia/Sydney"
 #. /Translators: Comment for Timezone Australia/Sydney
 #: ../src/Translations.vala:133
 msgid "New South Wales (most areas)"
-msgstr "Nuovo Galles del Sud (maggior parte delle zone)"
+msgstr "Nuovo Galles del Sud (la maggior parte delle aree)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:135
@@ -420,7 +420,7 @@ msgstr "Australia/Brisbane"
 #. /Translators: Comment for Timezone Australia/Brisbane
 #: ../src/Translations.vala:141
 msgid "Queensland (most areas)"
-msgstr "Queensland (maggior parte delle zone)"
+msgstr "Queensland (la maggior parte delle aree)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:143
@@ -430,7 +430,7 @@ msgstr "Australia/Lindeman"
 #. /Translators: Comment for Timezone Australia/Lindeman
 #: ../src/Translations.vala:145
 msgid "Queensland (Whitsunday Islands)"
-msgstr "Queensland (Isole Whitsunday)"
+msgstr "Queensland (isole Whitsunday)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:147
@@ -440,7 +440,7 @@ msgstr "Australia/Adelaide"
 #. /Translators: Comment for Timezone Australia/Adelaide
 #: ../src/Translations.vala:149
 msgid "South Australia"
-msgstr "Sud Australia"
+msgstr "Australia Meridionale"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:151
@@ -450,7 +450,7 @@ msgstr "Australia/Darwin"
 #. /Translators: Comment for Timezone Australia/Darwin
 #: ../src/Translations.vala:153
 msgid "Northern Territory"
-msgstr "Territori del nord"
+msgstr "Territorio del Nord"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:155
@@ -460,7 +460,7 @@ msgstr "Australia/Perth"
 #. /Translators: Comment for Timezone Australia/Perth
 #: ../src/Translations.vala:157
 msgid "Western Australia (most areas)"
-msgstr "Australia occidentale (maggior parte delle zone)"
+msgstr "Australia Occidentale (la maggior parte delle aree)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:159
@@ -470,7 +470,7 @@ msgstr "Australia/Eucla"
 #. /Translators: Comment for Timezone Australia/Eucla
 #: ../src/Translations.vala:161
 msgid "Western Australia (Eucla)"
-msgstr "Australia occidentale (Eucla)"
+msgstr "Australia Occidentale (Eucla)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:163
@@ -520,7 +520,7 @@ msgstr "Europa/Sofia"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:181
 msgid "Asia/Bahrain"
-msgstr "Asia/Bahrain"
+msgstr "Asia/Bahrein"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:183
@@ -535,7 +535,7 @@ msgstr "Africa/Porto-Novo"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:187
 msgid "America/St_Barthelemy"
-msgstr "America/Saint_Barthélemy"
+msgstr "America/Saint-Barthélemy"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:189
@@ -560,7 +560,7 @@ msgstr "America/Kralendijk"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:197
 msgid "America/Noronha"
-msgstr "America/Noronha"
+msgstr "America/Fernando de Noronha"
 
 #. /Translators: Comment for Timezone America/Noronha
 #: ../src/Translations.vala:199
@@ -570,12 +570,12 @@ msgstr "Isole dell'Atlantico"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:201
 msgid "America/Belem"
-msgstr "America/Belem"
+msgstr "America/Belém"
 
 #. /Translators: Comment for Timezone America/Belem
 #: ../src/Translations.vala:203
 msgid "Para (east); Amapa"
-msgstr "Para (est); Amapa"
+msgstr "Pará (est); Amapá"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:205
@@ -600,7 +600,7 @@ msgstr "Pernambuco"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:213
 msgid "America/Araguaina"
-msgstr "America/Araguaina"
+msgstr "America/Araguaína"
 
 #. /Translators: Comment for Timezone America/Araguaina
 #: ../src/Translations.vala:215
@@ -610,7 +610,7 @@ msgstr "Tocantins"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:217
 msgid "America/Maceio"
-msgstr "America/Maceio"
+msgstr "America/Maceió"
 
 #. /Translators: Comment for Timezone America/Maceio
 #: ../src/Translations.vala:219
@@ -650,7 +650,7 @@ msgstr "Mato Grosso do Sul"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:233
 msgid "America/Cuiaba"
-msgstr "America/Cuiaba"
+msgstr "America/Cuiabá"
 
 #. /Translators: Comment for Timezone America/Cuiaba
 #: ../src/Translations.vala:235
@@ -660,12 +660,12 @@ msgstr "Mato Grosso"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:237
 msgid "America/Santarem"
-msgstr "America/Santarem"
+msgstr "America/Santarém"
 
 #. /Translators: Comment for Timezone America/Santarem
 #: ../src/Translations.vala:239
 msgid "Para (west)"
-msgstr "Para (ovest)"
+msgstr "Pará (ovest)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:241
@@ -675,7 +675,7 @@ msgstr "America/Porto_Velho"
 #. /Translators: Comment for Timezone America/Porto_Velho
 #: ../src/Translations.vala:243
 msgid "Rondonia"
-msgstr "Rondonia"
+msgstr "Rondônia"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:245
@@ -745,7 +745,7 @@ msgstr "America/Belize"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:271
 msgid "America/St_Johns"
-msgstr "America/Saint_Johns"
+msgstr "America/Saint_John's"
 
 #. /Translators: Comment for Timezone America/St_Johns
 #: ../src/Translations.vala:273
@@ -760,7 +760,7 @@ msgstr "America/Halifax"
 #. /Translators: Comment for Timezone America/Halifax
 #: ../src/Translations.vala:277
 msgid "Atlantic - NS (most areas); PE"
-msgstr "Atlantico - NS (regioni principali); PE"
+msgstr "Atlantico - NS (la maggior parte delle aree); PE"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:279
@@ -770,7 +770,7 @@ msgstr "America/Glace_Bay"
 #. /Translators: Comment for Timezone America/Glace_Bay
 #: ../src/Translations.vala:281
 msgid "Atlantic - NS (Cape Breton)"
-msgstr "Atlantico -  (Capo Bretone)"
+msgstr "Atlantico - NS (Capo Bretone)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:283
