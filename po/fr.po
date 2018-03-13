@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-datetime\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-06 09:25-0700\n"
-"PO-Revision-Date: 2018-03-13 12:57+0000\n"
-"Last-Translator: Romain De Filippi <romain@defilippi.fr>\n"
+"PO-Revision-Date: 2018-03-14 00:02+0000\n"
+"Last-Translator: Corentin Noël <corentin@elementary.io>\n"
 "Language-Team: French <https://weblate.elementary.io/projects/switchboard"
 "/switchboard-plug-datetime/fr/>\n"
 "Language: fr\n"
@@ -34,7 +34,7 @@ msgstr "Heure réseau :"
 
 #: ../src/Plug.vala:54
 msgid "Time Format:"
-msgstr "Format de l'heure :"
+msgstr "Format de l'heure :"
 
 #: ../src/Plug.vala:58
 msgid "AM/PM"
