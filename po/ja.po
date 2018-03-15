@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-06 09:25-0700\n"
-"PO-Revision-Date: 2018-01-23 00:06+0000\n"
+"PO-Revision-Date: 2018-03-16 00:04+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.elementary.io/projects/switchboard"
 "/switchboard-plug-datetime/ja/>\n"
@@ -270,7 +270,7 @@ msgstr "カタマルカ (CT); チュブ (CH)"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:83
 msgid "America/Argentina/La_Rioja"
-msgstr "America/Argentina/La_Rioja"
+msgstr "アメリカ/アルゼンチン/ラ・リオハ"
 
 #. /Translators: Comment for Timezone America/Argentina/La_Rioja
 #: ../src/Translations.vala:85
@@ -1688,7 +1688,7 @@ msgstr "アジア/クズロルダ"
 #. /Translators: Comment for Timezone Asia/Qyzylorda
 #: ../src/Translations.vala:647
 msgid "Qyzylorda/Kyzylorda/Kzyl-Orda"
-msgstr ""
+msgstr "クズロルダ/"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:649
@@ -1708,7 +1708,7 @@ msgstr "アジア/アクタウ"
 #. /Translators: Comment for Timezone Asia/Aqtau
 #: ../src/Translations.vala:655
 msgid "Atyrau/Atirau/Gur'yev, Mangghystau/Mankistau"
-msgstr ""
+msgstr "アティラウ/マンギスタウ"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:657
@@ -2311,7 +2311,7 @@ msgstr "ヨーロッパ/カリーニングラード"
 #. /Translators: Comment for Timezone Europe/Kaliningrad
 #: ../src/Translations.vala:895
 msgid "MSK-01 - Kaliningrad"
-msgstr ""
+msgstr "MSK-01 - カリーニングラード"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:897
@@ -2471,7 +2471,7 @@ msgstr "アジア/チタ"
 #. /Translators: Comment for Timezone Asia/Chita
 #: ../src/Translations.vala:959
 msgid "MSK+06 - Zabaykalsky"
-msgstr ""
+msgstr "MSK+06 - ザバイカリエ"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:961
@@ -2481,7 +2481,7 @@ msgstr "アジア/ヤクーツク"
 #. /Translators: Comment for Timezone Asia/Yakutsk
 #: ../src/Translations.vala:963
 msgid "MSK+06 - Lena River"
-msgstr ""
+msgstr "MSK+06 - レナ川"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:965
@@ -2491,7 +2491,7 @@ msgstr "アジア/ハンドゥイガ"
 #. /Translators: Comment for Timezone Asia/Khandyga
 #: ../src/Translations.vala:967
 msgid "MSK+06 - Tomponsky, Ust-Maysky"
-msgstr ""
+msgstr "MSK+06 - トムポンスキー、ウスチ＝マヤ"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:969
@@ -2501,7 +2501,7 @@ msgstr "アジア/ウラジオストク"
 #. /Translators: Comment for Timezone Asia/Vladivostok
 #: ../src/Translations.vala:971
 msgid "MSK+07 - Amur River"
-msgstr ""
+msgstr "MSK+07 - アムール川"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:973
@@ -2511,7 +2511,7 @@ msgstr "アジア/ウスチ=ネラ"
 #. /Translators: Comment for Timezone Asia/Ust-Nera
 #: ../src/Translations.vala:975
 msgid "MSK+07 - Oymyakonsky"
-msgstr ""
+msgstr "MSK+07 - オイミャコン"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:977
@@ -2521,7 +2521,7 @@ msgstr "アジア/マガダン"
 #. /Translators: Comment for Timezone Asia/Magadan
 #: ../src/Translations.vala:979
 msgid "MSK+08 - Magadan"
-msgstr ""
+msgstr "MSK+08 - マガダン"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:981
@@ -2531,17 +2531,17 @@ msgstr "アジア/サハリン"
 #. /Translators: Comment for Timezone Asia/Sakhalin
 #: ../src/Translations.vala:983
 msgid "MSK+08 - Sakhalin Island"
-msgstr ""
+msgstr "MSK+08 - 樺太"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:985
 msgid "Asia/Srednekolymsk"
-msgstr ""
+msgstr "アジア/スレドネコリムスク"
 
 #. /Translators: Comment for Timezone Asia/Srednekolymsk
 #: ../src/Translations.vala:987
 msgid "MSK+08 - Sakha (E); North Kuril Is"
-msgstr ""
+msgstr "MSK+08 - サハ共和国 (東); 北クリル列島"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:989
@@ -2551,7 +2551,7 @@ msgstr "アジア/カムチャツカ"
 #. /Translators: Comment for Timezone Asia/Kamchatka
 #: ../src/Translations.vala:991
 msgid "MSK+09 - Kamchatka"
-msgstr ""
+msgstr "MSK+09 - カムチャツカ半島"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:993
@@ -2561,7 +2561,7 @@ msgstr "アジア/アナディリ"
 #. /Translators: Comment for Timezone Asia/Anadyr
 #: ../src/Translations.vala:995
 msgid "MSK+09 - Bering Sea"
-msgstr ""
+msgstr "MSK+09 - ベーリング海"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:997
@@ -2781,7 +2781,7 @@ msgstr "ヨーロッパ/ザポリージャ"
 #. /Translators: Comment for Timezone Europe/Zaporozhye
 #: ../src/Translations.vala:1083
 msgid "Zaporozh'ye/Zaporizhia; Lugansk/Luhansk (east)"
-msgstr ""
+msgstr "ザポリージャ; ルハーンシク"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1085
@@ -3061,7 +3061,7 @@ msgstr "アラスカ - シトカエリア"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:1195
 msgid "America/Metlakatla"
-msgstr ""
+msgstr "アメリカ/メトラカットラ"
 
 #. /Translators: Comment for Timezone America/Metlakatla
 #: ../src/Translations.vala:1197
