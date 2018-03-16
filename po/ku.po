@@ -8,15 +8,17 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-datetime\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-06 09:25-0700\n"
-"PO-Revision-Date: 2017-03-21 00:50+0000\n"
-"Last-Translator: Rokar ✌ <Unknown>\n"
-"Language-Team: Kurdish <ku@li.org>\n"
+"PO-Revision-Date: 2018-02-11 00:09+0000\n"
+"Last-Translator: Rokar <mail@rokar.de>\n"
+"Language-Team: Kurdish <https://weblate.elementary.io/projects/switchboard"
+"/switchboard-plug-datetime/ku/>\n"
 "Language: ku\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.18\n"
 "X-Launchpad-Export-Date: 2017-03-22 07:15+0000\n"
-"X-Generator: Launchpad (build 18334)\n"
 
 #: ../src/Plug.vala:36
 msgid "Date & Time"
@@ -123,17 +125,17 @@ msgstr "deme Nû Zelanda - McMurdo,Cemsera başûr,Antarktîka"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:23
 msgid "Antarctica/Casey"
-msgstr "Antarctica/Casey"
+msgstr "antarctica/Casey"
 
 #. /Translators: Comment for Timezone Antarctica/Casey
 #: ../src/Translations.vala:25
 msgid "Casey"
-msgstr "Antarctica/Casey"
+msgstr "casey"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:27
 msgid "Antarctica/Davis"
-msgstr "Antarctica/Davis"
+msgstr "antarctica/Davis"
 
 #. /Translators: Comment for Timezone Antarctica/Davis
 #: ../src/Translations.vala:29
@@ -143,7 +145,7 @@ msgstr "Antarctica/Davis"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:31
 msgid "Antarctica/DumontDUrville"
-msgstr "Antarctica/DumontDUrville"
+msgstr "antarctica/DumontDUrville"
 
 #. /Translators: Comment for Timezone Antarctica/DumontDUrville
 #: ../src/Translations.vala:33
@@ -153,7 +155,7 @@ msgstr "Antarctica/DumontDUrville"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:35
 msgid "Antarctica/Mawson"
-msgstr "Antarctica/Mawson"
+msgstr "antarctica/Mawson"
 
 #. /Translators: Comment for Timezone Antarctica/Mawson
 #: ../src/Translations.vala:37
@@ -163,7 +165,7 @@ msgstr "Antarctica/Mawson"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:39
 msgid "Antarctica/Palmer"
-msgstr "Antarctica/Palmer"
+msgstr "antarctica/Palmer"
 
 #. /Translators: Comment for Timezone Antarctica/Palmer
 #: ../src/Translations.vala:41
@@ -173,7 +175,7 @@ msgstr "Antarctica/Palmer"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:43
 msgid "Antarctica/Rothera"
-msgstr "Antarctica/Rothera"
+msgstr "antarctica/Rothera"
 
 #. /Translators: Comment for Timezone Antarctica/Rothera
 #: ../src/Translations.vala:45
@@ -183,7 +185,7 @@ msgstr "Antarctica/Rothera"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:47
 msgid "Antarctica/Syowa"
-msgstr "Antarctica/Syowa"
+msgstr "antarctica/Syowa"
 
 #. /Translators: Comment for Timezone Antarctica/Syowa
 #: ../src/Translations.vala:49
@@ -198,12 +200,12 @@ msgstr ""
 #. /Translators: Comment for Timezone Antarctica/Troll
 #: ../src/Translations.vala:53
 msgid "Troll"
-msgstr "Troll"
+msgstr "troll"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:55
 msgid "Antarctica/Vostok"
-msgstr "Antarctica/Vostok"
+msgstr "antarctica/Vostok"
 
 #. /Translators: Comment for Timezone Antarctica/Vostok
 #: ../src/Translations.vala:57
@@ -388,7 +390,7 @@ msgstr ""
 #. /Translators: Comment for Timezone Australia/Melbourne
 #: ../src/Translations.vala:129
 msgid "Victoria"
-msgstr "Victoria"
+msgstr "victoria"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:131
@@ -593,7 +595,7 @@ msgstr ""
 #. /Translators: Comment for Timezone America/Recife
 #: ../src/Translations.vala:211
 msgid "Pernambuco"
-msgstr "Pernambuco"
+msgstr "pernambuco"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:213
@@ -603,7 +605,7 @@ msgstr ""
 #. /Translators: Comment for Timezone America/Araguaina
 #: ../src/Translations.vala:215
 msgid "Tocantins"
-msgstr "Tocantins"
+msgstr "tocantins"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:217
@@ -613,7 +615,7 @@ msgstr ""
 #. /Translators: Comment for Timezone America/Maceio
 #: ../src/Translations.vala:219
 msgid "Alagoas, Sergipe"
-msgstr "Alagoas, Sergipe"
+msgstr "alagoas, Sergipe"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:221
@@ -643,7 +645,7 @@ msgstr ""
 #. /Translators: Comment for Timezone America/Campo_Grande
 #: ../src/Translations.vala:231
 msgid "Mato Grosso do Sul"
-msgstr "Mato Grosso do Sul"
+msgstr "mato Grosso do Sul"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:233
@@ -653,7 +655,7 @@ msgstr ""
 #. /Translators: Comment for Timezone America/Cuiaba
 #: ../src/Translations.vala:235
 msgid "Mato Grosso"
-msgstr "Mato Grosso"
+msgstr "mato Grosso"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:237
@@ -683,7 +685,7 @@ msgstr ""
 #. /Translators: Comment for Timezone America/Boa_Vista
 #: ../src/Translations.vala:247
 msgid "Roraima"
-msgstr "Roraima"
+msgstr "roraima"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:249
@@ -1614,7 +1616,7 @@ msgstr ""
 #. /Translators: Comment for Timezone Pacific/Tarawa
 #: ../src/Translations.vala:619
 msgid "Gilbert Islands"
-msgstr "Gilbert Islands"
+msgstr "gilbert Islands"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:621
@@ -1624,7 +1626,7 @@ msgstr ""
 #. /Translators: Comment for Timezone Pacific/Enderbury
 #: ../src/Translations.vala:623
 msgid "Phoenix Islands"
-msgstr "Phoenix Islands"
+msgstr "phoenix Islands"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:625

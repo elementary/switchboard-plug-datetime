@@ -8,15 +8,17 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-datetime\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-06 09:25-0700\n"
-"PO-Revision-Date: 2017-01-11 21:21+0000\n"
-"Last-Translator: Corentin Noël <corentin@elementaryos.org>\n"
-"Language-Team: French <fr@li.org>\n"
+"PO-Revision-Date: 2018-03-14 00:02+0000\n"
+"Last-Translator: Corentin Noël <corentin@elementary.io>\n"
+"Language-Team: French <https://weblate.elementary.io/projects/switchboard"
+"/switchboard-plug-datetime/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 2.18\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:04+0000\n"
-"X-Generator: Launchpad (build 18302)\n"
 
 #: ../src/Plug.vala:36
 msgid "Date & Time"
@@ -32,7 +34,7 @@ msgstr "Heure réseau :"
 
 #: ../src/Plug.vala:54
 msgid "Time Format:"
-msgstr "Format du Temps :"
+msgstr "Format de l'heure :"
 
 #: ../src/Plug.vala:58
 msgid "AM/PM"
@@ -48,7 +50,7 @@ msgstr "Fuseau horaire :"
 
 #: ../src/Plug.vala:73
 msgid "Show week numbers:"
-msgstr ""
+msgstr "Afficher les numéros de semaines :"
 
 #: ../src/Plug.vala:273
 msgid "Network Time"
@@ -798,7 +800,7 @@ msgstr "Amérique/Blanc-Sablon"
 #. /Translators: Comment for Timezone America/Blanc-Sablon
 #: ../src/Translations.vala:293
 msgid "AST - QC (Lower North Shore)"
-msgstr ""
+msgstr "AST - QC (Basse-Côte-Nord)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:295
@@ -838,7 +840,7 @@ msgstr "Amérique/Iqaluit"
 #. /Translators: Comment for Timezone America/Iqaluit
 #: ../src/Translations.vala:309
 msgid "Eastern - NU (most east areas)"
-msgstr "Eastern - NU (la plupart des zones est)"
+msgstr "Est - NU (la plupart des zones est)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:311
@@ -868,7 +870,7 @@ msgstr "Amérique/Winnipeg"
 #. /Translators: Comment for Timezone America/Winnipeg
 #: ../src/Translations.vala:321
 msgid "Central - ON (west); Manitoba"
-msgstr "Central - ON (west); Manitoba"
+msgstr "Centre - ON (ouest); Manitoba"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:323
@@ -888,7 +890,7 @@ msgstr "Amérique/Resolute"
 #. /Translators: Comment for Timezone America/Resolute
 #: ../src/Translations.vala:329
 msgid "Central - NU (Resolute)"
-msgstr "Central - NU (Resolute)"
+msgstr "Centre - NU (Resolute)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:331
@@ -908,7 +910,7 @@ msgstr "Amérique/Regina"
 #. /Translators: Comment for Timezone America/Regina
 #: ../src/Translations.vala:337
 msgid "CST - SK (most areas)"
-msgstr ""
+msgstr "CST - SK (la plupart des régions)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:339
@@ -918,7 +920,7 @@ msgstr "Amérique/Swift_Current"
 #. /Translators: Comment for Timezone America/Swift_Current
 #: ../src/Translations.vala:341
 msgid "CST - SK (midwest)"
-msgstr ""
+msgstr "CST - SK (midwest)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: ../src/Translations.vala:343

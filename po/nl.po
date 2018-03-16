@@ -8,9 +8,10 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-08 18:44+0200\n"
-"PO-Revision-Date: 2017-08-05 16:10+0000\n"
-"Last-Translator: Bart Willems <bwillems@protonmail.com>\n"
+"PO-Revision-Date: 2017-08-13 19:49+0000\n"
+"Last-Translator: Dieter Debast <dieter_debast@hotmail.com>\n"
 "Language-Team: Dutch <https://weblate.elementary.io/projects/switchboard"
+"/switchboard-plug-datetime/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,7 +19,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 2.15\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:04+0000\n"
-"X-Generator: Launchpad (build 18302)\n"
 
 #: ../src/Plug.vala:36
 msgid "Date & Time"
@@ -26,7 +26,7 @@ msgstr "Datum & tijd"
 
 #: ../src/Plug.vala:37
 msgid "Configure date, time, and select time zone"
-msgstr ""
+msgstr "Stel datum, tijd en tijdzone in"
 
 #: ../src/Plug.vala:45
 msgid "Network Time:"
@@ -50,7 +50,7 @@ msgstr "Tijdzone:"
 
 #: ../src/Plug.vala:73
 msgid "Show week numbers:"
-msgstr ""
+msgstr "Geef weeknummers weer:"
 
 #: ../src/Plug.vala:273
 msgid "Network Time"
