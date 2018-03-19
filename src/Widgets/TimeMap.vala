@@ -22,7 +22,7 @@
 public class DateTime.TimeMap : Gtk.EventBox {
     public const int BG_WIDTH = 800;
     public const int BG_HEIGHT = 409;
-    public const string TZ = "%s/images/timezone_%s.png";
+    public const string TZ = "/io/elementary/switchboard/plug/datetime/images/timezone_%s.png";
 
     public signal void map_selected (string timezone);
 
@@ -32,7 +32,7 @@ public class DateTime.TimeMap : Gtk.EventBox {
     Gdk.Pixbuf selected_scale;
     public TimeMap () {
         try {
-            background_map = new Gdk.Pixbuf.from_file ("%s/images/bg.png".printf (Constants.PKGDATADIR));
+            background_map = new Gdk.Pixbuf.from_resource ("/io/elementary/switchboard/plug/datetime/images/bg.png");
         } catch (Error e) {
             critical (e.message);
         }
@@ -46,10 +46,11 @@ public class DateTime.TimeMap : Gtk.EventBox {
     public override bool draw (Cairo.Context cr) {
         int x, y, draw_width, draw_height;
         get_current_background_properties (out x, out y, out draw_width, out draw_height);
+        int scale_factor = get_scale_factor ();
 
-        if ((draw_width < BG_WIDTH) || (draw_height < BG_HEIGHT)) {
-            background_map_scale = background_map.scale_simple (draw_width, draw_height, Gdk.InterpType.BILINEAR);
-            selected_scale = selected.scale_simple (draw_width, draw_height, Gdk.InterpType.BILINEAR);
+        if ((draw_width < BG_WIDTH * scale_factor) || (draw_height < BG_HEIGHT * scale_factor)) {
+            background_map_scale = background_map.scale_simple (draw_width * scale_factor, draw_height * scale_factor, Gdk.InterpType.BILINEAR);
+            selected_scale = selected.scale_simple (draw_width * scale_factor, draw_height * scale_factor, Gdk.InterpType.BILINEAR);
         } else {
             background_map_scale = background_map;
             selected_scale = selected;
@@ -59,11 +60,14 @@ public class DateTime.TimeMap : Gtk.EventBox {
             x = 0;
         if (y < 0)
             y = 0;
+        cr.save ();
+        cr.scale (1.0/scale_factor, 1.0/scale_factor);
         cr.set_operator (Cairo.Operator.OVER);
-        Gdk.cairo_set_source_pixbuf (cr, background_map_scale, x, y);
+        Gdk.cairo_set_source_pixbuf (cr, background_map_scale, x * scale_factor, y * scale_factor);
         cr.paint ();
-        Gdk.cairo_set_source_pixbuf (cr, selected_scale, x, y);
+        Gdk.cairo_set_source_pixbuf (cr, selected_scale, x * scale_factor, y * scale_factor);
         cr.paint ();
+        cr.restore ();
         get_style_context ().render_frame (cr, x, y, draw_width, draw_height);
 
         return false;
@@ -86,7 +90,7 @@ public class DateTime.TimeMap : Gtk.EventBox {
             //This doesn't work if the locale representation of 3.5 is 3,5 for example.
             string buffer = "%g".printf (offset);
             buffer = buffer.replace (Posix.nl_langinfo (Posix.NLItem.RADIXCHAR), ".");
-            selected = new Gdk.Pixbuf.from_file (TZ.printf (Constants.PKGDATADIR, buffer));
+            selected = new Gdk.Pixbuf.from_resource (TZ.printf (buffer));
         } catch (Error e) {
             critical (e.message);
         }
