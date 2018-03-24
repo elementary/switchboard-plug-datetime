@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-19 02:05-0500\n"
-"PO-Revision-Date: 2018-03-24 22:47+0000\n"
+"PO-Revision-Date: 2018-03-25 00:09+0000\n"
 "Last-Translator: Kaj Printz Madsen <kajprintz@gmail.com>\n"
 "Language-Team: Danish <https://weblate.elementary.io/projects/switchboard"
 "/switchboard-plug-datetime/da/>\n"
@@ -612,7 +612,7 @@ msgstr "Amerika/Toronto"
 
 #: src/Translations.vala:297
 msgid "Eastern - ON, QC (most areas)"
-msgstr "Eastern - ON, QC (fleste områder)"
+msgstr "Øst - ON, QC (de fleste områder)"
 
 #: src/Translations.vala:299
 msgid "America/Nipigon"
@@ -636,7 +636,7 @@ msgstr "Amerika/Iqaluit"
 
 #: src/Translations.vala:309
 msgid "Eastern - NU (most east areas)"
-msgstr "Østlig - NU (fleste områder)"
+msgstr "Øst - NU (de fleste områder)"
 
 #: src/Translations.vala:311
 msgid "America/Pangnirtung"
