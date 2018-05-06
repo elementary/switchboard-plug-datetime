@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-19 02:05-0500\n"
-"PO-Revision-Date: 2018-05-06 00:10+0000\n"
+"PO-Revision-Date: 2018-05-07 00:03+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.elementary.io/projects/switchboard"
 "/switchboard-plug-datetime/ja/>\n"
@@ -301,7 +301,7 @@ msgstr "オーストラリア/リンデマン"
 
 #: src/Translations.vala:145
 msgid "Queensland (Whitsunday Islands)"
-msgstr "クイーンズランド（ウィットサンデー諸島）"
+msgstr "クイーンズランド (ウィットサンデー諸島)"
 
 #: src/Translations.vala:147
 msgid "Australia/Adelaide"
@@ -325,7 +325,7 @@ msgstr "オーストラリア/パース"
 
 #: src/Translations.vala:157
 msgid "Western Australia (most areas)"
-msgstr "西オーストラリア（ほとんどの地域）"
+msgstr "西オーストラリア (ほとんどの地域)"
 
 #: src/Translations.vala:159
 msgid "Australia/Eucla"
@@ -333,7 +333,7 @@ msgstr "オーストラリア/ユークラ"
 
 #: src/Translations.vala:161
 msgid "Western Australia (Eucla)"
-msgstr "西オーストラリア（ユークラ）"
+msgstr "西オーストラリア (ユークラ)"
 
 #: src/Translations.vala:163
 msgid "America/Aruba"
@@ -417,7 +417,7 @@ msgstr "アメリカ/ベレン"
 
 #: src/Translations.vala:203
 msgid "Para (east); Amapa"
-msgstr "パラ（東） ; アマパ"
+msgstr "パラ (東); アマパ"
 
 #: src/Translations.vala:205
 msgid "America/Fortaleza"
@@ -425,9 +425,7 @@ msgstr "アメリカ/フォルタレザ"
 
 #: src/Translations.vala:207
 msgid "Brazil (northeast: MA, PI, CE, RN, PB)"
-msgstr ""
-"ブラジル（北東部 ： マラニャン、ピアウイ、セアラー、リオ・グランデ・ド・ノル"
-"テ、パライバ ）"
+msgstr "ブラジル (北東部: マラニャン、ピアウイ、セアラー、リオ・グランデ・ド・ノルテ、パライバ )"
 
 #: src/Translations.vala:209
 msgid "America/Recife"
@@ -468,9 +466,8 @@ msgstr "アメリカ/サンパウロ"
 #: src/Translations.vala:227
 msgid "Brazil (southeast: GO, DF, MG, ES, RJ, SP, PR, SC, RS)"
 msgstr ""
-"ブラジル（南東 ： ゴイアス、連邦直轄区、ミナスジェライス、エスピリト・サン"
-"ト、リオデジャネイロ、サン・パウロ、パラナ、サンタカタリーナ、リオグランデ・"
-"ド・スル ）"
+"ブラジル (南東: "
+"ゴイアス、連邦直轄区、ミナスジェライス、エスピリト・サント、リオデジャネイロ、サン・パウロ、パラナ、サンタカタリーナ、リオグランデ・ド・スル )"
 
 #: src/Translations.vala:229
 msgid "America/Campo_Grande"
@@ -494,7 +491,7 @@ msgstr "アメリカ/サンタレン"
 
 #: src/Translations.vala:239
 msgid "Para (west)"
-msgstr "パラ（西）"
+msgstr "パラ (西)"
 
 #: src/Translations.vala:241
 msgid "America/Porto_Velho"
@@ -518,7 +515,7 @@ msgstr "アメリカ/マナウス"
 
 #: src/Translations.vala:251
 msgid "Amazonas (east)"
-msgstr "アマゾナス（東）"
+msgstr "アマゾナス (東)"
 
 #: src/Translations.vala:253
 msgid "America/Eirunepe"
@@ -526,7 +523,7 @@ msgstr "アメリカ/エイルネペ"
 
 #: src/Translations.vala:255
 msgid "Amazonas (west)"
-msgstr "アマゾナス（西）"
+msgstr "アマゾナス (西)"
 
 #: src/Translations.vala:257
 msgid "America/Rio_Branco"
@@ -562,7 +559,7 @@ msgstr "アメリカ/セントジョーンズ"
 
 #: src/Translations.vala:273
 msgid "Newfoundland; Labrador (southeast)"
-msgstr "ニューファンドランド;ラブラドール（南東）"
+msgstr "ニューファンドランド; ラブラドール (南東)"
 
 #: src/Translations.vala:275
 msgid "America/Halifax"
@@ -578,7 +575,7 @@ msgstr "アメリカ/グレースベイ"
 
 #: src/Translations.vala:281
 msgid "Atlantic - NS (Cape Breton)"
-msgstr "大西洋 - NS （ケープブレトン）"
+msgstr "大西洋 - NS (ケープブレトン)"
 
 #: src/Translations.vala:283
 msgid "America/Moncton"
@@ -594,7 +591,7 @@ msgstr "アメリカ/グースベイ"
 
 #: src/Translations.vala:289
 msgid "Atlantic - Labrador (most areas)"
-msgstr "大西洋 - ラブラドール（ほとんどの地域）"
+msgstr "大西洋 - ラブラドール (ほとんどの地域)"
 
 #: src/Translations.vala:291
 msgid "America/Blanc-Sablon"
@@ -770,7 +767,7 @@ msgstr "アメリカ/ホワイトホース"
 
 #: src/Translations.vala:377
 msgid "Pacific - Yukon (south)"
-msgstr "太平洋 - ユーコン（南）"
+msgstr "太平洋 - ユーコン (南)"
 
 #: src/Translations.vala:379
 msgid "America/Dawson"
@@ -778,7 +775,7 @@ msgstr "アメリカ/ドーソン"
 
 #: src/Translations.vala:381
 msgid "Pacific - Yukon (north)"
-msgstr "太平洋 - ユーコン（北）"
+msgstr "太平洋 - ユーコン (北)"
 
 #: src/Translations.vala:383
 msgid "Indian/Cocos"
@@ -826,7 +823,7 @@ msgstr "アメリカ/サンティエゴ"
 
 #: src/Translations.vala:405
 msgid "Chile (most areas)"
-msgstr "チリ（ほとんどの地域）"
+msgstr "チリ (ほとんどの地域)"
 
 #: src/Translations.vala:407
 msgid "Pacific/Easter"
@@ -930,7 +927,7 @@ msgstr "アメリカ/グアヤキル"
 
 #: src/Translations.vala:457
 msgid "Ecuador (mainland)"
-msgstr "エクアドル （本土）"
+msgstr "エクアドル  (本土)"
 
 #: src/Translations.vala:459
 msgid "Pacific/Galapagos"
@@ -1066,7 +1063,7 @@ msgstr "アメリカ/ゴットホープ"
 
 #: src/Translations.vala:525
 msgid "Greenland (most areas)"
-msgstr "グリーンランド（ほとんどの地域）"
+msgstr "グリーンランド (ほとんどの地域)"
 
 #: src/Translations.vala:527
 msgid "America/Danmarkshavn"
@@ -1175,9 +1172,7 @@ msgstr "アジア/マカッサル"
 #: src/Translations.vala:579
 msgid ""
 "Borneo (east, south); Sulawesi/Celebes, Bali, Nusa Tengarra; Timor (west)"
-msgstr ""
-"ボルネオ（東、南） ; スラウェシ/セレベス、バリ、ヌサTengarra ; ティモール"
-"（西）"
+msgstr "ボルネオ (東、南); スラウェシ/セレベス、バリ、ヌサトゥンガラ ; ティモール (西)"
 
 #: src/Translations.vala:581
 msgid "Asia/Jayapura"
@@ -1185,7 +1180,7 @@ msgstr "アジア/ジャヤプラ"
 
 #: src/Translations.vala:583
 msgid "New Guinea (West Papua / Irian Jaya); Malukus/Moluccas"
-msgstr "ニューギニア（西パプア/イリアンジャヤ） ; モルッカ諸島"
+msgstr "ニューギニア (西パプア/イリアンジャヤ); モルッカ諸島"
 
 #: src/Translations.vala:585
 msgid "Europe/Dublin"
@@ -1535,8 +1530,7 @@ msgstr "アメリカ/マタモロス"
 
 #: src/Translations.vala:757
 msgid "Central Time US - Coahuila, Nuevo Leon, Tamaulipas (US border)"
-msgstr ""
-"アメリア中部標準時 - コアウイラ、ヌエボレオン、タマウリパス（アメリカ国境)"
+msgstr "アメリア中部標準時 - コアウイラ、ヌエボレオン、タマウリパス (アメリカ国境)"
 
 #: src/Translations.vala:759
 msgid "America/Mazatlan"
@@ -2172,7 +2166,7 @@ msgstr "ヨーロッパ/キエフ"
 
 #: src/Translations.vala:1075
 msgid "Ukraine (most areas)"
-msgstr "ウクライナ（ほとんどの地域）"
+msgstr "ウクライナ (ほとんどの地域)"
 
 #: src/Translations.vala:1077
 msgid "Europe/Uzhgorod"
@@ -2392,7 +2386,7 @@ msgstr "アメリカ/アンカレッジ"
 
 #: src/Translations.vala:1185
 msgid "Alaska (most areas)"
-msgstr "アラスカ（ほとんどの地域）"
+msgstr "アラスカ (ほとんどの地域)"
 
 #: src/Translations.vala:1187
 msgid "America/Juneau"
@@ -2432,7 +2426,7 @@ msgstr "アメリカ/ノーム"
 
 #: src/Translations.vala:1205
 msgid "Alaska (west)"
-msgstr "アラスカ（西）"
+msgstr "アラスカ (西)"
 
 #: src/Translations.vala:1207
 msgid "America/Adak"
@@ -2460,7 +2454,7 @@ msgstr "アジア/サマルカンド"
 
 #: src/Translations.vala:1219
 msgid "Uzbekistan (west)"
-msgstr "ウズベキスタン（西）"
+msgstr "ウズベキスタン (西)"
 
 #: src/Translations.vala:1221
 msgid "Asia/Tashkent"
@@ -2468,7 +2462,7 @@ msgstr "アジア/タシュケント"
 
 #: src/Translations.vala:1223
 msgid "Uzbekistan (east)"
-msgstr "ウズベキスタン（東）"
+msgstr "ウズベキスタン (東)"
 
 #: src/Translations.vala:1225
 msgid "Europe/Vatican"
