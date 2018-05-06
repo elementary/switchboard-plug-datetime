@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-19 02:05-0500\n"
-"PO-Revision-Date: 2018-03-25 00:09+0000\n"
+"PO-Revision-Date: 2018-05-07 00:03+0000\n"
 "Last-Translator: Kaj Printz Madsen <kajprintz@gmail.com>\n"
 "Language-Team: Danish <https://weblate.elementary.io/projects/switchboard"
 "/switchboard-plug-datetime/da/>\n"
@@ -2526,7 +2526,7 @@ msgstr "Afrika/Harare"
 
 #: src/Plug.vala:36
 msgid "Date & Time"
-msgstr "Dato og klokkeslæt"
+msgstr "Dato & Tid"
 
 #: src/Plug.vala:37
 msgid "Configure date, time, and select time zone"
