@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: timezones.tip\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-19 02:05-0500\n"
-"PO-Revision-Date: 2017-08-15 20:40+0000\n"
+"PO-Revision-Date: 2018-05-09 00:07+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
-"Language-Team: Hebrew <https://weblate.elementary.io/projects/switchboard/"
-"switchboard-plug-datetime/he/>\n"
+"Language-Team: Hebrew <https://weblate.elementary.io/projects/switchboard"
+"/switchboard-plug-datetime/he/>\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.15\n"
+"X-Generator: Weblate 2.18\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:04+0000\n"
 
 #: src/Translations.vala:3
@@ -75,7 +75,7 @@ msgstr "אנטרקטיקה/דייויס"
 
 #: src/Translations.vala:29
 msgid "Davis"
-msgstr ""
+msgstr "דייויס"
 
 #: src/Translations.vala:31
 msgid "Antarctica/DumontDUrville"
@@ -2444,7 +2444,7 @@ msgstr "האוקיינוס-השקט/הונולולו"
 
 #: src/Translations.vala:1213
 msgid "Hawaii"
-msgstr ""
+msgstr "הוואי"
 
 #: src/Translations.vala:1215
 msgid "America/Montevideo"
@@ -2456,7 +2456,7 @@ msgstr "אסיה/סמרקנד"
 
 #: src/Translations.vala:1219
 msgid "Uzbekistan (west)"
-msgstr ""
+msgstr "אוזבקיסטן (מערב)"
 
 #: src/Translations.vala:1221
 msgid "Asia/Tashkent"
@@ -2464,15 +2464,15 @@ msgstr "אסיה/טשקנט"
 
 #: src/Translations.vala:1223
 msgid "Uzbekistan (east)"
-msgstr ""
+msgstr "אוזבקיסטן (מזרח)"
 
 #: src/Translations.vala:1225
 msgid "Europe/Vatican"
-msgstr "אירופה/ווטיקן"
+msgstr "אירופה/וותיקן"
 
 #: src/Translations.vala:1227
 msgid "America/St_Vincent"
-msgstr "אמריקה/סט.ווינסנט"
+msgstr "אמריקה/סנט וינסנט"
 
 #: src/Translations.vala:1229
 msgid "America/Caracas"
