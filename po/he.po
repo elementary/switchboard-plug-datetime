@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: timezones.tip\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-19 02:05-0500\n"
-"PO-Revision-Date: 2018-05-09 00:07+0000\n"
+"PO-Revision-Date: 2018-05-11 00:07+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://weblate.elementary.io/projects/switchboard"
 "/switchboard-plug-datetime/he/>\n"
@@ -59,7 +59,7 @@ msgstr "אנטרקטיקה/מקמורדו"
 
 #: src/Translations.vala:21
 msgid "New Zealand time - McMurdo, South Pole"
-msgstr ""
+msgstr "שעון ניו זילנד - מקמרדו, הקוטב הדרומי"
 
 #: src/Translations.vala:23
 msgid "Antarctica/Casey"
@@ -67,7 +67,7 @@ msgstr "אנטרקטיקה/קייסי"
 
 #: src/Translations.vala:25
 msgid "Casey"
-msgstr ""
+msgstr "קייסי"
 
 #: src/Translations.vala:27
 msgid "Antarctica/Davis"
@@ -83,7 +83,7 @@ msgstr "אנטרקטיקה/דומונטדורוויל"
 
 #: src/Translations.vala:33
 msgid "Dumont-d'Urville"
-msgstr ""
+msgstr "דיומון דאורביל"
 
 #: src/Translations.vala:35
 msgid "Antarctica/Mawson"
@@ -91,7 +91,7 @@ msgstr "אנטרקטיקה/מאוסון"
 
 #: src/Translations.vala:37
 msgid "Mawson"
-msgstr ""
+msgstr "מוסון"
 
 #: src/Translations.vala:39
 msgid "Antarctica/Palmer"
@@ -99,7 +99,7 @@ msgstr "אנטרקטיקה/פלמר"
 
 #: src/Translations.vala:41
 msgid "Palmer"
-msgstr ""
+msgstr "פלמר"
 
 #: src/Translations.vala:43
 msgid "Antarctica/Rothera"
@@ -107,7 +107,7 @@ msgstr "אנטרקטיקה/רות'רה"
 
 #: src/Translations.vala:45
 msgid "Rothera"
-msgstr ""
+msgstr "רות׳רה"
 
 #: src/Translations.vala:47
 msgid "Antarctica/Syowa"
@@ -115,15 +115,15 @@ msgstr "אנטרקטיקה/סיווה"
 
 #: src/Translations.vala:49
 msgid "Syowa"
-msgstr ""
+msgstr "שיווה"
 
 #: src/Translations.vala:51
 msgid "Antarctica/Troll"
-msgstr ""
+msgstr "אנטארקטיקה/טרול"
 
 #: src/Translations.vala:53
 msgid "Troll"
-msgstr ""
+msgstr "טרול"
 
 #: src/Translations.vala:55
 msgid "Antarctica/Vostok"
@@ -131,7 +131,7 @@ msgstr "אנטרקטיקה/ווסטוק"
 
 #: src/Translations.vala:57
 msgid "Vostok"
-msgstr ""
+msgstr "ווסטוק"
 
 #: src/Translations.vala:59
 msgid "America/Argentina/Buenos_Aires"
@@ -139,7 +139,7 @@ msgstr "אמריקה/ארגנטינה/בואנוס-איירס"
 
 #: src/Translations.vala:61
 msgid "Buenos Aires (BA, CF)"
-msgstr ""
+msgstr "בואנוס איירס (BA, CF)"
 
 #: src/Translations.vala:63
 msgid "America/Argentina/Cordoba"
@@ -147,19 +147,19 @@ msgstr "אמריקה/ארגנטינה/קורדובה"
 
 #: src/Translations.vala:65
 msgid "Argentina (most areas: CB, CC, CN, ER, FM, MN, SE, SF)"
-msgstr ""
+msgstr "ארגנטינה (רוב האזורים: CB, CC, CN, ER, FM, MN, SE, SF)"
 
 #: src/Translations.vala:67
 msgid "America/Argentina/Salta"
-msgstr ""
+msgstr "אמריקה/ארגנטינה/סלטה"
 
 #: src/Translations.vala:69
 msgid "Salta (SA, LP, NQ, RN)"
-msgstr ""
+msgstr "סלטה (SA, LP, NQ, RN)"
 
 #: src/Translations.vala:71
 msgid "America/Argentina/Jujuy"
-msgstr "אמריקה/ארגנטינה/ג'וג'וי"
+msgstr "אמריקה/ארגנטינה/ג׳וג׳וי"
 
 #: src/Translations.vala:73
 msgid "Jujuy (JY)"
@@ -183,11 +183,11 @@ msgstr ""
 
 #: src/Translations.vala:83
 msgid "America/Argentina/La_Rioja"
-msgstr "אמריקה/ארגנטינה/לה-ריוג'ה"
+msgstr "אמריקה/ארגנטינה/לה-ריוחה"
 
 #: src/Translations.vala:85
 msgid "La Rioja (LR)"
-msgstr ""
+msgstr "לה ריוחה (LR)"
 
 #: src/Translations.vala:87
 msgid "America/Argentina/San_Juan"
@@ -195,7 +195,7 @@ msgstr "אמריקה/ארגנטינה/סן-חואן"
 
 #: src/Translations.vala:89
 msgid "San Juan (SJ)"
-msgstr ""
+msgstr "סן חואן (SJ)"
 
 #: src/Translations.vala:91
 msgid "America/Argentina/Mendoza"
@@ -207,11 +207,11 @@ msgstr ""
 
 #: src/Translations.vala:95
 msgid "America/Argentina/San_Luis"
-msgstr ""
+msgstr "אמריקה/ארגנטינה/סן-לואיס"
 
 #: src/Translations.vala:97
 msgid "San Luis (SL)"
-msgstr ""
+msgstr "סן לואיס (SL)"
 
 #: src/Translations.vala:99
 msgid "America/Argentina/Rio_Gallegos"
@@ -219,7 +219,7 @@ msgstr "אמריקה/ארגנטינה/ריו-גייגוס"
 
 #: src/Translations.vala:101
 msgid "Santa Cruz (SC)"
-msgstr ""
+msgstr "סטנה קרוס (SC)"
 
 #: src/Translations.vala:103
 msgid "America/Argentina/Ushuaia"
@@ -227,7 +227,7 @@ msgstr "אמריקה/ארגנטינה/אושואיה"
 
 #: src/Translations.vala:105
 msgid "Tierra del Fuego (TF)"
-msgstr ""
+msgstr "טיירה דל פואגו (TF)"
 
 #: src/Translations.vala:107
 msgid "Pacific/Pago_Pago"
@@ -239,11 +239,11 @@ msgstr "אירופה/וינה"
 
 #: src/Translations.vala:111
 msgid "Australia/Lord_Howe"
-msgstr "אוסטרליה/לורד-הווה"
+msgstr "אוסטרליה/לורד-האו"
 
 #: src/Translations.vala:113
 msgid "Lord Howe Island"
-msgstr ""
+msgstr "אי הלורד האו"
 
 #: src/Translations.vala:115
 msgid "Antarctica/Macquarie"
@@ -259,7 +259,7 @@ msgstr "אוסטרליה/הוברט"
 
 #: src/Translations.vala:121
 msgid "Tasmania (most areas)"
-msgstr ""
+msgstr "טסמניה (רוב האזורים)"
 
 #: src/Translations.vala:123
 msgid "Australia/Currie"
@@ -267,7 +267,7 @@ msgstr "אוסטרליה/קורי"
 
 #: src/Translations.vala:125
 msgid "Tasmania (King Island)"
-msgstr ""
+msgstr "טסמניה (אי המלך)"
 
 #: src/Translations.vala:127
 msgid "Australia/Melbourne"
@@ -275,7 +275,7 @@ msgstr "אוסטרליה/מלבורן"
 
 #: src/Translations.vala:129
 msgid "Victoria"
-msgstr ""
+msgstr "ויקטוריה"
 
 #: src/Translations.vala:131
 msgid "Australia/Sydney"
@@ -2376,7 +2376,7 @@ msgstr ""
 
 #: src/Translations.vala:1179
 msgid "America/Los_Angeles"
-msgstr "אמריקה/לוס-אנג'לס"
+msgstr "אמריקה/לוס-אנג׳לס"
 
 #: src/Translations.vala:1181 src/Widgets/TZPopover.vala:73
 msgid "Pacific"
@@ -2384,7 +2384,7 @@ msgstr ""
 
 #: src/Translations.vala:1183
 msgid "America/Anchorage"
-msgstr "אמריקה/אנקורג'"
+msgstr "אמריקה/אנקורג׳"
 
 #: src/Translations.vala:1185
 msgid "Alaska (most areas)"
@@ -2392,7 +2392,7 @@ msgstr ""
 
 #: src/Translations.vala:1187
 msgid "America/Juneau"
-msgstr "אמריקה/ג'וניאו"
+msgstr "אמריקה/ג׳וניאו"
 
 #: src/Translations.vala:1189
 msgid "Alaska - Juneau area"
@@ -2400,15 +2400,15 @@ msgstr ""
 
 #: src/Translations.vala:1191
 msgid "America/Sitka"
-msgstr ""
+msgstr "אמריקה/סיטקה"
 
 #: src/Translations.vala:1193
 msgid "Alaska - Sitka area"
-msgstr ""
+msgstr "אלסקה - אזור סיטקה"
 
 #: src/Translations.vala:1195
 msgid "America/Metlakatla"
-msgstr ""
+msgstr "אמריקה/מטלקטלה"
 
 #: src/Translations.vala:1197
 msgid "Alaska - Annette Island"
@@ -2420,7 +2420,7 @@ msgstr "אמריקה/יקוטט"
 
 #: src/Translations.vala:1201
 msgid "Alaska - Yakutat"
-msgstr ""
+msgstr "אלסקה - יקוטט"
 
 #: src/Translations.vala:1203
 msgid "America/Nome"
@@ -2428,7 +2428,7 @@ msgstr "אמריקה/נום"
 
 #: src/Translations.vala:1205
 msgid "Alaska (west)"
-msgstr ""
+msgstr "אלסקה (מערב)"
 
 #: src/Translations.vala:1207
 msgid "America/Adak"
@@ -2436,7 +2436,7 @@ msgstr "אמריקה/אדק"
 
 #: src/Translations.vala:1209
 msgid "Aleutian Islands"
-msgstr ""
+msgstr "האיים האלאוטיים"
 
 #: src/Translations.vala:1211
 msgid "Pacific/Honolulu"
@@ -2488,7 +2488,7 @@ msgstr "אמריקה/סט.תומס"
 
 #: src/Translations.vala:1235
 msgid "Asia/Ho_Chi_Minh"
-msgstr ""
+msgstr "אסיה/הו צ׳י מין"
 
 #: src/Translations.vala:1237
 msgid "Pacific/Efate"
