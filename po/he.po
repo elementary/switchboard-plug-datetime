@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: timezones.tip\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-19 02:05-0500\n"
-"PO-Revision-Date: 2018-05-11 00:07+0000\n"
+"PO-Revision-Date: 2018-05-14 00:02+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://weblate.elementary.io/projects/switchboard"
 "/switchboard-plug-datetime/he/>\n"
@@ -163,7 +163,7 @@ msgstr "אמריקה/ארגנטינה/ג׳וג׳וי"
 
 #: src/Translations.vala:73
 msgid "Jujuy (JY)"
-msgstr ""
+msgstr "חוחוי (JY)"
 
 #: src/Translations.vala:75
 msgid "America/Argentina/Tucuman"
@@ -251,7 +251,7 @@ msgstr ""
 
 #: src/Translations.vala:117
 msgid "Macquarie Island"
-msgstr ""
+msgstr "האי מקקוורי"
 
 #: src/Translations.vala:119
 msgid "Australia/Hobart"
@@ -283,7 +283,7 @@ msgstr "אוסטרליה/סידני"
 
 #: src/Translations.vala:133
 msgid "New South Wales (most areas)"
-msgstr ""
+msgstr "ניו סאות׳ ויילס (רוב האזורים)"
 
 #: src/Translations.vala:135
 msgid "Australia/Broken_Hill"
@@ -299,7 +299,7 @@ msgstr "אוסטרליה/בריסביין"
 
 #: src/Translations.vala:141
 msgid "Queensland (most areas)"
-msgstr ""
+msgstr "קווינסלנד (רוב האזורים)"
 
 #: src/Translations.vala:143
 msgid "Australia/Lindeman"
@@ -307,7 +307,7 @@ msgstr "אוסטרליה/לינדמן"
 
 #: src/Translations.vala:145
 msgid "Queensland (Whitsunday Islands)"
-msgstr ""
+msgstr "קווינסלנד (איי ויטסאנדיי)"
 
 #: src/Translations.vala:147
 msgid "Australia/Adelaide"
@@ -315,7 +315,7 @@ msgstr "אוסטרליה/אדלייד"
 
 #: src/Translations.vala:149
 msgid "South Australia"
-msgstr ""
+msgstr "דרום אוסטרליה"
 
 #: src/Translations.vala:151
 msgid "Australia/Darwin"
