@@ -3,15 +3,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-19 02:05-0500\n"
-"PO-Revision-Date: 2015-11-16 18:31+0000\n"
-"Last-Translator: Beqa Arabuli <arabulibeqa@yahoo.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2018-05-14 00:02+0000\n"
+"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
+"Language-Team: Georgian <https://weblate.elementary.io/projects/switchboard"
+"/switchboard-plug-datetime/ka/>\n"
+"Language: ka\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2.18\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:04+0000\n"
-"X-Generator: Launchpad (build 18302)\n"
 
 #: src/Translations.vala:3
 msgid "Europe/Andorra"
@@ -154,6 +156,7 @@ msgid "America/Argentina/Jujuy"
 msgstr "ამერიკა/არგენტინა/ჯუჯუი"
 
 #: src/Translations.vala:73
+#, fuzzy
 msgid "Jujuy (JY)"
 msgstr "ჯუჯუი (JY)"
 
