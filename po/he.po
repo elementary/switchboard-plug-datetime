@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: timezones.tip\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-19 02:05-0500\n"
-"PO-Revision-Date: 2018-05-14 00:02+0000\n"
+"PO-Revision-Date: 2018-05-15 00:06+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://weblate.elementary.io/projects/switchboard"
 "/switchboard-plug-datetime/he/>\n"
@@ -171,7 +171,7 @@ msgstr "אמריקה/ארגנטינה/טוקומאן"
 
 #: src/Translations.vala:77
 msgid "Tucuman (TM)"
-msgstr ""
+msgstr "טוקומאן (TM)"
 
 #: src/Translations.vala:79
 msgid "America/Argentina/Catamarca"
@@ -179,7 +179,7 @@ msgstr "אמריקה/ארגנטינה/קטמרקה"
 
 #: src/Translations.vala:81
 msgid "Catamarca (CT); Chubut (CH)"
-msgstr ""
+msgstr "קטמרקה (CT), צ׳ובוט (CH)"
 
 #: src/Translations.vala:83
 msgid "America/Argentina/La_Rioja"
@@ -203,7 +203,7 @@ msgstr "אמריקה/ארגנטינה/מנדוזה"
 
 #: src/Translations.vala:93
 msgid "Mendoza (MZ)"
-msgstr ""
+msgstr "מנדוסה (MZ)"
 
 #: src/Translations.vala:95
 msgid "America/Argentina/San_Luis"
@@ -323,7 +323,7 @@ msgstr "אוסטרליה/דרווין"
 
 #: src/Translations.vala:153
 msgid "Northern Territory"
-msgstr ""
+msgstr "הטריטוריה הצפונית"
 
 #: src/Translations.vala:155
 msgid "Australia/Perth"
@@ -331,7 +331,7 @@ msgstr "אוסטרליה/פרת'"
 
 #: src/Translations.vala:157
 msgid "Western Australia (most areas)"
-msgstr ""
+msgstr "אוסטרליה המערבית (רוב האזורים)"
 
 #: src/Translations.vala:159
 msgid "Australia/Eucla"
@@ -339,7 +339,7 @@ msgstr "אוסטרליה/אאוקלה"
 
 #: src/Translations.vala:161
 msgid "Western Australia (Eucla)"
-msgstr ""
+msgstr "אוסטרליה המערבית (יוקלה)"
 
 #: src/Translations.vala:163
 msgid "America/Aruba"
@@ -407,7 +407,7 @@ msgstr "אמריקה/לה-פז"
 
 #: src/Translations.vala:195
 msgid "America/Kralendijk"
-msgstr ""
+msgstr "אמריקה/קרלנדיק"
 
 #: src/Translations.vala:197
 msgid "America/Noronha"
@@ -423,7 +423,7 @@ msgstr "אמריקה/בלם"
 
 #: src/Translations.vala:203
 msgid "Para (east); Amapa"
-msgstr ""
+msgstr "פארה (מזרח), אמאפה"
 
 #: src/Translations.vala:205
 msgid "America/Fortaleza"
@@ -431,7 +431,7 @@ msgstr "אמריקה/פורטלסה"
 
 #: src/Translations.vala:207
 msgid "Brazil (northeast: MA, PI, CE, RN, PB)"
-msgstr ""
+msgstr "ברזיל (צפון מזרח: MA, PI, CE, RN, PB)"
 
 #: src/Translations.vala:209
 msgid "America/Recife"
@@ -439,7 +439,7 @@ msgstr "אמריקה/רסיפה"
 
 #: src/Translations.vala:211
 msgid "Pernambuco"
-msgstr ""
+msgstr "פרנמבוקו"
 
 #: src/Translations.vala:213
 msgid "America/Araguaina"
@@ -447,7 +447,7 @@ msgstr "אמריקה/ארגווינה"
 
 #: src/Translations.vala:215
 msgid "Tocantins"
-msgstr ""
+msgstr "טוקנטינס"
 
 #: src/Translations.vala:217
 msgid "America/Maceio"
@@ -455,7 +455,7 @@ msgstr "אמריקה/מסאיו"
 
 #: src/Translations.vala:219
 msgid "Alagoas, Sergipe"
-msgstr ""
+msgstr "אלגואס, סרז׳יפה"
 
 #: src/Translations.vala:221
 msgid "America/Bahia"
@@ -463,7 +463,7 @@ msgstr "אמריקה/בהיה"
 
 #: src/Translations.vala:223
 msgid "Bahia"
-msgstr ""
+msgstr "באהיה"
 
 #: src/Translations.vala:225
 msgid "America/Sao_Paulo"
@@ -471,7 +471,7 @@ msgstr "אמריקה/סאו-פאולו"
 
 #: src/Translations.vala:227
 msgid "Brazil (southeast: GO, DF, MG, ES, RJ, SP, PR, SC, RS)"
-msgstr ""
+msgstr "ברזיל (דרום מזרח: GO, DF, MG, ES, RJ, SP, PR, SC, RS)"
 
 #: src/Translations.vala:229
 msgid "America/Campo_Grande"
@@ -479,7 +479,7 @@ msgstr "אמריקה/קמפו-גרנדה"
 
 #: src/Translations.vala:231
 msgid "Mato Grosso do Sul"
-msgstr ""
+msgstr "מאטו גרוסו דו סול"
 
 #: src/Translations.vala:233
 msgid "America/Cuiaba"
@@ -487,15 +487,15 @@ msgstr "אמריקה/קוייבה"
 
 #: src/Translations.vala:235
 msgid "Mato Grosso"
-msgstr ""
+msgstr "מאטו גרוסו"
 
 #: src/Translations.vala:237
 msgid "America/Santarem"
-msgstr ""
+msgstr "אמריקה/סנטרם"
 
 #: src/Translations.vala:239
 msgid "Para (west)"
-msgstr ""
+msgstr "פארה (מערב)"
 
 #: src/Translations.vala:241
 msgid "America/Porto_Velho"
@@ -503,7 +503,7 @@ msgstr "אמריקה/פורטו-בלו"
 
 #: src/Translations.vala:243
 msgid "Rondonia"
-msgstr ""
+msgstr "רונדוניה"
 
 #: src/Translations.vala:245
 msgid "America/Boa_Vista"
@@ -511,7 +511,7 @@ msgstr "אמריקה/בואה-וויסטה"
 
 #: src/Translations.vala:247
 msgid "Roraima"
-msgstr ""
+msgstr "רוריימה"
 
 #: src/Translations.vala:249
 msgid "America/Manaus"
@@ -519,7 +519,7 @@ msgstr "אמריקה/מנאוס"
 
 #: src/Translations.vala:251
 msgid "Amazonas (east)"
-msgstr ""
+msgstr "אמזונאס (מזרח)"
 
 #: src/Translations.vala:253
 msgid "America/Eirunepe"
@@ -527,7 +527,7 @@ msgstr "אמריקה/אירונפה"
 
 #: src/Translations.vala:255
 msgid "Amazonas (west)"
-msgstr ""
+msgstr "אמזונאס (מערב)"
 
 #: src/Translations.vala:257
 msgid "America/Rio_Branco"
@@ -535,7 +535,7 @@ msgstr "אמריקה/ריו-ברנקו"
 
 #: src/Translations.vala:259
 msgid "Acre"
-msgstr ""
+msgstr "אקרי"
 
 #: src/Translations.vala:261
 msgid "America/Nassau"
@@ -563,7 +563,7 @@ msgstr "אמריקה/סט.ג'והן"
 
 #: src/Translations.vala:273
 msgid "Newfoundland; Labrador (southeast)"
-msgstr ""
+msgstr "ניופאונדלנד, לברדור (דרום מזרח)"
 
 #: src/Translations.vala:275
 msgid "America/Halifax"
@@ -623,7 +623,7 @@ msgstr ""
 
 #: src/Translations.vala:303
 msgid "America/Thunder_Bay"
-msgstr "אמריקה/ת'אנדר-ביי"
+msgstr "אמריקה/ת׳אנדר-ביי"
 
 #: src/Translations.vala:305
 msgid "Eastern - ON (Thunder Bay)"
@@ -711,7 +711,7 @@ msgstr ""
 
 #: src/Translations.vala:347
 msgid "America/Cambridge_Bay"
-msgstr "אמריקה/קיימברידג'-ביי"
+msgstr "אמריקה/קיימברידג׳-ביי"
 
 #: src/Translations.vala:349
 msgid "Mountain - NU (west)"
@@ -735,7 +735,7 @@ msgstr ""
 
 #: src/Translations.vala:359
 msgid "America/Creston"
-msgstr ""
+msgstr "אמריקה/קרסטון"
 
 #: src/Translations.vala:361
 msgid "MST - BC (Creston)"
@@ -743,7 +743,7 @@ msgstr ""
 
 #: src/Translations.vala:363
 msgid "America/Dawson_Creek"
-msgstr "אמריקה/דאוסון-קריק"
+msgstr "אמריקה/דוסון-קריק"
 
 #: src/Translations.vala:365
 msgid "MST - BC (Dawson Cr, Ft St John)"
@@ -751,7 +751,7 @@ msgstr ""
 
 #: src/Translations.vala:367
 msgid "America/Fort_Nelson"
-msgstr ""
+msgstr "אמריקה/פורט-נלסון"
 
 #: src/Translations.vala:369
 msgid "MST - BC (Ft Nelson)"
@@ -759,7 +759,7 @@ msgstr ""
 
 #: src/Translations.vala:371
 msgid "America/Vancouver"
-msgstr "אמריקה/וואנקובר"
+msgstr "אמריקה/ונקובר"
 
 #: src/Translations.vala:373
 msgid "Pacific - BC (most areas)"
@@ -783,7 +783,7 @@ msgstr ""
 
 #: src/Translations.vala:383
 msgid "Indian/Cocos"
-msgstr "הודו/קוקוס"
+msgstr "ההודי/קוקוס"
 
 #: src/Translations.vala:385
 msgid "Africa/Kinshasa"
@@ -791,7 +791,7 @@ msgstr "אפריקה/קינשאסה"
 
 #: src/Translations.vala:387
 msgid "Dem. Rep. of Congo (west)"
-msgstr ""
+msgstr "הרפובליקה הדמוקרטית של קונגו (מערב)"
 
 #: src/Translations.vala:389
 msgid "Africa/Lubumbashi"
@@ -799,7 +799,7 @@ msgstr "אפריקה/לובומבאשי"
 
 #: src/Translations.vala:391
 msgid "Dem. Rep. of Congo (east)"
-msgstr ""
+msgstr "הרפובליקה הדמוקרטית של קונגו (מזרח)"
 
 #: src/Translations.vala:393
 msgid "Africa/Bangui"
@@ -815,7 +815,7 @@ msgstr "אירופה/ציריך"
 
 #: src/Translations.vala:399
 msgid "Africa/Abidjan"
-msgstr "אפריקה/אבידז'אן"
+msgstr "אפריקה/אבידז׳אן"
 
 #: src/Translations.vala:401
 msgid "Pacific/Rarotonga"
@@ -827,7 +827,7 @@ msgstr "אמריקה/סנטיאגו"
 
 #: src/Translations.vala:405
 msgid "Chile (most areas)"
-msgstr ""
+msgstr "צ׳ילה (רוב האזורים)"
 
 #: src/Translations.vala:407
 msgid "Pacific/Easter"
@@ -835,7 +835,7 @@ msgstr "האוקיינוס-השקט/איסטר"
 
 #: src/Translations.vala:409
 msgid "Easter Island"
-msgstr ""
+msgstr "אי חג המולד"
 
 #: src/Translations.vala:411
 msgid "Africa/Douala"
@@ -847,7 +847,7 @@ msgstr "אסיה/שנגחאי"
 
 #: src/Translations.vala:415
 msgid "Beijing Time"
-msgstr ""
+msgstr "שעון בייג׳ינג"
 
 #: src/Translations.vala:417
 msgid "Asia/Urumqi"
@@ -855,7 +855,7 @@ msgstr "אסיה/אורומקי"
 
 #: src/Translations.vala:419
 msgid "Xinjiang Time"
-msgstr ""
+msgstr "שעון שינג׳יאנג"
 
 #: src/Translations.vala:421
 msgid "America/Bogota"
@@ -879,7 +879,7 @@ msgstr "אמריקה/קורקאו"
 
 #: src/Translations.vala:431
 msgid "Indian/Christmas"
-msgstr "הודו/כריסטמס"
+msgstr "ההודי/כריסמס"
 
 #: src/Translations.vala:433
 msgid "Asia/Nicosia"
@@ -895,19 +895,19 @@ msgstr "אירופה/ברלין"
 
 #: src/Translations.vala:439
 msgid "Germany (most areas)"
-msgstr ""
+msgstr "גרמניה (רוב האזורים)"
 
 #: src/Translations.vala:441
 msgid "Europe/Busingen"
-msgstr ""
+msgstr "אירופה/ביזינגן"
 
 #: src/Translations.vala:443
 msgid "Busingen"
-msgstr ""
+msgstr "ביזינגן"
 
 #: src/Translations.vala:445
 msgid "Africa/Djibouti"
-msgstr "אפריקה/ג'יבוטי"
+msgstr "אפריקה/ג׳יבוטי"
 
 #: src/Translations.vala:447
 msgid "Europe/Copenhagen"
@@ -939,7 +939,7 @@ msgstr "האוקיינוס-השקט/גלאפגוס"
 
 #: src/Translations.vala:461
 msgid "Galapagos Islands"
-msgstr ""
+msgstr "איי גלאפגוס"
 
 #: src/Translations.vala:463
 msgid "Europe/Tallinn"
@@ -967,11 +967,11 @@ msgstr ""
 
 #: src/Translations.vala:475
 msgid "Africa/Ceuta"
-msgstr "אפריקה/קהוטה"
+msgstr "אפריקה/סאוטה"
 
 #: src/Translations.vala:477
 msgid "Ceuta, Melilla"
-msgstr ""
+msgstr "סאוטה, מלייה"
 
 #: src/Translations.vala:479
 msgid "Atlantic/Canary"
@@ -979,11 +979,11 @@ msgstr "האוקיינוס-האטלנטי/האיים-הקנריים"
 
 #: src/Translations.vala:481
 msgid "Canary Islands"
-msgstr ""
+msgstr "האיים הקנריים"
 
 #: src/Translations.vala:483
 msgid "Africa/Addis_Ababa"
-msgstr "אפריקה/אדיס אבבה"
+msgstr "אפריקה/אדיס-אבבה"
 
 #: src/Translations.vala:485
 msgid "Europe/Helsinki"
@@ -991,35 +991,35 @@ msgstr "אירופה/הלסינקי"
 
 #: src/Translations.vala:487
 msgid "Pacific/Fiji"
-msgstr "האוקיינוס-השקט/פיג'י"
+msgstr "האוקיינוס-השקט/פיג׳י"
 
 #: src/Translations.vala:489
 msgid "Atlantic/Stanley"
-msgstr "האוקיינוס-האטלנטי/סטאנלי"
+msgstr "האוקיינוס-האטלנטי/סטנלי"
 
 #: src/Translations.vala:491
 msgid "Pacific/Chuuk"
-msgstr ""
+msgstr "האוקיינוס-השקט/צ׳והוק"
 
 #: src/Translations.vala:493
 msgid "Chuuk/Truk, Yap"
-msgstr ""
+msgstr "צ׳והוק/טרוק, יאפ"
 
 #: src/Translations.vala:495
 msgid "Pacific/Pohnpei"
-msgstr ""
+msgstr "האוקיינוס-השקט/פונפאי"
 
 #: src/Translations.vala:497
 msgid "Pohnpei/Ponape"
-msgstr ""
+msgstr "פונפאי/פונאפי"
 
 #: src/Translations.vala:499
 msgid "Pacific/Kosrae"
-msgstr "האוקיינוס-השקט/קוסרה"
+msgstr "האוקיינוס-השקט/קוסראי"
 
 #: src/Translations.vala:501
 msgid "Kosrae"
-msgstr ""
+msgstr "קוסראי"
 
 #: src/Translations.vala:503
 msgid "Atlantic/Faroe"
@@ -1027,7 +1027,7 @@ msgstr "האוקיינוס-האטלנטי/פארו"
 
 #: src/Translations.vala:505
 msgid "Europe/Paris"
-msgstr "אירופה/פריס"
+msgstr "אירופה/פריז"
 
 #: src/Translations.vala:507
 msgid "Africa/Libreville"
@@ -1051,7 +1051,7 @@ msgstr "אמריקה/קיין"
 
 #: src/Translations.vala:517
 msgid "Europe/Guernsey"
-msgstr "אירופה/גוארנסיי"
+msgstr "אירופה/גרנזי"
 
 #: src/Translations.vala:519
 msgid "Africa/Accra"
@@ -1063,15 +1063,15 @@ msgstr "אירופה/גיברלטר"
 
 #: src/Translations.vala:523
 msgid "America/Godthab"
-msgstr "אמריקה/גודת'אב"
+msgstr "אמריקה/גודת׳אב"
 
 #: src/Translations.vala:525
 msgid "Greenland (most areas)"
-msgstr ""
+msgstr "גרינלנד (רוב האזורים)"
 
 #: src/Translations.vala:527
 msgid "America/Danmarkshavn"
-msgstr "אמריקה/דנמרקשבן"
+msgstr "אמריקה/דנמרקסהוון"
 
 #: src/Translations.vala:529
 msgid "National Park (east coast)"
@@ -1091,11 +1091,11 @@ msgstr "אמריקה/תולה"
 
 #: src/Translations.vala:537
 msgid "Thule/Pituffik"
-msgstr ""
+msgstr "ת׳ול/פיטופיק"
 
 #: src/Translations.vala:539
 msgid "Africa/Banjul"
-msgstr "אפריקה/בנג'ול"
+msgstr "אפריקה/בנג׳ול"
 
 #: src/Translations.vala:541
 msgid "Africa/Conakry"
@@ -1115,7 +1115,7 @@ msgstr "אירופה/אתונה"
 
 #: src/Translations.vala:549
 msgid "Atlantic/South_Georgia"
-msgstr "האוקיינוס-האטלנטי/דרום-ג'ורג'יה"
+msgstr "האוקיינוס-האטלנטי/ג׳ורג׳יה-הדרומיים"
 
 #: src/Translations.vala:551
 msgid "America/Guatemala"
@@ -1139,7 +1139,7 @@ msgstr "אסיה/הונג-קונג"
 
 #: src/Translations.vala:561
 msgid "America/Tegucigalpa"
-msgstr "אמריקה/טגוצ'יגלפה"
+msgstr "אמריקה/טגוסיגלפה"
 
 #: src/Translations.vala:563
 msgid "Europe/Zagreb"
@@ -1155,11 +1155,11 @@ msgstr "אירופה/בודפשט"
 
 #: src/Translations.vala:569
 msgid "Asia/Jakarta"
-msgstr "אסיה/ג'אקרטה"
+msgstr "אסיה/ג׳קרטה"
 
 #: src/Translations.vala:571
 msgid "Java, Sumatra"
-msgstr ""
+msgstr "ג׳אווה, סומטרה"
 
 #: src/Translations.vala:573
 msgid "Asia/Pontianak"
@@ -1180,7 +1180,7 @@ msgstr ""
 
 #: src/Translations.vala:581
 msgid "Asia/Jayapura"
-msgstr "אסיה/ג'איהפורה"
+msgstr "אסיה/ג׳איאפורה"
 
 #: src/Translations.vala:583
 msgid "New Guinea (West Papua / Irian Jaya); Malukus/Moluccas"
@@ -1192,19 +1192,19 @@ msgstr "אירופה/דבלין"
 
 #: src/Translations.vala:587
 msgid "Asia/Jerusalem"
-msgstr "אסיה/ירושליים"
+msgstr "אסיה/ירושלים"
 
 #: src/Translations.vala:589
 msgid "Europe/Isle_of_Man"
-msgstr "אירופה/אי-האדם"
+msgstr "אירופה/האי-מאן"
 
 #: src/Translations.vala:591
 msgid "Asia/Kolkata"
-msgstr ""
+msgstr "אסיה/קולקטה"
 
 #: src/Translations.vala:593
 msgid "Indian/Chagos"
-msgstr "הודו/צ'אגוס"
+msgstr "ההודי/צ׳גוס"
 
 #: src/Translations.vala:595
 msgid "Asia/Baghdad"
@@ -1216,7 +1216,7 @@ msgstr "אסיה/טהרן"
 
 #: src/Translations.vala:599
 msgid "Atlantic/Reykjavik"
-msgstr "האוקיינוס-האטלנטי/רייקייויק"
+msgstr "האוקיינוס-האטלנטי/רייקיאוויק"
 
 #: src/Translations.vala:601
 msgid "Europe/Rome"
@@ -1224,7 +1224,7 @@ msgstr "אירופה/רומא"
 
 #: src/Translations.vala:603
 msgid "Europe/Jersey"
-msgstr "אירופה/ג'רסי"
+msgstr "אירופה/ג׳רזי"
 
 #: src/Translations.vala:605
 msgid "America/Jamaica"
@@ -2396,7 +2396,7 @@ msgstr "אמריקה/ג׳וניאו"
 
 #: src/Translations.vala:1189
 msgid "Alaska - Juneau area"
-msgstr ""
+msgstr "אלסקה - אזור ג׳ונו"
 
 #: src/Translations.vala:1191
 msgid "America/Sitka"
@@ -2412,7 +2412,7 @@ msgstr "אמריקה/מטלקטלה"
 
 #: src/Translations.vala:1197
 msgid "Alaska - Annette Island"
-msgstr ""
+msgstr "אלסקה - האי אנט"
 
 #: src/Translations.vala:1199
 msgid "America/Yakutat"
