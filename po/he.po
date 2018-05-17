@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: timezones.tip\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-19 02:05-0500\n"
-"PO-Revision-Date: 2018-05-17 00:04+0000\n"
+"PO-Revision-Date: 2018-05-18 00:08+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://weblate.elementary.io/projects/switchboard"
 "/switchboard-plug-datetime/he/>\n"
@@ -1228,7 +1228,7 @@ msgstr "אירופה/ג׳רזי"
 
 #: src/Translations.vala:605
 msgid "America/Jamaica"
-msgstr "אמריקה/ג'מאיקה"
+msgstr "אמריקה/ג׳מייקה"
 
 #: src/Translations.vala:607
 msgid "Asia/Amman"
@@ -1256,7 +1256,7 @@ msgstr "האוקיינוס-השקט/טראווה"
 
 #: src/Translations.vala:619
 msgid "Gilbert Islands"
-msgstr ""
+msgstr "איי גילברט"
 
 #: src/Translations.vala:621
 msgid "Pacific/Enderbury"
@@ -1264,7 +1264,7 @@ msgstr "האוקיינוס-השקט/אנדרבורי"
 
 #: src/Translations.vala:623
 msgid "Phoenix Islands"
-msgstr ""
+msgstr "איי פניקס"
 
 #: src/Translations.vala:625
 msgid "Pacific/Kiritimati"
@@ -1272,7 +1272,7 @@ msgstr "האוקיינוס-השקט/קיריטימטי"
 
 #: src/Translations.vala:627
 msgid "Line Islands"
-msgstr ""
+msgstr "איי ליין"
 
 #: src/Translations.vala:629
 msgid "Indian/Comoro"
@@ -1280,7 +1280,7 @@ msgstr "הודו/קומורו"
 
 #: src/Translations.vala:631
 msgid "America/St_Kitts"
-msgstr "אמריקה/סט.קיטס"
+msgstr "אמריקה/סנט-קיטס"
 
 #: src/Translations.vala:633
 msgid "Asia/Pyongyang"
@@ -1304,7 +1304,7 @@ msgstr "אסיה/אלמטי"
 
 #: src/Translations.vala:643
 msgid "Kazakhstan (most areas)"
-msgstr ""
+msgstr "קזחסטן (רוב האזורים)"
 
 #: src/Translations.vala:645
 msgid "Asia/Qyzylorda"
@@ -1312,7 +1312,7 @@ msgstr "אסיה/קיזילורדה"
 
 #: src/Translations.vala:647
 msgid "Qyzylorda/Kyzylorda/Kzyl-Orda"
-msgstr ""
+msgstr "קיזילורדה/קזיל-אורדה"
 
 #: src/Translations.vala:649
 msgid "Asia/Aqtobe"
@@ -1320,7 +1320,7 @@ msgstr "אסיה/אקטובה"
 
 #: src/Translations.vala:651
 msgid "Aqtobe/Aktobe"
-msgstr ""
+msgstr "אקטובה"
 
 #: src/Translations.vala:653
 msgid "Asia/Aqtau"
@@ -1328,7 +1328,7 @@ msgstr "אסיה/אקטאו"
 
 #: src/Translations.vala:655
 msgid "Atyrau/Atirau/Gur'yev, Mangghystau/Mankistau"
-msgstr ""
+msgstr "אטיראו/גורייב, מנגיסטאו/מנקיסטאו"
 
 #: src/Translations.vala:657
 msgid "Asia/Oral"
@@ -1336,7 +1336,7 @@ msgstr "אסיה/אורל"
 
 #: src/Translations.vala:659
 msgid "West Kazakhstan"
-msgstr ""
+msgstr "מערב קזחסטן"
 
 #: src/Translations.vala:661
 msgid "Asia/Vientiane"
@@ -1348,7 +1348,7 @@ msgstr "אסיה/ביירות"
 
 #: src/Translations.vala:665
 msgid "America/St_Lucia"
-msgstr "אמריקה/סט.לוסיה"
+msgstr "אמריקה/סנט-לוסיה"
 
 #: src/Translations.vala:667
 msgid "Europe/Vaduz"
@@ -1392,11 +1392,11 @@ msgstr "אירופה/מונקו"
 
 #: src/Translations.vala:687
 msgid "Europe/Chisinau"
-msgstr "אירופה/צ'יסינאו"
+msgstr "אירופה/קישינייב"
 
 #: src/Translations.vala:689
 msgid "Europe/Podgorica"
-msgstr "אירופה/פודגוריקה"
+msgstr "אירופה/פודגוריצה"
 
 #: src/Translations.vala:691
 msgid "America/Marigot"
@@ -1408,23 +1408,23 @@ msgstr "הודו/אנטננריבו"
 
 #: src/Translations.vala:695
 msgid "Pacific/Majuro"
-msgstr "האוקיינוס-השקט/מג'ורו"
+msgstr "האוקיינוס-השקט/מג׳ורו"
 
 #: src/Translations.vala:697
 msgid "Marshall Islands (most areas)"
-msgstr ""
+msgstr "איי מרשל (רוב האזורים)"
 
 #: src/Translations.vala:699
 msgid "Pacific/Kwajalein"
-msgstr "האוקיינוס-השקט/קואג'ליין"
+msgstr "האוקיינוס-השקט/קווג׳לין"
 
 #: src/Translations.vala:701
 msgid "Kwajalein"
-msgstr "קוואג'אלין"
+msgstr "קווג׳לין"
 
 #: src/Translations.vala:703
 msgid "Europe/Skopje"
-msgstr "אירופה/סקופייה"
+msgstr "אירופה/סקופיה"
 
 #: src/Translations.vala:705
 msgid "Africa/Bamako"
@@ -1436,11 +1436,11 @@ msgstr "אסיה/ראנגון"
 
 #: src/Translations.vala:709
 msgid "Asia/Ulaanbaatar"
-msgstr "אסיה/אולאנבאטאר"
+msgstr "אסיה/אולן-בטור"
 
 #: src/Translations.vala:711
 msgid "Mongolia (most areas)"
-msgstr ""
+msgstr "מונגוליה (רוב האזורים)"
 
 #: src/Translations.vala:713
 msgid "Asia/Hovd"
@@ -1452,7 +1452,7 @@ msgstr ""
 
 #: src/Translations.vala:717
 msgid "Asia/Choibalsan"
-msgstr "אסיה/צ'ויבלסן"
+msgstr "אסיה/צ׳ויבלסאן"
 
 #: src/Translations.vala:719
 msgid "Dornod, Sukhbaatar"
@@ -1472,7 +1472,7 @@ msgstr "אמריקה/מרטיניק"
 
 #: src/Translations.vala:727
 msgid "Africa/Nouakchott"
-msgstr "אפריקה/נוקצ'וט"
+msgstr "אפריקה/נואקשוט"
 
 #: src/Translations.vala:729
 msgid "America/Montserrat"
@@ -1484,15 +1484,15 @@ msgstr "אירופה/מלטה"
 
 #: src/Translations.vala:733
 msgid "Indian/Mauritius"
-msgstr "הודו/מאוריציוס"
+msgstr "ההודי/מאוריציוס"
 
 #: src/Translations.vala:735
 msgid "Indian/Maldives"
-msgstr "הודו/האיים-המלדיביים"
+msgstr "ההודי/האיים-המלדיביים"
 
 #: src/Translations.vala:737
 msgid "Africa/Blantyre"
-msgstr "אפריקה/בלנטירה"
+msgstr "אפריקה/בלנטייר"
 
 #: src/Translations.vala:739
 msgid "America/Mexico_City"
@@ -1528,7 +1528,7 @@ msgstr ""
 
 #: src/Translations.vala:755
 msgid "America/Matamoros"
-msgstr ""
+msgstr "אמריקה/מטמורוס"
 
 #: src/Translations.vala:757
 msgid "Central Time US - Coahuila, Nuevo Leon, Tamaulipas (US border)"
@@ -1544,7 +1544,7 @@ msgstr ""
 
 #: src/Translations.vala:763
 msgid "America/Chihuahua"
-msgstr "אמריקה/צ'יווהווה"
+msgstr "אמריקה/צ׳יוואווה"
 
 #: src/Translations.vala:765
 msgid "Mountain Time - Chihuahua (most areas)"
@@ -1552,7 +1552,7 @@ msgstr ""
 
 #: src/Translations.vala:767
 msgid "America/Ojinaga"
-msgstr ""
+msgstr "אמריקה/אוחינאגה"
 
 #: src/Translations.vala:769
 msgid "Mountain Time US - Chihuahua (US border)"
@@ -1576,7 +1576,7 @@ msgstr ""
 
 #: src/Translations.vala:779
 msgid "America/Bahia_Banderas"
-msgstr ""
+msgstr "אמריקה/באהיה-בנדרס"
 
 #: src/Translations.vala:781
 msgid "Central Time - Bahia de Banderas"
@@ -1592,7 +1592,7 @@ msgstr ""
 
 #: src/Translations.vala:787
 msgid "Asia/Kuching"
-msgstr "אסיה/קוצ'ינג"
+msgstr "אסיה/קוצ׳ינג"
 
 #: src/Translations.vala:789
 msgid "Sabah, Sarawak"
@@ -1604,7 +1604,7 @@ msgstr "אפריקה/מפוטו"
 
 #: src/Translations.vala:793
 msgid "Africa/Windhoek"
-msgstr "אפריקה/ווינדהק"
+msgstr "אפריקה/וינדהוק"
 
 #: src/Translations.vala:795
 msgid "Pacific/Noumea"
@@ -1616,7 +1616,7 @@ msgstr "אפריקה/נאימאי"
 
 #: src/Translations.vala:799
 msgid "Pacific/Norfolk"
-msgstr "האוקיינוס-השקט/נורפולק"
+msgstr "האוקיינוס-השקט/נורפוק"
 
 #: src/Translations.vala:801
 msgid "Africa/Lagos"
@@ -1636,7 +1636,7 @@ msgstr "אירופה/אוסלו"
 
 #: src/Translations.vala:809
 msgid "Asia/Kathmandu"
-msgstr ""
+msgstr "אסיה/קטמנדו"
 
 #: src/Translations.vala:811
 msgid "Pacific/Nauru"
@@ -1652,15 +1652,15 @@ msgstr "האוקיינוס-השקט/אוקלנד"
 
 #: src/Translations.vala:817
 msgid "New Zealand (most areas)"
-msgstr ""
+msgstr "ניו זילנד (רוב האזורים)"
 
 #: src/Translations.vala:819
 msgid "Pacific/Chatham"
-msgstr "האוקיינוס-השקט/צ'תם"
+msgstr "האוקיינוס-השקט/צ׳טהאם"
 
 #: src/Translations.vala:821
 msgid "Chatham Islands"
-msgstr ""
+msgstr "איי צ׳טהאם"
 
 #: src/Translations.vala:823
 msgid "Asia/Muscat"
@@ -1680,7 +1680,7 @@ msgstr "האוקיינוס-השקט/טהיטי"
 
 #: src/Translations.vala:831
 msgid "Society Islands"
-msgstr ""
+msgstr "איי החברה"
 
 #: src/Translations.vala:833
 msgid "Pacific/Marquesas"
@@ -1688,7 +1688,7 @@ msgstr "האוקיינוס-השקט/מרקסס"
 
 #: src/Translations.vala:835
 msgid "Marquesas Islands"
-msgstr ""
+msgstr "איי מרקסס"
 
 #: src/Translations.vala:837
 msgid "Pacific/Gambier"
@@ -1696,7 +1696,7 @@ msgstr "האוקיינוס-השקט/גמבייר"
 
 #: src/Translations.vala:839
 msgid "Gambier Islands"
-msgstr ""
+msgstr "איי גמבייר"
 
 #: src/Translations.vala:841
 msgid "Pacific/Port_Moresby"
@@ -1704,15 +1704,15 @@ msgstr "האוקיינוס-השקט/פורט-מורסבי"
 
 #: src/Translations.vala:843
 msgid "Papua New Guinea (most areas)"
-msgstr ""
+msgstr "פפואה גינאה החדשה (רוב האזורים)"
 
 #: src/Translations.vala:845
 msgid "Pacific/Bougainville"
-msgstr ""
+msgstr "האוקיינוס-השקט/בוגנוויל"
 
 #: src/Translations.vala:847
 msgid "Bougainville"
-msgstr ""
+msgstr "בוגנוויל"
 
 #: src/Translations.vala:849
 msgid "Asia/Manila"
@@ -1720,15 +1720,15 @@ msgstr "אסיה/מנילה"
 
 #: src/Translations.vala:851
 msgid "Asia/Karachi"
-msgstr "אסיה/קאראצ'י"
+msgstr "אסיה/קראצ׳י"
 
 #: src/Translations.vala:853
 msgid "Europe/Warsaw"
-msgstr "אירופה/ווארשה"
+msgstr "אירופה/וורשה"
 
 #: src/Translations.vala:855
 msgid "America/Miquelon"
-msgstr "אמריקה/מיקולון"
+msgstr "אמריקה/מיקלון"
 
 #: src/Translations.vala:857
 msgid "Pacific/Pitcairn"
@@ -1744,15 +1744,15 @@ msgstr "אסיה/עזה"
 
 #: src/Translations.vala:863
 msgid "Gaza Strip"
-msgstr ""
+msgstr "רצועת עזה"
 
 #: src/Translations.vala:865
 msgid "Asia/Hebron"
-msgstr ""
+msgstr "אסיה/חברון"
 
 #: src/Translations.vala:867
 msgid "West Bank"
-msgstr ""
+msgstr "הגדה המערבית"
 
 #: src/Translations.vala:869
 msgid "Europe/Lisbon"
@@ -1768,7 +1768,7 @@ msgstr "האוקיינוס-האטלנטי/מדיירה"
 
 #: src/Translations.vala:875
 msgid "Madeira Islands"
-msgstr ""
+msgstr "איי מדיירה"
 
 #: src/Translations.vala:877
 msgid "Atlantic/Azores"
@@ -1776,7 +1776,7 @@ msgstr "האוקיינוס-האטלנטי/האיים-האזוריים"
 
 #: src/Translations.vala:879
 msgid "Azores"
-msgstr ""
+msgstr "אזוריים"
 
 #: src/Translations.vala:881
 msgid "Pacific/Palau"
@@ -1808,15 +1808,15 @@ msgstr "אירופה/קלינינגרד"
 
 #: src/Translations.vala:895
 msgid "MSK-01 - Kaliningrad"
-msgstr ""
+msgstr "MSK-01 - קלינינגרד"
 
 #: src/Translations.vala:897
 msgid "Europe/Moscow"
-msgstr "אירופה/מוסקווה"
+msgstr "אירופה/מוסקבה"
 
 #: src/Translations.vala:899
 msgid "MSK+00 - Moscow area"
-msgstr ""
+msgstr "MSK+00 - אזור מוסקבה"
 
 #: src/Translations.vala:901
 msgid "Europe/Simferopol"
@@ -1824,7 +1824,7 @@ msgstr "אירופה/סימפרופול"
 
 #: src/Translations.vala:903
 msgid "MSK+00 - Crimea"
-msgstr ""
+msgstr "MSK+00 - קרים"
 
 #: src/Translations.vala:905
 msgid "Europe/Volgograd"
