@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-power\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-19 02:05-0500\n"
-"PO-Revision-Date: 2018-05-18 14:34+0000\n"
+"PO-Revision-Date: 2018-05-19 00:11+0000\n"
 "Last-Translator: Jan Marek <janmarek28@gmail.com>\n"
 "Language-Team: Czech <https://weblate.elementary.io/projects/switchboard"
 "/switchboard-plug-datetime/cs/>\n"
@@ -722,7 +722,7 @@ msgstr "Amerika/Yellowknife"
 
 #: src/Translations.vala:353
 msgid "Mountain - NT (central)"
-msgstr "Mountain - NT (střed)"
+msgstr "Mountain - NT (centrální)"
 
 #: src/Translations.vala:355
 msgid "America/Inuvik"
@@ -1541,7 +1541,7 @@ msgstr "Amerika/Mazatlan"
 
 #: src/Translations.vala:761
 msgid "Mountain Time - Baja California Sur, Nayarit, Sinaloa"
-msgstr "Mountain Time - Baja California Sur, Nayarit, Sinaloa"
+msgstr "Mountain čas - Baja California Sur, Nayarit, Sinaloa"
 
 #: src/Translations.vala:763
 msgid "America/Chihuahua"
@@ -1549,7 +1549,7 @@ msgstr "Amerika/Chihuahua"
 
 #: src/Translations.vala:765
 msgid "Mountain Time - Chihuahua (most areas)"
-msgstr "Mountain Time - Chihuahua (většina oblastí)"
+msgstr "Mountain čas - Chihuahua (většina oblastí)"
 
 #: src/Translations.vala:767
 msgid "America/Ojinaga"
@@ -1557,7 +1557,7 @@ msgstr "Amerika/Ojinaga"
 
 #: src/Translations.vala:769
 msgid "Mountain Time US - Chihuahua (US border)"
-msgstr "Mountain Time USA - Chihuahua (hranice USA)"
+msgstr "Mountain čas USA - Chihuahua (hranice USA)"
 
 #: src/Translations.vala:771
 msgid "America/Hermosillo"
@@ -1565,7 +1565,7 @@ msgstr "Amerika/Hermosillo"
 
 #: src/Translations.vala:773
 msgid "Mountain Standard Time - Sonora"
-msgstr "Horský standardní čas - Sonora"
+msgstr "Horský (Mountain) standardní čas - Sonora"
 
 #: src/Translations.vala:775
 msgid "America/Tijuana"
