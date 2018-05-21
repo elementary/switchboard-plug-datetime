@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: timezones.tip\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-19 02:05-0500\n"
-"PO-Revision-Date: 2018-05-18 00:08+0000\n"
+"PO-Revision-Date: 2018-05-22 00:09+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://weblate.elementary.io/projects/switchboard"
 "/switchboard-plug-datetime/he/>\n"
@@ -667,7 +667,7 @@ msgstr "אמריקה/רייני-ריבר"
 
 #: src/Translations.vala:325
 msgid "Central - ON (Rainy R, Ft Frances)"
-msgstr ""
+msgstr "מרכזי - ON (נהר רייני, פורט פרנסס)"
 
 #: src/Translations.vala:327
 msgid "America/Resolute"
@@ -675,7 +675,7 @@ msgstr "אמריקה/רזולוט"
 
 #: src/Translations.vala:329
 msgid "Central - NU (Resolute)"
-msgstr ""
+msgstr "מרכזי - NU (רזולוט)"
 
 #: src/Translations.vala:331
 msgid "America/Rankin_Inlet"
@@ -683,7 +683,7 @@ msgstr "אמריקה/רנקין-אינלט"
 
 #: src/Translations.vala:333
 msgid "Central - NU (central)"
-msgstr ""
+msgstr "מרכזי - NU (מרכז)"
 
 #: src/Translations.vala:335
 msgid "America/Regina"
@@ -707,7 +707,7 @@ msgstr "אמריקה/אדמונטון"
 
 #: src/Translations.vala:345
 msgid "Mountain - AB; BC (E); SK (W)"
-msgstr ""
+msgstr "הר - AB; BC (E); SK (W)"
 
 #: src/Translations.vala:347
 msgid "America/Cambridge_Bay"
@@ -715,7 +715,7 @@ msgstr "אמריקה/קיימברידג׳-ביי"
 
 #: src/Translations.vala:349
 msgid "Mountain - NU (west)"
-msgstr ""
+msgstr "הר - NU (מערב)"
 
 #: src/Translations.vala:351
 msgid "America/Yellowknife"
@@ -723,7 +723,7 @@ msgstr "אמריקה/יילואונייף"
 
 #: src/Translations.vala:353
 msgid "Mountain - NT (central)"
-msgstr ""
+msgstr "הר - NT (מרכז)"
 
 #: src/Translations.vala:355
 msgid "America/Inuvik"
@@ -731,7 +731,7 @@ msgstr "אמריקה/אינוויק"
 
 #: src/Translations.vala:357
 msgid "Mountain - NT (west)"
-msgstr ""
+msgstr "הר - NT (מערב)"
 
 #: src/Translations.vala:359
 msgid "America/Creston"
@@ -763,7 +763,7 @@ msgstr "אמריקה/ונקובר"
 
 #: src/Translations.vala:373
 msgid "Pacific - BC (most areas)"
-msgstr ""
+msgstr "האוקיינוס השקט - BC (רוב האזורים)"
 
 #: src/Translations.vala:375
 msgid "America/Whitehorse"
@@ -771,7 +771,7 @@ msgstr "אמריקה/ווייטהורס"
 
 #: src/Translations.vala:377
 msgid "Pacific - Yukon (south)"
-msgstr ""
+msgstr "האוקיינוס השקט - יוקון (דרום)"
 
 #: src/Translations.vala:379
 msgid "America/Dawson"
@@ -779,7 +779,7 @@ msgstr "אמריקה/דאוסון"
 
 #: src/Translations.vala:381
 msgid "Pacific - Yukon (north)"
-msgstr ""
+msgstr "האוקיינוס השקט - יוקון (צפון)"
 
 #: src/Translations.vala:383
 msgid "Indian/Cocos"
@@ -1075,7 +1075,7 @@ msgstr "אמריקה/דנמרקסהוון"
 
 #: src/Translations.vala:529
 msgid "National Park (east coast)"
-msgstr ""
+msgstr "פארק לאומי (החוף המזרחי)"
 
 #: src/Translations.vala:531
 msgid "America/Scoresbysund"
@@ -1083,7 +1083,7 @@ msgstr "אמריקה/סקורסבייסונד"
 
 #: src/Translations.vala:533
 msgid "Scoresbysund/Ittoqqortoormiit"
-msgstr ""
+msgstr "מצר-סקורזבי/איטוקורטורמיט"
 
 #: src/Translations.vala:535
 msgid "America/Thule"
@@ -1167,7 +1167,7 @@ msgstr "אסיה/פונטיאנק"
 
 #: src/Translations.vala:575
 msgid "Borneo (west, central)"
-msgstr ""
+msgstr "בורנאו (מערב, מרכז)"
 
 #: src/Translations.vala:577
 msgid "Asia/Makassar"
@@ -1184,7 +1184,7 @@ msgstr "אסיה/ג׳איאפורה"
 
 #: src/Translations.vala:583
 msgid "New Guinea (West Papua / Irian Jaya); Malukus/Moluccas"
-msgstr ""
+msgstr "גינאה החדשה (פפואה המערבית / איריאן ג׳איא); איי מאלוקו/מולוקה"
 
 #: src/Translations.vala:585
 msgid "Europe/Dublin"
@@ -1456,7 +1456,7 @@ msgstr "אסיה/צ׳ויבלסאן"
 
 #: src/Translations.vala:719
 msgid "Dornod, Sukhbaatar"
-msgstr ""
+msgstr "דורנוד, סוחבאטאר"
 
 #: src/Translations.vala:721
 msgid "Asia/Macau"
@@ -1500,7 +1500,7 @@ msgstr "אמריקה/מקסיקו-סיטי"
 
 #: src/Translations.vala:741
 msgid "Central Time"
-msgstr ""
+msgstr "הזמן המרכזי"
 
 #: src/Translations.vala:743
 msgid "America/Cancun"
@@ -1508,7 +1508,7 @@ msgstr "אמריקה/קנקון"
 
 #: src/Translations.vala:745
 msgid "Eastern Standard Time - Quintana Roo"
-msgstr ""
+msgstr "שעון החוף המזרחי - קינטנה רו"
 
 #: src/Translations.vala:747
 msgid "America/Merida"
@@ -1516,7 +1516,7 @@ msgstr "אמריקה/מרידה"
 
 #: src/Translations.vala:749
 msgid "Central Time - Campeche, Yucatan"
-msgstr ""
+msgstr "שעון המרכז - קמפצ׳ה, יוקטן"
 
 #: src/Translations.vala:751
 msgid "America/Monterrey"
@@ -1524,7 +1524,7 @@ msgstr "אמריקה/מונטריי"
 
 #: src/Translations.vala:753
 msgid "Central Time - Durango; Coahuila, Nuevo Leon, Tamaulipas (most areas)"
-msgstr ""
+msgstr "שעון המרכז - דורנגו; קואווילה, נואבו לאון, טמאוליפס (רוב האזורים)"
 
 #: src/Translations.vala:755
 msgid "America/Matamoros"
@@ -1532,7 +1532,7 @@ msgstr "אמריקה/מטמורוס"
 
 #: src/Translations.vala:757
 msgid "Central Time US - Coahuila, Nuevo Leon, Tamaulipas (US border)"
-msgstr ""
+msgstr "שעון מרכז ארה״ב - קואווילה, נואבו לאון, טמאוליפס (גבול ארה״ב)"
 
 #: src/Translations.vala:759
 msgid "America/Mazatlan"
@@ -1540,7 +1540,7 @@ msgstr "אמריקה/מזטלן"
 
 #: src/Translations.vala:761
 msgid "Mountain Time - Baja California Sur, Nayarit, Sinaloa"
-msgstr ""
+msgstr "זמן ההר - באחה קליפורניה הדרומית, נאיאריט, סינלואה"
 
 #: src/Translations.vala:763
 msgid "America/Chihuahua"
@@ -1548,7 +1548,7 @@ msgstr "אמריקה/צ׳יוואווה"
 
 #: src/Translations.vala:765
 msgid "Mountain Time - Chihuahua (most areas)"
-msgstr ""
+msgstr "זמן ההר - צ׳יוואווה (רוב האזורים)"
 
 #: src/Translations.vala:767
 msgid "America/Ojinaga"
@@ -1556,7 +1556,7 @@ msgstr "אמריקה/אוחינאגה"
 
 #: src/Translations.vala:769
 msgid "Mountain Time US - Chihuahua (US border)"
-msgstr ""
+msgstr "זמן ההר בארה״ב - צ׳יוואווה (גבול ארה״ב)"
 
 #: src/Translations.vala:771
 msgid "America/Hermosillo"
@@ -1564,7 +1564,7 @@ msgstr "אמריקה/הרמוסיו"
 
 #: src/Translations.vala:773
 msgid "Mountain Standard Time - Sonora"
-msgstr ""
+msgstr "שעון ההר התקני - סונורה"
 
 #: src/Translations.vala:775
 msgid "America/Tijuana"
@@ -1572,7 +1572,7 @@ msgstr "אמריקה/טיחואנה"
 
 #: src/Translations.vala:777
 msgid "Pacific Time US - Baja California"
-msgstr ""
+msgstr "שעון האוקיינוס השקט ארה״ב - באחה קליפורניה"
 
 #: src/Translations.vala:779
 msgid "America/Bahia_Banderas"
@@ -1580,7 +1580,7 @@ msgstr "אמריקה/באהיה-בנדרס"
 
 #: src/Translations.vala:781
 msgid "Central Time - Bahia de Banderas"
-msgstr ""
+msgstr "הזמן המרכזי - באהיה דה בנדרס"
 
 #: src/Translations.vala:783
 msgid "Asia/Kuala_Lumpur"
@@ -1588,7 +1588,7 @@ msgstr "אסיה/קואלה-לומפור"
 
 #: src/Translations.vala:785
 msgid "Malaysia (peninsula)"
-msgstr ""
+msgstr "מלזיה (חצי אי)"
 
 #: src/Translations.vala:787
 msgid "Asia/Kuching"
@@ -2184,7 +2184,7 @@ msgstr "אירופה/זפורוזי"
 
 #: src/Translations.vala:1083
 msgid "Zaporozh'ye/Zaporizhia; Lugansk/Luhansk (east)"
-msgstr ""
+msgstr "זפוריז׳יה/זופרוז׳יה; לוגנסק/לוהנסק (מזרח)"
 
 #: src/Translations.vala:1085
 msgid "Africa/Kampala"
@@ -2196,7 +2196,7 @@ msgstr "האוקיינוס-השקט/ג'ונסון"
 
 #: src/Translations.vala:1089
 msgid "Johnston Atoll"
-msgstr ""
+msgstr "אטול ג׳ונסטון"
 
 #: src/Translations.vala:1091
 msgid "Pacific/Midway"
@@ -2204,7 +2204,7 @@ msgstr "האוקיינוס-השקט/מידווי"
 
 #: src/Translations.vala:1093
 msgid "Midway Islands"
-msgstr ""
+msgstr "אטול מידוויי"
 
 #: src/Translations.vala:1095
 msgid "Pacific/Wake"
@@ -2212,7 +2212,7 @@ msgstr "האוקיינוס-השקט/ווייק"
 
 #: src/Translations.vala:1097
 msgid "Wake Island"
-msgstr ""
+msgstr "אטול וייק"
 
 #: src/Translations.vala:1099
 msgid "America/New_York"
@@ -2220,7 +2220,7 @@ msgstr "אמריקה/ניו-יורק"
 
 #: src/Translations.vala:1101
 msgid "Eastern (most areas)"
-msgstr ""
+msgstr "מזרחי (רוב האזורים)"
 
 #: src/Translations.vala:1103
 msgid "America/Detroit"
@@ -2228,7 +2228,7 @@ msgstr "אמריקה/דטרויט"
 
 #: src/Translations.vala:1105
 msgid "Eastern - MI (most areas)"
-msgstr ""
+msgstr "מזרחי - MI (רוב האזורים)"
 
 #: src/Translations.vala:1107
 msgid "America/Kentucky/Louisville"
@@ -2236,7 +2236,7 @@ msgstr "אמריקה/קנטקי/לואיסוויל"
 
 #: src/Translations.vala:1109
 msgid "Eastern - KY (Louisville area)"
-msgstr ""
+msgstr "מזרחי - KY (אזור לואיוויל)"
 
 #: src/Translations.vala:1111
 msgid "America/Kentucky/Monticello"
@@ -2244,7 +2244,7 @@ msgstr "אמריקה/קנטקי/מונטיסלו"
 
 #: src/Translations.vala:1113
 msgid "Eastern - KY (Wayne)"
-msgstr ""
+msgstr "מזרחי - KY (ויין)"
 
 #: src/Translations.vala:1115
 msgid "America/Indiana/Indianapolis"
@@ -2252,7 +2252,7 @@ msgstr "אמריקה/אינדיאנה/אינדיאנפוליס"
 
 #: src/Translations.vala:1117
 msgid "Eastern - IN (most areas)"
-msgstr ""
+msgstr "מזרחי - IN (רוב האזורים)"
 
 #: src/Translations.vala:1119
 msgid "America/Indiana/Vincennes"
@@ -2260,7 +2260,7 @@ msgstr "אמריקה/אינדיאנה/וינסנס"
 
 #: src/Translations.vala:1121
 msgid "Eastern - IN (Da, Du, K, Mn)"
-msgstr ""
+msgstr "מזרחי - IN‏ (Da,‏ Du,‏ K,‏ Mn)"
 
 #: src/Translations.vala:1123
 msgid "America/Indiana/Winamac"
@@ -2268,7 +2268,7 @@ msgstr "אמריקה/אינדיאנה/ווינמק"
 
 #: src/Translations.vala:1125
 msgid "Eastern - IN (Pulaski)"
-msgstr ""
+msgstr "מזרחי - IN (פולסקי)"
 
 #: src/Translations.vala:1127
 msgid "America/Indiana/Marengo"
@@ -2276,7 +2276,7 @@ msgstr "אמריקה/אינדיאנה/מרנגו"
 
 #: src/Translations.vala:1129
 msgid "Eastern - IN (Crawford)"
-msgstr ""
+msgstr "מזרחי - IN (קרופורד)"
 
 #: src/Translations.vala:1131
 msgid "America/Indiana/Petersburg"
@@ -2284,7 +2284,7 @@ msgstr "אמריקה/אינדיאנה/פטרסבורג"
 
 #: src/Translations.vala:1133
 msgid "Eastern - IN (Pike)"
-msgstr ""
+msgstr "מזרחי - IN (פייק)"
 
 #: src/Translations.vala:1135
 msgid "America/Indiana/Vevay"
@@ -2292,7 +2292,7 @@ msgstr "אמריקה/אינדיאנה/ווהווי"
 
 #: src/Translations.vala:1137
 msgid "Eastern - IN (Switzerland)"
-msgstr ""
+msgstr "מזרחי - IN (סוויצרלנד)"
 
 #: src/Translations.vala:1139
 msgid "America/Chicago"
@@ -2300,7 +2300,7 @@ msgstr "אמריקה/שיקגו"
 
 #: src/Translations.vala:1141
 msgid "Central (most areas)"
-msgstr ""
+msgstr "מרכזי (רוב האזורים)"
 
 #: src/Translations.vala:1143
 msgid "America/Indiana/Tell_City"
@@ -2308,7 +2308,7 @@ msgstr "אמריקה/אינדיאנה/טל-סיטי"
 
 #: src/Translations.vala:1145
 msgid "Central - IN (Perry)"
-msgstr ""
+msgstr "מרכזי - IN (פרי)"
 
 #: src/Translations.vala:1147
 msgid "America/Indiana/Knox"
@@ -2316,7 +2316,7 @@ msgstr "אמריקה/אינדיאנה/נוקס"
 
 #: src/Translations.vala:1149
 msgid "Central - IN (Starke)"
-msgstr ""
+msgstr "מרכזי - IN (סטארק)"
 
 #: src/Translations.vala:1151
 msgid "America/Menominee"
@@ -2324,7 +2324,7 @@ msgstr "אמריקה/מנומיני"
 
 #: src/Translations.vala:1153
 msgid "Central - MI (Wisconsin border)"
-msgstr ""
+msgstr "מרכזי - MI (גבול ויסקונסין)"
 
 #: src/Translations.vala:1155
 msgid "America/North_Dakota/Center"
@@ -2332,7 +2332,7 @@ msgstr "אמריקה/דקוטה-הצפונית/מרכז"
 
 #: src/Translations.vala:1157
 msgid "Central - ND (Oliver)"
-msgstr ""
+msgstr "מרכזי - ND (אוליבר)"
 
 #: src/Translations.vala:1159
 msgid "America/North_Dakota/New_Salem"
@@ -2340,15 +2340,15 @@ msgstr "אמריקה/דקוטה-הצפונית/ניו-סאלם"
 
 #: src/Translations.vala:1161
 msgid "Central - ND (Morton rural)"
-msgstr ""
+msgstr "מרכזי - ND (האזור הכפרי של מורטון)"
 
 #: src/Translations.vala:1163
 msgid "America/North_Dakota/Beulah"
-msgstr ""
+msgstr "אמריקה/דקוטה-הצפונית/ביולה"
 
 #: src/Translations.vala:1165
 msgid "Central - ND (Mercer)"
-msgstr ""
+msgstr "מרכזי - ND (מרסר)"
 
 #: src/Translations.vala:1167
 msgid "America/Denver"
@@ -2356,7 +2356,7 @@ msgstr "אמריקה/דנבר"
 
 #: src/Translations.vala:1169
 msgid "Mountain (most areas)"
-msgstr ""
+msgstr "הר (רוב האזורים)"
 
 #: src/Translations.vala:1171
 msgid "America/Boise"
@@ -2364,7 +2364,7 @@ msgstr "אמריקה/בויז"
 
 #: src/Translations.vala:1173
 msgid "Mountain - ID (south); OR (east)"
-msgstr ""
+msgstr "הר - ID (דרום); OR (מזרח)"
 
 #: src/Translations.vala:1175
 msgid "America/Phoenix"
@@ -2372,7 +2372,7 @@ msgstr "אמריקה/פניקס"
 
 #: src/Translations.vala:1177
 msgid "MST - Arizona (except Navajo)"
-msgstr ""
+msgstr "זמן תקני בהר - אריזונה (חוץ מנבאחו)"
 
 #: src/Translations.vala:1179
 msgid "America/Los_Angeles"
@@ -2380,7 +2380,7 @@ msgstr "אמריקה/לוס-אנג׳לס"
 
 #: src/Translations.vala:1181 src/Widgets/TZPopover.vala:73
 msgid "Pacific"
-msgstr ""
+msgstr "האוקיינוס השקט"
 
 #: src/Translations.vala:1183
 msgid "America/Anchorage"
@@ -2468,15 +2468,15 @@ msgstr "אוזבקיסטן (מזרח)"
 
 #: src/Translations.vala:1225
 msgid "Europe/Vatican"
-msgstr "אירופה/וותיקן"
+msgstr "אירופה/ותיקן"
 
 #: src/Translations.vala:1227
 msgid "America/St_Vincent"
-msgstr "אמריקה/סנט וינסנט"
+msgstr "אמריקה/סנט-וינסנט"
 
 #: src/Translations.vala:1229
 msgid "America/Caracas"
-msgstr "אמריקה/קאראקס"
+msgstr "אמריקה/קראקס"
 
 #: src/Translations.vala:1231
 msgid "America/Tortola"
@@ -2484,11 +2484,11 @@ msgstr "אמריקה/טורטולה"
 
 #: src/Translations.vala:1233
 msgid "America/St_Thomas"
-msgstr "אמריקה/סט.תומס"
+msgstr "אמריקה/סנט-תומס"
 
 #: src/Translations.vala:1235
 msgid "Asia/Ho_Chi_Minh"
-msgstr "אסיה/הו צ׳י מין"
+msgstr "אסיה/הו-צ׳י-מין"
 
 #: src/Translations.vala:1237
 msgid "Pacific/Efate"
