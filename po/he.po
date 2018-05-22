@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: timezones.tip\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-19 02:05-0500\n"
-"PO-Revision-Date: 2018-05-22 00:09+0000\n"
+"PO-Revision-Date: 2018-05-23 00:07+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://weblate.elementary.io/projects/switchboard"
 "/switchboard-plug-datetime/he/>\n"
@@ -1832,23 +1832,23 @@ msgstr "אירופה/וולגוגרד"
 
 #: src/Translations.vala:907
 msgid "MSK+00 - Volgograd, Saratov"
-msgstr ""
+msgstr "MSK+00 - וולגוגרד, סראטוב"
 
 #: src/Translations.vala:909
 msgid "Europe/Kirov"
-msgstr ""
+msgstr "אירופה/קירוב"
 
 #: src/Translations.vala:911
 msgid "MSK+00 - Kirov"
-msgstr ""
+msgstr "MSK+00 - קירוב"
 
 #: src/Translations.vala:913
 msgid "Europe/Astrakhan"
-msgstr ""
+msgstr "אירופה/אסטרחן"
 
 #: src/Translations.vala:915
 msgid "MSK+01 - Astrakhan"
-msgstr ""
+msgstr "MSK+01 - אסטרחן"
 
 #: src/Translations.vala:917
 msgid "Europe/Samara"
