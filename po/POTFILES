@@ -1,0 +1,8 @@
+src/Translations.vala
+src/Plug.vala
+src/Parser.vala
+src/DateTime1.vala
+src/CurrentTimeManager.vala
+src/Widgets/TZPopover.vala
+src/Widgets/TimeZoneButton.vala
+src/Widgets/TimeMap.vala

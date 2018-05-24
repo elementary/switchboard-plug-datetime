@@ -1,31 +1,21 @@
 Source: switchboard-plug-datetime
 Section: x11
 Priority: optional
-Maintainer: Corentin Noël <corentin@elementaryos.org>
-Build-Depends: cmake,
-               debhelper (>= 9),
+Maintainer: elementary OS Team <builds@elementary.io>
+Build-Depends: debhelper (>= 10.5.1),
+               gettext,
                libgranite-dev,
                libswitchboard-2.0-dev,
+               meson,
                valac (>= 0.22)
-Standards-Version: 3.9.2
-Homepage: https://launchpad.net/switchboard-plug-datetime
+Standards-Version: 4.1.1
+Homepage: https://github.com/elementary/switchboard-plug-datetime
 
 Package: switchboard-plug-datetime
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}, laptop-detect
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Enhances: switchboard
 Conflicts: switchboard-plug-gcc-date
 Replaces: switchboard-plug-gcc-date
 Description: Date & Time plug for Switchboard
  This plug configures system time and date.
-
-Package: switchboard-plug-datetime-dbg
-Architecture: any
-Section: debug
-Priority: extra
-Depends: switchboard-plug-datetime (= ${binary:Version}), ${misc:Depends}
-Enhances: switchboard-plug-datetime
-Description: Date & Time plug for Switchboard (debugging symbols)
- This plug configures system time and date.
- .
- This package contains debugging symbols for switchboard-plug-datetime.
