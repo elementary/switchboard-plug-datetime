@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: timezones.tip\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-19 02:05-0500\n"
-"PO-Revision-Date: 2018-05-24 00:10+0000\n"
+"PO-Revision-Date: 2018-05-27 14:23+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://weblate.elementary.io/projects/switchboard"
 "/switchboard-plug-datetime/he/>\n"
@@ -603,7 +603,7 @@ msgstr "אמריקה/בלנק-סבלון"
 
 #: src/Translations.vala:293
 msgid "AST - QC (Lower North Shore)"
-msgstr ""
+msgstr "האטלנטי - QC (החוף הצפוני התחתון)"
 
 #: src/Translations.vala:295
 msgid "America/Toronto"
@@ -611,7 +611,7 @@ msgstr "אמריקה/טורונטו"
 
 #: src/Translations.vala:297
 msgid "Eastern - ON, QC (most areas)"
-msgstr ""
+msgstr "המזרחי - ON,‏ QC (רוב האזורים)"
 
 #: src/Translations.vala:299
 msgid "America/Nipigon"
@@ -651,7 +651,7 @@ msgstr "אמריקה/אטיקוקאן"
 
 #: src/Translations.vala:317
 msgid "EST - ON (Atikokan); NU (Coral H)"
-msgstr ""
+msgstr "המזרחי - ON (אטיקוקן); NU (מפרץ האלמוגים)"
 
 #: src/Translations.vala:319
 msgid "America/Winnipeg"
@@ -691,7 +691,7 @@ msgstr "אמריקה/רג׳יינה"
 
 #: src/Translations.vala:337
 msgid "CST - SK (most areas)"
-msgstr ""
+msgstr "המרכזי - SK (רוב האזורים)"
 
 #: src/Translations.vala:339
 msgid "America/Swift_Current"
@@ -699,7 +699,7 @@ msgstr "אמריקה/סוויפט-קורנט"
 
 #: src/Translations.vala:341
 msgid "CST - SK (midwest)"
-msgstr ""
+msgstr "המרכזי - SK (המערב התיכון)"
 
 #: src/Translations.vala:343
 msgid "America/Edmonton"
@@ -739,7 +739,7 @@ msgstr "אמריקה/קרסטון"
 
 #: src/Translations.vala:361
 msgid "MST - BC (Creston)"
-msgstr ""
+msgstr "הר - BC (קרסטון)"
 
 #: src/Translations.vala:363
 msgid "America/Dawson_Creek"
@@ -747,7 +747,7 @@ msgstr "אמריקה/דוסון-קריק"
 
 #: src/Translations.vala:365
 msgid "MST - BC (Dawson Cr, Ft St John)"
-msgstr ""
+msgstr "הר - BC (דוסון קריק, פורט סנט ג׳ון)"
 
 #: src/Translations.vala:367
 msgid "America/Fort_Nelson"
@@ -755,7 +755,7 @@ msgstr "אמריקה/פורט-נלסון"
 
 #: src/Translations.vala:369
 msgid "MST - BC (Ft Nelson)"
-msgstr ""
+msgstr "הר - BC (פורט נלסון)"
 
 #: src/Translations.vala:371
 msgid "America/Vancouver"
@@ -931,7 +931,7 @@ msgstr "אמריקה/גואייקיל"
 
 #: src/Translations.vala:457
 msgid "Ecuador (mainland)"
-msgstr ""
+msgstr "אקוודור (המדינה עצמה)"
 
 #: src/Translations.vala:459
 msgid "Pacific/Galapagos"
@@ -963,7 +963,7 @@ msgstr "אירופה/מדריד"
 
 #: src/Translations.vala:473
 msgid "Spain (mainland)"
-msgstr ""
+msgstr "ספרד (המדינה עצמה)"
 
 #: src/Translations.vala:475
 msgid "Africa/Ceuta"
@@ -1176,7 +1176,7 @@ msgstr "אסיה/מקסאר"
 #: src/Translations.vala:579
 msgid ""
 "Borneo (east, south); Sulawesi/Celebes, Bali, Nusa Tengarra; Timor (west)"
-msgstr ""
+msgstr "בורנאו (מזרח, מערב); סולאווסי/סלבס, באלי, נוסה טנגרה; טימור (מערב)"
 
 #: src/Translations.vala:581
 msgid "Asia/Jayapura"
@@ -1444,11 +1444,11 @@ msgstr "מונגוליה (רוב האזורים)"
 
 #: src/Translations.vala:713
 msgid "Asia/Hovd"
-msgstr "אסיה/הובד"
+msgstr "אסיה/חובד"
 
 #: src/Translations.vala:715
 msgid "Bayan-Olgiy, Govi-Altai, Hovd, Uvs, Zavkhan"
-msgstr ""
+msgstr "באיין-אולגי, גובי-אלטאי, חובד, אובס, זבחאן"
 
 #: src/Translations.vala:717
 msgid "Asia/Choibalsan"
@@ -1460,7 +1460,7 @@ msgstr "דורנוד, סוחבאטאר"
 
 #: src/Translations.vala:721
 msgid "Asia/Macau"
-msgstr "אסיה/מקאְו"
+msgstr "אסיה/מקאו"
 
 #: src/Translations.vala:723
 msgid "Pacific/Saipan"
@@ -1596,7 +1596,7 @@ msgstr "אסיה/קוצ׳ינג"
 
 #: src/Translations.vala:789
 msgid "Sabah, Sarawak"
-msgstr ""
+msgstr "סבה, סראוואק"
 
 #: src/Translations.vala:791
 msgid "Africa/Maputo"
@@ -1760,7 +1760,7 @@ msgstr "אירופה/ליסבון"
 
 #: src/Translations.vala:871
 msgid "Portugal (mainland)"
-msgstr ""
+msgstr "פורטוגל (המדינה עצמה)"
 
 #: src/Translations.vala:873
 msgid "Atlantic/Madeira"
@@ -1920,11 +1920,11 @@ msgstr "אסיה/קרסנוירסק"
 
 #: src/Translations.vala:951
 msgid "MSK+04 - Krasnoyarsk area"
-msgstr "MSK+04 - קרסנוירק"
+msgstr "MSK+04 - אזור קרסנוירק"
 
 #: src/Translations.vala:953
 msgid "Asia/Irkutsk"
-msgstr "אסיה/אירקוצק"
+msgstr "אסיה/אירקוטסק"
 
 #: src/Translations.vala:955
 msgid "MSK+05 - Irkutsk, Buryatia"
@@ -1952,55 +1952,55 @@ msgstr "אסיה/חנדיגה"
 
 #: src/Translations.vala:967
 msgid "MSK+06 - Tomponsky, Ust-Maysky"
-msgstr ""
+msgstr "MSK+06 - טומפונסקי, אוסט מייסקי"
 
 #: src/Translations.vala:969
 msgid "Asia/Vladivostok"
-msgstr "אסיה/וולדיווסטוק"
+msgstr "אסיה/ולדיווסטוק"
 
 #: src/Translations.vala:971
 msgid "MSK+07 - Amur River"
-msgstr ""
+msgstr "MSK+07 - נהר אמור"
 
 #: src/Translations.vala:973
 msgid "Asia/Ust-Nera"
-msgstr ""
+msgstr "אסיה/אוסט-נרה"
 
 #: src/Translations.vala:975
 msgid "MSK+07 - Oymyakonsky"
-msgstr ""
+msgstr "MSK+07 - אוימיאקונסקי"
 
 #: src/Translations.vala:977
 msgid "Asia/Magadan"
-msgstr "אסיה/מגדאן"
+msgstr "אסיה/מגדן"
 
 #: src/Translations.vala:979
 msgid "MSK+08 - Magadan"
-msgstr ""
+msgstr "MSK+08 - מגדן"
 
 #: src/Translations.vala:981
 msgid "Asia/Sakhalin"
-msgstr "אסיה/סחאלין"
+msgstr "אסיה/סחלין"
 
 #: src/Translations.vala:983
 msgid "MSK+08 - Sakhalin Island"
-msgstr ""
+msgstr "MSK+08 - האי סחלין"
 
 #: src/Translations.vala:985
 msgid "Asia/Srednekolymsk"
-msgstr ""
+msgstr "אסיה/סרדנקולימסק"
 
 #: src/Translations.vala:987
 msgid "MSK+08 - Sakha (E); North Kuril Is"
-msgstr ""
+msgstr "MSK+08 - סאחה (מז׳); האיים הקוריליים הצפוניים"
 
 #: src/Translations.vala:989
 msgid "Asia/Kamchatka"
-msgstr "אסיה/קמצ'טקה"
+msgstr "אסיה/קמצ׳טקה"
 
 #: src/Translations.vala:991
 msgid "MSK+09 - Kamchatka"
-msgstr ""
+msgstr "MSK+09 - קמצ׳טקה"
 
 #: src/Translations.vala:993
 msgid "Asia/Anadyr"
@@ -2008,7 +2008,7 @@ msgstr "אסיה/אנדיר"
 
 #: src/Translations.vala:995
 msgid "MSK+09 - Bering Sea"
-msgstr ""
+msgstr "MSK+09 - ים ברינג"
 
 #: src/Translations.vala:997
 msgid "Africa/Kigali"
@@ -2076,7 +2076,7 @@ msgstr "אמריקה/פרמריבו"
 
 #: src/Translations.vala:1029
 msgid "Africa/Juba"
-msgstr ""
+msgstr "אפריקה/ג׳ובה"
 
 #: src/Translations.vala:1031
 msgid "Africa/Sao_Tome"
@@ -2088,7 +2088,7 @@ msgstr "אמריקה/אל-סלוודור"
 
 #: src/Translations.vala:1035
 msgid "America/Lower_Princes"
-msgstr ""
+msgstr "אמריקה/לואר-פרינסס"
 
 #: src/Translations.vala:1037
 msgid "Asia/Damascus"
@@ -2168,7 +2168,7 @@ msgstr "אירופה/קייב"
 
 #: src/Translations.vala:1075
 msgid "Ukraine (most areas)"
-msgstr ""
+msgstr "אוקראינה (רוב האזורים)"
 
 #: src/Translations.vala:1077
 msgid "Europe/Uzhgorod"
