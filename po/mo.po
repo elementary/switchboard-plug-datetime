@@ -2,112 +2,126 @@ msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-19 02:05-0500\n"
+"PO-Revision-Date: 2018-05-28 00:03+0000\n"
+"Last-Translator: Romanic Ion Nicușor <contact.romanic@gmail.com>\n"
+"Language-Team: Moldovan <https://weblate.elementary.io/projects/switchboard"
+"/switchboard-plug-datetime/mo/>\n"
+"Language: mo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.18\n"
 
 #: src/Translations.vala:3
 msgid "Europe/Andorra"
-msgstr ""
+msgstr "Europa/Andora"
 
 #: src/Translations.vala:5
 msgid "Asia/Dubai"
-msgstr ""
+msgstr "Asia/Dubai."
 
 #: src/Translations.vala:7
 msgid "Asia/Kabul"
-msgstr ""
+msgstr "Asia/Cabul"
 
 #: src/Translations.vala:9
 msgid "America/Antigua"
-msgstr ""
+msgstr "America/Veche"
 
 #: src/Translations.vala:11
 msgid "America/Anguilla"
-msgstr ""
+msgstr "America/Anguila"
 
 #: src/Translations.vala:13
 msgid "Europe/Tirane"
-msgstr ""
+msgstr "Europa/Tirana"
 
 #: src/Translations.vala:15
 msgid "Asia/Yerevan"
-msgstr ""
+msgstr "Asia/Yerevan"
 
 #: src/Translations.vala:17
+#, fuzzy
 msgid "Africa/Luanda"
-msgstr ""
+msgstr "Africa/Luanda"
 
 #: src/Translations.vala:19
 msgid "Antarctica/McMurdo"
-msgstr ""
+msgstr "Antarctica/Mc Murdo"
 
 #: src/Translations.vala:21
 msgid "New Zealand time - McMurdo, South Pole"
-msgstr ""
+msgstr "Noua Zeelandă - McMurdo, Polul Sud"
 
 #: src/Translations.vala:23
 msgid "Antarctica/Casey"
-msgstr ""
+msgstr "Antarctica / Casey"
 
 #: src/Translations.vala:25
 msgid "Casey"
-msgstr ""
+msgstr "Casei"
 
 #: src/Translations.vala:27
 msgid "Antarctica/Davis"
-msgstr ""
+msgstr "Antarctica / Davis"
 
 #: src/Translations.vala:29
+#, fuzzy
 msgid "Davis"
-msgstr ""
+msgstr "Davis"
 
 #: src/Translations.vala:31
 msgid "Antarctica/DumontDUrville"
-msgstr ""
+msgstr "Antarctica/Dumont DUrville"
 
 #: src/Translations.vala:33
 msgid "Dumont-d'Urville"
-msgstr ""
+msgstr "Dumont- d'Urville"
 
 #: src/Translations.vala:35
 msgid "Antarctica/Mawson"
-msgstr ""
+msgstr "Antarctica / Mawson"
 
 #: src/Translations.vala:37
 msgid "Mawson"
-msgstr ""
+msgstr "Mauson"
 
 #: src/Translations.vala:39
 msgid "Antarctica/Palmer"
-msgstr ""
+msgstr "Antarctica / Palmer"
 
 #: src/Translations.vala:41
+#, fuzzy
 msgid "Palmer"
-msgstr ""
+msgstr "Palmer"
 
 #: src/Translations.vala:43
 msgid "Antarctica/Rothera"
-msgstr ""
+msgstr "Antarctica / Rothera"
 
 #: src/Translations.vala:45
+#, fuzzy
 msgid "Rothera"
-msgstr ""
+msgstr "Rothera"
 
 #: src/Translations.vala:47
 msgid "Antarctica/Syowa"
-msgstr ""
+msgstr "Antarctica / Syowa"
 
 #: src/Translations.vala:49
+#, fuzzy
 msgid "Syowa"
-msgstr ""
+msgstr "Syowa"
 
 #: src/Translations.vala:51
 msgid "Antarctica/Troll"
-msgstr ""
+msgstr "Antarctica / Troll"
 
 #: src/Translations.vala:53
+#, fuzzy
 msgid "Troll"
-msgstr ""
+msgstr "Troll"
 
 #: src/Translations.vala:55
 msgid "Antarctica/Vostok"
