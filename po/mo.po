@@ -2,488 +2,496 @@ msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-19 02:05-0500\n"
+"PO-Revision-Date: 2018-05-29 00:13+0000\n"
+"Last-Translator: Romanic Ion Nicușor <contact.romanic@gmail.com>\n"
+"Language-Team: Moldovan <https://weblate.elementary.io/projects/switchboard"
+"/switchboard-plug-datetime/mo/>\n"
+"Language: mo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.18\n"
 
 #: src/Translations.vala:3
 msgid "Europe/Andorra"
-msgstr ""
+msgstr "Europa/Andora"
 
 #: src/Translations.vala:5
 msgid "Asia/Dubai"
-msgstr ""
+msgstr "Asia / Dubai"
 
 #: src/Translations.vala:7
 msgid "Asia/Kabul"
-msgstr ""
+msgstr "Asia/Cabul"
 
 #: src/Translations.vala:9
 msgid "America/Antigua"
-msgstr ""
+msgstr "America/Veche"
 
 #: src/Translations.vala:11
 msgid "America/Anguilla"
-msgstr ""
+msgstr "America/Anguila"
 
 #: src/Translations.vala:13
 msgid "Europe/Tirane"
-msgstr ""
+msgstr "Europa/Tirana"
 
 #: src/Translations.vala:15
 msgid "Asia/Yerevan"
-msgstr ""
+msgstr "Asia / Yerevan"
 
 #: src/Translations.vala:17
 msgid "Africa/Luanda"
-msgstr ""
+msgstr "Africa / Luanda"
 
 #: src/Translations.vala:19
 msgid "Antarctica/McMurdo"
-msgstr ""
+msgstr "Antarctica/Mc Murdo"
 
 #: src/Translations.vala:21
 msgid "New Zealand time - McMurdo, South Pole"
-msgstr ""
+msgstr "Noua Zeelandă - McMurdo, Polul Sud"
 
 #: src/Translations.vala:23
 msgid "Antarctica/Casey"
-msgstr ""
+msgstr "Antarctica / Casey"
 
 #: src/Translations.vala:25
 msgid "Casey"
-msgstr ""
+msgstr "Casei"
 
 #: src/Translations.vala:27
 msgid "Antarctica/Davis"
-msgstr ""
+msgstr "Antarctica / Davis"
 
 #: src/Translations.vala:29
 msgid "Davis"
-msgstr ""
+msgstr "davis"
 
 #: src/Translations.vala:31
 msgid "Antarctica/DumontDUrville"
-msgstr ""
+msgstr "Antarctica/Dumont DUrville"
 
 #: src/Translations.vala:33
 msgid "Dumont-d'Urville"
-msgstr ""
+msgstr "Dumont- d'Urville"
 
 #: src/Translations.vala:35
 msgid "Antarctica/Mawson"
-msgstr ""
+msgstr "Antarctica / Mawson"
 
 #: src/Translations.vala:37
 msgid "Mawson"
-msgstr ""
+msgstr "Mauson"
 
 #: src/Translations.vala:39
 msgid "Antarctica/Palmer"
-msgstr ""
+msgstr "Antarctica / Palmer"
 
 #: src/Translations.vala:41
 msgid "Palmer"
-msgstr ""
+msgstr "palmer"
 
 #: src/Translations.vala:43
 msgid "Antarctica/Rothera"
-msgstr ""
+msgstr "Antarctica / Rothera"
 
 #: src/Translations.vala:45
 msgid "Rothera"
-msgstr ""
+msgstr "rothera"
 
 #: src/Translations.vala:47
 msgid "Antarctica/Syowa"
-msgstr ""
+msgstr "Antarctica / Syowa"
 
 #: src/Translations.vala:49
 msgid "Syowa"
-msgstr ""
+msgstr "Siowa"
 
 #: src/Translations.vala:51
 msgid "Antarctica/Troll"
-msgstr ""
+msgstr "Antarctica / Troll"
 
 #: src/Translations.vala:53
 msgid "Troll"
-msgstr ""
+msgstr "Trol"
 
 #: src/Translations.vala:55
 msgid "Antarctica/Vostok"
-msgstr ""
+msgstr "Antarctica / Vostok"
 
 #: src/Translations.vala:57
 msgid "Vostok"
-msgstr ""
+msgstr "Vostoc"
 
 #: src/Translations.vala:59
 msgid "America/Argentina/Buenos_Aires"
-msgstr ""
+msgstr "America / Argentina / Buenos_Aires"
 
 #: src/Translations.vala:61
 msgid "Buenos Aires (BA, CF)"
-msgstr ""
+msgstr "BuenosAires (BA, CF)"
 
 #: src/Translations.vala:63
 msgid "America/Argentina/Cordoba"
-msgstr ""
+msgstr "America /Argentina/Cordoba"
 
 #: src/Translations.vala:65
 msgid "Argentina (most areas: CB, CC, CN, ER, FM, MN, SE, SF)"
-msgstr ""
+msgstr "Argentina (most-areas: CB, CC, CN, ER, FM, MN, SE, SF)"
 
 #: src/Translations.vala:67
 msgid "America/Argentina/Salta"
-msgstr ""
+msgstr "America/ Argentina/Salta"
 
 #: src/Translations.vala:69
 msgid "Salta (SA, LP, NQ, RN)"
-msgstr ""
+msgstr "Salta(SA, LP, NQ, RN)"
 
 #: src/Translations.vala:71
 msgid "America/Argentina/Jujuy"
-msgstr ""
+msgstr "America /Argentina/Jujuy"
 
 #: src/Translations.vala:73
 msgid "Jujuy (JY)"
-msgstr ""
+msgstr "Jujuy(JY)"
 
 #: src/Translations.vala:75
 msgid "America/Argentina/Tucuman"
-msgstr ""
+msgstr "America/ Argentina/Tucuman"
 
 #: src/Translations.vala:77
 msgid "Tucuman (TM)"
-msgstr ""
+msgstr "Tucuman(TM)"
 
 #: src/Translations.vala:79
 msgid "America/Argentina/Catamarca"
-msgstr ""
+msgstr "America/ Argentina/Catamarca"
 
 #: src/Translations.vala:81
 msgid "Catamarca (CT); Chubut (CH)"
-msgstr ""
+msgstr "Catamarca(CT); Chubut (CH)"
 
 #: src/Translations.vala:83
 msgid "America/Argentina/La_Rioja"
-msgstr ""
+msgstr "America/ Argentina/La_Rioja"
 
 #: src/Translations.vala:85
 msgid "La Rioja (LR)"
-msgstr ""
+msgstr "La Rioja(LR)"
 
 #: src/Translations.vala:87
 msgid "America/Argentina/San_Juan"
-msgstr ""
+msgstr "America/Argentina/San Juan"
 
 #: src/Translations.vala:89
 msgid "San Juan (SJ)"
-msgstr ""
+msgstr "San Juan(SJ)"
 
 #: src/Translations.vala:91
 msgid "America/Argentina/Mendoza"
-msgstr ""
+msgstr "America /Argentina/Mendoza"
 
 #: src/Translations.vala:93
 msgid "Mendoza (MZ)"
-msgstr ""
+msgstr "Mendoza(MZ)"
 
 #: src/Translations.vala:95
 msgid "America/Argentina/San_Luis"
-msgstr ""
+msgstr "America/Argentina/San Luis"
 
 #: src/Translations.vala:97
 msgid "San Luis (SL)"
-msgstr ""
+msgstr "San Luis(SL)"
 
 #: src/Translations.vala:99
 msgid "America/Argentina/Rio_Gallegos"
-msgstr ""
+msgstr "America/Argentina/Rio Gallegos"
 
 #: src/Translations.vala:101
 msgid "Santa Cruz (SC)"
-msgstr ""
+msgstr "Santa Cruz(SC)"
 
 #: src/Translations.vala:103
 msgid "America/Argentina/Ushuaia"
-msgstr ""
+msgstr "America/ Argentina/Ushuaia"
 
 #: src/Translations.vala:105
 msgid "Tierra del Fuego (TF)"
-msgstr ""
+msgstr "Tierra del Fuego(TF)"
 
 #: src/Translations.vala:107
 msgid "Pacific/Pago_Pago"
-msgstr ""
+msgstr "Pacific/Pago Pago"
 
 #: src/Translations.vala:109
 msgid "Europe/Vienna"
-msgstr ""
+msgstr "Europe / Vienna"
 
 #: src/Translations.vala:111
 msgid "Australia/Lord_Howe"
-msgstr ""
+msgstr "Australia/Lord Howe"
 
 #: src/Translations.vala:113
 msgid "Lord Howe Island"
-msgstr ""
+msgstr "Insula Lord Howe"
 
 #: src/Translations.vala:115
 msgid "Antarctica/Macquarie"
-msgstr ""
+msgstr "Antarctica / Macquarie"
 
 #: src/Translations.vala:117
 msgid "Macquarie Island"
-msgstr ""
+msgstr "Insula Macquarie"
 
 #: src/Translations.vala:119
 msgid "Australia/Hobart"
-msgstr ""
+msgstr "Australia /Hobart"
 
 #: src/Translations.vala:121
 msgid "Tasmania (most areas)"
-msgstr ""
+msgstr "Tasmania (majoritatea zonelor)"
 
 #: src/Translations.vala:123
 msgid "Australia/Currie"
-msgstr ""
+msgstr "Australia /Currie"
 
 #: src/Translations.vala:125
 msgid "Tasmania (King Island)"
-msgstr ""
+msgstr "Tasmania (Insula King)"
 
 #: src/Translations.vala:127
 msgid "Australia/Melbourne"
-msgstr ""
+msgstr "Australia /Melbourne"
 
 #: src/Translations.vala:129
 msgid "Victoria"
-msgstr ""
+msgstr "victoria"
 
 #: src/Translations.vala:131
 msgid "Australia/Sydney"
-msgstr ""
+msgstr "Australia /Sydney"
 
 #: src/Translations.vala:133
 msgid "New South Wales (most areas)"
-msgstr ""
+msgstr "Noua Țară de Sud (cele mai multe zone)"
 
 #: src/Translations.vala:135
 msgid "Australia/Broken_Hill"
-msgstr ""
+msgstr "Australia/Broken Hill"
 
 #: src/Translations.vala:137
 msgid "New South Wales (Yancowinna)"
-msgstr ""
+msgstr "Noua Țară de Sud (Yancowinna)"
 
 #: src/Translations.vala:139
 msgid "Australia/Brisbane"
-msgstr ""
+msgstr "Australia /Brisbane"
 
 #: src/Translations.vala:141
 msgid "Queensland (most areas)"
-msgstr ""
+msgstr "Queensland (cele mai multe zone)"
 
 #: src/Translations.vala:143
 msgid "Australia/Lindeman"
-msgstr ""
+msgstr "Australia /Lindeman"
 
 #: src/Translations.vala:145
 msgid "Queensland (Whitsunday Islands)"
-msgstr ""
+msgstr "Queensland (Insulele Whitsunday)"
 
 #: src/Translations.vala:147
 msgid "Australia/Adelaide"
-msgstr ""
+msgstr "Australia /Adelaide"
 
 #: src/Translations.vala:149
 msgid "South Australia"
-msgstr ""
+msgstr "Sudul Australiei"
 
 #: src/Translations.vala:151
 msgid "Australia/Darwin"
-msgstr ""
+msgstr "Australia /Darwin"
 
 #: src/Translations.vala:153
 msgid "Northern Territory"
-msgstr ""
+msgstr "Teritoriul nordic"
 
 #: src/Translations.vala:155
 msgid "Australia/Perth"
-msgstr ""
+msgstr "Australia /Perth"
 
 #: src/Translations.vala:157
 msgid "Western Australia (most areas)"
-msgstr ""
+msgstr "Australia de Vest (cele mai multe zone)"
 
 #: src/Translations.vala:159
 msgid "Australia/Eucla"
-msgstr ""
+msgstr "Australia /Eucla"
 
 #: src/Translations.vala:161
 msgid "Western Australia (Eucla)"
-msgstr ""
+msgstr "Australia de Vest (Eucla)"
 
 #: src/Translations.vala:163
 msgid "America/Aruba"
-msgstr ""
+msgstr "America /Aruba"
 
 #: src/Translations.vala:165
 msgid "Europe/Mariehamn"
-msgstr ""
+msgstr "Europe /Mariehamn"
 
 #: src/Translations.vala:167
 msgid "Asia/Baku"
-msgstr ""
+msgstr "Asia /Baku"
 
 #: src/Translations.vala:169
 msgid "Europe/Sarajevo"
-msgstr ""
+msgstr "Europe /Saraievo"
 
 #: src/Translations.vala:171
 msgid "America/Barbados"
-msgstr ""
+msgstr "America /Barbados"
 
 #: src/Translations.vala:173
 msgid "Asia/Dhaka"
-msgstr ""
+msgstr "Asia/ Dhaka"
 
 #: src/Translations.vala:175
 msgid "Europe/Brussels"
-msgstr ""
+msgstr "Europa /Bruxela"
 
 #: src/Translations.vala:177
 msgid "Africa/Ouagadougou"
-msgstr ""
+msgstr "Africa /Ouagadougou"
 
 #: src/Translations.vala:179
 msgid "Europe/Sofia"
-msgstr ""
+msgstr "Europa/Sofia"
 
 #: src/Translations.vala:181
 msgid "Asia/Bahrain"
-msgstr ""
+msgstr "Asia /Bahrain"
 
 #: src/Translations.vala:183
 msgid "Africa/Bujumbura"
-msgstr ""
+msgstr "Africa /Bujumbura"
 
 #: src/Translations.vala:185
 msgid "Africa/Porto-Novo"
-msgstr ""
+msgstr "Africa/Porto Novo"
 
 #: src/Translations.vala:187
 msgid "America/St_Barthelemy"
-msgstr ""
+msgstr "America/St Barthelemy"
 
 #: src/Translations.vala:189
 msgid "Atlantic/Bermuda"
-msgstr ""
+msgstr "Atlantic /Bermuda"
 
 #: src/Translations.vala:191
 msgid "Asia/Brunei"
-msgstr ""
+msgstr "Asia /Brunei"
 
 #: src/Translations.vala:193
 msgid "America/La_Paz"
-msgstr ""
+msgstr "America/La Paz"
 
 #: src/Translations.vala:195
 msgid "America/Kralendijk"
-msgstr ""
+msgstr "America /Kralendijk"
 
 #: src/Translations.vala:197
 msgid "America/Noronha"
-msgstr ""
+msgstr "America /Noronha"
 
 #: src/Translations.vala:199
 msgid "Atlantic islands"
-msgstr ""
+msgstr "Insulele atlantice"
 
 #: src/Translations.vala:201
 msgid "America/Belem"
-msgstr ""
+msgstr "America /Belem"
 
 #: src/Translations.vala:203
 msgid "Para (east); Amapa"
-msgstr ""
+msgstr "Para(east); Amapa"
 
 #: src/Translations.vala:205
 msgid "America/Fortaleza"
-msgstr ""
+msgstr "America /Fortaleza"
 
 #: src/Translations.vala:207
 msgid "Brazil (northeast: MA, PI, CE, RN, PB)"
-msgstr ""
+msgstr "Brazil (nord-est: MA, PI, CE, RN, PB)"
 
 #: src/Translations.vala:209
 msgid "America/Recife"
-msgstr ""
+msgstr "America /Recife"
 
 #: src/Translations.vala:211
 msgid "Pernambuco"
-msgstr ""
+msgstr "pernambuco"
 
 #: src/Translations.vala:213
 msgid "America/Araguaina"
-msgstr ""
+msgstr "America /Araguaina"
 
 #: src/Translations.vala:215
 msgid "Tocantins"
-msgstr ""
+msgstr "tocantins"
 
 #: src/Translations.vala:217
 msgid "America/Maceio"
-msgstr ""
+msgstr "America /Maceio"
 
 #: src/Translations.vala:219
 msgid "Alagoas, Sergipe"
-msgstr ""
+msgstr "Alagoas,Sergipe"
 
 #: src/Translations.vala:221
 msgid "America/Bahia"
-msgstr ""
+msgstr "America /Bahia"
 
 #: src/Translations.vala:223
 msgid "Bahia"
-msgstr ""
+msgstr "bahia"
 
 #: src/Translations.vala:225
 msgid "America/Sao_Paulo"
-msgstr ""
+msgstr "America/Sao Paulo"
 
 #: src/Translations.vala:227
 msgid "Brazil (southeast: GO, DF, MG, ES, RJ, SP, PR, SC, RS)"
-msgstr ""
+msgstr "Brazil (Sud Est: GO, DF, MG, ES, RJ, SP, PR, SC, RS)"
 
 #: src/Translations.vala:229
 msgid "America/Campo_Grande"
-msgstr ""
+msgstr "America/Câmpul Mare"
 
 #: src/Translations.vala:231
 msgid "Mato Grosso do Sul"
-msgstr ""
+msgstr "Mato Groso do Sul"
 
 #: src/Translations.vala:233
 msgid "America/Cuiaba"
-msgstr ""
+msgstr "America /Cuiaba"
 
 #: src/Translations.vala:235
 msgid "Mato Grosso"
-msgstr ""
+msgstr "Mato_Grosso"
 
 #: src/Translations.vala:237
 msgid "America/Santarem"
-msgstr ""
+msgstr "America /Santarem"
 
 #: src/Translations.vala:239
 msgid "Para (west)"
-msgstr ""
+msgstr "Pentru (vest)"
 
 #: src/Translations.vala:241
 msgid "America/Porto_Velho"
-msgstr ""
+msgstr "America/Portul Velho"
 
 #: src/Translations.vala:243
 msgid "Rondonia"
