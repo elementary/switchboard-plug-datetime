@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-19 02:05-0500\n"
-"PO-Revision-Date: 2018-05-29 00:13+0000\n"
+"PO-Revision-Date: 2018-05-30 00:04+0000\n"
 "Last-Translator: Romanic Ion Nicușor <contact.romanic@gmail.com>\n"
 "Language-Team: Moldovan <https://weblate.elementary.io/projects/switchboard"
 "/switchboard-plug-datetime/mo/>\n"
@@ -495,171 +495,171 @@ msgstr "America/Portul Velho"
 
 #: src/Translations.vala:243
 msgid "Rondonia"
-msgstr ""
+msgstr "rondonia"
 
 #: src/Translations.vala:245
 msgid "America/Boa_Vista"
-msgstr ""
+msgstr "America/Boa Vista"
 
 #: src/Translations.vala:247
 msgid "Roraima"
-msgstr ""
+msgstr "roraima"
 
 #: src/Translations.vala:249
 msgid "America/Manaus"
-msgstr ""
+msgstr "America /Manaus"
 
 #: src/Translations.vala:251
 msgid "Amazonas (east)"
-msgstr ""
+msgstr "Amazonas (est)"
 
 #: src/Translations.vala:253
 msgid "America/Eirunepe"
-msgstr ""
+msgstr "America /Eirunepe"
 
 #: src/Translations.vala:255
 msgid "Amazonas (west)"
-msgstr ""
+msgstr "Amazonas (vest)"
 
 #: src/Translations.vala:257
 msgid "America/Rio_Branco"
-msgstr ""
+msgstr "America/Rio Branco"
 
 #: src/Translations.vala:259
 msgid "Acre"
-msgstr ""
+msgstr "acre"
 
 #: src/Translations.vala:261
 msgid "America/Nassau"
-msgstr ""
+msgstr "America /Nassau"
 
 #: src/Translations.vala:263
 msgid "Asia/Thimphu"
-msgstr ""
+msgstr "Asia /Thimphu"
 
 #: src/Translations.vala:265
 msgid "Africa/Gaborone"
-msgstr ""
+msgstr "Africa /Gaborone"
 
 #: src/Translations.vala:267
 msgid "Europe/Minsk"
-msgstr ""
+msgstr "Europa/Minsk"
 
 #: src/Translations.vala:269
 msgid "America/Belize"
-msgstr ""
+msgstr "America /Belize"
 
 #: src/Translations.vala:271
 msgid "America/St_Johns"
-msgstr ""
+msgstr "America/St Johns"
 
 #: src/Translations.vala:273
 msgid "Newfoundland; Labrador (southeast)"
-msgstr ""
+msgstr "Newfoundland; Labrador (sud-est)"
 
 #: src/Translations.vala:275
 msgid "America/Halifax"
-msgstr ""
+msgstr "America /Halifax"
 
 #: src/Translations.vala:277
 msgid "Atlantic - NS (most areas); PE"
-msgstr ""
+msgstr "Atlantic - NS (majoritatea zonelor); PE"
 
 #: src/Translations.vala:279
 msgid "America/Glace_Bay"
-msgstr ""
+msgstr "America/Glace Bay"
 
 #: src/Translations.vala:281
 msgid "Atlantic - NS (Cape Breton)"
-msgstr ""
+msgstr "Atlantic - NS (Capul Breton)"
 
 #: src/Translations.vala:283
 msgid "America/Moncton"
-msgstr ""
+msgstr "America /Moncton"
 
 #: src/Translations.vala:285
 msgid "Atlantic - New Brunswick"
-msgstr ""
+msgstr "Atlantic -New Brunswick"
 
 #: src/Translations.vala:287
 msgid "America/Goose_Bay"
-msgstr ""
+msgstr "America/Goose Bay"
 
 #: src/Translations.vala:289
 msgid "Atlantic - Labrador (most areas)"
-msgstr ""
+msgstr "Atlantic - Labrador (majoritatea zonelor)"
 
 #: src/Translations.vala:291
 msgid "America/Blanc-Sablon"
-msgstr ""
+msgstr "America/Blanc Sablon"
 
 #: src/Translations.vala:293
 msgid "AST - QC (Lower North Shore)"
-msgstr ""
+msgstr "AST - QC (Nordul Shorelor de Nord)"
 
 #: src/Translations.vala:295
 msgid "America/Toronto"
-msgstr ""
+msgstr "America /Toronto"
 
 #: src/Translations.vala:297
 msgid "Eastern - ON, QC (most areas)"
-msgstr ""
+msgstr "Eastern - ON,QC (most areas)"
 
 #: src/Translations.vala:299
 msgid "America/Nipigon"
-msgstr ""
+msgstr "America /Nipigon"
 
 #: src/Translations.vala:301
 msgid "Eastern - ON, QC (no DST 1967-73)"
-msgstr ""
+msgstr "Eastern - ON, QC(no DST 1967-73)"
 
 #: src/Translations.vala:303
 msgid "America/Thunder_Bay"
-msgstr ""
+msgstr "America/Thunder Bay"
 
 #: src/Translations.vala:305
 msgid "Eastern - ON (Thunder Bay)"
-msgstr ""
+msgstr "Eastern - ON(Thunder Bay)"
 
 #: src/Translations.vala:307
 msgid "America/Iqaluit"
-msgstr ""
+msgstr "America /Iqaluit"
 
 #: src/Translations.vala:309
 msgid "Eastern - NU (most east areas)"
-msgstr ""
+msgstr "Eastern - NU (majoritatea zonelor de est)"
 
 #: src/Translations.vala:311
 msgid "America/Pangnirtung"
-msgstr ""
+msgstr "America /Pangnirtung"
 
 #: src/Translations.vala:313
 msgid "Eastern - NU (Pangnirtung)"
-msgstr ""
+msgstr "Eastern - NU(Pangnirtung)"
 
 #: src/Translations.vala:315
 msgid "America/Atikokan"
-msgstr ""
+msgstr "America /Atikokan"
 
 #: src/Translations.vala:317
 msgid "EST - ON (Atikokan); NU (Coral H)"
-msgstr ""
+msgstr "EST - ON (Atikokan); NU(Coral H)"
 
 #: src/Translations.vala:319
 msgid "America/Winnipeg"
-msgstr ""
+msgstr "America /Winnipeg"
 
 #: src/Translations.vala:321
 msgid "Central - ON (west); Manitoba"
-msgstr ""
+msgstr "Central - ON (west);Manitoba"
 
 #: src/Translations.vala:323
 msgid "America/Rainy_River"
-msgstr ""
+msgstr "America/Rainy River"
 
 #: src/Translations.vala:325
 msgid "Central - ON (Rainy R, Ft Frances)"
-msgstr ""
+msgstr "Central - ON(Rainy R, Ft Frances)"
 
 #: src/Translations.vala:327
 msgid "America/Resolute"
