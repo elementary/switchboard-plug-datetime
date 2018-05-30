@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-19 02:05-0500\n"
-"PO-Revision-Date: 2018-05-30 00:04+0000\n"
+"PO-Revision-Date: 2018-05-31 00:03+0000\n"
 "Last-Translator: Romanic Ion Nicușor <contact.romanic@gmail.com>\n"
 "Language-Team: Moldovan <https://weblate.elementary.io/projects/switchboard"
 "/switchboard-plug-datetime/mo/>\n"
@@ -15,15 +15,15 @@ msgstr ""
 
 #: src/Translations.vala:3
 msgid "Europe/Andorra"
-msgstr "Europa/Andora"
+msgstr "Europa /Andora"
 
 #: src/Translations.vala:5
 msgid "Asia/Dubai"
-msgstr "Asia / Dubai"
+msgstr "Asia /Dubai"
 
 #: src/Translations.vala:7
 msgid "Asia/Kabul"
-msgstr "Asia/Cabul"
+msgstr "Asia /Cabul"
 
 #: src/Translations.vala:9
 msgid "America/Antigua"
@@ -31,7 +31,7 @@ msgstr "America/Veche"
 
 #: src/Translations.vala:11
 msgid "America/Anguilla"
-msgstr "America/Anguila"
+msgstr "America /Anguila"
 
 #: src/Translations.vala:13
 msgid "Europe/Tirane"
