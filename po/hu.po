@@ -8,15 +8,17 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-19 02:05-0500\n"
-"PO-Revision-Date: 2014-12-16 17:59+0000\n"
-"Last-Translator: Zoltan Hoppár <Unknown>\n"
-"Language-Team: Hungarian <hu@li.org>\n"
+"PO-Revision-Date: 2018-06-01 00:08+0000\n"
+"Last-Translator: Majer Tamás <mtamas@disroot.org>\n"
+"Language-Team: Hungarian <https://weblate.elementary.io/projects/switchboard"
+"/switchboard-plug-datetime/hu/>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.18\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:04+0000\n"
-"X-Generator: Launchpad (build 18302)\n"
 
 #: src/Translations.vala:3
 msgid "Europe/Andorra"
@@ -56,7 +58,7 @@ msgstr "Antarktisz/McMurdo"
 
 #: src/Translations.vala:21
 msgid "New Zealand time - McMurdo, South Pole"
-msgstr ""
+msgstr "Új-zélandi idő - McMurdo, South Pole"
 
 #: src/Translations.vala:23
 msgid "Antarctica/Casey"
@@ -116,7 +118,7 @@ msgstr ""
 
 #: src/Translations.vala:51
 msgid "Antarctica/Troll"
-msgstr ""
+msgstr "Antarktisz / Troll"
 
 #: src/Translations.vala:53
 msgid "Troll"
@@ -144,7 +146,7 @@ msgstr "Amerika/Argentína/Cordoba"
 
 #: src/Translations.vala:65
 msgid "Argentina (most areas: CB, CC, CN, ER, FM, MN, SE, SF)"
-msgstr ""
+msgstr "Argentína (a legtöbb területen: CB, CC, CN, ER, FM, MN, SE, SF)"
 
 #: src/Translations.vala:67
 msgid "America/Argentina/Salta"
@@ -244,11 +246,11 @@ msgstr "Lord Howe sziget"
 
 #: src/Translations.vala:115
 msgid "Antarctica/Macquarie"
-msgstr ""
+msgstr "Antarktisz / Macquarie"
 
 #: src/Translations.vala:117
 msgid "Macquarie Island"
-msgstr ""
+msgstr "Macquarie-sziget"
 
 #: src/Translations.vala:119
 msgid "Australia/Hobart"
@@ -256,7 +258,7 @@ msgstr "Ausztrália/Hobart"
 
 #: src/Translations.vala:121
 msgid "Tasmania (most areas)"
-msgstr ""
+msgstr "Tasmania (legtöbb területen)"
 
 #: src/Translations.vala:123
 msgid "Australia/Currie"
@@ -280,7 +282,7 @@ msgstr "Ausztrália/Sydney"
 
 #: src/Translations.vala:133
 msgid "New South Wales (most areas)"
-msgstr ""
+msgstr "Új-Dél-Wales (legtöbb terület)"
 
 #: src/Translations.vala:135
 msgid "Australia/Broken_Hill"
@@ -288,7 +290,7 @@ msgstr "Ausztrália/Broken_Hill"
 
 #: src/Translations.vala:137
 msgid "New South Wales (Yancowinna)"
-msgstr ""
+msgstr "Új-Dél-Wales (Yancowinna)"
 
 #: src/Translations.vala:139
 msgid "Australia/Brisbane"
@@ -296,7 +298,7 @@ msgstr "Ausztrália/Brisbane"
 
 #: src/Translations.vala:141
 msgid "Queensland (most areas)"
-msgstr ""
+msgstr "Queensland (legtöbb terület)"
 
 #: src/Translations.vala:143
 msgid "Australia/Lindeman"
@@ -428,7 +430,7 @@ msgstr "Amerika/Fortaleza"
 
 #: src/Translations.vala:207
 msgid "Brazil (northeast: MA, PI, CE, RN, PB)"
-msgstr ""
+msgstr "Brazília (északkelet: MA, PI, CE, RN, PB)"
 
 #: src/Translations.vala:209
 msgid "America/Recife"
@@ -468,7 +470,7 @@ msgstr "Amerika/Sao_Paulo"
 
 #: src/Translations.vala:227
 msgid "Brazil (southeast: GO, DF, MG, ES, RJ, SP, PR, SC, RS)"
-msgstr ""
+msgstr "Brazília (délkelet: GO, DF, MG, ES, RJ, SP, PR, SC, RS)"
 
 #: src/Translations.vala:229
 msgid "America/Campo_Grande"
@@ -560,7 +562,7 @@ msgstr "Amerika/St_Johns"
 
 #: src/Translations.vala:273
 msgid "Newfoundland; Labrador (southeast)"
-msgstr ""
+msgstr "Újfundland; Labrador (délkelet)"
 
 #: src/Translations.vala:275
 msgid "America/Halifax"
@@ -732,7 +734,7 @@ msgstr ""
 
 #: src/Translations.vala:359
 msgid "America/Creston"
-msgstr ""
+msgstr "Amerika / Creston"
 
 #: src/Translations.vala:361
 msgid "MST - BC (Creston)"
@@ -748,7 +750,7 @@ msgstr ""
 
 #: src/Translations.vala:367
 msgid "America/Fort_Nelson"
-msgstr ""
+msgstr "Amerika / Fort_Nelson"
 
 #: src/Translations.vala:369
 msgid "MST - BC (Ft Nelson)"
@@ -892,7 +894,7 @@ msgstr "Európa/Berlin"
 
 #: src/Translations.vala:439
 msgid "Germany (most areas)"
-msgstr ""
+msgstr "Németország (a legtöbb terület)"
 
 #: src/Translations.vala:441
 msgid "Europe/Busingen"
@@ -2521,39 +2523,39 @@ msgstr "Afrika/Harare"
 
 #: src/Plug.vala:36
 msgid "Date & Time"
-msgstr ""
+msgstr "Dátum és idő"
 
 #: src/Plug.vala:37
 msgid "Configure date, time, and select time zone"
-msgstr ""
+msgstr "Állítsa be a dátumot, időt és az időzónát"
 
 #: src/Plug.vala:45
 msgid "Network Time:"
-msgstr ""
+msgstr "Hálózati idő:"
 
 #: src/Plug.vala:54
 msgid "Time Format:"
-msgstr ""
+msgstr "Idő formátum:"
 
 #: src/Plug.vala:58
 msgid "AM/PM"
-msgstr ""
+msgstr "de. / du."
 
 #: src/Plug.vala:59
 msgid "24h"
-msgstr ""
+msgstr "24ó"
 
 #: src/Plug.vala:61
 msgid "Time Zone:"
-msgstr ""
+msgstr "Időzóna:"
 
 #: src/Plug.vala:73
 msgid "Show week numbers:"
-msgstr ""
+msgstr "Hetek számának megjelenítése:"
 
 #: src/Plug.vala:273
 msgid "Network Time"
-msgstr ""
+msgstr "Hálózati idő"
 
 #: src/Plug.vala:274
 msgid "Time"
@@ -2577,28 +2579,28 @@ msgstr ""
 
 #: src/Widgets/TZPopover.vala:59
 msgid "America"
-msgstr ""
+msgstr "Amerika"
 
 #: src/Widgets/TZPopover.vala:61
 msgid "Antarctica"
-msgstr ""
+msgstr "Antarktisz"
 
 #: src/Widgets/TZPopover.vala:63
 msgid "Asia"
-msgstr ""
+msgstr "Ázsia"
 
 #: src/Widgets/TZPopover.vala:65
 msgid "Atlantic"
-msgstr ""
+msgstr "Atlanti"
 
 #: src/Widgets/TZPopover.vala:67
 msgid "Australia"
-msgstr ""
+msgstr "Ausztrália"
 
 #: src/Widgets/TZPopover.vala:69
 msgid "Europe"
-msgstr ""
+msgstr "Európa"
 
 #: src/Widgets/TZPopover.vala:71
 msgid "Indian"
-msgstr ""
+msgstr "India"
