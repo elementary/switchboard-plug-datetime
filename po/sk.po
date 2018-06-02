@@ -9,15 +9,17 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-19 02:05-0500\n"
-"PO-Revision-Date: 2016-12-26 14:09+0000\n"
-"Last-Translator: Martin Korpala <Unknown>\n"
-"Language-Team: Slovak <>\n"
+"PO-Revision-Date: 2018-06-04 00:09+0000\n"
+"Last-Translator: Andrej Gálet <andrejgalet@gmail.com>\n"
+"Language-Team: Slovak <https://weblate.elementary.io/projects/switchboard"
+"/switchboard-plug-datetime/sk/>\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 2.18\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:05+0000\n"
-"X-Generator: Launchpad (build 18302)\n"
 
 #: src/Translations.vala:3
 msgid "Europe/Andorra"
@@ -2552,7 +2554,7 @@ msgstr "Časové pásmo:"
 
 #: src/Plug.vala:73
 msgid "Show week numbers:"
-msgstr ""
+msgstr "Číslovanie týždňov:"
 
 #: src/Plug.vala:273
 msgid "Network Time"
