@@ -30,7 +30,7 @@ _("Davis");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("Antarctica/DumontDUrville");
 ///Translators: Comment for Timezone Antarctica/DumontDUrville
-_("Dumont-d'Urville");
+_("Dumont d'Urville");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("Antarctica/Mawson");
 ///Translators: Comment for Timezone Antarctica/Mawson
