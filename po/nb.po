@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-19 02:05-0500\n"
-"PO-Revision-Date: 2018-06-04 13:50+0000\n"
+"PO-Revision-Date: 2018-06-06 00:09+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål "
 "<https://weblate.elementary.io/projects/switchboard/switchboard-plug-"
@@ -107,7 +107,7 @@ msgstr "Antarktis/Rothera"
 
 #: src/Translations.vala:45
 msgid "Rothera"
-msgstr ""
+msgstr "Rothera"
 
 #: src/Translations.vala:47
 msgid "Antarctica/Syowa"
@@ -115,7 +115,7 @@ msgstr "Antarktis/Syowa"
 
 #: src/Translations.vala:49
 msgid "Syowa"
-msgstr ""
+msgstr "Syowa"
 
 #: src/Translations.vala:51
 msgid "Antarctica/Troll"
@@ -131,7 +131,7 @@ msgstr "Antarktis/Vostok"
 
 #: src/Translations.vala:57
 msgid "Vostok"
-msgstr ""
+msgstr "Vostok"
 
 #: src/Translations.vala:59
 msgid "America/Argentina/Buenos_Aires"
@@ -147,7 +147,7 @@ msgstr "Amerika/Argentina/Cordoba"
 
 #: src/Translations.vala:65
 msgid "Argentina (most areas: CB, CC, CN, ER, FM, MN, SE, SF)"
-msgstr ""
+msgstr "Argentina (de fleste områder: CB, CC, CN, ER, FM, MN, SE, SF)"
 
 #: src/Translations.vala:67
 msgid "America/Argentina/Salta"
@@ -155,7 +155,7 @@ msgstr "Amerika/Argentina/Salta"
 
 #: src/Translations.vala:69
 msgid "Salta (SA, LP, NQ, RN)"
-msgstr ""
+msgstr "Salta (SA, LP, NQ, RN)"
 
 #: src/Translations.vala:71
 msgid "America/Argentina/Jujuy"
@@ -179,7 +179,7 @@ msgstr "Amerika/Argentina/Catamarca"
 
 #: src/Translations.vala:81
 msgid "Catamarca (CT); Chubut (CH)"
-msgstr ""
+msgstr "Catamarca (CT); Chubut (CH)"
 
 #: src/Translations.vala:83
 msgid "America/Argentina/La_Rioja"
@@ -251,7 +251,7 @@ msgstr "Antarktis/Macquarie"
 
 #: src/Translations.vala:117
 msgid "Macquarie Island"
-msgstr ""
+msgstr "Macquarieøya"
 
 #: src/Translations.vala:119
 msgid "Australia/Hobart"
@@ -259,7 +259,7 @@ msgstr "Australia/Hobart"
 
 #: src/Translations.vala:121
 msgid "Tasmania (most areas)"
-msgstr ""
+msgstr "Tasmania (de fleste områder)"
 
 #: src/Translations.vala:123
 msgid "Australia/Currie"
@@ -267,7 +267,7 @@ msgstr "Australia/Currie"
 
 #: src/Translations.vala:125
 msgid "Tasmania (King Island)"
-msgstr ""
+msgstr "Tasmania (King Island)"
 
 #: src/Translations.vala:127
 msgid "Australia/Melbourne"
@@ -283,7 +283,7 @@ msgstr "Australia/Sydney"
 
 #: src/Translations.vala:133
 msgid "New South Wales (most areas)"
-msgstr ""
+msgstr "New South Wales (de fleste områder)"
 
 #: src/Translations.vala:135
 msgid "Australia/Broken_Hill"
@@ -299,7 +299,7 @@ msgstr "Australia/Brisbane"
 
 #: src/Translations.vala:141
 msgid "Queensland (most areas)"
-msgstr ""
+msgstr "Queensland (de fleste områder)"
 
 #: src/Translations.vala:143
 msgid "Australia/Lindeman"
@@ -331,7 +331,7 @@ msgstr "Australia/Perth"
 
 #: src/Translations.vala:157
 msgid "Western Australia (most areas)"
-msgstr ""
+msgstr "Vest-Australia (de fleste områder)"
 
 #: src/Translations.vala:159
 msgid "Australia/Eucla"
@@ -339,7 +339,7 @@ msgstr "Australia/Eucla"
 
 #: src/Translations.vala:161
 msgid "Western Australia (Eucla)"
-msgstr ""
+msgstr "Vest-Australia (Eucla)"
 
 #: src/Translations.vala:163
 msgid "America/Aruba"
@@ -430,8 +430,9 @@ msgid "America/Fortaleza"
 msgstr "Amerika/Fortaleza"
 
 #: src/Translations.vala:207
+#, fuzzy
 msgid "Brazil (northeast: MA, PI, CE, RN, PB)"
-msgstr ""
+msgstr "Brasil (nordøst: MA, PI, CE, RN, PB)"
 
 #: src/Translations.vala:209
 msgid "America/Recife"
@@ -471,7 +472,7 @@ msgstr "Amerika/Sao_Paulo"
 
 #: src/Translations.vala:227
 msgid "Brazil (southeast: GO, DF, MG, ES, RJ, SP, PR, SC, RS)"
-msgstr ""
+msgstr "Brasil (sørøst: GO, DF, MG, ES, RJ, SP, PR, SC, RS)"
 
 #: src/Translations.vala:229
 msgid "America/Campo_Grande"
@@ -519,7 +520,7 @@ msgstr "Amerika/Manaus"
 
 #: src/Translations.vala:251
 msgid "Amazonas (east)"
-msgstr ""
+msgstr "Amazonas (øst)"
 
 #: src/Translations.vala:253
 msgid "America/Eirunepe"
@@ -527,7 +528,7 @@ msgstr "Amerika/Eirunepe"
 
 #: src/Translations.vala:255
 msgid "Amazonas (west)"
-msgstr ""
+msgstr "Amazonas (vest)"
 
 #: src/Translations.vala:257
 msgid "America/Rio_Branco"
@@ -799,7 +800,7 @@ msgstr "Afrika/Lubumbashi"
 
 #: src/Translations.vala:391
 msgid "Dem. Rep. of Congo (east)"
-msgstr ""
+msgstr "Den dem. rep. Kongo (øst)"
 
 #: src/Translations.vala:393
 msgid "Africa/Bangui"
@@ -827,7 +828,7 @@ msgstr "Amerika/Santiago"
 
 #: src/Translations.vala:405
 msgid "Chile (most areas)"
-msgstr ""
+msgstr "Chile (de fleste områder)"
 
 #: src/Translations.vala:407
 msgid "Pacific/Easter"
@@ -1159,7 +1160,7 @@ msgstr "Asia/Jakarta"
 
 #: src/Translations.vala:571
 msgid "Java, Sumatra"
-msgstr ""
+msgstr "Java, Sumatra"
 
 #: src/Translations.vala:573
 msgid "Asia/Pontianak"
@@ -1167,7 +1168,7 @@ msgstr "Asia/Pontianak"
 
 #: src/Translations.vala:575
 msgid "Borneo (west, central)"
-msgstr ""
+msgstr "Borneo (vest, sentral)"
 
 #: src/Translations.vala:577
 msgid "Asia/Makassar"
@@ -1304,7 +1305,7 @@ msgstr "Asia/Almaty"
 
 #: src/Translations.vala:643
 msgid "Kazakhstan (most areas)"
-msgstr ""
+msgstr "Kasakhstan (de fleste områder)"
 
 #: src/Translations.vala:645
 msgid "Asia/Qyzylorda"
@@ -1412,7 +1413,7 @@ msgstr "Stillehavet/Majuro"
 
 #: src/Translations.vala:697
 msgid "Marshall Islands (most areas)"
-msgstr ""
+msgstr "Marshalløyene (de fleste områder)"
 
 #: src/Translations.vala:699
 msgid "Pacific/Kwajalein"
@@ -1440,7 +1441,7 @@ msgstr "Asia/Ulaanbaatar"
 
 #: src/Translations.vala:711
 msgid "Mongolia (most areas)"
-msgstr ""
+msgstr "Mongolia (de fleste områder)"
 
 #: src/Translations.vala:713
 msgid "Asia/Hovd"
@@ -1860,11 +1861,11 @@ msgstr ""
 
 #: src/Translations.vala:921
 msgid "Europe/Ulyanovsk"
-msgstr ""
+msgstr "Europa/Uljanovsk"
 
 #: src/Translations.vala:923
 msgid "MSK+01 - Ulyanovsk"
-msgstr ""
+msgstr "MSK+01 - Uljanovsk"
 
 #: src/Translations.vala:925
 msgid "Asia/Yekaterinburg"
@@ -1900,11 +1901,11 @@ msgstr ""
 
 #: src/Translations.vala:941
 msgid "Asia/Tomsk"
-msgstr ""
+msgstr "Asia/Tomsk"
 
 #: src/Translations.vala:943
 msgid "MSK+04 - Tomsk"
-msgstr ""
+msgstr "MSK+04 - Tomsk"
 
 #: src/Translations.vala:945
 msgid "Asia/Novokuznetsk"
@@ -2388,7 +2389,7 @@ msgstr "Amerika/Anchorage"
 
 #: src/Translations.vala:1185
 msgid "Alaska (most areas)"
-msgstr ""
+msgstr "Alaska (de fleste områder)"
 
 #: src/Translations.vala:1187
 msgid "America/Juneau"
@@ -2396,19 +2397,19 @@ msgstr "Amerika/Juneau"
 
 #: src/Translations.vala:1189
 msgid "Alaska - Juneau area"
-msgstr ""
+msgstr "Alaska - Juneau-området"
 
 #: src/Translations.vala:1191
 msgid "America/Sitka"
-msgstr ""
+msgstr "Amerika/Sitka"
 
 #: src/Translations.vala:1193
 msgid "Alaska - Sitka area"
-msgstr ""
+msgstr "Alaska - SItka-området"
 
 #: src/Translations.vala:1195
 msgid "America/Metlakatla"
-msgstr ""
+msgstr "Amerika/Metalakta"
 
 #: src/Translations.vala:1197
 msgid "Alaska - Annette Island"
@@ -2420,7 +2421,7 @@ msgstr "Amerika/Yakutat"
 
 #: src/Translations.vala:1201
 msgid "Alaska - Yakutat"
-msgstr ""
+msgstr "Alaska - Yakutat"
 
 #: src/Translations.vala:1203
 msgid "America/Nome"
