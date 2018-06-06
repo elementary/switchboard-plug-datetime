@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-19 02:05-0500\n"
-"PO-Revision-Date: 2018-06-06 00:09+0000\n"
+"PO-Revision-Date: 2018-06-07 00:10+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål "
 "<https://weblate.elementary.io/projects/switchboard/switchboard-plug-"
@@ -290,8 +290,9 @@ msgid "Australia/Broken_Hill"
 msgstr "Australia/Broken_Hill"
 
 #: src/Translations.vala:137
+#, fuzzy
 msgid "New South Wales (Yancowinna)"
-msgstr ""
+msgstr "New South Wales (Yancowinna)"
 
 #: src/Translations.vala:139
 msgid "Australia/Brisbane"
@@ -306,8 +307,9 @@ msgid "Australia/Lindeman"
 msgstr "Australia/Lindeman"
 
 #: src/Translations.vala:145
+#, fuzzy
 msgid "Queensland (Whitsunday Islands)"
-msgstr ""
+msgstr "Queensland (Whitsundayøyene)"
 
 #: src/Translations.vala:147
 msgid "Australia/Adelaide"
@@ -564,7 +566,7 @@ msgstr "Amerika/St_Johns"
 
 #: src/Translations.vala:273
 msgid "Newfoundland; Labrador (southeast)"
-msgstr ""
+msgstr "Newfoundland; Labrador (sørøst)"
 
 #: src/Translations.vala:275
 msgid "America/Halifax"
@@ -972,7 +974,7 @@ msgstr "Afrika/Ceuta"
 
 #: src/Translations.vala:477
 msgid "Ceuta, Melilla"
-msgstr ""
+msgstr "Ceuta, Melilla"
 
 #: src/Translations.vala:479
 msgid "Atlantic/Canary"
@@ -1012,7 +1014,7 @@ msgstr "Stillehavet/Pohnpei"
 
 #: src/Translations.vala:497
 msgid "Pohnpei/Ponape"
-msgstr ""
+msgstr "Pohnpei"
 
 #: src/Translations.vala:499
 msgid "Pacific/Kosrae"
@@ -1509,7 +1511,7 @@ msgstr "Amerika/Cancun"
 
 #: src/Translations.vala:745
 msgid "Eastern Standard Time - Quintana Roo"
-msgstr ""
+msgstr "Eastern Standard Time - Quintana Roo"
 
 #: src/Translations.vala:747
 msgid "America/Merida"
