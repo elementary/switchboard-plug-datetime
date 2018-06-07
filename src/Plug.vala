@@ -92,13 +92,13 @@ public class DateTime.Plug : Switchboard.Plug {
             widget_grid.attach (date_picker, 3, 2, 1, 1);
 
             var source = SettingsSchemaSource.get_default ();
-            var schema = source.lookup ("org.pantheon.desktop.wingpanel.indicators.datetime", false);
+            var schema = source.lookup ("io.elementary.desktop.wingpanel.datetime", false);
 
             if (schema == null) {
                 week_number_label.no_show_all = true;
                 week_number_switch.no_show_all = true;
             } else {
-                var week_number_settings = new GLib.Settings ("org.pantheon.desktop.wingpanel.indicators.datetime");
+                var week_number_settings = new GLib.Settings ("io.elementary.desktop.wingpanel.datetime");
                 week_number_settings.bind ("show-weeks", week_number_switch, "active", SettingsBindFlags.DEFAULT);
             }
 
