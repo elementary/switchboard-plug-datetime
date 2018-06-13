@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-19 02:05-0500\n"
-"PO-Revision-Date: 2018-06-13 00:08+0000\n"
-"Last-Translator: Eri Hidayat <eriwhidayat@gmail.com>\n"
+"PO-Revision-Date: 2018-06-13 16:52+0000\n"
+"Last-Translator: seven3z <bangkitpratama73@gmail.com>\n"
 "Language-Team: Indonesian <https://weblate.elementary.io/projects/switchboard"
 "/switchboard-plug-datetime/id/>\n"
 "Language: id\n"
@@ -377,8 +377,9 @@ msgid "Europe/Sofia"
 msgstr "Eropa/Sofia"
 
 #: src/Translations.vala:181
+#, fuzzy
 msgid "Asia/Bahrain"
-msgstr ""
+msgstr "Asia/Bahrain"
 
 #: src/Translations.vala:183
 msgid "Africa/Bujumbura"
@@ -390,7 +391,7 @@ msgstr "Afrika/Porto-Novo"
 
 #: src/Translations.vala:187
 msgid "America/St_Barthelemy"
-msgstr ""
+msgstr "Amerika/St_Barthelemy"
 
 #: src/Translations.vala:189
 msgid "Atlantic/Bermuda"
@@ -398,7 +399,7 @@ msgstr "Atlantik/Bermuda"
 
 #: src/Translations.vala:191
 msgid "Asia/Brunei"
-msgstr ""
+msgstr "Asia/Brunei_Darussalam"
 
 #: src/Translations.vala:193
 msgid "America/La_Paz"
@@ -406,7 +407,7 @@ msgstr "Amerika/La_Paz"
 
 #: src/Translations.vala:195
 msgid "America/Kralendijk"
-msgstr ""
+msgstr "Amerika/Kralendijk"
 
 #: src/Translations.vala:197
 msgid "America/Noronha"
@@ -414,7 +415,7 @@ msgstr "Amerika/Noronha"
 
 #: src/Translations.vala:199
 msgid "Atlantic islands"
-msgstr ""
+msgstr "Pulau Atlantik"
 
 #: src/Translations.vala:201
 msgid "America/Belem"
