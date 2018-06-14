@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-19 02:05-0500\n"
-"PO-Revision-Date: 2018-06-13 00:08+0000\n"
+"PO-Revision-Date: 2018-06-14 00:09+0000\n"
 "Last-Translator: Eri Hidayat <eriwhidayat@gmail.com>\n"
 "Language-Team: Indonesian <https://weblate.elementary.io/projects/switchboard"
 "/switchboard-plug-datetime/id/>\n"
@@ -378,7 +378,7 @@ msgstr "Eropa/Sofia"
 
 #: src/Translations.vala:181
 msgid "Asia/Bahrain"
-msgstr ""
+msgstr "Asia/Bahrain"
 
 #: src/Translations.vala:183
 msgid "Africa/Bujumbura"
@@ -390,7 +390,7 @@ msgstr "Afrika/Porto-Novo"
 
 #: src/Translations.vala:187
 msgid "America/St_Barthelemy"
-msgstr ""
+msgstr "Amerika/St_Barthelemy"
 
 #: src/Translations.vala:189
 msgid "Atlantic/Bermuda"
@@ -398,7 +398,7 @@ msgstr "Atlantik/Bermuda"
 
 #: src/Translations.vala:191
 msgid "Asia/Brunei"
-msgstr ""
+msgstr "Asia/Brunei_Darussalam"
 
 #: src/Translations.vala:193
 msgid "America/La_Paz"
@@ -406,7 +406,7 @@ msgstr "Amerika/La_Paz"
 
 #: src/Translations.vala:195
 msgid "America/Kralendijk"
-msgstr ""
+msgstr "Amerika/Kralendijk"
 
 #: src/Translations.vala:197
 msgid "America/Noronha"
@@ -414,7 +414,7 @@ msgstr "Amerika/Noronha"
 
 #: src/Translations.vala:199
 msgid "Atlantic islands"
-msgstr ""
+msgstr "Pulau Atlantik"
 
 #: src/Translations.vala:201
 msgid "America/Belem"
@@ -422,7 +422,7 @@ msgstr "Amerika/Belem"
 
 #: src/Translations.vala:203
 msgid "Para (east); Amapa"
-msgstr ""
+msgstr "Para (timur); Amapa"
 
 #: src/Translations.vala:205
 msgid "America/Fortaleza"
@@ -430,7 +430,7 @@ msgstr "Amerika/Fortaleza"
 
 #: src/Translations.vala:207
 msgid "Brazil (northeast: MA, PI, CE, RN, PB)"
-msgstr ""
+msgstr "Brazil (timur laut: MA, PI, CE, RN, PB)"
 
 #: src/Translations.vala:209
 msgid "America/Recife"
@@ -438,7 +438,7 @@ msgstr "Amerika/Recife"
 
 #: src/Translations.vala:211
 msgid "Pernambuco"
-msgstr ""
+msgstr "Pernambuco"
 
 #: src/Translations.vala:213
 msgid "America/Araguaina"
@@ -446,7 +446,7 @@ msgstr "Amerika/Araguaina"
 
 #: src/Translations.vala:215
 msgid "Tocantins"
-msgstr ""
+msgstr "Tocantins"
 
 #: src/Translations.vala:217
 msgid "America/Maceio"
