@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-19 02:05-0500\n"
-"PO-Revision-Date: 2018-06-14 15:15+0000\n"
+"PO-Revision-Date: 2018-06-18 00:06+0000\n"
 "Last-Translator: Majer Tamás <mtamas@disroot.org>\n"
 "Language-Team: Hungarian <https://weblate.elementary.io/projects/switchboard"
 "/switchboard-plug-datetime/hu/>\n"
@@ -2530,7 +2530,7 @@ msgstr "Dátum és idő"
 
 #: src/Plug.vala:37
 msgid "Configure date, time, and select time zone"
-msgstr "Állítsa be a dátumot, időt és az időzónát"
+msgstr "Dátum, idő és az időzóna beállítása"
 
 #: src/Plug.vala:45
 msgid "Network Time:"
@@ -2542,11 +2542,11 @@ msgstr "Időformátum:"
 
 #: src/Plug.vala:58
 msgid "AM/PM"
-msgstr "12 óra"
+msgstr "de./du."
 
 #: src/Plug.vala:59
 msgid "24h"
-msgstr "24 óra"
+msgstr "24ó"
 
 #: src/Plug.vala:61
 msgid "Time Zone:"
