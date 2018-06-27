@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-power\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-19 02:05-0500\n"
+"POT-Creation-Date: 2018-06-27 08:49-0700\n"
 "PO-Revision-Date: 2015-04-21 11:31+0000\n"
 "Last-Translator: Soumen Kamilya <soumen.kamilya@gmail.com>\n"
 "Language-Team: Bengali <bn@li.org>\n"
@@ -79,8 +79,9 @@ msgid "Antarctica/DumontDUrville"
 msgstr "অ্যান্টার্কটিকা/দুমোন্ত দ্য উরভিল"
 
 #: src/Translations.vala:33
-msgid "Dumont-d'Urville"
-msgstr ""
+#, fuzzy
+msgid "Dumont d'Urville"
+msgstr "অ্যান্টার্কটিকা/দুমোন্ত দ্য উরভিল"
 
 #: src/Translations.vala:35
 msgid "Antarctica/Mawson"

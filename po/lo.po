@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-19 02:05-0500\n"
+"POT-Creation-Date: 2018-06-27 08:49-0700\n"
 "PO-Revision-Date: 2014-12-14 13:00+0000\n"
 "Last-Translator: Corentin Noël <corentin@elementaryos.org>\n"
 "Language-Team: Lao <lo@li.org>\n"
@@ -79,7 +79,7 @@ msgid "Antarctica/DumontDUrville"
 msgstr ""
 
 #: src/Translations.vala:33
-msgid "Dumont-d'Urville"
+msgid "Dumont d'Urville"
 msgstr ""
 
 #: src/Translations.vala:35
