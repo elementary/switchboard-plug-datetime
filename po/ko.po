@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-power\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-27 08:49-0700\n"
-"PO-Revision-Date: 2018-06-28 02:43+0000\n"
+"PO-Revision-Date: 2018-06-28 02:45+0000\n"
 "Last-Translator: Jung-Kyu Park <bagjunggyu@gmail.com>\n"
 "Language-Team: Korean <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-datetime/ko/>\n"
@@ -78,7 +78,7 @@ msgstr "데이비스(Davis)"
 
 #: src/Translations.vala:31
 msgid "Antarctica/DumontDUrville"
-msgstr "남극대륙/드몬두르빌(DumontDUrville)"
+msgstr "남극대륙/뒤몽뒤르빌(DumontDUrville)"
 
 #: src/Translations.vala:33
 msgid "Dumont d'Urville"
