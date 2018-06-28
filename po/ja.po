@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-27 08:49-0700\n"
-"PO-Revision-Date: 2018-06-17 00:08+0000\n"
-"Last-Translator: Ryo Nakano <ryonakaknock@gmail.com>\n"
+"PO-Revision-Date: 2018-06-29 00:05+0000\n"
+"Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-datetime/ja/>\n"
 "Language: ja\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2.18\n"
+"X-Generator: Weblate 3.0.1\n"
 "X-Launchpad-Export-Date: 2017-01-29 05:09+0000\n"
 
 #: src/Translations.vala:3
@@ -76,7 +76,6 @@ msgid "Antarctica/DumontDUrville"
 msgstr "南極大陸/デュモンデュルヴィル基地"
 
 #: src/Translations.vala:33
-#, fuzzy
 msgid "Dumont d'Urville"
 msgstr "デュモンデュルヴィル基地"
 
