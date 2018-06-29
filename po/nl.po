@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-27 08:49-0700\n"
-"PO-Revision-Date: 2017-08-13 19:49+0000\n"
+"PO-Revision-Date: 2018-06-30 00:03+0000\n"
 "Last-Translator: Dieter Debast <dieter_debast@hotmail.com>\n"
 "Language-Team: Dutch <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-datetime/nl/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.15\n"
+"X-Generator: Weblate 3.0.1\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:04+0000\n"
 
 #: src/Translations.vala:3
@@ -81,9 +81,8 @@ msgid "Antarctica/DumontDUrville"
 msgstr "Antarctica/DumontDUrville"
 
 #: src/Translations.vala:33
-#, fuzzy
 msgid "Dumont d'Urville"
-msgstr "Antarctica/DumontDUrville"
+msgstr "Dumont d'Urville"
 
 #: src/Translations.vala:35
 msgid "Antarctica/Mawson"
