@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-power\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-27 08:49-0700\n"
-"PO-Revision-Date: 2018-06-29 20:59+0000\n"
+"PO-Revision-Date: 2018-07-10 00:03+0000\n"
 "Last-Translator: Jan Marek <janmarek28@gmail.com>\n"
 "Language-Team: Czech <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-datetime/cs/>\n"
@@ -2525,7 +2525,7 @@ msgstr "Afrika/Harare"
 
 #: src/Plug.vala:36
 msgid "Date & Time"
-msgstr "Datum & Čas"
+msgstr "Datum a čas"
 
 #: src/Plug.vala:37
 msgid "Configure date, time, and select time zone"
@@ -2541,7 +2541,7 @@ msgstr "Formát času:"
 
 #: src/Plug.vala:58
 msgid "AM/PM"
-msgstr "12hodinový"
+msgstr "AM/PM"
 
 #: src/Plug.vala:59
 msgid "24h"
@@ -2593,7 +2593,7 @@ msgstr "Asie"
 
 #: src/Widgets/TZPopover.vala:65
 msgid "Atlantic"
-msgstr "Atlantický oceán"
+msgstr "Atlantský oceán"
 
 #: src/Widgets/TZPopover.vala:67
 msgid "Australia"
