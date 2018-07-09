@@ -234,11 +234,11 @@ msgstr "Pacifik/Pago_Pago"
 
 #: src/Translations.vala:109
 msgid "Europe/Vienna"
-msgstr "Evropa/Benetke"
+msgstr "Evropa/Dunaj"
 
 #: src/Translations.vala:111
 msgid "Australia/Lord_Howe"
-msgstr "Avstralija/Lord_Howe"
+msgstr "Avstralija/Lord Howe"
 
 #: src/Translations.vala:113
 msgid "Lord Howe Island"
