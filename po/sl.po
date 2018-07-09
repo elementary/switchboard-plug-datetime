@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-power\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-27 08:49-0700\n"
-"PO-Revision-Date: 2018-02-10 00:02+0000\n"
+"PO-Revision-Date: 2018-07-09 20:27+0000\n"
 "Last-Translator: Jernej Virag <jernej@virag.si>\n"
 "Language-Team: Slovenian <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-datetime/sl/>\n"
@@ -16,9 +16,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
-"%100==4 ? 2 : 3;\n"
-"X-Generator: Weblate 2.18\n"
+"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
+"n%100==4 ? 2 : 3;\n"
+"X-Generator: Weblate 3.0.1\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:05+0000\n"
 
 #: src/Translations.vala:3
@@ -59,7 +59,7 @@ msgstr "Antarktika/McMurdo"
 
 #: src/Translations.vala:21
 msgid "New Zealand time - McMurdo, South Pole"
-msgstr ""
+msgstr "Novozelandski čas - McMurdo, Južni pol"
 
 #: src/Translations.vala:23
 msgid "Antarctica/Casey"
@@ -67,7 +67,7 @@ msgstr "Antarktika/Casey"
 
 #: src/Translations.vala:25
 msgid "Casey"
-msgstr ""
+msgstr "Casey"
 
 #: src/Translations.vala:27
 msgid "Antarctica/Davis"
@@ -75,16 +75,15 @@ msgstr "Antarktika/Davis"
 
 #: src/Translations.vala:29
 msgid "Davis"
-msgstr ""
+msgstr "Davis"
 
 #: src/Translations.vala:31
 msgid "Antarctica/DumontDUrville"
 msgstr "Antarktika/DumontDUrville"
 
 #: src/Translations.vala:33
-#, fuzzy
 msgid "Dumont d'Urville"
-msgstr "Antarktika/DumontDUrville"
+msgstr "Dumont d'Urville"
 
 #: src/Translations.vala:35
 msgid "Antarctica/Mawson"
@@ -92,7 +91,7 @@ msgstr "Antarktika/Mawson"
 
 #: src/Translations.vala:37
 msgid "Mawson"
-msgstr ""
+msgstr "Mawson"
 
 #: src/Translations.vala:39
 msgid "Antarctica/Palmer"
@@ -100,15 +99,15 @@ msgstr "Antarktika/Palmer"
 
 #: src/Translations.vala:41
 msgid "Palmer"
-msgstr ""
+msgstr "Palmer"
 
 #: src/Translations.vala:43
 msgid "Antarctica/Rothera"
-msgstr ""
+msgstr "Antarktika/Rothera"
 
 #: src/Translations.vala:45
 msgid "Rothera"
-msgstr ""
+msgstr "Rothera"
 
 #: src/Translations.vala:47
 msgid "Antarctica/Syowa"
@@ -116,7 +115,7 @@ msgstr "Antarktika/Syowa"
 
 #: src/Translations.vala:49
 msgid "Syowa"
-msgstr ""
+msgstr "Syowa"
 
 #: src/Translations.vala:51
 msgid "Antarctica/Troll"
