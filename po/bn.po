@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-power\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-27 08:49-0700\n"
+"POT-Creation-Date: 2018-07-11 12:34-0300\n"
 "PO-Revision-Date: 2015-04-21 11:31+0000\n"
 "Last-Translator: Soumen Kamilya <soumen.kamilya@gmail.com>\n"
 "Language-Team: Bengali <bn@li.org>\n"
@@ -80,7 +80,7 @@ msgstr "অ্যান্টার্কটিকা/দুমোন্ত দ�
 
 #: src/Translations.vala:33
 #, fuzzy
-msgid "Dumont d'Urville"
+msgid "Dumont-d'Urville"
 msgstr "অ্যান্টার্কটিকা/দুমোন্ত দ্য উরভিল"
 
 #: src/Translations.vala:35
@@ -830,1698 +830,1732 @@ msgid "Chile (most areas)"
 msgstr ""
 
 #: src/Translations.vala:407
-msgid "Pacific/Easter"
-msgstr ""
+#, fuzzy
+msgid "America/Punta_Arenas"
+msgstr "আমেরিকা/পানামা"
 
 #: src/Translations.vala:409
-msgid "Easter Island"
+msgid "Region of Magallanes"
 msgstr ""
 
 #: src/Translations.vala:411
+msgid "Pacific/Easter"
+msgstr ""
+
+#: src/Translations.vala:413
+msgid "Easter Island"
+msgstr ""
+
+#: src/Translations.vala:415
 msgid "Africa/Douala"
 msgstr "আফ্রিকা/ডুয়ালা"
 
-#: src/Translations.vala:413
+#: src/Translations.vala:417
 msgid "Asia/Shanghai"
 msgstr "এশিয়া/সাংঘাই"
 
-#: src/Translations.vala:415
+#: src/Translations.vala:419
 msgid "Beijing Time"
 msgstr ""
 
-#: src/Translations.vala:417
+#: src/Translations.vala:421
 msgid "Asia/Urumqi"
 msgstr "এশিয়া/উরুমকি"
 
-#: src/Translations.vala:419
+#: src/Translations.vala:423
 msgid "Xinjiang Time"
 msgstr ""
 
-#: src/Translations.vala:421
+#: src/Translations.vala:425
 msgid "America/Bogota"
 msgstr "আমেরিকা/বোগোটা"
 
-#: src/Translations.vala:423
+#: src/Translations.vala:427
 msgid "America/Costa_Rica"
 msgstr "আমেরিকা/কোস্টা_রিকা"
 
-#: src/Translations.vala:425
+#: src/Translations.vala:429
 msgid "America/Havana"
 msgstr "আমেরিকা/হাভানা"
 
-#: src/Translations.vala:427
+#: src/Translations.vala:431
 msgid "Atlantic/Cape_Verde"
 msgstr "অ্যাটলান্টিক/কেপ_ভার্ডি"
 
-#: src/Translations.vala:429
+#: src/Translations.vala:433
 msgid "America/Curacao"
 msgstr "আমেরিকা/কুরাকাও"
 
-#: src/Translations.vala:431
+#: src/Translations.vala:435
 msgid "Indian/Christmas"
 msgstr "ভারত মহাসাগর/ক্রিস্টমাস"
 
-#: src/Translations.vala:433
+#: src/Translations.vala:437
 msgid "Asia/Nicosia"
 msgstr "এশিয়া/নিকোসিয়া"
 
-#: src/Translations.vala:435
-msgid "Europe/Prague"
-msgstr "ইউরোপ/প্রাগ"
-
-#: src/Translations.vala:437
-msgid "Europe/Berlin"
-msgstr "ইউরোপ/বার্লিন"
-
 #: src/Translations.vala:439
-msgid "Germany (most areas)"
+msgid "Cyprus (most areas)"
 msgstr ""
 
 #: src/Translations.vala:441
-msgid "Europe/Busingen"
-msgstr ""
+#, fuzzy
+msgid "Asia/Famagusta"
+msgstr "এশিয়া/ডামাসকাস"
 
 #: src/Translations.vala:443
-msgid "Busingen"
+msgid "Northern Cyprus"
 msgstr ""
 
 #: src/Translations.vala:445
+msgid "Europe/Prague"
+msgstr "ইউরোপ/প্রাগ"
+
+#: src/Translations.vala:447
+msgid "Europe/Berlin"
+msgstr "ইউরোপ/বার্লিন"
+
+#: src/Translations.vala:449
+msgid "Germany (most areas)"
+msgstr ""
+
+#: src/Translations.vala:451
+msgid "Europe/Busingen"
+msgstr ""
+
+#: src/Translations.vala:453
+msgid "Busingen"
+msgstr ""
+
+#: src/Translations.vala:455
 msgid "Africa/Djibouti"
 msgstr "আফ্রিকা/জিবুতি"
 
-#: src/Translations.vala:447
+#: src/Translations.vala:457
 msgid "Europe/Copenhagen"
 msgstr "ইউরোপ/কোপেনহেগেন"
 
-#: src/Translations.vala:449
+#: src/Translations.vala:459
 msgid "America/Dominica"
 msgstr "আমেরিকা/ডোমিনিকা"
 
-#: src/Translations.vala:451
+#: src/Translations.vala:461
 msgid "America/Santo_Domingo"
 msgstr "আমেরিকা/সান্টো_ডোমিঙ্গো"
 
-#: src/Translations.vala:453
+#: src/Translations.vala:463
 msgid "Africa/Algiers"
 msgstr "আফ্রিকা/এলজিয়ার্স"
 
-#: src/Translations.vala:455
+#: src/Translations.vala:465
 msgid "America/Guayaquil"
 msgstr "আমেরিকা/গায়াকুইল"
 
-#: src/Translations.vala:457
+#: src/Translations.vala:467
 msgid "Ecuador (mainland)"
 msgstr ""
 
-#: src/Translations.vala:459
+#: src/Translations.vala:469
 msgid "Pacific/Galapagos"
 msgstr "প্রশান্ত মহাসাগর/গালাপাগোস"
 
-#: src/Translations.vala:461
+#: src/Translations.vala:471
 msgid "Galapagos Islands"
 msgstr ""
 
-#: src/Translations.vala:463
+#: src/Translations.vala:473
 msgid "Europe/Tallinn"
 msgstr "ইউরোপ/ট্যালিন"
 
-#: src/Translations.vala:465
+#: src/Translations.vala:475
 msgid "Africa/Cairo"
 msgstr "আফ্রিকা/কায়রো"
 
-#: src/Translations.vala:467
+#: src/Translations.vala:477
 msgid "Africa/El_Aaiun"
 msgstr "আফ্রিকা/এল_আউইন"
 
-#: src/Translations.vala:469
+#: src/Translations.vala:479
 msgid "Africa/Asmara"
 msgstr ""
 
-#: src/Translations.vala:471
+#: src/Translations.vala:481
 msgid "Europe/Madrid"
 msgstr "ইউরোপ/মাড্রিড"
 
-#: src/Translations.vala:473
+#: src/Translations.vala:483
 msgid "Spain (mainland)"
 msgstr ""
 
-#: src/Translations.vala:475
+#: src/Translations.vala:485
 msgid "Africa/Ceuta"
 msgstr "আফ্রিকা/থেউটা"
 
-#: src/Translations.vala:477
+#: src/Translations.vala:487
 msgid "Ceuta, Melilla"
 msgstr ""
 
-#: src/Translations.vala:479
+#: src/Translations.vala:489
 msgid "Atlantic/Canary"
 msgstr "অ্যাটলান্টিক/ক্যানারি"
 
-#: src/Translations.vala:481
+#: src/Translations.vala:491
 msgid "Canary Islands"
 msgstr ""
 
-#: src/Translations.vala:483
+#: src/Translations.vala:493
 msgid "Africa/Addis_Ababa"
 msgstr "আফ্রিকা/আডিস_আবাবা"
 
-#: src/Translations.vala:485
+#: src/Translations.vala:495
 msgid "Europe/Helsinki"
 msgstr "ইউরোপ/হেলসিঙ্কি"
 
-#: src/Translations.vala:487
+#: src/Translations.vala:497
 msgid "Pacific/Fiji"
 msgstr "প্রশান্ত মহাসাগর/ফিজি"
 
-#: src/Translations.vala:489
+#: src/Translations.vala:499
 msgid "Atlantic/Stanley"
 msgstr "অ্যাটলান্টিক/স্টেনলি"
 
-#: src/Translations.vala:491
+#: src/Translations.vala:501
 msgid "Pacific/Chuuk"
 msgstr ""
 
-#: src/Translations.vala:493
+#: src/Translations.vala:503
 msgid "Chuuk/Truk, Yap"
 msgstr ""
 
-#: src/Translations.vala:495
+#: src/Translations.vala:505
 msgid "Pacific/Pohnpei"
 msgstr ""
 
-#: src/Translations.vala:497
+#: src/Translations.vala:507
 msgid "Pohnpei/Ponape"
 msgstr ""
 
 # is this kiribati?
-#: src/Translations.vala:499
+#: src/Translations.vala:509
 msgid "Pacific/Kosrae"
 msgstr "প্রশান্ত মহাসাগর/কোসরে"
 
-#: src/Translations.vala:501
+#: src/Translations.vala:511
 msgid "Kosrae"
 msgstr ""
 
-#: src/Translations.vala:503
+#: src/Translations.vala:513
 msgid "Atlantic/Faroe"
 msgstr ""
 
-#: src/Translations.vala:505
+#: src/Translations.vala:515
 msgid "Europe/Paris"
 msgstr "ইউরোপ/প্যারিস"
 
-#: src/Translations.vala:507
+#: src/Translations.vala:517
 msgid "Africa/Libreville"
 msgstr "আফ্রিকা/লিবারভিল"
 
-#: src/Translations.vala:509
+#: src/Translations.vala:519
 msgid "Europe/London"
 msgstr "ইউরোপ/লন্ডন"
 
-#: src/Translations.vala:511
+#: src/Translations.vala:521
 msgid "America/Grenada"
 msgstr "আমেরিকা/গ্রেনাডা"
 
-#: src/Translations.vala:513
+#: src/Translations.vala:523
 msgid "Asia/Tbilisi"
 msgstr "এশিয়া/তবিলিশি"
 
-#: src/Translations.vala:515
+#: src/Translations.vala:525
 msgid "America/Cayenne"
 msgstr "আমেরিকা/সায়েন"
 
-#: src/Translations.vala:517
+#: src/Translations.vala:527
 msgid "Europe/Guernsey"
 msgstr ""
 
-#: src/Translations.vala:519
+#: src/Translations.vala:529
 msgid "Africa/Accra"
 msgstr "আফ্রিকা/আক্রা"
 
-#: src/Translations.vala:521
+#: src/Translations.vala:531
 msgid "Europe/Gibraltar"
 msgstr "ইউরোপ/জিব্রালটার"
 
-#: src/Translations.vala:523
+#: src/Translations.vala:533
 msgid "America/Godthab"
 msgstr "আমেরিকা/গডথাব"
 
-#: src/Translations.vala:525
+#: src/Translations.vala:535
 msgid "Greenland (most areas)"
 msgstr ""
 
-#: src/Translations.vala:527
+#: src/Translations.vala:537
 msgid "America/Danmarkshavn"
 msgstr "আমেরিকা/ডানমার্কশওয়ান"
 
-#: src/Translations.vala:529
+#: src/Translations.vala:539
 msgid "National Park (east coast)"
 msgstr ""
 
-#: src/Translations.vala:531
+#: src/Translations.vala:541
 msgid "America/Scoresbysund"
 msgstr "আমেরিকা/স্কোর্সবিসান্ড"
 
-#: src/Translations.vala:533
+#: src/Translations.vala:543
 msgid "Scoresbysund/Ittoqqortoormiit"
 msgstr ""
 
-#: src/Translations.vala:535
+#: src/Translations.vala:545
 msgid "America/Thule"
 msgstr "আমেরিকা/থুল"
 
-#: src/Translations.vala:537
+#: src/Translations.vala:547
 msgid "Thule/Pituffik"
 msgstr ""
 
-#: src/Translations.vala:539
+#: src/Translations.vala:549
 msgid "Africa/Banjul"
 msgstr "আফ্রিকা/বানজুল"
 
-#: src/Translations.vala:541
+#: src/Translations.vala:551
 msgid "Africa/Conakry"
 msgstr "আফ্রিকা/কোনাক্রি"
 
-#: src/Translations.vala:543
+#: src/Translations.vala:553
 msgid "America/Guadeloupe"
 msgstr "আমেরিকা/গুয়াডেলুপ"
 
-#: src/Translations.vala:545
+#: src/Translations.vala:555
 msgid "Africa/Malabo"
 msgstr "আফ্রিকা/মালাবো"
 
-#: src/Translations.vala:547
+#: src/Translations.vala:557
 msgid "Europe/Athens"
 msgstr "ইউরোপ/এথেন্স"
 
-#: src/Translations.vala:549
+#: src/Translations.vala:559
 msgid "Atlantic/South_Georgia"
 msgstr "অ্যাটলান্টিক/সাউথ_জর্জিয়া"
 
-#: src/Translations.vala:551
+#: src/Translations.vala:561
 msgid "America/Guatemala"
 msgstr "আমেরিকা/গুয়াটেমালা"
 
-#: src/Translations.vala:553
+#: src/Translations.vala:563
 msgid "Pacific/Guam"
 msgstr "প্রশান্ত মহাসাগর/গুয়াম"
 
-#: src/Translations.vala:555
+#: src/Translations.vala:565
 msgid "Africa/Bissau"
 msgstr "আফ্রিকা/বিসাউ"
 
-#: src/Translations.vala:557
+#: src/Translations.vala:567
 msgid "America/Guyana"
 msgstr "আমেরিকা/গায়ানা"
 
-#: src/Translations.vala:559
+#: src/Translations.vala:569
 msgid "Asia/Hong_Kong"
 msgstr "এশিয়া/হং _কং"
 
-#: src/Translations.vala:561
+#: src/Translations.vala:571
 msgid "America/Tegucigalpa"
 msgstr "আমেরিকা/তেগুসিগালপা"
 
-#: src/Translations.vala:563
+#: src/Translations.vala:573
 msgid "Europe/Zagreb"
 msgstr "ইউরোপ/জাগ্রেব"
 
-#: src/Translations.vala:565
+#: src/Translations.vala:575
 msgid "America/Port-au-Prince"
 msgstr "আমেরিকা/পোর্ট_ও_প্রিন্স"
 
-#: src/Translations.vala:567
+#: src/Translations.vala:577
 msgid "Europe/Budapest"
 msgstr "ইউরোপ/বুডাপেস্ট"
 
-#: src/Translations.vala:569
+#: src/Translations.vala:579
 msgid "Asia/Jakarta"
 msgstr "এশিয়া/জাকার্তা"
 
-#: src/Translations.vala:571
+#: src/Translations.vala:581
 msgid "Java, Sumatra"
 msgstr ""
 
-#: src/Translations.vala:573
+#: src/Translations.vala:583
 msgid "Asia/Pontianak"
 msgstr "এশিয়া/পন্টিয়ানাক"
 
-#: src/Translations.vala:575
+#: src/Translations.vala:585
 msgid "Borneo (west, central)"
 msgstr ""
 
-#: src/Translations.vala:577
+#: src/Translations.vala:587
 msgid "Asia/Makassar"
 msgstr "এশিয়া/মাকাসসার"
 
-#: src/Translations.vala:579
+#: src/Translations.vala:589
 msgid ""
 "Borneo (east, south); Sulawesi/Celebes, Bali, Nusa Tengarra; Timor (west)"
 msgstr ""
 
-#: src/Translations.vala:581
+#: src/Translations.vala:591
 msgid "Asia/Jayapura"
 msgstr "এশিয়া/জায়াপুরা"
 
-#: src/Translations.vala:583
+#: src/Translations.vala:593
 msgid "New Guinea (West Papua / Irian Jaya); Malukus/Moluccas"
 msgstr ""
 
-#: src/Translations.vala:585
+#: src/Translations.vala:595
 msgid "Europe/Dublin"
 msgstr "ইউরোপ/ডাবলিন"
 
-#: src/Translations.vala:587
+#: src/Translations.vala:597
 msgid "Asia/Jerusalem"
 msgstr "এশিয়া/জেরুসেলাম"
 
-#: src/Translations.vala:589
+#: src/Translations.vala:599
 msgid "Europe/Isle_of_Man"
 msgstr ""
 
-#: src/Translations.vala:591
+#: src/Translations.vala:601
 msgid "Asia/Kolkata"
 msgstr ""
 
-#: src/Translations.vala:593
+#: src/Translations.vala:603
 msgid "Indian/Chagos"
 msgstr "ভারত মহাসাগর/চাগোস"
 
-#: src/Translations.vala:595
+#: src/Translations.vala:605
 msgid "Asia/Baghdad"
 msgstr "এশিয়া/বাগদাদ"
 
-#: src/Translations.vala:597
+#: src/Translations.vala:607
 msgid "Asia/Tehran"
 msgstr "এশিয়া/তেহেরান"
 
-#: src/Translations.vala:599
+#: src/Translations.vala:609
 msgid "Atlantic/Reykjavik"
 msgstr "অ্যাটলান্টিক/রিকয়াভিক"
 
-#: src/Translations.vala:601
+#: src/Translations.vala:611
 msgid "Europe/Rome"
 msgstr "ইউরোপ/রোম"
 
-#: src/Translations.vala:603
+#: src/Translations.vala:613
 msgid "Europe/Jersey"
 msgstr ""
 
 # not sure
-#: src/Translations.vala:605
+#: src/Translations.vala:615
 msgid "America/Jamaica"
 msgstr "আমেরিকা/জামাইকা"
 
-#: src/Translations.vala:607
+#: src/Translations.vala:617
 msgid "Asia/Amman"
 msgstr "এশিয়া/আম্মান"
 
-#: src/Translations.vala:609
+#: src/Translations.vala:619
 msgid "Asia/Tokyo"
 msgstr "এশিয়া/টোকিও"
 
-#: src/Translations.vala:611
+#: src/Translations.vala:621
 msgid "Africa/Nairobi"
 msgstr "আফ্রিকা/নায়রোবি"
 
-#: src/Translations.vala:613
+#: src/Translations.vala:623
 msgid "Asia/Bishkek"
 msgstr "এশিয়া/বিশকেক"
 
-#: src/Translations.vala:615
+#: src/Translations.vala:625
 msgid "Asia/Phnom_Penh"
 msgstr "এশিয়া/নোম_ফেন"
 
-#: src/Translations.vala:617
+#: src/Translations.vala:627
 msgid "Pacific/Tarawa"
 msgstr "প্রশান্ত মহাসাগর/তারাওয়া"
 
-#: src/Translations.vala:619
+#: src/Translations.vala:629
 msgid "Gilbert Islands"
 msgstr ""
 
-#: src/Translations.vala:621
+#: src/Translations.vala:631
 msgid "Pacific/Enderbury"
 msgstr "প্রশান্ত মহাসাগর/এন্ডারবুরি"
 
-#: src/Translations.vala:623
+#: src/Translations.vala:633
 msgid "Phoenix Islands"
 msgstr ""
 
-#: src/Translations.vala:625
+#: src/Translations.vala:635
 msgid "Pacific/Kiritimati"
 msgstr "প্রশান্ত মহাসাগর/কিরিবাস"
 
-#: src/Translations.vala:627
+#: src/Translations.vala:637
 msgid "Line Islands"
 msgstr ""
 
-#: src/Translations.vala:629
+#: src/Translations.vala:639
 msgid "Indian/Comoro"
 msgstr "ভারত মহাসাগর/কোমোরো"
 
-#: src/Translations.vala:631
+#: src/Translations.vala:641
 msgid "America/St_Kitts"
 msgstr "আমেরিকা/সেন্ট_কিটস"
 
-#: src/Translations.vala:633
+#: src/Translations.vala:643
 msgid "Asia/Pyongyang"
 msgstr "এশিয়া/পিয়োংইয়াং"
 
-#: src/Translations.vala:635
+#: src/Translations.vala:645
 msgid "Asia/Seoul"
 msgstr "এশিয়া/সিওল"
 
-#: src/Translations.vala:637
+#: src/Translations.vala:647
 msgid "Asia/Kuwait"
 msgstr "এশিয়া/কুয়েত"
 
-#: src/Translations.vala:639
+#: src/Translations.vala:649
 msgid "America/Cayman"
 msgstr "আমেরিকা/কেমেন"
 
-#: src/Translations.vala:641
+#: src/Translations.vala:651
 msgid "Asia/Almaty"
 msgstr "এশিয়া/আলমাটি"
 
-#: src/Translations.vala:643
+#: src/Translations.vala:653
 msgid "Kazakhstan (most areas)"
 msgstr ""
 
-#: src/Translations.vala:645
+#: src/Translations.vala:655
 msgid "Asia/Qyzylorda"
 msgstr "এশিয়া/কিজিলোর্দা"
 
-#: src/Translations.vala:647
+#: src/Translations.vala:657
 msgid "Qyzylorda/Kyzylorda/Kzyl-Orda"
 msgstr ""
 
-#: src/Translations.vala:649
+#: src/Translations.vala:659
 msgid "Asia/Aqtobe"
 msgstr "এশিয়া/আকতোবে"
 
-#: src/Translations.vala:651
+#: src/Translations.vala:661
 msgid "Aqtobe/Aktobe"
 msgstr ""
 
-#: src/Translations.vala:653
+#: src/Translations.vala:663
 msgid "Asia/Aqtau"
 msgstr "এশিয়া/আকতু"
 
-#: src/Translations.vala:655
-msgid "Atyrau/Atirau/Gur'yev, Mangghystau/Mankistau"
+#: src/Translations.vala:665
+msgid "Mangghystau/Mankistau"
 msgstr ""
 
-#: src/Translations.vala:657
+#: src/Translations.vala:667
+#, fuzzy
+msgid "Asia/Atyrau"
+msgstr "এশিয়া/আকতু"
+
+#: src/Translations.vala:669
+msgid "Atyrau/Atirau/Gur'yev"
+msgstr ""
+
+#: src/Translations.vala:671
 msgid "Asia/Oral"
 msgstr "এশিয়া/ওরাল"
 
-#: src/Translations.vala:659
+#: src/Translations.vala:673
 msgid "West Kazakhstan"
 msgstr ""
 
-#: src/Translations.vala:661
+#: src/Translations.vala:675
 msgid "Asia/Vientiane"
 msgstr "এশিয়া/ভিয়েনতিয়েন"
 
-#: src/Translations.vala:663
+#: src/Translations.vala:677
 msgid "Asia/Beirut"
 msgstr "এশিয়া/বেইরুট"
 
-#: src/Translations.vala:665
+#: src/Translations.vala:679
 msgid "America/St_Lucia"
 msgstr "আমেরিকা/সেন্ট_লুসিয়া"
 
-#: src/Translations.vala:667
+#: src/Translations.vala:681
 msgid "Europe/Vaduz"
 msgstr "ইউরোপ/ভাদুজ"
 
-#: src/Translations.vala:669
+#: src/Translations.vala:683
 msgid "Asia/Colombo"
 msgstr "এশিয়া/কোলোম্বো"
 
-#: src/Translations.vala:671
+#: src/Translations.vala:685
 msgid "Africa/Monrovia"
 msgstr "আফ্রিকা/মোনরোভিয়া"
 
-#: src/Translations.vala:673
+#: src/Translations.vala:687
 msgid "Africa/Maseru"
 msgstr "আফ্রিকা/মাসেরু"
 
-#: src/Translations.vala:675
+#: src/Translations.vala:689
 msgid "Europe/Vilnius"
 msgstr "ইউরোপ/ভিলনিয়াস"
 
-#: src/Translations.vala:677
+#: src/Translations.vala:691
 msgid "Europe/Luxembourg"
 msgstr "ইউরোপ/লুক্সেমবুর্গ"
 
-#: src/Translations.vala:679
+#: src/Translations.vala:693
 msgid "Europe/Riga"
 msgstr "ইউরোপ/রিগা"
 
-#: src/Translations.vala:681
+#: src/Translations.vala:695
 msgid "Africa/Tripoli"
 msgstr "আফ্রিকা/ট্রিপোলি"
 
-#: src/Translations.vala:683
+#: src/Translations.vala:697
 msgid "Africa/Casablanca"
 msgstr "আফ্রিকা/কাসাব্লাঙ্কা"
 
-#: src/Translations.vala:685
+#: src/Translations.vala:699
 msgid "Europe/Monaco"
 msgstr "ইউরোপ/মোনেকো"
 
-#: src/Translations.vala:687
+#: src/Translations.vala:701
 msgid "Europe/Chisinau"
 msgstr "ইউরোপ/চিশিনাউ"
 
-#: src/Translations.vala:689
+#: src/Translations.vala:703
 msgid "Europe/Podgorica"
 msgstr ""
 
-#: src/Translations.vala:691
+#: src/Translations.vala:705
 msgid "America/Marigot"
 msgstr ""
 
-#: src/Translations.vala:693
+#: src/Translations.vala:707
 msgid "Indian/Antananarivo"
 msgstr "ভারত মহাসাগর/আন্তানানারিভো"
 
-#: src/Translations.vala:695
+#: src/Translations.vala:709
 msgid "Pacific/Majuro"
 msgstr "প্রশান্ত মহাসাগর/মাজুরো"
 
-#: src/Translations.vala:697
+#: src/Translations.vala:711
 msgid "Marshall Islands (most areas)"
 msgstr ""
 
-#: src/Translations.vala:699
+#: src/Translations.vala:713
 msgid "Pacific/Kwajalein"
 msgstr "প্রশান্ত মহাসাগর/কয়াজালিইন"
 
-#: src/Translations.vala:701
+#: src/Translations.vala:715
 msgid "Kwajalein"
 msgstr "কয়াজালিইন"
 
-#: src/Translations.vala:703
+#: src/Translations.vala:717
 msgid "Europe/Skopje"
 msgstr "ইউরোপ/স্কপয়া"
 
-#: src/Translations.vala:705
+#: src/Translations.vala:719
 msgid "Africa/Bamako"
 msgstr "আফ্রিকা/বামাকো"
 
-#: src/Translations.vala:707
-msgid "Asia/Rangoon"
+#: src/Translations.vala:721
+#, fuzzy
+msgid "Asia/Yangon"
 msgstr "এশিয়া/ইয়াংগন"
 
-#: src/Translations.vala:709
+#: src/Translations.vala:723
 msgid "Asia/Ulaanbaatar"
 msgstr "এশিয়া/উলানবাতোর"
 
-#: src/Translations.vala:711
+#: src/Translations.vala:725
 msgid "Mongolia (most areas)"
 msgstr ""
 
-#: src/Translations.vala:713
+#: src/Translations.vala:727
 msgid "Asia/Hovd"
 msgstr "এশিয়া/হোভড"
 
-#: src/Translations.vala:715
+#: src/Translations.vala:729
 msgid "Bayan-Olgiy, Govi-Altai, Hovd, Uvs, Zavkhan"
 msgstr ""
 
-#: src/Translations.vala:717
+#: src/Translations.vala:731
 msgid "Asia/Choibalsan"
 msgstr "এশিয়া/চৈবালছান"
 
-#: src/Translations.vala:719
+#: src/Translations.vala:733
 msgid "Dornod, Sukhbaatar"
 msgstr ""
 
-#: src/Translations.vala:721
+#: src/Translations.vala:735
 msgid "Asia/Macau"
 msgstr "এশিয়া/মাকাও"
 
-#: src/Translations.vala:723
+#: src/Translations.vala:737
 msgid "Pacific/Saipan"
 msgstr "প্রশান্ত মহাসাগর/সাইপান"
 
-#: src/Translations.vala:725
+#: src/Translations.vala:739
 msgid "America/Martinique"
 msgstr "আমেরিকা/মার্টিনিক"
 
-#: src/Translations.vala:727
+#: src/Translations.vala:741
 msgid "Africa/Nouakchott"
 msgstr "আফ্রিকা/নোয়াকশোট"
 
-#: src/Translations.vala:729
+#: src/Translations.vala:743
 msgid "America/Montserrat"
 msgstr "আমেরিকা/মন্টসেরাত"
 
-#: src/Translations.vala:731
+#: src/Translations.vala:745
 msgid "Europe/Malta"
 msgstr "ইউরোপ/মল্টা"
 
-#: src/Translations.vala:733
+#: src/Translations.vala:747
 msgid "Indian/Mauritius"
 msgstr "ভারত মহাসাগর/মরিশাস"
 
-#: src/Translations.vala:735
+#: src/Translations.vala:749
 msgid "Indian/Maldives"
 msgstr "ভারত মহাসাগর/মালদিভ"
 
-#: src/Translations.vala:737
+#: src/Translations.vala:751
 msgid "Africa/Blantyre"
 msgstr "আফ্রিকা/ব্ল্যানটায়ার"
 
-#: src/Translations.vala:739
+#: src/Translations.vala:753
 msgid "America/Mexico_City"
 msgstr "আমেরিকা/মেক্সিকো_সিটি"
 
-#: src/Translations.vala:741
+#: src/Translations.vala:755
 msgid "Central Time"
 msgstr ""
 
-#: src/Translations.vala:743
+#: src/Translations.vala:757
 msgid "America/Cancun"
 msgstr "আমেরিকা/কেনকুন"
 
-#: src/Translations.vala:745
+#: src/Translations.vala:759
 msgid "Eastern Standard Time - Quintana Roo"
 msgstr ""
 
-#: src/Translations.vala:747
+#: src/Translations.vala:761
 msgid "America/Merida"
 msgstr "আমেরিকা/মেরিডা"
 
-#: src/Translations.vala:749
+#: src/Translations.vala:763
 msgid "Central Time - Campeche, Yucatan"
 msgstr ""
 
-#: src/Translations.vala:751
+#: src/Translations.vala:765
 msgid "America/Monterrey"
 msgstr "আমেরিকা/মন্টেরি"
 
-#: src/Translations.vala:753
+#: src/Translations.vala:767
 msgid "Central Time - Durango; Coahuila, Nuevo Leon, Tamaulipas (most areas)"
 msgstr ""
 
-#: src/Translations.vala:755
+#: src/Translations.vala:769
 msgid "America/Matamoros"
 msgstr ""
 
-#: src/Translations.vala:757
+#: src/Translations.vala:771
 msgid "Central Time US - Coahuila, Nuevo Leon, Tamaulipas (US border)"
 msgstr ""
 
-#: src/Translations.vala:759
+#: src/Translations.vala:773
 msgid "America/Mazatlan"
 msgstr "আমেরিকা/মাজাতলান"
 
-#: src/Translations.vala:761
+#: src/Translations.vala:775
 msgid "Mountain Time - Baja California Sur, Nayarit, Sinaloa"
 msgstr ""
 
-#: src/Translations.vala:763
+#: src/Translations.vala:777
 msgid "America/Chihuahua"
 msgstr "আমেরিকা/চিহুয়াহুয়া"
 
-#: src/Translations.vala:765
+#: src/Translations.vala:779
 msgid "Mountain Time - Chihuahua (most areas)"
 msgstr ""
 
-#: src/Translations.vala:767
+#: src/Translations.vala:781
 msgid "America/Ojinaga"
 msgstr ""
 
-#: src/Translations.vala:769
+#: src/Translations.vala:783
 msgid "Mountain Time US - Chihuahua (US border)"
 msgstr ""
 
-#: src/Translations.vala:771
+#: src/Translations.vala:785
 msgid "America/Hermosillo"
 msgstr "আমেরিকা/হার্মোসিলো"
 
-#: src/Translations.vala:773
+#: src/Translations.vala:787
 msgid "Mountain Standard Time - Sonora"
 msgstr ""
 
-#: src/Translations.vala:775
+#: src/Translations.vala:789
 msgid "America/Tijuana"
 msgstr "আমেরিকা/থেওয়ানা"
 
-#: src/Translations.vala:777
+#: src/Translations.vala:791
 msgid "Pacific Time US - Baja California"
 msgstr ""
 
-#: src/Translations.vala:779
+#: src/Translations.vala:793
 msgid "America/Bahia_Banderas"
 msgstr ""
 
-#: src/Translations.vala:781
+#: src/Translations.vala:795
 msgid "Central Time - Bahia de Banderas"
 msgstr ""
 
-#: src/Translations.vala:783
+#: src/Translations.vala:797
 msgid "Asia/Kuala_Lumpur"
 msgstr "এশিয়া/কুয়ালা_লাম্পুর"
 
-#: src/Translations.vala:785
+#: src/Translations.vala:799
 msgid "Malaysia (peninsula)"
 msgstr ""
 
-#: src/Translations.vala:787
+#: src/Translations.vala:801
 msgid "Asia/Kuching"
 msgstr "এশিয়া/কুচিং"
 
-#: src/Translations.vala:789
+#: src/Translations.vala:803
 msgid "Sabah, Sarawak"
 msgstr ""
 
-#: src/Translations.vala:791
+#: src/Translations.vala:805
 msgid "Africa/Maputo"
 msgstr "আফ্রিকা/মাপুতো"
 
-#: src/Translations.vala:793
+#: src/Translations.vala:807
 msgid "Africa/Windhoek"
 msgstr "আফ্রিকা/ভিন্টহুক"
 
-#: src/Translations.vala:795
+#: src/Translations.vala:809
 msgid "Pacific/Noumea"
 msgstr "প্রশান্ত মহাসাগর/নুমিয়া"
 
-#: src/Translations.vala:797
+#: src/Translations.vala:811
 msgid "Africa/Niamey"
 msgstr "আফ্রিকা/নিয়ামে"
 
-#: src/Translations.vala:799
+#: src/Translations.vala:813
 msgid "Pacific/Norfolk"
 msgstr "প্রশান্ত মহাসাগর/নোরফোল্ক"
 
-#: src/Translations.vala:801
+#: src/Translations.vala:815
 msgid "Africa/Lagos"
 msgstr "আফ্রিকা/লেগোস"
 
-#: src/Translations.vala:803
+#: src/Translations.vala:817
 msgid "America/Managua"
 msgstr "আমেরিকা/মানাগুয়া"
 
-#: src/Translations.vala:805
+#: src/Translations.vala:819
 msgid "Europe/Amsterdam"
 msgstr "ইউরোপ/আমস্টারডাম"
 
-#: src/Translations.vala:807
+#: src/Translations.vala:821
 msgid "Europe/Oslo"
 msgstr "ইউরোপ/ওসলো"
 
-#: src/Translations.vala:809
+#: src/Translations.vala:823
 msgid "Asia/Kathmandu"
 msgstr ""
 
-#: src/Translations.vala:811
+#: src/Translations.vala:825
 msgid "Pacific/Nauru"
 msgstr "প্রশান্ত মহাসাগর/নাউরু"
 
-#: src/Translations.vala:813
+#: src/Translations.vala:827
 msgid "Pacific/Niue"
 msgstr "প্রশান্ত মহাসাগর/নিউ"
 
-#: src/Translations.vala:815
+#: src/Translations.vala:829
 msgid "Pacific/Auckland"
 msgstr "প্রশান্ত মহাসাগর/অকল্যান্ড"
 
-#: src/Translations.vala:817
+#: src/Translations.vala:831
 msgid "New Zealand (most areas)"
 msgstr ""
 
-#: src/Translations.vala:819
+#: src/Translations.vala:833
 msgid "Pacific/Chatham"
 msgstr "প্রশান্ত মহাসাগর/চ্যাটহাম"
 
-#: src/Translations.vala:821
+#: src/Translations.vala:835
 msgid "Chatham Islands"
 msgstr ""
 
-#: src/Translations.vala:823
+#: src/Translations.vala:837
 msgid "Asia/Muscat"
 msgstr "এশিয়া/মাসকাট"
 
-#: src/Translations.vala:825
+#: src/Translations.vala:839
 msgid "America/Panama"
 msgstr "আমেরিকা/পানামা"
 
-#: src/Translations.vala:827
+#: src/Translations.vala:841
 msgid "America/Lima"
 msgstr "আমেরিকা/লিমা"
 
-#: src/Translations.vala:829
+#: src/Translations.vala:843
 msgid "Pacific/Tahiti"
 msgstr "প্রশান্ত মহাসাগর/তাহিতি"
 
-#: src/Translations.vala:831
+#: src/Translations.vala:845
 msgid "Society Islands"
 msgstr ""
 
-#: src/Translations.vala:833
+#: src/Translations.vala:847
 msgid "Pacific/Marquesas"
 msgstr "প্রশান্ত মহাসাগর/মারকিসাস"
 
-#: src/Translations.vala:835
+#: src/Translations.vala:849
 msgid "Marquesas Islands"
 msgstr ""
 
-#: src/Translations.vala:837
+#: src/Translations.vala:851
 msgid "Pacific/Gambier"
 msgstr "প্রশান্ত মহাসাগর/গ্যামবিয়ার"
 
-#: src/Translations.vala:839
+#: src/Translations.vala:853
 msgid "Gambier Islands"
 msgstr ""
 
-#: src/Translations.vala:841
+#: src/Translations.vala:855
 msgid "Pacific/Port_Moresby"
 msgstr "প্রশান্ত মহাসাগর/পোর্ট-মোর্সবি"
 
-#: src/Translations.vala:843
+#: src/Translations.vala:857
 msgid "Papua New Guinea (most areas)"
 msgstr ""
 
-#: src/Translations.vala:845
+#: src/Translations.vala:859
 msgid "Pacific/Bougainville"
 msgstr ""
 
-#: src/Translations.vala:847
+#: src/Translations.vala:861
 msgid "Bougainville"
 msgstr ""
 
-#: src/Translations.vala:849
+#: src/Translations.vala:863
 msgid "Asia/Manila"
 msgstr "এশিয়া/ম্যানিলা"
 
-#: src/Translations.vala:851
+#: src/Translations.vala:865
 msgid "Asia/Karachi"
 msgstr "এশিয়া/করাচী"
 
-#: src/Translations.vala:853
+#: src/Translations.vala:867
 msgid "Europe/Warsaw"
 msgstr "ইউরোপ/ওয়ারস"
 
-#: src/Translations.vala:855
+#: src/Translations.vala:869
 msgid "America/Miquelon"
 msgstr "আমেরিকা/মিকেলন"
 
-#: src/Translations.vala:857
+#: src/Translations.vala:871
 msgid "Pacific/Pitcairn"
 msgstr "প্রশান্ত মহাসাগর/পিটকেয়ার্ন"
 
-#: src/Translations.vala:859
+#: src/Translations.vala:873
 msgid "America/Puerto_Rico"
 msgstr "আমেরিকা/পুয়ের্তো_রিকো"
 
-#: src/Translations.vala:861
+#: src/Translations.vala:875
 msgid "Asia/Gaza"
 msgstr "এশিয়া/গাজা"
 
-#: src/Translations.vala:863
+#: src/Translations.vala:877
 msgid "Gaza Strip"
 msgstr ""
 
-#: src/Translations.vala:865
+#: src/Translations.vala:879
 msgid "Asia/Hebron"
 msgstr ""
 
-#: src/Translations.vala:867
+#: src/Translations.vala:881
 msgid "West Bank"
 msgstr ""
 
-#: src/Translations.vala:869
+#: src/Translations.vala:883
 msgid "Europe/Lisbon"
 msgstr "ইউরোপ/লিসবন"
 
-#: src/Translations.vala:871
+#: src/Translations.vala:885
 msgid "Portugal (mainland)"
 msgstr ""
 
-#: src/Translations.vala:873
+#: src/Translations.vala:887
 msgid "Atlantic/Madeira"
 msgstr "অ্যাটলান্টিক/মাদিইরা"
 
-#: src/Translations.vala:875
+#: src/Translations.vala:889
 msgid "Madeira Islands"
 msgstr ""
 
-#: src/Translations.vala:877
+#: src/Translations.vala:891
 msgid "Atlantic/Azores"
 msgstr "অ্যাটলান্টিক/এজোরে"
 
-#: src/Translations.vala:879
+#: src/Translations.vala:893
 msgid "Azores"
 msgstr ""
 
-#: src/Translations.vala:881
+#: src/Translations.vala:895
 msgid "Pacific/Palau"
 msgstr "প্রশান্ত মহাসাগর/পালাউ"
 
-#: src/Translations.vala:883
+#: src/Translations.vala:897
 msgid "America/Asuncion"
 msgstr "আমেরিকা/অ্যাসানশিয়ান"
 
-#: src/Translations.vala:885
+#: src/Translations.vala:899
 msgid "Asia/Qatar"
 msgstr "এশিয়া/কাতার"
 
-#: src/Translations.vala:887
+#: src/Translations.vala:901
 msgid "Indian/Reunion"
 msgstr "ভারত মহাসাগর/রিউনিয়ন"
 
-#: src/Translations.vala:889
+#: src/Translations.vala:903
 msgid "Europe/Bucharest"
 msgstr "ইউরোপ/বুখারেস্ট"
 
-#: src/Translations.vala:891
+#: src/Translations.vala:905
 msgid "Europe/Belgrade"
 msgstr "ইউরোপ/বেলগ্রেড"
 
-#: src/Translations.vala:893
+#: src/Translations.vala:907
 msgid "Europe/Kaliningrad"
 msgstr "ইউরোপ/কালিনিনগ্রাড"
 
-#: src/Translations.vala:895
+#: src/Translations.vala:909
 msgid "MSK-01 - Kaliningrad"
 msgstr ""
 
-#: src/Translations.vala:897
+#: src/Translations.vala:911
 msgid "Europe/Moscow"
 msgstr "ইউরোপ/মস্কো"
 
-#: src/Translations.vala:899
+#: src/Translations.vala:913
 msgid "MSK+00 - Moscow area"
 msgstr ""
 
-#: src/Translations.vala:901
+#: src/Translations.vala:915
 msgid "Europe/Simferopol"
 msgstr "ইউরোপ/সিম্ফিরোপেল"
 
-#: src/Translations.vala:903
+#: src/Translations.vala:917
 msgid "MSK+00 - Crimea"
 msgstr ""
 
-#: src/Translations.vala:905
+#: src/Translations.vala:919
 msgid "Europe/Volgograd"
 msgstr ""
 
-#: src/Translations.vala:907
-msgid "MSK+00 - Volgograd, Saratov"
-msgstr ""
-
-#: src/Translations.vala:909
-msgid "Europe/Kirov"
-msgstr ""
-
-#: src/Translations.vala:911
-msgid "MSK+00 - Kirov"
-msgstr ""
-
-#: src/Translations.vala:913
-msgid "Europe/Astrakhan"
-msgstr ""
-
-#: src/Translations.vala:915
-msgid "MSK+01 - Astrakhan"
-msgstr ""
-
-#: src/Translations.vala:917
-msgid "Europe/Samara"
-msgstr "ইউরোপ/সামারা"
-
-#: src/Translations.vala:919
-msgid "MSK+01 - Samara, Udmurtia"
-msgstr ""
-
 #: src/Translations.vala:921
-msgid "Europe/Ulyanovsk"
+msgid "MSK+00 - Volgograd"
 msgstr ""
 
 #: src/Translations.vala:923
-msgid "MSK+01 - Ulyanovsk"
+msgid "Europe/Kirov"
 msgstr ""
 
 #: src/Translations.vala:925
-msgid "Asia/Yekaterinburg"
-msgstr "এশিয়া/ইয়াকাতারিনবুর্গ"
+msgid "MSK+00 - Kirov"
+msgstr ""
 
 #: src/Translations.vala:927
-msgid "MSK+02 - Urals"
+msgid "Europe/Astrakhan"
 msgstr ""
 
 #: src/Translations.vala:929
-msgid "Asia/Omsk"
-msgstr "এশিয়া/ওমস্ক"
-
-#: src/Translations.vala:931
-msgid "MSK+03 - Omsk"
+msgid "MSK+01 - Astrakhan"
 msgstr ""
 
+#: src/Translations.vala:931
+#, fuzzy
+msgid "Europe/Saratov"
+msgstr "ইউরোপ/সারায়েভো"
+
 #: src/Translations.vala:933
-msgid "Asia/Novosibirsk"
-msgstr "এশিয়া/নোভোসিবার্স্ক"
+msgid "MSK+01 - Saratov"
+msgstr ""
 
 #: src/Translations.vala:935
-msgid "MSK+03 - Novosibirsk"
+msgid "Europe/Ulyanovsk"
 msgstr ""
 
 #: src/Translations.vala:937
-msgid "Asia/Barnaul"
+msgid "MSK+01 - Ulyanovsk"
 msgstr ""
 
 #: src/Translations.vala:939
-msgid "MSK+04 - Altai"
-msgstr ""
+msgid "Europe/Samara"
+msgstr "ইউরোপ/সামারা"
 
 #: src/Translations.vala:941
-msgid "Asia/Tomsk"
+msgid "MSK+01 - Samara, Udmurtia"
 msgstr ""
 
 #: src/Translations.vala:943
-msgid "MSK+04 - Tomsk"
-msgstr ""
+msgid "Asia/Yekaterinburg"
+msgstr "এশিয়া/ইয়াকাতারিনবুর্গ"
 
 #: src/Translations.vala:945
-msgid "Asia/Novokuznetsk"
+msgid "MSK+02 - Urals"
 msgstr ""
 
 #: src/Translations.vala:947
-msgid "MSK+04 - Kemerovo"
-msgstr ""
+msgid "Asia/Omsk"
+msgstr "এশিয়া/ওমস্ক"
 
 #: src/Translations.vala:949
-msgid "Asia/Krasnoyarsk"
-msgstr "এশিয়া/ক্রাসনোয়ার্স্ক"
-
-#: src/Translations.vala:951
-msgid "MSK+04 - Krasnoyarsk area"
+msgid "MSK+03 - Omsk"
 msgstr ""
 
+#: src/Translations.vala:951
+msgid "Asia/Novosibirsk"
+msgstr "এশিয়া/নোভোসিবার্স্ক"
+
 #: src/Translations.vala:953
-msgid "Asia/Irkutsk"
-msgstr "এশিয়া/ইরকুটস"
+#, fuzzy
+msgid "MSK+04 - Novosibirsk"
+msgstr "এশিয়া/নোভোসিবার্স্ক"
 
 #: src/Translations.vala:955
-msgid "MSK+05 - Irkutsk, Buryatia"
+msgid "Asia/Barnaul"
 msgstr ""
 
 #: src/Translations.vala:957
-msgid "Asia/Chita"
+msgid "MSK+04 - Altai"
 msgstr ""
 
 #: src/Translations.vala:959
-msgid "MSK+06 - Zabaykalsky"
+msgid "Asia/Tomsk"
 msgstr ""
 
 #: src/Translations.vala:961
-msgid "Asia/Yakutsk"
-msgstr "এশিয়া/ইয়াকুটস"
+msgid "MSK+04 - Tomsk"
+msgstr ""
 
 #: src/Translations.vala:963
-msgid "MSK+06 - Lena River"
+msgid "Asia/Novokuznetsk"
 msgstr ""
 
 #: src/Translations.vala:965
-msgid "Asia/Khandyga"
+msgid "MSK+04 - Kemerovo"
 msgstr ""
 
 #: src/Translations.vala:967
-msgid "MSK+06 - Tomponsky, Ust-Maysky"
-msgstr ""
+msgid "Asia/Krasnoyarsk"
+msgstr "এশিয়া/ক্রাসনোয়ার্স্ক"
 
 #: src/Translations.vala:969
-msgid "Asia/Vladivostok"
-msgstr "এশিয়া/ভ্লাডিভোস্টক"
-
-#: src/Translations.vala:971
-msgid "MSK+07 - Amur River"
+msgid "MSK+04 - Krasnoyarsk area"
 msgstr ""
 
+#: src/Translations.vala:971
+msgid "Asia/Irkutsk"
+msgstr "এশিয়া/ইরকুটস"
+
 #: src/Translations.vala:973
-msgid "Asia/Ust-Nera"
+msgid "MSK+05 - Irkutsk, Buryatia"
 msgstr ""
 
 #: src/Translations.vala:975
-msgid "MSK+07 - Oymyakonsky"
+msgid "Asia/Chita"
 msgstr ""
 
 #: src/Translations.vala:977
-msgid "Asia/Magadan"
-msgstr "এশিয়া/মাগাদান"
-
-#: src/Translations.vala:979
-msgid "MSK+08 - Magadan"
+msgid "MSK+06 - Zabaykalsky"
 msgstr ""
 
+#: src/Translations.vala:979
+msgid "Asia/Yakutsk"
+msgstr "এশিয়া/ইয়াকুটস"
+
 #: src/Translations.vala:981
-msgid "Asia/Sakhalin"
-msgstr "এশিয়া/শাকালিন"
+msgid "MSK+06 - Lena River"
+msgstr ""
 
 #: src/Translations.vala:983
-msgid "MSK+08 - Sakhalin Island"
+msgid "Asia/Khandyga"
 msgstr ""
 
 #: src/Translations.vala:985
-msgid "Asia/Srednekolymsk"
+msgid "MSK+06 - Tomponsky, Ust-Maysky"
 msgstr ""
 
 #: src/Translations.vala:987
-msgid "MSK+08 - Sakha (E); North Kuril Is"
-msgstr ""
+msgid "Asia/Vladivostok"
+msgstr "এশিয়া/ভ্লাডিভোস্টক"
 
 #: src/Translations.vala:989
-msgid "Asia/Kamchatka"
-msgstr "এশিয়া/কামচাটকা"
+msgid "MSK+07 - Amur River"
+msgstr ""
 
 #: src/Translations.vala:991
-msgid "MSK+09 - Kamchatka"
+msgid "Asia/Ust-Nera"
 msgstr ""
 
 #: src/Translations.vala:993
+msgid "MSK+07 - Oymyakonsky"
+msgstr ""
+
+#: src/Translations.vala:995
+msgid "Asia/Magadan"
+msgstr "এশিয়া/মাগাদান"
+
+#: src/Translations.vala:997
+msgid "MSK+08 - Magadan"
+msgstr ""
+
+#: src/Translations.vala:999
+msgid "Asia/Sakhalin"
+msgstr "এশিয়া/শাকালিন"
+
+#: src/Translations.vala:1001
+msgid "MSK+08 - Sakhalin Island"
+msgstr ""
+
+#: src/Translations.vala:1003
+msgid "Asia/Srednekolymsk"
+msgstr ""
+
+#: src/Translations.vala:1005
+msgid "MSK+08 - Sakha (E); North Kuril Is"
+msgstr ""
+
+#: src/Translations.vala:1007
+msgid "Asia/Kamchatka"
+msgstr "এশিয়া/কামচাটকা"
+
+#: src/Translations.vala:1009
+msgid "MSK+09 - Kamchatka"
+msgstr ""
+
+#: src/Translations.vala:1011
 msgid "Asia/Anadyr"
 msgstr "এশিয়া/আনাদির"
 
-#: src/Translations.vala:995
+#: src/Translations.vala:1013
 msgid "MSK+09 - Bering Sea"
 msgstr ""
 
-#: src/Translations.vala:997
+#: src/Translations.vala:1015
 msgid "Africa/Kigali"
 msgstr "আফ্রিকা/কিগালি"
 
-#: src/Translations.vala:999
+#: src/Translations.vala:1017
 msgid "Asia/Riyadh"
 msgstr "এশিয়া/রিয়াদ"
 
-#: src/Translations.vala:1001
+#: src/Translations.vala:1019
 msgid "Pacific/Guadalcanal"
 msgstr "প্রশান্ত মহাসাগর/গুয়াডালকানাল"
 
-#: src/Translations.vala:1003
+#: src/Translations.vala:1021
 msgid "Indian/Mahe"
 msgstr "ভারত মহাসাগর/মাহে"
 
-#: src/Translations.vala:1005
+#: src/Translations.vala:1023
 msgid "Africa/Khartoum"
 msgstr "আফ্রিকা/খারতৌম"
 
-#: src/Translations.vala:1007
+#: src/Translations.vala:1025
 msgid "Europe/Stockholm"
 msgstr "ইউরোপ/স্টকহোম"
 
-#: src/Translations.vala:1009
+#: src/Translations.vala:1027
 msgid "Asia/Singapore"
 msgstr "এশিয়া/সিঙ্গাপুর"
 
-#: src/Translations.vala:1011
+#: src/Translations.vala:1029
 msgid "Atlantic/St_Helena"
 msgstr "অ্যাটলান্টিক/সেন্ট_হেলেনা"
 
-#: src/Translations.vala:1013
+#: src/Translations.vala:1031
 msgid "Europe/Ljubljana"
 msgstr "ইউরোপ/লুবলইয়ানা"
 
-#: src/Translations.vala:1015
+#: src/Translations.vala:1033
 msgid "Arctic/Longyearbyen"
 msgstr "আর্কটিক/লংইয়ারবেন"
 
-#: src/Translations.vala:1017
+#: src/Translations.vala:1035
 msgid "Europe/Bratislava"
 msgstr "ইউরোপ/ব্রাতিসলাভা"
 
-#: src/Translations.vala:1019
+#: src/Translations.vala:1037
 msgid "Africa/Freetown"
 msgstr "আফ্রিকা/ফ্রিটাউন"
 
-#: src/Translations.vala:1021
+#: src/Translations.vala:1039
 msgid "Europe/San_Marino"
 msgstr "ইউরোপ/সান_মারিনো"
 
-#: src/Translations.vala:1023
+#: src/Translations.vala:1041
 msgid "Africa/Dakar"
 msgstr "আফ্রিকা/ডাকার"
 
-#: src/Translations.vala:1025
+#: src/Translations.vala:1043
 msgid "Africa/Mogadishu"
 msgstr "আফ্রিকা/মোগাডিশু"
 
-#: src/Translations.vala:1027
+#: src/Translations.vala:1045
 msgid "America/Paramaribo"
 msgstr "আমেরিকা/পারামারিবো"
 
-#: src/Translations.vala:1029
+#: src/Translations.vala:1047
 msgid "Africa/Juba"
 msgstr ""
 
-#: src/Translations.vala:1031
+#: src/Translations.vala:1049
 msgid "Africa/Sao_Tome"
 msgstr "আফ্রিকা/সাও_টোমে"
 
-#: src/Translations.vala:1033
+#: src/Translations.vala:1051
 msgid "America/El_Salvador"
 msgstr "আমেরিকা/এল_সালভাডোর"
 
-#: src/Translations.vala:1035
+#: src/Translations.vala:1053
 msgid "America/Lower_Princes"
 msgstr ""
 
-#: src/Translations.vala:1037
+#: src/Translations.vala:1055
 msgid "Asia/Damascus"
 msgstr "এশিয়া/ডামাসকাস"
 
-#: src/Translations.vala:1039
+#: src/Translations.vala:1057
 msgid "Africa/Mbabane"
 msgstr "আফ্রিকা/আমবাবানে"
 
-#: src/Translations.vala:1041
+#: src/Translations.vala:1059
 msgid "America/Grand_Turk"
 msgstr "আমেরিকা/গ্র্যান্ড_টার্ক"
 
-#: src/Translations.vala:1043
+#: src/Translations.vala:1061
 msgid "Africa/Ndjamena"
 msgstr "আফ্রিকা/আনজামেনা"
 
-#: src/Translations.vala:1045
+#: src/Translations.vala:1063
 msgid "Indian/Kerguelen"
 msgstr "ভারত মহাসাগর/কারগুয়েলেন"
 
-#: src/Translations.vala:1047
+#: src/Translations.vala:1065
 msgid "Africa/Lome"
 msgstr "আফ্রিকা/লোমে"
 
-#: src/Translations.vala:1049
+#: src/Translations.vala:1067
 msgid "Asia/Bangkok"
 msgstr "এশিয়া/ব্যাঙ্কক"
 
-#: src/Translations.vala:1051
+#: src/Translations.vala:1069
 msgid "Asia/Dushanbe"
 msgstr "এশিয়া/দুশানবে"
 
-#: src/Translations.vala:1053
+#: src/Translations.vala:1071
 msgid "Pacific/Fakaofo"
 msgstr "প্রশান্ত মহাসাগর/ফাকাওফো"
 
-#: src/Translations.vala:1055
+#: src/Translations.vala:1073
 msgid "Asia/Dili"
 msgstr "এশিয়া/ডিলি"
 
-#: src/Translations.vala:1057
+#: src/Translations.vala:1075
 msgid "Asia/Ashgabat"
 msgstr "এশিয়া/আশ‌গাবাত"
 
-#: src/Translations.vala:1059
+#: src/Translations.vala:1077
 msgid "Africa/Tunis"
 msgstr "আফ্রিকা/টিউনিস"
 
-#: src/Translations.vala:1061
+#: src/Translations.vala:1079
 msgid "Pacific/Tongatapu"
 msgstr "প্রশান্ত মহাসাগর/টোঙ্গাটাপু"
 
-#: src/Translations.vala:1063
+#: src/Translations.vala:1081
 msgid "Europe/Istanbul"
 msgstr "ইউরোপ/ইস্তানবুল"
 
-#: src/Translations.vala:1065
+#: src/Translations.vala:1083
 msgid "America/Port_of_Spain"
 msgstr "আমেরিকা/পোর্ট_অফ_স্পেন"
 
-#: src/Translations.vala:1067
+#: src/Translations.vala:1085
 msgid "Pacific/Funafuti"
 msgstr "প্রশান্ত মহাসাগর/ফুনাফুতি"
 
-#: src/Translations.vala:1069
+#: src/Translations.vala:1087
 msgid "Asia/Taipei"
 msgstr "এশিয়া/তাইপে"
 
-#: src/Translations.vala:1071
+#: src/Translations.vala:1089
 msgid "Africa/Dar_es_Salaam"
 msgstr "আফ্রিকা/ডার_এস_সালাম"
 
-#: src/Translations.vala:1073
+#: src/Translations.vala:1091
 msgid "Europe/Kiev"
 msgstr "ইউরোপ/কিভ"
 
-#: src/Translations.vala:1075
+#: src/Translations.vala:1093
 msgid "Ukraine (most areas)"
 msgstr ""
 
-#: src/Translations.vala:1077
+#: src/Translations.vala:1095
 msgid "Europe/Uzhgorod"
 msgstr "ইউরোপ/উজগোরোদ"
 
-#: src/Translations.vala:1079
+#: src/Translations.vala:1097
 msgid "Ruthenia"
 msgstr ""
 
-#: src/Translations.vala:1081
+#: src/Translations.vala:1099
 msgid "Europe/Zaporozhye"
 msgstr "ইউরোপ/জাপোরোযেই"
 
-#: src/Translations.vala:1083
+#: src/Translations.vala:1101
 msgid "Zaporozh'ye/Zaporizhia; Lugansk/Luhansk (east)"
 msgstr ""
 
-#: src/Translations.vala:1085
+#: src/Translations.vala:1103
 msgid "Africa/Kampala"
 msgstr "আফ্রিকা/কাম্পালা"
 
-#: src/Translations.vala:1087
-msgid "Pacific/Johnston"
-msgstr "প্রশান্ত মহাসাগর/জনস্টন"
-
-#: src/Translations.vala:1089
-msgid "Johnston Atoll"
-msgstr ""
-
 # not sure
-#: src/Translations.vala:1091
+#: src/Translations.vala:1105
 msgid "Pacific/Midway"
 msgstr "প্রশান্ত মহাসাগর/মিডওয়ে"
 
-#: src/Translations.vala:1093
+#: src/Translations.vala:1107
 msgid "Midway Islands"
 msgstr ""
 
-#: src/Translations.vala:1095
+#: src/Translations.vala:1109
 msgid "Pacific/Wake"
 msgstr "প্রশান্ত মহাসাগর/ওয়েক"
 
-#: src/Translations.vala:1097
+#: src/Translations.vala:1111
 msgid "Wake Island"
 msgstr ""
 
-#: src/Translations.vala:1099
+#: src/Translations.vala:1113
 msgid "America/New_York"
 msgstr "আমেরিকা/নিউ_ইয়োর্ক"
 
-#: src/Translations.vala:1101
+#: src/Translations.vala:1115
 msgid "Eastern (most areas)"
 msgstr ""
 
-#: src/Translations.vala:1103
+#: src/Translations.vala:1117
 msgid "America/Detroit"
 msgstr "আমেরিকা/ডেট্রোয়েট"
 
-#: src/Translations.vala:1105
+#: src/Translations.vala:1119
 msgid "Eastern - MI (most areas)"
 msgstr ""
 
-#: src/Translations.vala:1107
+#: src/Translations.vala:1121
 msgid "America/Kentucky/Louisville"
 msgstr "আমেরিকা/কেন্টাকি/লুইভিল"
 
-#: src/Translations.vala:1109
+#: src/Translations.vala:1123
 msgid "Eastern - KY (Louisville area)"
 msgstr ""
 
-#: src/Translations.vala:1111
+#: src/Translations.vala:1125
 msgid "America/Kentucky/Monticello"
 msgstr "আমেরিকা/কেন্টাকি/মোন্টিচেলো"
 
-#: src/Translations.vala:1113
+#: src/Translations.vala:1127
 msgid "Eastern - KY (Wayne)"
 msgstr ""
 
-#: src/Translations.vala:1115
+#: src/Translations.vala:1129
 msgid "America/Indiana/Indianapolis"
 msgstr "আমেরিকা/ইন্ডিয়ানা/ইন্ডিয়ানাপোলিস"
 
-#: src/Translations.vala:1117
+#: src/Translations.vala:1131
 msgid "Eastern - IN (most areas)"
 msgstr ""
 
-#: src/Translations.vala:1119
+#: src/Translations.vala:1133
 msgid "America/Indiana/Vincennes"
 msgstr ""
 
-#: src/Translations.vala:1121
+#: src/Translations.vala:1135
 msgid "Eastern - IN (Da, Du, K, Mn)"
 msgstr ""
 
-#: src/Translations.vala:1123
+#: src/Translations.vala:1137
 msgid "America/Indiana/Winamac"
 msgstr ""
 
-#: src/Translations.vala:1125
+#: src/Translations.vala:1139
 msgid "Eastern - IN (Pulaski)"
 msgstr ""
 
-#: src/Translations.vala:1127
+#: src/Translations.vala:1141
 msgid "America/Indiana/Marengo"
 msgstr "আমেরিকা/ইন্ডিয়ানা/মারেঙ্গো"
 
-#: src/Translations.vala:1129
+#: src/Translations.vala:1143
 msgid "Eastern - IN (Crawford)"
 msgstr ""
 
-#: src/Translations.vala:1131
+#: src/Translations.vala:1145
 msgid "America/Indiana/Petersburg"
 msgstr ""
 
-#: src/Translations.vala:1133
+#: src/Translations.vala:1147
 msgid "Eastern - IN (Pike)"
 msgstr ""
 
-#: src/Translations.vala:1135
+#: src/Translations.vala:1149
 msgid "America/Indiana/Vevay"
 msgstr "আমেরিকা/ইন্ডিয়ানা/ভিভে"
 
-#: src/Translations.vala:1137
+#: src/Translations.vala:1151
 msgid "Eastern - IN (Switzerland)"
 msgstr ""
 
-#: src/Translations.vala:1139
+#: src/Translations.vala:1153
 msgid "America/Chicago"
 msgstr "আমেরিকা/শিকাগো"
 
-#: src/Translations.vala:1141
+#: src/Translations.vala:1155
 msgid "Central (most areas)"
 msgstr ""
 
-#: src/Translations.vala:1143
+#: src/Translations.vala:1157
 msgid "America/Indiana/Tell_City"
 msgstr ""
 
-#: src/Translations.vala:1145
+#: src/Translations.vala:1159
 msgid "Central - IN (Perry)"
 msgstr ""
 
-#: src/Translations.vala:1147
+#: src/Translations.vala:1161
 msgid "America/Indiana/Knox"
 msgstr "আমেরিকা/ইন্ডিয়ানা/নোক্স"
 
-#: src/Translations.vala:1149
+#: src/Translations.vala:1163
 msgid "Central - IN (Starke)"
 msgstr ""
 
-#: src/Translations.vala:1151
+#: src/Translations.vala:1165
 msgid "America/Menominee"
 msgstr "আমেরিকা/মেনোমিনি"
 
-#: src/Translations.vala:1153
+#: src/Translations.vala:1167
 msgid "Central - MI (Wisconsin border)"
 msgstr ""
 
-#: src/Translations.vala:1155
+#: src/Translations.vala:1169
 msgid "America/North_Dakota/Center"
 msgstr "আমেরিকা/নর্থ_ডাকোটা/সেন্টার"
 
-#: src/Translations.vala:1157
+#: src/Translations.vala:1171
 msgid "Central - ND (Oliver)"
 msgstr ""
 
-#: src/Translations.vala:1159
+#: src/Translations.vala:1173
 msgid "America/North_Dakota/New_Salem"
 msgstr ""
 
-#: src/Translations.vala:1161
+#: src/Translations.vala:1175
 msgid "Central - ND (Morton rural)"
 msgstr ""
 
-#: src/Translations.vala:1163
+#: src/Translations.vala:1177
 msgid "America/North_Dakota/Beulah"
 msgstr ""
 
-#: src/Translations.vala:1165
+#: src/Translations.vala:1179
 msgid "Central - ND (Mercer)"
 msgstr ""
 
-#: src/Translations.vala:1167
+#: src/Translations.vala:1181
 msgid "America/Denver"
 msgstr "আমেরিকা/ডেনভার"
 
-#: src/Translations.vala:1169
+#: src/Translations.vala:1183
 msgid "Mountain (most areas)"
 msgstr ""
 
-#: src/Translations.vala:1171
+#: src/Translations.vala:1185
 msgid "America/Boise"
 msgstr "আমেরিকা/বোয়স"
 
-#: src/Translations.vala:1173
+#: src/Translations.vala:1187
 msgid "Mountain - ID (south); OR (east)"
 msgstr ""
 
-#: src/Translations.vala:1175
+#: src/Translations.vala:1189
 msgid "America/Phoenix"
 msgstr "আমেরিকা/ফিনিক্স"
 
-#: src/Translations.vala:1177
+#: src/Translations.vala:1191
 msgid "MST - Arizona (except Navajo)"
 msgstr ""
 
-#: src/Translations.vala:1179
+#: src/Translations.vala:1193
 msgid "America/Los_Angeles"
 msgstr "আমেরিকা/লস_অ্যাঞ্জেলস"
 
-#: src/Translations.vala:1181 src/Widgets/TZPopover.vala:73
+#: src/Translations.vala:1195 src/Widgets/TZPopover.vala:73
 msgid "Pacific"
 msgstr ""
 
-#: src/Translations.vala:1183
+#: src/Translations.vala:1197
 msgid "America/Anchorage"
 msgstr "আমেরিকা/অ্যাঙ্কোরেজ"
 
-#: src/Translations.vala:1185
+#: src/Translations.vala:1199
 msgid "Alaska (most areas)"
 msgstr ""
 
-#: src/Translations.vala:1187
+#: src/Translations.vala:1201
 msgid "America/Juneau"
 msgstr "আমেরিকা/জুনিউ"
 
-#: src/Translations.vala:1189
+#: src/Translations.vala:1203
 msgid "Alaska - Juneau area"
 msgstr ""
 
-#: src/Translations.vala:1191
+#: src/Translations.vala:1205
 msgid "America/Sitka"
 msgstr ""
 
-#: src/Translations.vala:1193
+#: src/Translations.vala:1207
 msgid "Alaska - Sitka area"
 msgstr ""
 
-#: src/Translations.vala:1195
+#: src/Translations.vala:1209
 msgid "America/Metlakatla"
 msgstr ""
 
-#: src/Translations.vala:1197
+#: src/Translations.vala:1211
 msgid "Alaska - Annette Island"
 msgstr ""
 
-#: src/Translations.vala:1199
+#: src/Translations.vala:1213
 msgid "America/Yakutat"
 msgstr "আমেরিকা/ইয়াকুতাত"
 
-#: src/Translations.vala:1201
+#: src/Translations.vala:1215
 msgid "Alaska - Yakutat"
 msgstr ""
 
-#: src/Translations.vala:1203
+#: src/Translations.vala:1217
 msgid "America/Nome"
 msgstr "আমেরিকা/নোম"
 
-#: src/Translations.vala:1205
+#: src/Translations.vala:1219
 msgid "Alaska (west)"
 msgstr ""
 
-#: src/Translations.vala:1207
+#: src/Translations.vala:1221
 msgid "America/Adak"
 msgstr "আমেরিকা/আদাক"
 
-#: src/Translations.vala:1209
+#: src/Translations.vala:1223
 msgid "Aleutian Islands"
 msgstr ""
 
-#: src/Translations.vala:1211
+#: src/Translations.vala:1225
 msgid "Pacific/Honolulu"
 msgstr "প্রশান্ত মহাসাগর/হনোলুলু"
 
-#: src/Translations.vala:1213
+#: src/Translations.vala:1227
 msgid "Hawaii"
 msgstr ""
 
-#: src/Translations.vala:1215
+#: src/Translations.vala:1229
 msgid "America/Montevideo"
 msgstr "আমেরিকা/মন্টেভিডিও"
 
-#: src/Translations.vala:1217
+#: src/Translations.vala:1231
 msgid "Asia/Samarkand"
 msgstr "এশিয়া/সামারখান্দ"
 
-#: src/Translations.vala:1219
+#: src/Translations.vala:1233
 msgid "Uzbekistan (west)"
 msgstr ""
 
-#: src/Translations.vala:1221
+#: src/Translations.vala:1235
 msgid "Asia/Tashkent"
 msgstr "এশিয়া/তাসকেন্ত"
 
-#: src/Translations.vala:1223
+#: src/Translations.vala:1237
 msgid "Uzbekistan (east)"
 msgstr ""
 
-#: src/Translations.vala:1225
+#: src/Translations.vala:1239
 msgid "Europe/Vatican"
 msgstr "ইউরোপ/ভ্যাটিকেন"
 
-#: src/Translations.vala:1227
+#: src/Translations.vala:1241
 msgid "America/St_Vincent"
 msgstr "আমেরিকা/সেন্ট_ভিনসেন্ট"
 
-#: src/Translations.vala:1229
+#: src/Translations.vala:1243
 msgid "America/Caracas"
 msgstr "আমেরিকা/কেরাকাস"
 
-#: src/Translations.vala:1231
+#: src/Translations.vala:1245
 msgid "America/Tortola"
 msgstr "আমেরিকা/টরটলা"
 
-#: src/Translations.vala:1233
+#: src/Translations.vala:1247
 msgid "America/St_Thomas"
 msgstr "আমেরিকা/সেন্ট_থোমাস"
 
-#: src/Translations.vala:1235
+#: src/Translations.vala:1249
 msgid "Asia/Ho_Chi_Minh"
 msgstr ""
 
-#: src/Translations.vala:1237
+#: src/Translations.vala:1251
 msgid "Pacific/Efate"
 msgstr "প্রশান্ত মহাসাগর/এফাতে"
 
-#: src/Translations.vala:1239
+#: src/Translations.vala:1253
 msgid "Pacific/Wallis"
 msgstr "প্রশান্ত মহাসাগর/ওয়ালিস"
 
-#: src/Translations.vala:1241
+#: src/Translations.vala:1255
 msgid "Pacific/Apia"
 msgstr "প্রশান্ত মহাসাগর/এপিয়া"
 
-#: src/Translations.vala:1243
+#: src/Translations.vala:1257
 msgid "Asia/Aden"
 msgstr "এশিয়া/এডেন"
 
-#: src/Translations.vala:1245
+#: src/Translations.vala:1259
 msgid "Indian/Mayotte"
 msgstr "ভারত মহাসাগর/মেয়োতে"
 
-#: src/Translations.vala:1247
+#: src/Translations.vala:1261
 msgid "Africa/Johannesburg"
 msgstr "আফ্রিকা/জোহানেসবার্গ"
 
-#: src/Translations.vala:1249
+#: src/Translations.vala:1263
 msgid "Africa/Lusaka"
 msgstr "আফ্রিকা/লুসাকা"
 
-#: src/Translations.vala:1251
+#: src/Translations.vala:1265
 msgid "Africa/Harare"
 msgstr "আফ্রিকা/হারারে"
 
@@ -2608,3 +2642,6 @@ msgstr ""
 #: src/Widgets/TZPopover.vala:71
 msgid "Indian"
 msgstr ""
+
+#~ msgid "Pacific/Johnston"
+#~ msgstr "প্রশান্ত মহাসাগর/জনস্টন"

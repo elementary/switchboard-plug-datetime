@@ -30,7 +30,7 @@ _("Davis");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("Antarctica/DumontDUrville");
 ///Translators: Comment for Timezone Antarctica/DumontDUrville
-_("Dumont d'Urville");
+_("Dumont-d'Urville");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("Antarctica/Mawson");
 ///Translators: Comment for Timezone Antarctica/Mawson
@@ -404,6 +404,10 @@ _("America/Santiago");
 ///Translators: Comment for Timezone America/Santiago
 _("Chile (most areas)");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
+_("America/Punta_Arenas");
+///Translators: Comment for Timezone America/Punta_Arenas
+_("Region of Magallanes");
+///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("Pacific/Easter");
 ///Translators: Comment for Timezone Pacific/Easter
 _("Easter Island");
@@ -431,6 +435,12 @@ _("America/Curacao");
 _("Indian/Christmas");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("Asia/Nicosia");
+///Translators: Comment for Timezone Asia/Nicosia
+_("Cyprus (most areas)");
+///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
+_("Asia/Famagusta");
+///Translators: Comment for Timezone Asia/Famagusta
+_("Northern Cyprus");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("Europe/Prague");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
@@ -652,7 +662,11 @@ _("Aqtobe/Aktobe");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("Asia/Aqtau");
 ///Translators: Comment for Timezone Asia/Aqtau
-_("Atyrau/Atirau/Gur'yev, Mangghystau/Mankistau");
+_("Mangghystau/Mankistau");
+///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
+_("Asia/Atyrau");
+///Translators: Comment for Timezone Asia/Atyrau
+_("Atyrau/Atirau/Gur'yev");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("Asia/Oral");
 ///Translators: Comment for Timezone Asia/Oral
@@ -704,7 +718,7 @@ _("Europe/Skopje");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("Africa/Bamako");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
-_("Asia/Rangoon");
+_("Asia/Yangon");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("Asia/Ulaanbaatar");
 ///Translators: Comment for Timezone Asia/Ulaanbaatar
@@ -904,7 +918,7 @@ _("MSK+00 - Crimea");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("Europe/Volgograd");
 ///Translators: Comment for Timezone Europe/Volgograd
-_("MSK+00 - Volgograd, Saratov");
+_("MSK+00 - Volgograd");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("Europe/Kirov");
 ///Translators: Comment for Timezone Europe/Kirov
@@ -914,13 +928,17 @@ _("Europe/Astrakhan");
 ///Translators: Comment for Timezone Europe/Astrakhan
 _("MSK+01 - Astrakhan");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
-_("Europe/Samara");
-///Translators: Comment for Timezone Europe/Samara
-_("MSK+01 - Samara, Udmurtia");
+_("Europe/Saratov");
+///Translators: Comment for Timezone Europe/Saratov
+_("MSK+01 - Saratov");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("Europe/Ulyanovsk");
 ///Translators: Comment for Timezone Europe/Ulyanovsk
 _("MSK+01 - Ulyanovsk");
+///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
+_("Europe/Samara");
+///Translators: Comment for Timezone Europe/Samara
+_("MSK+01 - Samara, Udmurtia");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("Asia/Yekaterinburg");
 ///Translators: Comment for Timezone Asia/Yekaterinburg
@@ -932,7 +950,7 @@ _("MSK+03 - Omsk");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("Asia/Novosibirsk");
 ///Translators: Comment for Timezone Asia/Novosibirsk
-_("MSK+03 - Novosibirsk");
+_("MSK+04 - Novosibirsk");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("Asia/Barnaul");
 ///Translators: Comment for Timezone Asia/Barnaul
@@ -1083,10 +1101,6 @@ _("Europe/Zaporozhye");
 _("Zaporozh'ye/Zaporizhia; Lugansk/Luhansk (east)");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("Africa/Kampala");
-///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
-_("Pacific/Johnston");
-///Translators: Comment for Timezone Pacific/Johnston
-_("Johnston Atoll");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("Pacific/Midway");
 ///Translators: Comment for Timezone Pacific/Midway
