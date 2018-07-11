@@ -2,17 +2,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-19 02:05-0500\n"
-"PO-Revision-Date: 2018-05-09 00:07+0000\n"
-"Last-Translator: Ryo Nakano <ryonakaknock@gmail.com>\n"
-"Language-Team: Japanese <https://weblate.elementary.io/projects/switchboard"
-"/switchboard-plug-datetime/ja/>\n"
+"POT-Creation-Date: 2018-06-27 08:49-0700\n"
+"PO-Revision-Date: 2018-06-29 00:05+0000\n"
+"Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
+"Language-Team: Japanese <https://weblate.elementary.io/projects/switchboard/"
+"switchboard-plug-datetime/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2.18\n"
+"X-Generator: Weblate 3.0.1\n"
 "X-Launchpad-Export-Date: 2017-01-29 05:09+0000\n"
 
 #: src/Translations.vala:3
@@ -76,7 +76,7 @@ msgid "Antarctica/DumontDUrville"
 msgstr "南極大陸/デュモンデュルヴィル基地"
 
 #: src/Translations.vala:33
-msgid "Dumont-d'Urville"
+msgid "Dumont d'Urville"
 msgstr "デュモンデュルヴィル基地"
 
 #: src/Translations.vala:35
@@ -425,7 +425,9 @@ msgstr "アメリカ/フォルタレザ"
 
 #: src/Translations.vala:207
 msgid "Brazil (northeast: MA, PI, CE, RN, PB)"
-msgstr "ブラジル (北東部: マラニャン、ピアウイ、セアラー、リオ・グランデ・ド・ノルテ、パライバ )"
+msgstr ""
+"ブラジル (北東部: マラニャン、ピアウイ、セアラー、リオ・グランデ・ド・ノル"
+"テ、パライバ )"
 
 #: src/Translations.vala:209
 msgid "America/Recife"
@@ -466,8 +468,9 @@ msgstr "アメリカ/サンパウロ"
 #: src/Translations.vala:227
 msgid "Brazil (southeast: GO, DF, MG, ES, RJ, SP, PR, SC, RS)"
 msgstr ""
-"ブラジル (南東: "
-"ゴイアス、連邦直轄区、ミナスジェライス、エスピリト・サント、リオデジャネイロ、サン・パウロ、パラナ、サンタカタリーナ、リオグランデ・ド・スル )"
+"ブラジル (南東: ゴイアス、連邦直轄区、ミナスジェライス、エスピリト・サント、"
+"リオデジャネイロ、サン・パウロ、パラナ、サンタカタリーナ、リオグランデ・ド・"
+"スル )"
 
 #: src/Translations.vala:229
 msgid "America/Campo_Grande"
@@ -567,7 +570,8 @@ msgstr "アメリカ/ハリファックス"
 
 #: src/Translations.vala:277
 msgid "Atlantic - NS (most areas); PE"
-msgstr "大西洋 - ノバスコシア州 (ほとんどの地域); プリンスエドワードアイランド州"
+msgstr ""
+"大西洋 - ノバスコシア州 (ほとんどの地域); プリンスエドワードアイランド州"
 
 #: src/Translations.vala:279
 msgid "America/Glace_Bay"
@@ -647,7 +651,8 @@ msgstr "アメリカ/アティコカン"
 
 #: src/Translations.vala:317
 msgid "EST - ON (Atikokan); NU (Coral H)"
-msgstr "東部標準時 - オンタリオ州 (アティコーカン); ヌナブト準州 (コーラル・ハーバー)"
+msgstr ""
+"東部標準時 - オンタリオ州 (アティコーカン); ヌナブト準州 (コーラル・ハーバー)"
 
 #: src/Translations.vala:319
 msgid "America/Winnipeg"
@@ -703,7 +708,9 @@ msgstr "アメリカ/エドモントン"
 
 #: src/Translations.vala:345
 msgid "Mountain - AB; BC (E); SK (W)"
-msgstr "山岳部標準時 - アルバータ州;ブリティッシュコロンビア州 (東部); サスカチュワン州 (西部)"
+msgstr ""
+"山岳部標準時 - アルバータ州;ブリティッシュコロンビア州 (東部); サスカチュワン"
+"州 (西部)"
 
 #: src/Translations.vala:347
 msgid "America/Cambridge_Bay"
@@ -743,7 +750,9 @@ msgstr "アメリカ/ドーソンクリーク"
 
 #: src/Translations.vala:365
 msgid "MST - BC (Dawson Cr, Ft St John)"
-msgstr "山岳部標準時 - ブリティッシュコロンビア州 (ドーソン・クリーク、フォート・セント・ジョン)"
+msgstr ""
+"山岳部標準時 - ブリティッシュコロンビア州 (ドーソン・クリーク、フォート・セン"
+"ト・ジョン)"
 
 #: src/Translations.vala:367
 msgid "America/Fort_Nelson"
@@ -1172,7 +1181,9 @@ msgstr "アジア/マカッサル"
 #: src/Translations.vala:579
 msgid ""
 "Borneo (east, south); Sulawesi/Celebes, Bali, Nusa Tengarra; Timor (west)"
-msgstr "ボルネオ (東部、南部); スラウェシ/セレベス、バリ、ヌサトゥンガラ ; ティモール (西部)"
+msgstr ""
+"ボルネオ (東部、南部); スラウェシ/セレベス、バリ、ヌサトゥンガラ ; ティモー"
+"ル (西部)"
 
 #: src/Translations.vala:581
 msgid "Asia/Jayapura"
@@ -1530,7 +1541,8 @@ msgstr "アメリカ/マタモロス"
 
 #: src/Translations.vala:757
 msgid "Central Time US - Coahuila, Nuevo Leon, Tamaulipas (US border)"
-msgstr "アメリア中部標準時 - コアウイラ、ヌエボレオン、タマウリパス (アメリカ国境)"
+msgstr ""
+"アメリア中部標準時 - コアウイラ、ヌエボレオン、タマウリパス (アメリカ国境)"
 
 #: src/Translations.vala:759
 msgid "America/Mazatlan"
@@ -2550,7 +2562,7 @@ msgstr "タイムゾーン:"
 
 #: src/Plug.vala:73
 msgid "Show week numbers:"
-msgstr "週番号を表示する:"
+msgstr "週番号を表示:"
 
 #: src/Plug.vala:273
 msgid "Network Time"

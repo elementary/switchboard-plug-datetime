@@ -97,6 +97,25 @@ public class DateTime.Plug : Switchboard.Plug {
             widget_grid.attach (date_picker, 3, 3, 1, 1);
             widget_grid.attach (week_number_label, 0, 4, 1, 1);
             widget_grid.attach (week_number_switch, 1, 4, 1, 1);
+            widget_grid.attach (time_zone_label, 0, 1, 1, 1);
+            widget_grid.attach (time_zone_button, 1, 1, 3, 1);
+            widget_grid.attach (network_time_label, 0, 2, 1, 1);
+            widget_grid.attach (network_time_switch, 1, 2, 1, 1);
+            widget_grid.attach (week_number_label, 0, 3, 1, 1);
+            widget_grid.attach (week_number_switch, 1, 3, 1, 1);
+            widget_grid.attach (time_picker, 2, 2, 1, 1);
+            widget_grid.attach (date_picker, 3, 2, 1, 1);
+
+            var source = SettingsSchemaSource.get_default ();
+            var schema = source.lookup ("io.elementary.desktop.wingpanel.datetime", false);
+
+            if (schema == null) {
+                week_number_label.no_show_all = true;
+                week_number_switch.no_show_all = true;
+            } else {
+                var week_number_settings = new GLib.Settings ("io.elementary.desktop.wingpanel.datetime");
+                week_number_settings.bind ("show-weeks", week_number_switch, "active", SettingsBindFlags.DEFAULT);
+            }
             
             main_grid = new Gtk.Grid ();
             main_grid.row_spacing = 24;

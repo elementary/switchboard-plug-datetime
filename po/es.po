@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-19 02:05-0500\n"
+"POT-Creation-Date: 2018-06-27 08:49-0700\n"
 "PO-Revision-Date: 2017-12-20 16:57+0000\n"
 "Last-Translator: Julio García <yllelder@gmail.com>\n"
 "Language-Team: Spanish <https://weblate.elementary.io/projects/switchboard/"
@@ -81,7 +81,8 @@ msgid "Antarctica/DumontDUrville"
 msgstr "Antártida/Dumont D'Urville"
 
 #: src/Translations.vala:33
-msgid "Dumont-d'Urville"
+#, fuzzy
+msgid "Dumont d'Urville"
 msgstr "Dumont-d'Urville"
 
 #: src/Translations.vala:35

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-power\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-19 02:05-0500\n"
+"POT-Creation-Date: 2018-06-27 08:49-0700\n"
 "PO-Revision-Date: 2014-12-16 17:46+0000\n"
 "Last-Translator: Khaled Hosny <khaledhosny@eglug.org>\n"
 "Language-Team: Arabic <ar@li.org>\n"
@@ -79,8 +79,9 @@ msgid "Antarctica/DumontDUrville"
 msgstr "أنتارتيكا/دومنتدىأورفيل"
 
 #: src/Translations.vala:33
-msgid "Dumont-d'Urville"
-msgstr ""
+#, fuzzy
+msgid "Dumont d'Urville"
+msgstr "أنتارتيكا/دومنتدىأورفيل"
 
 #: src/Translations.vala:35
 msgid "Antarctica/Mawson"

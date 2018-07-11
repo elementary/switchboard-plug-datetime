@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-datetime\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-19 02:05-0500\n"
+"POT-Creation-Date: 2018-06-27 08:49-0700\n"
 "PO-Revision-Date: 2018-02-11 00:09+0000\n"
 "Last-Translator: Rokar <mail@rokar.de>\n"
 "Language-Team: Kurdish <https://weblate.elementary.io/projects/switchboard/"
@@ -81,7 +81,8 @@ msgid "Antarctica/DumontDUrville"
 msgstr "antarctica/DumontDUrville"
 
 #: src/Translations.vala:33
-msgid "Dumont-d'Urville"
+#, fuzzy
+msgid "Dumont d'Urville"
 msgstr "Antarctica/DumontDUrville"
 
 #: src/Translations.vala:35

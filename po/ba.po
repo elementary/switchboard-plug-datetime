@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-19 02:05-0500\n"
+"POT-Creation-Date: 2018-06-27 08:49-0700\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 
@@ -66,7 +66,7 @@ msgid "Antarctica/DumontDUrville"
 msgstr ""
 
 #: src/Translations.vala:33
-msgid "Dumont-d'Urville"
+msgid "Dumont d'Urville"
 msgstr ""
 
 #: src/Translations.vala:35
