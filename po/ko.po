@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-power\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-11 12:34-0300\n"
-"PO-Revision-Date: 2018-06-28 02:45+0000\n"
+"PO-Revision-Date: 2018-07-12 07:06+0000\n"
 "Last-Translator: Jung-Kyu Park <bagjunggyu@gmail.com>\n"
 "Language-Team: Korean <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-datetime/ko/>\n"
@@ -81,7 +81,6 @@ msgid "Antarctica/DumontDUrville"
 msgstr "남극대륙/뒤몽뒤르빌(DumontDUrville)"
 
 #: src/Translations.vala:33
-#, fuzzy
 msgid "Dumont-d'Urville"
 msgstr "뒤몽 뒤르빌(Dumont d'Urville)"
 
@@ -830,13 +829,12 @@ msgid "Chile (most areas)"
 msgstr "칠레 (대부분의 지역)"
 
 #: src/Translations.vala:407
-#, fuzzy
 msgid "America/Punta_Arenas"
-msgstr "아메리카/산타렘 (Santarem)"
+msgstr "아메리카/산타렘(Santarem)"
 
 #: src/Translations.vala:409
 msgid "Region of Magallanes"
-msgstr ""
+msgstr "마가야네스 주(Magallanes)"
 
 #: src/Translations.vala:411
 msgid "Pacific/Easter"
@@ -895,19 +893,16 @@ msgid "Asia/Nicosia"
 msgstr "아시아/니코시아(Nicosia)"
 
 #: src/Translations.vala:439
-#, fuzzy
 msgid "Cyprus (most areas)"
-msgstr "중부 대부분의 지역"
+msgstr "키프로스(Cyprus)"
 
 #: src/Translations.vala:441
-#, fuzzy
 msgid "Asia/Famagusta"
-msgstr "아시아/다마스커스(Damascus)"
+msgstr "아시아/파마구스타(Famagusta)"
 
 #: src/Translations.vala:443
-#, fuzzy
 msgid "Northern Cyprus"
-msgstr "노던 테리토리 (Northern Territory)"
+msgstr "북키프로스(Northern Cyprus)"
 
 #: src/Translations.vala:445
 msgid "Europe/Prague"
@@ -1355,19 +1350,16 @@ msgid "Asia/Aqtau"
 msgstr "아시아/아크타우(Aqtau)"
 
 #: src/Translations.vala:665
-#, fuzzy
 msgid "Mangghystau/Mankistau"
-msgstr "아티라우(Atyrau/Atirau/Gur'yev), 망기스타우(Mangghystau/Mankistau)"
+msgstr "망기스타우(Mangghystau/Mankistau)"
 
 #: src/Translations.vala:667
-#, fuzzy
 msgid "Asia/Atyrau"
-msgstr "아시아/아크타우(Aqtau)"
+msgstr "아시아/아티라우(Atyrau)"
 
 #: src/Translations.vala:669
-#, fuzzy
 msgid "Atyrau/Atirau/Gur'yev"
-msgstr "아티라우(Atyrau/Atirau/Gur'yev), 망기스타우(Mangghystau/Mankistau)"
+msgstr "아티라우(Atyrau/Atirau/Gur'yev)"
 
 #: src/Translations.vala:671
 msgid "Asia/Oral"
@@ -1470,9 +1462,8 @@ msgid "Africa/Bamako"
 msgstr "아프리카/바마코(Bamako)"
 
 #: src/Translations.vala:721
-#, fuzzy
 msgid "Asia/Yangon"
-msgstr "아시아/랑군(Rangoon)"
+msgstr "아시아/양곤(Yangon)"
 
 #: src/Translations.vala:723
 msgid "Asia/Ulaanbaatar"
@@ -1877,9 +1868,8 @@ msgid "Europe/Volgograd"
 msgstr "유럽/볼고그라드(Volgograd)"
 
 #: src/Translations.vala:921
-#, fuzzy
 msgid "MSK+00 - Volgograd"
-msgstr "MSK+00 - 볼고그라드(Volgograd), 사라토프(Saratov)"
+msgstr "MSK+00 - 볼고그라드(Volgograd)"
 
 #: src/Translations.vala:923
 msgid "Europe/Kirov"
@@ -1898,14 +1888,12 @@ msgid "MSK+01 - Astrakhan"
 msgstr "MSK+01 - 아스트라칸(Astrakhan)"
 
 #: src/Translations.vala:931
-#, fuzzy
 msgid "Europe/Saratov"
-msgstr "유럽/사라예보(Sarajevo)"
+msgstr "유럽/사라토프(Saratov)"
 
 #: src/Translations.vala:933
-#, fuzzy
 msgid "MSK+01 - Saratov"
-msgstr "MSK+00 - 키로프(Kirov)"
+msgstr "MSK+00 - 사라토프(Saratov)"
 
 #: src/Translations.vala:935
 msgid "Europe/Ulyanovsk"
@@ -1944,9 +1932,8 @@ msgid "Asia/Novosibirsk"
 msgstr "아시아/노보시비르스크(Novosibirsk)"
 
 #: src/Translations.vala:953
-#, fuzzy
 msgid "MSK+04 - Novosibirsk"
-msgstr "MSK+03 - 노보시비르스크(Novosibirsk)"
+msgstr "MSK+04 - 노보시비르스크(Novosibirsk)"
 
 #: src/Translations.vala:955
 msgid "Asia/Barnaul"
