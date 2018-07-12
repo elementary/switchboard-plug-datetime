@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-11 12:34-0300\n"
-"PO-Revision-Date: 2018-07-11 21:52+0000\n"
+"PO-Revision-Date: 2018-07-13 00:04+0000\n"
 "Last-Translator: Piotr Strebski <strebski@gmail.com>\n"
 "Language-Team: Polish <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-datetime/pl/>\n"
@@ -747,7 +747,7 @@ msgstr "Ameryka/Dawson_Creek"
 
 #: src/Translations.vala:365
 msgid "MST - BC (Dawson Cr, Ft St John)"
-msgstr "MST - BC (Dawson Cr, Ft St John)"
+msgstr "MST - BC (Dawson Cr, Fort St. John)"
 
 #: src/Translations.vala:367
 msgid "America/Fort_Nelson"
@@ -755,7 +755,7 @@ msgstr "Ameryka/Fort_Nelson"
 
 #: src/Translations.vala:369
 msgid "MST - BC (Ft Nelson)"
-msgstr "MST - BC (Ft Nelson)"
+msgstr "MST - BC (Fort Nelson)"
 
 #: src/Translations.vala:371
 msgid "America/Vancouver"
