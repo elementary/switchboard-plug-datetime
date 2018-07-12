@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: timezones.tip\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-11 12:34-0300\n"
-"PO-Revision-Date: 2018-07-12 07:28+0000\n"
+"PO-Revision-Date: 2018-07-13 00:04+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-datetime/he/>\n"
@@ -79,7 +79,7 @@ msgstr "דייויס"
 
 #: src/Translations.vala:31
 msgid "Antarctica/DumontDUrville"
-msgstr "אנטרקטיקה/דומונטדורוויל"
+msgstr "אנטרקטיקה/דיומון-דאורביל"
 
 #: src/Translations.vala:33
 msgid "Dumont-d'Urville"
@@ -103,7 +103,7 @@ msgstr "פלמר"
 
 #: src/Translations.vala:43
 msgid "Antarctica/Rothera"
-msgstr "אנטרקטיקה/רות'רה"
+msgstr "אנטרקטיקה/רות׳רה"
 
 #: src/Translations.vala:45
 msgid "Rothera"
