@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-11 12:34-0300\n"
-"PO-Revision-Date: 2018-07-12 00:07+0000\n"
+"PO-Revision-Date: 2018-07-12 20:43+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: Lithuanian <https://weblate.elementary.io/projects/"
 "switchboard/switchboard-plug-datetime/lt/>\n"
@@ -78,7 +78,7 @@ msgstr "Antarktida/DumontDUrvilis"
 
 #: src/Translations.vala:33
 msgid "Dumont-d'Urville"
-msgstr "Dumont d'Urville"
+msgstr "Dumont d'Urvilis"
 
 #: src/Translations.vala:35
 msgid "Antarctica/Mawson"
@@ -738,11 +738,11 @@ msgstr "MST - BC (Krestonas)"
 
 #: src/Translations.vala:363
 msgid "America/Dawson_Creek"
-msgstr "Amerika/Dauson Krykas"
+msgstr "Amerika/Dauson_Krykas"
 
 #: src/Translations.vala:365
 msgid "MST - BC (Dawson Cr, Ft St John)"
-msgstr "MST - BC (Dawson Cr, Ft St John)"
+msgstr "MST - BC (Dauson Kr, Ft St Džonas)"
 
 #: src/Translations.vala:367
 msgid "America/Fort_Nelson"
@@ -830,7 +830,7 @@ msgstr "Amerika/Punta_Arenasas"
 
 #: src/Translations.vala:409
 msgid "Region of Magallanes"
-msgstr ""
+msgstr "Magelano regionas"
 
 #: src/Translations.vala:411
 msgid "Pacific/Easter"
