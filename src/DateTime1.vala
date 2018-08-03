@@ -38,6 +38,6 @@ public class DateTime.Settings : Granite.Services.Settings {
     public string clock_format { get; set; }
 
     public Settings () {
-        base ("org.gnome.desktop.interface");
+        base ("io.elementary.desktop.wingpanel.datetime");
     }
 }
