@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-11 12:34-0300\n"
-"PO-Revision-Date: 2018-06-07 00:10+0000\n"
+"PO-Revision-Date: 2018-07-21 00:07+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://weblate.elementary.io/projects/"
 "switchboard/switchboard-plug-datetime/nb/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.18\n"
+"X-Generator: Weblate 3.0.1\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:05+0000\n"
 
 #: src/Translations.vala:3
@@ -81,9 +81,8 @@ msgid "Antarctica/DumontDUrville"
 msgstr "Antarktis/DumontDUrville"
 
 #: src/Translations.vala:33
-#, fuzzy
 msgid "Dumont-d'Urville"
-msgstr "https://en.wikipedia.org/wiki/Dumont_d%27Urville_Station"
+msgstr "Dumont-d'Urville"
 
 #: src/Translations.vala:35
 msgid "Antarctica/Mawson"
@@ -290,7 +289,6 @@ msgid "Australia/Broken_Hill"
 msgstr "Australia/Broken_Hill"
 
 #: src/Translations.vala:137
-#, fuzzy
 msgid "New South Wales (Yancowinna)"
 msgstr "New South Wales (Yancowinna)"
 
@@ -307,7 +305,6 @@ msgid "Australia/Lindeman"
 msgstr "Australia/Lindeman"
 
 #: src/Translations.vala:145
-#, fuzzy
 msgid "Queensland (Whitsunday Islands)"
 msgstr "Queensland (Whitsundayøyene)"
 
@@ -425,14 +422,13 @@ msgstr "Amerika/Belem"
 
 #: src/Translations.vala:203
 msgid "Para (east); Amapa"
-msgstr ""
+msgstr "Para (øst); Amapa"
 
 #: src/Translations.vala:205
 msgid "America/Fortaleza"
 msgstr "Amerika/Fortaleza"
 
 #: src/Translations.vala:207
-#, fuzzy
 msgid "Brazil (northeast: MA, PI, CE, RN, PB)"
 msgstr "Brasil (nordøst: MA, PI, CE, RN, PB)"
 
@@ -498,7 +494,7 @@ msgstr "Amerika/Santarem"
 
 #: src/Translations.vala:239
 msgid "Para (west)"
-msgstr ""
+msgstr "Para (vest)"
 
 #: src/Translations.vala:241
 msgid "America/Porto_Velho"
@@ -574,7 +570,7 @@ msgstr "Amerika/Halifax"
 
 #: src/Translations.vala:277
 msgid "Atlantic - NS (most areas); PE"
-msgstr ""
+msgstr "Atlantisk - NS (fleste områder); PE"
 
 #: src/Translations.vala:279
 msgid "America/Glace_Bay"
@@ -582,7 +578,7 @@ msgstr "Amerika/Glace_Bay"
 
 #: src/Translations.vala:281
 msgid "Atlantic - NS (Cape Breton)"
-msgstr ""
+msgstr "Atlantisk - NS (Cape Breton)"
 
 #: src/Translations.vala:283
 msgid "America/Moncton"
@@ -590,7 +586,7 @@ msgstr "Amerika/Moncton"
 
 #: src/Translations.vala:285
 msgid "Atlantic - New Brunswick"
-msgstr ""
+msgstr "Atlantisk - New Brunswick"
 
 #: src/Translations.vala:287
 msgid "America/Goose_Bay"
@@ -598,7 +594,7 @@ msgstr "Amerika/Goose_Bay"
 
 #: src/Translations.vala:289
 msgid "Atlantic - Labrador (most areas)"
-msgstr ""
+msgstr "Atlantisk - Labrador (fleste områder)"
 
 #: src/Translations.vala:291
 msgid "America/Blanc-Sablon"
@@ -630,7 +626,7 @@ msgstr "Amerika/Thunder_Bay"
 
 #: src/Translations.vala:305
 msgid "Eastern - ON (Thunder Bay)"
-msgstr ""
+msgstr "Østlig - ON (Thunder Bay)"
 
 #: src/Translations.vala:307
 msgid "America/Iqaluit"
@@ -638,7 +634,7 @@ msgstr "Amerika/Iqaluit"
 
 #: src/Translations.vala:309
 msgid "Eastern - NU (most east areas)"
-msgstr ""
+msgstr "Østlig - NU (fleste områder)"
 
 #: src/Translations.vala:311
 msgid "America/Pangnirtung"
@@ -646,7 +642,7 @@ msgstr "Amerika/Pangnirtung"
 
 #: src/Translations.vala:313
 msgid "Eastern - NU (Pangnirtung)"
-msgstr ""
+msgstr "Østlig - NU (Pangnirtung)"
 
 #: src/Translations.vala:315
 msgid "America/Atikokan"
@@ -654,7 +650,7 @@ msgstr "Amerika/Atikokan"
 
 #: src/Translations.vala:317
 msgid "EST - ON (Atikokan); NU (Coral H)"
-msgstr ""
+msgstr "EST - ON (Atikokan); NU(Coral H)"
 
 #: src/Translations.vala:319
 msgid "America/Winnipeg"
@@ -662,7 +658,7 @@ msgstr "Amerika/Winnipeg"
 
 #: src/Translations.vala:321
 msgid "Central - ON (west); Manitoba"
-msgstr ""
+msgstr "Sentral - ON (vest); Manitoba"
 
 #: src/Translations.vala:323
 msgid "America/Rainy_River"
@@ -670,7 +666,7 @@ msgstr "Amerika/Rainy_River"
 
 #: src/Translations.vala:325
 msgid "Central - ON (Rainy R, Ft Frances)"
-msgstr ""
+msgstr "Sentral - ON (Rainy R, Ft Frances)"
 
 #: src/Translations.vala:327
 msgid "America/Resolute"
@@ -678,7 +674,7 @@ msgstr "Amerika/Resolute"
 
 #: src/Translations.vala:329
 msgid "Central - NU (Resolute)"
-msgstr ""
+msgstr "Sentral - NU (Resolute)"
 
 #: src/Translations.vala:331
 msgid "America/Rankin_Inlet"
@@ -686,7 +682,7 @@ msgstr "Amerika/Rankin_Inlet"
 
 #: src/Translations.vala:333
 msgid "Central - NU (central)"
-msgstr ""
+msgstr "Sentral - NU (sentral)"
 
 #: src/Translations.vala:335
 msgid "America/Regina"
@@ -694,7 +690,7 @@ msgstr "Amerika/Regina"
 
 #: src/Translations.vala:337
 msgid "CST - SK (most areas)"
-msgstr ""
+msgstr "CST - SK (fleste områder)"
 
 #: src/Translations.vala:339
 msgid "America/Swift_Current"
@@ -702,7 +698,7 @@ msgstr "Amerika/Swift_Current"
 
 #: src/Translations.vala:341
 msgid "CST - SK (midwest)"
-msgstr ""
+msgstr "CST - SK (midtvesten)"
 
 #: src/Translations.vala:343
 msgid "America/Edmonton"

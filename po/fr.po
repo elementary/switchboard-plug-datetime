@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-datetime\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-11 12:34-0300\n"
-"PO-Revision-Date: 2018-07-13 00:04+0000\n"
+"PO-Revision-Date: 2018-07-17 00:03+0000\n"
 "Last-Translator: Corentin Noël <corentin@elementary.io>\n"
 "Language-Team: French <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-datetime/fr/>\n"
@@ -829,9 +829,8 @@ msgid "Chile (most areas)"
 msgstr "Chili (principales régions)"
 
 #: src/Translations.vala:407
-#, fuzzy
 msgid "America/Punta_Arenas"
-msgstr "Amérique/Santarém"
+msgstr "Amérique/Punta Arenas"
 
 #: src/Translations.vala:409
 msgid "Region of Magallanes"
@@ -894,19 +893,16 @@ msgid "Asia/Nicosia"
 msgstr "Asie/Nicosie"
 
 #: src/Translations.vala:439
-#, fuzzy
 msgid "Cyprus (most areas)"
-msgstr "Chili (principales régions)"
+msgstr "Chypre (principales régions)"
 
 #: src/Translations.vala:441
-#, fuzzy
 msgid "Asia/Famagusta"
-msgstr "Asie/Damas"
+msgstr "Asie/Famagouste"
 
 #: src/Translations.vala:443
-#, fuzzy
 msgid "Northern Cyprus"
-msgstr "Territoire du Nord"
+msgstr "Chypre Nord"
 
 #: src/Translations.vala:445
 msgid "Europe/Prague"
@@ -1355,9 +1351,8 @@ msgid "Mangghystau/Mankistau"
 msgstr ""
 
 #: src/Translations.vala:667
-#, fuzzy
 msgid "Asia/Atyrau"
-msgstr "Asie/Aqtau"
+msgstr "Asie/Atyraou"
 
 #: src/Translations.vala:669
 msgid "Atyrau/Atirau/Gur'yev"
@@ -1464,9 +1459,8 @@ msgid "Africa/Bamako"
 msgstr "Afrique/Bamako"
 
 #: src/Translations.vala:721
-#, fuzzy
 msgid "Asia/Yangon"
-msgstr "Asie/Rangoon"
+msgstr "Asie/Rangoun"
 
 #: src/Translations.vala:723
 msgid "Asia/Ulaanbaatar"
@@ -1865,9 +1859,8 @@ msgid "Europe/Volgograd"
 msgstr "Europe/Volgograd"
 
 #: src/Translations.vala:921
-#, fuzzy
 msgid "MSK+00 - Volgograd"
-msgstr "MSK+00 - Volgograd, Saratov"
+msgstr "MSK+00 - Volgograd"
 
 #: src/Translations.vala:923
 msgid "Europe/Kirov"
@@ -1886,14 +1879,12 @@ msgid "MSK+01 - Astrakhan"
 msgstr ""
 
 #: src/Translations.vala:931
-#, fuzzy
 msgid "Europe/Saratov"
-msgstr "Europe/Sarajevo"
+msgstr "Europe/Saratov"
 
 #: src/Translations.vala:933
-#, fuzzy
 msgid "MSK+01 - Saratov"
-msgstr "MSK+00 - Kirov"
+msgstr "MSK+01 - Saratov"
 
 #: src/Translations.vala:935
 msgid "Europe/Ulyanovsk"
@@ -1932,9 +1923,8 @@ msgid "Asia/Novosibirsk"
 msgstr "Asie/Novosibirsk"
 
 #: src/Translations.vala:953
-#, fuzzy
 msgid "MSK+04 - Novosibirsk"
-msgstr "MSK+03 - Novossibirsk"
+msgstr "MSK+04 - Novossibirsk"
 
 #: src/Translations.vala:955
 msgid "Asia/Barnaul"

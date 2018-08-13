@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-11 12:34-0300\n"
-"PO-Revision-Date: 2018-06-30 00:03+0000\n"
+"PO-Revision-Date: 2018-07-18 00:06+0000\n"
 "Last-Translator: Dieter Debast <dieter_debast@hotmail.com>\n"
 "Language-Team: Dutch <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-datetime/nl/>\n"
@@ -81,9 +81,8 @@ msgid "Antarctica/DumontDUrville"
 msgstr "Antarctica/DumontDUrville"
 
 #: src/Translations.vala:33
-#, fuzzy
 msgid "Dumont-d'Urville"
-msgstr "Dumont d'Urville"
+msgstr "Dumont-d'Urville"
 
 #: src/Translations.vala:35
 msgid "Antarctica/Mawson"
@@ -830,9 +829,8 @@ msgid "Chile (most areas)"
 msgstr ""
 
 #: src/Translations.vala:407
-#, fuzzy
 msgid "America/Punta_Arenas"
-msgstr "Amerika/Santarem"
+msgstr "Amerika/Punta_Arenas"
 
 #: src/Translations.vala:409
 msgid "Region of Magallanes"
@@ -899,14 +897,12 @@ msgid "Cyprus (most areas)"
 msgstr ""
 
 #: src/Translations.vala:441
-#, fuzzy
 msgid "Asia/Famagusta"
-msgstr "Azië/Damascus"
+msgstr "Azië/Famagusta"
 
 #: src/Translations.vala:443
-#, fuzzy
 msgid "Northern Cyprus"
-msgstr "Noordelijk Territorium"
+msgstr "Noord-Cyprus"
 
 #: src/Translations.vala:445
 msgid "Europe/Prague"
@@ -1354,9 +1350,8 @@ msgid "Mangghystau/Mankistau"
 msgstr ""
 
 #: src/Translations.vala:667
-#, fuzzy
 msgid "Asia/Atyrau"
-msgstr "Azië/Aqtau"
+msgstr "Azië/Atyrau"
 
 #: src/Translations.vala:669
 msgid "Atyrau/Atirau/Gur'yev"
@@ -1463,9 +1458,8 @@ msgid "Africa/Bamako"
 msgstr "Afrika/Bamako"
 
 #: src/Translations.vala:721
-#, fuzzy
 msgid "Asia/Yangon"
-msgstr "Azië/Rangoon"
+msgstr "Azië/Yangon"
 
 #: src/Translations.vala:723
 msgid "Asia/Ulaanbaatar"
@@ -1884,9 +1878,8 @@ msgid "MSK+01 - Astrakhan"
 msgstr ""
 
 #: src/Translations.vala:931
-#, fuzzy
 msgid "Europe/Saratov"
-msgstr "Europa/Sarajevo"
+msgstr "Europa/Saratov"
 
 #: src/Translations.vala:933
 msgid "MSK+01 - Saratov"
@@ -1929,9 +1922,8 @@ msgid "Asia/Novosibirsk"
 msgstr "Azië/Novosibirsk"
 
 #: src/Translations.vala:953
-#, fuzzy
 msgid "MSK+04 - Novosibirsk"
-msgstr "Azië/Novosibirsk"
+msgstr "MSK+04 - Novosibirsk"
 
 #: src/Translations.vala:955
 msgid "Asia/Barnaul"

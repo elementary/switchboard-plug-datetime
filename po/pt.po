@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-11 12:34-0300\n"
-"PO-Revision-Date: 2017-08-26 14:10+0000\n"
-"Last-Translator: anmcp <anmcpinho@gmail.com>\n"
+"PO-Revision-Date: 2018-07-26 17:04+0000\n"
+"Last-Translator: Christophe Silva <Christophesilva80@gmail.com>\n"
 "Language-Team: Portuguese <https://weblate.elementary.io/projects/"
 "switchboard/switchboard-plug-datetime/pt/>\n"
 "Language: pt\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.16\n"
+"X-Generator: Weblate 3.0.1\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:05+0000\n"
 
 #: src/Translations.vala:3
@@ -81,7 +81,6 @@ msgid "Antarctica/DumontDUrville"
 msgstr "Antárctica/DumontDUrville"
 
 #: src/Translations.vala:33
-#, fuzzy
 msgid "Dumont-d'Urville"
 msgstr "Dumont-d'Urville"
 
@@ -830,13 +829,12 @@ msgid "Chile (most areas)"
 msgstr "Chile (maioria das áreas)"
 
 #: src/Translations.vala:407
-#, fuzzy
 msgid "America/Punta_Arenas"
-msgstr "América/Santarém"
+msgstr "América/Punta_Arenas"
 
 #: src/Translations.vala:409
 msgid "Region of Magallanes"
-msgstr ""
+msgstr "Região de Magallanes"
 
 #: src/Translations.vala:411
 msgid "Pacific/Easter"
@@ -895,19 +893,16 @@ msgid "Asia/Nicosia"
 msgstr "Ásia/Nicosia"
 
 #: src/Translations.vala:439
-#, fuzzy
 msgid "Cyprus (most areas)"
-msgstr "Central (maioria das áreas)"
+msgstr "Cyprus (maioria das áreas)"
 
 #: src/Translations.vala:441
-#, fuzzy
 msgid "Asia/Famagusta"
-msgstr "Ásia/Damascus"
+msgstr "Ásia/Famagusta"
 
 #: src/Translations.vala:443
-#, fuzzy
 msgid "Northern Cyprus"
-msgstr "Território do Norte"
+msgstr "Norte de Cyprus"
 
 #: src/Translations.vala:445
 msgid "Europe/Prague"
@@ -1352,19 +1347,16 @@ msgid "Asia/Aqtau"
 msgstr "Ásia/Aqtau"
 
 #: src/Translations.vala:665
-#, fuzzy
 msgid "Mangghystau/Mankistau"
-msgstr "Atyrau/Atirau/Gur'yev, Mangghystau/Mankistau"
+msgstr "Mangghystau/Mankistau"
 
 #: src/Translations.vala:667
-#, fuzzy
 msgid "Asia/Atyrau"
-msgstr "Ásia/Aqtau"
+msgstr "Ásia/Atyrau"
 
 #: src/Translations.vala:669
-#, fuzzy
 msgid "Atyrau/Atirau/Gur'yev"
-msgstr "Atyrau/Atirau/Gur'yev, Mangghystau/Mankistau"
+msgstr "Atyrau/Atirau/Gur'yev"
 
 #: src/Translations.vala:671
 msgid "Asia/Oral"
@@ -1467,9 +1459,8 @@ msgid "Africa/Bamako"
 msgstr "África/Bamako"
 
 #: src/Translations.vala:721
-#, fuzzy
 msgid "Asia/Yangon"
-msgstr "Ásia/Rangoon"
+msgstr "Ásia/Yangon"
 
 #: src/Translations.vala:723
 msgid "Asia/Ulaanbaatar"
@@ -1869,9 +1860,8 @@ msgid "Europe/Volgograd"
 msgstr "Europa/Volgograd"
 
 #: src/Translations.vala:921
-#, fuzzy
 msgid "MSK+00 - Volgograd"
-msgstr "MSK+00 - Volgograd, Saratov"
+msgstr "MSK+00 - Volgograd"
 
 #: src/Translations.vala:923
 msgid "Europe/Kirov"
@@ -1890,14 +1880,12 @@ msgid "MSK+01 - Astrakhan"
 msgstr "MSK+01 - Astrakhan"
 
 #: src/Translations.vala:931
-#, fuzzy
 msgid "Europe/Saratov"
-msgstr "Europa/Sarajevo"
+msgstr "Europa/Saratov"
 
 #: src/Translations.vala:933
-#, fuzzy
 msgid "MSK+01 - Saratov"
-msgstr "MSK+00 - Kirov"
+msgstr "MSK+01 - Saratov"
 
 #: src/Translations.vala:935
 msgid "Europe/Ulyanovsk"
@@ -1936,9 +1924,8 @@ msgid "Asia/Novosibirsk"
 msgstr "Ásia/Novosibirsk"
 
 #: src/Translations.vala:953
-#, fuzzy
 msgid "MSK+04 - Novosibirsk"
-msgstr "MSK+03 - Novosibirsk"
+msgstr "MSK+04 - Novosibirsk"
 
 #: src/Translations.vala:955
 msgid "Asia/Barnaul"
