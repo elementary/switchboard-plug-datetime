@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-11 12:34-0300\n"
-"PO-Revision-Date: 2018-08-29 16:50+0000\n"
+"PO-Revision-Date: 2018-08-30 00:08+0000\n"
 "Last-Translator: Rodrigo Oliveira <rod.oliveira@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://weblate.elementary.io/projects/"
 "switchboard/switchboard-plug-datetime/pt_BR/>\n"
@@ -266,7 +266,7 @@ msgstr "Austrália/Currie"
 
 #: src/Translations.vala:125
 msgid "Tasmania (King Island)"
-msgstr "Tasmania (King Island)"
+msgstr "Tasmânia (Ilha King)"
 
 #: src/Translations.vala:127
 msgid "Australia/Melbourne"
@@ -306,7 +306,7 @@ msgstr "Austrália/Lindeman"
 
 #: src/Translations.vala:145
 msgid "Queensland (Whitsunday Islands)"
-msgstr "Queensland (Whitsunday Islands)"
+msgstr "Queensland (Ilhas Whitsunday)"
 
 #: src/Translations.vala:147
 msgid "Australia/Adelaide"
@@ -406,7 +406,7 @@ msgstr "América/La Paz"
 
 #: src/Translations.vala:195
 msgid "America/Kralendijk"
-msgstr "America/Kralendijk"
+msgstr "América/Kralendijk"
 
 #: src/Translations.vala:197
 msgid "America/Noronha"
@@ -626,7 +626,7 @@ msgstr "América/Thunder Bay"
 
 #: src/Translations.vala:305
 msgid "Eastern - ON (Thunder Bay)"
-msgstr "Eastern - ON (Thunder Bay)"
+msgstr "Oriental - ON (Thunder Bay)"
 
 #: src/Translations.vala:307
 msgid "America/Iqaluit"
@@ -734,7 +734,7 @@ msgstr "Mountain - NT (oeste)"
 
 #: src/Translations.vala:359
 msgid "America/Creston"
-msgstr "America/Creston"
+msgstr "América/Creston"
 
 #: src/Translations.vala:361
 msgid "MST - BC (Creston)"
