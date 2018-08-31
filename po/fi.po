@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-11 12:34-0300\n"
-"PO-Revision-Date: 2018-05-04 00:06+0000\n"
-"Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
+"PO-Revision-Date: 2018-09-01 00:09+0000\n"
+"Last-Translator: Robin Lahtinen <robin.lahtinen@gmail.com>\n"
 "Language-Team: Finnish <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-datetime/fi/>\n"
 "Language: fi\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.18\n"
+"X-Generator: Weblate 3.0.1\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:04+0000\n"
 
 #: src/Translations.vala:3
@@ -58,7 +58,7 @@ msgstr "Etelämanner/McMurdo"
 
 #: src/Translations.vala:21
 msgid "New Zealand time - McMurdo, South Pole"
-msgstr ""
+msgstr "Uuden-Seelannin aika - McMurdo, Etelänapa"
 
 #: src/Translations.vala:23
 msgid "Antarctica/Casey"
@@ -66,7 +66,7 @@ msgstr "Etelämanner/Casey"
 
 #: src/Translations.vala:25
 msgid "Casey"
-msgstr ""
+msgstr "Casey"
 
 #: src/Translations.vala:27
 msgid "Antarctica/Davis"
@@ -74,16 +74,15 @@ msgstr "Etelämanner/Davis"
 
 #: src/Translations.vala:29
 msgid "Davis"
-msgstr ""
+msgstr "Davis"
 
 #: src/Translations.vala:31
 msgid "Antarctica/DumontDUrville"
 msgstr "Etelämanner/DumontDUrville"
 
 #: src/Translations.vala:33
-#, fuzzy
 msgid "Dumont-d'Urville"
-msgstr "Etelämanner/DumontDUrville"
+msgstr "Dumont-d'Urville"
 
 #: src/Translations.vala:35
 msgid "Antarctica/Mawson"
@@ -91,7 +90,7 @@ msgstr "Etelämanner/Mawson"
 
 #: src/Translations.vala:37
 msgid "Mawson"
-msgstr ""
+msgstr "Mawson"
 
 #: src/Translations.vala:39
 msgid "Antarctica/Palmer"
@@ -99,7 +98,7 @@ msgstr "Etelämanner/Palmer"
 
 #: src/Translations.vala:41
 msgid "Palmer"
-msgstr ""
+msgstr "Palmer"
 
 #: src/Translations.vala:43
 msgid "Antarctica/Rothera"
@@ -107,7 +106,7 @@ msgstr "Etelämanner/Rothera"
 
 #: src/Translations.vala:45
 msgid "Rothera"
-msgstr ""
+msgstr "Rothera"
 
 #: src/Translations.vala:47
 msgid "Antarctica/Syowa"
@@ -115,15 +114,15 @@ msgstr "Etelämanner/Syowa"
 
 #: src/Translations.vala:49
 msgid "Syowa"
-msgstr ""
+msgstr "Syowa"
 
 #: src/Translations.vala:51
 msgid "Antarctica/Troll"
-msgstr ""
+msgstr "Antarktis/Troll"
 
 #: src/Translations.vala:53
 msgid "Troll"
-msgstr ""
+msgstr "Troll"
 
 #: src/Translations.vala:55
 msgid "Antarctica/Vostok"
@@ -131,7 +130,7 @@ msgstr "Etelämanner/Vostok"
 
 #: src/Translations.vala:57
 msgid "Vostok"
-msgstr ""
+msgstr "Vostok"
 
 #: src/Translations.vala:59
 msgid "America/Argentina/Buenos_Aires"
@@ -147,7 +146,7 @@ msgstr "Amerikka/Argentiina/Cordoba"
 
 #: src/Translations.vala:65
 msgid "Argentina (most areas: CB, CC, CN, ER, FM, MN, SE, SF)"
-msgstr ""
+msgstr "Argentiina (useimmat alueet: CB, CC, CN, ER, FM, MN, SE, SF)"
 
 #: src/Translations.vala:67
 msgid "America/Argentina/Salta"
@@ -155,7 +154,7 @@ msgstr "Amerikka/Argentiina/Salta"
 
 #: src/Translations.vala:69
 msgid "Salta (SA, LP, NQ, RN)"
-msgstr ""
+msgstr "Salta (SA, LP, NQ, RN)"
 
 #: src/Translations.vala:71
 msgid "America/Argentina/Jujuy"
@@ -179,7 +178,7 @@ msgstr "Amerikka/Argentiina/Catamarca"
 
 #: src/Translations.vala:81
 msgid "Catamarca (CT); Chubut (CH)"
-msgstr ""
+msgstr "Catamarca (CT); Chubut (CH)"
 
 #: src/Translations.vala:83
 msgid "America/Argentina/La_Rioja"
@@ -251,7 +250,7 @@ msgstr "Etelämanner/Macquariesaari"
 
 #: src/Translations.vala:117
 msgid "Macquarie Island"
-msgstr ""
+msgstr "Macquarian saari"
 
 #: src/Translations.vala:119
 msgid "Australia/Hobart"
@@ -259,7 +258,7 @@ msgstr "Australia/Hobart"
 
 #: src/Translations.vala:121
 msgid "Tasmania (most areas)"
-msgstr ""
+msgstr "Tasmania (useimmat alueet)"
 
 #: src/Translations.vala:123
 msgid "Australia/Currie"
@@ -267,7 +266,7 @@ msgstr "Australia/Currie"
 
 #: src/Translations.vala:125
 msgid "Tasmania (King Island)"
-msgstr ""
+msgstr "Tasmania (King Island)"
 
 #: src/Translations.vala:127
 msgid "Australia/Melbourne"
@@ -283,7 +282,7 @@ msgstr "Australia/Sydney"
 
 #: src/Translations.vala:133
 msgid "New South Wales (most areas)"
-msgstr ""
+msgstr "Uusi Etelä-Wales (useimmat alueet)"
 
 #: src/Translations.vala:135
 msgid "Australia/Broken_Hill"
@@ -830,9 +829,8 @@ msgid "Chile (most areas)"
 msgstr ""
 
 #: src/Translations.vala:407
-#, fuzzy
 msgid "America/Punta_Arenas"
-msgstr "Amerikka/Santarem"
+msgstr "Amerikka/Punta_Arenas"
 
 #: src/Translations.vala:409
 msgid "Region of Magallanes"
@@ -899,14 +897,12 @@ msgid "Cyprus (most areas)"
 msgstr ""
 
 #: src/Translations.vala:441
-#, fuzzy
 msgid "Asia/Famagusta"
-msgstr "Aasia/Damaskos"
+msgstr "Aasia/Famagusta"
 
 #: src/Translations.vala:443
-#, fuzzy
 msgid "Northern Cyprus"
-msgstr "Pohjoisterritorio"
+msgstr "Pohjois-Kypros"
 
 #: src/Translations.vala:445
 msgid "Europe/Prague"
@@ -1354,9 +1350,8 @@ msgid "Mangghystau/Mankistau"
 msgstr ""
 
 #: src/Translations.vala:667
-#, fuzzy
 msgid "Asia/Atyrau"
-msgstr "Aasia/Aqtau"
+msgstr "Aasia/Atyrau"
 
 #: src/Translations.vala:669
 msgid "Atyrau/Atirau/Gur'yev"
@@ -1463,9 +1458,8 @@ msgid "Africa/Bamako"
 msgstr "Afrikka/Bamako"
 
 #: src/Translations.vala:721
-#, fuzzy
 msgid "Asia/Yangon"
-msgstr "Aasia/Rangoon"
+msgstr "Aasia/Yangon"
 
 #: src/Translations.vala:723
 msgid "Asia/Ulaanbaatar"
@@ -1884,9 +1878,8 @@ msgid "MSK+01 - Astrakhan"
 msgstr ""
 
 #: src/Translations.vala:931
-#, fuzzy
 msgid "Europe/Saratov"
-msgstr "Eurooppa/Sarajevo"
+msgstr "Eurooppa/Saratov"
 
 #: src/Translations.vala:933
 msgid "MSK+01 - Saratov"
@@ -1929,9 +1922,8 @@ msgid "Asia/Novosibirsk"
 msgstr "Aasia/Novosibirsk"
 
 #: src/Translations.vala:953
-#, fuzzy
 msgid "MSK+04 - Novosibirsk"
-msgstr "Aasia/Novosibirsk"
+msgstr "MSK+04 - Novosibirsk"
 
 #: src/Translations.vala:955
 msgid "Asia/Barnaul"
@@ -2631,7 +2623,7 @@ msgstr "Atlantti"
 
 #: src/Widgets/TZPopover.vala:67
 msgid "Australia"
-msgstr ""
+msgstr "Austraalia"
 
 #: src/Widgets/TZPopover.vala:69
 msgid "Europe"
