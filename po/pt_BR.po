@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-11 12:34-0300\n"
-"PO-Revision-Date: 2018-08-30 00:08+0000\n"
+"PO-Revision-Date: 2018-09-01 00:09+0000\n"
 "Last-Translator: Rodrigo Oliveira <rod.oliveira@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://weblate.elementary.io/projects/"
 "switchboard/switchboard-plug-datetime/pt_BR/>\n"
@@ -2553,7 +2553,7 @@ msgstr "África/Harare"
 
 #: src/Plug.vala:36
 msgid "Date & Time"
-msgstr "Data e hora"
+msgstr "Data e Hora"
 
 #: src/Plug.vala:37
 msgid "Configure date, time, and select time zone"
