@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-11 12:34-0300\n"
-"PO-Revision-Date: 2018-09-02 00:08+0000\n"
+"PO-Revision-Date: 2018-09-03 00:02+0000\n"
 "Last-Translator: Veli-Pekka Samuli Finnilä <vpf@tuta.io>\n"
 "Language-Team: Finnish <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-datetime/fi/>\n"
@@ -1030,7 +1030,7 @@ msgstr "Tyyni_valtameri/Pohnpei"
 
 #: src/Translations.vala:507
 msgid "Pohnpei/Ponape"
-msgstr ""
+msgstr "Pohnpei/Ponape"
 
 #: src/Translations.vala:509
 msgid "Pacific/Kosrae"
@@ -1086,7 +1086,7 @@ msgstr "Amerikka/Godthab"
 
 #: src/Translations.vala:535
 msgid "Greenland (most areas)"
-msgstr ""
+msgstr "Grönlanti (valtaosa alueista)"
 
 #: src/Translations.vala:537
 msgid "America/Danmarkshavn"
@@ -1094,7 +1094,7 @@ msgstr "Amerikka/Danmarkshavn"
 
 #: src/Translations.vala:539
 msgid "National Park (east coast)"
-msgstr ""
+msgstr "National Park (itärannikko)"
 
 #: src/Translations.vala:541
 msgid "America/Scoresbysund"
@@ -1102,7 +1102,7 @@ msgstr "Amerikka/Scoresbysund"
 
 #: src/Translations.vala:543
 msgid "Scoresbysund/Ittoqqortoormiit"
-msgstr ""
+msgstr "Scoresbysund/Ittoqqortoormiit"
 
 #: src/Translations.vala:545
 msgid "America/Thule"
@@ -1110,7 +1110,7 @@ msgstr "Amerikka/Thule"
 
 #: src/Translations.vala:547
 msgid "Thule/Pituffik"
-msgstr ""
+msgstr "Thule/Pituffik"
 
 #: src/Translations.vala:549
 msgid "Africa/Banjul"
@@ -1178,7 +1178,7 @@ msgstr "Aasia/Jakarta"
 
 #: src/Translations.vala:581
 msgid "Java, Sumatra"
-msgstr ""
+msgstr "Jaava, Sumatra"
 
 #: src/Translations.vala:583
 msgid "Asia/Pontianak"
@@ -1186,7 +1186,7 @@ msgstr "Aasia/Pontianak"
 
 #: src/Translations.vala:585
 msgid "Borneo (west, central)"
-msgstr ""
+msgstr "Borneo (länsi, keskinen)"
 
 #: src/Translations.vala:587
 msgid "Asia/Makassar"
@@ -1196,6 +1196,7 @@ msgstr "Aasia/Makassar"
 msgid ""
 "Borneo (east, south); Sulawesi/Celebes, Bali, Nusa Tengarra; Timor (west)"
 msgstr ""
+"Borneo (itä, etelä); Sulawesi/Celebes, Bali, Nusa Tengarra; Timor (länsi)"
 
 #: src/Translations.vala:591
 msgid "Asia/Jayapura"
@@ -1203,7 +1204,7 @@ msgstr "Aasia/Jayapura"
 
 #: src/Translations.vala:593
 msgid "New Guinea (West Papua / Irian Jaya); Malukus/Moluccas"
-msgstr ""
+msgstr "Uusi-Gunea (Länsi-Papua / Irian Jaya); Maluku/Molukit"
 
 #: src/Translations.vala:595
 msgid "Europe/Dublin"
@@ -1323,7 +1324,7 @@ msgstr "Aasia/Almaty"
 
 #: src/Translations.vala:653
 msgid "Kazakhstan (most areas)"
-msgstr ""
+msgstr "Kazakstan (valtaosa alueista)"
 
 #: src/Translations.vala:655
 msgid "Asia/Qyzylorda"
@@ -1331,7 +1332,7 @@ msgstr "Aasia/Qyzylorda"
 
 #: src/Translations.vala:657
 msgid "Qyzylorda/Kyzylorda/Kzyl-Orda"
-msgstr ""
+msgstr "Qızılorda/Kyzylorda/Kyzyl-Orda"
 
 #: src/Translations.vala:659
 msgid "Asia/Aqtobe"
@@ -1339,7 +1340,7 @@ msgstr "Aasia/Aqtobe"
 
 #: src/Translations.vala:661
 msgid "Aqtobe/Aktobe"
-msgstr ""
+msgstr "Aqtöbe/Aktjubinsk"
 
 #: src/Translations.vala:663
 msgid "Asia/Aqtau"
@@ -1347,7 +1348,7 @@ msgstr "Aasia/Aqtau"
 
 #: src/Translations.vala:665
 msgid "Mangghystau/Mankistau"
-msgstr ""
+msgstr "Mañğıstaw/Mangistau"
 
 #: src/Translations.vala:667
 msgid "Asia/Atyrau"
@@ -1355,7 +1356,7 @@ msgstr "Aasia/Atyrau"
 
 #: src/Translations.vala:669
 msgid "Atyrau/Atirau/Gur'yev"
-msgstr ""
+msgstr "Atıraw/Atyrau/Gurjev"
 
 #: src/Translations.vala:671
 msgid "Asia/Oral"
@@ -1439,7 +1440,7 @@ msgstr "Tyyni_valtameri/Majuro"
 
 #: src/Translations.vala:711
 msgid "Marshall Islands (most areas)"
-msgstr ""
+msgstr "Marshallinsaaret (valtaosa alueista)"
 
 #: src/Translations.vala:713
 msgid "Pacific/Kwajalein"
@@ -1467,7 +1468,7 @@ msgstr "Aasia/Ulaanbaatar"
 
 #: src/Translations.vala:725
 msgid "Mongolia (most areas)"
-msgstr ""
+msgstr "Mongolia (valtaosa alueista)"
 
 #: src/Translations.vala:727
 msgid "Asia/Hovd"
@@ -1535,7 +1536,7 @@ msgstr "Amerikka/Cancun"
 
 #: src/Translations.vala:759
 msgid "Eastern Standard Time - Quintana Roo"
-msgstr ""
+msgstr "Itäinen normaaliaika - Quintana Roo"
 
 #: src/Translations.vala:761
 msgid "America/Merida"
@@ -1552,6 +1553,8 @@ msgstr "Amerikka/Monterrey"
 #: src/Translations.vala:767
 msgid "Central Time - Durango; Coahuila, Nuevo Leon, Tamaulipas (most areas)"
 msgstr ""
+"Keskinen normaaliaika - Durango; Coahuila, Nuevo León, Tamaulipas (valtaosa "
+"alueista)"
 
 #: src/Translations.vala:769
 msgid "America/Matamoros"
@@ -1560,6 +1563,8 @@ msgstr "Amerikka/Matamoros"
 #: src/Translations.vala:771
 msgid "Central Time US - Coahuila, Nuevo Leon, Tamaulipas (US border)"
 msgstr ""
+"Yhdysvaltain keskinen normaaliaika - Coahuila, Nuevo León, Tamaulipas ("
+"Yhdysvaltain raja)"
 
 #: src/Translations.vala:773
 msgid "America/Mazatlan"
@@ -1567,7 +1572,7 @@ msgstr "Amerikka/Mazatlan"
 
 #: src/Translations.vala:775
 msgid "Mountain Time - Baja California Sur, Nayarit, Sinaloa"
-msgstr ""
+msgstr "Vuoriston normaaliaika - Baja California Sur, Nayarit, Sinaloa"
 
 #: src/Translations.vala:777
 msgid "America/Chihuahua"
@@ -1575,7 +1580,7 @@ msgstr "Amerikka/Chihuahua"
 
 #: src/Translations.vala:779
 msgid "Mountain Time - Chihuahua (most areas)"
-msgstr ""
+msgstr "Vuoriston normaaliaika - Chihuahua (valtaosa alueista)"
 
 #: src/Translations.vala:781
 msgid "America/Ojinaga"
@@ -1583,7 +1588,7 @@ msgstr "Amerikka/Ojinaga"
 
 #: src/Translations.vala:783
 msgid "Mountain Time US - Chihuahua (US border)"
-msgstr ""
+msgstr "Yhdysvaltain vuoriston normaaliaika - Chihuahua (Yhdysvaltain raja)"
 
 #: src/Translations.vala:785
 msgid "America/Hermosillo"
@@ -1599,7 +1604,7 @@ msgstr "Amerikka/Tijuana"
 
 #: src/Translations.vala:791
 msgid "Pacific Time US - Baja California"
-msgstr ""
+msgstr "Yhdysvaltain Tyynenmeren normaaliaika - Baja California"
 
 #: src/Translations.vala:793
 msgid "America/Bahia_Banderas"
@@ -1607,7 +1612,7 @@ msgstr "Amerikka/Bahia_Banderas"
 
 #: src/Translations.vala:795
 msgid "Central Time - Bahia de Banderas"
-msgstr ""
+msgstr "Keskinen normaaliaika - Bahía de Banderas"
 
 #: src/Translations.vala:797
 msgid "Asia/Kuala_Lumpur"
@@ -1615,7 +1620,7 @@ msgstr "Aasia/Kuala_Lumpur"
 
 #: src/Translations.vala:799
 msgid "Malaysia (peninsula)"
-msgstr ""
+msgstr "Malesia (niemi)"
 
 #: src/Translations.vala:801
 msgid "Asia/Kuching"
@@ -1623,7 +1628,7 @@ msgstr "Aasia/Kuching"
 
 #: src/Translations.vala:803
 msgid "Sabah, Sarawak"
-msgstr ""
+msgstr "Sabah, Sarawak"
 
 #: src/Translations.vala:805
 msgid "Africa/Maputo"
@@ -1679,7 +1684,7 @@ msgstr "Tyyni_valtameri/Auckland"
 
 #: src/Translations.vala:831
 msgid "New Zealand (most areas)"
-msgstr ""
+msgstr "Uusi-Seelanti (valtaosa alueista)"
 
 #: src/Translations.vala:833
 msgid "Pacific/Chatham"
@@ -1731,15 +1736,15 @@ msgstr "Tyyni_valtameri/Port_Moresby"
 
 #: src/Translations.vala:857
 msgid "Papua New Guinea (most areas)"
-msgstr ""
+msgstr "Papua-Uusi-Guinea (valtaosa alueista)"
 
 #: src/Translations.vala:859
 msgid "Pacific/Bougainville"
-msgstr ""
+msgstr "Tyynimeri/Bougainville"
 
 #: src/Translations.vala:861
 msgid "Bougainville"
-msgstr ""
+msgstr "Bougainville"
 
 #: src/Translations.vala:863
 msgid "Asia/Manila"
@@ -1771,15 +1776,15 @@ msgstr "Aasia/Gaza"
 
 #: src/Translations.vala:877
 msgid "Gaza Strip"
-msgstr ""
+msgstr "Gazan kaista"
 
 #: src/Translations.vala:879
 msgid "Asia/Hebron"
-msgstr ""
+msgstr "Aasia/Hebron"
 
 #: src/Translations.vala:881
 msgid "West Bank"
-msgstr ""
+msgstr "Länsiranta"
 
 #: src/Translations.vala:883
 msgid "Europe/Lisbon"
@@ -1787,7 +1792,7 @@ msgstr "Eurooppa/Lissabon"
 
 #: src/Translations.vala:885
 msgid "Portugal (mainland)"
-msgstr ""
+msgstr "Portugali (manner)"
 
 #: src/Translations.vala:887
 msgid "Atlantic/Madeira"
@@ -1835,7 +1840,7 @@ msgstr "Eurooppa/Kaliningrad"
 
 #: src/Translations.vala:909
 msgid "MSK-01 - Kaliningrad"
-msgstr ""
+msgstr "MSK-01 - Kaliningrad"
 
 #: src/Translations.vala:911
 msgid "Europe/Moscow"
@@ -1843,7 +1848,7 @@ msgstr "Eurooppa/Moskova"
 
 #: src/Translations.vala:913
 msgid "MSK+00 - Moscow area"
-msgstr ""
+msgstr "MSK+00 - Moskovan alue"
 
 #: src/Translations.vala:915
 msgid "Europe/Simferopol"
@@ -1851,7 +1856,7 @@ msgstr "Eurooppa/Simferopol"
 
 #: src/Translations.vala:917
 msgid "MSK+00 - Crimea"
-msgstr ""
+msgstr "MSK+00 - Krim"
 
 #: src/Translations.vala:919
 msgid "Europe/Volgograd"
@@ -1859,15 +1864,15 @@ msgstr "Eurooppa/Volgograd"
 
 #: src/Translations.vala:921
 msgid "MSK+00 - Volgograd"
-msgstr ""
+msgstr "MSK+00 - Volgograd"
 
 #: src/Translations.vala:923
 msgid "Europe/Kirov"
-msgstr ""
+msgstr "Eurooppa/Kirov"
 
 #: src/Translations.vala:925
 msgid "MSK+00 - Kirov"
-msgstr ""
+msgstr "MSK+00 - Kirov"
 
 #: src/Translations.vala:927
 msgid "Europe/Astrakhan"
