@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-11 12:34-0300\n"
-"PO-Revision-Date: 2018-03-12 00:10+0000\n"
-"Last-Translator: Fabio Zaramella <fabiozaramella@hotmail.it>\n"
+"PO-Revision-Date: 2018-09-07 00:06+0000\n"
+"Last-Translator: strozzascotte <marco.depaolini@gmail.com>\n"
 "Language-Team: Italian <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-datetime/it/>\n"
 "Language: it\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.18\n"
+"X-Generator: Weblate 3.0.1\n"
 "X-Launchpad-Export-Date: 2017-03-03 06:06+0000\n"
 
 #: src/Translations.vala:3
@@ -81,9 +81,8 @@ msgid "Antarctica/DumontDUrville"
 msgstr "Antartide/Dumont_d'Urville"
 
 #: src/Translations.vala:33
-#, fuzzy
 msgid "Dumont-d'Urville"
-msgstr "Dumont d'Urville"
+msgstr "Dumont-d'Urville"
 
 #: src/Translations.vala:35
 msgid "Antarctica/Mawson"
@@ -739,7 +738,6 @@ msgid "America/Creston"
 msgstr "America/Creston"
 
 #: src/Translations.vala:361
-#, fuzzy
 msgid "MST - BC (Creston)"
 msgstr "MST - BC (Creston)"
 
@@ -748,7 +746,6 @@ msgid "America/Dawson_Creek"
 msgstr "America/Dawson_Creek"
 
 #: src/Translations.vala:365
-#, fuzzy
 msgid "MST - BC (Dawson Cr, Ft St John)"
 msgstr "MST - BC (Dawson Cr, Ft St John)"
 
@@ -757,7 +754,6 @@ msgid "America/Fort_Nelson"
 msgstr "America/Fort_Nelson"
 
 #: src/Translations.vala:369
-#, fuzzy
 msgid "MST - BC (Ft Nelson)"
 msgstr "MST - BC (Ft Nelson)"
 
@@ -834,13 +830,12 @@ msgid "Chile (most areas)"
 msgstr "Cile (la maggior parte delle aree)"
 
 #: src/Translations.vala:407
-#, fuzzy
 msgid "America/Punta_Arenas"
-msgstr "America/Santarém"
+msgstr "America/Punta Arenas"
 
 #: src/Translations.vala:409
 msgid "Region of Magallanes"
-msgstr ""
+msgstr "Regione di Magellano"
 
 #: src/Translations.vala:411
 msgid "Pacific/Easter"
@@ -899,19 +894,16 @@ msgid "Asia/Nicosia"
 msgstr "Asia/Nicosia"
 
 #: src/Translations.vala:439
-#, fuzzy
 msgid "Cyprus (most areas)"
-msgstr "Cile (la maggior parte delle aree)"
+msgstr "Cipro (la maggior parte delle regioni)"
 
 #: src/Translations.vala:441
-#, fuzzy
 msgid "Asia/Famagusta"
-msgstr "Asia/Damasco"
+msgstr "Asia/Famagosta"
 
 #: src/Translations.vala:443
-#, fuzzy
 msgid "Northern Cyprus"
-msgstr "Territorio del Nord"
+msgstr "Cipro (regione settentrionale)"
 
 #: src/Translations.vala:445
 msgid "Europe/Prague"
@@ -998,7 +990,6 @@ msgid "Africa/Ceuta"
 msgstr "Africa/Ceuta"
 
 #: src/Translations.vala:487
-#, fuzzy
 msgid "Ceuta, Melilla"
 msgstr "Ceuta, Melilla"
 
@@ -1031,7 +1022,6 @@ msgid "Pacific/Chuuk"
 msgstr "Pacifico/Chuuk"
 
 #: src/Translations.vala:503
-#, fuzzy
 msgid "Chuuk/Truk, Yap"
 msgstr "Chuuk/Truk, Yap"
 
@@ -1112,16 +1102,14 @@ msgid "America/Scoresbysund"
 msgstr "America/Scoresbysund"
 
 #: src/Translations.vala:543
-#, fuzzy
 msgid "Scoresbysund/Ittoqqortoormiit"
-msgstr "Scoresbysund/Ittoqqortoormiit"
+msgstr "Scoresby Sund/Ittoqqortoormiit"
 
 #: src/Translations.vala:545
 msgid "America/Thule"
 msgstr "America/Thule"
 
 #: src/Translations.vala:547
-#, fuzzy
 msgid "Thule/Pituffik"
 msgstr "Thule/Pituffik"
 
@@ -1217,7 +1205,7 @@ msgstr "Asia/Jayapura"
 
 #: src/Translations.vala:593
 msgid "New Guinea (West Papua / Irian Jaya); Malukus/Moluccas"
-msgstr ""
+msgstr "Nuova Guinea (Papua occidentale/Irian Jaya); Molucche"
 
 #: src/Translations.vala:595
 msgid "Europe/Dublin"
@@ -1337,7 +1325,7 @@ msgstr "Asia/Almaty"
 
 #: src/Translations.vala:653
 msgid "Kazakhstan (most areas)"
-msgstr ""
+msgstr "Kazakistan (la maggior parte delle regioni)"
 
 #: src/Translations.vala:655
 msgid "Asia/Qyzylorda"
@@ -1345,7 +1333,7 @@ msgstr "Asia/Qyzylorda"
 
 #: src/Translations.vala:657
 msgid "Qyzylorda/Kyzylorda/Kzyl-Orda"
-msgstr ""
+msgstr "Qyzylorda"
 
 #: src/Translations.vala:659
 msgid "Asia/Aqtobe"
@@ -1353,7 +1341,7 @@ msgstr "Asia/Aqtobe"
 
 #: src/Translations.vala:661
 msgid "Aqtobe/Aktobe"
-msgstr ""
+msgstr "Aqtöbe"
 
 #: src/Translations.vala:663
 msgid "Asia/Aqtau"
@@ -1361,16 +1349,15 @@ msgstr "Asia/Aqtau"
 
 #: src/Translations.vala:665
 msgid "Mangghystau/Mankistau"
-msgstr ""
+msgstr "Mangghystau"
 
 #: src/Translations.vala:667
-#, fuzzy
 msgid "Asia/Atyrau"
-msgstr "Asia/Aqtau"
+msgstr "Asia/Atyrau"
 
 #: src/Translations.vala:669
 msgid "Atyrau/Atirau/Gur'yev"
-msgstr ""
+msgstr "Atyrau/Atirau/Gur'yev"
 
 #: src/Translations.vala:671
 msgid "Asia/Oral"
@@ -1454,7 +1441,7 @@ msgstr "Oceano Pacifico/Majuro"
 
 #: src/Translations.vala:711
 msgid "Marshall Islands (most areas)"
-msgstr ""
+msgstr "Isole Marshall (la maggior delle regioni)"
 
 #: src/Translations.vala:713
 msgid "Pacific/Kwajalein"
@@ -1473,9 +1460,8 @@ msgid "Africa/Bamako"
 msgstr "Africa/Bamako"
 
 #: src/Translations.vala:721
-#, fuzzy
 msgid "Asia/Yangon"
-msgstr "Asia/Rangoon"
+msgstr "Asia/Yangon/Rangoon"
 
 #: src/Translations.vala:723
 msgid "Asia/Ulaanbaatar"
@@ -1483,7 +1469,7 @@ msgstr "Asia/Ulaanbaatar"
 
 #: src/Translations.vala:725
 msgid "Mongolia (most areas)"
-msgstr ""
+msgstr "Mongolia (la maggior parte delle regioni)"
 
 #: src/Translations.vala:727
 msgid "Asia/Hovd"
@@ -1551,7 +1537,7 @@ msgstr "America/Cancun"
 
 #: src/Translations.vala:759
 msgid "Eastern Standard Time - Quintana Roo"
-msgstr ""
+msgstr "Ora Standard dell'Est - Quintana Roo"
 
 #: src/Translations.vala:761
 msgid "America/Merida"
@@ -1568,6 +1554,8 @@ msgstr "America/Monterrey"
 #: src/Translations.vala:767
 msgid "Central Time - Durango; Coahuila, Nuevo Leon, Tamaulipas (most areas)"
 msgstr ""
+"Ora centrale - Durango; Coahuila, Nuevo Leon, Tamaulipas (la maggior parte "
+"delle regioni)"
 
 #: src/Translations.vala:769
 msgid "America/Matamoros"
@@ -1575,7 +1563,7 @@ msgstr "America/Matamoros"
 
 #: src/Translations.vala:771
 msgid "Central Time US - Coahuila, Nuevo Leon, Tamaulipas (US border)"
-msgstr ""
+msgstr "Ora centrale (USA) - Coahuila, Nuevo León, Tamaulipas (confine USA)"
 
 #: src/Translations.vala:773
 msgid "America/Mazatlan"
@@ -1583,7 +1571,7 @@ msgstr "America/Mazatlan"
 
 #: src/Translations.vala:775
 msgid "Mountain Time - Baja California Sur, Nayarit, Sinaloa"
-msgstr ""
+msgstr "Ora della montagna (Messico) - Baja California Sur, Nayarit, Sinaloa"
 
 #: src/Translations.vala:777
 msgid "America/Chihuahua"
@@ -1592,6 +1580,7 @@ msgstr "America/Chihuahua"
 #: src/Translations.vala:779
 msgid "Mountain Time - Chihuahua (most areas)"
 msgstr ""
+"Ora della montagna (Messico) - Chihuahua (la maggior parte del territorio)"
 
 #: src/Translations.vala:781
 msgid "America/Ojinaga"
@@ -1599,7 +1588,7 @@ msgstr "America/Ojinaga"
 
 #: src/Translations.vala:783
 msgid "Mountain Time US - Chihuahua (US border)"
-msgstr ""
+msgstr "Ora delle montagne (USA) - Chihuahua (frontiera USA)"
 
 #: src/Translations.vala:785
 msgid "America/Hermosillo"
@@ -1615,7 +1604,7 @@ msgstr "America/Tijuana"
 
 #: src/Translations.vala:791
 msgid "Pacific Time US - Baja California"
-msgstr ""
+msgstr "Ora del Pacifico (USA) - Baja California"
 
 #: src/Translations.vala:793
 msgid "America/Bahia_Banderas"
@@ -1623,7 +1612,7 @@ msgstr "America/Bahia_Banderas"
 
 #: src/Translations.vala:795
 msgid "Central Time - Bahia de Banderas"
-msgstr ""
+msgstr "Ora centrale (Messico) - Bahía de Banderas"
 
 #: src/Translations.vala:797
 msgid "Asia/Kuala_Lumpur"
@@ -1631,7 +1620,7 @@ msgstr "Asia/Kuala_Lumpur"
 
 #: src/Translations.vala:799
 msgid "Malaysia (peninsula)"
-msgstr ""
+msgstr "Malesia (penisola)"
 
 #: src/Translations.vala:801
 msgid "Asia/Kuching"
@@ -1639,7 +1628,7 @@ msgstr "Asia/Kuching"
 
 #: src/Translations.vala:803
 msgid "Sabah, Sarawak"
-msgstr ""
+msgstr "Sabah, Sarawak"
 
 #: src/Translations.vala:805
 msgid "Africa/Maputo"
@@ -1695,7 +1684,7 @@ msgstr "Oceano Pacifico/Auckland"
 
 #: src/Translations.vala:831
 msgid "New Zealand (most areas)"
-msgstr ""
+msgstr "Nuova Zelanda (la maggior parte del territorio)"
 
 #: src/Translations.vala:833
 msgid "Pacific/Chatham"
@@ -1747,7 +1736,7 @@ msgstr "Oceano Pacifico/Port_Moresby"
 
 #: src/Translations.vala:857
 msgid "Papua New Guinea (most areas)"
-msgstr ""
+msgstr "Papua Nuova Guinea (la maggior parte del territorio)"
 
 #: src/Translations.vala:859
 msgid "Pacific/Bougainville"
@@ -1803,7 +1792,7 @@ msgstr "Europa/Lisbona"
 
 #: src/Translations.vala:885
 msgid "Portugal (mainland)"
-msgstr ""
+msgstr "Portogallo (territorio continentale)"
 
 #: src/Translations.vala:887
 msgid "Atlantic/Madeira"
@@ -1851,7 +1840,7 @@ msgstr "Europa/Kaliningrad"
 
 #: src/Translations.vala:909
 msgid "MSK-01 - Kaliningrad"
-msgstr ""
+msgstr "MSK-01 - Kaliningrad"
 
 #: src/Translations.vala:911
 msgid "Europe/Moscow"
@@ -1859,7 +1848,7 @@ msgstr "Europa/Mosca"
 
 #: src/Translations.vala:913
 msgid "MSK+00 - Moscow area"
-msgstr ""
+msgstr "MSK+00 - Zona di Mosca"
 
 #: src/Translations.vala:915
 msgid "Europe/Simferopol"
@@ -1867,7 +1856,7 @@ msgstr "Europa/Simferopol"
 
 #: src/Translations.vala:917
 msgid "MSK+00 - Crimea"
-msgstr ""
+msgstr "MSK+00 - Crimea"
 
 #: src/Translations.vala:919
 msgid "Europe/Volgograd"
@@ -1875,40 +1864,39 @@ msgstr "Europa/Volgograd"
 
 #: src/Translations.vala:921
 msgid "MSK+00 - Volgograd"
-msgstr ""
+msgstr "MSK+00 - Volgograd"
 
 #: src/Translations.vala:923
 msgid "Europe/Kirov"
-msgstr ""
+msgstr "Europa/Kirov"
 
 #: src/Translations.vala:925
 msgid "MSK+00 - Kirov"
-msgstr ""
+msgstr "MSK+00 - Kirov"
 
 #: src/Translations.vala:927
 msgid "Europe/Astrakhan"
-msgstr ""
+msgstr "Europa/Astrakhan"
 
 #: src/Translations.vala:929
 msgid "MSK+01 - Astrakhan"
-msgstr ""
+msgstr "MSK+01 - Astrakhan"
 
 #: src/Translations.vala:931
-#, fuzzy
 msgid "Europe/Saratov"
-msgstr "Europa/Sarajevo"
+msgstr "Europa/Saratov"
 
 #: src/Translations.vala:933
 msgid "MSK+01 - Saratov"
-msgstr ""
+msgstr "MSK+01 - Saratov"
 
 #: src/Translations.vala:935
 msgid "Europe/Ulyanovsk"
-msgstr ""
+msgstr "Europa/Ulyanovsk"
 
 #: src/Translations.vala:937
 msgid "MSK+01 - Ulyanovsk"
-msgstr ""
+msgstr "MSK+01 - Ulyanovsk"
 
 #: src/Translations.vala:939
 msgid "Europe/Samara"
@@ -1916,7 +1904,7 @@ msgstr "Europa/Samara"
 
 #: src/Translations.vala:941
 msgid "MSK+01 - Samara, Udmurtia"
-msgstr ""
+msgstr "MSK+01 - Samara, Udmurtia"
 
 #: src/Translations.vala:943
 msgid "Asia/Yekaterinburg"
@@ -1924,7 +1912,7 @@ msgstr "Asia/Ekaterinburg"
 
 #: src/Translations.vala:945
 msgid "MSK+02 - Urals"
-msgstr ""
+msgstr "MSK+02 - Urali"
 
 #: src/Translations.vala:947
 msgid "Asia/Omsk"
@@ -1932,32 +1920,31 @@ msgstr "Asia/Omsk"
 
 #: src/Translations.vala:949
 msgid "MSK+03 - Omsk"
-msgstr ""
+msgstr "MSK+03 - Omsk"
 
 #: src/Translations.vala:951
 msgid "Asia/Novosibirsk"
 msgstr "Asia/Novosibirsk"
 
 #: src/Translations.vala:953
-#, fuzzy
 msgid "MSK+04 - Novosibirsk"
-msgstr "Asia/Novosibirsk"
+msgstr "MSK+04 - Novosibirsk"
 
 #: src/Translations.vala:955
 msgid "Asia/Barnaul"
-msgstr ""
+msgstr "Asia/Barnaul"
 
 #: src/Translations.vala:957
 msgid "MSK+04 - Altai"
-msgstr ""
+msgstr "MSK+04 - Altai"
 
 #: src/Translations.vala:959
 msgid "Asia/Tomsk"
-msgstr ""
+msgstr "Asia/Tomsk"
 
 #: src/Translations.vala:961
 msgid "MSK+04 - Tomsk"
-msgstr ""
+msgstr "MSK+04 - Tomsk"
 
 #: src/Translations.vala:963
 msgid "Asia/Novokuznetsk"
@@ -1965,7 +1952,7 @@ msgstr "Asia/Novokuznetsk"
 
 #: src/Translations.vala:965
 msgid "MSK+04 - Kemerovo"
-msgstr ""
+msgstr "MSK+04 - Kemerovo"
 
 #: src/Translations.vala:967
 msgid "Asia/Krasnoyarsk"
@@ -1973,7 +1960,7 @@ msgstr "Asia/Krasnoyarsk"
 
 #: src/Translations.vala:969
 msgid "MSK+04 - Krasnoyarsk area"
-msgstr ""
+msgstr "MSK+04 - Zona di Krasnojarsk"
 
 #: src/Translations.vala:971
 msgid "Asia/Irkutsk"
@@ -1981,7 +1968,7 @@ msgstr "Asia/Irkutsk"
 
 #: src/Translations.vala:973
 msgid "MSK+05 - Irkutsk, Buryatia"
-msgstr ""
+msgstr "MSK+05 - Irkutsk, Buryatia"
 
 #: src/Translations.vala:975
 msgid "Asia/Chita"
@@ -1989,7 +1976,7 @@ msgstr "Asia/Chita"
 
 #: src/Translations.vala:977
 msgid "MSK+06 - Zabaykalsky"
-msgstr ""
+msgstr "MSK+06 - Zabaykalsky"
 
 #: src/Translations.vala:979
 msgid "Asia/Yakutsk"
@@ -1997,7 +1984,7 @@ msgstr "Asia/Yakutsk"
 
 #: src/Translations.vala:981
 msgid "MSK+06 - Lena River"
-msgstr ""
+msgstr "MSK+06 - Fiume Lena"
 
 #: src/Translations.vala:983
 msgid "Asia/Khandyga"
@@ -2005,7 +1992,7 @@ msgstr "Asia/Khandyga"
 
 #: src/Translations.vala:985
 msgid "MSK+06 - Tomponsky, Ust-Maysky"
-msgstr ""
+msgstr "MSK+06 - Tomponsky, Ust-Maysky"
 
 #: src/Translations.vala:987
 msgid "Asia/Vladivostok"
@@ -2013,7 +2000,7 @@ msgstr "Asia/Vladivostok"
 
 #: src/Translations.vala:989
 msgid "MSK+07 - Amur River"
-msgstr ""
+msgstr "MSK+07 - Fiume Amur"
 
 #: src/Translations.vala:991
 msgid "Asia/Ust-Nera"
@@ -2021,7 +2008,7 @@ msgstr "Asia/Ust-Nera"
 
 #: src/Translations.vala:993
 msgid "MSK+07 - Oymyakonsky"
-msgstr ""
+msgstr "MSK+07 - Oymyakonsky"
 
 #: src/Translations.vala:995
 msgid "Asia/Magadan"
@@ -2029,7 +2016,7 @@ msgstr "Asia/Magadan"
 
 #: src/Translations.vala:997
 msgid "MSK+08 - Magadan"
-msgstr ""
+msgstr "MSK+08 - Magadan"
 
 #: src/Translations.vala:999
 msgid "Asia/Sakhalin"
@@ -2037,7 +2024,7 @@ msgstr "Asia/Sakhalin"
 
 #: src/Translations.vala:1001
 msgid "MSK+08 - Sakhalin Island"
-msgstr ""
+msgstr "MSK+08 - Isola Sakhalin"
 
 #: src/Translations.vala:1003
 msgid "Asia/Srednekolymsk"
@@ -2046,6 +2033,7 @@ msgstr "Asia/Srednekolymsk"
 #: src/Translations.vala:1005
 msgid "MSK+08 - Sakha (E); North Kuril Is"
 msgstr ""
+"MSK+08 - Sacha/Jacuzia (regione orientale); Isole Curili (settentrionali)"
 
 #: src/Translations.vala:1007
 msgid "Asia/Kamchatka"
@@ -2053,7 +2041,7 @@ msgstr "Asia/Kamchatka"
 
 #: src/Translations.vala:1009
 msgid "MSK+09 - Kamchatka"
-msgstr ""
+msgstr "MSK+09 - Kamčatka"
 
 #: src/Translations.vala:1011
 msgid "Asia/Anadyr"
@@ -2061,7 +2049,7 @@ msgstr "Asia/Anadyr"
 
 #: src/Translations.vala:1013
 msgid "MSK+09 - Bering Sea"
-msgstr ""
+msgstr "MSK+09 - Mare di Bering"
 
 #: src/Translations.vala:1015
 msgid "Africa/Kigali"
@@ -2221,7 +2209,7 @@ msgstr "Europa/Kiev"
 
 #: src/Translations.vala:1093
 msgid "Ukraine (most areas)"
-msgstr ""
+msgstr "Ucraina (la maggior parte del territorio)"
 
 #: src/Translations.vala:1095
 msgid "Europe/Uzhgorod"
@@ -2237,7 +2225,7 @@ msgstr "Europa/Zaporozhye"
 
 #: src/Translations.vala:1101
 msgid "Zaporozh'ye/Zaporizhia; Lugansk/Luhansk (east)"
-msgstr ""
+msgstr "Zaporozh'ye/Zaporizhia; Lugansk/Luhansk (regione orientale)"
 
 #: src/Translations.vala:1103
 msgid "Africa/Kampala"
@@ -2265,7 +2253,7 @@ msgstr "America/New_York"
 
 #: src/Translations.vala:1115
 msgid "Eastern (most areas)"
-msgstr ""
+msgstr "Ora dell'Est (ET) (la maggior parte del territorio)"
 
 #: src/Translations.vala:1117
 msgid "America/Detroit"
@@ -2273,7 +2261,7 @@ msgstr "America/Detroit"
 
 #: src/Translations.vala:1119
 msgid "Eastern - MI (most areas)"
-msgstr ""
+msgstr "Ora dell'Est (ET) - Michigan (MI) (la maggior parte del territorio)"
 
 #: src/Translations.vala:1121
 msgid "America/Kentucky/Louisville"
@@ -2281,7 +2269,7 @@ msgstr "America/Kentucky/Louisville"
 
 #: src/Translations.vala:1123
 msgid "Eastern - KY (Louisville area)"
-msgstr ""
+msgstr "Ora dell'Est (ET) - Kentucky (KY) (Zona di Louisville)"
 
 #: src/Translations.vala:1125
 msgid "America/Kentucky/Monticello"
@@ -2289,7 +2277,7 @@ msgstr "America/Kentucky/Monticello"
 
 #: src/Translations.vala:1127
 msgid "Eastern - KY (Wayne)"
-msgstr ""
+msgstr "Ora dell'Est (ET) - Kentucky (KY) (Wayne)"
 
 #: src/Translations.vala:1129
 msgid "America/Indiana/Indianapolis"
@@ -2297,7 +2285,7 @@ msgstr "America/Indiana/Indianapolis"
 
 #: src/Translations.vala:1131
 msgid "Eastern - IN (most areas)"
-msgstr ""
+msgstr "Ora dell'Est (ET) - Indiana (IN) (la maggior parte del territorio)"
 
 #: src/Translations.vala:1133
 msgid "America/Indiana/Vincennes"
@@ -2305,7 +2293,7 @@ msgstr "America/Indiana/Vincennes"
 
 #: src/Translations.vala:1135
 msgid "Eastern - IN (Da, Du, K, Mn)"
-msgstr ""
+msgstr "Ora dell'Est - Indiana (IN) (Da, Du, K, Mn)"
 
 #: src/Translations.vala:1137
 msgid "America/Indiana/Winamac"
@@ -2313,7 +2301,7 @@ msgstr "America/Indiana/Winamac"
 
 #: src/Translations.vala:1139
 msgid "Eastern - IN (Pulaski)"
-msgstr ""
+msgstr "Ora dell'Est (ET) - Indiana (IN) (Pulaski)"
 
 #: src/Translations.vala:1141
 msgid "America/Indiana/Marengo"
@@ -2321,7 +2309,7 @@ msgstr "America/Indiana/Marengo"
 
 #: src/Translations.vala:1143
 msgid "Eastern - IN (Crawford)"
-msgstr ""
+msgstr "Ora dell'Est (ET) - Contea di Crawford (IN, USA)"
 
 #: src/Translations.vala:1145
 msgid "America/Indiana/Petersburg"
@@ -2329,7 +2317,7 @@ msgstr "America/Indiana/Petersburg"
 
 #: src/Translations.vala:1147
 msgid "Eastern - IN (Pike)"
-msgstr ""
+msgstr "Ora dell'Est (ET) - Pike (IN, USA)"
 
 #: src/Translations.vala:1149
 msgid "America/Indiana/Vevay"
@@ -2337,7 +2325,7 @@ msgstr "America/Indiana/Vevay"
 
 #: src/Translations.vala:1151
 msgid "Eastern - IN (Switzerland)"
-msgstr ""
+msgstr "Ora dell'Est (ET) - Contea di Switzerland (IN, USA)"
 
 #: src/Translations.vala:1153
 msgid "America/Chicago"
@@ -2345,7 +2333,7 @@ msgstr "America/Chicago"
 
 #: src/Translations.vala:1155
 msgid "Central (most areas)"
-msgstr ""
+msgstr "Ora centrale (CTS) (la maggior parte del territorio)"
 
 #: src/Translations.vala:1157
 msgid "America/Indiana/Tell_City"
@@ -2353,7 +2341,7 @@ msgstr "America/Indiana/Tell_City"
 
 #: src/Translations.vala:1159
 msgid "Central - IN (Perry)"
-msgstr ""
+msgstr "Ora centrale (CST) - Contea di Perry (IN, USA)"
 
 #: src/Translations.vala:1161
 msgid "America/Indiana/Knox"
@@ -2361,7 +2349,7 @@ msgstr "America/Indiana/Knox"
 
 #: src/Translations.vala:1163
 msgid "Central - IN (Starke)"
-msgstr ""
+msgstr "Ora centrale (CST) - Contea di Starke (IN, USA)"
 
 #: src/Translations.vala:1165
 msgid "America/Menominee"
