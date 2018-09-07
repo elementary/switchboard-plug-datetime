@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-11 12:34-0300\n"
-"PO-Revision-Date: 2018-09-07 00:27+0000\n"
+"PO-Revision-Date: 2018-09-07 00:59+0000\n"
 "Last-Translator: strozzascotte <marco.depaolini@gmail.com>\n"
 "Language-Team: Italian <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-datetime/it/>\n"
@@ -30,15 +30,15 @@ msgstr "Asia/Dubai"
 
 #: src/Translations.vala:7
 msgid "Asia/Kabul"
-msgstr "Asia/Kabul"
+msgstr "Asia/Kabul (AF)"
 
 #: src/Translations.vala:9
 msgid "America/Antigua"
-msgstr "America/Antigua"
+msgstr "America/Antigua (AG)"
 
 #: src/Translations.vala:11
 msgid "America/Anguilla"
-msgstr "America/Anguilla"
+msgstr "America/Anguilla (GB)"
 
 #: src/Translations.vala:13
 msgid "Europe/Tirane"
@@ -66,7 +66,7 @@ msgstr "Antartide/Casey"
 
 #: src/Translations.vala:25
 msgid "Casey"
-msgstr "Casey"
+msgstr "Stazione Casey (Antartide, AU)"
 
 #: src/Translations.vala:27
 msgid "Antarctica/Davis"
@@ -74,7 +74,7 @@ msgstr "Antartide/Davis"
 
 #: src/Translations.vala:29
 msgid "Davis"
-msgstr "Davis"
+msgstr "Stazione Davis (Antartide, AU)"
 
 #: src/Translations.vala:31
 msgid "Antarctica/DumontDUrville"
@@ -90,7 +90,7 @@ msgstr "Antartide/Mawson"
 
 #: src/Translations.vala:37
 msgid "Mawson"
-msgstr "Mawson"
+msgstr "Stazione Mawson (Antartide, AU)"
 
 #: src/Translations.vala:39
 msgid "Antarctica/Palmer"
@@ -98,7 +98,7 @@ msgstr "Antartide/Palmer"
 
 #: src/Translations.vala:41
 msgid "Palmer"
-msgstr "Palmer"
+msgstr "Antartide / Stazione Palmer (USA)"
 
 #: src/Translations.vala:43
 msgid "Antarctica/Rothera"
