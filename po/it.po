@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-11 12:34-0300\n"
-"PO-Revision-Date: 2018-09-07 00:06+0000\n"
+"PO-Revision-Date: 2018-09-07 00:27+0000\n"
 "Last-Translator: strozzascotte <marco.depaolini@gmail.com>\n"
 "Language-Team: Italian <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-datetime/it/>\n"
@@ -2357,7 +2357,7 @@ msgstr "America/Menominee"
 
 #: src/Translations.vala:1167
 msgid "Central - MI (Wisconsin border)"
-msgstr ""
+msgstr "Ora centrale (CST) - Michigan (USA) (Confine con il Wisconsin)"
 
 #: src/Translations.vala:1169
 msgid "America/North_Dakota/Center"
@@ -2365,7 +2365,7 @@ msgstr "America/Dakota_del_Nord/Centro"
 
 #: src/Translations.vala:1171
 msgid "Central - ND (Oliver)"
-msgstr ""
+msgstr "Ora centrale (CST) - Contea di Oliver (ND, USA)"
 
 #: src/Translations.vala:1173
 msgid "America/North_Dakota/New_Salem"
@@ -2373,7 +2373,7 @@ msgstr "America/Dakota_del_Nord/New_Salem"
 
 #: src/Translations.vala:1175
 msgid "Central - ND (Morton rural)"
-msgstr ""
+msgstr "Ora centrale (CST) - Contea di Morton (ND, USA) (zona rurale)"
 
 #: src/Translations.vala:1177
 msgid "America/North_Dakota/Beulah"
@@ -2381,7 +2381,7 @@ msgstr "America/Nord_Dakota/Beulah"
 
 #: src/Translations.vala:1179
 msgid "Central - ND (Mercer)"
-msgstr ""
+msgstr "Ora centrale (CST) - Contea di Mercer (ND, USA)"
 
 #: src/Translations.vala:1181
 msgid "America/Denver"
@@ -2389,7 +2389,7 @@ msgstr "America/Denver"
 
 #: src/Translations.vala:1183
 msgid "Mountain (most areas)"
-msgstr ""
+msgstr "Ora delle montagne (MST)"
 
 #: src/Translations.vala:1185
 msgid "America/Boise"
@@ -2398,6 +2398,8 @@ msgstr "America/Boise"
 #: src/Translations.vala:1187
 msgid "Mountain - ID (south); OR (east)"
 msgstr ""
+"Ora delle montagne (MST) - Idaho (USA) (regione meridionale); Oregon (USA) ("
+"regione orientale)"
 
 #: src/Translations.vala:1189
 msgid "America/Phoenix"
@@ -2405,7 +2407,7 @@ msgstr "America/Phoenix"
 
 #: src/Translations.vala:1191
 msgid "MST - Arizona (except Navajo)"
-msgstr ""
+msgstr "Ora delle montagne (MST) - Arizona (USA) (tranne la contea di Navajo)"
 
 #: src/Translations.vala:1193
 msgid "America/Los_Angeles"
@@ -2421,7 +2423,7 @@ msgstr "America/Anchorage"
 
 #: src/Translations.vala:1199
 msgid "Alaska (most areas)"
-msgstr ""
+msgstr "Alaska (USA) (la maggior parte del territorio)"
 
 #: src/Translations.vala:1201
 msgid "America/Juneau"
@@ -2429,7 +2431,7 @@ msgstr "America/Juneau"
 
 #: src/Translations.vala:1203
 msgid "Alaska - Juneau area"
-msgstr ""
+msgstr "Alaska (USA) - Zona di Janeau"
 
 #: src/Translations.vala:1205
 msgid "America/Sitka"
@@ -2437,7 +2439,7 @@ msgstr "America/Sitka"
 
 #: src/Translations.vala:1207
 msgid "Alaska - Sitka area"
-msgstr ""
+msgstr "Alaska (USA) (Zona di Sitka)"
 
 #: src/Translations.vala:1209
 msgid "America/Metlakatla"
@@ -2445,7 +2447,7 @@ msgstr "America/Metlakatla"
 
 #: src/Translations.vala:1211
 msgid "Alaska - Annette Island"
-msgstr ""
+msgstr "Alaska (USA) (Isola di Annette)"
 
 #: src/Translations.vala:1213
 msgid "America/Yakutat"
@@ -2453,7 +2455,7 @@ msgstr "America/Yakutat"
 
 #: src/Translations.vala:1215
 msgid "Alaska - Yakutat"
-msgstr ""
+msgstr "Alaska (USA) (Yakutat)"
 
 #: src/Translations.vala:1217
 msgid "America/Nome"
@@ -2497,7 +2499,7 @@ msgstr "Asia/Tashkent"
 
 #: src/Translations.vala:1237
 msgid "Uzbekistan (east)"
-msgstr ""
+msgstr "Uzbekistan (regione orientale)"
 
 #: src/Translations.vala:1239
 msgid "Europe/Vatican"
@@ -2629,7 +2631,7 @@ msgstr "Atlantico"
 
 #: src/Widgets/TZPopover.vala:67
 msgid "Australia"
-msgstr ""
+msgstr "Australia"
 
 #: src/Widgets/TZPopover.vala:69
 msgid "Europe"
