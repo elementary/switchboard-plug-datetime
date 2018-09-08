@@ -2,14 +2,13 @@
 # Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
 # This file is distributed under the same license as the maya package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-11 12:34-0300\n"
-"PO-Revision-Date: 2018-09-07 00:59+0000\n"
-"Last-Translator: strozzascotte <marco.depaolini@gmail.com>\n"
+"PO-Revision-Date: 2018-09-08 19:10+0000\n"
+"Last-Translator: Marco De Paolini <marco.depaolini@gmail.com>\n"
 "Language-Team: Italian <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-datetime/it/>\n"
 "Language: it\n"
@@ -30,15 +29,15 @@ msgstr "Asia/Dubai"
 
 #: src/Translations.vala:7
 msgid "Asia/Kabul"
-msgstr "Asia/Kabul (AF)"
+msgstr "Asia/Kabul"
 
 #: src/Translations.vala:9
 msgid "America/Antigua"
-msgstr "America/Antigua (AG)"
+msgstr "America/Antigua"
 
 #: src/Translations.vala:11
 msgid "America/Anguilla"
-msgstr "America/Anguilla (GB)"
+msgstr "America/Anguilla"
 
 #: src/Translations.vala:13
 msgid "Europe/Tirane"
@@ -54,87 +53,87 @@ msgstr "Africa/Luanda"
 
 #: src/Translations.vala:19
 msgid "Antarctica/McMurdo"
-msgstr "Antartide/McMurdo"
+msgstr "Antartide/Stazione McMurdo"
 
 #: src/Translations.vala:21
 msgid "New Zealand time - McMurdo, South Pole"
-msgstr "Orario della Nuova Zelanda - McMurdo, Polo Sud"
+msgstr "Orario della Nuova Zelanda - Stazione McMurdo (Antartide)"
 
 #: src/Translations.vala:23
 msgid "Antarctica/Casey"
-msgstr "Antartide/Casey"
+msgstr "Antartide/Stazione Casey"
 
 #: src/Translations.vala:25
 msgid "Casey"
-msgstr "Stazione Casey (Antartide, AU)"
+msgstr "Stazione Casey"
 
 #: src/Translations.vala:27
 msgid "Antarctica/Davis"
-msgstr "Antartide/Davis"
+msgstr "Antartide/Stazione Davis"
 
 #: src/Translations.vala:29
 msgid "Davis"
-msgstr "Stazione Davis (Antartide, AU)"
+msgstr "Stazione Davis"
 
 #: src/Translations.vala:31
 msgid "Antarctica/DumontDUrville"
-msgstr "Antartide/Dumont_d'Urville"
+msgstr "Antartide/Base Dumont d'Urville"
 
 #: src/Translations.vala:33
 msgid "Dumont-d'Urville"
-msgstr "Dumont-d'Urville"
+msgstr "Base Dumont d'Urville"
 
 #: src/Translations.vala:35
 msgid "Antarctica/Mawson"
-msgstr "Antartide/Mawson"
+msgstr "Antartide/Stazione Mawson"
 
 #: src/Translations.vala:37
 msgid "Mawson"
-msgstr "Stazione Mawson (Antartide, AU)"
+msgstr "Stazione Mawson"
 
 #: src/Translations.vala:39
 msgid "Antarctica/Palmer"
-msgstr "Antartide/Palmer"
+msgstr "Antartide/Stazione Palmer"
 
 #: src/Translations.vala:41
 msgid "Palmer"
-msgstr "Antartide / Stazione Palmer (USA)"
+msgstr "Antartide / Stazione Palmer"
 
 #: src/Translations.vala:43
 msgid "Antarctica/Rothera"
-msgstr "Antartide/Rothera"
+msgstr "Antartide/Base Rothera"
 
 #: src/Translations.vala:45
 msgid "Rothera"
-msgstr "Rothera"
+msgstr "Base Rothera"
 
 #: src/Translations.vala:47
 msgid "Antarctica/Syowa"
-msgstr "Antartide/Shōwa"
+msgstr "Antartide/Stazione Shōwa"
 
 #: src/Translations.vala:49
 msgid "Syowa"
-msgstr "Shōwa"
+msgstr "Stazione Shōwa"
 
 #: src/Translations.vala:51
 msgid "Antarctica/Troll"
-msgstr "Antartide/Troll"
+msgstr "Antartide/Stazione Troll"
 
 #: src/Translations.vala:53
 msgid "Troll"
-msgstr "Troll"
+msgstr "Stazione Troll"
 
 #: src/Translations.vala:55
 msgid "Antarctica/Vostok"
-msgstr "Antartide/Vostok"
+msgstr "Antartide/Base Vostok"
 
 #: src/Translations.vala:57
 msgid "Vostok"
-msgstr "Vostok"
+msgstr "Base Vostok"
 
 #: src/Translations.vala:59
 msgid "America/Argentina/Buenos_Aires"
-msgstr "America/Argentina/Buenos_Aires"
+msgstr "America/Argentina/Buenos Aires"
 
 #: src/Translations.vala:61
 msgid "Buenos Aires (BA, CF)"
@@ -183,7 +182,7 @@ msgstr "Catamarca (CT); Chubut (CH)"
 
 #: src/Translations.vala:83
 msgid "America/Argentina/La_Rioja"
-msgstr "America/Argentina/La_Rioja"
+msgstr "America/Argentina/La Rioja"
 
 #: src/Translations.vala:85
 msgid "La Rioja (LR)"
@@ -191,7 +190,7 @@ msgstr "La Rioja (LR)"
 
 #: src/Translations.vala:87
 msgid "America/Argentina/San_Juan"
-msgstr "America/Argentina/San_Juan"
+msgstr "America/Argentina/San Juan"
 
 #: src/Translations.vala:89
 msgid "San Juan (SJ)"
@@ -207,7 +206,7 @@ msgstr "Mendoza (MZ)"
 
 #: src/Translations.vala:95
 msgid "America/Argentina/San_Luis"
-msgstr "America/Argentina/San_Luis"
+msgstr "America/Argentina/San Luis"
 
 #: src/Translations.vala:97
 msgid "San Luis (SL)"
@@ -215,7 +214,7 @@ msgstr "San Luis (SL)"
 
 #: src/Translations.vala:99
 msgid "America/Argentina/Rio_Gallegos"
-msgstr "America/Argentina/Rio_Gallegos"
+msgstr "America/Argentina/Rio Gallegos"
 
 #: src/Translations.vala:101
 msgid "Santa Cruz (SC)"
@@ -231,7 +230,7 @@ msgstr "Terra del Fuoco (TF)"
 
 #: src/Translations.vala:107
 msgid "Pacific/Pago_Pago"
-msgstr "Pacifico/Pago_Pago"
+msgstr "Pacifico/Pago Pago"
 
 #: src/Translations.vala:109
 msgid "Europe/Vienna"
@@ -239,7 +238,7 @@ msgstr "Europa/Vienna"
 
 #: src/Translations.vala:111
 msgid "Australia/Lord_Howe"
-msgstr "Australia/Lord_Howe"
+msgstr "Australia/Lord Howe"
 
 #: src/Translations.vala:113
 msgid "Lord Howe Island"
@@ -247,11 +246,11 @@ msgstr "Isola di Lord Howe"
 
 #: src/Translations.vala:115
 msgid "Antarctica/Macquarie"
-msgstr "Antartide/Macquarie"
+msgstr "Antartide/Isola Macquarie"
 
 #: src/Translations.vala:117
 msgid "Macquarie Island"
-msgstr "Isola di Macquarie"
+msgstr "Isola Macquarie"
 
 #: src/Translations.vala:119
 msgid "Australia/Hobart"
@@ -287,7 +286,7 @@ msgstr "Nuovo Galles del Sud (la maggior parte delle aree)"
 
 #: src/Translations.vala:135
 msgid "Australia/Broken_Hill"
-msgstr "Australia/Broken_Hill"
+msgstr "Australia/Broken Hill"
 
 #: src/Translations.vala:137
 msgid "New South Wales (Yancowinna)"
@@ -307,7 +306,7 @@ msgstr "Australia/Lindeman"
 
 #: src/Translations.vala:145
 msgid "Queensland (Whitsunday Islands)"
-msgstr "Queensland (isole Whitsunday)"
+msgstr "Queensland (Isole Whitsunday)"
 
 #: src/Translations.vala:147
 msgid "Australia/Adelaide"
@@ -403,7 +402,7 @@ msgstr "Asia/Brunei"
 
 #: src/Translations.vala:193
 msgid "America/La_Paz"
-msgstr "America/La_Paz"
+msgstr "America/La Paz"
 
 #: src/Translations.vala:195
 msgid "America/Kralendijk"
@@ -467,7 +466,7 @@ msgstr "Bahia"
 
 #: src/Translations.vala:225
 msgid "America/Sao_Paulo"
-msgstr "America/San_Paolo"
+msgstr "America/San Paolo"
 
 #: src/Translations.vala:227
 msgid "Brazil (southeast: GO, DF, MG, ES, RJ, SP, PR, SC, RS)"
@@ -475,7 +474,7 @@ msgstr "Brasile (sud-est: GO, DF, MG, ES, RJ, SP, PR, SC, RS)"
 
 #: src/Translations.vala:229
 msgid "America/Campo_Grande"
-msgstr "America/Campo_Grande"
+msgstr "America/Campo Grande"
 
 #: src/Translations.vala:231
 msgid "Mato Grosso do Sul"
@@ -499,7 +498,7 @@ msgstr "Pará (ovest)"
 
 #: src/Translations.vala:241
 msgid "America/Porto_Velho"
-msgstr "America/Porto_Velho"
+msgstr "America/Porto Velho"
 
 #: src/Translations.vala:243
 msgid "Rondonia"
@@ -507,7 +506,7 @@ msgstr "Rondônia"
 
 #: src/Translations.vala:245
 msgid "America/Boa_Vista"
-msgstr "America/Boa_Vista"
+msgstr "America/Boa Vista"
 
 #: src/Translations.vala:247
 msgid "Roraima"
@@ -531,7 +530,7 @@ msgstr "Amazonas (ovest)"
 
 #: src/Translations.vala:257
 msgid "America/Rio_Branco"
-msgstr "America/Rio_Branco"
+msgstr "America/Rio Branco"
 
 #: src/Translations.vala:259
 msgid "Acre"
@@ -559,7 +558,7 @@ msgstr "America/Belize"
 
 #: src/Translations.vala:271
 msgid "America/St_Johns"
-msgstr "America/Saint_John's"
+msgstr "America/Saint John's"
 
 #: src/Translations.vala:273
 msgid "Newfoundland; Labrador (southeast)"
@@ -575,7 +574,7 @@ msgstr "Atlantico - NS (la maggior parte delle aree); PE"
 
 #: src/Translations.vala:279
 msgid "America/Glace_Bay"
-msgstr "America/Glace_Bay"
+msgstr "America/Glace Bay"
 
 #: src/Translations.vala:281
 msgid "Atlantic - NS (Cape Breton)"
@@ -591,7 +590,7 @@ msgstr "Atlantico - Nuovo Brunswick"
 
 #: src/Translations.vala:287
 msgid "America/Goose_Bay"
-msgstr "America/Goose_Bay"
+msgstr "America/Goose Bay"
 
 #: src/Translations.vala:289
 msgid "Atlantic - Labrador (most areas)"
@@ -611,7 +610,7 @@ msgstr "America/Toronto"
 
 #: src/Translations.vala:297
 msgid "Eastern - ON, QC (most areas)"
-msgstr "ON, QC - Orientale (la maggior parte delle aree)"
+msgstr "Orario Standard Orientale (EST) - ON, QC (la maggior parte delle aree)"
 
 #: src/Translations.vala:299
 msgid "America/Nipigon"
@@ -619,15 +618,15 @@ msgstr "America/Nipigon"
 
 #: src/Translations.vala:301
 msgid "Eastern - ON, QC (no DST 1967-73)"
-msgstr "ON, QC - Orientale (no DST 1967-73)"
+msgstr "Orario Standard Orientale (EST) - ON, QC - (escluso DST 1967-73)"
 
 #: src/Translations.vala:303
 msgid "America/Thunder_Bay"
-msgstr "America/Thunder_Bay"
+msgstr "America/Thunder Bay"
 
 #: src/Translations.vala:305
 msgid "Eastern - ON (Thunder Bay)"
-msgstr "ON - Orientale (Thunder Bay)"
+msgstr "Orario Standard Orientale (EST) - ON (Thunder Bay)"
 
 #: src/Translations.vala:307
 msgid "America/Iqaluit"
@@ -635,7 +634,7 @@ msgstr "America/Iqaluit"
 
 #: src/Translations.vala:309
 msgid "Eastern - NU (most east areas)"
-msgstr "NU - Orientale (la maggior parte delle aree)"
+msgstr "Orario Standard Orientale (EST) - NU (la maggior parte delle aree)"
 
 #: src/Translations.vala:311
 msgid "America/Pangnirtung"
@@ -643,7 +642,7 @@ msgstr "America/Pangnirtung"
 
 #: src/Translations.vala:313
 msgid "Eastern - NU (Pangnirtung)"
-msgstr "NU - Orientale (Pangnirtung)"
+msgstr "Orario Standard Orientale (EST) - NU (Pangnirtung)"
 
 #: src/Translations.vala:315
 msgid "America/Atikokan"
@@ -651,7 +650,7 @@ msgstr "America/Atikokan"
 
 #: src/Translations.vala:317
 msgid "EST - ON (Atikokan); NU (Coral H)"
-msgstr "ON - EST (Atikokan); NU (Coral H)"
+msgstr "Orario Standard Orientale (EST) - ON (Atikokan); NU (Coral H)"
 
 #: src/Translations.vala:319
 msgid "America/Winnipeg"
@@ -659,15 +658,15 @@ msgstr "America/Winnipeg"
 
 #: src/Translations.vala:321
 msgid "Central - ON (west); Manitoba"
-msgstr "ON - Centrale (ovest); Manitoba"
+msgstr "Orario Standard Centrale (CST) - ON (ovest); Manitoba"
 
 #: src/Translations.vala:323
 msgid "America/Rainy_River"
-msgstr "America/Rainy_River"
+msgstr "America/Rainy River"
 
 #: src/Translations.vala:325
 msgid "Central - ON (Rainy R, Ft Frances)"
-msgstr "ON - Centrale (Rainy R, Ft Frances)"
+msgstr "Orario Standard Centrale (CST) - ON (Rainy R, Ft Frances)"
 
 #: src/Translations.vala:327
 msgid "America/Resolute"
@@ -675,15 +674,15 @@ msgstr "America/Resolute"
 
 #: src/Translations.vala:329
 msgid "Central - NU (Resolute)"
-msgstr "NU - Centrale (Resolute)"
+msgstr "Orario Standard Centrale (CST) - NU (Resolute)"
 
 #: src/Translations.vala:331
 msgid "America/Rankin_Inlet"
-msgstr "America/Rankin_Inlet"
+msgstr "America/Rankin Inlet"
 
 #: src/Translations.vala:333
 msgid "Central - NU (central)"
-msgstr "NU - Centrale (centrale)"
+msgstr "Orario Standard Centrale (CST) - NU (centrale)"
 
 #: src/Translations.vala:335
 msgid "America/Regina"
@@ -691,15 +690,16 @@ msgstr "America/Regina"
 
 #: src/Translations.vala:337
 msgid "CST - SK (most areas)"
-msgstr "CST - SK (la maggior parte delle aree)"
+msgstr "Orario Standard Centrale (CST) - SK (la maggior parte delle aree)"
 
 #: src/Translations.vala:339
 msgid "America/Swift_Current"
-msgstr "America/Swift_Current"
+msgstr "America/Swift Current"
 
 #: src/Translations.vala:341
 msgid "CST - SK (midwest)"
-msgstr "CST - SK (Stati Uniti d'America medio-occidentali)"
+msgstr ""
+"Orario Standard Centrale (CST) - SK (Stati Uniti d'America medio-occidentali)"
 
 #: src/Translations.vala:343
 msgid "America/Edmonton"
@@ -707,15 +707,15 @@ msgstr "America/Edmonton"
 
 #: src/Translations.vala:345
 msgid "Mountain - AB; BC (E); SK (W)"
-msgstr "AB - Montagne; BC (E); SK (W)"
+msgstr "Orario standard delle montagne (MST) - AB; BC (E); SK (W)"
 
 #: src/Translations.vala:347
 msgid "America/Cambridge_Bay"
-msgstr "America/Cambridge_Bay"
+msgstr "America/Cambridge Bay"
 
 #: src/Translations.vala:349
 msgid "Mountain - NU (west)"
-msgstr "NU - Montagne (ovest)"
+msgstr "Orario standard delle montagne (MST) - NU (ovest)"
 
 #: src/Translations.vala:351
 msgid "America/Yellowknife"
@@ -723,7 +723,7 @@ msgstr "America/Yellowknife"
 
 #: src/Translations.vala:353
 msgid "Mountain - NT (central)"
-msgstr "NT - Montagne (centrale)"
+msgstr "Orario standard delle montagne (MST) - NT (centrale)"
 
 #: src/Translations.vala:355
 msgid "America/Inuvik"
@@ -731,7 +731,7 @@ msgstr "America/Inuvik"
 
 #: src/Translations.vala:357
 msgid "Mountain - NT (west)"
-msgstr "NT - Montagne (ovest)"
+msgstr "Orario standard delle montagne (MST) - NT (ovest)"
 
 #: src/Translations.vala:359
 msgid "America/Creston"
@@ -739,23 +739,23 @@ msgstr "America/Creston"
 
 #: src/Translations.vala:361
 msgid "MST - BC (Creston)"
-msgstr "MST - BC (Creston)"
+msgstr "Orario standard delle montagne (MST) - BC (Creston)"
 
 #: src/Translations.vala:363
 msgid "America/Dawson_Creek"
-msgstr "America/Dawson_Creek"
+msgstr "America/Dawson Creek"
 
 #: src/Translations.vala:365
 msgid "MST - BC (Dawson Cr, Ft St John)"
-msgstr "MST - BC (Dawson Cr, Ft St John)"
+msgstr "Orario standard delle montagne (MST) - BC (Dawson Cr, Fort St. John)"
 
 #: src/Translations.vala:367
 msgid "America/Fort_Nelson"
-msgstr "America/Fort_Nelson"
+msgstr "America/Fort Nelson"
 
 #: src/Translations.vala:369
 msgid "MST - BC (Ft Nelson)"
-msgstr "MST - BC (Ft Nelson)"
+msgstr "Orario standard delle montagne (MST) - BC (Fort Nelson)"
 
 #: src/Translations.vala:371
 msgid "America/Vancouver"
@@ -763,7 +763,7 @@ msgstr "America/Vancouver"
 
 #: src/Translations.vala:373
 msgid "Pacific - BC (most areas)"
-msgstr "BC - Pacifico (la maggior parte delle aree)"
+msgstr "Orario standard del Pacifico (PST) - BC (la maggior parte delle aree)"
 
 #: src/Translations.vala:375
 msgid "America/Whitehorse"
@@ -771,7 +771,7 @@ msgstr "America/Whitehorse"
 
 #: src/Translations.vala:377
 msgid "Pacific - Yukon (south)"
-msgstr "Yukon - Pacifico (sud)"
+msgstr "Orario standard del Pacifico (PST) - Yukon (sud)"
 
 #: src/Translations.vala:379
 msgid "America/Dawson"
@@ -779,11 +779,11 @@ msgstr "America/Dawson City"
 
 #: src/Translations.vala:381
 msgid "Pacific - Yukon (north)"
-msgstr "Yukon - Pacifico (nord)"
+msgstr "Orario standard del Pacifico (PST) - Yukon (nord)"
 
 #: src/Translations.vala:383
 msgid "Indian/Cocos"
-msgstr "Indiano/Isole_Cocos"
+msgstr "Oceano Indiano (IST)/Isole Cocos"
 
 #: src/Translations.vala:385
 msgid "Africa/Kinshasa"
@@ -839,7 +839,7 @@ msgstr "Regione di Magellano"
 
 #: src/Translations.vala:411
 msgid "Pacific/Easter"
-msgstr "Pacifico/Isola di Pasqua"
+msgstr "Oceano Pacifico/Isola di Pasqua"
 
 #: src/Translations.vala:413
 msgid "Easter Island"
@@ -871,7 +871,7 @@ msgstr "America/Bogotà"
 
 #: src/Translations.vala:427
 msgid "America/Costa_Rica"
-msgstr "America/Costa_Rica"
+msgstr "America/Costa Rica"
 
 #: src/Translations.vala:429
 msgid "America/Havana"
@@ -879,7 +879,7 @@ msgstr "America/Havana"
 
 #: src/Translations.vala:431
 msgid "Atlantic/Cape_Verde"
-msgstr "Atlantico/Capo_Verde"
+msgstr "Atlantico/Capo Verde"
 
 #: src/Translations.vala:433
 msgid "America/Curacao"
@@ -887,7 +887,7 @@ msgstr "America/Curaçao"
 
 #: src/Translations.vala:435
 msgid "Indian/Christmas"
-msgstr "Indiano/Isola di Natale"
+msgstr "Oceano Indiano/Isola di Natale"
 
 #: src/Translations.vala:437
 msgid "Asia/Nicosia"
@@ -895,7 +895,7 @@ msgstr "Asia/Nicosia"
 
 #: src/Translations.vala:439
 msgid "Cyprus (most areas)"
-msgstr "Cipro (la maggior parte delle regioni)"
+msgstr "Cipro (la maggior parte del territorio)"
 
 #: src/Translations.vala:441
 msgid "Asia/Famagusta"
@@ -939,7 +939,7 @@ msgstr "America/Dominica"
 
 #: src/Translations.vala:461
 msgid "America/Santo_Domingo"
-msgstr "America/Santo_Domingo"
+msgstr "America/Santo Domingo"
 
 #: src/Translations.vala:463
 msgid "Africa/Algiers"
@@ -951,11 +951,11 @@ msgstr "America/Guayaquil"
 
 #: src/Translations.vala:467
 msgid "Ecuador (mainland)"
-msgstr "Ecuador (continentale)"
+msgstr "Ecuador (territorio continentale)"
 
 #: src/Translations.vala:469
 msgid "Pacific/Galapagos"
-msgstr "Pacifico/Galápagos"
+msgstr "Oceano Pacifico/Isole Galápagos"
 
 #: src/Translations.vala:471
 msgid "Galapagos Islands"
@@ -967,11 +967,11 @@ msgstr "Europa/Tallinn"
 
 #: src/Translations.vala:475
 msgid "Africa/Cairo"
-msgstr "Africa/Il_Cairo"
+msgstr "Africa/Il Cairo"
 
 #: src/Translations.vala:477
 msgid "Africa/El_Aaiun"
-msgstr "Africa/El_Aaiún"
+msgstr "Africa/El Aaiún"
 
 #: src/Translations.vala:479
 msgid "Africa/Asmara"
@@ -983,7 +983,7 @@ msgstr "Europa/Madrid"
 
 #: src/Translations.vala:483
 msgid "Spain (mainland)"
-msgstr "Spagna (continentale)"
+msgstr "Spagna (territorio continentale)"
 
 #: src/Translations.vala:485
 msgid "Africa/Ceuta"
@@ -995,7 +995,7 @@ msgstr "Ceuta, Melilla"
 
 #: src/Translations.vala:489
 msgid "Atlantic/Canary"
-msgstr "Atlantico/Canarie"
+msgstr "Oceano Atlantico/Isole Canarie"
 
 #: src/Translations.vala:491
 msgid "Canary Islands"
@@ -1003,7 +1003,7 @@ msgstr "Isole Canarie"
 
 #: src/Translations.vala:493
 msgid "Africa/Addis_Ababa"
-msgstr "Africa/Addis_Abeba"
+msgstr "Africa/Addis Abeba"
 
 #: src/Translations.vala:495
 msgid "Europe/Helsinki"
@@ -1043,7 +1043,7 @@ msgstr "Kosrae"
 
 #: src/Translations.vala:513
 msgid "Atlantic/Faroe"
-msgstr "Atlantico/Fær_Øer"
+msgstr "Oceano Atlantico/Isole Fær Øer"
 
 #: src/Translations.vala:515
 msgid "Europe/Paris"
@@ -1135,7 +1135,7 @@ msgstr "Europa/Atene"
 
 #: src/Translations.vala:559
 msgid "Atlantic/South_Georgia"
-msgstr "Atlantico/Georgia_del_Sud"
+msgstr "Atlantico/Georgia del Sud"
 
 #: src/Translations.vala:561
 msgid "America/Guatemala"
@@ -1155,7 +1155,7 @@ msgstr "America/Guyana"
 
 #: src/Translations.vala:569
 msgid "Asia/Hong_Kong"
-msgstr "Asia/Hong_Kong"
+msgstr "Asia/Hong Kong"
 
 #: src/Translations.vala:571
 msgid "America/Tegucigalpa"
@@ -1217,7 +1217,7 @@ msgstr "Asia/Gerusalemme"
 
 #: src/Translations.vala:599
 msgid "Europe/Isle_of_Man"
-msgstr "Europa/Isola_di_Man"
+msgstr "Europa/Isola di Man"
 
 #: src/Translations.vala:601
 msgid "Asia/Kolkata"
@@ -1269,7 +1269,7 @@ msgstr "Asia/Bishkek"
 
 #: src/Translations.vala:625
 msgid "Asia/Phnom_Penh"
-msgstr "Asia/Phnom_Penh"
+msgstr "Asia/Phnom Penh"
 
 #: src/Translations.vala:627
 msgid "Pacific/Tarawa"
@@ -1301,7 +1301,7 @@ msgstr "Oceano Indiano/Comoro"
 
 #: src/Translations.vala:641
 msgid "America/St_Kitts"
-msgstr "America/Saint_Kitts"
+msgstr "America/Saint Kitts"
 
 #: src/Translations.vala:643
 msgid "Asia/Pyongyang"
@@ -1337,7 +1337,7 @@ msgstr "Qyzylorda"
 
 #: src/Translations.vala:659
 msgid "Asia/Aqtobe"
-msgstr "Asia/Aqtobe"
+msgstr "Asia/Aqtöbe"
 
 #: src/Translations.vala:661
 msgid "Aqtobe/Aktobe"
@@ -1365,7 +1365,7 @@ msgstr "Asia/Oral"
 
 #: src/Translations.vala:673
 msgid "West Kazakhstan"
-msgstr "Area occidentale del Kazakistan"
+msgstr "Kazakistan occidentale"
 
 #: src/Translations.vala:675
 msgid "Asia/Vientiane"
@@ -1377,7 +1377,7 @@ msgstr "Asia/Beirut"
 
 #: src/Translations.vala:679
 msgid "America/St_Lucia"
-msgstr "America/Saint_Lucia"
+msgstr "America/Santa Lucia"
 
 #: src/Translations.vala:681
 msgid "Europe/Vaduz"
@@ -1525,11 +1525,11 @@ msgstr "Africa/Blantyre"
 
 #: src/Translations.vala:753
 msgid "America/Mexico_City"
-msgstr "America/Mexico_City"
+msgstr "America/Città del Messico"
 
 #: src/Translations.vala:755
 msgid "Central Time"
-msgstr "Central Time"
+msgstr "Orario centrale"
 
 #: src/Translations.vala:757
 msgid "America/Cancun"
@@ -1537,7 +1537,7 @@ msgstr "America/Cancun"
 
 #: src/Translations.vala:759
 msgid "Eastern Standard Time - Quintana Roo"
-msgstr "Ora Standard dell'Est - Quintana Roo"
+msgstr "Ora orientale (EST) - Quintana Roo"
 
 #: src/Translations.vala:761
 msgid "America/Merida"
@@ -1545,7 +1545,7 @@ msgstr "America/Merida"
 
 #: src/Translations.vala:763
 msgid "Central Time - Campeche, Yucatan"
-msgstr "Central Time - Campeche, Yucatan"
+msgstr "Orario centrale (CST) - Campeche, Yucatan"
 
 #: src/Translations.vala:765
 msgid "America/Monterrey"
@@ -1554,8 +1554,8 @@ msgstr "America/Monterrey"
 #: src/Translations.vala:767
 msgid "Central Time - Durango; Coahuila, Nuevo Leon, Tamaulipas (most areas)"
 msgstr ""
-"Ora centrale - Durango; Coahuila, Nuevo Leon, Tamaulipas (la maggior parte "
-"delle regioni)"
+"Orario centrale (CST) - Durango; Coahuila, Nuevo Leon, Tamaulipas (la "
+"maggior parte delle regioni)"
 
 #: src/Translations.vala:769
 msgid "America/Matamoros"
@@ -1567,11 +1567,11 @@ msgstr "Ora centrale (USA) - Coahuila, Nuevo León, Tamaulipas (confine USA)"
 
 #: src/Translations.vala:773
 msgid "America/Mazatlan"
-msgstr "America/Mazatlan"
+msgstr "America/Mazatlán"
 
 #: src/Translations.vala:775
 msgid "Mountain Time - Baja California Sur, Nayarit, Sinaloa"
-msgstr "Ora della montagna (Messico) - Baja California Sur, Nayarit, Sinaloa"
+msgstr "Ora della montagna (MST) - Baja California Sur, Nayarit, Sinaloa"
 
 #: src/Translations.vala:777
 msgid "America/Chihuahua"
@@ -1579,8 +1579,7 @@ msgstr "America/Chihuahua"
 
 #: src/Translations.vala:779
 msgid "Mountain Time - Chihuahua (most areas)"
-msgstr ""
-"Ora della montagna (Messico) - Chihuahua (la maggior parte del territorio)"
+msgstr "Ora della montagna (MST) - Chihuahua (la maggior parte del territorio)"
 
 #: src/Translations.vala:781
 msgid "America/Ojinaga"
@@ -1588,7 +1587,7 @@ msgstr "America/Ojinaga"
 
 #: src/Translations.vala:783
 msgid "Mountain Time US - Chihuahua (US border)"
-msgstr "Ora delle montagne (USA) - Chihuahua (frontiera USA)"
+msgstr "Ora delle montagne (MST) - Chihuahua (frontiera USA)"
 
 #: src/Translations.vala:785
 msgid "America/Hermosillo"
@@ -1596,7 +1595,7 @@ msgstr "America/Hermosillo"
 
 #: src/Translations.vala:787
 msgid "Mountain Standard Time - Sonora"
-msgstr "Mountain Time - Sonora"
+msgstr "Orario delle montagne (MST) - Sonora"
 
 #: src/Translations.vala:789
 msgid "America/Tijuana"
@@ -1604,19 +1603,19 @@ msgstr "America/Tijuana"
 
 #: src/Translations.vala:791
 msgid "Pacific Time US - Baja California"
-msgstr "Ora del Pacifico (USA) - Baja California"
+msgstr "Orario del Pacifico (PST) - Baja California"
 
 #: src/Translations.vala:793
 msgid "America/Bahia_Banderas"
-msgstr "America/Bahia_Banderas"
+msgstr "America/Bahía de Banderas"
 
 #: src/Translations.vala:795
 msgid "Central Time - Bahia de Banderas"
-msgstr "Ora centrale (Messico) - Bahía de Banderas"
+msgstr "Ora centrale (CST) - Bahía de Banderas"
 
 #: src/Translations.vala:797
 msgid "Asia/Kuala_Lumpur"
-msgstr "Asia/Kuala_Lumpur"
+msgstr "Asia/Kualav Lumpur"
 
 #: src/Translations.vala:799
 msgid "Malaysia (peninsula)"
@@ -1716,7 +1715,7 @@ msgstr "Isole della Società"
 
 #: src/Translations.vala:847
 msgid "Pacific/Marquesas"
-msgstr "Oceano Pacifico/Marquesas"
+msgstr "Oceano Pacifico/Isole Marquesas"
 
 #: src/Translations.vala:849
 msgid "Marquesas Islands"
@@ -1724,7 +1723,7 @@ msgstr "Isole Marquesas"
 
 #: src/Translations.vala:851
 msgid "Pacific/Gambier"
-msgstr "Oceano Pacifico/Gambier"
+msgstr "Oceano Pacifico/Isole Gambier"
 
 #: src/Translations.vala:853
 msgid "Gambier Islands"
@@ -1732,7 +1731,7 @@ msgstr "Isole Gambier"
 
 #: src/Translations.vala:855
 msgid "Pacific/Port_Moresby"
-msgstr "Oceano Pacifico/Port_Moresby"
+msgstr "Oceano Pacifico/Port Moresby"
 
 #: src/Translations.vala:857
 msgid "Papua New Guinea (most areas)"
@@ -1768,7 +1767,7 @@ msgstr "Oceano Pacifico/Pitcairn"
 
 #: src/Translations.vala:873
 msgid "America/Puerto_Rico"
-msgstr "America/Porto_Rico"
+msgstr "America/Porto Rico"
 
 #: src/Translations.vala:875
 msgid "Asia/Gaza"
@@ -1816,7 +1815,7 @@ msgstr "Oceano Pacifico/Palau"
 
 #: src/Translations.vala:897
 msgid "America/Asuncion"
-msgstr "America/Asuncion"
+msgstr "America/Asunción"
 
 #: src/Translations.vala:899
 msgid "Asia/Qatar"
@@ -1824,7 +1823,7 @@ msgstr "Asia/Qatar"
 
 #: src/Translations.vala:901
 msgid "Indian/Reunion"
-msgstr "Oceano Indiano/Reunion"
+msgstr "Oceano Indiano/Reunión"
 
 #: src/Translations.vala:903
 msgid "Europe/Bucharest"
@@ -2081,7 +2080,7 @@ msgstr "Asia/Singapore"
 
 #: src/Translations.vala:1029
 msgid "Atlantic/St_Helena"
-msgstr "Oceano Atlantico/Sant_Elena"
+msgstr "Oceano Atlantico/Sant'Elena"
 
 #: src/Translations.vala:1031
 msgid "Europe/Ljubljana"
@@ -2101,7 +2100,7 @@ msgstr "Africa/Freetown"
 
 #: src/Translations.vala:1039
 msgid "Europe/San_Marino"
-msgstr "Europa/San_Marino"
+msgstr "Europa/San Marino"
 
 #: src/Translations.vala:1041
 msgid "Africa/Dakar"
@@ -2121,15 +2120,15 @@ msgstr "Africa/Juba"
 
 #: src/Translations.vala:1049
 msgid "Africa/Sao_Tome"
-msgstr "Africa/Sao_Tome"
+msgstr "Africa/São Tomé"
 
 #: src/Translations.vala:1051
 msgid "America/El_Salvador"
-msgstr "America/El_Salvador"
+msgstr "America/El Salvador"
 
 #: src/Translations.vala:1053
 msgid "America/Lower_Princes"
-msgstr "America/Lower_Princes"
+msgstr "America/Lower Princes"
 
 #: src/Translations.vala:1055
 msgid "Asia/Damascus"
@@ -2141,7 +2140,7 @@ msgstr "Africa/Mbabane"
 
 #: src/Translations.vala:1059
 msgid "America/Grand_Turk"
-msgstr "America/Grand_Turk"
+msgstr "America/Grand Turk"
 
 #: src/Translations.vala:1061
 msgid "Africa/Ndjamena"
@@ -2189,7 +2188,7 @@ msgstr "Europa/Istanbul"
 
 #: src/Translations.vala:1083
 msgid "America/Port_of_Spain"
-msgstr "America/Port_of_Spain"
+msgstr "America/Port of Spain"
 
 #: src/Translations.vala:1085
 msgid "Pacific/Funafuti"
@@ -2201,7 +2200,7 @@ msgstr "Asia/Taipei"
 
 #: src/Translations.vala:1089
 msgid "Africa/Dar_es_Salaam"
-msgstr "Africa/Dar_es_Salaam"
+msgstr "Africa/Dar es Salaam"
 
 #: src/Translations.vala:1091
 msgid "Europe/Kiev"
@@ -2249,11 +2248,11 @@ msgstr "Wake Island"
 
 #: src/Translations.vala:1113
 msgid "America/New_York"
-msgstr "America/New_York"
+msgstr "America/New York"
 
 #: src/Translations.vala:1115
 msgid "Eastern (most areas)"
-msgstr "Ora dell'Est (ET) (la maggior parte del territorio)"
+msgstr "Orario standard orientale (EST)"
 
 #: src/Translations.vala:1117
 msgid "America/Detroit"
@@ -2261,7 +2260,9 @@ msgstr "America/Detroit"
 
 #: src/Translations.vala:1119
 msgid "Eastern - MI (most areas)"
-msgstr "Ora dell'Est (ET) - Michigan (MI) (la maggior parte del territorio)"
+msgstr ""
+"Orario standard orientale (EST) - Michigan (MI) (la maggior parte del "
+"territorio)"
 
 #: src/Translations.vala:1121
 msgid "America/Kentucky/Louisville"
@@ -2269,7 +2270,7 @@ msgstr "America/Kentucky/Louisville"
 
 #: src/Translations.vala:1123
 msgid "Eastern - KY (Louisville area)"
-msgstr "Ora dell'Est (ET) - Kentucky (KY) (Zona di Louisville)"
+msgstr "Orario standard orientale (EST) - Kentucky (KY) (Zona di Louisville)"
 
 #: src/Translations.vala:1125
 msgid "America/Kentucky/Monticello"
@@ -2277,7 +2278,7 @@ msgstr "America/Kentucky/Monticello"
 
 #: src/Translations.vala:1127
 msgid "Eastern - KY (Wayne)"
-msgstr "Ora dell'Est (ET) - Kentucky (KY) (Wayne)"
+msgstr "Orario standard orientale (EST) - Kentucky (KY) (Wayne)"
 
 #: src/Translations.vala:1129
 msgid "America/Indiana/Indianapolis"
@@ -2285,7 +2286,9 @@ msgstr "America/Indiana/Indianapolis"
 
 #: src/Translations.vala:1131
 msgid "Eastern - IN (most areas)"
-msgstr "Ora dell'Est (ET) - Indiana (IN) (la maggior parte del territorio)"
+msgstr ""
+"Orario standard orientale (EST) - Indiana (IN) (la maggior parte del "
+"territorio)"
 
 #: src/Translations.vala:1133
 msgid "America/Indiana/Vincennes"
@@ -2293,7 +2296,7 @@ msgstr "America/Indiana/Vincennes"
 
 #: src/Translations.vala:1135
 msgid "Eastern - IN (Da, Du, K, Mn)"
-msgstr "Ora dell'Est - Indiana (IN) (Da, Du, K, Mn)"
+msgstr "Orario standard orientale (EST) - Indiana (IN) (Da, Du, K, Mn)"
 
 #: src/Translations.vala:1137
 msgid "America/Indiana/Winamac"
@@ -2301,7 +2304,7 @@ msgstr "America/Indiana/Winamac"
 
 #: src/Translations.vala:1139
 msgid "Eastern - IN (Pulaski)"
-msgstr "Ora dell'Est (ET) - Indiana (IN) (Pulaski)"
+msgstr "Orario standard orientale (EST) - Indiana (IN) (Pulaski)"
 
 #: src/Translations.vala:1141
 msgid "America/Indiana/Marengo"
@@ -2309,7 +2312,7 @@ msgstr "America/Indiana/Marengo"
 
 #: src/Translations.vala:1143
 msgid "Eastern - IN (Crawford)"
-msgstr "Ora dell'Est (ET) - Contea di Crawford (IN, USA)"
+msgstr "Orario standard orientale (EST) - Contea di Crawford (IN, USA)"
 
 #: src/Translations.vala:1145
 msgid "America/Indiana/Petersburg"
@@ -2317,7 +2320,7 @@ msgstr "America/Indiana/Petersburg"
 
 #: src/Translations.vala:1147
 msgid "Eastern - IN (Pike)"
-msgstr "Ora dell'Est (ET) - Pike (IN, USA)"
+msgstr "Orario standard orientale (EST) - Pike (IN, USA)"
 
 #: src/Translations.vala:1149
 msgid "America/Indiana/Vevay"
@@ -2325,7 +2328,7 @@ msgstr "America/Indiana/Vevay"
 
 #: src/Translations.vala:1151
 msgid "Eastern - IN (Switzerland)"
-msgstr "Ora dell'Est (ET) - Contea di Switzerland (IN, USA)"
+msgstr "Orario standard orientale (EST) - Contea di Switzerland (IN, USA)"
 
 #: src/Translations.vala:1153
 msgid "America/Chicago"
@@ -2423,7 +2426,7 @@ msgstr "America/Anchorage"
 
 #: src/Translations.vala:1199
 msgid "Alaska (most areas)"
-msgstr "Alaska (USA) (la maggior parte del territorio)"
+msgstr "Alaska (la maggior parte del territorio)"
 
 #: src/Translations.vala:1201
 msgid "America/Juneau"
@@ -2431,7 +2434,7 @@ msgstr "America/Juneau"
 
 #: src/Translations.vala:1203
 msgid "Alaska - Juneau area"
-msgstr "Alaska (USA) - Zona di Janeau"
+msgstr "Alaska - Zona di Janeau"
 
 #: src/Translations.vala:1205
 msgid "America/Sitka"
@@ -2439,7 +2442,7 @@ msgstr "America/Sitka"
 
 #: src/Translations.vala:1207
 msgid "Alaska - Sitka area"
-msgstr "Alaska (USA) (Zona di Sitka)"
+msgstr "Alaska - Zona di Sitka"
 
 #: src/Translations.vala:1209
 msgid "America/Metlakatla"
@@ -2447,7 +2450,7 @@ msgstr "America/Metlakatla"
 
 #: src/Translations.vala:1211
 msgid "Alaska - Annette Island"
-msgstr "Alaska (USA) (Isola di Annette)"
+msgstr "Alaska - Isola di Annette"
 
 #: src/Translations.vala:1213
 msgid "America/Yakutat"
@@ -2455,7 +2458,7 @@ msgstr "America/Yakutat"
 
 #: src/Translations.vala:1215
 msgid "Alaska - Yakutat"
-msgstr "Alaska (USA) (Yakutat)"
+msgstr "Alaska (Yakutat)"
 
 #: src/Translations.vala:1217
 msgid "America/Nome"
@@ -2499,7 +2502,7 @@ msgstr "Asia/Tashkent"
 
 #: src/Translations.vala:1237
 msgid "Uzbekistan (east)"
-msgstr "Uzbekistan (regione orientale)"
+msgstr "Uzbekistan (orientale)"
 
 #: src/Translations.vala:1239
 msgid "Europe/Vatican"
@@ -2507,7 +2510,7 @@ msgstr "Europa/Vaticano"
 
 #: src/Translations.vala:1241
 msgid "America/St_Vincent"
-msgstr "America/Saint_Vincent"
+msgstr "America/Saint Vincent"
 
 #: src/Translations.vala:1243
 msgid "America/Caracas"
@@ -2519,11 +2522,11 @@ msgstr "America/Tortola"
 
 #: src/Translations.vala:1247
 msgid "America/St_Thomas"
-msgstr "America/Saint_Thomas"
+msgstr "America/Saint Thomas"
 
 #: src/Translations.vala:1249
 msgid "Asia/Ho_Chi_Minh"
-msgstr "Asia/Ho_Chi_Minh"
+msgstr "Asia/Ho Chi Minh"
 
 #: src/Translations.vala:1251
 msgid "Pacific/Efate"
@@ -2567,7 +2570,7 @@ msgstr "Configura la data, l'ora e seleziona il fuso orario"
 
 #: src/Plug.vala:45
 msgid "Network Time:"
-msgstr "Ora da rete:"
+msgstr "Ora della rete:"
 
 #: src/Plug.vala:54
 msgid "Time Format:"
@@ -2583,7 +2586,7 @@ msgstr "24 ore"
 
 #: src/Plug.vala:61
 msgid "Time Zone:"
-msgstr "Regione:"
+msgstr "Fuso orario:"
 
 #: src/Plug.vala:73
 msgid "Show week numbers:"
@@ -2591,7 +2594,7 @@ msgstr "Mostra i numeri delle settimane:"
 
 #: src/Plug.vala:273
 msgid "Network Time"
-msgstr "Ora da rete"
+msgstr "Ora della rete"
 
 #: src/Plug.vala:274
 msgid "Time"
