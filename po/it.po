@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-11 12:34-0300\n"
-"PO-Revision-Date: 2018-09-08 19:10+0000\n"
+"PO-Revision-Date: 2018-09-09 00:03+0000\n"
 "Last-Translator: Marco De Paolini <marco.depaolini@gmail.com>\n"
 "Language-Team: Italian <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-datetime/it/>\n"
@@ -1975,7 +1975,7 @@ msgstr "Asia/Chita"
 
 #: src/Translations.vala:977
 msgid "MSK+06 - Zabaykalsky"
-msgstr "MSK+06 - Zabaykalsky"
+msgstr "MSK+06 - Territorio della Transbajkalia"
 
 #: src/Translations.vala:979
 msgid "Asia/Yakutsk"
@@ -2252,7 +2252,7 @@ msgstr "America/New York"
 
 #: src/Translations.vala:1115
 msgid "Eastern (most areas)"
-msgstr "Orario standard orientale (EST)"
+msgstr "Orario orientale (EST)"
 
 #: src/Translations.vala:1117
 msgid "America/Detroit"
