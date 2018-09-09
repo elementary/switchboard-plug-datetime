@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-11 12:34-0300\n"
-"PO-Revision-Date: 2018-09-09 00:03+0000\n"
+"PO-Revision-Date: 2018-09-10 00:08+0000\n"
 "Last-Translator: Marco De Paolini <marco.depaolini@gmail.com>\n"
 "Language-Team: Italian <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-datetime/it/>\n"
@@ -875,7 +875,7 @@ msgstr "America/Costa Rica"
 
 #: src/Translations.vala:429
 msgid "America/Havana"
-msgstr "America/Havana"
+msgstr "America/La Havana"
 
 #: src/Translations.vala:431
 msgid "Atlantic/Cape_Verde"
@@ -2340,7 +2340,7 @@ msgstr "Ora centrale (CTS) (la maggior parte del territorio)"
 
 #: src/Translations.vala:1157
 msgid "America/Indiana/Tell_City"
-msgstr "America/Indiana/Tell_City"
+msgstr "America/Indiana/Tell City"
 
 #: src/Translations.vala:1159
 msgid "Central - IN (Perry)"
@@ -2414,7 +2414,7 @@ msgstr "Ora delle montagne (MST) - Arizona (USA) (tranne la contea di Navajo)"
 
 #: src/Translations.vala:1193
 msgid "America/Los_Angeles"
-msgstr "America/Los_Angeles"
+msgstr "America/Los Angeles"
 
 #: src/Translations.vala:1195 src/Widgets/TZPopover.vala:73
 msgid "Pacific"
