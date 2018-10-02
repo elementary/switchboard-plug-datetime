@@ -46,6 +46,7 @@ public class DateTime.Plug : Switchboard.Plug {
             network_time_label.xalign = 1;
 
             var network_time_switch = new Gtk.Switch ();
+            network_time_switch.valign = Gtk.Align.CENTER;
             network_time_switch.halign = Gtk.Align.START;
 
             var time_picker = new Granite.Widgets.TimePicker ();
@@ -74,6 +75,7 @@ public class DateTime.Plug : Switchboard.Plug {
             week_number_label.xalign = 1;
 
             var week_number_switch = new Gtk.Switch ();
+            week_number_switch.valign = Gtk.Align.CENTER;
             week_number_switch.halign = Gtk.Align.START;
 
             var widget_grid = new Gtk.Grid ();
