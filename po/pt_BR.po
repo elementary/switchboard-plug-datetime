@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-11 12:34-0300\n"
-"PO-Revision-Date: 2018-09-01 00:09+0000\n"
+"PO-Revision-Date: 2018-10-07 00:10+0000\n"
 "Last-Translator: Rodrigo Oliveira <rod.oliveira@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://weblate.elementary.io/projects/"
 "switchboard/switchboard-plug-datetime/pt_BR/>\n"
@@ -66,7 +66,7 @@ msgstr "Antártica/Casey"
 
 #: src/Translations.vala:25
 msgid "Casey"
-msgstr "Casey"
+msgstr "Estação Casey, Antártida"
 
 #: src/Translations.vala:27
 msgid "Antarctica/Davis"
@@ -74,7 +74,7 @@ msgstr "Antártica/Davis"
 
 #: src/Translations.vala:29
 msgid "Davis"
-msgstr "Davis"
+msgstr "Estação Davis, Antártida"
 
 #: src/Translations.vala:31
 msgid "Antarctica/DumontDUrville"
@@ -90,7 +90,7 @@ msgstr "Antártica/Mawson"
 
 #: src/Translations.vala:37
 msgid "Mawson"
-msgstr "Mawson"
+msgstr "Estação Mawson, Antártida"
 
 #: src/Translations.vala:39
 msgid "Antarctica/Palmer"
@@ -98,7 +98,7 @@ msgstr "Antártica/Palmer"
 
 #: src/Translations.vala:41
 msgid "Palmer"
-msgstr "Palmer"
+msgstr "Estação Palmer, Antártida"
 
 #: src/Translations.vala:43
 msgid "Antarctica/Rothera"
@@ -106,7 +106,7 @@ msgstr "Antártica/Rothera"
 
 #: src/Translations.vala:45
 msgid "Rothera"
-msgstr "Rothera"
+msgstr "Estação de Pesquisa Rothera, Antártida"
 
 #: src/Translations.vala:47
 msgid "Antarctica/Syowa"
@@ -114,7 +114,7 @@ msgstr "Antártica/Syowa"
 
 #: src/Translations.vala:49
 msgid "Syowa"
-msgstr "Syowa"
+msgstr "Estação Showa, Antártica"
 
 #: src/Translations.vala:51
 msgid "Antarctica/Troll"
@@ -122,7 +122,7 @@ msgstr "Antártica/Troll"
 
 #: src/Translations.vala:53
 msgid "Troll"
-msgstr "Troll"
+msgstr "Estação Troll, Antártida"
 
 #: src/Translations.vala:55
 msgid "Antarctica/Vostok"
@@ -130,7 +130,7 @@ msgstr "Antártica/Vostok"
 
 #: src/Translations.vala:57
 msgid "Vostok"
-msgstr "Vostok"
+msgstr "Estação Vostok, Antártida"
 
 #: src/Translations.vala:59
 msgid "America/Argentina/Buenos_Aires"
@@ -738,7 +738,7 @@ msgstr "América/Creston"
 
 #: src/Translations.vala:361
 msgid "MST - BC (Creston)"
-msgstr "MST - BC (Creston)"
+msgstr "MST - Creston, British Columbia"
 
 #: src/Translations.vala:363
 msgid "America/Dawson_Creek"
@@ -1022,7 +1022,7 @@ msgstr "Pacífico/Chuuk"
 
 #: src/Translations.vala:503
 msgid "Chuuk/Truk, Yap"
-msgstr "Chuuk/Truk, Yap"
+msgstr "Yap & Chuuk (Truk)"
 
 #: src/Translations.vala:505
 msgid "Pacific/Pohnpei"
@@ -1030,7 +1030,7 @@ msgstr "Pacífico/Pohnpei"
 
 #: src/Translations.vala:507
 msgid "Pohnpei/Ponape"
-msgstr "Pohnpei/Ponape"
+msgstr "Pohnpei (Ponape)"
 
 #: src/Translations.vala:509
 msgid "Pacific/Kosrae"
@@ -2213,7 +2213,7 @@ msgstr "Europa/Uzhgorod"
 
 #: src/Translations.vala:1097
 msgid "Ruthenia"
-msgstr "Ruthenia"
+msgstr "Rutênia"
 
 #: src/Translations.vala:1099
 msgid "Europe/Zaporozhye"
