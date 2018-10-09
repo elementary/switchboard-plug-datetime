@@ -272,11 +272,10 @@ public class DateTime.Plug : Switchboard.Plug {
     // 'search' returns results like ("Keyboard → Behavior → Duration", "keyboard<sep>behavior")
     public override async Gee.TreeMap<string, string> search (string search) {
         var search_results = new Gee.TreeMap<string, string> ((GLib.CompareDataFunc<string>)strcmp, (Gee.EqualDataFunc<string>)str_equal);
-        search_results.set ("%s → %s".printf (display_name, _("Network Time")), "");
-        search_results.set ("%s → %s".printf (display_name, _("Time")), "");
-        search_results.set ("%s → %s".printf (display_name, _("Date")), "");
-        search_results.set ("%s → %s".printf (display_name, _("Time Zone")), "");
         search_results.set ("%s → %s".printf (display_name, _("Time Format")), "");
+        search_results.set ("%s → %s".printf (display_name, _("Time Zone")), "");
+        search_results.set ("%s → %s".printf (display_name, _("Network Time")), "");
+        search_results.set ("%s → %s".printf (display_name, _("Show week numbers")), "");
         return search_results;
     }
 }
