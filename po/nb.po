@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-09 10:38-0500\n"
-"PO-Revision-Date: 2018-07-21 00:07+0000\n"
-"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
+"PO-Revision-Date: 2018-10-10 00:02+0000\n"
+"Last-Translator: Nils K <slx@nilsk.net>\n"
 "Language-Team: Norwegian Bokmål <https://weblate.elementary.io/projects/"
 "switchboard/switchboard-plug-datetime/nb/>\n"
 "Language: nb\n"
@@ -894,19 +894,16 @@ msgid "Asia/Nicosia"
 msgstr "Asia/Nikosia"
 
 #: src/Translations.vala:439
-#, fuzzy
 msgid "Cyprus (most areas)"
-msgstr "Chile (de fleste områder)"
+msgstr "Kypros (de fleste områder)"
 
 #: src/Translations.vala:441
-#, fuzzy
 msgid "Asia/Famagusta"
-msgstr "Asia/Damaskus"
+msgstr "Asia/Famagusta"
 
 #: src/Translations.vala:443
-#, fuzzy
 msgid "Northern Cyprus"
-msgstr "Nordterritoriet"
+msgstr "Nord-Kypros"
 
 #: src/Translations.vala:445
 msgid "Europe/Prague"
@@ -1884,14 +1881,12 @@ msgid "MSK+01 - Astrakhan"
 msgstr ""
 
 #: src/Translations.vala:931
-#, fuzzy
 msgid "Europe/Saratov"
-msgstr "Europa/Sarajevo"
+msgstr "Europa/Saratov"
 
 #: src/Translations.vala:933
-#, fuzzy
 msgid "MSK+01 - Saratov"
-msgstr "MSK+01 - Uljanovsk"
+msgstr "MSK+01 - Saratov"
 
 #: src/Translations.vala:935
 msgid "Europe/Ulyanovsk"
@@ -1930,9 +1925,8 @@ msgid "Asia/Novosibirsk"
 msgstr "Asia/Novosibirsk"
 
 #: src/Translations.vala:953
-#, fuzzy
 msgid "MSK+04 - Novosibirsk"
-msgstr "MSK+04 - Tomsk"
+msgstr "MSK+04 - Novosibirsk"
 
 #: src/Translations.vala:955
 msgid "Asia/Barnaul"
@@ -2603,9 +2597,8 @@ msgid "Network Time"
 msgstr "Nettverkstid"
 
 #: src/Plug.vala:278
-#, fuzzy
 msgid "Show week numbers"
-msgstr "Vis ukenummer:"
+msgstr "Vis ukenummer"
 
 #: src/Widgets/TZPopover.vala:57
 msgid "Africa"
