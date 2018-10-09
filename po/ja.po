@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-09 10:38-0500\n"
-"PO-Revision-Date: 2018-07-13 00:04+0000\n"
+"PO-Revision-Date: 2018-10-09 16:08+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-datetime/ja/>\n"
@@ -2605,9 +2605,8 @@ msgid "Network Time"
 msgstr "ネットワーク時間"
 
 #: src/Plug.vala:278
-#, fuzzy
 msgid "Show week numbers"
-msgstr "週番号を表示:"
+msgstr "週番号を表示"
 
 #: src/Widgets/TZPopover.vala:57
 msgid "Africa"
