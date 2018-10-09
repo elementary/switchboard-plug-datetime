@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-power\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-11 12:34-0300\n"
+"POT-Creation-Date: 2018-10-09 10:38-0500\n"
 "PO-Revision-Date: 2017-09-08 16:52+0000\n"
 "Last-Translator: M Aiman <m.aimanismail@gmail.com>\n"
 "Language-Team: Malay <https://weblate.elementary.io/projects/switchboard/"
@@ -2576,45 +2576,42 @@ msgstr "Konfigur tarikh, waktu, dan pilih zon waktu"
 msgid "Network Time:"
 msgstr "Masa Rangkaian:"
 
-#: src/Plug.vala:54
+#: src/Plug.vala:55
 msgid "Time Format:"
 msgstr "Format Waktu:"
 
-#: src/Plug.vala:58
+#: src/Plug.vala:59
 msgid "AM/PM"
 msgstr "AM/PM"
 
-#: src/Plug.vala:59
+#: src/Plug.vala:60
 msgid "24h"
 msgstr "24j"
 
-#: src/Plug.vala:61
+#: src/Plug.vala:62
 msgid "Time Zone:"
 msgstr "Zon Waktu:"
 
-#: src/Plug.vala:73
+#: src/Plug.vala:74
 msgid "Show week numbers:"
 msgstr "Tunjuk bilangan minggu:"
 
-#: src/Plug.vala:273
-msgid "Network Time"
-msgstr "Waktu Rangkaian"
-
-#: src/Plug.vala:274
-msgid "Time"
-msgstr "Waktu"
-
 #: src/Plug.vala:275
-msgid "Date"
-msgstr "Tarikh"
+msgid "Time Format"
+msgstr "Format Waktu"
 
 #: src/Plug.vala:276
 msgid "Time Zone"
 msgstr "Zon Waktu"
 
 #: src/Plug.vala:277
-msgid "Time Format"
-msgstr "Format Waktu"
+msgid "Network Time"
+msgstr "Waktu Rangkaian"
+
+#: src/Plug.vala:278
+#, fuzzy
+msgid "Show week numbers"
+msgstr "Tunjuk bilangan minggu:"
 
 #: src/Widgets/TZPopover.vala:57
 msgid "Africa"
@@ -2647,6 +2644,12 @@ msgstr "Eropah"
 #: src/Widgets/TZPopover.vala:71
 msgid "Indian"
 msgstr "India"
+
+#~ msgid "Time"
+#~ msgstr "Waktu"
+
+#~ msgid "Date"
+#~ msgstr "Tarikh"
 
 #~ msgid "Pacific/Johnston"
 #~ msgstr "Pasifik/Johnston"

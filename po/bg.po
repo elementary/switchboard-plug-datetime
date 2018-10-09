@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-11 12:34-0300\n"
+"POT-Creation-Date: 2018-10-09 10:38-0500\n"
 "PO-Revision-Date: 2016-08-05 14:37+0000\n"
 "Last-Translator: Stanislav <stunito0o0o0@gmail.com>\n"
 "Language-Team: Bulgarian <bg@li.org>\n"
@@ -2569,45 +2569,41 @@ msgstr "Настройка на дата, час и пояс"
 msgid "Network Time:"
 msgstr "Време от мрежата:"
 
-#: src/Plug.vala:54
+#: src/Plug.vala:55
 msgid "Time Format:"
 msgstr "Формат за времето:"
 
-#: src/Plug.vala:58
+#: src/Plug.vala:59
 msgid "AM/PM"
 msgstr "пр. об./сл. об."
 
-#: src/Plug.vala:59
+#: src/Plug.vala:60
 msgid "24h"
 msgstr "24-часов формат"
 
-#: src/Plug.vala:61
+#: src/Plug.vala:62
 msgid "Time Zone:"
 msgstr "Часови пояс:"
 
-#: src/Plug.vala:73
+#: src/Plug.vala:74
 msgid "Show week numbers:"
 msgstr ""
 
-#: src/Plug.vala:273
-msgid "Network Time"
-msgstr "Време от мрежата"
-
-#: src/Plug.vala:274
-msgid "Time"
-msgstr "Време"
-
 #: src/Plug.vala:275
-msgid "Date"
-msgstr "Дата"
+msgid "Time Format"
+msgstr "Формат на часа"
 
 #: src/Plug.vala:276
 msgid "Time Zone"
 msgstr "Часови пояс"
 
 #: src/Plug.vala:277
-msgid "Time Format"
-msgstr "Формат на часа"
+msgid "Network Time"
+msgstr "Време от мрежата"
+
+#: src/Plug.vala:278
+msgid "Show week numbers"
+msgstr ""
 
 #: src/Widgets/TZPopover.vala:57
 msgid "Africa"
@@ -2640,6 +2636,12 @@ msgstr "Европа"
 #: src/Widgets/TZPopover.vala:71
 msgid "Indian"
 msgstr ""
+
+#~ msgid "Time"
+#~ msgstr "Време"
+
+#~ msgid "Date"
+#~ msgstr "Дата"
 
 #~ msgid "Pacific/Johnston"
 #~ msgstr "Тих_Океан/Джонстън"

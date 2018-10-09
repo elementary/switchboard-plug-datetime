@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-11 12:34-0300\n"
+"POT-Creation-Date: 2018-10-09 10:38-0500\n"
 "PO-Revision-Date: 2018-07-15 00:10+0000\n"
 "Last-Translator: David M <rbndavid@gmail.com>\n"
 "Language-Team: Catalan <https://weblate.elementary.io/projects/switchboard/"
@@ -2563,45 +2563,42 @@ msgstr "Configureu la data, l'hora i seleccioneu la zona horària"
 msgid "Network Time:"
 msgstr "Hora de la xarxa:"
 
-#: src/Plug.vala:54
+#: src/Plug.vala:55
 msgid "Time Format:"
 msgstr "Format de l'hora:"
 
-#: src/Plug.vala:58
+#: src/Plug.vala:59
 msgid "AM/PM"
 msgstr "AM/PM"
 
-#: src/Plug.vala:59
+#: src/Plug.vala:60
 msgid "24h"
 msgstr "24 h"
 
-#: src/Plug.vala:61
+#: src/Plug.vala:62
 msgid "Time Zone:"
 msgstr "Zona horària:"
 
-#: src/Plug.vala:73
+#: src/Plug.vala:74
 msgid "Show week numbers:"
 msgstr "Mostra els números de setmana:"
 
-#: src/Plug.vala:273
-msgid "Network Time"
-msgstr "Hora de la xarxa"
-
-#: src/Plug.vala:274
-msgid "Time"
-msgstr "Hora"
-
 #: src/Plug.vala:275
-msgid "Date"
-msgstr "Data"
+msgid "Time Format"
+msgstr "Format de l'hora"
 
 #: src/Plug.vala:276
 msgid "Time Zone"
 msgstr "Zona horària"
 
 #: src/Plug.vala:277
-msgid "Time Format"
-msgstr "Format de l'hora"
+msgid "Network Time"
+msgstr "Hora de la xarxa"
+
+#: src/Plug.vala:278
+#, fuzzy
+msgid "Show week numbers"
+msgstr "Mostra els números de setmana:"
 
 #: src/Widgets/TZPopover.vala:57
 msgid "Africa"
@@ -2634,6 +2631,12 @@ msgstr "Europa"
 #: src/Widgets/TZPopover.vala:71
 msgid "Indian"
 msgstr "Indi"
+
+#~ msgid "Time"
+#~ msgstr "Hora"
+
+#~ msgid "Date"
+#~ msgstr "Data"
 
 #~ msgid "Pacific/Johnston"
 #~ msgstr "Pacífic/Johnston"

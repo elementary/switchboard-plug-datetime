@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-11 12:34-0300\n"
+"POT-Creation-Date: 2018-10-09 10:38-0500\n"
 "PO-Revision-Date: 2018-05-14 00:02+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Georgian <https://weblate.elementary.io/projects/switchboard/"
@@ -2564,45 +2564,41 @@ msgstr ""
 msgid "Network Time:"
 msgstr "ქსელის დრო:"
 
-#: src/Plug.vala:54
+#: src/Plug.vala:55
 msgid "Time Format:"
 msgstr "დროის ფორმატი:"
 
-#: src/Plug.vala:58
+#: src/Plug.vala:59
 msgid "AM/PM"
 msgstr "AM/PM"
 
-#: src/Plug.vala:59
+#: src/Plug.vala:60
 msgid "24h"
 msgstr "24ს"
 
-#: src/Plug.vala:61
+#: src/Plug.vala:62
 msgid "Time Zone:"
 msgstr "სასაათო სარტყელი:"
 
-#: src/Plug.vala:73
+#: src/Plug.vala:74
 msgid "Show week numbers:"
 msgstr ""
 
-#: src/Plug.vala:273
-msgid "Network Time"
-msgstr "ქსელის დრო"
-
-#: src/Plug.vala:274
-msgid "Time"
-msgstr "დრო"
-
 #: src/Plug.vala:275
-msgid "Date"
-msgstr "თარიღი"
+msgid "Time Format"
+msgstr "დროის ფორმატი"
 
 #: src/Plug.vala:276
 msgid "Time Zone"
 msgstr "სასაათო სარტყელი"
 
 #: src/Plug.vala:277
-msgid "Time Format"
-msgstr "დროის ფორმატი"
+msgid "Network Time"
+msgstr "ქსელის დრო"
+
+#: src/Plug.vala:278
+msgid "Show week numbers"
+msgstr ""
 
 #: src/Widgets/TZPopover.vala:57
 msgid "Africa"
@@ -2635,3 +2631,9 @@ msgstr "ევროპა"
 #: src/Widgets/TZPopover.vala:71
 msgid "Indian"
 msgstr "ინდოეთის ოკეანე"
+
+#~ msgid "Time"
+#~ msgstr "დრო"
+
+#~ msgid "Date"
+#~ msgstr "თარიღი"

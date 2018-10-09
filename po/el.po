@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-11 12:34-0300\n"
+"POT-Creation-Date: 2018-10-09 10:38-0500\n"
 "PO-Revision-Date: 2017-02-13 17:01+0000\n"
 "Last-Translator: Christos Iatropoulos <Unknown>\n"
 "Language-Team: Greek <el@li.org>\n"
@@ -2567,45 +2567,41 @@ msgstr "Ρύθμιση ημερομηνίας, ώρας και επιλογή ζ
 msgid "Network Time:"
 msgstr "Ώρα δικτύου:"
 
-#: src/Plug.vala:54
+#: src/Plug.vala:55
 msgid "Time Format:"
 msgstr "Μορφή ώρας:"
 
-#: src/Plug.vala:58
+#: src/Plug.vala:59
 msgid "AM/PM"
 msgstr ""
 
-#: src/Plug.vala:59
+#: src/Plug.vala:60
 msgid "24h"
 msgstr ""
 
-#: src/Plug.vala:61
+#: src/Plug.vala:62
 msgid "Time Zone:"
 msgstr "Ζώνη ώρας:"
 
-#: src/Plug.vala:73
+#: src/Plug.vala:74
 msgid "Show week numbers:"
 msgstr ""
 
-#: src/Plug.vala:273
-msgid "Network Time"
-msgstr "Ώρα δικτύου"
-
-#: src/Plug.vala:274
-msgid "Time"
-msgstr "Ώρα"
-
 #: src/Plug.vala:275
-msgid "Date"
-msgstr "Ημερομηνία"
+msgid "Time Format"
+msgstr "Μορφή ώρας"
 
 #: src/Plug.vala:276
 msgid "Time Zone"
 msgstr "Ζώνη ώρας"
 
 #: src/Plug.vala:277
-msgid "Time Format"
-msgstr "Μορφή ώρας"
+msgid "Network Time"
+msgstr "Ώρα δικτύου"
+
+#: src/Plug.vala:278
+msgid "Show week numbers"
+msgstr ""
 
 #: src/Widgets/TZPopover.vala:57
 msgid "Africa"
@@ -2638,6 +2634,12 @@ msgstr ""
 #: src/Widgets/TZPopover.vala:71
 msgid "Indian"
 msgstr ""
+
+#~ msgid "Time"
+#~ msgstr "Ώρα"
+
+#~ msgid "Date"
+#~ msgstr "Ημερομηνία"
 
 #~ msgid "Pacific/Johnston"
 #~ msgstr "Ειρηνικός/Johnston"

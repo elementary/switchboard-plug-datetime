@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-11 12:34-0300\n"
+"POT-Creation-Date: 2018-10-09 10:38-0500\n"
 "PO-Revision-Date: 2018-07-13 00:04+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.elementary.io/projects/switchboard/"
@@ -2572,45 +2572,42 @@ msgstr "日付と時刻を設定し、タイムゾーンを選択します"
 msgid "Network Time:"
 msgstr "ネットワーク時間:"
 
-#: src/Plug.vala:54
+#: src/Plug.vala:55
 msgid "Time Format:"
 msgstr "時刻の書式:"
 
-#: src/Plug.vala:58
+#: src/Plug.vala:59
 msgid "AM/PM"
 msgstr "午前/午後表示"
 
-#: src/Plug.vala:59
+#: src/Plug.vala:60
 msgid "24h"
 msgstr "24時間表示"
 
-#: src/Plug.vala:61
+#: src/Plug.vala:62
 msgid "Time Zone:"
 msgstr "タイムゾーン:"
 
-#: src/Plug.vala:73
+#: src/Plug.vala:74
 msgid "Show week numbers:"
 msgstr "週番号を表示:"
 
-#: src/Plug.vala:273
-msgid "Network Time"
-msgstr "ネットワーク時間"
-
-#: src/Plug.vala:274
-msgid "Time"
-msgstr "時間"
-
 #: src/Plug.vala:275
-msgid "Date"
-msgstr "日付"
+msgid "Time Format"
+msgstr "時刻の書式"
 
 #: src/Plug.vala:276
 msgid "Time Zone"
 msgstr "タイムゾーン"
 
 #: src/Plug.vala:277
-msgid "Time Format"
-msgstr "時刻の書式"
+msgid "Network Time"
+msgstr "ネットワーク時間"
+
+#: src/Plug.vala:278
+#, fuzzy
+msgid "Show week numbers"
+msgstr "週番号を表示:"
 
 #: src/Widgets/TZPopover.vala:57
 msgid "Africa"
@@ -2643,6 +2640,12 @@ msgstr "ヨーロッパ"
 #: src/Widgets/TZPopover.vala:71
 msgid "Indian"
 msgstr "インド"
+
+#~ msgid "Time"
+#~ msgstr "時間"
+
+#~ msgid "Date"
+#~ msgstr "日付"
 
 #~ msgid "Pacific/Johnston"
 #~ msgstr "太平洋/ジョンストン島"

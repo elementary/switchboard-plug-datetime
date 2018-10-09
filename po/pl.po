@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-11 12:34-0300\n"
+"POT-Creation-Date: 2018-10-09 10:38-0500\n"
 "PO-Revision-Date: 2018-07-13 00:04+0000\n"
 "Last-Translator: Piotr Strebski <strebski@gmail.com>\n"
 "Language-Team: Polish <https://weblate.elementary.io/projects/switchboard/"
@@ -2567,45 +2567,42 @@ msgstr "Konfiguruj datę, czas oraz wybierz strefę czasową"
 msgid "Network Time:"
 msgstr "Czas sieciowy:"
 
-#: src/Plug.vala:54
+#: src/Plug.vala:55
 msgid "Time Format:"
 msgstr "Format czasu:"
 
-#: src/Plug.vala:58
+#: src/Plug.vala:59
 msgid "AM/PM"
 msgstr "rano/po południu"
 
-#: src/Plug.vala:59
+#: src/Plug.vala:60
 msgid "24h"
 msgstr "24-godzinny"
 
-#: src/Plug.vala:61
+#: src/Plug.vala:62
 msgid "Time Zone:"
 msgstr "Strefa czasowa:"
 
-#: src/Plug.vala:73
+#: src/Plug.vala:74
 msgid "Show week numbers:"
 msgstr "Wyświetl liczbę tygodni:"
 
-#: src/Plug.vala:273
-msgid "Network Time"
-msgstr "Czas sieciowy"
-
-#: src/Plug.vala:274
-msgid "Time"
-msgstr "Czas"
-
 #: src/Plug.vala:275
-msgid "Date"
-msgstr "Data"
+msgid "Time Format"
+msgstr "Format czasu"
 
 #: src/Plug.vala:276
 msgid "Time Zone"
 msgstr "Strefa czasowa"
 
 #: src/Plug.vala:277
-msgid "Time Format"
-msgstr "Format czasu"
+msgid "Network Time"
+msgstr "Czas sieciowy"
+
+#: src/Plug.vala:278
+#, fuzzy
+msgid "Show week numbers"
+msgstr "Wyświetl liczbę tygodni:"
 
 #: src/Widgets/TZPopover.vala:57
 msgid "Africa"
@@ -2638,6 +2635,12 @@ msgstr "Europa"
 #: src/Widgets/TZPopover.vala:71
 msgid "Indian"
 msgstr "Ocean Indyjski"
+
+#~ msgid "Time"
+#~ msgstr "Czas"
+
+#~ msgid "Date"
+#~ msgstr "Data"
 
 #~ msgid "Pacific/Johnston"
 #~ msgstr "Pacyfik/Johnston"
