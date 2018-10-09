@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-datetime\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-11 12:34-0300\n"
+"POT-Creation-Date: 2018-10-09 10:38-0500\n"
 "PO-Revision-Date: 2018-05-14 00:02+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Uighur <https://weblate.elementary.io/projects/switchboard/"
@@ -2581,45 +2581,41 @@ msgstr "چىسلا، ۋاقىتنى تەڭشەڭ، ۋە ۋاقىت رايونى�
 msgid "Network Time:"
 msgstr "تور ۋاقتى："
 
-#: src/Plug.vala:54
+#: src/Plug.vala:55
 msgid "Time Format:"
 msgstr "ۋاقىت فورماتى："
 
-#: src/Plug.vala:58
+#: src/Plug.vala:59
 msgid "AM/PM"
 msgstr "12سائەتلىك"
 
-#: src/Plug.vala:59
+#: src/Plug.vala:60
 msgid "24h"
 msgstr "24سائەتلىك"
 
-#: src/Plug.vala:61
+#: src/Plug.vala:62
 msgid "Time Zone:"
 msgstr "ۋاقىت رايونى："
 
-#: src/Plug.vala:73
+#: src/Plug.vala:74
 msgid "Show week numbers:"
 msgstr ""
 
-#: src/Plug.vala:273
-msgid "Network Time"
-msgstr "تور ۋاقتى"
-
-#: src/Plug.vala:274
-msgid "Time"
-msgstr "ۋاقىت"
-
 #: src/Plug.vala:275
-msgid "Date"
-msgstr "چىسلا"
+msgid "Time Format"
+msgstr "ۋاقىت فورماتى"
 
 #: src/Plug.vala:276
 msgid "Time Zone"
 msgstr "ۋاقىت رايونى"
 
 #: src/Plug.vala:277
-msgid "Time Format"
-msgstr "ۋاقىت فورماتى"
+msgid "Network Time"
+msgstr "تور ۋاقتى"
+
+#: src/Plug.vala:278
+msgid "Show week numbers"
+msgstr ""
 
 #: src/Widgets/TZPopover.vala:57
 msgid "Africa"
@@ -2652,6 +2648,12 @@ msgstr "ياۋروپا"
 #: src/Widgets/TZPopover.vala:71
 msgid "Indian"
 msgstr "ھىندى ئوكيان"
+
+#~ msgid "Time"
+#~ msgstr "ۋاقىت"
+
+#~ msgid "Date"
+#~ msgstr "چىسلا"
 
 #~ msgid "Pacific/Johnston"
 #~ msgstr "تىنچ ئوكيان/جون ستون"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-11 12:34-0300\n"
+"POT-Creation-Date: 2018-10-09 10:38-0500\n"
 "PO-Revision-Date: 2018-09-03 12:07+0000\n"
 "Last-Translator: Veli-Pekka Samuli Finnilä <vpf@tuta.io>\n"
 "Language-Team: Finnish <https://weblate.elementary.io/projects/switchboard/"
@@ -1563,8 +1563,8 @@ msgstr "Amerikka/Matamoros"
 #: src/Translations.vala:771
 msgid "Central Time US - Coahuila, Nuevo Leon, Tamaulipas (US border)"
 msgstr ""
-"Yhdysvaltain keskinen normaaliaika - Coahuila, Nuevo León, Tamaulipas ("
-"Yhdysvaltain raja)"
+"Yhdysvaltain keskinen normaaliaika - Coahuila, Nuevo León, Tamaulipas "
+"(Yhdysvaltain raja)"
 
 #: src/Translations.vala:773
 msgid "America/Mazatlan"
@@ -2566,45 +2566,42 @@ msgstr "Määritä aika, päivä ja aikavyöhyke"
 msgid "Network Time:"
 msgstr "Verkkoaika:"
 
-#: src/Plug.vala:54
+#: src/Plug.vala:55
 msgid "Time Format:"
 msgstr "Ajan esitysmuoto:"
 
-#: src/Plug.vala:58
+#: src/Plug.vala:59
 msgid "AM/PM"
 msgstr "AM/PM"
 
-#: src/Plug.vala:59
+#: src/Plug.vala:60
 msgid "24h"
 msgstr "24 tuntia"
 
-#: src/Plug.vala:61
+#: src/Plug.vala:62
 msgid "Time Zone:"
 msgstr "Aikavyöhyke:"
 
-#: src/Plug.vala:73
+#: src/Plug.vala:74
 msgid "Show week numbers:"
 msgstr "Näytä viikkonumerot:"
 
-#: src/Plug.vala:273
-msgid "Network Time"
-msgstr "Verkkoaika"
-
-#: src/Plug.vala:274
-msgid "Time"
-msgstr "Aika"
-
 #: src/Plug.vala:275
-msgid "Date"
-msgstr "Päivä"
+msgid "Time Format"
+msgstr "Ajan esitysmuoto"
 
 #: src/Plug.vala:276
 msgid "Time Zone"
 msgstr "Aikavyöhyke"
 
 #: src/Plug.vala:277
-msgid "Time Format"
-msgstr "Ajan esitysmuoto"
+msgid "Network Time"
+msgstr "Verkkoaika"
+
+#: src/Plug.vala:278
+#, fuzzy
+msgid "Show week numbers"
+msgstr "Näytä viikkonumerot:"
 
 #: src/Widgets/TZPopover.vala:57
 msgid "Africa"
@@ -2637,6 +2634,12 @@ msgstr "Eurooppa"
 #: src/Widgets/TZPopover.vala:71
 msgid "Indian"
 msgstr "Intianmeri"
+
+#~ msgid "Time"
+#~ msgstr "Aika"
+
+#~ msgid "Date"
+#~ msgstr "Päivä"
 
 #~ msgid "Pacific/Johnston"
 #~ msgstr "Tyyni_valtameri/Johnston"

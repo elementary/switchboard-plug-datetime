@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-power\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-11 12:34-0300\n"
+"POT-Creation-Date: 2018-10-09 10:38-0500\n"
 "PO-Revision-Date: 2017-08-16 11:46+0000\n"
 "Last-Translator: gogogogi <trebelnik2@gmail.com>\n"
 "Language-Team: Croatian <https://weblate.elementary.io/projects/switchboard/"
@@ -2580,45 +2580,42 @@ msgstr "Prilagodite datum, vrijeme i odaberite vremensku zonu"
 msgid "Network Time:"
 msgstr "Mrežno vrijeme:"
 
-#: src/Plug.vala:54
+#: src/Plug.vala:55
 msgid "Time Format:"
 msgstr "Format vremena:"
 
-#: src/Plug.vala:58
+#: src/Plug.vala:59
 msgid "AM/PM"
 msgstr "AM/PM"
 
-#: src/Plug.vala:59
+#: src/Plug.vala:60
 msgid "24h"
 msgstr "24 satni"
 
-#: src/Plug.vala:61
+#: src/Plug.vala:62
 msgid "Time Zone:"
 msgstr "Vremenska zona:"
 
-#: src/Plug.vala:73
+#: src/Plug.vala:74
 msgid "Show week numbers:"
 msgstr "Prikaži brojeve tjedana:"
 
-#: src/Plug.vala:273
-msgid "Network Time"
-msgstr "Mrežno vrijeme"
-
-#: src/Plug.vala:274
-msgid "Time"
-msgstr "Vrijeme"
-
 #: src/Plug.vala:275
-msgid "Date"
-msgstr "Datum"
+msgid "Time Format"
+msgstr "Format vremena"
 
 #: src/Plug.vala:276
 msgid "Time Zone"
 msgstr "Vremenska zona"
 
 #: src/Plug.vala:277
-msgid "Time Format"
-msgstr "Format vremena"
+msgid "Network Time"
+msgstr "Mrežno vrijeme"
+
+#: src/Plug.vala:278
+#, fuzzy
+msgid "Show week numbers"
+msgstr "Prikaži brojeve tjedana:"
 
 #: src/Widgets/TZPopover.vala:57
 msgid "Africa"
@@ -2651,6 +2648,12 @@ msgstr "Europa"
 #: src/Widgets/TZPopover.vala:71
 msgid "Indian"
 msgstr "Indija"
+
+#~ msgid "Time"
+#~ msgstr "Vrijeme"
+
+#~ msgid "Date"
+#~ msgstr "Datum"
 
 #~ msgid "Pacific/Johnston"
 #~ msgstr "Tihi_ocean/Johnston"
