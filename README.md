@@ -1,6 +1,8 @@
 # Switchboard Date & Time Plug
 [![l10n](https://l10n.elementary.io/widgets/switchboard/switchboard-plug-datetime/svg-badge.svg)](https://l10n.elementary.io/projects/switchboard/switchboard-plug-datetime)
 
+![screenshot](data/screenshot.png?raw=true)
+
 ## Building and Installation
 
 You'll need the following dependencies:
