@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-09 10:38-0500\n"
-"PO-Revision-Date: 2018-07-12 07:26+0000\n"
+"PO-Revision-Date: 2018-10-10 21:13+0000\n"
 "Last-Translator: Kaj Printz Madsen <kajprintz@gmail.com>\n"
 "Language-Team: Danish <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-datetime/da/>\n"
@@ -2597,9 +2597,8 @@ msgid "Network Time"
 msgstr "Netværkstid"
 
 #: src/Plug.vala:278
-#, fuzzy
 msgid "Show week numbers"
-msgstr "Vis uge numre:"
+msgstr "Vis uge numre"
 
 #: src/Widgets/TZPopover.vala:57
 msgid "Africa"
