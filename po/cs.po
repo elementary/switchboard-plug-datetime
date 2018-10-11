@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-power\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-09 10:38-0500\n"
-"PO-Revision-Date: 2018-07-16 08:54+0000\n"
+"PO-Revision-Date: 2018-10-11 17:37+0000\n"
 "Last-Translator: Jan Marek <janmarek28@gmail.com>\n"
 "Language-Team: Czech <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-datetime/cs/>\n"
@@ -2596,9 +2596,8 @@ msgid "Network Time"
 msgstr "Síťový čas"
 
 #: src/Plug.vala:278
-#, fuzzy
 msgid "Show week numbers"
-msgstr "Zobrazit čísla týdnů:"
+msgstr "Zobrazit čísla týdnů"
 
 #: src/Widgets/TZPopover.vala:57
 msgid "Africa"
