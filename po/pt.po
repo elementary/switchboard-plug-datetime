@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-13 17:05-0700\n"
-"PO-Revision-Date: 2018-07-26 17:04+0000\n"
-"Last-Translator: Christophe Silva <Christophesilva80@gmail.com>\n"
+"PO-Revision-Date: 2018-10-15 14:53+0000\n"
+"Last-Translator: Nuno Alexandre MS Ribeiro <nuno.anarresti@gmail.com>\n"
 "Language-Team: Portuguese <https://weblate.elementary.io/projects/"
 "switchboard/switchboard-plug-datetime/pt/>\n"
 "Language: pt\n"
@@ -3228,9 +3228,8 @@ msgid "Network Time"
 msgstr "Hora da Internet"
 
 #: src/Plug.vala:278
-#, fuzzy
 msgid "Show week numbers"
-msgstr "Mostrar números de semana:"
+msgstr "Mostrar números da semana"
 
 #: src/Widgets/TZPopover.vala:57
 msgid "Africa"
