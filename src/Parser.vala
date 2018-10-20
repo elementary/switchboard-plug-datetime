@@ -61,13 +61,25 @@ public class DateTime.Parser : GLib.Object {
             if (value.has_prefix (continent) == false)
                 continue;
 
-            string city = _(items[2]).split ("/", 2)[1];
-            string key = format_city (city);
-            if (items[3] != null && items[3] != "")
-                if (items[3] != "mainland" && items[3] != "most locations" && _(items[3]) != key)
-                    key = "%s - %s".printf (key, format_city (_(items[3])));
+            string tz_name_field;
+            // Take the original English string if there is something wrong with the translation
+            if (_(items[2]) == null || _(items[2]) == "") {
+                tz_name_field = items[2];
+            } else {
+                tz_name_field = _(items[2]);
+            }
 
-            timezones.set (key, value);
+            string city = tz_name_field.split ("/", 2)[1];
+            if (city != null && city != "") {
+                string key = format_city (city);
+                if (items[3] != null && items[3] != "") {
+                    if (items[3] != "mainland" && items[3] != "most locations" && _(items[3]) != key) {
+                        key = "%s - %s".printf (key, format_city (_(items[3])));
+                    }
+                }
+
+                timezones.set (key, value);
+            }
         }
 
         return timezones;
