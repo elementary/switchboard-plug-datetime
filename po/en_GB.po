@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-13 17:05-0700\n"
-"PO-Revision-Date: 2018-04-29 14:19+0000\n"
-"Last-Translator: Ciaran Ainsworth <cda@whistlingkappa.com>\n"
+"PO-Revision-Date: 2018-10-25 08:23+0000\n"
+"Last-Translator: Ciaran Ainsworth <ciaranainsworth@outlook.com>\n"
 "Language-Team: English (United Kingdom) <https://weblate.elementary.io/"
 "projects/switchboard/switchboard-plug-datetime/en_GB/>\n"
 "Language: en_GB\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.18\n"
+"X-Generator: Weblate 3.0.1\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:06+0000\n"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
@@ -97,7 +97,6 @@ msgstr "Antarctica/DumontDUrville"
 
 #. /Translators: Comment for Timezone Antarctica/DumontDUrville
 #: src/Translations.vala:33
-#, fuzzy
 msgid "Dumont-d'Urville"
 msgstr "Dumont-d'Urville"
 
@@ -1033,14 +1032,13 @@ msgstr "Chile (most areas)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:407
-#, fuzzy
 msgid "America/Punta_Arenas"
-msgstr "America/Santarem"
+msgstr "America/Punta_Arenas"
 
 #. /Translators: Comment for Timezone America/Punta_Arenas
 #: src/Translations.vala:409
 msgid "Region of Magallanes"
-msgstr ""
+msgstr "Region of Magallanes"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:411
@@ -1114,21 +1112,18 @@ msgstr "Asia/Nicosia"
 
 #. /Translators: Comment for Timezone Asia/Nicosia
 #: src/Translations.vala:439
-#, fuzzy
 msgid "Cyprus (most areas)"
-msgstr "Central (most areas)"
+msgstr "Cyprus (most areas)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:441
-#, fuzzy
 msgid "Asia/Famagusta"
-msgstr "Asia/Damascus"
+msgstr "Asia/Famagusta"
 
 #. /Translators: Comment for Timezone Asia/Famagusta
 #: src/Translations.vala:443
-#, fuzzy
 msgid "Northern Cyprus"
-msgstr "Northern Territory"
+msgstr "Northern Cyprus"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:445
@@ -1684,21 +1679,18 @@ msgstr "Asia/Aqtau"
 
 #. /Translators: Comment for Timezone Asia/Aqtau
 #: src/Translations.vala:665
-#, fuzzy
 msgid "Mangghystau/Mankistau"
-msgstr "Atyrau/Atirau/Gur'yev, Mangghystau/Mankistau"
+msgstr "Mangghystau/Mankistau"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:667
-#, fuzzy
 msgid "Asia/Atyrau"
-msgstr "Asia/Aqtau"
+msgstr "Asia/Atyrau"
 
 #. /Translators: Comment for Timezone Asia/Atyrau
 #: src/Translations.vala:669
-#, fuzzy
 msgid "Atyrau/Atirau/Gur'yev"
-msgstr "Atyrau/Atirau/Gur'yev, Mangghystau/Mankistau"
+msgstr "Atyrau/Atirau/Gur'yev"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:671
@@ -1827,9 +1819,8 @@ msgstr "Africa/Bamako"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:721
-#, fuzzy
 msgid "Asia/Yangon"
-msgstr "Asia/Rangoon"
+msgstr "Asia/Yangon"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:723
@@ -2328,9 +2319,8 @@ msgstr "Europe/Volgograd"
 
 #. /Translators: Comment for Timezone Europe/Volgograd
 #: src/Translations.vala:921
-#, fuzzy
 msgid "MSK+00 - Volgograd"
-msgstr "MSK+00 - Volgograd, Saratov"
+msgstr "MSK+00 - Volgograd"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:923
@@ -2354,15 +2344,13 @@ msgstr "MSK+01 - Astrakhan"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:931
-#, fuzzy
 msgid "Europe/Saratov"
-msgstr "Europe/Sarajevo"
+msgstr "Europe/Saratov"
 
 #. /Translators: Comment for Timezone Europe/Saratov
 #: src/Translations.vala:933
-#, fuzzy
 msgid "MSK+01 - Saratov"
-msgstr "MSK+00 - Kirov"
+msgstr "MSK+00 - Saratov"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:935
@@ -2411,9 +2399,8 @@ msgstr "Asia/Novosibirsk"
 
 #. /Translators: Comment for Timezone Asia/Novosibirsk
 #: src/Translations.vala:953
-#, fuzzy
 msgid "MSK+04 - Novosibirsk"
-msgstr "MSK+03 - Novosibirsk"
+msgstr "MSK+04 - Novosibirsk"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:955
@@ -3240,9 +3227,8 @@ msgid "Network Time"
 msgstr "Network Time"
 
 #: src/Plug.vala:278
-#, fuzzy
 msgid "Show week numbers"
-msgstr "Show week numbers:"
+msgstr "Show week numbers"
 
 #: src/Widgets/TZPopover.vala:57
 msgid "Africa"
