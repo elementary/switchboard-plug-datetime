@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-13 17:05-0700\n"
-"PO-Revision-Date: 2018-10-24 23:52+0000\n"
+"PO-Revision-Date: 2018-11-02 09:10+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-datetime/ja/>\n"
@@ -1189,7 +1189,7 @@ msgstr "アメリカ/グアヤキル"
 #. /Translators: Comment for Timezone America/Guayaquil
 #: src/Translations.vala:467
 msgid "Ecuador (mainland)"
-msgstr "エクアドル  (本土)"
+msgstr "エクアドル (本土)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:469
