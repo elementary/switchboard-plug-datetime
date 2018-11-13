@@ -46,6 +46,7 @@ public class DateTime.Plug : Switchboard.Plug {
             network_time_label.xalign = 1;
 
             var network_time_switch = new Gtk.Switch ();
+            network_time_switch.valign = Gtk.Align.CENTER;
             network_time_switch.halign = Gtk.Align.START;
 
             var time_picker = new Granite.Widgets.TimePicker ();
@@ -79,6 +80,7 @@ public class DateTime.Plug : Switchboard.Plug {
             week_number_label.xalign = 1;
 
             var week_number_switch = new Gtk.Switch ();
+            week_number_switch.valign = Gtk.Align.CENTER;
             week_number_switch.halign = Gtk.Align.START;
 
             var widget_grid = new Gtk.Grid ();
@@ -311,11 +313,10 @@ public class DateTime.Plug : Switchboard.Plug {
     // 'search' returns results like ("Keyboard → Behavior → Duration", "keyboard<sep>behavior")
     public override async Gee.TreeMap<string, string> search (string search) {
         var search_results = new Gee.TreeMap<string, string> ((GLib.CompareDataFunc<string>)strcmp, (Gee.EqualDataFunc<string>)str_equal);
-        search_results.set ("%s → %s".printf (display_name, _("Network Time")), "");
-        search_results.set ("%s → %s".printf (display_name, _("Time")), "");
-        search_results.set ("%s → %s".printf (display_name, _("Date")), "");
-        search_results.set ("%s → %s".printf (display_name, _("Time Zone")), "");
         search_results.set ("%s → %s".printf (display_name, _("Time Format")), "");
+        search_results.set ("%s → %s".printf (display_name, _("Time Zone")), "");
+        search_results.set ("%s → %s".printf (display_name, _("Network Time")), "");
+        search_results.set ("%s → %s".printf (display_name, _("Show week numbers")), "");
         return search_results;
     }
 }

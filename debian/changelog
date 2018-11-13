@@ -1,3 +1,9 @@
+switchboard-plug-datetime (2.1.4) bionic; urgency=medium
+
+  * New upstream release.
+
+ -- Cody Garver <cody@elementary.io>  Tue, 09 Oct 2018 09:40:28 -0500
+
 switchboard-plug-datetime (0.1.3) bionic; urgency=medium
 
   * New upstream release.

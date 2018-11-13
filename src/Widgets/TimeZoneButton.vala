@@ -30,7 +30,9 @@ public class DateTime.TimeZoneButton : Gtk.Button {
         set {
             var values = value.split ("/", 2);
             continent_label.label = values[0];
-            city_label.label = Parser.format_city (values[1]);
+            if (values.length > 1 && values[1] != null) {
+                city_label.label = Parser.format_city (values[1]);
+            }
 
             popover.set_timezone (value);
         }
@@ -59,7 +61,7 @@ public class DateTime.TimeZoneButton : Gtk.Button {
         popover = new DateTime.TZPopover ();
         popover.relative_to = this;
         popover.position = Gtk.PositionType.BOTTOM;
-        
+
         popover.request_timezone_change.connect ((tz) => {
             request_timezone_change (tz);
         });
