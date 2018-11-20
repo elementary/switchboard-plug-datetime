@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-13 17:05-0700\n"
-"PO-Revision-Date: 2018-11-02 09:10+0000\n"
-"Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
+"PO-Revision-Date: 2018-11-20 09:59+0000\n"
+"Last-Translator: Takumi Nishino <nistak04@yahoo.co.jp>\n"
 "Language-Team: Japanese <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-datetime/ja/>\n"
 "Language: ja\n"
@@ -769,7 +769,7 @@ msgstr "アメリカ/ニピゴン"
 #. /Translators: Comment for Timezone America/Nipigon
 #: src/Translations.vala:301
 msgid "Eastern - ON, QC (no DST 1967-73)"
-msgstr ""
+msgstr "東部 - オンタリオ州、ケベック州 (1967-1973年に夏時間を採用しなかった地域）"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:303
