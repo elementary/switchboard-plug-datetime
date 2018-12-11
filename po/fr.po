@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-datetime\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-13 17:05-0700\n"
-"PO-Revision-Date: 2018-07-17 00:03+0000\n"
+"PO-Revision-Date: 2018-12-15 08:01+0000\n"
 "Last-Translator: Corentin Noël <corentin@elementary.io>\n"
 "Language-Team: French <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-datetime/fr/>\n"
@@ -3227,9 +3227,8 @@ msgid "Network Time"
 msgstr "Heure réseau"
 
 #: src/Plug.vala:278
-#, fuzzy
 msgid "Show week numbers"
-msgstr "Afficher les numéros de semaines :"
+msgstr "Afficher les numéros de semaines"
 
 #: src/Widgets/TZPopover.vala:57
 msgid "Africa"
