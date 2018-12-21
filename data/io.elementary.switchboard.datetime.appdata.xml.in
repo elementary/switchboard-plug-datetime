@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="addon">
-  <id>io.elementary.switchboard-plug-datetime</id>
+  <id>io.elementary.switchboard.datetime</id>
   <extends>io.elementary.switchboard</extends>
   <name>Date &amp; Time Settings</name>
   <summary>Configure date, time, and select time zone</summary>
