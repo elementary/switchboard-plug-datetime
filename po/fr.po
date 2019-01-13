@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-datetime\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-13 17:05-0700\n"
-"PO-Revision-Date: 2019-01-12 00:09+0000\n"
+"PO-Revision-Date: 2019-01-14 00:10+0000\n"
 "Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
 "Language-Team: French <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-datetime/fr/>\n"
@@ -28,7 +28,7 @@ msgstr "Europe/Andorre"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:5
 msgid "Asia/Dubai"
-msgstr "Asie/Dubai"
+msgstr "Asie/Dubaï"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:7
@@ -858,7 +858,7 @@ msgstr "Amérique/Regina"
 #. /Translators: Comment for Timezone America/Regina
 #: src/Translations.vala:337
 msgid "CST - SK (most areas)"
-msgstr "CST - SK (la plupart des régions)"
+msgstr "CST - SK (principales régions)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:339
@@ -948,7 +948,7 @@ msgstr "Amérique/Vancouver"
 #. /Translators: Comment for Timezone America/Vancouver
 #: src/Translations.vala:373
 msgid "Pacific - BC (most areas)"
-msgstr "Pacifique - C.-B. (la plupart des régions)"
+msgstr "Pacifique - C.-B. (principales régions)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:375
@@ -1795,7 +1795,7 @@ msgstr "Pacifique/Majuro"
 #. /Translators: Comment for Timezone Pacific/Majuro
 #: src/Translations.vala:711
 msgid "Marshall Islands (most areas)"
-msgstr "Îles Marshall (la plupart des régions)"
+msgstr "Îles Marshall (principales régions)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:713
@@ -1936,7 +1936,7 @@ msgstr "Amérique/Monterrey"
 #: src/Translations.vala:767
 msgid "Central Time - Durango; Coahuila, Nuevo Leon, Tamaulipas (most areas)"
 msgstr ""
-"Heure du Centre - Durango ; Coahuila, Nuevo Leon, Tamaulipas (la plupart des "
+"Heure du Centre - Durango ; Coahuila, Nuevo Leon, Tamaulipas (principales "
 "régions)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
@@ -1969,7 +1969,7 @@ msgstr "Amérique/Chihuahua"
 #. /Translators: Comment for Timezone America/Chihuahua
 #: src/Translations.vala:779
 msgid "Mountain Time - Chihuahua (most areas)"
-msgstr "Heure des Rocheuses - Chihuahua (la plupart des régions)"
+msgstr "Heure des Rocheuses - Chihuahua (principales régions)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:781
@@ -2809,7 +2809,7 @@ msgstr "Amérique/New_York"
 #. /Translators: Comment for Timezone America/New_York
 #: src/Translations.vala:1115
 msgid "Eastern (most areas)"
-msgstr "Est (la plupart des régions)"
+msgstr "Est (principales régions)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:1117
@@ -2819,7 +2819,7 @@ msgstr "Amérique/Detroit"
 #. /Translators: Comment for Timezone America/Detroit
 #: src/Translations.vala:1119
 msgid "Eastern - MI (most areas)"
-msgstr "Est - MI (la plupart des régions)"
+msgstr "Est - MI (principales régions)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:1121
@@ -2849,7 +2849,7 @@ msgstr "Amérique/Indiana/Indianapolis"
 #. /Translators: Comment for Timezone America/Indiana/Indianapolis
 #: src/Translations.vala:1131
 msgid "Eastern - IN (most areas)"
-msgstr "Est - IN (la plupart des régions)"
+msgstr "Est - IN (principales régions)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:1133
@@ -2909,7 +2909,7 @@ msgstr "Amérique/Chicago"
 #. /Translators: Comment for Timezone America/Chicago
 #: src/Translations.vala:1155
 msgid "Central (most areas)"
-msgstr "Centre (la plupart des régions)"
+msgstr "Centre (principales régions)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:1157
@@ -2979,7 +2979,7 @@ msgstr "Amérique/Denver"
 #. /Translators: Comment for Timezone America/Denver
 #: src/Translations.vala:1183
 msgid "Mountain (most areas)"
-msgstr "Rocheuses (la plupart des régions)"
+msgstr "Rocheuses (principales régions)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:1185
