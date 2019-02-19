@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-13 17:05-0700\n"
-"PO-Revision-Date: 2018-11-02 09:10+0000\n"
+"PO-Revision-Date: 2018-12-02 06:35+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-datetime/ja/>\n"
@@ -528,9 +528,7 @@ msgstr "アメリカ/フォルタレザ"
 #. /Translators: Comment for Timezone America/Fortaleza
 #: src/Translations.vala:207
 msgid "Brazil (northeast: MA, PI, CE, RN, PB)"
-msgstr ""
-"ブラジル (北東部: マラニャン、ピアウイ、セアラー、リオ・グランデ・ド・ノル"
-"テ、パライバ )"
+msgstr "ブラジル (北東部: マラニャン、ピアウイ、セアラー、リオ・グランデ・ド・ノルテ、パライバ )"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:209
@@ -769,7 +767,7 @@ msgstr "アメリカ/ニピゴン"
 #. /Translators: Comment for Timezone America/Nipigon
 #: src/Translations.vala:301
 msgid "Eastern - ON, QC (no DST 1967-73)"
-msgstr ""
+msgstr "東部 - オンタリオ州、ケベック州 (1967-1973 年に夏時間を採用しなかった地域)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:303
@@ -3210,11 +3208,11 @@ msgstr "時刻の書式:"
 
 #: src/Plug.vala:59
 msgid "AM/PM"
-msgstr "午前/午後表示"
+msgstr "午前／午後表示"
 
 #: src/Plug.vala:60
 msgid "24h"
-msgstr "24時間表示"
+msgstr "24 時間表示"
 
 #: src/Plug.vala:62
 msgid "Time Zone:"
