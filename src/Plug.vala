@@ -20,12 +20,15 @@
 
 public class DateTime.Plug : Switchboard.Plug {
     private Gtk.Grid main_grid;
+    private Gtk.Image auto_time_zone_icon;
     private TimeZoneButton time_zone_button;
     private DateTime1 datetime1;
     private TimeMap time_map;
     private CurrentTimeManager ct_manager;
     private Settings clock_settings;
     private bool changing_clock_format = false;
+
+    private static GLib.Settings time_zone_settings;
 
     public Plug () {
         var settings = new Gee.TreeMap<string, string?> (null, null);
@@ -37,6 +40,10 @@ public class DateTime.Plug : Switchboard.Plug {
             description: _("Configure date, time, and select time zone"),
             icon: "preferences-system-time",
             supported_settings: settings);
+    }
+
+    static construct {
+        time_zone_settings = new GLib.Settings ("org.gnome.desktop.datetime");
     }
 
     public override Gtk.Widget get_widget () {
@@ -62,13 +69,29 @@ public class DateTime.Plug : Switchboard.Plug {
             var time_zone_label = new Gtk.Label (_("Time Zone:"));
             time_zone_label.xalign = 1;
 
-            var auto_time_zone_label = new Gtk.Label (_("Automatically update time zone:"));
+            auto_time_zone_icon = new Gtk.Image ();
+            auto_time_zone_icon.gicon = new ThemedIcon ("location-inactive-symbolic");
+            auto_time_zone_icon.pixel_size = 16;
 
-            var auto_time_zone_switch = new Gtk.Switch ();
-            auto_time_zone_switch.halign = Gtk.Align.START;
+            var auto_time_zone_button = new Gtk.ToggleButton ();
+            auto_time_zone_button.image = auto_time_zone_icon;
+            auto_time_zone_button.tooltip_text = _("Automatically update time zone");
+
+            var css_provider = new Gtk.CssProvider ();
+            css_provider.load_from_resource ("/io/elementary/switchboard/plug/datetime/Plug.css");
+
+            var auto_time_zone_button_context = auto_time_zone_button.get_style_context ();
+            auto_time_zone_button_context.add_class ("auto-timezone");
+            auto_time_zone_button_context.add_provider (css_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
 
             time_zone_button = new TimeZoneButton ();
+            time_zone_button.hexpand = true;
             time_zone_button.request_timezone_change.connect (change_tz);
+
+            var time_zone_grid = new Gtk.Grid ();
+            time_zone_grid.get_style_context ().add_class (Gtk.STYLE_CLASS_LINKED);
+            time_zone_grid.add (time_zone_button);
+            time_zone_grid.add (auto_time_zone_button);
 
             time_map = new TimeMap ();
             time_map.expand = true;
@@ -89,10 +112,8 @@ public class DateTime.Plug : Switchboard.Plug {
             widget_grid.row_spacing = 12;
             widget_grid.attach (time_format_label, 0, 0, 1, 1);
             widget_grid.attach (time_format, 1, 0, 3, 1);
-            widget_grid.attach (auto_time_zone_label, 0, 1, 1, 1);
-            widget_grid.attach (auto_time_zone_switch, 1, 1, 1, 1);
             widget_grid.attach (time_zone_label, 0, 2, 1, 1);
-            widget_grid.attach (time_zone_button, 1, 2, 3, 1);
+            widget_grid.attach (time_zone_grid, 1, 2, 3);
             widget_grid.attach (network_time_label, 0, 3, 1, 1);
             widget_grid.attach (network_time_switch, 1, 3, 1, 1);
             widget_grid.attach (time_picker, 2, 3, 1, 1);
@@ -253,24 +274,31 @@ public class DateTime.Plug : Switchboard.Plug {
                 week_number_settings.bind ("show-weeks", week_number_switch, "active", SettingsBindFlags.DEFAULT);
             }
 
-            var auto_time_zone_schema = schema_source.lookup ("org.gnome.desktop.datetime", false);
+            time_zone_settings.bind ("automatic-timezone", auto_time_zone_button, "active", SettingsBindFlags.DEFAULT);
+            time_zone_settings.bind ("automatic-timezone", time_zone_button, "sensitive", SettingsBindFlags.INVERT_BOOLEAN);
+            time_zone_settings.bind ("automatic-timezone", time_zone_label, "sensitive", SettingsBindFlags.INVERT_BOOLEAN);
+            time_zone_settings.bind ("automatic-timezone", time_map, "sensitive", SettingsBindFlags.INVERT_BOOLEAN);
 
-            if (auto_time_zone_schema == null) {
-                auto_time_zone_label.no_show_all = true;
-                auto_time_zone_switch.no_show_all = true;
-            } else {
-                auto_time_zone_switch.bind_property ("active", time_zone_button, "sensitive", BindingFlags.INVERT_BOOLEAN);
-                auto_time_zone_switch.bind_property ("active", time_zone_label, "sensitive", BindingFlags.INVERT_BOOLEAN);
-                auto_time_zone_switch.bind_property ("active", time_map, "sensitive", BindingFlags.INVERT_BOOLEAN);
+            time_zone_settings.changed.connect ((key) => {
+                if (key == "automatic-timezone") {
+                    update_auto_timezone_icon ();
+                }
+            });
 
-                var time_zone_settings = new GLib.Settings ("org.gnome.desktop.datetime");
-                time_zone_settings.bind ("automatic-timezone", auto_time_zone_switch, "active", SettingsBindFlags.DEFAULT);
-            }
+            update_auto_timezone_icon ();
 
             main_grid.show_all ();
         }
 
         return main_grid;
+    }
+
+    private void update_auto_timezone_icon () {
+        if (time_zone_settings.get_boolean ("automatic-timezone")) {
+            auto_time_zone_icon.icon_name = "location-active-symbolic";
+        } else {
+            auto_time_zone_icon.icon_name = "location-inactive-symbolic";
+        }
     }
 
     private void change_tz (string _tz) {

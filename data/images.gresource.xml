@@ -43,6 +43,7 @@
     <file compressed="true">images/timezone_1.png</file>
     <file compressed="true">images/timezone_0.png</file>
     <file compressed="true">images/bg.png</file>
+    <file compressed="true">Plug.css</file>
   </gresource>
 </gresources>
 
