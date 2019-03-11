@@ -24,7 +24,6 @@ public class DateTime.Plug : Switchboard.Plug {
     private DateTime1 datetime1;
     private TimeMap time_map;
     private CurrentTimeManager ct_manager;
-    private Settings clock_settings;
     private bool changing_clock_format = false;
 
     public Plug () {
@@ -164,41 +163,19 @@ public class DateTime.Plug : Switchboard.Plug {
             /*
              * Setup Clock Format
              */
-            clock_settings = new Settings ();
-            Variant value;
-            value = clock_settings.schema.get_value ("clock-format");
-            if (value != null && clock_settings.clock_format == "24h") {
-                time_format.selected = 1;
-            } else {
-                time_format.selected = 0;
-            }
-
-            clock_settings.notify["clock-format"].connect (() => {
-                if (changing_clock_format == true)
-                    return;
-
-                changing_clock_format = true;
-                if (clock_settings.clock_format == "12h") {
-                    time_format.selected = 0;
-                } else {
-                    time_format.selected = 1;
-                }
-                changing_clock_format = false;
-            });
-
-            time_format.mode_changed.connect (() => {
-                if (changing_clock_format == true)
-                    return;
-
-                changing_clock_format = true;
-                if (time_format.selected == 1) {
-                    clock_settings.clock_format = "24h";
-                } else {
-                    clock_settings.clock_format = "12h";
-                }
-
-                changing_clock_format = false;
-            });
+            var clock_settings = new GLib.Settings ("org.gnome.desktop.interface");
+            clock_settings.bind_with_mapping (
+                "clock-format", time_format, "selected",
+                GLib.SettingsBindFlags.DEFAULT|GLib.SettingsBindFlags.GET_NO_CHANGES,
+                (val, variant) => {
+                    val.set_int (variant.get_string ().contains ("12h") ? 0 : 1);
+                    return true;
+                },
+                (val, variant_type) => {
+                    return new GLib.Variant.string (val.get_int () == 0 ? "12h" : "24h");
+                },
+                null, null
+            );
 
             /*
              * Setup Network Time

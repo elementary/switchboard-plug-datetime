@@ -31,13 +31,3 @@ interface DateTime1 : Object {
     public abstract void SetLocalRTC (bool local_rtc, bool fix_system, bool user_interaction) throws IOError;
     public abstract void SetNTP (bool use_ntp, bool user_interaction) throws IOError;
 }
-
-
-public class DateTime.Settings : Granite.Services.Settings {
-
-    public string clock_format { get; set; }
-
-    public Settings () {
-        base ("io.elementary.desktop.wingpanel.datetime");
-    }
-}
