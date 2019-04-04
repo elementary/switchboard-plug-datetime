@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-13 17:05-0700\n"
-"PO-Revision-Date: 2019-03-31 06:52+0000\n"
+"PO-Revision-Date: 2019-04-06 17:52+0000\n"
 "Last-Translator: Ozgur Baskin <bebeto_baskin@yahoo.com>\n"
 "Language-Team: Turkish <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-datetime/tr/>\n"
@@ -3187,11 +3187,11 @@ msgstr "Afrika/Harare"
 
 #: src/Plug.vala:36
 msgid "Date & Time"
-msgstr "Tarih ve Zaman"
+msgstr "Tarih ve Saat"
 
 #: src/Plug.vala:37
 msgid "Configure date, time, and select time zone"
-msgstr "Tarihi, zamanı ayarla ve saat dilimini seç"
+msgstr "Tarihi, saati yapılandırın ve saat dilimini seçin"
 
 #: src/Plug.vala:45
 msgid "Network Time:"
