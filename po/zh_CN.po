@@ -348,7 +348,7 @@ msgstr "澳洲/悉尼"
 #. /Translators: Comment for Timezone Australia/Sydney
 #: src/Translations.vala:133
 msgid "New South Wales (most areas)"
-msgstr ""
+msgstr "新南威尔士州 (之主要地区)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:135
