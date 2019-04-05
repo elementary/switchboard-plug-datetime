@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-13 17:05-0700\n"
 "PO-Revision-Date: 2019-04-05 17:14+0000\n"
-"Last-Translator: 赵昌泰 <teddyzct@outlook.com>\n"
+"Last-Translator: colindemian <colindemian@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
 "switchboard/switchboard-plug-datetime/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -318,7 +318,7 @@ msgstr "澳洲/霍巴特"
 #. /Translators: Comment for Timezone Australia/Hobart
 #: src/Translations.vala:121
 msgid "Tasmania (most areas)"
-msgstr "塔斯马尼亚岛 (之主要地区)"
+msgstr "塔斯马尼亚岛 (主要地区)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:123
