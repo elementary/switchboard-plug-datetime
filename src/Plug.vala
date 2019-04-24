@@ -166,7 +166,7 @@ public class DateTime.Plug : Switchboard.Plug {
             var clock_settings = new GLib.Settings ("org.gnome.desktop.interface");
             clock_settings.bind_with_mapping (
                 "clock-format", time_format, "selected",
-                GLib.SettingsBindFlags.DEFAULT|GLib.SettingsBindFlags.GET_NO_CHANGES,
+                GLib.SettingsBindFlags.DEFAULT | GLib.SettingsBindFlags.GET_NO_CHANGES,
                 (val, variant) => {
                     val.set_int (variant.get_string ().contains ("12h") ? 0 : 1);
                     return true;
