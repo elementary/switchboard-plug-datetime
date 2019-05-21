@@ -24,8 +24,9 @@ public class DateTime.Plug : Switchboard.Plug {
     private DateTime1 datetime1;
     private TimeMap time_map;
     private CurrentTimeManager ct_manager;
-    private Settings clock_settings;
-    private bool changing_clock_format = false;
+    private GLib.Settings clock_settings;
+    private Granite.Widgets.ModeButton time_format;
+    private Greeter.AccountsService? greeter_act = null;
 
     public Plug () {
         var settings = new Gee.TreeMap<string, string?> (null, null);
@@ -55,7 +56,7 @@ public class DateTime.Plug : Switchboard.Plug {
             var time_format_label = new Gtk.Label (_("Time Format:"));
             time_format_label.xalign = 1;
 
-            var time_format = new Granite.Widgets.ModeButton ();
+            time_format = new Granite.Widgets.ModeButton ();
             time_format.append_text (_("AM/PM"));
             time_format.append_text (_("24h"));
 
@@ -164,41 +165,16 @@ public class DateTime.Plug : Switchboard.Plug {
             /*
              * Setup Clock Format
              */
-            clock_settings = new Settings ();
-            Variant value;
-            value = clock_settings.schema.get_value ("clock-format");
-            if (value != null && clock_settings.clock_format == "24h") {
-                time_format.selected = 1;
-            } else {
-                time_format.selected = 0;
-            }
-
-            clock_settings.notify["clock-format"].connect (() => {
-                if (changing_clock_format == true)
-                    return;
-
-                changing_clock_format = true;
-                if (clock_settings.clock_format == "12h") {
-                    time_format.selected = 0;
-                } else {
-                    time_format.selected = 1;
-                }
-                changing_clock_format = false;
-            });
-
+            clock_settings = new GLib.Settings ("org.gnome.desktop.interface");
             time_format.mode_changed.connect (() => {
-                if (changing_clock_format == true)
-                    return;
-
-                changing_clock_format = true;
-                if (time_format.selected == 1) {
-                    clock_settings.clock_format = "24h";
-                } else {
-                    clock_settings.clock_format = "12h";
+                unowned string new_format = time_format.selected == 0 ? "12h" : "24h";
+                clock_settings.set_string ("clock-format", new_format);
+                if (greeter_act != null) {
+                    greeter_act.time_format = new_format;
                 }
-
-                changing_clock_format = false;
             });
+
+            setup_time_format.begin ();
 
             /*
              * Setup Network Time
@@ -230,6 +206,37 @@ public class DateTime.Plug : Switchboard.Plug {
         }
 
         return main_grid;
+    }
+
+    private async void setup_time_format () {
+        try {
+            var accounts_service = yield GLib.Bus.get_proxy<FDO.Accounts> (GLib.BusType.SYSTEM,
+                                                                           "org.freedesktop.Accounts",
+                                                                           "/org/freedesktop/Accounts");
+            var user_path = accounts_service.find_user_by_name (GLib.Environment.get_user_name ());
+
+            greeter_act = yield GLib.Bus.get_proxy (GLib.BusType.SYSTEM,
+                                                    "org.freedesktop.Accounts",
+                                                    user_path,
+                                                    GLib.DBusProxyFlags.GET_INVALIDATED_PROPERTIES);
+            time_format.set_active (greeter_act.time_format == "12h" ? 0 : 1);
+        } catch (Error e) {
+            critical (e.message);
+            // Connect to the GSettings instead
+            clock_settings.changed["clock-format"].connect (() => {
+                if (clock_settings.get_string ("clock-format").contains ("12h")) {
+                    time_format.selected = 0;
+                } else {
+                    time_format.selected = 1;
+                }
+            });
+
+            if (clock_settings.get_string ("clock-format").contains ("12h")) {
+                time_format.selected = 0;
+            } else {
+                time_format.selected = 1;
+            }
+        }
     }
 
     private void change_tz (string _tz) {
