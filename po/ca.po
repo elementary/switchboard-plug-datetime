@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-13 17:05-0700\n"
-"PO-Revision-Date: 2018-10-10 00:02+0000\n"
+"PO-Revision-Date: 2019-05-15 03:02+0000\n"
 "Last-Translator: David M <rbndavid@gmail.com>\n"
-"Language-Team: Catalan <https://weblate.elementary.io/projects/switchboard/"
+"Language-Team: Catalan <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-datetime/ca/>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.0.1\n"
+"X-Generator: Weblate 3.6.1\n"
 "X-Launchpad-Export-Date: 2017-04-05 07:42+0000\n"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
@@ -3189,7 +3189,7 @@ msgstr "Data i hora"
 
 #: src/Plug.vala:37
 msgid "Configure date, time, and select time zone"
-msgstr "Configureu la data, l'hora i seleccioneu la zona horària"
+msgstr "Configureu la data, l'hora i seleccioneu la zona horària."
 
 #: src/Plug.vala:45
 msgid "Network Time:"

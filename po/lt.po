@@ -3,17 +3,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-13 17:05-0700\n"
-"PO-Revision-Date: 2018-10-09 19:18+0000\n"
+"PO-Revision-Date: 2019-05-15 03:03+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
-"Language-Team: Lithuanian <https://weblate.elementary.io/projects/"
-"switchboard/switchboard-plug-datetime/lt/>\n"
+"Language-Team: Lithuanian <https://l10n.elementary.io/projects/switchboard/"
+"switchboard-plug-datetime/lt/>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=n==1 ? 0 : n%10>=2 && (n%100<10 || n"
-"%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3;\n"
-"X-Generator: Weblate 3.0.1\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 0 : n%10>=2 && (n%100<10 || "
+"n%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3;\n"
+"X-Generator: Weblate 3.6.1\n"
 "X-Launchpad-Export-Date: 2017-01-14 06:12+0000\n"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
@@ -3188,7 +3188,7 @@ msgstr "Data ir laikas"
 
 #: src/Plug.vala:37
 msgid "Configure date, time, and select time zone"
-msgstr "Konfigūruoti datą, laiką ir pasirinkti laiko juostą"
+msgstr "Konfigūruoti datą, laiką bei pasirinkti laiko juostą"
 
 #: src/Plug.vala:45
 msgid "Network Time:"
