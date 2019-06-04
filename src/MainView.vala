@@ -204,11 +204,7 @@ public class DateTime.MainView : Gtk.Grid {
         time_zone_settings.bind ("automatic-timezone", time_zone_button, "sensitive", SettingsBindFlags.INVERT_BOOLEAN);
         time_zone_settings.bind ("automatic-timezone", time_zone_label, "sensitive", SettingsBindFlags.INVERT_BOOLEAN);
 
-        time_zone_settings.changed["automatic-timezone"].connect ((key) => {
-            if (key == "automatic-timezone") {
-                update_auto_timezone_icon ();
-            }
-        });
+        time_zone_settings.changed["automatic-timezone"].connect (update_auto_timezone_icon);
 
         update_auto_timezone_icon ();
     }
