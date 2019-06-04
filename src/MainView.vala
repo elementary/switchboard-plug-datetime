@@ -18,12 +18,29 @@
  */
 
 public class DateTime.MainView : Gtk.Grid {
+    private Gtk.Image auto_time_zone_icon;
     private TimeZoneButton time_zone_button;
     private DateTime1 datetime1;
     private CurrentTimeManager ct_manager;
     private GLib.Settings clock_settings;
     private Granite.Widgets.ModeButton time_format;
     private Greeter.AccountsService? greeter_act = null;
+
+    private static GLib.Settings time_zone_settings;
+
+    public bool automatic_timezone {
+        set {
+            if (value) {
+                auto_time_zone_icon.icon_name = "location-active-symbolic";
+            } else {
+                auto_time_zone_icon.icon_name = "location-inactive-symbolic";
+            }
+        }
+    }
+
+    static construct {
+        time_zone_settings = new GLib.Settings ("org.gnome.desktop.datetime");
+    }
 
     construct {
         var network_time_label = new Gtk.Label (_("Network Time:"));
@@ -46,8 +63,29 @@ public class DateTime.MainView : Gtk.Grid {
         var time_zone_label = new Gtk.Label (_("Time Zone:"));
         time_zone_label.xalign = 1;
 
+        auto_time_zone_icon = new Gtk.Image ();
+        auto_time_zone_icon.gicon = new ThemedIcon ("location-inactive-symbolic");
+        auto_time_zone_icon.pixel_size = 16;
+
+        var auto_time_zone_button = new Gtk.ToggleButton ();
+        auto_time_zone_button.image = auto_time_zone_icon;
+        auto_time_zone_button.tooltip_text = _("Automatically update time zone");
+
+        var css_provider = new Gtk.CssProvider ();
+        css_provider.load_from_resource ("/io/elementary/switchboard/plug/datetime/Plug.css");
+
+        var auto_time_zone_button_context = auto_time_zone_button.get_style_context ();
+        auto_time_zone_button_context.add_class ("auto-timezone");
+        auto_time_zone_button_context.add_provider (css_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
+
         time_zone_button = new TimeZoneButton ();
+        time_zone_button.hexpand = true;
         time_zone_button.request_timezone_change.connect (change_tz);
+
+        var time_zone_grid = new Gtk.Grid ();
+        time_zone_grid.get_style_context ().add_class (Gtk.STYLE_CLASS_LINKED);
+        time_zone_grid.add (time_zone_button);
+        time_zone_grid.add (auto_time_zone_button);
 
         var week_number_label = new Gtk.Label (_("Show week numbers:"));
         week_number_label.xalign = 1;
@@ -61,7 +99,7 @@ public class DateTime.MainView : Gtk.Grid {
         attach (time_format_label, 0, 0);
         attach (time_format, 1, 0, 3);
         attach (time_zone_label, 0, 1);
-        attach (time_zone_button, 1, 1, 3);
+        attach (time_zone_grid, 1, 1, 3);
         attach (network_time_label, 0, 2);
         attach (network_time_switch, 1, 2);
         attach (week_number_label, 0, 3);
@@ -171,6 +209,11 @@ public class DateTime.MainView : Gtk.Grid {
 
         network_time_switch.active = datetime1.NTP;
         change_tz (datetime1.Timezone);
+
+        time_zone_settings.bind ("automatic-timezone", auto_time_zone_button, "active", SettingsBindFlags.DEFAULT);
+        time_zone_settings.bind ("automatic-timezone", time_zone_button, "sensitive", SettingsBindFlags.INVERT_BOOLEAN);
+        time_zone_settings.bind ("automatic-timezone", time_zone_label, "sensitive", SettingsBindFlags.INVERT_BOOLEAN);
+        time_zone_settings.bind ("automatic-timezone", this, "automatic-timezone", SettingsBindFlags.GET);
     }
 
     private async void setup_time_format () {
