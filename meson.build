@@ -20,12 +20,6 @@ if (get_option('regenerate_translation'))
     )
 endif
 
-plug_resources = gnome.compile_resources(
-    'plug_resources',
-    'data/images.gresource.xml',
-    source_dir: 'data'
-)
-
 subdir('data')
 subdir('src')
 subdir('po')

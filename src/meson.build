@@ -4,8 +4,7 @@ plug_files = files(
     'DateTime1.vala',
     'CurrentTimeManager.vala',
     'Widgets/TZPopover.vala',
-    'Widgets/TimeZoneButton.vala',
-    'Widgets/TimeMap.vala'
+    'Widgets/TimeZoneButton.vala'
 )
 
 switchboard_dep = dependency('switchboard-2.0')
@@ -13,7 +12,6 @@ switchboard_dep = dependency('switchboard-2.0')
 shared_module(
     meson.project_name(),
     plug_files,
-    plug_resources,
     dependencies: [
         dependency('glib-2.0'),
         dependency('gio-2.0'),
