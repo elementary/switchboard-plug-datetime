@@ -212,7 +212,6 @@ public class DateTime.MainView : Gtk.Grid {
         network_time_switch.active = datetime1.NTP;
         change_tz (datetime1.Timezone);
 
-        time_zone_settings.bind ("automatic-timezone", auto_time_zone_button, "active", SettingsBindFlags.DEFAULT);
         time_zone_settings.bind ("automatic-timezone", time_zone_grid, "sensitive", SettingsBindFlags.INVERT_BOOLEAN);
         time_zone_settings.bind ("automatic-timezone", time_zone_label, "sensitive", SettingsBindFlags.INVERT_BOOLEAN);
         time_zone_settings.bind ("automatic-timezone", this, "automatic-timezone", SettingsBindFlags.GET);
