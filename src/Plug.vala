@@ -117,17 +117,6 @@ public class DateTime.Plug : Switchboard.Plug {
             main_grid.attach (date_picker, 3, 2);
             main_grid.show_all ();
 
-            var source = SettingsSchemaSource.get_default ();
-            var schema = source.lookup ("io.elementary.desktop.wingpanel.datetime", false);
-
-            if (schema == null) {
-                week_number_label.no_show_all = true;
-                week_number_switch.no_show_all = true;
-            } else {
-                var week_number_settings = new GLib.Settings ("io.elementary.desktop.wingpanel.datetime");
-                week_number_settings.bind ("show-weeks", week_number_switch, "active", SettingsBindFlags.DEFAULT);
-            }
-
             bool syncing_datetime = false;
             /*
              * Setup Time
