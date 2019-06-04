@@ -20,7 +20,7 @@
 
 public class DateTime.Plug : Switchboard.Plug {
     private Gtk.Grid main_grid;
-    private TimeZoneButton time_zone_button;
+    private TimeZoneGrid time_zone_picker;
     private DateTime1 datetime1;
     private CurrentTimeManager ct_manager;
     private GLib.Settings clock_settings;
@@ -61,9 +61,10 @@ public class DateTime.Plug : Switchboard.Plug {
 
             var time_zone_label = new Gtk.Label (_("Time Zone:"));
             time_zone_label.xalign = 1;
+            time_zone_label.valign = Gtk.Align.START;
 
-            time_zone_button = new TimeZoneButton ();
-            time_zone_button.request_timezone_change.connect (change_tz);
+            time_zone_picker = new DateTime.TimeZoneGrid ();
+            time_zone_picker.request_timezone_change.connect (change_tz);
 
             var week_number_label = new Gtk.Label (_("Show week numbers:"));
             week_number_label.xalign = 1;
@@ -80,7 +81,7 @@ public class DateTime.Plug : Switchboard.Plug {
             main_grid.attach (time_format_label, 0, 0);
             main_grid.attach (time_format, 1, 0, 3);
             main_grid.attach (time_zone_label, 0, 1);
-            main_grid.attach (time_zone_button, 1, 1, 3);
+            main_grid.attach (time_zone_picker, 1, 1, 3);
             main_grid.attach (network_time_label, 0, 2);
             main_grid.attach (network_time_switch, 1, 2);
             main_grid.attach (week_number_label, 0, 3);
@@ -230,7 +231,7 @@ public class DateTime.Plug : Switchboard.Plug {
         var tz = _(_tz);
         var english_tz = _tz;
 
-        time_zone_button.time_zone = tz;
+        time_zone_picker.time_zone = tz;
 
         if (datetime1.Timezone != english_tz) {
             try {
