@@ -22,7 +22,6 @@ public class DateTime.Plug : Switchboard.Plug {
     private Gtk.Grid main_grid;
     private TimeZoneButton time_zone_button;
     private DateTime1 datetime1;
-    private TimeMap time_map;
     private CurrentTimeManager ct_manager;
     private GLib.Settings clock_settings;
     private Granite.Widgets.ModeButton time_format;
@@ -66,12 +65,6 @@ public class DateTime.Plug : Switchboard.Plug {
             time_zone_button = new TimeZoneButton ();
             time_zone_button.request_timezone_change.connect (change_tz);
 
-            time_map = new TimeMap ();
-            time_map.expand = true;
-            time_map.map_selected.connect ((tz) => {
-                change_tz (tz);
-            });
-
             var week_number_label = new Gtk.Label (_("Show week numbers:"));
             week_number_label.xalign = 1;
 
@@ -79,20 +72,22 @@ public class DateTime.Plug : Switchboard.Plug {
             week_number_switch.valign = Gtk.Align.CENTER;
             week_number_switch.halign = Gtk.Align.START;
 
-            var widget_grid = new Gtk.Grid ();
-            widget_grid.halign = Gtk.Align.CENTER;
-            widget_grid.column_spacing = 12;
-            widget_grid.row_spacing = 12;
-            widget_grid.attach (time_format_label, 0, 0, 1, 1);
-            widget_grid.attach (time_format, 1, 0, 3, 1);
-            widget_grid.attach (time_zone_label, 0, 1, 1, 1);
-            widget_grid.attach (time_zone_button, 1, 1, 3, 1);
-            widget_grid.attach (network_time_label, 0, 2, 1, 1);
-            widget_grid.attach (network_time_switch, 1, 2, 1, 1);
-            widget_grid.attach (week_number_label, 0, 3, 1, 1);
-            widget_grid.attach (week_number_switch, 1, 3, 1, 1);
-            widget_grid.attach (time_picker, 2, 2, 1, 1);
-            widget_grid.attach (date_picker, 3, 2, 1, 1);
+            main_grid = new Gtk.Grid ();
+            main_grid.margin = 24;
+            main_grid.halign = Gtk.Align.CENTER;
+            main_grid.column_spacing = 12;
+            main_grid.row_spacing = 12;
+            main_grid.attach (time_format_label, 0, 0);
+            main_grid.attach (time_format, 1, 0, 3);
+            main_grid.attach (time_zone_label, 0, 1);
+            main_grid.attach (time_zone_button, 1, 1, 3);
+            main_grid.attach (network_time_label, 0, 2);
+            main_grid.attach (network_time_switch, 1, 2);
+            main_grid.attach (week_number_label, 0, 3);
+            main_grid.attach (week_number_switch, 1, 3);
+            main_grid.attach (time_picker, 2, 2);
+            main_grid.attach (date_picker, 3, 2);
+            main_grid.show_all ();
 
             var source = SettingsSchemaSource.get_default ();
             var schema = source.lookup ("io.elementary.desktop.wingpanel.datetime", false);
@@ -104,14 +99,6 @@ public class DateTime.Plug : Switchboard.Plug {
                 var week_number_settings = new GLib.Settings ("io.elementary.desktop.wingpanel.datetime");
                 week_number_settings.bind ("show-weeks", week_number_switch, "active", SettingsBindFlags.DEFAULT);
             }
-
-            main_grid = new Gtk.Grid ();
-            main_grid.row_spacing = 24;
-            main_grid.margin = 24;
-            main_grid.attach (time_map, 0, 0, 1, 1);
-            main_grid.attach (widget_grid, 0, 1, 1, 1);
-
-            main_grid.show_all ();
 
             bool syncing_datetime = false;
             /*
@@ -258,10 +245,9 @@ public class DateTime.Plug : Switchboard.Plug {
 
         float offset = (float)(local_time.get_utc_offset ())/(float)(GLib.TimeSpan.HOUR);
 
-        if (local_time.is_daylight_savings ())
+        if (local_time.is_daylight_savings ()) {
             offset--;
-
-        time_map.switch_to_tz (offset);
+        }
     }
 
     public override void shown () {
