@@ -30,7 +30,7 @@ public class DateTime.MainView : Gtk.Grid {
 
     public bool automatic_timezone {
         set {
-            if (value == true) {
+            if (value) {
                 auto_time_zone_icon.icon_name = "location-active-symbolic";
             } else {
                 auto_time_zone_icon.icon_name = "location-inactive-symbolic";
