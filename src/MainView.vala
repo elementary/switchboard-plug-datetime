@@ -28,6 +28,16 @@ public class DateTime.MainView : Gtk.Grid {
 
     private static GLib.Settings time_zone_settings;
 
+    public bool automatic_timezone {
+        set {
+            if (value == true) {
+                auto_time_zone_icon.icon_name = "location-active-symbolic";
+            } else {
+                auto_time_zone_icon.icon_name = "location-inactive-symbolic";
+            }
+        }
+    }
+
     static construct {
         time_zone_settings = new GLib.Settings ("org.gnome.desktop.datetime");
     }
@@ -203,18 +213,7 @@ public class DateTime.MainView : Gtk.Grid {
         time_zone_settings.bind ("automatic-timezone", auto_time_zone_button, "active", SettingsBindFlags.DEFAULT);
         time_zone_settings.bind ("automatic-timezone", time_zone_button, "sensitive", SettingsBindFlags.INVERT_BOOLEAN);
         time_zone_settings.bind ("automatic-timezone", time_zone_label, "sensitive", SettingsBindFlags.INVERT_BOOLEAN);
-
-        time_zone_settings.changed["automatic-timezone"].connect (update_auto_timezone_icon);
-
-        update_auto_timezone_icon ();
-    }
-
-    private void update_auto_timezone_icon () {
-        if (time_zone_settings.get_boolean ("automatic-timezone")) {
-            auto_time_zone_icon.icon_name = "location-active-symbolic";
-        } else {
-            auto_time_zone_icon.icon_name = "location-inactive-symbolic";
-        }
+        time_zone_settings.bind ("automatic-timezone", this, "automatic-timezone", SettingsBindFlags.GET);
     }
 
     private async void setup_time_format () {
