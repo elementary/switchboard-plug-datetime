@@ -1,8 +1,8 @@
-src/Translations.vala
-src/Plug.vala
-src/Parser.vala
-src/DateTime1.vala
 src/CurrentTimeManager.vala
-src/Widgets/TZPopover.vala
+src/DateTime1.vala
+src/MainView.vala
+src/Parser.vala
+src/Plug.vala
+src/Translations.vala
 src/Widgets/TimeZoneButton.vala
-src/Widgets/TimeMap.vala
+src/Widgets/TZPopover.vala
