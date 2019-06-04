@@ -1,4 +1,5 @@
 plug_files = files(
+    'MainView.vala',
     'Plug.vala',
     'MainView.vala',
     'Parser.vala',
