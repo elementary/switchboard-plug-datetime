@@ -148,7 +148,6 @@ public class DateTime.TimeZoneGrid : Gtk.Grid {
             model.get_value (iter, 1, out value);
             if (values[0] == value.get_string ()) {
                 continent_view.get_selection ().select_iter (iter);
-                city_view.scroll_to_cell (city_list_store.get_path (iter), null, false, 0, 0);
                 return true;
             }
 
