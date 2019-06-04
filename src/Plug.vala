@@ -23,10 +23,10 @@ public class DateTime.Plug : Switchboard.Plug {
     private Gtk.Image auto_time_zone_icon;
     private TimeZoneButton time_zone_button;
     private DateTime1 datetime1;
-    private TimeMap time_map;
     private CurrentTimeManager ct_manager;
-    private Settings clock_settings;
-    private bool changing_clock_format = false;
+    private GLib.Settings clock_settings;
+    private Granite.Widgets.ModeButton time_format;
+    private Greeter.AccountsService? greeter_act = null;
 
     private static GLib.Settings time_zone_settings;
 
@@ -62,7 +62,7 @@ public class DateTime.Plug : Switchboard.Plug {
             var time_format_label = new Gtk.Label (_("Time Format:"));
             time_format_label.xalign = 1;
 
-            var time_format = new Granite.Widgets.ModeButton ();
+            time_format = new Granite.Widgets.ModeButton ();
             time_format.append_text (_("AM/PM"));
             time_format.append_text (_("24h"));
 
@@ -93,12 +93,6 @@ public class DateTime.Plug : Switchboard.Plug {
             time_zone_grid.add (time_zone_button);
             time_zone_grid.add (auto_time_zone_button);
 
-            time_map = new TimeMap ();
-            time_map.expand = true;
-            time_map.map_selected.connect ((tz) => {
-                change_tz (tz);
-            });
-
             var week_number_label = new Gtk.Label (_("Show week numbers:"));
             week_number_label.xalign = 1;
 
@@ -106,28 +100,22 @@ public class DateTime.Plug : Switchboard.Plug {
             week_number_switch.valign = Gtk.Align.CENTER;
             week_number_switch.halign = Gtk.Align.START;
 
-            var widget_grid = new Gtk.Grid ();
-            widget_grid.halign = Gtk.Align.CENTER;
-            widget_grid.column_spacing = 12;
-            widget_grid.row_spacing = 12;
-            widget_grid.attach (time_format_label, 0, 0, 1, 1);
-            widget_grid.attach (time_format, 1, 0, 3, 1);
-            widget_grid.attach (time_zone_label, 0, 2, 1, 1);
-            widget_grid.attach (time_zone_grid, 1, 2, 3);
-            widget_grid.attach (network_time_label, 0, 3, 1, 1);
-            widget_grid.attach (network_time_switch, 1, 3, 1, 1);
-            widget_grid.attach (time_picker, 2, 3, 1, 1);
-            widget_grid.attach (date_picker, 3, 3, 1, 1);
-            widget_grid.attach (week_number_label, 0, 4, 1, 1);
-            widget_grid.attach (week_number_switch, 1, 4, 1, 1);
-            widget_grid.attach (time_zone_label, 0, 1, 1, 1);
-            widget_grid.attach (time_zone_button, 1, 1, 3, 1);
-            widget_grid.attach (network_time_label, 0, 2, 1, 1);
-            widget_grid.attach (network_time_switch, 1, 2, 1, 1);
-            widget_grid.attach (week_number_label, 0, 3, 1, 1);
-            widget_grid.attach (week_number_switch, 1, 3, 1, 1);
-            widget_grid.attach (time_picker, 2, 2, 1, 1);
-            widget_grid.attach (date_picker, 3, 2, 1, 1);
+            main_grid = new Gtk.Grid ();
+            main_grid.margin = 24;
+            main_grid.halign = Gtk.Align.CENTER;
+            main_grid.column_spacing = 12;
+            main_grid.row_spacing = 12;
+            main_grid.attach (time_format_label, 0, 0);
+            main_grid.attach (time_format, 1, 0, 3);
+            main_grid.attach (time_zone_label, 0, 1);
+            main_grid.attach (time_zone_grid, 1, 1, 3);
+            main_grid.attach (network_time_label, 0, 2);
+            main_grid.attach (network_time_switch, 1, 2);
+            main_grid.attach (week_number_label, 0, 3);
+            main_grid.attach (week_number_switch, 1, 3);
+            main_grid.attach (time_picker, 2, 2);
+            main_grid.attach (date_picker, 3, 2);
+            main_grid.show_all ();
 
             var source = SettingsSchemaSource.get_default ();
             var schema = source.lookup ("io.elementary.desktop.wingpanel.datetime", false);
@@ -139,12 +127,6 @@ public class DateTime.Plug : Switchboard.Plug {
                 var week_number_settings = new GLib.Settings ("io.elementary.desktop.wingpanel.datetime");
                 week_number_settings.bind ("show-weeks", week_number_switch, "active", SettingsBindFlags.DEFAULT);
             }
-            
-            main_grid = new Gtk.Grid ();
-            main_grid.row_spacing = 24;
-            main_grid.margin = 24;
-            main_grid.attach (time_map, 0, 0, 1, 1);
-            main_grid.attach (widget_grid, 0, 1, 1, 1);
 
             bool syncing_datetime = false;
             /*
@@ -198,41 +180,16 @@ public class DateTime.Plug : Switchboard.Plug {
             /*
              * Setup Clock Format
              */
-            clock_settings = new Settings ();
-            Variant value;
-            value = clock_settings.schema.get_value ("clock-format");
-            if (value != null && clock_settings.clock_format == "24h") {
-                time_format.selected = 1;
-            } else {
-                time_format.selected = 0;
-            }
-
-            clock_settings.notify["clock-format"].connect (() => {
-                if (changing_clock_format == true)
-                    return;
-
-                changing_clock_format = true;
-                if (clock_settings.clock_format == "12h") {
-                    time_format.selected = 0;
-                } else {
-                    time_format.selected = 1;
-                }
-                changing_clock_format = false;
-            });
-
+            clock_settings = new GLib.Settings ("org.gnome.desktop.interface");
             time_format.mode_changed.connect (() => {
-                if (changing_clock_format == true)
-                    return;
-
-                changing_clock_format = true;
-                if (time_format.selected == 1) {
-                    clock_settings.clock_format = "24h";
-                } else {
-                    clock_settings.clock_format = "12h";
+                unowned string new_format = time_format.selected == 0 ? "12h" : "24h";
+                clock_settings.set_string ("clock-format", new_format);
+                if (greeter_act != null) {
+                    greeter_act.time_format = new_format;
                 }
-
-                changing_clock_format = false;
             });
+
+            setup_time_format.begin ();
 
             /*
              * Setup Network Time
@@ -277,7 +234,6 @@ public class DateTime.Plug : Switchboard.Plug {
             time_zone_settings.bind ("automatic-timezone", auto_time_zone_button, "active", SettingsBindFlags.DEFAULT);
             time_zone_settings.bind ("automatic-timezone", time_zone_button, "sensitive", SettingsBindFlags.INVERT_BOOLEAN);
             time_zone_settings.bind ("automatic-timezone", time_zone_label, "sensitive", SettingsBindFlags.INVERT_BOOLEAN);
-            time_zone_settings.bind ("automatic-timezone", time_map, "sensitive", SettingsBindFlags.INVERT_BOOLEAN);
 
             time_zone_settings.changed.connect ((key) => {
                 if (key == "automatic-timezone") {
@@ -293,11 +249,43 @@ public class DateTime.Plug : Switchboard.Plug {
         return main_grid;
     }
 
+
     private void update_auto_timezone_icon () {
         if (time_zone_settings.get_boolean ("automatic-timezone")) {
             auto_time_zone_icon.icon_name = "location-active-symbolic";
         } else {
             auto_time_zone_icon.icon_name = "location-inactive-symbolic";
+        }
+    }
+
+    private async void setup_time_format () {
+        try {
+            var accounts_service = yield GLib.Bus.get_proxy<FDO.Accounts> (GLib.BusType.SYSTEM,
+                                                                           "org.freedesktop.Accounts",
+                                                                           "/org/freedesktop/Accounts");
+            var user_path = accounts_service.find_user_by_name (GLib.Environment.get_user_name ());
+
+            greeter_act = yield GLib.Bus.get_proxy (GLib.BusType.SYSTEM,
+                                                    "org.freedesktop.Accounts",
+                                                    user_path,
+                                                    GLib.DBusProxyFlags.GET_INVALIDATED_PROPERTIES);
+            time_format.set_active (greeter_act.time_format == "12h" ? 0 : 1);
+        } catch (Error e) {
+            critical (e.message);
+            // Connect to the GSettings instead
+            clock_settings.changed["clock-format"].connect (() => {
+                if (clock_settings.get_string ("clock-format").contains ("12h")) {
+                    time_format.selected = 0;
+                } else {
+                    time_format.selected = 1;
+                }
+            });
+
+            if (clock_settings.get_string ("clock-format").contains ("12h")) {
+                time_format.selected = 0;
+            } else {
+                time_format.selected = 1;
+            }
         }
     }
 
@@ -320,10 +308,9 @@ public class DateTime.Plug : Switchboard.Plug {
 
         float offset = (float)(local_time.get_utc_offset ())/(float)(GLib.TimeSpan.HOUR);
 
-        if (local_time.is_daylight_savings ())
+        if (local_time.is_daylight_savings ()) {
             offset--;
-
-        time_map.switch_to_tz (offset);
+        }
     }
 
     public override void shown () {

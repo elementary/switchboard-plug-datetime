@@ -22,7 +22,7 @@ endif
 
 plug_resources = gnome.compile_resources(
     'plug_resources',
-    'data/images.gresource.xml',
+    'data/datetime.gresource.xml',
     source_dir: 'data'
 )
 

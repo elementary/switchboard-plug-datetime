@@ -3,9 +3,9 @@ plug_files = files(
     'Parser.vala',
     'DateTime1.vala',
     'CurrentTimeManager.vala',
+    'GreeterAccountsServicePlugin.vala',
     'Widgets/TZPopover.vala',
-    'Widgets/TimeZoneButton.vala',
-    'Widgets/TimeMap.vala'
+    'Widgets/TimeZoneButton.vala'
 )
 
 switchboard_dep = dependency('switchboard-2.0')
