@@ -79,6 +79,7 @@ public class DateTime.MainView : Gtk.Grid {
 
         var auto_time_zone_button_context = auto_time_zone_button.get_style_context ();
         auto_time_zone_button_context.add_class ("auto-timezone");
+        auto_time_zone_button_context.add_class ("unrounded");
         auto_time_zone_button_context.add_provider (css_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
 
         time_zone_picker = new DateTime.TimeZoneGrid ();
@@ -86,6 +87,8 @@ public class DateTime.MainView : Gtk.Grid {
         time_zone_picker.request_timezone_change.connect (change_tz);
 
         var time_zone_grid = new Gtk.Grid ();
+        var time_zone_grid_context = time_zone_grid.get_style_context ();
+        time_zone_grid_context.add_class ("frame");
         time_zone_grid.attach (time_zone_picker, 0, 0);
         time_zone_grid.attach (auto_time_zone_button, 0, 1);
 
