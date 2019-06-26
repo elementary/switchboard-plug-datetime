@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-13 17:05-0700\n"
+"POT-Creation-Date: 2019-06-26 22:44+0200\n"
 "PO-Revision-Date: 2018-06-12 07:32+0000\n"
 "Last-Translator: Silviu Deaconu <silviu.deaconu@gmail.com>\n"
 "Language-Team: Romanian <https://weblate.elementary.io/projects/switchboard/"
@@ -20,6 +20,59 @@ msgstr ""
 "20)) ? 1 : 2;\n"
 "X-Generator: Weblate 2.18\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:05+0000\n"
+
+#: src/MainView.vala:46
+msgid "Network Time:"
+msgstr "Ora rețelei:"
+
+#: src/MainView.vala:56
+msgid "Time Format:"
+msgstr "Formatul orei:"
+
+#: src/MainView.vala:60
+msgid "AM/PM"
+msgstr "AM/PM"
+
+#: src/MainView.vala:61
+msgid "24h"
+msgstr "24 de ore"
+
+#: src/MainView.vala:63
+msgid "Time Zone:"
+msgstr "Fus orar:"
+
+#: src/MainView.vala:72
+msgid "Automatically update time zone"
+msgstr ""
+
+#: src/MainView.vala:90
+msgid "Show week numbers:"
+msgstr "Arată numărul săptămânii"
+
+#: src/Plug.vala:29
+msgid "Date & Time"
+msgstr "Data și ora"
+
+#: src/Plug.vala:30
+msgid "Configure date, time, and select time zone"
+msgstr "Setează data, ora si selectează fusul orar"
+
+#: src/Plug.vala:57
+msgid "Time Format"
+msgstr "Format oră"
+
+#: src/Plug.vala:58
+msgid "Time Zone"
+msgstr "Fus orar"
+
+#: src/Plug.vala:59
+msgid "Network Time"
+msgstr "Ora rețelei"
+
+#: src/Plug.vala:60
+#, fuzzy
+msgid "Show week numbers"
+msgstr "Arată numărul săptămânii"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:3
@@ -3198,55 +3251,6 @@ msgstr "Africa/Lusaka"
 #: src/Translations.vala:1265
 msgid "Africa/Harare"
 msgstr "Africa/Harare"
-
-#: src/Plug.vala:36
-msgid "Date & Time"
-msgstr "Data și ora"
-
-#: src/Plug.vala:37
-msgid "Configure date, time, and select time zone"
-msgstr "Setează data, ora si selectează fusul orar"
-
-#: src/Plug.vala:45
-msgid "Network Time:"
-msgstr "Ora rețelei:"
-
-#: src/Plug.vala:55
-msgid "Time Format:"
-msgstr "Formatul orei:"
-
-#: src/Plug.vala:59
-msgid "AM/PM"
-msgstr "AM/PM"
-
-#: src/Plug.vala:60
-msgid "24h"
-msgstr "24 de ore"
-
-#: src/Plug.vala:62
-msgid "Time Zone:"
-msgstr "Fus orar:"
-
-#: src/Plug.vala:74
-msgid "Show week numbers:"
-msgstr "Arată numărul săptămânii"
-
-#: src/Plug.vala:275
-msgid "Time Format"
-msgstr "Format oră"
-
-#: src/Plug.vala:276
-msgid "Time Zone"
-msgstr "Fus orar"
-
-#: src/Plug.vala:277
-msgid "Network Time"
-msgstr "Ora rețelei"
-
-#: src/Plug.vala:278
-#, fuzzy
-msgid "Show week numbers"
-msgstr "Arată numărul săptămânii"
 
 #: src/Widgets/TZPopover.vala:57
 msgid "Africa"

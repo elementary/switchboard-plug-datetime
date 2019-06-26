@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: timezones.tip\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-13 17:05-0700\n"
+"POT-Creation-Date: 2019-06-26 22:44+0200\n"
 "PO-Revision-Date: 2018-10-09 15:46+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://weblate.elementary.io/projects/switchboard/"
@@ -20,6 +20,58 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Weblate 3.0.1\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:04+0000\n"
+
+#: src/MainView.vala:46
+msgid "Network Time:"
+msgstr "שעה מהרשת:"
+
+#: src/MainView.vala:56
+msgid "Time Format:"
+msgstr "תבנית הזמן:"
+
+#: src/MainView.vala:60
+msgid "AM/PM"
+msgstr "AM/PM"
+
+#: src/MainView.vala:61
+msgid "24h"
+msgstr "24 שע׳"
+
+#: src/MainView.vala:63
+msgid "Time Zone:"
+msgstr "אזור זמן:"
+
+#: src/MainView.vala:72
+msgid "Automatically update time zone"
+msgstr ""
+
+#: src/MainView.vala:90
+msgid "Show week numbers:"
+msgstr "הצגת מספרי השבועות:"
+
+#: src/Plug.vala:29
+msgid "Date & Time"
+msgstr "תאריך ושעה"
+
+#: src/Plug.vala:30
+msgid "Configure date, time, and select time zone"
+msgstr "הגדרת התאריך, השעה ובחירה באזור זמן"
+
+#: src/Plug.vala:57
+msgid "Time Format"
+msgstr "תבנית הזמן"
+
+#: src/Plug.vala:58
+msgid "Time Zone"
+msgstr "אזור זמן"
+
+#: src/Plug.vala:59
+msgid "Network Time"
+msgstr "שעה מהרשת"
+
+#: src/Plug.vala:60
+msgid "Show week numbers"
+msgstr "הצגת מספרי השבועות"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:3
@@ -3181,54 +3233,6 @@ msgstr "אפריקה/לוקאסה"
 #: src/Translations.vala:1265
 msgid "Africa/Harare"
 msgstr "אפריקה/הרארה"
-
-#: src/Plug.vala:36
-msgid "Date & Time"
-msgstr "תאריך ושעה"
-
-#: src/Plug.vala:37
-msgid "Configure date, time, and select time zone"
-msgstr "הגדרת התאריך, השעה ובחירה באזור זמן"
-
-#: src/Plug.vala:45
-msgid "Network Time:"
-msgstr "שעה מהרשת:"
-
-#: src/Plug.vala:55
-msgid "Time Format:"
-msgstr "תבנית הזמן:"
-
-#: src/Plug.vala:59
-msgid "AM/PM"
-msgstr "AM/PM"
-
-#: src/Plug.vala:60
-msgid "24h"
-msgstr "24 שע׳"
-
-#: src/Plug.vala:62
-msgid "Time Zone:"
-msgstr "אזור זמן:"
-
-#: src/Plug.vala:74
-msgid "Show week numbers:"
-msgstr "הצגת מספרי השבועות:"
-
-#: src/Plug.vala:275
-msgid "Time Format"
-msgstr "תבנית הזמן"
-
-#: src/Plug.vala:276
-msgid "Time Zone"
-msgstr "אזור זמן"
-
-#: src/Plug.vala:277
-msgid "Network Time"
-msgstr "שעה מהרשת"
-
-#: src/Plug.vala:278
-msgid "Show week numbers"
-msgstr "הצגת מספרי השבועות"
 
 #: src/Widgets/TZPopover.vala:57
 msgid "Africa"

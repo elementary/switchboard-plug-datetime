@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-13 17:05-0700\n"
+"POT-Creation-Date: 2019-06-26 22:44+0200\n"
 "PO-Revision-Date: 2014-12-16 18:10+0000\n"
 "Last-Translator: Gatis Kalnins <gatis.kalnins@metatrons.lv>\n"
 "Language-Team: Latvian <lv@li.org>\n"
@@ -17,6 +17,58 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:05+0000\n"
 "X-Generator: Launchpad (build 18302)\n"
+
+#: src/MainView.vala:46
+msgid "Network Time:"
+msgstr ""
+
+#: src/MainView.vala:56
+msgid "Time Format:"
+msgstr ""
+
+#: src/MainView.vala:60
+msgid "AM/PM"
+msgstr ""
+
+#: src/MainView.vala:61
+msgid "24h"
+msgstr ""
+
+#: src/MainView.vala:63
+msgid "Time Zone:"
+msgstr ""
+
+#: src/MainView.vala:72
+msgid "Automatically update time zone"
+msgstr ""
+
+#: src/MainView.vala:90
+msgid "Show week numbers:"
+msgstr ""
+
+#: src/Plug.vala:29
+msgid "Date & Time"
+msgstr ""
+
+#: src/Plug.vala:30
+msgid "Configure date, time, and select time zone"
+msgstr ""
+
+#: src/Plug.vala:57
+msgid "Time Format"
+msgstr ""
+
+#: src/Plug.vala:58
+msgid "Time Zone"
+msgstr ""
+
+#: src/Plug.vala:59
+msgid "Network Time"
+msgstr ""
+
+#: src/Plug.vala:60
+msgid "Show week numbers"
+msgstr ""
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:3
@@ -3185,54 +3237,6 @@ msgstr "Āfrika/Lusaka"
 #: src/Translations.vala:1265
 msgid "Africa/Harare"
 msgstr "Āfrika/Harare"
-
-#: src/Plug.vala:36
-msgid "Date & Time"
-msgstr ""
-
-#: src/Plug.vala:37
-msgid "Configure date, time, and select time zone"
-msgstr ""
-
-#: src/Plug.vala:45
-msgid "Network Time:"
-msgstr ""
-
-#: src/Plug.vala:55
-msgid "Time Format:"
-msgstr ""
-
-#: src/Plug.vala:59
-msgid "AM/PM"
-msgstr ""
-
-#: src/Plug.vala:60
-msgid "24h"
-msgstr ""
-
-#: src/Plug.vala:62
-msgid "Time Zone:"
-msgstr ""
-
-#: src/Plug.vala:74
-msgid "Show week numbers:"
-msgstr ""
-
-#: src/Plug.vala:275
-msgid "Time Format"
-msgstr ""
-
-#: src/Plug.vala:276
-msgid "Time Zone"
-msgstr ""
-
-#: src/Plug.vala:277
-msgid "Network Time"
-msgstr ""
-
-#: src/Plug.vala:278
-msgid "Show week numbers"
-msgstr ""
 
 #: src/Widgets/TZPopover.vala:57
 msgid "Africa"
