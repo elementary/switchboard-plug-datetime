@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-13 17:05-0700\n"
+"POT-Creation-Date: 2019-06-26 22:44+0200\n"
 "PO-Revision-Date: 2018-10-21 13:27+0000\n"
 "Last-Translator: Kirill Romanov <djaler1@gmail.com>\n"
 "Language-Team: Russian <https://weblate.elementary.io/projects/switchboard/"
@@ -16,10 +16,62 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
-"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 3.0.1\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:05+0000\n"
+
+#: src/MainView.vala:46
+msgid "Network Time:"
+msgstr "Время сети:"
+
+#: src/MainView.vala:56
+msgid "Time Format:"
+msgstr "Формат времени:"
+
+#: src/MainView.vala:60
+msgid "AM/PM"
+msgstr "AM/PM"
+
+#: src/MainView.vala:61
+msgid "24h"
+msgstr "24-часовой"
+
+#: src/MainView.vala:63
+msgid "Time Zone:"
+msgstr "Часовой пояс:"
+
+#: src/MainView.vala:72
+msgid "Automatically update time zone"
+msgstr ""
+
+#: src/MainView.vala:90
+msgid "Show week numbers:"
+msgstr "Показывать номера недель:"
+
+#: src/Plug.vala:29
+msgid "Date & Time"
+msgstr "Дата и время"
+
+#: src/Plug.vala:30
+msgid "Configure date, time, and select time zone"
+msgstr "Настройка даты, времени, выбор временной зоны"
+
+#: src/Plug.vala:57
+msgid "Time Format"
+msgstr "Формат времени"
+
+#: src/Plug.vala:58
+msgid "Time Zone"
+msgstr "Часовой пояс"
+
+#: src/Plug.vala:59
+msgid "Network Time"
+msgstr "Время сети"
+
+#: src/Plug.vala:60
+msgid "Show week numbers"
+msgstr "Показывать номера недель"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:3
@@ -3187,54 +3239,6 @@ msgstr "Африка/Лусака"
 #: src/Translations.vala:1265
 msgid "Africa/Harare"
 msgstr "Африка/Хараре"
-
-#: src/Plug.vala:36
-msgid "Date & Time"
-msgstr "Дата и время"
-
-#: src/Plug.vala:37
-msgid "Configure date, time, and select time zone"
-msgstr "Настройка даты, времени, выбор временной зоны"
-
-#: src/Plug.vala:45
-msgid "Network Time:"
-msgstr "Время сети:"
-
-#: src/Plug.vala:55
-msgid "Time Format:"
-msgstr "Формат времени:"
-
-#: src/Plug.vala:59
-msgid "AM/PM"
-msgstr "AM/PM"
-
-#: src/Plug.vala:60
-msgid "24h"
-msgstr "24-часовой"
-
-#: src/Plug.vala:62
-msgid "Time Zone:"
-msgstr "Часовой пояс:"
-
-#: src/Plug.vala:74
-msgid "Show week numbers:"
-msgstr "Показывать номера недель:"
-
-#: src/Plug.vala:275
-msgid "Time Format"
-msgstr "Формат времени"
-
-#: src/Plug.vala:276
-msgid "Time Zone"
-msgstr "Часовой пояс"
-
-#: src/Plug.vala:277
-msgid "Network Time"
-msgstr "Время сети"
-
-#: src/Plug.vala:278
-msgid "Show week numbers"
-msgstr "Показывать номера недель"
 
 #: src/Widgets/TZPopover.vala:57
 msgid "Africa"

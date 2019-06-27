@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-13 17:05-0700\n"
+"POT-Creation-Date: 2019-06-26 22:44+0200\n"
 "PO-Revision-Date: 2019-04-06 17:52+0000\n"
 "Last-Translator: colindemian <colindemian@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
@@ -19,6 +19,58 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 3.5.1\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:06+0000\n"
+
+#: src/MainView.vala:46
+msgid "Network Time:"
+msgstr "网络时间："
+
+#: src/MainView.vala:56
+msgid "Time Format:"
+msgstr "时间格式："
+
+#: src/MainView.vala:60
+msgid "AM/PM"
+msgstr "上午/下午"
+
+#: src/MainView.vala:61
+msgid "24h"
+msgstr "24 小时制"
+
+#: src/MainView.vala:63
+msgid "Time Zone:"
+msgstr "时区设置："
+
+#: src/MainView.vala:72
+msgid "Automatically update time zone"
+msgstr ""
+
+#: src/MainView.vala:90
+msgid "Show week numbers:"
+msgstr "显示周数："
+
+#: src/Plug.vala:29
+msgid "Date & Time"
+msgstr "日期和时间"
+
+#: src/Plug.vala:30
+msgid "Configure date, time, and select time zone"
+msgstr "配置时间、日期和时区"
+
+#: src/Plug.vala:57
+msgid "Time Format"
+msgstr "时间格式"
+
+#: src/Plug.vala:58
+msgid "Time Zone"
+msgstr "时区"
+
+#: src/Plug.vala:59
+msgid "Network Time"
+msgstr "网络时间"
+
+#: src/Plug.vala:60
+msgid "Show week numbers"
+msgstr "显示周数"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:3
@@ -3180,54 +3232,6 @@ msgstr "非洲/卢萨卡"
 #: src/Translations.vala:1265
 msgid "Africa/Harare"
 msgstr "非洲/哈拉雷"
-
-#: src/Plug.vala:36
-msgid "Date & Time"
-msgstr "日期和时间"
-
-#: src/Plug.vala:37
-msgid "Configure date, time, and select time zone"
-msgstr "配置时间、日期和时区"
-
-#: src/Plug.vala:45
-msgid "Network Time:"
-msgstr "网络时间："
-
-#: src/Plug.vala:55
-msgid "Time Format:"
-msgstr "时间格式："
-
-#: src/Plug.vala:59
-msgid "AM/PM"
-msgstr "上午/下午"
-
-#: src/Plug.vala:60
-msgid "24h"
-msgstr "24 小时制"
-
-#: src/Plug.vala:62
-msgid "Time Zone:"
-msgstr "时区设置："
-
-#: src/Plug.vala:74
-msgid "Show week numbers:"
-msgstr "显示周数："
-
-#: src/Plug.vala:275
-msgid "Time Format"
-msgstr "时间格式"
-
-#: src/Plug.vala:276
-msgid "Time Zone"
-msgstr "时区"
-
-#: src/Plug.vala:277
-msgid "Network Time"
-msgstr "网络时间"
-
-#: src/Plug.vala:278
-msgid "Show week numbers"
-msgstr "显示周数"
 
 #: src/Widgets/TZPopover.vala:57
 msgid "Africa"
