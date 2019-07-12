@@ -114,8 +114,8 @@ public class DateTime.MainView : Gtk.Grid {
         GLib.Settings wingpanel_settings = null;
 
         if (schema == null) {
-            week_number_label.no_show_all = true;
-            week_number_switch.no_show_all = true;
+            week_number_label.visible = false;
+            week_number_switch.visible = false;
         } else {
             wingpanel_settings = new GLib.Settings ("io.elementary.desktop.wingpanel.datetime");
             wingpanel_settings.bind ("show-weeks", week_number_switch, "active", SettingsBindFlags.DEFAULT);
