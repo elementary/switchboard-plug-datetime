@@ -54,7 +54,7 @@ msgstr ""
 
 #: src/Plug.vala:30
 msgid "Configure date, time, and select time zone"
-msgstr ""
+msgstr "Agordi daton, horon, kaj horzono"
 
 #: src/Plug.vala:57
 msgid "Time Format"
@@ -3234,54 +3234,6 @@ msgstr "Afriko/Lusako"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:1265
 msgid "Africa/Harare"
-msgstr ""
-
-#: src/Plug.vala:36
-msgid "Date & Time"
-msgstr ""
-
-#: src/Plug.vala:37
-msgid "Configure date, time, and select time zone"
-msgstr "Agordi daton, horon, kaj horzono"
-
-#: src/Plug.vala:45
-msgid "Network Time:"
-msgstr ""
-
-#: src/Plug.vala:55
-msgid "Time Format:"
-msgstr ""
-
-#: src/Plug.vala:59
-msgid "AM/PM"
-msgstr ""
-
-#: src/Plug.vala:60
-msgid "24h"
-msgstr ""
-
-#: src/Plug.vala:62
-msgid "Time Zone:"
-msgstr ""
-
-#: src/Plug.vala:74
-msgid "Show week numbers:"
-msgstr ""
-
-#: src/Plug.vala:275
-msgid "Time Format"
-msgstr ""
-
-#: src/Plug.vala:276
-msgid "Time Zone"
-msgstr ""
-
-#: src/Plug.vala:277
-msgid "Network Time"
-msgstr ""
-
-#: src/Plug.vala:278
-msgid "Show week numbers"
 msgstr ""
 
 #: src/Widgets/TZPopover.vala:57
