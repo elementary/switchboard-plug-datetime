@@ -20,58 +20,6 @@ msgstr ""
 "X-Generator: Weblate 3.6.1\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:05+0000\n"
 
-#: src/MainView.vala:46
-msgid "Network Time:"
-msgstr "Nettverkstid:"
-
-#: src/MainView.vala:56
-msgid "Time Format:"
-msgstr "Tidsformat:"
-
-#: src/MainView.vala:60
-msgid "AM/PM"
-msgstr "AM/PM"
-
-#: src/MainView.vala:61
-msgid "24h"
-msgstr "24t"
-
-#: src/MainView.vala:63
-msgid "Time Zone:"
-msgstr "Tidssone:"
-
-#: src/MainView.vala:72
-msgid "Automatically update time zone"
-msgstr ""
-
-#: src/MainView.vala:90
-msgid "Show week numbers:"
-msgstr "Vis ukenummer:"
-
-#: src/Plug.vala:29
-msgid "Date & Time"
-msgstr "Tid og dato"
-
-#: src/Plug.vala:30
-msgid "Configure date, time, and select time zone"
-msgstr "Konfigurer dato, tid og velg tidssone"
-
-#: src/Plug.vala:57
-msgid "Time Format"
-msgstr "Tidsformat"
-
-#: src/Plug.vala:58
-msgid "Time Zone"
-msgstr "Tidssone"
-
-#: src/Plug.vala:59
-msgid "Network Time"
-msgstr "Nettverkstid"
-
-#: src/Plug.vala:60
-msgid "Show week numbers"
-msgstr "Vis ukenummer"
-
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:3
 msgid "Europe/Andorra"
