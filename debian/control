@@ -14,6 +14,7 @@ Homepage: https://github.com/elementary/switchboard-plug-datetime
 Package: switchboard-plug-datetime
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Recommends: elementary-default-settings (>= 5.2)
 Enhances: switchboard
 Conflicts: switchboard-plug-gcc-date
 Replaces: switchboard-plug-gcc-date
