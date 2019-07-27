@@ -114,14 +114,16 @@ public class DateTime.MainView : Gtk.Grid {
         show_all ();
 
         var source = SettingsSchemaSource.get_default ();
-        var schema = source.lookup ("io.elementary.desktop.wingpanel.datetime", false);
+        var schema = source.lookup ("io.elementary.desktop.wingpanel.datetime", true);
+
+        GLib.Settings wingpanel_settings = null;
 
         if (schema == null) {
-            week_number_label.no_show_all = true;
-            week_number_switch.no_show_all = true;
+            week_number_label.visible = false;
+            week_number_switch.visible = false;
         } else {
-            var week_number_settings = new GLib.Settings ("io.elementary.desktop.wingpanel.datetime");
-            week_number_settings.bind ("show-weeks", week_number_switch, "active", SettingsBindFlags.DEFAULT);
+            wingpanel_settings = new GLib.Settings ("io.elementary.desktop.wingpanel.datetime");
+            wingpanel_settings.bind ("show-weeks", week_number_switch, "active", SettingsBindFlags.DEFAULT);
         }
 
         bool syncing_datetime = false;
@@ -180,6 +182,11 @@ public class DateTime.MainView : Gtk.Grid {
         time_format.mode_changed.connect (() => {
             unowned string new_format = time_format.selected == 0 ? "12h" : "24h";
             clock_settings.set_string ("clock-format", new_format);
+
+            if (wingpanel_settings != null) {
+                wingpanel_settings.set_string ("clock-format", new_format);
+            }
+
             if (greeter_act != null) {
                 greeter_act.time_format = new_format;
             }
