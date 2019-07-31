@@ -4,7 +4,7 @@ plug_files = files(
     'Parser.vala',
     'DateTime1.vala',
     'CurrentTimeManager.vala',
-    'GreeterAccountsServicePlugin.vala',
+    'PantheonAccountsServicePlugin.vala',
     'Widgets/TZPopover.vala',
     'Widgets/TimeZoneButton.vala'
 )
