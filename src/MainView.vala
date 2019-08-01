@@ -24,7 +24,7 @@ public class DateTime.MainView : Gtk.Grid {
     private CurrentTimeManager ct_manager;
     private GLib.Settings clock_settings;
     private Granite.Widgets.ModeButton time_format;
-    private Greeter.AccountsService? greeter_act = null;
+    private Pantheon.AccountsService? pantheon_act = null;
 
     private static GLib.Settings time_zone_settings;
 
@@ -182,8 +182,8 @@ public class DateTime.MainView : Gtk.Grid {
                 wingpanel_settings.set_string ("clock-format", new_format);
             }
 
-            if (greeter_act != null) {
-                greeter_act.time_format = new_format;
+            if (pantheon_act != null) {
+                pantheon_act.time_format = new_format;
             }
         });
 
@@ -232,13 +232,13 @@ public class DateTime.MainView : Gtk.Grid {
             );
             var user_path = accounts_service.find_user_by_name (GLib.Environment.get_user_name ());
 
-            greeter_act = yield GLib.Bus.get_proxy (
+            pantheon_act = yield GLib.Bus.get_proxy (
                 GLib.BusType.SYSTEM,
                 "org.freedesktop.Accounts",
                 user_path,
                 GLib.DBusProxyFlags.GET_INVALIDATED_PROPERTIES
             );
-            time_format.set_active (greeter_act.time_format == "12h" ? 0 : 1);
+            time_format.set_active (pantheon_act.time_format == "12h" ? 0 : 1);
         } catch (Error e) {
             critical (e.message);
             // Connect to the GSettings instead
