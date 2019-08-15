@@ -25,7 +25,7 @@ public class DateTime.Plug : Switchboard.Plug {
         settings.set ("time", null);
         settings.set ("date", null);
         Object (category: Category.SYSTEM,
-            code_name: "system-pantheon-datetime",
+            code_name: "io.elementary.switchboard.datetime",
             display_name: _("Date & Time"),
             description: _("Configure date, time, and select time zone"),
             icon: "preferences-system-time",
