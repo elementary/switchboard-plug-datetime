@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-26 22:44+0200\n"
-"PO-Revision-Date: 2019-04-06 17:52+0000\n"
+"PO-Revision-Date: 2019-09-17 09:23+0000\n"
 "Last-Translator: colindemian <colindemian@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
 "switchboard/switchboard-plug-datetime/zh_Hans/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.5.1\n"
+"X-Generator: Weblate 3.7.1\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:06+0000\n"
 
 #: src/MainView.vala:46
@@ -42,7 +42,7 @@ msgstr "时区设置："
 
 #: src/MainView.vala:72
 msgid "Automatically update time zone"
-msgstr ""
+msgstr "自动更新时区"
 
 #: src/MainView.vala:90
 msgid "Show week numbers:"
