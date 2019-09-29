@@ -1,7 +1,6 @@
 plug_files = files(
     'MainView.vala',
     'Plug.vala',
-    'MainView.vala',
     'Parser.vala',
     'DateTime1.vala',
     'CurrentTimeManager.vala',
