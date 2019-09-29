@@ -70,7 +70,7 @@ public class DateTime.MainView : Gtk.Grid {
 
         var auto_time_zone_button = new Gtk.ToggleButton ();
         auto_time_zone_button.image = auto_time_zone_icon;
-        auto_time_zone_button.set_always_show_image (true);
+        auto_time_zone_button.always_show_image = true;
         auto_time_zone_button.label = _("Automatically update time zone");
         auto_time_zone_button.tooltip_text = _("Automatically updates the time zone when activated");
 
