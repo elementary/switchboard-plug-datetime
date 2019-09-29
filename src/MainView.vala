@@ -43,6 +43,9 @@ public class DateTime.MainView : Gtk.Grid {
     }
 
     construct {
+        var css_provider = new Gtk.CssProvider ();
+        css_provider.load_from_resource ("/io/elementary/switchboard/plug/datetime/Plug.css");
+
         var network_time_label = new Gtk.Label (_("Network Time:"));
         network_time_label.xalign = 1;
 
@@ -66,21 +69,33 @@ public class DateTime.MainView : Gtk.Grid {
 
         auto_time_zone_icon = new Gtk.Image ();
         auto_time_zone_icon.gicon = new ThemedIcon ("location-inactive-symbolic");
+        auto_time_zone_icon.margin_start = 6;
         auto_time_zone_icon.pixel_size = 16;
 
-        var auto_time_zone_button = new Gtk.ToggleButton ();
-        auto_time_zone_button.image = auto_time_zone_icon;
-        auto_time_zone_button.always_show_image = true;
-        auto_time_zone_button.label = _("Automatically update time zone");
-        auto_time_zone_button.tooltip_text = _("Automatically updates the time zone when activated");
+        var auto_time_zone_icon_context = auto_time_zone_icon.get_style_context ();
+        auto_time_zone_icon_context.add_class ("auto-timezone-label");
+        auto_time_zone_icon_context.add_provider (css_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
 
-        var css_provider = new Gtk.CssProvider ();
-        css_provider.load_from_resource ("/io/elementary/switchboard/plug/datetime/Plug.css");
+        var auto_time_zone_switch_label = new Gtk.Label (_("Automatically Update Time Zone:"));
 
-        var auto_time_zone_button_context = auto_time_zone_button.get_style_context ();
-        auto_time_zone_button_context.add_class ("auto-timezone");
-        auto_time_zone_button_context.add_class ("unrounded");
-        auto_time_zone_button_context.add_provider (css_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
+        var auto_time_zone_switch = new Gtk.Switch ();
+        auto_time_zone_switch.margin_top = auto_time_zone_switch.margin_bottom = 6;
+        auto_time_zone_switch.tooltip_text = _("Automatically updates the time zone when activated");
+
+        var auto_time_zone_switch_context = auto_time_zone_switch.get_style_context ();
+        auto_time_zone_switch_context.add_class ("auto-timezone");
+        auto_time_zone_switch_context.add_provider (css_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
+
+        var auto_time_zone_grid = new Gtk.Grid ();
+        auto_time_zone_grid.column_spacing = 6;
+        auto_time_zone_grid.hexpand = true;
+        auto_time_zone_grid.attach (auto_time_zone_icon, 0, 0, 1, 1);
+        auto_time_zone_grid.attach (auto_time_zone_switch_label, 1, 0, 1, 1);
+        auto_time_zone_grid.attach (auto_time_zone_switch, 2, 0, 1, 1);
+
+        var auto_time_zone_grid_context = auto_time_zone_grid.get_style_context ();
+        auto_time_zone_grid_context.add_class ("auto-timezone-grid");
+        auto_time_zone_grid_context.add_provider (css_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
 
         time_zone_picker = new DateTime.TimeZoneGrid ();
         time_zone_picker.hexpand = true;
@@ -89,8 +104,8 @@ public class DateTime.MainView : Gtk.Grid {
         var time_zone_grid = new Gtk.Grid ();
         var time_zone_grid_context = time_zone_grid.get_style_context ();
         time_zone_grid_context.add_class ("frame");
-        time_zone_grid.attach (time_zone_picker, 0, 0);
-        time_zone_grid.attach (auto_time_zone_button, 0, 1);
+        time_zone_grid.attach (auto_time_zone_grid, 0, 0, 1, 1);
+        time_zone_grid.attach (time_zone_picker, 0, 1, 2, 1);
 
         var week_number_label = new Gtk.Label (_("Show week numbers:"));
         week_number_label.xalign = 1;
@@ -222,9 +237,8 @@ public class DateTime.MainView : Gtk.Grid {
         network_time_switch.active = datetime1.NTP;
         change_tz (datetime1.Timezone);
 
-        time_zone_settings.bind ("automatic-timezone", auto_time_zone_button, "active", SettingsBindFlags.DEFAULT);
+        time_zone_settings.bind ("automatic-timezone", auto_time_zone_switch, "active", SettingsBindFlags.DEFAULT);
         time_zone_settings.bind ("automatic-timezone", time_zone_picker, "sensitive", SettingsBindFlags.INVERT_BOOLEAN);
-        time_zone_settings.bind ("automatic-timezone", time_zone_label, "sensitive", SettingsBindFlags.INVERT_BOOLEAN);
         time_zone_settings.bind ("automatic-timezone", this, "automatic-timezone", SettingsBindFlags.GET);
     }
 

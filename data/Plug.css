@@ -1,11 +1,13 @@
-button.auto-timezone:checked {
-    color: @GRAPE_500;
-    -gtk-icon-shadow: 0 1px 2px @GRAPE_300;
+switch.auto-timezone:checked {
+    background-color: @GRAPE_500;
+    border: 1px solid @GRAPE_500;
 }
 
-button.auto-timezone.unrounded {
-    border-radius: 0;
-    border-bottom: none;
-    border-left: none;
-    border-right: none;
+label.auto-timezone-label,
+image.auto-timezone-label {
+    color: @GRAPE_500;
+}
+
+grid.auto-timezone-grid {
+    border-bottom: 1px solid alpha(#000, 0.20);
 }
