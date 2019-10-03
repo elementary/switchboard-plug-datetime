@@ -132,7 +132,7 @@ public class DateTime.TZPopover : Gtk.Popover {
         main_grid.add (new Gtk.Separator (Gtk.Orientation.VERTICAL));
         main_grid.add (city_scrolled);
         main_grid.show_all ();
-        
+
         add (main_grid);
     }
 
@@ -167,4 +167,3 @@ public class DateTime.TZPopover : Gtk.Popover {
         setting_cities = false;
     }
 }
-

@@ -98,7 +98,7 @@ public class DateTime.Parser : GLib.Object {
     }
 
     public static string format_city (string city) {
-        return city.replace("_", " ").replace ("/", ", ");
+        return city.replace ("_", " ").replace ("/", ", ");
     }
 
 #if GENERATE
