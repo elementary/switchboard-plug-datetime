@@ -294,7 +294,7 @@ public class DateTime.MainView : Gtk.Grid {
 
         var local_time = new GLib.DateTime.now_local ();
 
-        float offset = (float)(local_time.get_utc_offset ())/(float)(GLib.TimeSpan.HOUR);
+        float offset = (float)(local_time.get_utc_offset ()) / (float)(GLib.TimeSpan.HOUR);
 
         if (local_time.is_daylight_savings ()) {
             offset--;

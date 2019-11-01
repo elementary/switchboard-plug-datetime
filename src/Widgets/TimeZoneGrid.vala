@@ -171,4 +171,3 @@ public class DateTime.TimeZoneGrid : Gtk.Grid {
         setting_cities = false;
     }
 }
-
