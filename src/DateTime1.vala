@@ -28,6 +28,6 @@ interface DateTime1 : Object {
     //usec_utc expects number of microseconds since 1 Jan 1970 UTC
     public abstract void set_time (int64 usec_utc, bool relative, bool user_interaction) throws GLib.Error;
     public abstract void set_timezone (string timezone, bool user_interaction) throws GLib.Error;
-    public abstract void SetLocalRTC (bool local_rtc, bool fix_system, bool user_interaction) throws GLib.Error;
-    public abstract void SetNTP (bool use_ntp, bool user_interaction) throws GLib.Error;
+    public abstract void SetLocalRTC (bool local_rtc, bool fix_system, bool user_interaction) throws GLib.Error; //vala-lint=naming-convention
+    public abstract void SetNTP (bool use_ntp, bool user_interaction) throws GLib.Error; //vala-lint=naming-convention
 }
