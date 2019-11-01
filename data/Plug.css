@@ -1,13 +1,9 @@
 switch.auto-timezone:checked {
     background-color: @GRAPE_500;
-    border: 1px solid @GRAPE_500;
+    border: 1px solid transparent;
 }
 
 label.auto-timezone-label,
 image.auto-timezone-label {
     color: @GRAPE_500;
-}
-
-grid.auto-timezone-grid {
-    border-bottom: 1px solid alpha(#000, 0.20);
 }
