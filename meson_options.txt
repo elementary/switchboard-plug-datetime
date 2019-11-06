@@ -1,1 +1,0 @@
-option('regenerate_translation', type : 'boolean', value : false)
