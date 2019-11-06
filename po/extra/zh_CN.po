@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-26 22:45+0200\n"
+"POT-Creation-Date: 2019-11-06 23:49+0000\n"
 "PO-Revision-Date: 2019-09-17 09:23+0000\n"
 "Last-Translator: colindemian <colindemian@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
@@ -26,3 +26,7 @@ msgstr ""
 #: data/io.elementary.switchboard.datetime.appdata.xml.in:6
 msgid "Configure date, time, and select time zone"
 msgstr "配置时间、日期和时区"
+
+#: data/io.elementary.switchboard.datetime.appdata.xml.in:10
+msgid "Updated translations"
+msgstr ""

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-26 22:45+0200\n"
+"POT-Creation-Date: 2019-11-06 23:49+0000\n"
 "PO-Revision-Date: 2019-07-17 23:03+0000\n"
 "Last-Translator: Shtonchjo <shtonchjo@gmail.com>\n"
 "Language-Team: Esperanto <https://l10n.elementary.io/projects/switchboard/"
@@ -26,3 +26,7 @@ msgstr "Agordoj pri Dato &amp; Horo"
 #: data/io.elementary.switchboard.datetime.appdata.xml.in:6
 msgid "Configure date, time, and select time zone"
 msgstr "Agordi daton, horon, kaj horzonon"
+
+#: data/io.elementary.switchboard.datetime.appdata.xml.in:10
+msgid "Updated translations"
+msgstr ""

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-26 22:45+0200\n"
+"POT-Creation-Date: 2019-11-06 23:49+0000\n"
 "PO-Revision-Date: 2019-05-15 03:03+0000\n"
 "Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
 "Language-Team: Marathi <https://l10n.elementary.io/projects/switchboard/date-"
@@ -26,3 +26,7 @@ msgstr "तारीख &amp; वेळ सेटिंग्ज"
 #: data/io.elementary.switchboard.datetime.appdata.xml.in:6
 msgid "Configure date, time, and select time zone"
 msgstr "तारीख, वेळ आणि वेळ क्षेत्र निवडा"
+
+#: data/io.elementary.switchboard.datetime.appdata.xml.in:10
+msgid "Updated translations"
+msgstr ""
