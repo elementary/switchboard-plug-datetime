@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-26 22:45+0200\n"
-"PO-Revision-Date: 2019-10-07 15:23+0000\n"
+"POT-Creation-Date: 2019-11-06 23:49+0000\n"
+"PO-Revision-Date: 2019-11-11 12:24+0000\n"
 "Last-Translator: Daniel R. <riesp@pm.me>\n"
 "Language-Team: Spanish <https://l10n.elementary.io/projects/switchboard/"
 "date-time-plug-extra/es/>\n"
@@ -26,3 +26,7 @@ msgstr "Configuración de fecha y hora"
 #: data/io.elementary.switchboard.datetime.appdata.xml.in:6
 msgid "Configure date, time, and select time zone"
 msgstr "Configurar fecha, hora y seleccionar la zona horaria"
+
+#: data/io.elementary.switchboard.datetime.appdata.xml.in:10
+msgid "Updated translations"
+msgstr "Traducciones actualizadas"
