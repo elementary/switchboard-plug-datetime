@@ -204,6 +204,8 @@ public class DateTime.MainView : Gtk.Grid {
             if (pantheon_act != null) {
                 pantheon_act.time_format = new_format;
             }
+
+            ct_manager.datetime_has_changed (true);
         });
 
         setup_time_format.begin ();
