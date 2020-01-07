@@ -32,7 +32,11 @@ public class DateTime.CurrentTimeManager : GLib.Object {
         create_next_minute_timeout ();
     }
 
-    public void datetime_has_changed () {
+    public void datetime_has_changed (bool update_immediately = false) {
+        if (update_immediately) {
+            var now_local = new GLib.DateTime.now_local ();
+            time_has_changed (now_local);
+        }
         create_next_minute_timeout ();
     }
 
