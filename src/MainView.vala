@@ -58,7 +58,7 @@ public class DateTime.MainView : Gtk.Grid {
 
         time_format = new Granite.Widgets.ModeButton ();
         time_format.append_text (_("AM/PM"));
-        time_format.append_text (_("24h"));
+        time_format.append_text (_("24-hour"));
 
         var time_zone_label = new Gtk.Label (_("Time Zone:"));
         time_zone_label.xalign = 1;
