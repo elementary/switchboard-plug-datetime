@@ -88,9 +88,9 @@ public class DateTime.MainView : Gtk.Grid {
         var auto_time_zone_grid = new Gtk.Grid ();
         auto_time_zone_grid.column_spacing = 6;
         auto_time_zone_grid.hexpand = true;
-        auto_time_zone_grid.attach (auto_time_zone_icon, 0, 0, 1, 1);
-        auto_time_zone_grid.attach (auto_time_zone_switch_label, 1, 0, 1, 1);
-        auto_time_zone_grid.attach (auto_time_zone_switch, 2, 0, 1, 1);
+        auto_time_zone_grid.attach (auto_time_zone_icon, 0, 0);
+        auto_time_zone_grid.attach (auto_time_zone_switch_label, 1, 0);
+        auto_time_zone_grid.attach (auto_time_zone_switch, 2, 0);
 
         var auto_time_zone_grid_context = auto_time_zone_grid.get_style_context ();
         auto_time_zone_grid_context.add_class ("auto-timezone-grid");
