@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-06 23:49+0000\n"
+"POT-Creation-Date: 2020-01-07 23:34+0000\n"
 "PO-Revision-Date: 2018-10-09 17:07+0000\n"
 "Last-Translator: Piotr Strebski <strebski@gmail.com>\n"
 "Language-Team: Polish <https://weblate.elementary.io/projects/switchboard/"
@@ -34,8 +34,8 @@ msgid "AM/PM"
 msgstr "rano/po południu"
 
 #: src/MainView.vala:61
-msgid "24h"
-msgstr "24-godzinny"
+msgid "24-hour"
+msgstr ""
 
 #: src/MainView.vala:63
 msgid "Time Zone:"
@@ -3270,6 +3270,9 @@ msgstr "Europa"
 #: src/Widgets/TZPopover.vala:71
 msgid "Indian"
 msgstr "Ocean Indyjski"
+
+#~ msgid "24h"
+#~ msgstr "24-godzinny"
 
 #~ msgid "Time"
 #~ msgstr "Czas"

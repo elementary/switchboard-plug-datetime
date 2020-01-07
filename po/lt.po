@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-06 23:49+0000\n"
+"POT-Creation-Date: 2020-01-07 23:34+0000\n"
 "PO-Revision-Date: 2019-07-21 17:24+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: Lithuanian <https://l10n.elementary.io/projects/switchboard/"
@@ -29,8 +29,8 @@ msgid "AM/PM"
 msgstr "12 val. (AM/PM)"
 
 #: src/MainView.vala:61
-msgid "24h"
-msgstr "24 val."
+msgid "24-hour"
+msgstr ""
 
 #: src/MainView.vala:63
 msgid "Time Zone:"
@@ -3265,6 +3265,9 @@ msgstr "Europa"
 #: src/Widgets/TZPopover.vala:71
 msgid "Indian"
 msgstr "Indijos vandenynas"
+
+#~ msgid "24h"
+#~ msgstr "24 val."
 
 #~ msgid "Time"
 #~ msgstr "Laikas"

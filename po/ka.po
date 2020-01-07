@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-06 23:49+0000\n"
+"POT-Creation-Date: 2020-01-07 23:34+0000\n"
 "PO-Revision-Date: 2018-05-14 00:02+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Georgian <https://weblate.elementary.io/projects/switchboard/"
@@ -28,8 +28,8 @@ msgid "AM/PM"
 msgstr "AM/PM"
 
 #: src/MainView.vala:61
-msgid "24h"
-msgstr "24ს"
+msgid "24-hour"
+msgstr ""
 
 #: src/MainView.vala:63
 msgid "Time Zone:"
@@ -3267,6 +3267,9 @@ msgstr "ევროპა"
 #: src/Widgets/TZPopover.vala:71
 msgid "Indian"
 msgstr "ინდოეთის ოკეანე"
+
+#~ msgid "24h"
+#~ msgstr "24ს"
 
 #~ msgid "Time"
 #~ msgstr "დრო"

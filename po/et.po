@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-power\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-06 23:49+0000\n"
+"POT-Creation-Date: 2020-01-07 23:34+0000\n"
 "PO-Revision-Date: 2015-02-19 08:53+0000\n"
 "Last-Translator: Kristjan Vool <tictac7x@gmail.com>\n"
 "Language-Team: Estonian <et@li.org>\n"
@@ -31,8 +31,8 @@ msgid "AM/PM"
 msgstr "EL/PL"
 
 #: src/MainView.vala:61
-msgid "24h"
-msgstr "24 tundi"
+msgid "24-hour"
+msgstr ""
 
 #: src/MainView.vala:63
 msgid "Time Zone:"
@@ -3269,6 +3269,9 @@ msgstr "Euroopa"
 #: src/Widgets/TZPopover.vala:71
 msgid "Indian"
 msgstr "India"
+
+#~ msgid "24h"
+#~ msgstr "24 tundi"
 
 #~ msgid "Time"
 #~ msgstr "Aeg"

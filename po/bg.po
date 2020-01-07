@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-06 23:49+0000\n"
+"POT-Creation-Date: 2020-01-07 23:34+0000\n"
 "PO-Revision-Date: 2016-08-05 14:37+0000\n"
 "Last-Translator: Stanislav <stunito0o0o0@gmail.com>\n"
 "Language-Team: Bulgarian <bg@li.org>\n"
@@ -31,8 +31,8 @@ msgid "AM/PM"
 msgstr "пр. об./сл. об."
 
 #: src/MainView.vala:61
-msgid "24h"
-msgstr "24-часов формат"
+msgid "24-hour"
+msgstr ""
 
 #: src/MainView.vala:63
 msgid "Time Zone:"
@@ -3272,6 +3272,9 @@ msgstr "Европа"
 #: src/Widgets/TZPopover.vala:71
 msgid "Indian"
 msgstr ""
+
+#~ msgid "24h"
+#~ msgstr "24-часов формат"
 
 #~ msgid "Time"
 #~ msgstr "Време"

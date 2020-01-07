@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-datetime\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-06 23:49+0000\n"
+"POT-Creation-Date: 2020-01-07 23:34+0000\n"
 "PO-Revision-Date: 2019-10-02 11:23+0000\n"
 "Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
 "Language-Team: French <https://l10n.elementary.io/projects/switchboard/"
@@ -33,8 +33,8 @@ msgid "AM/PM"
 msgstr "AM/PM"
 
 #: src/MainView.vala:61
-msgid "24h"
-msgstr "24h"
+msgid "24-hour"
+msgstr ""
 
 #: src/MainView.vala:63
 msgid "Time Zone:"
@@ -3269,6 +3269,9 @@ msgstr "Europe"
 #: src/Widgets/TZPopover.vala:71
 msgid "Indian"
 msgstr "Indien"
+
+#~ msgid "24h"
+#~ msgstr "24h"
 
 #~ msgid "Time"
 #~ msgstr "Heure"

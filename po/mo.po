@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-06 23:49+0000\n"
+"POT-Creation-Date: 2020-01-07 23:34+0000\n"
 "PO-Revision-Date: 2018-06-01 00:08+0000\n"
 "Last-Translator: Romanic Ion Nicușor <contact.romanic@gmail.com>\n"
 "Language-Team: Moldovan <https://weblate.elementary.io/projects/switchboard/"
@@ -26,7 +26,7 @@ msgid "AM/PM"
 msgstr ""
 
 #: src/MainView.vala:61
-msgid "24h"
+msgid "24-hour"
 msgstr ""
 
 #: src/MainView.vala:63

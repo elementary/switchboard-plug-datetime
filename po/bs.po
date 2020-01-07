@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-06 23:49+0000\n"
+"POT-Creation-Date: 2020-01-07 23:34+0000\n"
 "PO-Revision-Date: 2018-11-09 18:11+0000\n"
 "Last-Translator: Elvis Mujanović <elvis.mujanovic@gmail.com>\n"
 "Language-Team: Bosnian <https://weblate.elementary.io/projects/switchboard/"
@@ -34,8 +34,8 @@ msgid "AM/PM"
 msgstr "prijepodne/poslijepodne"
 
 #: src/MainView.vala:61
-msgid "24h"
-msgstr "24 sata"
+msgid "24-hour"
+msgstr ""
 
 #: src/MainView.vala:63
 msgid "Time Zone:"
@@ -3270,6 +3270,9 @@ msgstr "Evropa"
 #: src/Widgets/TZPopover.vala:71
 msgid "Indian"
 msgstr "Indijski okean"
+
+#~ msgid "24h"
+#~ msgstr "24 sata"
 
 #~ msgid "Pacific/Johnston"
 #~ msgstr "Tihi_ocean/Johnston"
