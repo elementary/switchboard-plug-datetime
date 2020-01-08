@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-power\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-06 23:49+0000\n"
+"POT-Creation-Date: 2020-01-07 23:34+0000\n"
 "PO-Revision-Date: 2020-01-07 18:32+0000\n"
 "Last-Translator: Jernej Virag <jernej@virag.si>\n"
 "Language-Team: Slovenian <https://l10n.elementary.io/projects/switchboard/"
@@ -15,8 +15,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
-"n%100==4 ? 2 : 3;\n"
+"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
+"%100==4 ? 2 : 3;\n"
 "X-Generator: Weblate 3.9.1\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:05+0000\n"
 
@@ -33,8 +33,8 @@ msgid "AM/PM"
 msgstr "AM/PM oblika"
 
 #: src/MainView.vala:61
-msgid "24h"
-msgstr "24 urna oblika"
+msgid "24-hour"
+msgstr ""
 
 #: src/MainView.vala:63
 msgid "Time Zone:"
@@ -3265,6 +3265,9 @@ msgstr "Evropa"
 #: src/Widgets/TZPopover.vala:71
 msgid "Indian"
 msgstr "Indija"
+
+#~ msgid "24h"
+#~ msgstr "24 urna oblika"
 
 #~ msgid "Time"
 #~ msgstr "Čas"

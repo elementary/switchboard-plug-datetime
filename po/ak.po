@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-datetime\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-06 23:49+0000\n"
+"POT-Creation-Date: 2020-01-07 23:34+0000\n"
 "PO-Revision-Date: 2016-10-08 16:54+0000\n"
 "Last-Translator: aberba <karabutaworld@gmail.com>\n"
 "Language-Team: Akan <ak@li.org>\n"
@@ -31,8 +31,8 @@ msgid "AM/PM"
 msgstr "AM/PM"
 
 #: src/MainView.vala:61
-msgid "24h"
-msgstr "Nnɔhwere 24"
+msgid "24-hour"
+msgstr ""
 
 #: src/MainView.vala:63
 msgid "Time Zone:"
@@ -3262,6 +3262,9 @@ msgstr ""
 #: src/Widgets/TZPopover.vala:71
 msgid "Indian"
 msgstr ""
+
+#~ msgid "24h"
+#~ msgstr "Nnɔhwere 24"
 
 #~ msgid "Time"
 #~ msgstr "Mmere"

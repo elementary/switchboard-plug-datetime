@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-06 23:49+0000\n"
+"POT-Creation-Date: 2020-01-07 23:34+0000\n"
 "PO-Revision-Date: 2019-07-21 16:24+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/switchboard/"
@@ -28,8 +28,8 @@ msgid "AM/PM"
 msgstr "午前／午後表示"
 
 #: src/MainView.vala:61
-msgid "24h"
-msgstr "24 時間表示"
+msgid "24-hour"
+msgstr ""
 
 #: src/MainView.vala:63
 msgid "Time Zone:"
@@ -3276,6 +3276,9 @@ msgstr "ヨーロッパ"
 #: src/Widgets/TZPopover.vala:71
 msgid "Indian"
 msgstr "インド"
+
+#~ msgid "24h"
+#~ msgstr "24 時間表示"
 
 #~ msgid "Time"
 #~ msgstr "時間"

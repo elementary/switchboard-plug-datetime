@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: timezones.tip\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-06 23:49+0000\n"
+"POT-Creation-Date: 2020-01-07 23:34+0000\n"
 "PO-Revision-Date: 2018-10-09 15:46+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://weblate.elementary.io/projects/switchboard/"
@@ -34,8 +34,8 @@ msgid "AM/PM"
 msgstr "AM/PM"
 
 #: src/MainView.vala:61
-msgid "24h"
-msgstr "24 שע׳"
+msgid "24-hour"
+msgstr ""
 
 #: src/MainView.vala:63
 msgid "Time Zone:"
@@ -3265,6 +3265,9 @@ msgstr "אירופה"
 #: src/Widgets/TZPopover.vala:71
 msgid "Indian"
 msgstr "האוקיינוס ההודי"
+
+#~ msgid "24h"
+#~ msgstr "24 שע׳"
 
 #~ msgid "Time"
 #~ msgstr "שעה"

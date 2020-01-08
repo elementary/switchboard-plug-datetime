@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-06 23:49+0000\n"
+"POT-Creation-Date: 2020-01-07 23:34+0000\n"
 "PO-Revision-Date: 2018-06-18 00:06+0000\n"
 "Last-Translator: Majer Tamás <mtamas@disroot.org>\n"
 "Language-Team: Hungarian <https://weblate.elementary.io/projects/switchboard/"
@@ -32,8 +32,8 @@ msgid "AM/PM"
 msgstr "de./du."
 
 #: src/MainView.vala:61
-msgid "24h"
-msgstr "24ó"
+msgid "24-hour"
+msgstr ""
 
 #: src/MainView.vala:63
 msgid "Time Zone:"
@@ -3281,6 +3281,9 @@ msgstr "Európa"
 #: src/Widgets/TZPopover.vala:71
 msgid "Indian"
 msgstr "India"
+
+#~ msgid "24h"
+#~ msgstr "24ó"
 
 #~ msgid "Time"
 #~ msgstr "Idő"

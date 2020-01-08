@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-power\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-06 23:49+0000\n"
+"POT-Creation-Date: 2020-01-07 23:34+0000\n"
 "PO-Revision-Date: 2017-09-08 16:52+0000\n"
 "Last-Translator: M Aiman <m.aimanismail@gmail.com>\n"
 "Language-Team: Malay <https://weblate.elementary.io/projects/switchboard/"
@@ -33,8 +33,8 @@ msgid "AM/PM"
 msgstr "AM/PM"
 
 #: src/MainView.vala:61
-msgid "24h"
-msgstr "24j"
+msgid "24-hour"
+msgstr ""
 
 #: src/MainView.vala:63
 msgid "Time Zone:"
@@ -3280,6 +3280,9 @@ msgstr "Eropah"
 #: src/Widgets/TZPopover.vala:71
 msgid "Indian"
 msgstr "India"
+
+#~ msgid "24h"
+#~ msgstr "24j"
 
 #~ msgid "Time"
 #~ msgstr "Waktu"

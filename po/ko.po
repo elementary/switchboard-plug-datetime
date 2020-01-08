@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-power\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-06 23:49+0000\n"
+"POT-Creation-Date: 2020-01-07 23:34+0000\n"
 "PO-Revision-Date: 2019-07-21 15:24+0000\n"
 "Last-Translator: Jung-Kyu Park <bagjunggyu@gmail.com>\n"
 "Language-Team: Korean <https://l10n.elementary.io/projects/switchboard/"
@@ -33,8 +33,8 @@ msgid "AM/PM"
 msgstr "오전/오후"
 
 #: src/MainView.vala:61
-msgid "24h"
-msgstr "24시"
+msgid "24-hour"
+msgstr ""
 
 #: src/MainView.vala:63
 msgid "Time Zone:"
@@ -3274,6 +3274,9 @@ msgstr "유럽(Europe)"
 #: src/Widgets/TZPopover.vala:71
 msgid "Indian"
 msgstr "인도(Indian)"
+
+#~ msgid "24h"
+#~ msgstr "24시"
 
 #~ msgid "Time"
 #~ msgstr "시간"
