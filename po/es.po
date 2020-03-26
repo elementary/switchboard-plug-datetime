@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-07 23:34+0000\n"
-"PO-Revision-Date: 2019-10-09 17:23+0000\n"
-"Last-Translator: Daniel R. <riesp@pm.me>\n"
+"PO-Revision-Date: 2020-03-03 13:09+0000\n"
+"Last-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\n"
 "Language-Team: Spanish <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-datetime/es/>\n"
 "Language: es\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.7.1\n"
+"X-Generator: Weblate 3.9.1\n"
 "X-Launchpad-Export-Date: 2017-01-28 06:09+0000\n"
 
 #: src/MainView.vala:46
@@ -30,11 +30,11 @@ msgstr "Formato de hora:"
 
 #: src/MainView.vala:60
 msgid "AM/PM"
-msgstr "AM/PM"
+msgstr "a. m./p. m."
 
 #: src/MainView.vala:61
 msgid "24-hour"
-msgstr ""
+msgstr "24 horas"
 
 #: src/MainView.vala:63
 msgid "Time Zone:"
@@ -42,11 +42,11 @@ msgstr "Huso horario:"
 
 #: src/MainView.vala:72
 msgid "Automatically update time zone"
-msgstr "Actualizar zona horaria automáticamente"
+msgstr "Actualizar huso horario automáticamente"
 
 #: src/MainView.vala:90
 msgid "Show week numbers:"
-msgstr "Mostrar números de la semana:"
+msgstr "Mostrar números de semanas:"
 
 #: src/Plug.vala:29
 msgid "Date & Time"
