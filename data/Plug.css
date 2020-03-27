@@ -1,8 +1,3 @@
-switch.auto-timezone:checked {
-    background-color: @GRAPE_500;
-    border: 1px solid transparent;
-}
-
 label.auto-timezone-label,
 image.auto-timezone-label {
     color: @GRAPE_500;
