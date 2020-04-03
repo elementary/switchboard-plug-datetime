@@ -1,3 +1,26 @@
+switchboard-plug-datetime (2.1.7) bionic; urgency=medium
+
+  * Release 2.1.7 (#79)
+  * Update translation files
+  * Update translation template
+  * Fix a grammatical error (#76)
+  * Update time picker on time format change (#77)
+  * Update translation files
+  * Update translation template
+  * AppData: Add 2.1.7 release info
+  * Add Release to Actions
+  * Add Gettext Updates to Actions
+  * Split deb packaging into its own branch
+  * run installation in CI (#74)
+  * Add Lint to CI (#73)
+  * Fix codestyle issues
+  * Build with GitHub CI (#72)
+  * Delete CODE_OF_CONDUCT.md
+  * Delete FUNDING.yml
+  * build: fix install path for switchboard plug (#68)
+
+ -- elementary OS Team <builds@elementary.io>  Fri, 03 Apr 2020 18:38:39 +0000
+
 switchboard-plug-datetime (2.1.6) bionic; urgency=medium
 
   * New upstream release.
