@@ -5,7 +5,7 @@
   <name>Date &amp; Time Settings</name>
   <summary>Configure date, time, and select time zone</summary>
   <releases>
-    <release version="2.1.7" date="2019-11-05" urgency="medium">
+    <release version="2.1.7" date="2020-04-01" urgency="medium">
       <description>
         <p>Updated translations</p>
       </description>
