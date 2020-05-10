@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-power\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-07 23:34+0000\n"
-"PO-Revision-Date: 2018-10-11 17:37+0000\n"
-"Last-Translator: Jan Marek <janmarek28@gmail.com>\n"
-"Language-Team: Czech <https://weblate.elementary.io/projects/switchboard/"
+"PO-Revision-Date: 2020-05-11 20:10+0000\n"
+"Last-Translator: p-bo <pavel.borecki@gmail.com>\n"
+"Language-Team: Czech <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-datetime/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 3.0.1\n"
+"X-Generator: Weblate 3.9.1\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:04+0000\n"
 
 #: src/MainView.vala:46
@@ -34,7 +34,7 @@ msgstr "AM/PM"
 
 #: src/MainView.vala:61
 msgid "24-hour"
-msgstr ""
+msgstr "24 hodinový"
 
 #: src/MainView.vala:63
 msgid "Time Zone:"
@@ -42,7 +42,7 @@ msgstr "Časové pásmo:"
 
 #: src/MainView.vala:72
 msgid "Automatically update time zone"
-msgstr ""
+msgstr "Automaticky aktualizovat časové pásmo"
 
 #: src/MainView.vala:90
 msgid "Show week numbers:"
@@ -54,7 +54,7 @@ msgstr "Datum a čas"
 
 #: src/Plug.vala:30
 msgid "Configure date, time, and select time zone"
-msgstr "Konfigurace data, času a výběr časové zóny"
+msgstr "Nastavení data, času a výběr časové zóny"
 
 #: src/Plug.vala:57
 msgid "Time Format"
