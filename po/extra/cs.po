@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-06 23:49+0000\n"
+"POT-Creation-Date: 2020-05-16 21:37+0000\n"
 "PO-Revision-Date: 2020-05-11 20:10+0000\n"
 "Last-Translator: p-bo <pavel.borecki@gmail.com>\n"
-"Language-Team: Czech <https://l10n.elementary.io/projects/switchboard/"
-"date-time-plug-extra/cs/>\n"
+"Language-Team: Czech <https://l10n.elementary.io/projects/switchboard/date-"
+"time-plug-extra/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -27,6 +27,11 @@ msgstr "Nastavení data a času"
 msgid "Configure date, time, and select time zone"
 msgstr "Nastavení data, času a výběr časové zóny"
 
-#: data/io.elementary.switchboard.datetime.appdata.xml.in:10
+#: data/io.elementary.switchboard.datetime.appdata.xml.in:12
+msgid "Fix potential freeze when changing settings from multiple panes"
+msgstr ""
+
+#: data/io.elementary.switchboard.datetime.appdata.xml.in:13
+#: data/io.elementary.switchboard.datetime.appdata.xml.in:18
 msgid "Updated translations"
 msgstr "Aktualizované překlady"
