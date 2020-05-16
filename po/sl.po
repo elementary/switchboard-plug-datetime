@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-power\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-07 23:34+0000\n"
-"PO-Revision-Date: 2020-01-07 18:32+0000\n"
+"PO-Revision-Date: 2020-04-05 13:10+0000\n"
 "Last-Translator: Jernej Virag <jernej@virag.si>\n"
 "Language-Team: Slovenian <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-datetime/sl/>\n"
@@ -15,8 +15,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
-"%100==4 ? 2 : 3;\n"
+"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
+"n%100==4 ? 2 : 3;\n"
 "X-Generator: Weblate 3.9.1\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:05+0000\n"
 
@@ -30,11 +30,11 @@ msgstr "Oblika za čas:"
 
 #: src/MainView.vala:60
 msgid "AM/PM"
-msgstr "AM/PM oblika"
+msgstr "AM/PM"
 
 #: src/MainView.vala:61
 msgid "24-hour"
-msgstr ""
+msgstr "24 urna"
 
 #: src/MainView.vala:63
 msgid "Time Zone:"
