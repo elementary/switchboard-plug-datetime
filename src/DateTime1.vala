@@ -19,7 +19,7 @@
  */
 
 [DBus (name = "org.freedesktop.timedate1")]
-interface DateTime1 : Object {
+interface DateTime.DateTime1 : Object {
     public abstract string Timezone {public owned get;}
     public abstract bool LocalRTC {public get;}
     public abstract bool CanNTP {public get;}
