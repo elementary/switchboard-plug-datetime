@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-06 23:49+0000\n"
+"POT-Creation-Date: 2020-05-16 21:37+0000\n"
 "PO-Revision-Date: 2019-05-15 03:02+0000\n"
 "Last-Translator: Jung-Kyu Park <bagjunggyu@gmail.com>\n"
 "Language-Team: Korean <https://l10n.elementary.io/projects/switchboard/date-"
@@ -27,6 +27,11 @@ msgstr "날짜 &amp; 시간 설정"
 msgid "Configure date, time, and select time zone"
 msgstr "날짜, 시간, 그리고 시간대를 설정합니다"
 
-#: data/io.elementary.switchboard.datetime.appdata.xml.in:10
+#: data/io.elementary.switchboard.datetime.appdata.xml.in:12
+msgid "Fix potential freeze when changing settings from multiple panes"
+msgstr ""
+
+#: data/io.elementary.switchboard.datetime.appdata.xml.in:13
+#: data/io.elementary.switchboard.datetime.appdata.xml.in:18
 msgid "Updated translations"
 msgstr ""
