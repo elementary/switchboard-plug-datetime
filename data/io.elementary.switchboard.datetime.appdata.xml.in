@@ -7,6 +7,12 @@
   <icon type="stock">preferences-system-time</icon>
   <translation type="gettext">datetime-plug</translation>
   <releases>
+    <release version="2.1.8" date="2020-05-15" urgency="medium">
+      <description>
+        <p>Fix potential freeze when changing settings from multiple panes</p>
+        <p>Updated translations</p>
+      </description>
+    </release>
     <release version="2.1.7" date="2020-04-01" urgency="medium">
       <description>
         <p>Updated translations</p>
