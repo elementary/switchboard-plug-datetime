@@ -65,6 +65,7 @@ public class DateTime.MainView : Gtk.Grid {
 
         var time_zone_label = new Gtk.Label (_("Time Zone:"));
         time_zone_label.xalign = 1;
+        time_zone_label.valign = Gtk.Align.START;
 
         auto_time_zone_icon = new Gtk.Image ();
         auto_time_zone_icon.gicon = new ThemedIcon ("location-inactive-symbolic");
@@ -75,7 +76,8 @@ public class DateTime.MainView : Gtk.Grid {
         auto_time_zone_icon_context.add_class ("auto-timezone-label");
         auto_time_zone_icon_context.add_provider (css_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
 
-        var auto_time_zone_switch_label = new Gtk.Label (_("Location-based:"));
+        var auto_time_zone_switch_label = new Gtk.Label (_("Based on your Location:"));
+        auto_time_zone_switch_label.margin_end = 6;
 
         var auto_time_zone_switch = new Gtk.Switch ();
         auto_time_zone_switch.margin_top = auto_time_zone_switch.margin_bottom = 6;
@@ -117,8 +119,8 @@ public class DateTime.MainView : Gtk.Grid {
         attach (time_format_label, 0, 0);
         attach (time_format, 1, 0, 3);
         attach (time_zone_label, 0, 1);
-        attach (auto_time_zone_grid, 1, 1, 3);
-        attach (time_zone_grid, 1, 2, 3);
+        attach (time_zone_grid, 1, 1, 3);
+        attach (auto_time_zone_grid, 1, 2, 3);
         attach (network_time_label, 0, 3);
         attach (network_time_switch, 1, 3);
         attach (week_number_label, 0, 4);
