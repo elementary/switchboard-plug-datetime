@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-16 21:37+0000\n"
+"POT-Creation-Date: 2020-05-18 17:44+0000\n"
 "PO-Revision-Date: 2020-02-22 14:08+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://l10n.elementary.io/projects/switchboard/date-"
@@ -28,10 +28,14 @@ msgid "Configure date, time, and select time zone"
 msgstr "Määritä päiväys ja aika sekä valitse aikavyöhyke"
 
 #: data/io.elementary.switchboard.datetime.appdata.xml.in:12
+msgid "Minor updates"
+msgstr ""
+
+#: data/io.elementary.switchboard.datetime.appdata.xml.in:14
 msgid "Fix potential freeze when changing settings from multiple panes"
 msgstr ""
 
-#: data/io.elementary.switchboard.datetime.appdata.xml.in:13
-#: data/io.elementary.switchboard.datetime.appdata.xml.in:18
+#: data/io.elementary.switchboard.datetime.appdata.xml.in:15
+#: data/io.elementary.switchboard.datetime.appdata.xml.in:21
 msgid "Updated translations"
 msgstr "Päivitetyt käännökset"
