@@ -1,3 +1,13 @@
+switchboard-plug-datetime (2.1.8) bionic; urgency=medium
+
+  * Release 2.1.8 (#84)
+  * Update translation files
+  * Update translation template
+  * Namespace DBus interfaces (#83)
+  * AppData: Add Icon & Gettext domain (#80)
+
+ -- elementary OS Team <builds@elementary.io>  Mon, 18 May 2020 17:44:56 +0000
+
 switchboard-plug-datetime (2.1.7) bionic; urgency=medium
 
   * Release 2.1.7 (#79)
