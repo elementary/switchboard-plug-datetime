@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-28 18:37+0000\n"
-"PO-Revision-Date: 2020-05-21 03:11+0000\n"
+"PO-Revision-Date: 2020-05-30 20:11+0000\n"
 "Last-Translator: Rodrigo Oliveira <rod.oliveira@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://l10n.elementary.io/projects/"
 "switchboard/date-time-plug-extra/pt_BR/>\n"
@@ -35,7 +35,7 @@ msgstr "Traduções atualizadas"
 
 #: data/io.elementary.switchboard.datetime.appdata.xml.in:17
 msgid "Minor updates"
-msgstr "Pequenas atualizações"
+msgstr "Atualizações menores"
 
 #: data/io.elementary.switchboard.datetime.appdata.xml.in:19
 msgid "Fix potential freeze when changing settings from multiple panes"
