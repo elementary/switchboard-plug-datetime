@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-power\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-07 23:34+0000\n"
-"PO-Revision-Date: 2020-05-11 20:10+0000\n"
+"PO-Revision-Date: 2020-06-08 10:11+0000\n"
 "Last-Translator: p-bo <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-datetime/cs/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: src/MainView.vala:46
 msgid "Network Time:"
-msgstr "Síťový čas:"
+msgstr "Čas ze sítě:"
 
 #: src/MainView.vala:56
 msgid "Time Format:"
@@ -30,7 +30,7 @@ msgstr "Formát času:"
 
 #: src/MainView.vala:60
 msgid "AM/PM"
-msgstr "AM/PM"
+msgstr "Dop./odp."
 
 #: src/MainView.vala:61
 msgid "24-hour"
@@ -54,7 +54,7 @@ msgstr "Datum a čas"
 
 #: src/Plug.vala:30
 msgid "Configure date, time, and select time zone"
-msgstr "Nastavení data, času a výběr časové zóny"
+msgstr "Nastavení data, času a výběr časového pásma"
 
 #: src/Plug.vala:57
 msgid "Time Format"
@@ -66,7 +66,7 @@ msgstr "Časové pásmo"
 
 #: src/Plug.vala:59
 msgid "Network Time"
-msgstr "Síťový čas"
+msgstr "Čas ze sítě"
 
 #: src/Plug.vala:60
 msgid "Show week numbers"
