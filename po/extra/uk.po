@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-28 18:37+0000\n"
-"PO-Revision-Date: 2020-09-17 00:14+0000\n"
+"PO-Revision-Date: 2020-09-24 16:44+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/switchboard/"
 "date-time-plug-extra/uk/>\n"
@@ -22,11 +22,11 @@ msgstr ""
 
 #: data/io.elementary.switchboard.datetime.appdata.xml.in:5
 msgid "Date &amp; Time Settings"
-msgstr ""
+msgstr "Параметри дати та часу"
 
 #: data/io.elementary.switchboard.datetime.appdata.xml.in:6
 msgid "Configure date, time, and select time zone"
-msgstr ""
+msgstr "Налаштування дати, часу та вибір часового поясу"
 
 #: data/io.elementary.switchboard.datetime.appdata.xml.in:12
 #: data/io.elementary.switchboard.datetime.appdata.xml.in:20
@@ -36,8 +36,9 @@ msgstr "Оновлено переклади"
 
 #: data/io.elementary.switchboard.datetime.appdata.xml.in:17
 msgid "Minor updates"
-msgstr ""
+msgstr "Незначні оновлення"
 
 #: data/io.elementary.switchboard.datetime.appdata.xml.in:19
 msgid "Fix potential freeze when changing settings from multiple panes"
 msgstr ""
+"Виправлено ймовірні зависання під час зміни параметрів у кількох панелях"
