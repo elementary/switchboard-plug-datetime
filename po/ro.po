@@ -8,9 +8,9 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-07 23:34+0000\n"
-"PO-Revision-Date: 2018-06-12 07:32+0000\n"
-"Last-Translator: Silviu Deaconu <silviu.deaconu@gmail.com>\n"
-"Language-Team: Romanian <https://weblate.elementary.io/projects/switchboard/"
+"PO-Revision-Date: 2020-12-29 15:16+0000\n"
+"Last-Translator: Silviu Popescu <teodorspopescu@gmail.com>\n"
+"Language-Team: Romanian <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-datetime/ro/>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2;\n"
-"X-Generator: Weblate 2.18\n"
+"X-Generator: Weblate 3.9.1\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:05+0000\n"
 
 #: src/MainView.vala:46
@@ -47,7 +47,7 @@ msgstr ""
 
 #: src/MainView.vala:90
 msgid "Show week numbers:"
-msgstr "Arată numărul săptămânii"
+msgstr "Arată numărul săptămânii:"
 
 #: src/Plug.vala:29
 msgid "Date & Time"

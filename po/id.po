@@ -8,69 +8,70 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-07 23:34+0000\n"
-"PO-Revision-Date: 2018-06-14 00:09+0000\n"
-"Last-Translator: Eri Hidayat <eriwhidayat@gmail.com>\n"
-"Language-Team: Indonesian <https://weblate.elementary.io/projects/"
-"switchboard/switchboard-plug-datetime/id/>\n"
+"PO-Revision-Date: 2020-11-18 15:15+0000\n"
+"Last-Translator: deovaliandro <mdv16h@student.unhas.ac.id>\n"
+"Language-Team: Indonesian <https://l10n.elementary.io/projects/switchboard/"
+"switchboard-plug-datetime/id/>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2.18\n"
+"X-Generator: Weblate 3.9.1\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:04+0000\n"
 
 #: src/MainView.vala:46
 msgid "Network Time:"
-msgstr ""
+msgstr "Waktu Jaringan:"
 
 #: src/MainView.vala:56
 msgid "Time Format:"
-msgstr ""
+msgstr "Waktu Jaringan:"
 
 #: src/MainView.vala:60
+#, fuzzy
 msgid "AM/PM"
-msgstr ""
+msgstr "AM/PM"
 
 #: src/MainView.vala:61
 msgid "24-hour"
-msgstr ""
+msgstr "24-jam"
 
 #: src/MainView.vala:63
 msgid "Time Zone:"
-msgstr ""
+msgstr "Zona Waktu:"
 
 #: src/MainView.vala:72
 msgid "Automatically update time zone"
-msgstr ""
+msgstr "Otomatis memperbaharui zona waktu"
 
 #: src/MainView.vala:90
 msgid "Show week numbers:"
-msgstr ""
+msgstr "Tunjukkan nomor minggu:"
 
 #: src/Plug.vala:29
 msgid "Date & Time"
-msgstr ""
+msgstr "Tanggal & Waktu"
 
 #: src/Plug.vala:30
 msgid "Configure date, time, and select time zone"
-msgstr ""
+msgstr "Konfigurasikan tanggal, waktu, dan pilih zona waktu"
 
 #: src/Plug.vala:57
 msgid "Time Format"
-msgstr ""
+msgstr "Format Waktu"
 
 #: src/Plug.vala:58
 msgid "Time Zone"
-msgstr ""
+msgstr "Zona Waktu"
 
 #: src/Plug.vala:59
 msgid "Network Time"
-msgstr ""
+msgstr "Waktu Jaringan"
 
 #: src/Plug.vala:60
 msgid "Show week numbers"
-msgstr ""
+msgstr "Tunjukkan nomor minggu"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:3
@@ -615,8 +616,9 @@ msgstr "Amerika/Maceio"
 
 #. /Translators: Comment for Timezone America/Maceio
 #: src/Translations.vala:219
+#, fuzzy
 msgid "Alagoas, Sergipe"
-msgstr ""
+msgstr "Alagoas, Sergipe"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:221
@@ -625,8 +627,9 @@ msgstr "Amerika/Bahia"
 
 #. /Translators: Comment for Timezone America/Bahia
 #: src/Translations.vala:223
+#, fuzzy
 msgid "Bahia"
-msgstr ""
+msgstr "Bahia"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:225
@@ -636,37 +639,42 @@ msgstr "Amerika/Sao_Paulo"
 #. /Translators: Comment for Timezone America/Sao_Paulo
 #: src/Translations.vala:227
 msgid "Brazil (southeast: GO, DF, MG, ES, RJ, SP, PR, SC, RS)"
-msgstr ""
+msgstr "Brazil (tenggara: GO, DF, MG, ES, RJ, SP, PR, SC, RS)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:229
+#, fuzzy
 msgid "America/Campo_Grande"
-msgstr "Amerika/Campo_Grande"
+msgstr "America/Campo_Grande"
 
 #. /Translators: Comment for Timezone America/Campo_Grande
 #: src/Translations.vala:231
+#, fuzzy
 msgid "Mato Grosso do Sul"
-msgstr ""
+msgstr "Mato Grosso do Sul"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:233
+#, fuzzy
 msgid "America/Cuiaba"
-msgstr "Amerika/Cuiaba"
+msgstr "America/Cuiaba"
 
 #. /Translators: Comment for Timezone America/Cuiaba
 #: src/Translations.vala:235
+#, fuzzy
 msgid "Mato Grosso"
-msgstr ""
+msgstr "Mato Grosso"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:237
+#, fuzzy
 msgid "America/Santarem"
-msgstr ""
+msgstr "America/Santarem"
 
 #. /Translators: Comment for Timezone America/Santarem
 #: src/Translations.vala:239
 msgid "Para (west)"
-msgstr ""
+msgstr "Para (barat)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:241
@@ -675,8 +683,9 @@ msgstr "Amerika/Porto_Velho"
 
 #. /Translators: Comment for Timezone America/Porto_Velho
 #: src/Translations.vala:243
+#, fuzzy
 msgid "Rondonia"
-msgstr ""
+msgstr "Rondonia"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:245
@@ -685,8 +694,9 @@ msgstr "Amerika/Boa_Vista"
 
 #. /Translators: Comment for Timezone America/Boa_Vista
 #: src/Translations.vala:247
+#, fuzzy
 msgid "Roraima"
-msgstr ""
+msgstr "Roraima"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:249
