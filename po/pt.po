@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-07 23:34+0000\n"
-"PO-Revision-Date: 2021-01-23 15:39+0000\n"
+"PO-Revision-Date: 2021-01-24 02:36+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-datetime/pt/>\n"
@@ -2373,7 +2373,7 @@ msgstr "Europa/Volgograd"
 #. /Translators: Comment for Timezone Europe/Volgograd
 #: src/Translations.vala:921
 msgid "MSK+00 - Volgograd"
-msgstr "MSK+00 - Volgograd"
+msgstr "MSK+00 - Volgogrado"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:923
@@ -2908,7 +2908,7 @@ msgstr "América/Indiana/Vincennes"
 #. /Translators: Comment for Timezone America/Indiana/Vincennes
 #: src/Translations.vala:1135
 msgid "Eastern - IN (Da, Du, K, Mn)"
-msgstr "Eastern - IN (Da, Du, K, Mn)"
+msgstr "Oriental - IN (Da, Du, K, Mn)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:1137
@@ -2948,7 +2948,7 @@ msgstr "América/Indiana/Vevay"
 #. /Translators: Comment for Timezone America/Indiana/Vevay
 #: src/Translations.vala:1151
 msgid "Eastern - IN (Switzerland)"
-msgstr "Eastern - IN (Switzerland)"
+msgstr "Oriental - IN (Suiça)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:1153
