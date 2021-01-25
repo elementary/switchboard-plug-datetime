@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-07 23:34+0000\n"
-"PO-Revision-Date: 2020-05-26 10:11+0000\n"
+"PO-Revision-Date: 2021-01-25 07:22+0000\n"
 "Last-Translator: colindemian <colindemian@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
 "switchboard/switchboard-plug-datetime/zh_Hans/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 4.4.2\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:06+0000\n"
 
 #: src/MainView.vala:46
@@ -1335,7 +1335,7 @@ msgstr "太平洋/波纳佩"
 #. /Translators: Comment for Timezone Pacific/Pohnpei
 #: src/Translations.vala:507
 msgid "Pohnpei/Ponape"
-msgstr "波纳佩岛/波纳佩岛"
+msgstr "波纳佩岛"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:509
@@ -1711,7 +1711,7 @@ msgstr "亚洲∕克孜勒奥尔达"
 #. /Translators: Comment for Timezone Asia/Qyzylorda
 #: src/Translations.vala:657
 msgid "Qyzylorda/Kyzylorda/Kzyl-Orda"
-msgstr "克孜勒奥尔达/克孜勒奥尔达/克孜勒奥尔达"
+msgstr "克孜勒奥尔达"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:659
@@ -1721,7 +1721,7 @@ msgstr "亚洲/阿克托比"
 #. /Translators: Comment for Timezone Asia/Aqtobe
 #: src/Translations.vala:661
 msgid "Aqtobe/Aktobe"
-msgstr "阿克托比/阿克托比"
+msgstr "阿克托比"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:663
