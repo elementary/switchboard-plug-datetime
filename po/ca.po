@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-07 23:34+0000\n"
-"PO-Revision-Date: 2020-01-09 16:07+0000\n"
+"PO-Revision-Date: 2021-02-01 12:46+0000\n"
 "Last-Translator: David M <rbndavid@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-datetime/ca/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 4.4.2\n"
 "X-Launchpad-Export-Date: 2017-04-05 07:42+0000\n"
 
 #: src/MainView.vala:46
@@ -840,7 +840,7 @@ msgstr "Amèrica/Iqaluit"
 #. /Translators: Comment for Timezone America/Iqaluit
 #: src/Translations.vala:309
 msgid "Eastern - NU (most east areas)"
-msgstr "Eastern - NU (most east areas)"
+msgstr "Oriental - NU (zones més orientals)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:311
@@ -870,7 +870,7 @@ msgstr "Amèrica/Winnipeg"
 #. /Translators: Comment for Timezone America/Winnipeg
 #: src/Translations.vala:321
 msgid "Central - ON (west); Manitoba"
-msgstr "Central - ON (west); Manitoba"
+msgstr "Central - ON (oest); Manitoba"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:323
@@ -1751,7 +1751,7 @@ msgstr "Àsia/Oral"
 #. /Translators: Comment for Timezone Asia/Oral
 #: src/Translations.vala:673
 msgid "West Kazakhstan"
-msgstr "West Kazakhstan"
+msgstr "Kazakhstan occidental"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:675
@@ -2273,7 +2273,7 @@ msgstr "Àsia/Hebron"
 #. /Translators: Comment for Timezone Asia/Hebron
 #: src/Translations.vala:881
 msgid "West Bank"
-msgstr "West Bank"
+msgstr "Banc de l'oest"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:883
@@ -2908,7 +2908,7 @@ msgstr "Amèrica/Indiana/Vincennes"
 #. /Translators: Comment for Timezone America/Indiana/Vincennes
 #: src/Translations.vala:1135
 msgid "Eastern - IN (Da, Du, K, Mn)"
-msgstr "Eastern - IN (Da, Du, K, Mn)"
+msgstr "Oriental - IN (Da, Du, K, Mn)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:1137
@@ -3078,7 +3078,7 @@ msgstr "Amèrica/Juneau"
 #. /Translators: Comment for Timezone America/Juneau
 #: src/Translations.vala:1203
 msgid "Alaska - Juneau area"
-msgstr "Alaska -  Àrea de Juneau"
+msgstr "Alaska - zona de Juneau"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:1205
