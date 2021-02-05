@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-07 23:34+0000\n"
+"POT-Creation-Date: 2021-02-05 21:22+0000\n"
 "PO-Revision-Date: 2014-12-14 13:00+0000\n"
 "Last-Translator: Corentin Noël <corentin@elementaryos.org>\n"
 "Language-Team: Lao <lo@li.org>\n"
@@ -18,31 +18,35 @@ msgstr ""
 "X-Launchpad-Export-Date: 2017-01-12 06:04+0000\n"
 "X-Generator: Launchpad (build 18302)\n"
 
-#: src/MainView.vala:46
+#: src/MainView.vala:49
 msgid "Network Time:"
 msgstr ""
 
-#: src/MainView.vala:56
+#: src/MainView.vala:59
 msgid "Time Format:"
 msgstr ""
 
-#: src/MainView.vala:60
+#: src/MainView.vala:63
 msgid "AM/PM"
 msgstr ""
 
-#: src/MainView.vala:61
+#: src/MainView.vala:64
 msgid "24-hour"
 msgstr ""
 
-#: src/MainView.vala:63
+#: src/MainView.vala:66
 msgid "Time Zone:"
 msgstr ""
 
-#: src/MainView.vala:72
-msgid "Automatically update time zone"
+#: src/MainView.vala:79
+msgid "Based on your Location:"
 msgstr ""
 
-#: src/MainView.vala:90
+#: src/MainView.vala:82
+msgid "Automatically updates the time zone when activated"
+msgstr ""
+
+#: src/MainView.vala:108
 msgid "Show week numbers:"
 msgstr ""
 
@@ -3052,7 +3056,7 @@ msgid "America/Los_Angeles"
 msgstr ""
 
 #. /Translators: Comment for Timezone America/Los_Angeles
-#: src/Translations.vala:1195 src/Widgets/TZPopover.vala:73
+#: src/Translations.vala:1195 src/Widgets/TimeZoneGrid.vala:77
 msgid "Pacific"
 msgstr ""
 
@@ -3231,34 +3235,34 @@ msgstr ""
 msgid "Africa/Harare"
 msgstr ""
 
-#: src/Widgets/TZPopover.vala:57
+#: src/Widgets/TimeZoneGrid.vala:61
 msgid "Africa"
 msgstr ""
 
-#: src/Widgets/TZPopover.vala:59
+#: src/Widgets/TimeZoneGrid.vala:63
 msgid "America"
 msgstr ""
 
-#: src/Widgets/TZPopover.vala:61
+#: src/Widgets/TimeZoneGrid.vala:65
 msgid "Antarctica"
 msgstr ""
 
-#: src/Widgets/TZPopover.vala:63
+#: src/Widgets/TimeZoneGrid.vala:67
 msgid "Asia"
 msgstr ""
 
-#: src/Widgets/TZPopover.vala:65
+#: src/Widgets/TimeZoneGrid.vala:69
 msgid "Atlantic"
 msgstr ""
 
-#: src/Widgets/TZPopover.vala:67
+#: src/Widgets/TimeZoneGrid.vala:71
 msgid "Australia"
 msgstr ""
 
-#: src/Widgets/TZPopover.vala:69
+#: src/Widgets/TimeZoneGrid.vala:73
 msgid "Europe"
 msgstr ""
 
-#: src/Widgets/TZPopover.vala:71
+#: src/Widgets/TimeZoneGrid.vala:75
 msgid "Indian"
 msgstr ""

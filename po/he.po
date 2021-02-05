@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: timezones.tip\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-07 23:34+0000\n"
+"POT-Creation-Date: 2021-02-05 21:22+0000\n"
 "PO-Revision-Date: 2020-03-01 13:09+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://l10n.elementary.io/projects/switchboard/"
@@ -21,31 +21,37 @@ msgstr ""
 "X-Generator: Weblate 3.9.1\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:04+0000\n"
 
-#: src/MainView.vala:46
+#: src/MainView.vala:49
 msgid "Network Time:"
 msgstr "שעה מהרשת:"
 
-#: src/MainView.vala:56
+#: src/MainView.vala:59
 msgid "Time Format:"
 msgstr "תבנית הזמן:"
 
-#: src/MainView.vala:60
+#: src/MainView.vala:63
 msgid "AM/PM"
 msgstr "AM/PM"
 
-#: src/MainView.vala:61
+#: src/MainView.vala:64
 msgid "24-hour"
 msgstr "24 שעות"
 
-#: src/MainView.vala:63
+#: src/MainView.vala:66
 msgid "Time Zone:"
 msgstr "אזור זמן:"
 
-#: src/MainView.vala:72
-msgid "Automatically update time zone"
+#: src/MainView.vala:79
+msgid "Based on your Location:"
+msgstr ""
+
+#: src/MainView.vala:82
+#, fuzzy
+#| msgid "Automatically update time zone"
+msgid "Automatically updates the time zone when activated"
 msgstr "לעדכן את אזור הזמן אוטומטית"
 
-#: src/MainView.vala:90
+#: src/MainView.vala:108
 msgid "Show week numbers:"
 msgstr "הצגת מספרי השבועות:"
 
@@ -3055,7 +3061,7 @@ msgid "America/Los_Angeles"
 msgstr "אמריקה/לוס-אנג׳לס"
 
 #. /Translators: Comment for Timezone America/Los_Angeles
-#: src/Translations.vala:1195 src/Widgets/TZPopover.vala:73
+#: src/Translations.vala:1195 src/Widgets/TimeZoneGrid.vala:77
 msgid "Pacific"
 msgstr "האוקיינוס השקט"
 
@@ -3234,35 +3240,35 @@ msgstr "אפריקה/לוקאסה"
 msgid "Africa/Harare"
 msgstr "אפריקה/הרארה"
 
-#: src/Widgets/TZPopover.vala:57
+#: src/Widgets/TimeZoneGrid.vala:61
 msgid "Africa"
 msgstr "אפריקה"
 
-#: src/Widgets/TZPopover.vala:59
+#: src/Widgets/TimeZoneGrid.vala:63
 msgid "America"
 msgstr "אמריקה"
 
-#: src/Widgets/TZPopover.vala:61
+#: src/Widgets/TimeZoneGrid.vala:65
 msgid "Antarctica"
 msgstr "אנטארקטיקה"
 
-#: src/Widgets/TZPopover.vala:63
+#: src/Widgets/TimeZoneGrid.vala:67
 msgid "Asia"
 msgstr "אסיה"
 
-#: src/Widgets/TZPopover.vala:65
+#: src/Widgets/TimeZoneGrid.vala:69
 msgid "Atlantic"
 msgstr "האוקיינוס האטלנטי"
 
-#: src/Widgets/TZPopover.vala:67
+#: src/Widgets/TimeZoneGrid.vala:71
 msgid "Australia"
 msgstr "אוסטרליה"
 
-#: src/Widgets/TZPopover.vala:69
+#: src/Widgets/TimeZoneGrid.vala:73
 msgid "Europe"
 msgstr "אירופה"
 
-#: src/Widgets/TZPopover.vala:71
+#: src/Widgets/TimeZoneGrid.vala:75
 msgid "Indian"
 msgstr "האוקיינוס ההודי"
 

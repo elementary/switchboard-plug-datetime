@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-datetime\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-07 23:34+0000\n"
+"POT-Creation-Date: 2021-02-05 21:22+0000\n"
 "PO-Revision-Date: 2018-05-14 00:02+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Uighur <https://weblate.elementary.io/projects/switchboard/"
@@ -20,31 +20,35 @@ msgstr ""
 "X-Generator: Weblate 2.18\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:06+0000\n"
 
-#: src/MainView.vala:46
+#: src/MainView.vala:49
 msgid "Network Time:"
 msgstr "تور ۋاقتى："
 
-#: src/MainView.vala:56
+#: src/MainView.vala:59
 msgid "Time Format:"
 msgstr "ۋاقىت فورماتى："
 
-#: src/MainView.vala:60
+#: src/MainView.vala:63
 msgid "AM/PM"
 msgstr "12سائەتلىك"
 
-#: src/MainView.vala:61
+#: src/MainView.vala:64
 msgid "24-hour"
 msgstr ""
 
-#: src/MainView.vala:63
+#: src/MainView.vala:66
 msgid "Time Zone:"
 msgstr "ۋاقىت رايونى："
 
-#: src/MainView.vala:72
-msgid "Automatically update time zone"
+#: src/MainView.vala:79
+msgid "Based on your Location:"
 msgstr ""
 
-#: src/MainView.vala:90
+#: src/MainView.vala:82
+msgid "Automatically updates the time zone when activated"
+msgstr ""
+
+#: src/MainView.vala:108
 msgid "Show week numbers:"
 msgstr ""
 
@@ -3074,7 +3078,7 @@ msgid "America/Los_Angeles"
 msgstr "ئامرىكا/لوس ئانژىلىس"
 
 #. /Translators: Comment for Timezone America/Los_Angeles
-#: src/Translations.vala:1195 src/Widgets/TZPopover.vala:73
+#: src/Translations.vala:1195 src/Widgets/TimeZoneGrid.vala:77
 msgid "Pacific"
 msgstr "تىنچ ئوكيان"
 
@@ -3253,35 +3257,35 @@ msgstr "ئافرىقا/لۇساكا"
 msgid "Africa/Harare"
 msgstr "ئافرىقا/ھارارې"
 
-#: src/Widgets/TZPopover.vala:57
+#: src/Widgets/TimeZoneGrid.vala:61
 msgid "Africa"
 msgstr "ئافرىقا"
 
-#: src/Widgets/TZPopover.vala:59
+#: src/Widgets/TimeZoneGrid.vala:63
 msgid "America"
 msgstr "ئامرىكا"
 
-#: src/Widgets/TZPopover.vala:61
+#: src/Widgets/TimeZoneGrid.vala:65
 msgid "Antarctica"
 msgstr "ئانتاركتىكا"
 
-#: src/Widgets/TZPopover.vala:63
+#: src/Widgets/TimeZoneGrid.vala:67
 msgid "Asia"
 msgstr "ئاسىيا"
 
-#: src/Widgets/TZPopover.vala:65
+#: src/Widgets/TimeZoneGrid.vala:69
 msgid "Atlantic"
 msgstr "ئاتلانتىك ئوكيان"
 
-#: src/Widgets/TZPopover.vala:67
+#: src/Widgets/TimeZoneGrid.vala:71
 msgid "Australia"
 msgstr ""
 
-#: src/Widgets/TZPopover.vala:69
+#: src/Widgets/TimeZoneGrid.vala:73
 msgid "Europe"
 msgstr "ياۋروپا"
 
-#: src/Widgets/TZPopover.vala:71
+#: src/Widgets/TimeZoneGrid.vala:75
 msgid "Indian"
 msgstr "ھىندى ئوكيان"
 

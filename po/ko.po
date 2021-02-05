@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-power\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-07 23:34+0000\n"
+"POT-Creation-Date: 2021-02-05 21:22+0000\n"
 "PO-Revision-Date: 2019-07-21 15:24+0000\n"
 "Last-Translator: Jung-Kyu Park <bagjunggyu@gmail.com>\n"
 "Language-Team: Korean <https://l10n.elementary.io/projects/switchboard/"
@@ -20,31 +20,37 @@ msgstr ""
 "X-Generator: Weblate 3.7.1\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:04+0000\n"
 
-#: src/MainView.vala:46
+#: src/MainView.vala:49
 msgid "Network Time:"
 msgstr "네트워크 시간 :"
 
-#: src/MainView.vala:56
+#: src/MainView.vala:59
 msgid "Time Format:"
 msgstr "시간 형식 :"
 
-#: src/MainView.vala:60
+#: src/MainView.vala:63
 msgid "AM/PM"
 msgstr "오전/오후"
 
-#: src/MainView.vala:61
+#: src/MainView.vala:64
 msgid "24-hour"
 msgstr ""
 
-#: src/MainView.vala:63
+#: src/MainView.vala:66
 msgid "Time Zone:"
 msgstr "시간대:"
 
-#: src/MainView.vala:72
-msgid "Automatically update time zone"
+#: src/MainView.vala:79
+msgid "Based on your Location:"
+msgstr ""
+
+#: src/MainView.vala:82
+#, fuzzy
+#| msgid "Automatically update time zone"
+msgid "Automatically updates the time zone when activated"
 msgstr "시간대 자동 업데이트"
 
-#: src/MainView.vala:90
+#: src/MainView.vala:108
 msgid "Show week numbers:"
 msgstr "주별 번호 표시:"
 
@@ -3064,7 +3070,7 @@ msgid "America/Los_Angeles"
 msgstr "아메리카/로스_엔젤레스(Los_Angeles)"
 
 #. /Translators: Comment for Timezone America/Los_Angeles
-#: src/Translations.vala:1195 src/Widgets/TZPopover.vala:73
+#: src/Translations.vala:1195 src/Widgets/TimeZoneGrid.vala:77
 msgid "Pacific"
 msgstr "태평양(Pacific)"
 
@@ -3243,35 +3249,35 @@ msgstr "아프리카/루사카(Lusaka)"
 msgid "Africa/Harare"
 msgstr "아프리카/하라레(Harare)"
 
-#: src/Widgets/TZPopover.vala:57
+#: src/Widgets/TimeZoneGrid.vala:61
 msgid "Africa"
 msgstr "아프리카(Africa)"
 
-#: src/Widgets/TZPopover.vala:59
+#: src/Widgets/TimeZoneGrid.vala:63
 msgid "America"
 msgstr "아메리카(America)"
 
-#: src/Widgets/TZPopover.vala:61
+#: src/Widgets/TimeZoneGrid.vala:65
 msgid "Antarctica"
 msgstr "남극 대륙(Antarctica)"
 
-#: src/Widgets/TZPopover.vala:63
+#: src/Widgets/TimeZoneGrid.vala:67
 msgid "Asia"
 msgstr "아시아(Asia)"
 
-#: src/Widgets/TZPopover.vala:65
+#: src/Widgets/TimeZoneGrid.vala:69
 msgid "Atlantic"
 msgstr "대서양(Atlantic)"
 
-#: src/Widgets/TZPopover.vala:67
+#: src/Widgets/TimeZoneGrid.vala:71
 msgid "Australia"
 msgstr "호주"
 
-#: src/Widgets/TZPopover.vala:69
+#: src/Widgets/TimeZoneGrid.vala:73
 msgid "Europe"
 msgstr "유럽(Europe)"
 
-#: src/Widgets/TZPopover.vala:71
+#: src/Widgets/TimeZoneGrid.vala:75
 msgid "Indian"
 msgstr "인도(Indian)"
 
