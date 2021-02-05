@@ -79,7 +79,6 @@ public class DateTime.MainView : Gtk.Grid {
         auto_time_zone_switch_label.margin_end = 6;
 
         var auto_time_zone_switch = new Gtk.Switch ();
-        auto_time_zone_switch.margin_top = auto_time_zone_switch.margin_bottom = 6;
         auto_time_zone_switch.tooltip_text = _("Automatically updates the time zone when activated");
 
         var auto_time_zone_switch_context = auto_time_zone_switch.get_style_context ();
