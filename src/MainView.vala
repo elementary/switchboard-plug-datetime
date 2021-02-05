@@ -63,9 +63,10 @@ public class DateTime.MainView : Gtk.Grid {
         time_format.append_text (_("AM/PM"));
         time_format.append_text (_("24-hour"));
 
-        var time_zone_label = new Gtk.Label (_("Time Zone:"));
-        time_zone_label.xalign = 1;
-        time_zone_label.valign = Gtk.Align.START;
+        var time_zone_label = new Gtk.Label (_("Time Zone:")) {
+            valign = Gtk.Align.START,
+            xalign = 1
+        };
 
         auto_time_zone_icon = new Gtk.Image ();
         auto_time_zone_icon.gicon = new ThemedIcon ("location-inactive-symbolic");
