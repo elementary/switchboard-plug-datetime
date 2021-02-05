@@ -76,7 +76,6 @@ public class DateTime.MainView : Gtk.Grid {
         auto_time_zone_icon_context.add_provider (css_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
 
         var auto_time_zone_switch_label = new Gtk.Label (_("Based on your Location:"));
-        auto_time_zone_switch_label.margin_end = 6;
 
         var auto_time_zone_switch = new Gtk.Switch ();
         auto_time_zone_switch.tooltip_text = _("Automatically updates the time zone when activated");
