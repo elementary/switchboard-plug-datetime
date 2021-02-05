@@ -95,8 +95,9 @@ public class DateTime.MainView : Gtk.Grid {
         auto_time_zone_grid_context.add_class ("auto-timezone-grid");
         auto_time_zone_grid_context.add_provider (css_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
 
-        time_zone_picker = new DateTime.TimeZoneGrid ();
-        time_zone_picker.hexpand = true;
+        time_zone_picker = new DateTime.TimeZoneGrid () {
+            hexpand = true
+        };
         time_zone_picker.request_timezone_change.connect (change_tz);
 
         var time_zone_grid = new Gtk.Grid ();
