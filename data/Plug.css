@@ -1,4 +1,4 @@
-button.auto-timezone:checked {
+label.auto-timezone-label,
+image.auto-timezone-label {
     color: @GRAPE_500;
-    -gtk-icon-shadow: 0 1px 2px @GRAPE_300;
 }

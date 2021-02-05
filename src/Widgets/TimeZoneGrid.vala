@@ -18,7 +18,7 @@
  * Authored by: Corentin Noël <corentin@elementaryos.org>
  */
 
-public class DateTime.TZPopover : Gtk.Popover {
+public class DateTime.TimeZoneGrid : Gtk.Grid {
     public signal void request_timezone_change (string tz);
 
     private const string AFRICA = "Africa";
@@ -38,10 +38,14 @@ public class DateTime.TZPopover : Gtk.Popover {
     string current_tz;
     bool setting_cities = false;
 
-    public TZPopover () {
+    public string time_zone {
+        set {
+            set_timezone (value);
+        }
+    }
+
+    public TimeZoneGrid () {
         var main_grid = new Gtk.Grid ();
-        main_grid.margin = 6;
-        main_grid.margin_start = 0;
         continent_list_store = new Gtk.ListStore (2, typeof (string), typeof (string));
         continent_list_store.set_default_sort_func ((model, a, b) => {
             Value value_a;
