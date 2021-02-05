@@ -103,8 +103,7 @@ public class DateTime.MainView : Gtk.Grid {
             hexpand = true
         };
         time_zone_picker.request_timezone_change.connect (change_tz);
-
-        var time_zone_grid = new Gtk.Grid ();
+        time_zone_picker.get_style_context ().add_class ("frame");
         var time_zone_grid_context = time_zone_grid.get_style_context ();
         time_zone_grid_context.add_class ("frame");
         time_zone_grid.attach (time_zone_picker, 0, 1, 1, 1);
