@@ -117,7 +117,7 @@ public class DateTime.MainView : Gtk.Grid {
         attach (time_format_label, 0, 0);
         attach (time_format, 1, 0, 3);
         attach (time_zone_label, 0, 1);
-        attach (time_zone_grid, 1, 1, 3);
+        attach (time_zone_picker, 1, 1, 3);
         attach (auto_time_zone_grid, 1, 2, 3);
         attach (network_time_label, 0, 3);
         attach (network_time_switch, 1, 3);
