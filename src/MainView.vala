@@ -1,5 +1,5 @@
 /*
- * Copyright 2014-2019 elementary, Inc. (https://elementary.io)
+ * Copyright 2014–2021 elementary, Inc. (https://elementary.io)
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -46,18 +46,21 @@ public class DateTime.MainView : Gtk.Grid {
         var css_provider = new Gtk.CssProvider ();
         css_provider.load_from_resource ("/io/elementary/switchboard/plug/datetime/Plug.css");
 
-        var network_time_label = new Gtk.Label (_("Network Time:"));
-        network_time_label.xalign = 1;
+        var network_time_label = new Gtk.Label (_("Network Time:")) {
+            xalign = 1
+        };
 
-        var network_time_switch = new Gtk.Switch ();
-        network_time_switch.valign = Gtk.Align.CENTER;
-        network_time_switch.halign = Gtk.Align.START;
+        var network_time_switch = new Gtk.Switch () {
+            halign = Gtk.Align.START,
+            valign = Gtk.Align.CENTER
+        };
 
         var time_picker = new Granite.Widgets.TimePicker ();
         var date_picker = new Granite.Widgets.DatePicker ();
 
-        var time_format_label = new Gtk.Label (_("Time Format:"));
-        time_format_label.xalign = 1;
+        var time_format_label = new Gtk.Label (_("Time Format:")) {
+            xalign = 1
+        };
 
         time_format = new Granite.Widgets.ModeButton ();
         time_format.append_text (_("AM/PM"));
@@ -68,22 +71,20 @@ public class DateTime.MainView : Gtk.Grid {
             xalign = 1
         };
 
-        auto_time_zone_icon = new Gtk.Image ();
-        auto_time_zone_icon.gicon = new ThemedIcon ("location-inactive-symbolic");
-        auto_time_zone_icon.pixel_size = 16;
+        auto_time_zone_icon = new Gtk.Image () {
+            gicon = new ThemedIcon ("location-inactive-symbolic"),
+            pixel_size = 16
+        };
 
-        var auto_time_zone_icon_context = auto_time_zone_icon.get_style_context ();
-        auto_time_zone_icon_context.add_class ("auto-timezone-label");
-        auto_time_zone_icon_context.add_provider (css_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
+        weak Gtk.StyleContext auto_time_zone_icon_context = auto_time_zone_icon.get_style_context ();
+        auto_time_zone_icon_context.add_class ("accent");
+        auto_time_zone_icon_context.add_class ("purple");
 
         var auto_time_zone_switch_label = new Gtk.Label (_("Based on your Location:"));
 
-        var auto_time_zone_switch = new Gtk.Switch ();
-        auto_time_zone_switch.tooltip_text = _("Automatically updates the time zone when activated");
-
-        var auto_time_zone_switch_context = auto_time_zone_switch.get_style_context ();
-        auto_time_zone_switch_context.add_class ("auto-timezone");
-        auto_time_zone_switch_context.add_provider (css_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
+        var auto_time_zone_switch = new Gtk.Switch () {
+            tooltip_text = _("Automatically updates the time zone when activated")
+        };
 
         var auto_time_zone_grid = new Gtk.Grid () {
             column_spacing = 12,
@@ -94,10 +95,6 @@ public class DateTime.MainView : Gtk.Grid {
         auto_time_zone_grid.add (auto_time_zone_icon);
         auto_time_zone_grid.add (auto_time_zone_switch_label);
         auto_time_zone_grid.add (auto_time_zone_switch);
-
-        var auto_time_zone_grid_context = auto_time_zone_grid.get_style_context ();
-        auto_time_zone_grid_context.add_class ("auto-timezone-grid");
-        auto_time_zone_grid_context.add_provider (css_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
 
         time_zone_picker = new DateTime.TimeZoneGrid () {
             hexpand = true
