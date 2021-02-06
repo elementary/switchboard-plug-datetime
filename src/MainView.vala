@@ -93,7 +93,7 @@ public class DateTime.MainView : Gtk.Grid {
         time_zone_picker = new DateTime.TimeZoneGrid () {
             hexpand = true
         };
-        time_zone_picker.get_style_context ().add_class ("frame");
+        time_zone_picker.get_style_context ().add_class (Gtk.STYLE_CLASS_FRAME);
 
         var week_number_label = new Gtk.Label (_("Show week numbers:")) {
             xalign = 1
