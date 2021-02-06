@@ -1,5 +1,5 @@
 /*
- * Copyright 2014-2019 elementary, Inc. (https://elementary.io)
+ * Copyright 2014–2021 elementary, Inc. (https://elementary.io)
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -43,47 +43,42 @@ public class DateTime.MainView : Gtk.Grid {
     }
 
     construct {
-        var css_provider = new Gtk.CssProvider ();
-        css_provider.load_from_resource ("/io/elementary/switchboard/plug/datetime/Plug.css");
+        var network_time_label = new Gtk.Label (_("Network Time:")) {
+            halign = Gtk.Align.END
+        };
 
-        var network_time_label = new Gtk.Label (_("Network Time:"));
-        network_time_label.xalign = 1;
-
-        var network_time_switch = new Gtk.Switch ();
-        network_time_switch.valign = Gtk.Align.CENTER;
-        network_time_switch.halign = Gtk.Align.START;
+        var network_time_switch = new Gtk.Switch () {
+            halign = Gtk.Align.START,
+            valign = Gtk.Align.CENTER
+        };
 
         var time_picker = new Granite.Widgets.TimePicker ();
         var date_picker = new Granite.Widgets.DatePicker ();
 
-        var time_format_label = new Gtk.Label (_("Time Format:"));
-        time_format_label.xalign = 1;
+        var time_format_label = new Gtk.Label (_("Time Format:")) {
+            halign = Gtk.Align.END
+        };
 
         time_format = new Granite.Widgets.ModeButton ();
         time_format.append_text (_("AM/PM"));
         time_format.append_text (_("24-hour"));
 
         var time_zone_label = new Gtk.Label (_("Time Zone:")) {
-            valign = Gtk.Align.START,
-            xalign = 1
+            halign = Gtk.Align.END,
+            valign = Gtk.Align.START
         };
 
-        auto_time_zone_icon = new Gtk.Image ();
-        auto_time_zone_icon.gicon = new ThemedIcon ("location-inactive-symbolic");
-        auto_time_zone_icon.pixel_size = 16;
+        auto_time_zone_icon = new Gtk.Image.from_icon_name ("location-inactive-symbolic", Gtk.IconSize.BUTTON);
 
-        var auto_time_zone_icon_context = auto_time_zone_icon.get_style_context ();
-        auto_time_zone_icon_context.add_class ("auto-timezone-label");
-        auto_time_zone_icon_context.add_provider (css_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
+        weak Gtk.StyleContext auto_time_zone_icon_context = auto_time_zone_icon.get_style_context ();
+        auto_time_zone_icon_context.add_class (Granite.STYLE_CLASS_ACCENT);
+        auto_time_zone_icon_context.add_class ("purple");
 
         var auto_time_zone_switch_label = new Gtk.Label (_("Based on your Location:"));
 
-        var auto_time_zone_switch = new Gtk.Switch ();
-        auto_time_zone_switch.tooltip_text = _("Automatically updates the time zone when activated");
-
-        var auto_time_zone_switch_context = auto_time_zone_switch.get_style_context ();
-        auto_time_zone_switch_context.add_class ("auto-timezone");
-        auto_time_zone_switch_context.add_provider (css_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
+        var auto_time_zone_switch = new Gtk.Switch () {
+            tooltip_text = _("Automatically updates the time zone when activated")
+        };
 
         var auto_time_zone_grid = new Gtk.Grid () {
             column_spacing = 12,
@@ -95,25 +90,23 @@ public class DateTime.MainView : Gtk.Grid {
         auto_time_zone_grid.add (auto_time_zone_switch_label);
         auto_time_zone_grid.add (auto_time_zone_switch);
 
-        var auto_time_zone_grid_context = auto_time_zone_grid.get_style_context ();
-        auto_time_zone_grid_context.add_class ("auto-timezone-grid");
-        auto_time_zone_grid_context.add_provider (css_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
-
         time_zone_picker = new DateTime.TimeZoneGrid () {
             hexpand = true
         };
-        time_zone_picker.request_timezone_change.connect (change_tz);
-        time_zone_picker.get_style_context ().add_class ("frame");
+        time_zone_picker.get_style_context ().add_class (Gtk.STYLE_CLASS_FRAME);
 
-        var week_number_label = new Gtk.Label (_("Show week numbers:"));
-        week_number_label.xalign = 1;
+        var week_number_label = new Gtk.Label (_("Show week numbers:")) {
+            halign = Gtk.Align.END
+        };
 
-        var week_number_switch = new Gtk.Switch ();
-        week_number_switch.valign = Gtk.Align.CENTER;
-        week_number_switch.halign = Gtk.Align.START;
+        var week_number_switch = new Gtk.Switch () {
+            halign = Gtk.Align.START,
+            valign = Gtk.Align.CENTER
+        };
 
         column_spacing = 12;
         row_spacing = 12;
+
         attach (time_format_label, 0, 0);
         attach (time_format, 1, 0, 3);
         attach (time_zone_label, 0, 1);
@@ -125,6 +118,7 @@ public class DateTime.MainView : Gtk.Grid {
         attach (week_number_switch, 1, 4);
         attach (time_picker, 2, 3);
         attach (date_picker, 3, 3);
+
         show_all ();
 
         var source = SettingsSchemaSource.get_default ();
@@ -140,10 +134,10 @@ public class DateTime.MainView : Gtk.Grid {
             wingpanel_settings.bind ("show-weeks", week_number_switch, "active", SettingsBindFlags.DEFAULT);
         }
 
+        time_zone_picker.request_timezone_change.connect (change_tz);
+
         bool syncing_datetime = false;
-        /*
-         * Setup Time
-         */
+
         time_picker.time_changed.connect (() => {
             var now_local = new GLib.DateTime.now_local ();
             var minutes = time_picker.time.get_minute () - now_local.get_minute ();
@@ -158,9 +152,6 @@ public class DateTime.MainView : Gtk.Grid {
             ct_manager.datetime_has_changed ();
         });
 
-        /*
-         * Setup Date
-         */
         date_picker.notify["date"].connect (() => {
             if (syncing_datetime == true)
                 return;
@@ -189,9 +180,6 @@ public class DateTime.MainView : Gtk.Grid {
             syncing_datetime = false;
         });
 
-        /*
-         * Setup Clock Format
-         */
         clock_settings = new GLib.Settings ("org.gnome.desktop.interface");
         time_format.mode_changed.connect (() => {
             unowned string new_format = time_format.selected == 0 ? "12h" : "24h";
@@ -210,9 +198,6 @@ public class DateTime.MainView : Gtk.Grid {
 
         setup_time_format.begin ();
 
-        /*
-         * Setup Network Time
-         */
         network_time_switch.notify["active"].connect (() => {
             bool active = network_time_switch.active;
             time_picker.sensitive = !active;

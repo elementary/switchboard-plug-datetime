@@ -14,12 +14,11 @@ switchboard_plugsdir = switchboard_dep.get_pkgconfig_variable('plugsdir', define
 shared_module(
     meson.project_name(),
     plug_files,
-    plug_resources,
     dependencies: [
         dependency('glib-2.0'),
         dependency('gio-2.0'),
         dependency('gobject-2.0'),
-        dependency('granite'),
+        dependency('granite', version: '>= 5.0.0'),
         dependency('gtk+-3.0'),
         meson.get_compiler('vala').find_library('posix'),
         switchboard_dep,
