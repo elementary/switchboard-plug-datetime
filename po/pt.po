@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-05 21:22+0000\n"
-"PO-Revision-Date: 2021-01-24 02:36+0000\n"
+"PO-Revision-Date: 2021-02-06 19:48+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-datetime/pt/>\n"
@@ -42,13 +42,11 @@ msgstr "Fuso Horário:"
 
 #: src/MainView.vala:79
 msgid "Based on your Location:"
-msgstr ""
+msgstr "Com base na sua localização:"
 
 #: src/MainView.vala:82
-#, fuzzy
-#| msgid "Automatically update time zone"
 msgid "Automatically updates the time zone when activated"
-msgstr "Atualizar automaticamente o fuso horário"
+msgstr "Atualiza automaticamente o fuso horário quando ativado"
 
 #: src/MainView.vala:108
 msgid "Show week numbers:"
