@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-datetime\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-05 21:22+0000\n"
-"PO-Revision-Date: 2020-01-08 08:02+0000\n"
+"PO-Revision-Date: 2021-02-06 12:10+0000\n"
 "Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
 "Language-Team: French <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-datetime/fr/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 4.4.2\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:04+0000\n"
 
 #: src/MainView.vala:49
@@ -42,13 +42,11 @@ msgstr "Fuseau horaire :"
 
 #: src/MainView.vala:79
 msgid "Based on your Location:"
-msgstr ""
+msgstr "D'après votre emplacement :"
 
 #: src/MainView.vala:82
-#, fuzzy
-#| msgid "Automatically update time zone"
 msgid "Automatically updates the time zone when activated"
-msgstr "Mettre à jour le fuseau horaire automatiquement"
+msgstr "Mettre à jour le fuseau horaire automatiquement si activé"
 
 #: src/MainView.vala:108
 msgid "Show week numbers:"
@@ -276,7 +274,7 @@ msgstr "Amérique/Argentine/Catamarca"
 #. /Translators: Comment for Timezone America/Argentina/Catamarca
 #: src/Translations.vala:81
 msgid "Catamarca (CT); Chubut (CH)"
-msgstr "Catamarca (CT); Chubut (CH)"
+msgstr "Catamarca (CT) ; Chubut (CH)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:83
@@ -581,7 +579,7 @@ msgstr "Amérique/Belém"
 #. /Translators: Comment for Timezone America/Belem
 #: src/Translations.vala:203
 msgid "Para (east); Amapa"
-msgstr "Para (est); Amapa"
+msgstr "Para (est) ; Amapa"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:205
@@ -591,7 +589,7 @@ msgstr "Amérique/Fortaleza"
 #. /Translators: Comment for Timezone America/Fortaleza
 #: src/Translations.vala:207
 msgid "Brazil (northeast: MA, PI, CE, RN, PB)"
-msgstr "Brésil (nord-est|nbsp]: MA, PI, CE, RN, PB)"
+msgstr "Brésil (nord-est|nbsp] : MA, PI, CE, RN, PB)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:209
@@ -641,7 +639,7 @@ msgstr "Amérique/Sao_Paulo"
 #. /Translators: Comment for Timezone America/Sao_Paulo
 #: src/Translations.vala:227
 msgid "Brazil (southeast: GO, DF, MG, ES, RJ, SP, PR, SC, RS)"
-msgstr "Brésil (sud-est|nbsp]: GO, DF, MG, ES, RJ, SP, PR, SC, RS)"
+msgstr "Brésil (sud-est|nbsp] : GO, DF, MG, ES, RJ, SP, PR, SC, RS)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:229
@@ -756,7 +754,7 @@ msgstr "Amérique/St_Johns"
 #. /Translators: Comment for Timezone America/St_Johns
 #: src/Translations.vala:273
 msgid "Newfoundland; Labrador (southeast)"
-msgstr "Terre-Neuve; Labrador (sud-est)"
+msgstr "Terre-Neuve ; Labrador (sud-est)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:275
@@ -766,7 +764,7 @@ msgstr "Amérique/Halifax"
 #. /Translators: Comment for Timezone America/Halifax
 #: src/Translations.vala:277
 msgid "Atlantic - NS (most areas); PE"
-msgstr "Atlantique - NS (principales régions); PE"
+msgstr "Atlantique - NS (principales régions) ; PE"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:279
@@ -876,7 +874,7 @@ msgstr "Amérique/Winnipeg"
 #. /Translators: Comment for Timezone America/Winnipeg
 #: src/Translations.vala:321
 msgid "Central - ON (west); Manitoba"
-msgstr "Centre - ON (ouest); Manitoba"
+msgstr "Centre - ON (ouest) ; Manitoba"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:323
@@ -1548,7 +1546,7 @@ msgstr "Asie/Makassar"
 msgid ""
 "Borneo (east, south); Sulawesi/Celebes, Bali, Nusa Tengarra; Timor (west)"
 msgstr ""
-"Bornéo (est, sud); Sulawesi/Célèbes, Bali, Nusa Tengarra; Timor (ouest)"
+"Bornéo (est, sud) ; Sulawesi/Célèbes, Bali, Nusa Tengarra ; Timor (ouest)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:591
@@ -1558,7 +1556,7 @@ msgstr "Asie/Jayapura"
 #. /Translators: Comment for Timezone Asia/Jayapura
 #: src/Translations.vala:593
 msgid "New Guinea (West Papua / Irian Jaya); Malukus/Moluccas"
-msgstr "Nouvelle-Guinée (Papouasie occidentale / Irian Jaya); Moluques"
+msgstr "Nouvelle-Guinée (Papouasie occidentale / Irian Jaya) ; Moluques"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:595
@@ -2592,7 +2590,7 @@ msgstr "Asie/Srednekolymsk"
 #. /Translators: Comment for Timezone Asia/Srednekolymsk
 #: src/Translations.vala:1005
 msgid "MSK+08 - Sakha (E); North Kuril Is"
-msgstr "MSK+08 - Sakha (E); Nord des îles Kouriles"
+msgstr "MSK+08 - Sakha (E) ; Nord des îles Kouriles"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:1007
@@ -2832,7 +2830,7 @@ msgstr "Europe/Zaporozhye"
 #. /Translators: Comment for Timezone Europe/Zaporozhye
 #: src/Translations.vala:1101
 msgid "Zaporozh'ye/Zaporizhia; Lugansk/Luhansk (east)"
-msgstr "Zaporozh'ye/Zaporizhia; Lugansk/Luhansk (est)"
+msgstr "Zaporozh'ye/Zaporizhia ; Lugansk/Luhansk (est)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:1103
