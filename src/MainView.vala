@@ -65,7 +65,7 @@ public class DateTime.MainView : Gtk.Grid {
 
         var time_zone_label = new Gtk.Label (_("Time Zone:")) {
             valign = Gtk.Align.START,
-            xalign = 1
+            halign = Gtk.Align.END
         };
 
         auto_time_zone_icon = new Gtk.Image.from_icon_name ("location-inactive-symbolic", Gtk.IconSize.BUTTON);
@@ -96,7 +96,7 @@ public class DateTime.MainView : Gtk.Grid {
         time_zone_picker.get_style_context ().add_class (Gtk.STYLE_CLASS_FRAME);
 
         var week_number_label = new Gtk.Label (_("Show week numbers:")) {
-            xalign = 1
+            halign = Gtk.Align.END
         };
 
         var week_number_switch = new Gtk.Switch () {
