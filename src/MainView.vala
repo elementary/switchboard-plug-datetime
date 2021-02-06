@@ -68,10 +68,7 @@ public class DateTime.MainView : Gtk.Grid {
             xalign = 1
         };
 
-        auto_time_zone_icon = new Gtk.Image () {
-            gicon = new ThemedIcon ("location-inactive-symbolic"),
-            pixel_size = 16
-        };
+        auto_time_zone_icon = new Gtk.Image.from_icon_name ("location-inactive-symbolic", Gtk.IconSize.BUTTON);
 
         weak Gtk.StyleContext auto_time_zone_icon_context = auto_time_zone_icon.get_style_context ();
         auto_time_zone_icon_context.add_class ("accent");
