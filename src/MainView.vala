@@ -44,7 +44,7 @@ public class DateTime.MainView : Gtk.Grid {
 
     construct {
         var network_time_label = new Gtk.Label (_("Network Time:")) {
-            xalign = 1
+            halign = Gtk.Align.END
         };
 
         var network_time_switch = new Gtk.Switch () {
@@ -56,7 +56,7 @@ public class DateTime.MainView : Gtk.Grid {
         var date_picker = new Granite.Widgets.DatePicker ();
 
         var time_format_label = new Gtk.Label (_("Time Format:")) {
-            xalign = 1
+            halign = Gtk.Align.END
         };
 
         time_format = new Granite.Widgets.ModeButton ();
@@ -64,8 +64,8 @@ public class DateTime.MainView : Gtk.Grid {
         time_format.append_text (_("24-hour"));
 
         var time_zone_label = new Gtk.Label (_("Time Zone:")) {
-            valign = Gtk.Align.START,
-            halign = Gtk.Align.END
+            halign = Gtk.Align.END,
+            valign = Gtk.Align.START
         };
 
         auto_time_zone_icon = new Gtk.Image.from_icon_name ("location-inactive-symbolic", Gtk.IconSize.BUTTON);
