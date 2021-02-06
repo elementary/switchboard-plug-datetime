@@ -71,7 +71,7 @@ public class DateTime.MainView : Gtk.Grid {
         auto_time_zone_icon = new Gtk.Image.from_icon_name ("location-inactive-symbolic", Gtk.IconSize.BUTTON);
 
         weak Gtk.StyleContext auto_time_zone_icon_context = auto_time_zone_icon.get_style_context ();
-        auto_time_zone_icon_context.add_class ("accent");
+        auto_time_zone_icon_context.add_class (Granite.STYLE_CLASS_ACCENT);
         auto_time_zone_icon_context.add_class ("purple");
 
         var auto_time_zone_switch_label = new Gtk.Label (_("Based on your Location:"));
