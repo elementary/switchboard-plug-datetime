@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-05 21:22+0000\n"
-"PO-Revision-Date: 2020-01-11 16:07+0000\n"
+"PO-Revision-Date: 2021-02-06 03:31+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-datetime/ja/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 4.4.2\n"
 "X-Launchpad-Export-Date: 2017-01-29 05:09+0000\n"
 
 #: src/MainView.vala:49
@@ -37,13 +37,11 @@ msgstr "タイムゾーン:"
 
 #: src/MainView.vala:79
 msgid "Based on your Location:"
-msgstr ""
+msgstr "位置情報に基づいて設定:"
 
 #: src/MainView.vala:82
-#, fuzzy
-#| msgid "Automatically update time zone"
 msgid "Automatically updates the time zone when activated"
-msgstr "タイムゾーンを自動的に更新"
+msgstr "有効にすると、タイムゾーンを自動的に更新します"
 
 #: src/MainView.vala:108
 msgid "Show week numbers:"
@@ -1736,7 +1734,7 @@ msgstr "アジア/アクトベ"
 #. /Translators: Comment for Timezone Asia/Aqtobe
 #: src/Translations.vala:661
 msgid "Aqtobe/Aktobe"
-msgstr "アクトベ/アクトベ"
+msgstr "アクトベ"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:663
@@ -1746,7 +1744,7 @@ msgstr "アジア/アクタウ"
 #. /Translators: Comment for Timezone Asia/Aqtau
 #: src/Translations.vala:665
 msgid "Mangghystau/Mankistau"
-msgstr "マンギスタウ/マンギスタウ"
+msgstr "マンギスタウ"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:667
@@ -1756,7 +1754,7 @@ msgstr "アジア/アティラウ"
 #. /Translators: Comment for Timezone Asia/Atyrau
 #: src/Translations.vala:669
 msgid "Atyrau/Atirau/Gur'yev"
-msgstr "アティラウ/アティラウ/グーリエフ"
+msgstr "アティラウ/グーリエフ"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:671
