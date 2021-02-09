@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-05 21:22+0000\n"
-"PO-Revision-Date: 2020-02-22 14:08+0000\n"
+"PO-Revision-Date: 2021-02-09 09:53+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-datetime/fi/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 4.4.2\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:04+0000\n"
 
 #: src/MainView.vala:49
@@ -42,13 +42,11 @@ msgstr "Aikavyöhyke:"
 
 #: src/MainView.vala:79
 msgid "Based on your Location:"
-msgstr ""
+msgstr "Perustuen sijaintiisi:"
 
 #: src/MainView.vala:82
-#, fuzzy
-#| msgid "Automatically update time zone"
 msgid "Automatically updates the time zone when activated"
-msgstr "Päivitä aikavyöhyke automaattisesti"
+msgstr "Päivittää aikavyöhykkeen automaattisesti kun aktivoitu"
 
 #: src/MainView.vala:108
 msgid "Show week numbers:"
