@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-05 21:22+0000\n"
-"PO-Revision-Date: 2020-10-27 23:15+0000\n"
+"PO-Revision-Date: 2021-02-15 21:09+0000\n"
 "Last-Translator: Uwe S <saabisto@gmx.de>\n"
 "Language-Team: German <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-datetime/de/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 4.4.2\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:04+0000\n"
 
 #: src/MainView.vala:49
@@ -43,13 +43,11 @@ msgstr "Zeitzone:"
 
 #: src/MainView.vala:79
 msgid "Based on your Location:"
-msgstr ""
+msgstr "Basierend auf Ihrem Standort:"
 
 #: src/MainView.vala:82
-#, fuzzy
-#| msgid "Automatically update time zone"
 msgid "Automatically updates the time zone when activated"
-msgstr "Zeitzone automatisch aktualisieren"
+msgstr "Wenn eingeschaltet, wird die Zeitzone automatisch aktualisiert"
 
 #: src/MainView.vala:108
 msgid "Show week numbers:"
@@ -720,7 +718,7 @@ msgstr "Amerika/Santarem"
 #. /Translators: Comment for Timezone America/Santarem
 #: src/Translations.vala:239
 msgid "Para (west)"
-msgstr "Para (west)"
+msgstr "Para (West)"
 
 #
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
@@ -943,7 +941,7 @@ msgstr "Amerika/Winnipeg"
 #. /Translators: Comment for Timezone America/Winnipeg
 #: src/Translations.vala:321
 msgid "Central - ON (west); Manitoba"
-msgstr "Central - ON (west); Manitoba"
+msgstr "Central - ON (West); Manitoba"
 
 #
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
@@ -1018,7 +1016,7 @@ msgstr "Amerika/Cambridge_Bay"
 #. /Translators: Comment for Timezone America/Cambridge_Bay
 #: src/Translations.vala:349
 msgid "Mountain - NU (west)"
-msgstr "Mountain - NU (west)"
+msgstr "Mountain - NU (West)"
 
 #
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
@@ -1040,7 +1038,7 @@ msgstr "Amerika/Inuvik"
 #. /Translators: Comment for Timezone America/Inuvik
 #: src/Translations.vala:357
 msgid "Mountain - NT (west)"
-msgstr "Mountain - NT (west)"
+msgstr "Mountain - NT (West)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:359
@@ -1092,7 +1090,7 @@ msgstr "Amerika/Whitehorse"
 #. /Translators: Comment for Timezone America/Whitehorse
 #: src/Translations.vala:377
 msgid "Pacific - Yukon (south)"
-msgstr "Pacific - Yukon (south)"
+msgstr "Pacific - Yukon (Süd)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:379
@@ -1102,7 +1100,7 @@ msgstr "Amerika/Dawson"
 #. /Translators: Comment for Timezone America/Dawson
 #: src/Translations.vala:381
 msgid "Pacific - Yukon (north)"
-msgstr "Pacific - Yukon (north)"
+msgstr "Pacific - Yukon (Nord)"
 
 #
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
@@ -3240,7 +3238,7 @@ msgstr "Amerika/Indiana/Vevay"
 #. /Translators: Comment for Timezone America/Indiana/Vevay
 #: src/Translations.vala:1151
 msgid "Eastern - IN (Switzerland)"
-msgstr "Eastern - IN (Switzerland)"
+msgstr "Eastern - IN (Schweiz)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:1153
