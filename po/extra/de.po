@@ -8,14 +8,16 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-05 21:22+0000\n"
-"PO-Revision-Date: 2018-12-10 10:29-0800\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2021-02-15 21:09+0000\n"
+"Last-Translator: Uwe S <saabisto@gmx.de>\n"
+"Language-Team: German <https://l10n.elementary.io/projects/switchboard/"
+"date-time-plug-extra/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: data/io.elementary.switchboard.datetime.appdata.xml.in:5
 msgid "Date &amp; Time Settings"
@@ -23,7 +25,7 @@ msgstr ""
 
 #: data/io.elementary.switchboard.datetime.appdata.xml.in:6
 msgid "Configure date, time, and select time zone"
-msgstr ""
+msgstr "Datum und Zeit einstellen, Zeitzone auswählen"
 
 #: data/io.elementary.switchboard.datetime.appdata.xml.in:12
 #: data/io.elementary.switchboard.datetime.appdata.xml.in:20
@@ -33,7 +35,7 @@ msgstr ""
 
 #: data/io.elementary.switchboard.datetime.appdata.xml.in:17
 msgid "Minor updates"
-msgstr ""
+msgstr "Kleinere Aktualisierungen"
 
 #: data/io.elementary.switchboard.datetime.appdata.xml.in:19
 msgid "Fix potential freeze when changing settings from multiple panes"
