@@ -177,9 +177,7 @@ public class DateTime.MainView : Gtk.Grid {
             wingpanel_settings.bind ("clock-show-seconds", show_seconds_switch, "active", SettingsBindFlags.DEFAULT);
             wingpanel_settings.bind ("show-weeks", week_number_switch, "active", SettingsBindFlags.DEFAULT);
 
-            show_date_switch.notify["active"].connect (() => {
-                show_weekday_switch.sensitive = show_date_switch.active;
-            });
+            wingpanel_settings.bind ("clock-show-date", show_weekday_switch, "sensitive", SettingsBindFlags.INVERT_BOOLEAN);
         }
 
         time_zone_picker.request_timezone_change.connect (change_tz);
