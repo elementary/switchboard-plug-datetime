@@ -95,6 +95,35 @@ public class DateTime.MainView : Gtk.Grid {
         };
         time_zone_picker.get_style_context ().add_class (Gtk.STYLE_CLASS_FRAME);
 
+        var show_date_label = new Gtk.Label (_("Show the date:")) {
+            halign = Gtk.Align.END,
+            margin_top = 24
+        };
+
+        var show_date_switch = new Gtk.Switch () {
+            halign = Gtk.Align.START,
+            valign = Gtk.Align.CENTER,
+            margin_top = 24
+        };
+
+        var show_weekday_label = new Gtk.Label (_("Show the day of the week:")) {
+            halign = Gtk.Align.END
+        };
+
+        var show_weekday_switch = new Gtk.Switch () {
+            halign = Gtk.Align.START,
+            valign = Gtk.Align.CENTER
+        };
+
+        var show_seconds_label = new Gtk.Label (_("Show seconds:")) {
+            halign = Gtk.Align.END
+        };
+
+        var show_seconds_switch = new Gtk.Switch () {
+            halign = Gtk.Align.START,
+            valign = Gtk.Align.CENTER
+        };
+
         var week_number_label = new Gtk.Label (_("Show week numbers:")) {
             halign = Gtk.Align.END
         };
@@ -114,8 +143,14 @@ public class DateTime.MainView : Gtk.Grid {
         attach (auto_time_zone_grid, 1, 2, 3);
         attach (network_time_label, 0, 3);
         attach (network_time_switch, 1, 3);
-        attach (week_number_label, 0, 4);
-        attach (week_number_switch, 1, 4);
+        attach (show_date_label, 0, 4);
+        attach (show_date_switch, 1, 4);
+        attach (show_weekday_label, 0, 5);
+        attach (show_weekday_switch, 1, 5);
+        attach (show_seconds_label, 0, 6);
+        attach (show_seconds_switch, 1, 6);
+        attach (week_number_label, 0, 7);
+        attach (week_number_switch, 1, 7);
         attach (time_picker, 2, 3);
         attach (date_picker, 3, 3);
 
@@ -127,10 +162,20 @@ public class DateTime.MainView : Gtk.Grid {
         GLib.Settings wingpanel_settings = null;
 
         if (schema == null) {
+            show_date_label.visible = false;
+            show_date_switch.visible = false;
+            show_weekday_label.visible = false;
+            show_weekday_switch.visible = false;
+            show_seconds_label.visible = false;
+            show_seconds_switch.visible = false;
             week_number_label.visible = false;
             week_number_switch.visible = false;
         } else {
             wingpanel_settings = new GLib.Settings ("io.elementary.desktop.wingpanel.datetime");
+            wingpanel_settings.bind ("clock-show-date", show_date_switch, "active", SettingsBindFlags.DEFAULT);
+            wingpanel_settings.bind ("clock-show-weekday", show_weekday_switch, "active", SettingsBindFlags.DEFAULT);
+            wingpanel_settings.bind ("clock-show-seconds", show_seconds_switch, "active", SettingsBindFlags.DEFAULT);
+            wingpanel_settings.bind ("clock-show-date", show_weekday_switch, "sensitive", SettingsBindFlags.DEFAULT);
             wingpanel_settings.bind ("show-weeks", week_number_switch, "active", SettingsBindFlags.DEFAULT);
         }
 
