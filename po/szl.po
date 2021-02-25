@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-05 21:22+0000\n"
+"POT-Creation-Date: 2021-02-25 11:37+0000\n"
 "PO-Revision-Date: 2019-06-26 18:53+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -12,11 +12,11 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
 
-#: src/MainView.vala:49
+#: src/MainView.vala:46
 msgid "Network Time:"
 msgstr ""
 
-#: src/MainView.vala:59
+#: src/MainView.vala:58
 msgid "Time Format:"
 msgstr ""
 
@@ -32,15 +32,27 @@ msgstr ""
 msgid "Time Zone:"
 msgstr ""
 
-#: src/MainView.vala:79
+#: src/MainView.vala:77
 msgid "Based on your Location:"
 msgstr ""
 
-#: src/MainView.vala:82
+#: src/MainView.vala:80
 msgid "Automatically updates the time zone when activated"
 msgstr ""
 
-#: src/MainView.vala:108
+#: src/MainView.vala:98
+msgid "Show the date:"
+msgstr ""
+
+#: src/MainView.vala:109
+msgid "Show the day of the week:"
+msgstr ""
+
+#: src/MainView.vala:118
+msgid "Show seconds:"
+msgstr ""
+
+#: src/MainView.vala:127
 msgid "Show week numbers:"
 msgstr ""
 

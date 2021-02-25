@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-05 21:22+0000\n"
+"POT-Creation-Date: 2021-02-25 11:37+0000\n"
 "PO-Revision-Date: 2018-10-21 13:27+0000\n"
 "Last-Translator: Kirill Romanov <djaler1@gmail.com>\n"
 "Language-Team: Russian <https://weblate.elementary.io/projects/switchboard/"
@@ -21,11 +21,11 @@ msgstr ""
 "X-Generator: Weblate 3.0.1\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:05+0000\n"
 
-#: src/MainView.vala:49
+#: src/MainView.vala:46
 msgid "Network Time:"
 msgstr "Время сети:"
 
-#: src/MainView.vala:59
+#: src/MainView.vala:58
 msgid "Time Format:"
 msgstr "Формат времени:"
 
@@ -41,15 +41,27 @@ msgstr ""
 msgid "Time Zone:"
 msgstr "Часовой пояс:"
 
-#: src/MainView.vala:79
+#: src/MainView.vala:77
 msgid "Based on your Location:"
 msgstr ""
 
-#: src/MainView.vala:82
+#: src/MainView.vala:80
 msgid "Automatically updates the time zone when activated"
 msgstr ""
 
-#: src/MainView.vala:108
+#: src/MainView.vala:98
+msgid "Show the date:"
+msgstr ""
+
+#: src/MainView.vala:109
+msgid "Show the day of the week:"
+msgstr ""
+
+#: src/MainView.vala:118
+msgid "Show seconds:"
+msgstr ""
+
+#: src/MainView.vala:127
 msgid "Show week numbers:"
 msgstr "Показывать номера недель:"
 

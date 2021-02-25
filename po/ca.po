@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-05 21:22+0000\n"
+"POT-Creation-Date: 2021-02-25 11:37+0000\n"
 "PO-Revision-Date: 2021-02-07 13:42+0000\n"
 "Last-Translator: David M <rbndavid@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.elementary.io/projects/switchboard/"
@@ -20,11 +20,11 @@ msgstr ""
 "X-Generator: Weblate 4.4.2\n"
 "X-Launchpad-Export-Date: 2017-04-05 07:42+0000\n"
 
-#: src/MainView.vala:49
+#: src/MainView.vala:46
 msgid "Network Time:"
 msgstr "Hora de la xarxa:"
 
-#: src/MainView.vala:59
+#: src/MainView.vala:58
 msgid "Time Format:"
 msgstr "Format de l'hora:"
 
@@ -40,15 +40,27 @@ msgstr "24 hores"
 msgid "Time Zone:"
 msgstr "Zona horària:"
 
-#: src/MainView.vala:79
+#: src/MainView.vala:77
 msgid "Based on your Location:"
 msgstr "Segons la vostra ubicació:"
 
-#: src/MainView.vala:82
+#: src/MainView.vala:80
 msgid "Automatically updates the time zone when activated"
 msgstr "Si s'activa, actualitza automàticament la zona horària."
 
-#: src/MainView.vala:108
+#: src/MainView.vala:98
+msgid "Show the date:"
+msgstr ""
+
+#: src/MainView.vala:109
+msgid "Show the day of the week:"
+msgstr ""
+
+#: src/MainView.vala:118
+msgid "Show seconds:"
+msgstr ""
+
+#: src/MainView.vala:127
 msgid "Show week numbers:"
 msgstr "Mostra els números de la setmana:"
 

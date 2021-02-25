@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-power\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-05 21:22+0000\n"
+"POT-Creation-Date: 2021-02-25 11:37+0000\n"
 "PO-Revision-Date: 2014-12-14 14:22+0000\n"
 "Last-Translator: u.f.djeison@gmail.com <u.f.djeison@gmail.com>\n"
 "Language-Team: Rusyn <rue@li.org>\n"
@@ -18,11 +18,11 @@ msgstr ""
 "X-Launchpad-Export-Date: 2017-01-12 06:06+0000\n"
 "X-Generator: Launchpad (build 18302)\n"
 
-#: src/MainView.vala:49
+#: src/MainView.vala:46
 msgid "Network Time:"
 msgstr ""
 
-#: src/MainView.vala:59
+#: src/MainView.vala:58
 msgid "Time Format:"
 msgstr ""
 
@@ -38,15 +38,27 @@ msgstr ""
 msgid "Time Zone:"
 msgstr ""
 
-#: src/MainView.vala:79
+#: src/MainView.vala:77
 msgid "Based on your Location:"
 msgstr ""
 
-#: src/MainView.vala:82
+#: src/MainView.vala:80
 msgid "Automatically updates the time zone when activated"
 msgstr ""
 
-#: src/MainView.vala:108
+#: src/MainView.vala:98
+msgid "Show the date:"
+msgstr ""
+
+#: src/MainView.vala:109
+msgid "Show the day of the week:"
+msgstr ""
+
+#: src/MainView.vala:118
+msgid "Show seconds:"
+msgstr ""
+
+#: src/MainView.vala:127
 msgid "Show week numbers:"
 msgstr ""
 
