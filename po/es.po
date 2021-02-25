@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-25 11:37+0000\n"
-"PO-Revision-Date: 2021-02-17 13:24+0000\n"
-"Last-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\n"
+"PO-Revision-Date: 2021-02-26 05:00+0000\n"
+"Last-Translator: Alvaro <alvaroaraoz_92@hotmail.com>\n"
 "Language-Team: Spanish <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-datetime/es/>\n"
 "Language: es\n"
@@ -50,15 +50,15 @@ msgstr "Actualiza el huso horario automáticamente cuando se activa"
 
 #: src/MainView.vala:98
 msgid "Show the date:"
-msgstr ""
+msgstr "Mostrar la fecha:"
 
 #: src/MainView.vala:109
 msgid "Show the day of the week:"
-msgstr ""
+msgstr "Mostrar el día de la semana:"
 
 #: src/MainView.vala:118
 msgid "Show seconds:"
-msgstr ""
+msgstr "Mostrar los segundos:"
 
 #: src/MainView.vala:127
 msgid "Show week numbers:"
