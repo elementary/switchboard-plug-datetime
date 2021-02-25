@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-25 11:37+0000\n"
-"PO-Revision-Date: 2021-02-14 15:23+0000\n"
+"PO-Revision-Date: 2021-02-25 16:23+0000\n"
 "Last-Translator: Ciarán Ainsworth <ciaranainsworth@outlook.com>\n"
 "Language-Team: English (United Kingdom) <https://l10n.elementary.io/projects/"
 "switchboard/switchboard-plug-datetime/en_GB/>\n"
@@ -50,15 +50,15 @@ msgstr "Automatically updates the time zone when activated"
 
 #: src/MainView.vala:98
 msgid "Show the date:"
-msgstr ""
+msgstr "Show the date:"
 
 #: src/MainView.vala:109
 msgid "Show the day of the week:"
-msgstr ""
+msgstr "Show the day of the week:"
 
 #: src/MainView.vala:118
 msgid "Show seconds:"
-msgstr ""
+msgstr "Show seconds:"
 
 #: src/MainView.vala:127
 msgid "Show week numbers:"
