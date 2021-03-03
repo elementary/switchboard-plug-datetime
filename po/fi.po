@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-25 11:37+0000\n"
-"PO-Revision-Date: 2021-02-09 09:53+0000\n"
+"PO-Revision-Date: 2021-03-03 11:48+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-datetime/fi/>\n"
@@ -50,15 +50,15 @@ msgstr "Päivittää aikavyöhykkeen automaattisesti kun aktivoitu"
 
 #: src/MainView.vala:98
 msgid "Show the date:"
-msgstr ""
+msgstr "Näytä päiväys:"
 
 #: src/MainView.vala:109
 msgid "Show the day of the week:"
-msgstr ""
+msgstr "Näytä viikonpäivä:"
 
 #: src/MainView.vala:118
 msgid "Show seconds:"
-msgstr ""
+msgstr "Näytä sekunnit:"
 
 #: src/MainView.vala:127
 msgid "Show week numbers:"
