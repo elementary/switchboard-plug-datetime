@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-25 11:37+0000\n"
-"PO-Revision-Date: 2021-02-15 21:09+0000\n"
+"PO-Revision-Date: 2021-03-14 14:49+0000\n"
 "Last-Translator: Uwe S <saabisto@gmx.de>\n"
-"Language-Team: German <https://l10n.elementary.io/projects/switchboard/date-"
-"time-plug-extra/de/>\n"
+"Language-Team: German <https://l10n.elementary.io/projects/switchboard/"
+"date-time-plug-extra/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,7 +31,7 @@ msgstr "Datum und Zeit einstellen, Zeitzone auswählen"
 #: data/io.elementary.switchboard.datetime.appdata.xml.in:20
 #: data/io.elementary.switchboard.datetime.appdata.xml.in:26
 msgid "Updated translations"
-msgstr ""
+msgstr "Aktualisierte Übersetzungen"
 
 #: data/io.elementary.switchboard.datetime.appdata.xml.in:17
 msgid "Minor updates"
