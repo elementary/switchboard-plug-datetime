@@ -95,6 +95,15 @@ public class DateTime.MainView : Gtk.Grid {
         };
         time_zone_picker.get_style_context ().add_class (Gtk.STYLE_CLASS_FRAME);
 
+        var week_number_label = new Gtk.Label (_("Show week numbers:")) {
+            halign = Gtk.Align.END
+        };
+
+        var week_number_switch = new Gtk.Switch () {
+            halign = Gtk.Align.START,
+            valign = Gtk.Align.CENTER
+        };
+
         var show_date_label = new Gtk.Label (_("Show the date:")) {
             halign = Gtk.Align.END,
             margin_top = 24
@@ -124,15 +133,6 @@ public class DateTime.MainView : Gtk.Grid {
             valign = Gtk.Align.CENTER
         };
 
-        var week_number_label = new Gtk.Label (_("Show week numbers:")) {
-            halign = Gtk.Align.END
-        };
-
-        var week_number_switch = new Gtk.Switch () {
-            halign = Gtk.Align.START,
-            valign = Gtk.Align.CENTER
-        };
-
         column_spacing = 12;
         row_spacing = 12;
 
@@ -143,16 +143,16 @@ public class DateTime.MainView : Gtk.Grid {
         attach (auto_time_zone_grid, 1, 2, 3);
         attach (network_time_label, 0, 3);
         attach (network_time_switch, 1, 3);
-        attach (show_date_label, 0, 4);
-        attach (show_date_switch, 1, 4);
-        attach (show_weekday_label, 0, 5);
-        attach (show_weekday_switch, 1, 5);
-        attach (show_seconds_label, 0, 6);
-        attach (show_seconds_switch, 1, 6);
-        attach (week_number_label, 0, 7);
-        attach (week_number_switch, 1, 7);
         attach (time_picker, 2, 3);
         attach (date_picker, 3, 3);
+        attach (week_number_label, 0, 4);
+        attach (week_number_switch, 1, 4);
+        attach (show_date_label, 0, 5);
+        attach (show_date_switch, 1, 5);
+        attach (show_weekday_label, 0, 6);
+        attach (show_weekday_switch, 1, 6);
+        attach (show_seconds_label, 0, 7);
+        attach (show_seconds_switch, 1, 7);
 
         show_all ();
 
