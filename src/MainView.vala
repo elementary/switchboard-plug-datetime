@@ -28,12 +28,6 @@ public class DateTime.MainView : Gtk.ScrolledWindow {
 
     private static GLib.Settings time_zone_settings;
 
-    public MainView () {
-        Object (
-            hscrollbar_policy: Gtk.PolicyType.NEVER
-        );
-    }
-
     public bool automatic_timezone {
         set {
             if (value) {
@@ -158,6 +152,7 @@ public class DateTime.MainView : Gtk.ScrolledWindow {
         grid.attach (panel_label, 0, 5);
         grid.attach (panel_check_grid, 1, 5, 3);
 
+        hscrollbar_policy = Gtk.PolicyType.NEVER;
         add (grid);
 
         show_all ();
