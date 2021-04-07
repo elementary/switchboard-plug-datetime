@@ -110,45 +110,30 @@ public class DateTime.MainView : Gtk.ScrolledWindow {
             valign = Gtk.Align.CENTER
         };
 
-        var week_number_info = new Gtk.Label (_("e.g. in the Calendar app and Panel indicator")) {
+        var week_number_info = new Gtk.Label (_("e.g. in Calendar and the Date & Time Panel indicator")) {
             max_width_chars = 40,
             wrap = true,
             xalign = 0
         };
         week_number_info.get_style_context ().add_class (Gtk.STYLE_CLASS_DIM_LABEL);
 
-        var panel_header = new Granite.HeaderLabel (_("Show in Panel")) {
+        var panel_label = new Gtk.Label (_("Show in Panel:")) {
             halign = Gtk.Align.END,
-            margin_top = 12,
-            xalign = 1
+            margin_top = 6
         };
 
-        var show_date_label = new Gtk.Label (_("Date:")) {
-            halign = Gtk.Align.END
+        var date_check = new Gtk.CheckButton.with_label (_("Date"));
+        var weekday_check = new Gtk.CheckButton.with_label (_("Day of the week"));
+        var seconds_check = new Gtk.CheckButton.with_label (_("Seconds"));
+
+        var panel_check_grid = new Gtk.Grid () {
+            column_spacing = 12,
+            margin_top = 6
         };
 
-        var show_date_switch = new Gtk.Switch () {
-            halign = Gtk.Align.START,
-            valign = Gtk.Align.CENTER
-        };
-
-        var show_weekday_label = new Gtk.Label (_("Day of the week:")) {
-            halign = Gtk.Align.END
-        };
-
-        var show_weekday_switch = new Gtk.Switch () {
-            halign = Gtk.Align.START,
-            valign = Gtk.Align.CENTER
-        };
-
-        var show_seconds_label = new Gtk.Label (_("Seconds:")) {
-            halign = Gtk.Align.END
-        };
-
-        var show_seconds_switch = new Gtk.Switch () {
-            halign = Gtk.Align.START,
-            valign = Gtk.Align.CENTER
-        };
+        panel_check_grid.add (date_check);
+        panel_check_grid.add (weekday_check);
+        panel_check_grid.add (seconds_check);
 
         var grid = new Gtk.Grid () {
             column_spacing = 12,
@@ -170,13 +155,8 @@ public class DateTime.MainView : Gtk.ScrolledWindow {
         grid.attach (week_number_label, 0, 4);
         grid.attach (week_number_switch, 1, 4);
         grid.attach (week_number_info, 2, 4, 2);
-        grid.attach (panel_header, 0, 5);
-        grid.attach (show_date_label, 0, 6);
-        grid.attach (show_date_switch, 1, 6);
-        grid.attach (show_weekday_label, 0, 7);
-        grid.attach (show_weekday_switch, 1, 7);
-        grid.attach (show_seconds_label, 0, 8);
-        grid.attach (show_seconds_switch, 1, 8);
+        grid.attach (panel_label, 0, 5);
+        grid.attach (panel_check_grid, 1, 5, 3);
 
         add (grid);
 
@@ -188,20 +168,17 @@ public class DateTime.MainView : Gtk.ScrolledWindow {
         GLib.Settings wingpanel_settings = null;
 
         if (schema == null) {
-            show_date_label.visible = false;
-            show_date_switch.visible = false;
-            show_weekday_label.visible = false;
-            show_weekday_switch.visible = false;
-            show_seconds_label.visible = false;
-            show_seconds_switch.visible = false;
             week_number_label.visible = false;
             week_number_switch.visible = false;
+            week_number_info.visible = false;
+            panel_label.visible = false;
+            panel_check_grid.visible = false;
         } else {
             wingpanel_settings = new GLib.Settings ("io.elementary.desktop.wingpanel.datetime");
-            wingpanel_settings.bind ("clock-show-date", show_date_switch, "active", SettingsBindFlags.DEFAULT);
-            wingpanel_settings.bind ("clock-show-weekday", show_weekday_switch, "active", SettingsBindFlags.DEFAULT);
-            wingpanel_settings.bind ("clock-show-seconds", show_seconds_switch, "active", SettingsBindFlags.DEFAULT);
-            wingpanel_settings.bind ("clock-show-date", show_weekday_switch, "sensitive", SettingsBindFlags.DEFAULT);
+            wingpanel_settings.bind ("clock-show-date", date_check, "active", SettingsBindFlags.DEFAULT);
+            wingpanel_settings.bind ("clock-show-weekday", weekday_check, "active", SettingsBindFlags.DEFAULT);
+            wingpanel_settings.bind ("clock-show-seconds", seconds_check, "active", SettingsBindFlags.DEFAULT);
+            wingpanel_settings.bind ("clock-show-date", weekday_check, "sensitive", SettingsBindFlags.DEFAULT);
             wingpanel_settings.bind ("show-weeks", week_number_switch, "active", SettingsBindFlags.DEFAULT);
         }
 
