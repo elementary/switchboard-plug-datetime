@@ -17,7 +17,7 @@
  * Authored by: Corentin Noël <corentin@elementaryos.org>
  */
 
-public class DateTime.MainView : Gtk.Grid {
+public class DateTime.MainView : Gtk.ScrolledWindow {
     private Gtk.Image auto_time_zone_icon;
     private TimeZoneGrid time_zone_picker;
     private DateTime1 datetime1;
@@ -27,6 +27,14 @@ public class DateTime.MainView : Gtk.Grid {
     private Pantheon.AccountsService? pantheon_act = null;
 
     private static GLib.Settings time_zone_settings;
+
+    public MainView () {
+        Object (
+            expand: true,
+            halign: Gtk.Align.FILL,
+            hscrollbar_policy: Gtk.PolicyType.NEVER
+        );
+    }
 
     public bool automatic_timezone {
         set {
@@ -144,28 +152,35 @@ public class DateTime.MainView : Gtk.Grid {
             valign = Gtk.Align.CENTER
         };
 
-        column_spacing = 12;
-        row_spacing = 12;
+        var grid = new Gtk.Grid () {
+            column_spacing = 12,
+            halign = Gtk.Align.CENTER,
+            margin_bottom = 24,
+            margin_top = 24,
+            row_spacing = 12
+        };
 
-        attach (time_format_label, 0, 0);
-        attach (time_format, 1, 0, 3);
-        attach (time_zone_label, 0, 1);
-        attach (time_zone_picker, 1, 1, 3);
-        attach (auto_time_zone_grid, 1, 2, 3);
-        attach (network_time_label, 0, 3);
-        attach (network_time_switch, 1, 3);
-        attach (time_picker, 2, 3);
-        attach (date_picker, 3, 3);
-        attach (week_number_label, 0, 4);
-        attach (week_number_switch, 1, 4);
-        attach (week_number_info, 2, 4, 2);
-        attach (panel_header, 0, 5);
-        attach (show_date_label, 0, 6);
-        attach (show_date_switch, 1, 6);
-        attach (show_weekday_label, 0, 7);
-        attach (show_weekday_switch, 1, 7);
-        attach (show_seconds_label, 0, 8);
-        attach (show_seconds_switch, 1, 8);
+        grid.attach (time_format_label, 0, 0);
+        grid.attach (time_format, 1, 0, 3);
+        grid.attach (time_zone_label, 0, 1);
+        grid.attach (time_zone_picker, 1, 1, 3);
+        grid.attach (auto_time_zone_grid, 1, 2, 3);
+        grid.attach (network_time_label, 0, 3);
+        grid.attach (network_time_switch, 1, 3);
+        grid.attach (time_picker, 2, 3);
+        grid.attach (date_picker, 3, 3);
+        grid.attach (week_number_label, 0, 4);
+        grid.attach (week_number_switch, 1, 4);
+        grid.attach (week_number_info, 2, 4, 2);
+        grid.attach (panel_header, 0, 5);
+        grid.attach (show_date_label, 0, 6);
+        grid.attach (show_date_switch, 1, 6);
+        grid.attach (show_weekday_label, 0, 7);
+        grid.attach (show_weekday_switch, 1, 7);
+        grid.attach (show_seconds_label, 0, 8);
+        grid.attach (show_seconds_switch, 1, 8);
+
+        add (grid);
 
         show_all ();
 

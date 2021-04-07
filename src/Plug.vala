@@ -35,8 +35,6 @@ public class DateTime.Plug : Switchboard.Plug {
     public override Gtk.Widget get_widget () {
         if (main_view == null) {
             main_view = new DateTime.MainView ();
-            main_view.margin = 24;
-            main_view.halign = Gtk.Align.CENTER;
         }
 
         return main_view;
