@@ -104,18 +104,29 @@ public class DateTime.MainView : Gtk.Grid {
             valign = Gtk.Align.CENTER
         };
 
-        var show_date_label = new Gtk.Label (_("Show the date:")) {
+        var week_number_info = new Gtk.Label (_("e.g. in the Calendar app and Panel indicator")) {
+            max_width_chars = 40,
+            wrap = true,
+            xalign = 0
+        };
+        week_number_info.get_style_context ().add_class (Gtk.STYLE_CLASS_DIM_LABEL);
+
+        var panel_header = new Granite.HeaderLabel (_("Show in Panel")) {
             halign = Gtk.Align.END,
-            margin_top = 24
+            margin_top = 12,
+            xalign = 1
+        };
+
+        var show_date_label = new Gtk.Label (_("Date:")) {
+            halign = Gtk.Align.END
         };
 
         var show_date_switch = new Gtk.Switch () {
             halign = Gtk.Align.START,
-            valign = Gtk.Align.CENTER,
-            margin_top = 24
+            valign = Gtk.Align.CENTER
         };
 
-        var show_weekday_label = new Gtk.Label (_("Show the day of the week:")) {
+        var show_weekday_label = new Gtk.Label (_("Day of the week:")) {
             halign = Gtk.Align.END
         };
 
@@ -124,7 +135,7 @@ public class DateTime.MainView : Gtk.Grid {
             valign = Gtk.Align.CENTER
         };
 
-        var show_seconds_label = new Gtk.Label (_("Show seconds:")) {
+        var show_seconds_label = new Gtk.Label (_("Seconds:")) {
             halign = Gtk.Align.END
         };
 
@@ -147,12 +158,14 @@ public class DateTime.MainView : Gtk.Grid {
         attach (date_picker, 3, 3);
         attach (week_number_label, 0, 4);
         attach (week_number_switch, 1, 4);
-        attach (show_date_label, 0, 5);
-        attach (show_date_switch, 1, 5);
-        attach (show_weekday_label, 0, 6);
-        attach (show_weekday_switch, 1, 6);
-        attach (show_seconds_label, 0, 7);
-        attach (show_seconds_switch, 1, 7);
+        attach (week_number_info, 2, 4, 2);
+        attach (panel_header, 0, 5);
+        attach (show_date_label, 0, 6);
+        attach (show_date_switch, 1, 6);
+        attach (show_weekday_label, 0, 7);
+        attach (show_weekday_switch, 1, 7);
+        attach (show_seconds_label, 0, 8);
+        attach (show_seconds_switch, 1, 8);
 
         show_all ();
 
