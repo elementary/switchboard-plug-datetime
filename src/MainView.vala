@@ -51,7 +51,7 @@ public class DateTime.MainView : Gtk.ScrolledWindow {
     }
 
     construct {
-        var network_time_label = new Gtk.Label (_("Network Time:")) {
+        var network_time_label = new Gtk.Label (_("Network time:")) {
             halign = Gtk.Align.END
         };
 
@@ -63,7 +63,7 @@ public class DateTime.MainView : Gtk.ScrolledWindow {
         var time_picker = new Granite.Widgets.TimePicker ();
         var date_picker = new Granite.Widgets.DatePicker ();
 
-        var time_format_label = new Gtk.Label (_("Time Format:")) {
+        var time_format_label = new Gtk.Label (_("Time format:")) {
             halign = Gtk.Align.END
         };
 
@@ -82,7 +82,7 @@ public class DateTime.MainView : Gtk.ScrolledWindow {
         auto_time_zone_icon_context.add_class (Granite.STYLE_CLASS_ACCENT);
         auto_time_zone_icon_context.add_class ("purple");
 
-        var auto_time_zone_switch_label = new Gtk.Label (_("Based on your Location:"));
+        var auto_time_zone_switch_label = new Gtk.Label (_("Based on location:"));
 
         var auto_time_zone_switch = new Gtk.Switch () {
             tooltip_text = _("Automatically updates the time zone when activated")
