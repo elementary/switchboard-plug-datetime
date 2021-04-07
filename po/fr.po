@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-datetime\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-25 11:37+0000\n"
+"POT-Creation-Date: 2021-04-07 23:54+0000\n"
 "PO-Revision-Date: 2021-03-05 13:36+0000\n"
 "Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
 "Language-Team: French <https://l10n.elementary.io/projects/switchboard/"
@@ -21,11 +21,15 @@ msgstr ""
 "X-Launchpad-Export-Date: 2017-01-12 06:04+0000\n"
 
 #: src/MainView.vala:46
-msgid "Network Time:"
+#, fuzzy
+#| msgid "Network Time:"
+msgid "Network time:"
 msgstr "Heure réseau :"
 
 #: src/MainView.vala:58
-msgid "Time Format:"
+#, fuzzy
+#| msgid "Time Format:"
+msgid "Time format:"
 msgstr "Format de l'heure :"
 
 #: src/MainView.vala:63
@@ -37,11 +41,15 @@ msgid "24-hour"
 msgstr "24 heures"
 
 #: src/MainView.vala:66
-msgid "Time Zone:"
+#, fuzzy
+#| msgid "Time Zone:"
+msgid "Time zone:"
 msgstr "Fuseau horaire :"
 
 #: src/MainView.vala:77
-msgid "Based on your Location:"
+#, fuzzy
+#| msgid "Based on your Location:"
+msgid "Based on location:"
 msgstr "D'après votre emplacement :"
 
 #: src/MainView.vala:80
@@ -49,20 +57,34 @@ msgid "Automatically updates the time zone when activated"
 msgstr "Mettre à jour le fuseau horaire automatiquement si activé"
 
 #: src/MainView.vala:98
-msgid "Show the date:"
-msgstr "Afficher la date :"
-
-#: src/MainView.vala:109
-msgid "Show the day of the week:"
-msgstr "Afficher le jour de la semaine :"
-
-#: src/MainView.vala:118
-msgid "Show seconds:"
-msgstr "Afficher les secondes :"
-
-#: src/MainView.vala:127
 msgid "Show week numbers:"
 msgstr "Afficher les numéros de semaines :"
+
+#: src/MainView.vala:107
+msgid "e.g. in Calendar and the Date & Time Panel indicator"
+msgstr ""
+
+#: src/MainView.vala:114
+#, fuzzy
+#| msgid "Show the date:"
+msgid "Show in Panel:"
+msgstr "Afficher la date :"
+
+#: src/MainView.vala:119
+msgid "Date"
+msgstr "Date"
+
+#: src/MainView.vala:120
+#, fuzzy
+#| msgid "Show the day of the week:"
+msgid "Day of the week"
+msgstr "Afficher le jour de la semaine :"
+
+#: src/MainView.vala:121
+#, fuzzy
+#| msgid "Show seconds:"
+msgid "Seconds"
+msgstr "Afficher les secondes :"
 
 #: src/Plug.vala:29
 msgid "Date & Time"
@@ -72,19 +94,19 @@ msgstr "Date & Heure"
 msgid "Configure date, time, and select time zone"
 msgstr "Configurer la date, l'heure et sélectionner le fuseau horaire"
 
-#: src/Plug.vala:57
+#: src/Plug.vala:55
 msgid "Time Format"
 msgstr "Format de l'heure"
 
-#: src/Plug.vala:58
+#: src/Plug.vala:56
 msgid "Time Zone"
 msgstr "Fuseau horaire"
 
-#: src/Plug.vala:59
+#: src/Plug.vala:57
 msgid "Network Time"
 msgstr "Heure réseau"
 
-#: src/Plug.vala:60
+#: src/Plug.vala:58
 msgid "Show week numbers"
 msgstr "Afficher les numéros de semaines"
 
@@ -3291,9 +3313,6 @@ msgstr "Indien"
 
 #~ msgid "Time"
 #~ msgstr "Heure"
-
-#~ msgid "Date"
-#~ msgstr "Date"
 
 #~ msgid "Pacific/Johnston"
 #~ msgstr "Pacifique/Johnston"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-25 11:37+0000\n"
+"POT-Creation-Date: 2021-04-07 23:54+0000\n"
 "PO-Revision-Date: 2020-05-28 15:11+0000\n"
 "Last-Translator: Rantyrant <diseasemonger@gmail.com>\n"
 "Language-Team: Danish <https://l10n.elementary.io/projects/switchboard/"
@@ -23,11 +23,15 @@ msgstr ""
 "X-Source-Language: C\n"
 
 #: src/MainView.vala:46
-msgid "Network Time:"
+#, fuzzy
+#| msgid "Network Time:"
+msgid "Network time:"
 msgstr "Netværkstid:"
 
 #: src/MainView.vala:58
-msgid "Time Format:"
+#, fuzzy
+#| msgid "Time Format:"
+msgid "Time format:"
 msgstr "Tidsformat:"
 
 #: src/MainView.vala:63
@@ -39,11 +43,13 @@ msgid "24-hour"
 msgstr "24-timer"
 
 #: src/MainView.vala:66
-msgid "Time Zone:"
+#, fuzzy
+#| msgid "Time Zone:"
+msgid "Time zone:"
 msgstr "Tidszone:"
 
 #: src/MainView.vala:77
-msgid "Based on your Location:"
+msgid "Based on location:"
 msgstr ""
 
 #: src/MainView.vala:80
@@ -53,20 +59,28 @@ msgid "Automatically updates the time zone when activated"
 msgstr "Opdater tidszone automatisk"
 
 #: src/MainView.vala:98
-msgid "Show the date:"
-msgstr ""
-
-#: src/MainView.vala:109
-msgid "Show the day of the week:"
-msgstr ""
-
-#: src/MainView.vala:118
-msgid "Show seconds:"
-msgstr ""
-
-#: src/MainView.vala:127
 msgid "Show week numbers:"
 msgstr "Vis uge numre:"
+
+#: src/MainView.vala:107
+msgid "e.g. in Calendar and the Date & Time Panel indicator"
+msgstr ""
+
+#: src/MainView.vala:114
+msgid "Show in Panel:"
+msgstr ""
+
+#: src/MainView.vala:119
+msgid "Date"
+msgstr "Dato"
+
+#: src/MainView.vala:120
+msgid "Day of the week"
+msgstr ""
+
+#: src/MainView.vala:121
+msgid "Seconds"
+msgstr ""
 
 #: src/Plug.vala:29
 msgid "Date & Time"
@@ -76,19 +90,19 @@ msgstr "Dato & Tid"
 msgid "Configure date, time, and select time zone"
 msgstr "Konfigurér dato, klokkeslæt og vælg tidszone"
 
-#: src/Plug.vala:57
+#: src/Plug.vala:55
 msgid "Time Format"
 msgstr "Tidsformat"
 
-#: src/Plug.vala:58
+#: src/Plug.vala:56
 msgid "Time Zone"
 msgstr "Tidszone"
 
-#: src/Plug.vala:59
+#: src/Plug.vala:57
 msgid "Network Time"
 msgstr "Netværkstid"
 
-#: src/Plug.vala:60
+#: src/Plug.vala:58
 msgid "Show week numbers"
 msgstr "Vis uge numre"
 
@@ -3291,9 +3305,6 @@ msgstr "Indien"
 
 #~ msgid "Time"
 #~ msgstr "Tid"
-
-#~ msgid "Date"
-#~ msgstr "Dato"
 
 #~ msgid "Pacific/Johnston"
 #~ msgstr "Stillehav/Johnston"

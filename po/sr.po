@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-25 11:37+0000\n"
+"POT-Creation-Date: 2021-04-07 23:54+0000\n"
 "PO-Revision-Date: 2021-03-11 12:19+0000\n"
 "Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>\n"
 "Language-Team: Serbian <https://l10n.elementary.io/projects/switchboard/"
@@ -22,11 +22,15 @@ msgstr ""
 "X-Launchpad-Export-Date: 2017-01-12 06:05+0000\n"
 
 #: src/MainView.vala:46
-msgid "Network Time:"
+#, fuzzy
+#| msgid "Network Time:"
+msgid "Network time:"
 msgstr "Мрежно време:"
 
 #: src/MainView.vala:58
-msgid "Time Format:"
+#, fuzzy
+#| msgid "Time Format:"
+msgid "Time format:"
 msgstr "Запис времена:"
 
 #: src/MainView.vala:63
@@ -38,11 +42,15 @@ msgid "24-hour"
 msgstr "24-часовно"
 
 #: src/MainView.vala:66
-msgid "Time Zone:"
+#, fuzzy
+#| msgid "Time Zone:"
+msgid "Time zone:"
 msgstr "Временска зона:"
 
 #: src/MainView.vala:77
-msgid "Based on your Location:"
+#, fuzzy
+#| msgid "Based on your Location:"
+msgid "Based on location:"
 msgstr "На основу вашег места:"
 
 #: src/MainView.vala:80
@@ -50,20 +58,34 @@ msgid "Automatically updates the time zone when activated"
 msgstr "Сам освежи временску зону када је активирана"
 
 #: src/MainView.vala:98
-msgid "Show the date:"
-msgstr "Прикажи датум:"
-
-#: src/MainView.vala:109
-msgid "Show the day of the week:"
-msgstr "Прикажи дан у седмици:"
-
-#: src/MainView.vala:118
-msgid "Show seconds:"
-msgstr "Прикажи секунде:"
-
-#: src/MainView.vala:127
 msgid "Show week numbers:"
 msgstr "Прикажи бројеве седмица:"
+
+#: src/MainView.vala:107
+msgid "e.g. in Calendar and the Date & Time Panel indicator"
+msgstr ""
+
+#: src/MainView.vala:114
+#, fuzzy
+#| msgid "Show the date:"
+msgid "Show in Panel:"
+msgstr "Прикажи датум:"
+
+#: src/MainView.vala:119
+msgid "Date"
+msgstr ""
+
+#: src/MainView.vala:120
+#, fuzzy
+#| msgid "Show the day of the week:"
+msgid "Day of the week"
+msgstr "Прикажи дан у седмици:"
+
+#: src/MainView.vala:121
+#, fuzzy
+#| msgid "Show seconds:"
+msgid "Seconds"
+msgstr "Прикажи секунде:"
 
 #: src/Plug.vala:29
 msgid "Date & Time"
@@ -73,19 +95,19 @@ msgstr "Датум и време"
 msgid "Configure date, time, and select time zone"
 msgstr "Подесите датум, време и изаберите временску зону"
 
-#: src/Plug.vala:57
+#: src/Plug.vala:55
 msgid "Time Format"
 msgstr "Запис времена"
 
-#: src/Plug.vala:58
+#: src/Plug.vala:56
 msgid "Time Zone"
 msgstr "Временска зона"
 
-#: src/Plug.vala:59
+#: src/Plug.vala:57
 msgid "Network Time"
 msgstr "Мрежно време"
 
-#: src/Plug.vala:60
+#: src/Plug.vala:58
 msgid "Show week numbers"
 msgstr "Прикажи бројеве седмица"
 

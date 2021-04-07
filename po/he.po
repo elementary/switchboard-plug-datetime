@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: timezones.tip\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-25 11:37+0000\n"
+"POT-Creation-Date: 2021-04-07 23:54+0000\n"
 "PO-Revision-Date: 2021-02-25 13:41+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://l10n.elementary.io/projects/switchboard/"
@@ -22,11 +22,15 @@ msgstr ""
 "X-Launchpad-Export-Date: 2017-01-12 06:04+0000\n"
 
 #: src/MainView.vala:46
-msgid "Network Time:"
+#, fuzzy
+#| msgid "Network Time:"
+msgid "Network time:"
 msgstr "שעה מהרשת:"
 
 #: src/MainView.vala:58
-msgid "Time Format:"
+#, fuzzy
+#| msgid "Time Format:"
+msgid "Time format:"
 msgstr "תבנית הזמן:"
 
 #: src/MainView.vala:63
@@ -38,11 +42,15 @@ msgid "24-hour"
 msgstr "24 שעות"
 
 #: src/MainView.vala:66
-msgid "Time Zone:"
+#, fuzzy
+#| msgid "Time Zone:"
+msgid "Time zone:"
 msgstr "אזור זמן:"
 
 #: src/MainView.vala:77
-msgid "Based on your Location:"
+#, fuzzy
+#| msgid "Based on your Location:"
+msgid "Based on location:"
 msgstr "בהתאם למיקום שלך:"
 
 #: src/MainView.vala:80
@@ -50,20 +58,34 @@ msgid "Automatically updates the time zone when activated"
 msgstr "מעדכן את אזור הזמן אוטומטית כאשר מופעל"
 
 #: src/MainView.vala:98
-msgid "Show the date:"
-msgstr "הצגת התאריך:"
-
-#: src/MainView.vala:109
-msgid "Show the day of the week:"
-msgstr "הצגת היום בשבוע:"
-
-#: src/MainView.vala:118
-msgid "Show seconds:"
-msgstr "הצגת שניות:"
-
-#: src/MainView.vala:127
 msgid "Show week numbers:"
 msgstr "הצגת מספרי השבועות:"
+
+#: src/MainView.vala:107
+msgid "e.g. in Calendar and the Date & Time Panel indicator"
+msgstr ""
+
+#: src/MainView.vala:114
+#, fuzzy
+#| msgid "Show the date:"
+msgid "Show in Panel:"
+msgstr "הצגת התאריך:"
+
+#: src/MainView.vala:119
+msgid "Date"
+msgstr "תאריך"
+
+#: src/MainView.vala:120
+#, fuzzy
+#| msgid "Show the day of the week:"
+msgid "Day of the week"
+msgstr "הצגת היום בשבוע:"
+
+#: src/MainView.vala:121
+#, fuzzy
+#| msgid "Show seconds:"
+msgid "Seconds"
+msgstr "הצגת שניות:"
 
 #: src/Plug.vala:29
 msgid "Date & Time"
@@ -73,19 +95,19 @@ msgstr "תאריך ושעה"
 msgid "Configure date, time, and select time zone"
 msgstr "הגדרת התאריך, השעה ובחירה באזור זמן"
 
-#: src/Plug.vala:57
+#: src/Plug.vala:55
 msgid "Time Format"
 msgstr "תבנית הזמן"
 
-#: src/Plug.vala:58
+#: src/Plug.vala:56
 msgid "Time Zone"
 msgstr "אזור זמן"
 
-#: src/Plug.vala:59
+#: src/Plug.vala:57
 msgid "Network Time"
 msgstr "שעה מהרשת"
 
-#: src/Plug.vala:60
+#: src/Plug.vala:58
 msgid "Show week numbers"
 msgstr "הצגת מספרי השבועות"
 
@@ -3287,9 +3309,6 @@ msgstr "האוקיינוס ההודי"
 
 #~ msgid "Time"
 #~ msgstr "שעה"
-
-#~ msgid "Date"
-#~ msgstr "תאריך"
 
 #~ msgid "Pacific/Johnston"
 #~ msgstr "האוקיינוס-השקט/ג'ונסון"

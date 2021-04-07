@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-power\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-25 11:37+0000\n"
+"POT-Creation-Date: 2021-04-07 23:54+0000\n"
 "PO-Revision-Date: 2019-07-21 15:24+0000\n"
 "Last-Translator: Jung-Kyu Park <bagjunggyu@gmail.com>\n"
 "Language-Team: Korean <https://l10n.elementary.io/projects/switchboard/"
@@ -21,11 +21,15 @@ msgstr ""
 "X-Launchpad-Export-Date: 2017-01-12 06:04+0000\n"
 
 #: src/MainView.vala:46
-msgid "Network Time:"
+#, fuzzy
+#| msgid "Network Time:"
+msgid "Network time:"
 msgstr "네트워크 시간 :"
 
 #: src/MainView.vala:58
-msgid "Time Format:"
+#, fuzzy
+#| msgid "Time Format:"
+msgid "Time format:"
 msgstr "시간 형식 :"
 
 #: src/MainView.vala:63
@@ -37,11 +41,13 @@ msgid "24-hour"
 msgstr ""
 
 #: src/MainView.vala:66
-msgid "Time Zone:"
+#, fuzzy
+#| msgid "Time Zone:"
+msgid "Time zone:"
 msgstr "시간대:"
 
 #: src/MainView.vala:77
-msgid "Based on your Location:"
+msgid "Based on location:"
 msgstr ""
 
 #: src/MainView.vala:80
@@ -51,20 +57,28 @@ msgid "Automatically updates the time zone when activated"
 msgstr "시간대 자동 업데이트"
 
 #: src/MainView.vala:98
-msgid "Show the date:"
-msgstr ""
-
-#: src/MainView.vala:109
-msgid "Show the day of the week:"
-msgstr ""
-
-#: src/MainView.vala:118
-msgid "Show seconds:"
-msgstr ""
-
-#: src/MainView.vala:127
 msgid "Show week numbers:"
 msgstr "주별 번호 표시:"
+
+#: src/MainView.vala:107
+msgid "e.g. in Calendar and the Date & Time Panel indicator"
+msgstr ""
+
+#: src/MainView.vala:114
+msgid "Show in Panel:"
+msgstr ""
+
+#: src/MainView.vala:119
+msgid "Date"
+msgstr "날짜"
+
+#: src/MainView.vala:120
+msgid "Day of the week"
+msgstr ""
+
+#: src/MainView.vala:121
+msgid "Seconds"
+msgstr ""
 
 #: src/Plug.vala:29
 msgid "Date & Time"
@@ -74,19 +88,19 @@ msgstr "날짜와 시간"
 msgid "Configure date, time, and select time zone"
 msgstr "날짜, 시간, 그리고 시간대를 설정합니다"
 
-#: src/Plug.vala:57
+#: src/Plug.vala:55
 msgid "Time Format"
 msgstr "시간 형식"
 
-#: src/Plug.vala:58
+#: src/Plug.vala:56
 msgid "Time Zone"
 msgstr "시간대"
 
-#: src/Plug.vala:59
+#: src/Plug.vala:57
 msgid "Network Time"
 msgstr "네트워크 시간"
 
-#: src/Plug.vala:60
+#: src/Plug.vala:58
 msgid "Show week numbers"
 msgstr "주별 번호 표시"
 
@@ -3298,9 +3312,6 @@ msgstr "인도(Indian)"
 
 #~ msgid "Time"
 #~ msgstr "시간"
-
-#~ msgid "Date"
-#~ msgstr "날짜"
 
 #~ msgid "Pacific/Johnston"
 #~ msgstr "태평양/존스톤(Johnston)"

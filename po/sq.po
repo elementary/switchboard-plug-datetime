@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-25 11:37+0000\n"
+"POT-Creation-Date: 2021-04-07 23:54+0000\n"
 "PO-Revision-Date: 2015-04-29 06:54+0000\n"
 "Last-Translator: Indrit Bashkimi <indrit.bashkimi@gmail.com>\n"
 "Language-Team: sq\n"
@@ -15,11 +15,15 @@ msgstr ""
 "X-Generator: Launchpad (build 18302)\n"
 
 #: src/MainView.vala:46
-msgid "Network Time:"
+#, fuzzy
+#| msgid "Network Time:"
+msgid "Network time:"
 msgstr "Ora nga interneti:"
 
 #: src/MainView.vala:58
-msgid "Time Format:"
+#, fuzzy
+#| msgid "Time Format:"
+msgid "Time format:"
 msgstr "Formati i orës:"
 
 #: src/MainView.vala:63
@@ -31,11 +35,13 @@ msgid "24-hour"
 msgstr ""
 
 #: src/MainView.vala:66
-msgid "Time Zone:"
+#, fuzzy
+#| msgid "Time Zone:"
+msgid "Time zone:"
 msgstr "Zona kohore:"
 
 #: src/MainView.vala:77
-msgid "Based on your Location:"
+msgid "Based on location:"
 msgstr ""
 
 #: src/MainView.vala:80
@@ -43,19 +49,27 @@ msgid "Automatically updates the time zone when activated"
 msgstr ""
 
 #: src/MainView.vala:98
-msgid "Show the date:"
-msgstr ""
-
-#: src/MainView.vala:109
-msgid "Show the day of the week:"
-msgstr ""
-
-#: src/MainView.vala:118
-msgid "Show seconds:"
-msgstr ""
-
-#: src/MainView.vala:127
 msgid "Show week numbers:"
+msgstr ""
+
+#: src/MainView.vala:107
+msgid "e.g. in Calendar and the Date & Time Panel indicator"
+msgstr ""
+
+#: src/MainView.vala:114
+msgid "Show in Panel:"
+msgstr ""
+
+#: src/MainView.vala:119
+msgid "Date"
+msgstr "Data"
+
+#: src/MainView.vala:120
+msgid "Day of the week"
+msgstr ""
+
+#: src/MainView.vala:121
+msgid "Seconds"
 msgstr ""
 
 #: src/Plug.vala:29
@@ -66,19 +80,19 @@ msgstr "Data dhe Ora"
 msgid "Configure date, time, and select time zone"
 msgstr ""
 
-#: src/Plug.vala:57
+#: src/Plug.vala:55
 msgid "Time Format"
 msgstr "Formati i orës"
 
-#: src/Plug.vala:58
+#: src/Plug.vala:56
 msgid "Time Zone"
 msgstr "Zona kohore"
 
-#: src/Plug.vala:59
+#: src/Plug.vala:57
 msgid "Network Time"
 msgstr "Ora nga interneti"
 
-#: src/Plug.vala:60
+#: src/Plug.vala:58
 msgid "Show week numbers"
 msgstr ""
 
@@ -3287,9 +3301,6 @@ msgstr "Indian"
 
 #~ msgid "Time"
 #~ msgstr "Ora"
-
-#~ msgid "Date"
-#~ msgstr "Data"
 
 #~ msgid "Pacific/Johnston"
 #~ msgstr "Paqësor/Xhonston"
