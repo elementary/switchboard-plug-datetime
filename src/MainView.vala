@@ -69,7 +69,7 @@ public class DateTime.MainView : Gtk.ScrolledWindow {
         time_format.append_text (_("AM/PM"));
         time_format.append_text (_("24-hour"));
 
-        var time_zone_label = new Gtk.Label (_("Time Zone:")) {
+        var time_zone_label = new Gtk.Label (_("Time zone:")) {
             halign = Gtk.Align.END,
             valign = Gtk.Align.START
         };
