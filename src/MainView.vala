@@ -30,8 +30,6 @@ public class DateTime.MainView : Gtk.ScrolledWindow {
 
     public MainView () {
         Object (
-            expand: true,
-            halign: Gtk.Align.FILL,
             hscrollbar_policy: Gtk.PolicyType.NEVER
         );
     }
