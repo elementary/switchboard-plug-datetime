@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-07 23:54+0000\n"
-"PO-Revision-Date: 2021-02-26 05:00+0000\n"
+"PO-Revision-Date: 2021-04-08 17:52+0000\n"
 "Last-Translator: Uwe S <saabisto@gmx.de>\n"
 "Language-Team: German <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-datetime/de/>\n"
@@ -22,14 +22,10 @@ msgstr ""
 "X-Launchpad-Export-Date: 2017-01-12 06:04+0000\n"
 
 #: src/MainView.vala:46
-#, fuzzy
-#| msgid "Network Time:"
 msgid "Network time:"
 msgstr "Netzwerkzeit:"
 
 #: src/MainView.vala:58
-#, fuzzy
-#| msgid "Time Format:"
 msgid "Time format:"
 msgstr "Zeitformat:"
 
@@ -42,16 +38,12 @@ msgid "24-hour"
 msgstr "24-Stunden-System"
 
 #: src/MainView.vala:66
-#, fuzzy
-#| msgid "Time Zone:"
 msgid "Time zone:"
 msgstr "Zeitzone:"
 
 #: src/MainView.vala:77
-#, fuzzy
-#| msgid "Based on your Location:"
 msgid "Based on location:"
-msgstr "Basierend auf Ihrem Standort:"
+msgstr "Basierend auf dem Standort:"
 
 #: src/MainView.vala:80
 msgid "Automatically updates the time zone when activated"
@@ -63,29 +55,23 @@ msgstr "Kalenderwochen anzeigen:"
 
 #: src/MainView.vala:107
 msgid "e.g. in Calendar and the Date & Time Panel indicator"
-msgstr ""
+msgstr "beispielsweise in Kalender oder dem Indikator »Datum & Uhrzeit«"
 
 #: src/MainView.vala:114
-#, fuzzy
-#| msgid "Show the date:"
 msgid "Show in Panel:"
-msgstr "Datum anzeigen:"
+msgstr "In Leiste anzeigen:"
 
 #: src/MainView.vala:119
 msgid "Date"
 msgstr "Datum"
 
 #: src/MainView.vala:120
-#, fuzzy
-#| msgid "Show the day of the week:"
 msgid "Day of the week"
-msgstr "Wochentag anzeigen:"
+msgstr "Wochentag"
 
 #: src/MainView.vala:121
-#, fuzzy
-#| msgid "Show seconds:"
 msgid "Seconds"
-msgstr "Sekunden anzeigen:"
+msgstr "Sekunden"
 
 #: src/Plug.vala:29
 msgid "Date & Time"
@@ -93,7 +79,7 @@ msgstr "Datum & Uhrzeit"
 
 #: src/Plug.vala:30
 msgid "Configure date, time, and select time zone"
-msgstr "Datum und Zeit einstellen, Zeitzone auswählen"
+msgstr "Datum und Uhrzeit einstellen, Zeitzone auswählen"
 
 #: src/Plug.vala:55
 msgid "Time Format"
