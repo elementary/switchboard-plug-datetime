@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-07 23:54+0000\n"
-"PO-Revision-Date: 2021-02-25 16:23+0000\n"
+"PO-Revision-Date: 2021-04-08 12:33+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-datetime/pt/>\n"
@@ -21,14 +21,10 @@ msgstr ""
 "X-Launchpad-Export-Date: 2017-01-12 06:05+0000\n"
 
 #: src/MainView.vala:46
-#, fuzzy
-#| msgid "Network Time:"
 msgid "Network time:"
 msgstr "Hora da Internet:"
 
 #: src/MainView.vala:58
-#, fuzzy
-#| msgid "Time Format:"
 msgid "Time format:"
 msgstr "Formato da Hora:"
 
@@ -41,16 +37,12 @@ msgid "24-hour"
 msgstr "24-horas"
 
 #: src/MainView.vala:66
-#, fuzzy
-#| msgid "Time Zone:"
 msgid "Time zone:"
 msgstr "Fuso Horário:"
 
 #: src/MainView.vala:77
-#, fuzzy
-#| msgid "Based on your Location:"
 msgid "Based on location:"
-msgstr "Com base na sua localização:"
+msgstr "Com base na sua Localização:"
 
 #: src/MainView.vala:80
 msgid "Automatically updates the time zone when activated"
@@ -62,29 +54,23 @@ msgstr "Mostrar números de semana:"
 
 #: src/MainView.vala:107
 msgid "e.g. in Calendar and the Date & Time Panel indicator"
-msgstr ""
+msgstr "por ex. no Calendário e no indicador do Painel de Data e Hora"
 
 #: src/MainView.vala:114
-#, fuzzy
-#| msgid "Show the date:"
 msgid "Show in Panel:"
-msgstr "Mostrar a data:"
+msgstr "Mostrar no Painel:"
 
 #: src/MainView.vala:119
 msgid "Date"
 msgstr "Data"
 
 #: src/MainView.vala:120
-#, fuzzy
-#| msgid "Show the day of the week:"
 msgid "Day of the week"
-msgstr "Mostrar o dia da semana:"
+msgstr "Dia da semana"
 
 #: src/MainView.vala:121
-#, fuzzy
-#| msgid "Show seconds:"
 msgid "Seconds"
-msgstr "Mostrar segundos:"
+msgstr "Segundos"
 
 #: src/Plug.vala:29
 msgid "Date & Time"
