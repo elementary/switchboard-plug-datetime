@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-07 23:54+0000\n"
-"PO-Revision-Date: 2021-03-05 01:33+0000\n"
+"PO-Revision-Date: 2021-04-08 19:51+0000\n"
 "Last-Translator: Ozgur Baskin <bebeto_baskin@yahoo.com>\n"
 "Language-Team: Turkish <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-datetime/tr/>\n"
@@ -21,16 +21,12 @@ msgstr ""
 "X-Launchpad-Export-Date: 2017-02-19 05:56+0000\n"
 
 #: src/MainView.vala:46
-#, fuzzy
-#| msgid "Network Time:"
 msgid "Network time:"
 msgstr "Ağ Saati:"
 
 #: src/MainView.vala:58
-#, fuzzy
-#| msgid "Time Format:"
 msgid "Time format:"
-msgstr "Saat Biçimi:"
+msgstr "Saat biçimi:"
 
 #: src/MainView.vala:63
 msgid "AM/PM"
@@ -41,16 +37,12 @@ msgid "24-hour"
 msgstr "24 saat"
 
 #: src/MainView.vala:66
-#, fuzzy
-#| msgid "Time Zone:"
 msgid "Time zone:"
-msgstr "Saat Dilimi:"
+msgstr "Saat dilimi:"
 
 #: src/MainView.vala:77
-#, fuzzy
-#| msgid "Based on your Location:"
 msgid "Based on location:"
-msgstr "Konumunuza göre:"
+msgstr "Konuma göre:"
 
 #: src/MainView.vala:80
 msgid "Automatically updates the time zone when activated"
@@ -62,29 +54,23 @@ msgstr "Hafta numaralarını göster:"
 
 #: src/MainView.vala:107
 msgid "e.g. in Calendar and the Date & Time Panel indicator"
-msgstr ""
+msgstr "örn. Takvim ve Tarih ve Saat Panel göstergesi"
 
 #: src/MainView.vala:114
-#, fuzzy
-#| msgid "Show the date:"
 msgid "Show in Panel:"
-msgstr "Tarihi göster:"
+msgstr "Panelde göster:"
 
 #: src/MainView.vala:119
 msgid "Date"
 msgstr "Tarih"
 
 #: src/MainView.vala:120
-#, fuzzy
-#| msgid "Show the day of the week:"
 msgid "Day of the week"
-msgstr "Haftanın gününü göster:"
+msgstr "Haftanın günü"
 
 #: src/MainView.vala:121
-#, fuzzy
-#| msgid "Show seconds:"
 msgid "Seconds"
-msgstr "Saniyeyi göster:"
+msgstr "Saniye"
 
 #: src/Plug.vala:29
 msgid "Date & Time"
