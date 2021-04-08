@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-datetime\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-07 23:54+0000\n"
-"PO-Revision-Date: 2021-03-05 13:36+0000\n"
+"PO-Revision-Date: 2021-04-08 17:52+0000\n"
 "Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
 "Language-Team: French <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-datetime/fr/>\n"
@@ -21,14 +21,10 @@ msgstr ""
 "X-Launchpad-Export-Date: 2017-01-12 06:04+0000\n"
 
 #: src/MainView.vala:46
-#, fuzzy
-#| msgid "Network Time:"
 msgid "Network time:"
 msgstr "Heure réseau :"
 
 #: src/MainView.vala:58
-#, fuzzy
-#| msgid "Time Format:"
 msgid "Time format:"
 msgstr "Format de l'heure :"
 
@@ -41,16 +37,12 @@ msgid "24-hour"
 msgstr "24 heures"
 
 #: src/MainView.vala:66
-#, fuzzy
-#| msgid "Time Zone:"
 msgid "Time zone:"
 msgstr "Fuseau horaire :"
 
 #: src/MainView.vala:77
-#, fuzzy
-#| msgid "Based on your Location:"
 msgid "Based on location:"
-msgstr "D'après votre emplacement :"
+msgstr "D'après l'emplacement :"
 
 #: src/MainView.vala:80
 msgid "Automatically updates the time zone when activated"
@@ -62,29 +54,23 @@ msgstr "Afficher les numéros de semaines :"
 
 #: src/MainView.vala:107
 msgid "e.g. in Calendar and the Date & Time Panel indicator"
-msgstr ""
+msgstr "par ex. dans Calendrier et l'indicateur du panneau de Date et heure"
 
 #: src/MainView.vala:114
-#, fuzzy
-#| msgid "Show the date:"
 msgid "Show in Panel:"
-msgstr "Afficher la date :"
+msgstr "Afficher dans le panneau :"
 
 #: src/MainView.vala:119
 msgid "Date"
 msgstr "Date"
 
 #: src/MainView.vala:120
-#, fuzzy
-#| msgid "Show the day of the week:"
 msgid "Day of the week"
-msgstr "Afficher le jour de la semaine :"
+msgstr "Jour de la semaine"
 
 #: src/MainView.vala:121
-#, fuzzy
-#| msgid "Show seconds:"
 msgid "Seconds"
-msgstr "Afficher les secondes :"
+msgstr "Secondes"
 
 #: src/Plug.vala:29
 msgid "Date & Time"
