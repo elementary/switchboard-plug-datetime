@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-07 23:54+0000\n"
-"PO-Revision-Date: 2021-02-26 19:11+0000\n"
+"PO-Revision-Date: 2021-04-09 18:39+0000\n"
 "Last-Translator: David M <rbndavid@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-datetime/ca/>\n"
@@ -21,14 +21,10 @@ msgstr ""
 "X-Launchpad-Export-Date: 2017-04-05 07:42+0000\n"
 
 #: src/MainView.vala:46
-#, fuzzy
-#| msgid "Network Time:"
 msgid "Network time:"
 msgstr "Hora de la xarxa:"
 
 #: src/MainView.vala:58
-#, fuzzy
-#| msgid "Time Format:"
 msgid "Time format:"
 msgstr "Format de l'hora:"
 
@@ -41,16 +37,12 @@ msgid "24-hour"
 msgstr "24 hores"
 
 #: src/MainView.vala:66
-#, fuzzy
-#| msgid "Time Zone:"
 msgid "Time zone:"
 msgstr "Zona horària:"
 
 #: src/MainView.vala:77
-#, fuzzy
-#| msgid "Based on your Location:"
 msgid "Based on location:"
-msgstr "Segons la vostra ubicació:"
+msgstr "Segons la ubicació:"
 
 #: src/MainView.vala:80
 msgid "Automatically updates the time zone when activated"
@@ -62,29 +54,23 @@ msgstr "Mostra els números de la setmana:"
 
 #: src/MainView.vala:107
 msgid "e.g. in Calendar and the Date & Time Panel indicator"
-msgstr ""
+msgstr "com ara al calendari i l'indicador de data i hora del plafó"
 
 #: src/MainView.vala:114
-#, fuzzy
-#| msgid "Show the date:"
 msgid "Show in Panel:"
-msgstr "Mostra la data:"
+msgstr "Mostra-ho al plafó:"
 
 #: src/MainView.vala:119
 msgid "Date"
 msgstr "Data"
 
 #: src/MainView.vala:120
-#, fuzzy
-#| msgid "Show the day of the week:"
 msgid "Day of the week"
-msgstr "Mostra el dia de la setmana:"
+msgstr "Dia de la setmana"
 
 #: src/MainView.vala:121
-#, fuzzy
-#| msgid "Show seconds:"
 msgid "Seconds"
-msgstr "Mostra els segons:"
+msgstr "Segons"
 
 #: src/Plug.vala:29
 msgid "Date & Time"
