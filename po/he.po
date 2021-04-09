@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: timezones.tip\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-07 23:54+0000\n"
-"PO-Revision-Date: 2021-02-25 13:41+0000\n"
+"PO-Revision-Date: 2021-04-09 07:49+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-datetime/he/>\n"
@@ -22,14 +22,10 @@ msgstr ""
 "X-Launchpad-Export-Date: 2017-01-12 06:04+0000\n"
 
 #: src/MainView.vala:46
-#, fuzzy
-#| msgid "Network Time:"
 msgid "Network time:"
 msgstr "שעה מהרשת:"
 
 #: src/MainView.vala:58
-#, fuzzy
-#| msgid "Time Format:"
 msgid "Time format:"
 msgstr "תבנית הזמן:"
 
@@ -42,16 +38,12 @@ msgid "24-hour"
 msgstr "24 שעות"
 
 #: src/MainView.vala:66
-#, fuzzy
-#| msgid "Time Zone:"
 msgid "Time zone:"
 msgstr "אזור זמן:"
 
 #: src/MainView.vala:77
-#, fuzzy
-#| msgid "Based on your Location:"
 msgid "Based on location:"
-msgstr "בהתאם למיקום שלך:"
+msgstr "בהתאם למקום:"
 
 #: src/MainView.vala:80
 msgid "Automatically updates the time zone when activated"
@@ -63,29 +55,23 @@ msgstr "הצגת מספרי השבועות:"
 
 #: src/MainView.vala:107
 msgid "e.g. in Calendar and the Date & Time Panel indicator"
-msgstr ""
+msgstr "למשל, בלוח השנה ומחוון לוח התאריך והשעה"
 
 #: src/MainView.vala:114
-#, fuzzy
-#| msgid "Show the date:"
 msgid "Show in Panel:"
-msgstr "הצגת התאריך:"
+msgstr "להציג בלוח:"
 
 #: src/MainView.vala:119
 msgid "Date"
 msgstr "תאריך"
 
 #: src/MainView.vala:120
-#, fuzzy
-#| msgid "Show the day of the week:"
 msgid "Day of the week"
-msgstr "הצגת היום בשבוע:"
+msgstr "היום בשבוע"
 
 #: src/MainView.vala:121
-#, fuzzy
-#| msgid "Show seconds:"
 msgid "Seconds"
-msgstr "הצגת שניות:"
+msgstr "שניות"
 
 #: src/Plug.vala:29
 msgid "Date & Time"
