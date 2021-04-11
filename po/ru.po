@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-07 23:54+0000\n"
-"PO-Revision-Date: 2021-03-13 21:11+0000\n"
+"PO-Revision-Date: 2021-04-11 12:03+0000\n"
 "Last-Translator: DartDeaDia <jorydit@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-datetime/ru/>\n"
@@ -22,14 +22,10 @@ msgstr ""
 "X-Launchpad-Export-Date: 2017-01-12 06:05+0000\n"
 
 #: src/MainView.vala:46
-#, fuzzy
-#| msgid "Network Time:"
 msgid "Network time:"
-msgstr "Время сети:"
+msgstr "Время из сети:"
 
 #: src/MainView.vala:58
-#, fuzzy
-#| msgid "Time Format:"
 msgid "Time format:"
 msgstr "Формат времени:"
 
@@ -42,16 +38,12 @@ msgid "24-hour"
 msgstr "24-часовой"
 
 #: src/MainView.vala:66
-#, fuzzy
-#| msgid "Time Zone:"
 msgid "Time zone:"
 msgstr "Часовой пояс:"
 
 #: src/MainView.vala:77
-#, fuzzy
-#| msgid "Based on your Location:"
 msgid "Based on location:"
-msgstr "Основываясь на вашем местоположении:"
+msgstr "Основываясь на местоположении:"
 
 #: src/MainView.vala:80
 msgid "Automatically updates the time zone when activated"
@@ -63,29 +55,23 @@ msgstr "Показывать номера недель:"
 
 #: src/MainView.vala:107
 msgid "e.g. in Calendar and the Date & Time Panel indicator"
-msgstr ""
+msgstr "например, в календаре и индикаторе панели даты и времени"
 
 #: src/MainView.vala:114
-#, fuzzy
-#| msgid "Show the date:"
 msgid "Show in Panel:"
-msgstr "Показывать дату:"
+msgstr "Показывать на панели:"
 
 #: src/MainView.vala:119
 msgid "Date"
 msgstr "Дата"
 
 #: src/MainView.vala:120
-#, fuzzy
-#| msgid "Show the day of the week:"
 msgid "Day of the week"
-msgstr "Показывать день недели:"
+msgstr "День недели"
 
 #: src/MainView.vala:121
-#, fuzzy
-#| msgid "Show seconds:"
 msgid "Seconds"
-msgstr "Показывать секунды:"
+msgstr "Секунды"
 
 #: src/Plug.vala:29
 msgid "Date & Time"
