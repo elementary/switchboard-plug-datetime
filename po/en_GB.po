@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-07 23:54+0000\n"
-"PO-Revision-Date: 2021-02-25 16:23+0000\n"
+"PO-Revision-Date: 2021-04-24 01:16+0000\n"
 "Last-Translator: Ciarán Ainsworth <ciaranainsworth@outlook.com>\n"
 "Language-Team: English (United Kingdom) <https://l10n.elementary.io/projects/"
 "switchboard/switchboard-plug-datetime/en_GB/>\n"
@@ -21,16 +21,12 @@ msgstr ""
 "X-Launchpad-Export-Date: 2017-01-12 06:06+0000\n"
 
 #: src/MainView.vala:46
-#, fuzzy
-#| msgid "Network Time:"
 msgid "Network time:"
-msgstr "Network Time:"
+msgstr "Network time:"
 
 #: src/MainView.vala:58
-#, fuzzy
-#| msgid "Time Format:"
 msgid "Time format:"
-msgstr "Time Format:"
+msgstr "Time format:"
 
 #: src/MainView.vala:63
 msgid "AM/PM"
@@ -41,16 +37,12 @@ msgid "24-hour"
 msgstr "24-hour"
 
 #: src/MainView.vala:66
-#, fuzzy
-#| msgid "Time Zone:"
 msgid "Time zone:"
-msgstr "Time Zone:"
+msgstr "Time zone:"
 
 #: src/MainView.vala:77
-#, fuzzy
-#| msgid "Based on your Location:"
 msgid "Based on location:"
-msgstr "Based on your Location:"
+msgstr "Based on location:"
 
 #: src/MainView.vala:80
 msgid "Automatically updates the time zone when activated"
@@ -62,29 +54,23 @@ msgstr "Show week numbers:"
 
 #: src/MainView.vala:107
 msgid "e.g. in Calendar and the Date & Time Panel indicator"
-msgstr ""
+msgstr "e.g. in Calendar and the Date & Time Panel indicator"
 
 #: src/MainView.vala:114
-#, fuzzy
-#| msgid "Show the date:"
 msgid "Show in Panel:"
-msgstr "Show the date:"
+msgstr "Show in Panel:"
 
 #: src/MainView.vala:119
 msgid "Date"
 msgstr "Date"
 
 #: src/MainView.vala:120
-#, fuzzy
-#| msgid "Show the day of the week:"
 msgid "Day of the week"
-msgstr "Show the day of the week:"
+msgstr "Day of the week"
 
 #: src/MainView.vala:121
-#, fuzzy
-#| msgid "Show seconds:"
 msgid "Seconds"
-msgstr "Show seconds:"
+msgstr "Seconds"
 
 #: src/Plug.vala:29
 msgid "Date & Time"
