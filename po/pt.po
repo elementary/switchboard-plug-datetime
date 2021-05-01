@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-07 23:54+0000\n"
-"PO-Revision-Date: 2021-04-08 12:33+0000\n"
+"PO-Revision-Date: 2021-05-01 22:58+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-datetime/pt/>\n"
@@ -124,7 +124,7 @@ msgstr "América/Anguilla"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:13
 msgid "Europe/Tirane"
-msgstr "Europa/Tirane"
+msgstr "Europa/Tirana"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:15
@@ -784,7 +784,7 @@ msgstr "América/Halifax"
 #. /Translators: Comment for Timezone America/Halifax
 #: src/Translations.vala:277
 msgid "Atlantic - NS (most areas); PE"
-msgstr "Atlantic - NS (maioria das áreas); PE"
+msgstr "Atlântico - NS (maioria das áreas); PE"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:279
@@ -794,7 +794,7 @@ msgstr "América/Glace_Bay"
 #. /Translators: Comment for Timezone America/Glace_Bay
 #: src/Translations.vala:281
 msgid "Atlantic - NS (Cape Breton)"
-msgstr "Atlantic - NS (Cape Breton)"
+msgstr "Atlântico - NS (Cape Breton)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:283
@@ -814,7 +814,7 @@ msgstr "América/Goose_Bay"
 #. /Translators: Comment for Timezone America/Goose_Bay
 #: src/Translations.vala:289
 msgid "Atlantic - Labrador (most areas)"
-msgstr "Atlantic - Labrador (maioria das áreas)"
+msgstr "Atlântico - Labrador (maioria das áreas)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:291
@@ -1024,7 +1024,7 @@ msgstr "América/Vancouver"
 #. /Translators: Comment for Timezone America/Vancouver
 #: src/Translations.vala:373
 msgid "Pacific - BC (most areas)"
-msgstr "Pacific - BC (maioria das áreas)"
+msgstr "Pacifico - BC (maioria das áreas)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:375
@@ -1034,7 +1034,7 @@ msgstr "América/Whitehorse"
 #. /Translators: Comment for Timezone America/Whitehorse
 #: src/Translations.vala:377
 msgid "Pacific - Yukon (south)"
-msgstr "Pacific - Yukon (sul)"
+msgstr "Pacifico - Yukon (sul)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:379
@@ -1219,7 +1219,7 @@ msgstr "Germany (maioria das áreas)"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:451
 msgid "Europe/Busingen"
-msgstr "Europe/Busingen"
+msgstr "Europa/Busingen"
 
 #. /Translators: Comment for Timezone Europe/Busingen
 #: src/Translations.vala:453
@@ -1299,7 +1299,7 @@ msgstr "Europa/Madrid"
 #. /Translators: Comment for Timezone Europe/Madrid
 #: src/Translations.vala:483
 msgid "Spain (mainland)"
-msgstr "Spain (continente)"
+msgstr "Espanha (continente)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:485
@@ -1374,7 +1374,7 @@ msgstr "Kosrae"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:513
 msgid "Atlantic/Faroe"
-msgstr "Atlântico/Faroe"
+msgstr "Atlântico/Faroé"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:515
@@ -2237,7 +2237,7 @@ msgstr "Pacífico/Port_Moresby"
 #. /Translators: Comment for Timezone Pacific/Port_Moresby
 #: src/Translations.vala:857
 msgid "Papua New Guinea (most areas)"
-msgstr "Papua New Guinea (maioria das áreas)"
+msgstr "Papua Nova Guiné (maioria das áreas)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:859
@@ -3277,7 +3277,7 @@ msgstr "Ásia"
 
 #: src/Widgets/TimeZoneGrid.vala:69
 msgid "Atlantic"
-msgstr "Atlantic"
+msgstr "Atlântico"
 
 #: src/Widgets/TimeZoneGrid.vala:71
 msgid "Australia"
