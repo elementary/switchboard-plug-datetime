@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-07 23:54+0000\n"
 "PO-Revision-Date: 2021-05-05 03:18+0000\n"
-"Last-Translator: imgradeone Yan <imgradeone@outlook.com>\n"
+"Last-Translator: Chengyu Liu <wer5lcy@live.cn>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
 "switchboard/switchboard-plug-datetime/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -27,8 +27,6 @@ msgid "Network time:"
 msgstr "网络时间："
 
 #: src/MainView.vala:58
-#, fuzzy
-#| msgid "Time Format:"
 msgid "Time format:"
 msgstr "时间格式："
 
@@ -48,7 +46,7 @@ msgstr "时区设置："
 
 #: src/MainView.vala:77
 msgid "Based on location:"
-msgstr ""
+msgstr "根据地理位置："
 
 #: src/MainView.vala:80
 #, fuzzy
@@ -62,7 +60,7 @@ msgstr "显示周数："
 
 #: src/MainView.vala:107
 msgid "e.g. in Calendar and the Date & Time Panel indicator"
-msgstr ""
+msgstr "例如日历应用、时间和日期面板"
 
 #: src/MainView.vala:114
 msgid "Show in Panel:"
