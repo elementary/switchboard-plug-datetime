@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-07 23:54+0000\n"
-"PO-Revision-Date: 2020-05-28 15:11+0000\n"
+"PO-Revision-Date: 2021-06-05 23:29+0000\n"
 "Last-Translator: Rantyrant <diseasemonger@gmail.com>\n"
 "Language-Team: Danish <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-datetime/da/>\n"
@@ -17,20 +17,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 4.4.2\n"
 "X-Launchpad-Export-Date: 2017-04-05 07:42+0000\n"
 "X-Language: da_DK\n"
 "X-Source-Language: C\n"
 
 #: src/MainView.vala:46
-#, fuzzy
-#| msgid "Network Time:"
 msgid "Network time:"
 msgstr "Netværkstid:"
 
 #: src/MainView.vala:58
-#, fuzzy
-#| msgid "Time Format:"
 msgid "Time format:"
 msgstr "Tidsformat:"
 
@@ -43,20 +39,16 @@ msgid "24-hour"
 msgstr "24-timer"
 
 #: src/MainView.vala:66
-#, fuzzy
-#| msgid "Time Zone:"
 msgid "Time zone:"
 msgstr "Tidszone:"
 
 #: src/MainView.vala:77
 msgid "Based on location:"
-msgstr ""
+msgstr "Baseret på lokation:"
 
 #: src/MainView.vala:80
-#, fuzzy
-#| msgid "Automatically update time zone"
 msgid "Automatically updates the time zone when activated"
-msgstr "Opdater tidszone automatisk"
+msgstr "Opdaterer tidszone automatisk når aktiveret"
 
 #: src/MainView.vala:98
 msgid "Show week numbers:"
@@ -64,11 +56,11 @@ msgstr "Vis uge numre:"
 
 #: src/MainView.vala:107
 msgid "e.g. in Calendar and the Date & Time Panel indicator"
-msgstr ""
+msgstr "f.eks. i Kalender og Dato og Klokkeslæt indakotoren"
 
 #: src/MainView.vala:114
 msgid "Show in Panel:"
-msgstr ""
+msgstr "Vis i Panel:"
 
 #: src/MainView.vala:119
 msgid "Date"
@@ -76,11 +68,11 @@ msgstr "Dato"
 
 #: src/MainView.vala:120
 msgid "Day of the week"
-msgstr ""
+msgstr "Dag på ugen"
 
 #: src/MainView.vala:121
 msgid "Seconds"
-msgstr ""
+msgstr "Sekunder"
 
 #: src/Plug.vala:29
 msgid "Date & Time"
