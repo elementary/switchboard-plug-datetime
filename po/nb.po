@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-07 23:54+0000\n"
-"PO-Revision-Date: 2021-07-01 18:13+0000\n"
+"PO-Revision-Date: 2021-07-03 07:44+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://l10n.elementary.io/projects/"
 "switchboard/switchboard-plug-datetime/nb/>\n"
@@ -38,18 +38,17 @@ msgid "24-hour"
 msgstr "24-timer"
 
 #: src/MainView.vala:66
-#, fuzzy
-#| msgid "Time Zone:"
 msgid "Time zone:"
 msgstr "Tidssone:"
 
 #: src/MainView.vala:77
 msgid "Based on location:"
-msgstr ""
+msgstr "Basert på posisjon:"
 
 #: src/MainView.vala:80
+#, fuzzy
 msgid "Automatically updates the time zone when activated"
-msgstr ""
+msgstr "Oppdaterer tidssonen automatisk"
 
 #: src/MainView.vala:98
 msgid "Show week numbers:"
@@ -57,29 +56,25 @@ msgstr "Vis ukenummer:"
 
 #: src/MainView.vala:107
 msgid "e.g. in Calendar and the Date & Time Panel indicator"
-msgstr ""
+msgstr "f.eks. i Kalender og dato og tidspanel-indikatoren"
 
 #: src/MainView.vala:114
 #, fuzzy
 #| msgid "Show the date:"
 msgid "Show in Panel:"
-msgstr "Vis datoen:"
+msgstr "Vis i panel:"
 
 #: src/MainView.vala:119
 msgid "Date"
 msgstr "Dato"
 
 #: src/MainView.vala:120
-#, fuzzy
-#| msgid "Show the day of the week:"
 msgid "Day of the week"
-msgstr "Vis ukedagen:"
+msgstr "Ukedagen"
 
 #: src/MainView.vala:121
-#, fuzzy
-#| msgid "Show seconds:"
 msgid "Seconds"
-msgstr "Vis sekunder:"
+msgstr "Sekunder"
 
 #: src/Plug.vala:29
 msgid "Date & Time"
