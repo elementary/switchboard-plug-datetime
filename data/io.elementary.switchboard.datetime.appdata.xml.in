@@ -7,6 +7,16 @@
   <icon type="stock">preferences-system-time</icon>
   <translation type="gettext">datetime-plug</translation>
   <releases>
+    <release version="2.2.0" date="2021-07-15" urgency="medium">
+      <description>
+        <p>Minor updates</p>
+        <ul>
+          <li>Move timezone popover contents to the main view</li>
+          <li>Add options to show or hide the date, weekday, and seconds in the clock</li>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+    </release>
     <release version="2.1.9" date="2020-05-28" urgency="medium">
       <description>
         <p>Updated translations</p>
