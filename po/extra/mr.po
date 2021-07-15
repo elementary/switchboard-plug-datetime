@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-07 23:54+0000\n"
+"POT-Creation-Date: 2021-07-15 22:20+0000\n"
 "PO-Revision-Date: 2020-10-29 18:15+0000\n"
 "Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
 "Language-Team: Marathi <https://l10n.elementary.io/projects/switchboard/date-"
@@ -28,15 +28,25 @@ msgid "Configure date, time, and select time zone"
 msgstr "तारीख, वेळ आणि वेळ क्षेत्र निवडा"
 
 #: data/io.elementary.switchboard.datetime.appdata.xml.in:12
-#: data/io.elementary.switchboard.datetime.appdata.xml.in:20
-#: data/io.elementary.switchboard.datetime.appdata.xml.in:26
-msgid "Updated translations"
-msgstr "अद्ययावत भाषांतर"
-
-#: data/io.elementary.switchboard.datetime.appdata.xml.in:17
+#: data/io.elementary.switchboard.datetime.appdata.xml.in:27
 msgid "Minor updates"
 msgstr "किरकोळ अद्यतने"
 
-#: data/io.elementary.switchboard.datetime.appdata.xml.in:19
+#: data/io.elementary.switchboard.datetime.appdata.xml.in:14
+msgid "Move timezone popover contents to the main view"
+msgstr ""
+
+#: data/io.elementary.switchboard.datetime.appdata.xml.in:15
+msgid "Add options to show or hide the date, weekday, and seconds in the clock"
+msgstr ""
+
+#: data/io.elementary.switchboard.datetime.appdata.xml.in:16
+#: data/io.elementary.switchboard.datetime.appdata.xml.in:22
+#: data/io.elementary.switchboard.datetime.appdata.xml.in:30
+#: data/io.elementary.switchboard.datetime.appdata.xml.in:36
+msgid "Updated translations"
+msgstr "अद्ययावत भाषांतर"
+
+#: data/io.elementary.switchboard.datetime.appdata.xml.in:29
 msgid "Fix potential freeze when changing settings from multiple panes"
 msgstr "एकाधिक पॅनमधून सेटिंग्ज बदलताना संभाव्य फ्रीझशी संबंधित समस्यांचे निराकरण करा"
