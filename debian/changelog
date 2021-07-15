@@ -1,3 +1,16 @@
+switchboard-plug-datetime (2.2.0) bionic; urgency=medium
+
+  * Release 2.2.0 (#97)
+  * Update translation files
+  * Update translation template
+  * MainView: Rework Layout (#94)
+  * MainView: Allow showing/hiding the date, weekday, and seconds (#91)
+  * MainView: Clean up timezone code and styling (#89)
+  * Moved Time Zone popup contents to the main view (#61)
+  * LINGUAS: sort, remove en_US
+
+ -- elementary OS Team <builds@elementary.io>  Thu, 15 Jul 2021 22:20:56 +0000
+
 switchboard-plug-datetime (2.1.9) bionic; urgency=medium
 
   * Release 2.1.9 (#85)
