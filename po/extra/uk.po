@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-15 22:20+0000\n"
-"PO-Revision-Date: 2021-07-05 13:54+0000\n"
+"PO-Revision-Date: 2021-07-15 23:09+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/switchboard/"
 "date-time-plug-extra/uk/>\n"
@@ -35,11 +35,12 @@ msgstr "Незначні оновлення"
 
 #: data/io.elementary.switchboard.datetime.appdata.xml.in:14
 msgid "Move timezone popover contents to the main view"
-msgstr ""
+msgstr "Налаштування часового поясу переміщено до головної вкладки"
 
 #: data/io.elementary.switchboard.datetime.appdata.xml.in:15
 msgid "Add options to show or hide the date, weekday, and seconds in the clock"
 msgstr ""
+"Додано опції показу або приховування дати, дня тижня та секунд у годиннику"
 
 #: data/io.elementary.switchboard.datetime.appdata.xml.in:16
 #: data/io.elementary.switchboard.datetime.appdata.xml.in:22
