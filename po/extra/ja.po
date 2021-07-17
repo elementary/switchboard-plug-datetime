@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-15 22:20+0000\n"
-"PO-Revision-Date: 2020-06-08 10:11+0000\n"
+"PO-Revision-Date: 2021-07-17 13:00+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/switchboard/"
 "date-time-plug-extra/ja/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: data/io.elementary.switchboard.datetime.appdata.xml.in:5
 msgid "Date &amp; Time Settings"
@@ -34,11 +34,11 @@ msgstr "軽微なアップデート"
 
 #: data/io.elementary.switchboard.datetime.appdata.xml.in:14
 msgid "Move timezone popover contents to the main view"
-msgstr ""
+msgstr "タイムゾーンポップオーバーの内容をメインビューに移動"
 
 #: data/io.elementary.switchboard.datetime.appdata.xml.in:15
 msgid "Add options to show or hide the date, weekday, and seconds in the clock"
-msgstr ""
+msgstr "パネル内の時計の日付、曜日、秒の表示／非表示を切り替えるオプションを追加"
 
 #: data/io.elementary.switchboard.datetime.appdata.xml.in:16
 #: data/io.elementary.switchboard.datetime.appdata.xml.in:22
