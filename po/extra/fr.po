@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-15 22:20+0000\n"
-"PO-Revision-Date: 2020-05-29 15:23+0000\n"
+"PO-Revision-Date: 2021-07-30 18:07+0000\n"
 "Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
-"Language-Team: French <https://l10n.elementary.io/projects/switchboard/date-"
-"time-plug-extra/fr/>\n"
+"Language-Team: French <https://l10n.elementary.io/projects/switchboard/"
+"date-time-plug-extra/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: data/io.elementary.switchboard.datetime.appdata.xml.in:5
 msgid "Date &amp; Time Settings"
@@ -35,10 +35,14 @@ msgstr "Mises à jour mineures"
 #: data/io.elementary.switchboard.datetime.appdata.xml.in:14
 msgid "Move timezone popover contents to the main view"
 msgstr ""
+"Déplacement du contenu de la fenêtre flottante du fuseau horaire vers la vue "
+"principale"
 
 #: data/io.elementary.switchboard.datetime.appdata.xml.in:15
 msgid "Add options to show or hide the date, weekday, and seconds in the clock"
 msgstr ""
+"Ajout d'options pour afficher ou masquer la date, le jour de la semaine et "
+"les secondes dans l'horloge"
 
 #: data/io.elementary.switchboard.datetime.appdata.xml.in:16
 #: data/io.elementary.switchboard.datetime.appdata.xml.in:22
