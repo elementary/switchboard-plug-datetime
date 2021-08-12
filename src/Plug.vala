@@ -21,6 +21,9 @@ public class DateTime.Plug : Switchboard.Plug {
     private MainView main_view;
 
     public Plug () {
+        GLib.Intl.bindtextdomain (GETTEXT_PACKAGE, LOCALEDIR);
+        GLib.Intl.bind_textdomain_codeset (GETTEXT_PACKAGE, "UTF-8");
+
         var settings = new Gee.TreeMap<string, string?> (null, null);
         settings.set ("time", null);
         settings.set ("date", null);
