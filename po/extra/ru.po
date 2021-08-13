@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-15 22:20+0000\n"
-"PO-Revision-Date: 2021-08-13 17:13+0000\n"
-"Last-Translator: asdffdsdaf <useruseruser1233211@gmail.com>\n"
+"PO-Revision-Date: 2021-08-14 01:28+0000\n"
+"Last-Translator: DartDeaDia <DartDeaDia@protonmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/switchboard/"
 "date-time-plug-extra/ru/>\n"
 "Language: ru\n"
@@ -41,7 +41,7 @@ msgstr ""
 
 #: data/io.elementary.switchboard.datetime.appdata.xml.in:15
 msgid "Add options to show or hide the date, weekday, and seconds in the clock"
-msgstr "Добавлена опция показа или скрытия даты, дня недели, и секунд в часах"
+msgstr "Добавлена опция показа или скрытия даты, дня недели и секунд в часах"
 
 #: data/io.elementary.switchboard.datetime.appdata.xml.in:16
 #: data/io.elementary.switchboard.datetime.appdata.xml.in:22
