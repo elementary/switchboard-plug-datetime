@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-15 22:20+0000\n"
-"PO-Revision-Date: 2021-08-23 13:11+0000\n"
+"PO-Revision-Date: 2021-08-23 13:53+0000\n"
 "Last-Translator: JohnDumpling <john_dumpling@protonmail.com>\n"
 "Language-Team: Slovak <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-datetime/sk/>\n"
@@ -1109,14 +1109,13 @@ msgstr "Čile (väčšina oblastí)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:407
-#, fuzzy
 msgid "America/Punta_Arenas"
-msgstr "Amerika/Santarem"
+msgstr "Amerika/Punta_Arenas"
 
 #. /Translators: Comment for Timezone America/Punta_Arenas
 #: src/Translations.vala:409
 msgid "Region of Magallanes"
-msgstr ""
+msgstr "Región Magallanes"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:411
@@ -1190,21 +1189,18 @@ msgstr "Ázia/Nicosia"
 
 #. /Translators: Comment for Timezone Asia/Nicosia
 #: src/Translations.vala:439
-#, fuzzy
 msgid "Cyprus (most areas)"
-msgstr "Stredná (väčšina oblastí)"
+msgstr "Cyprus (väčšina oblastí)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:441
-#, fuzzy
 msgid "Asia/Famagusta"
-msgstr "Ázia/Damascus"
+msgstr "Ázia/Famagusta"
 
 #. /Translators: Comment for Timezone Asia/Famagusta
 #: src/Translations.vala:443
-#, fuzzy
 msgid "Northern Cyprus"
-msgstr "Severné teritórium"
+msgstr "Severný Cyprus"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:445
@@ -1760,21 +1756,18 @@ msgstr "Ázia/Aqtau"
 
 #. /Translators: Comment for Timezone Asia/Aqtau
 #: src/Translations.vala:665
-#, fuzzy
 msgid "Mangghystau/Mankistau"
-msgstr "Atyrau/Atirau/Gur'yev, Mangghystau/Mankistau"
+msgstr "Mangghystau/Mankistau"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:667
-#, fuzzy
 msgid "Asia/Atyrau"
-msgstr "Ázia/Aqtau"
+msgstr "Ázia/Atyrau"
 
 #. /Translators: Comment for Timezone Asia/Atyrau
 #: src/Translations.vala:669
-#, fuzzy
 msgid "Atyrau/Atirau/Gur'yev"
-msgstr "Atyrau/Atirau/Gur'yev, Mangghystau/Mankistau"
+msgstr "Atyrau/Atirau/Gur'yev"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:671
@@ -1903,9 +1896,8 @@ msgstr "Afrika/Bamako"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:721
-#, fuzzy
 msgid "Asia/Yangon"
-msgstr "Ázia/Rangoon"
+msgstr "Ázia/Rangún"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:723
@@ -2405,9 +2397,8 @@ msgstr "Európa/Volgograd"
 
 #. /Translators: Comment for Timezone Europe/Volgograd
 #: src/Translations.vala:921
-#, fuzzy
 msgid "MSK+00 - Volgograd"
-msgstr "MSK+00 - Volgograd, Saratov"
+msgstr "MSK+00 - Volgograd"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:923
@@ -2431,15 +2422,13 @@ msgstr "MSK+01 - Astrakhan"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:931
-#, fuzzy
 msgid "Europe/Saratov"
-msgstr "Európa/Sarajevo"
+msgstr "Európa/Saratov"
 
 #. /Translators: Comment for Timezone Europe/Saratov
 #: src/Translations.vala:933
-#, fuzzy
 msgid "MSK+01 - Saratov"
-msgstr "MSK+00 - Kirov"
+msgstr "MSK+00 - Saratov"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:935
@@ -2488,9 +2477,8 @@ msgstr "Ázia/Novosibirsk"
 
 #. /Translators: Comment for Timezone Asia/Novosibirsk
 #: src/Translations.vala:953
-#, fuzzy
 msgid "MSK+04 - Novosibirsk"
-msgstr "MSK+03 - Novosibirsk"
+msgstr "MSK+04 - Novosibirsk"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:955
@@ -3294,7 +3282,7 @@ msgstr "Atlantik"
 
 #: src/Widgets/TimeZoneGrid.vala:71
 msgid "Australia"
-msgstr ""
+msgstr "Austrália"
 
 #: src/Widgets/TimeZoneGrid.vala:73
 msgid "Europe"
