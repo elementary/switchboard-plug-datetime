@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-15 22:20+0000\n"
-"PO-Revision-Date: 2021-05-05 19:04+0000\n"
-"Last-Translator: Chengyu Liu <wer5lcy@live.cn>\n"
+"PO-Revision-Date: 2021-11-01 10:01+0000\n"
+"Last-Translator: Yuchen Deng <loaden@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
 "switchboard/date-time-plug-extra/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -30,15 +30,15 @@ msgstr "配置时间、日期和时区"
 #: data/io.elementary.switchboard.datetime.appdata.xml.in:12
 #: data/io.elementary.switchboard.datetime.appdata.xml.in:27
 msgid "Minor updates"
-msgstr ""
+msgstr "次要更新"
 
 #: data/io.elementary.switchboard.datetime.appdata.xml.in:14
 msgid "Move timezone popover contents to the main view"
-msgstr ""
+msgstr "将时区弹出内容移动到主视图"
 
 #: data/io.elementary.switchboard.datetime.appdata.xml.in:15
 msgid "Add options to show or hide the date, weekday, and seconds in the clock"
-msgstr ""
+msgstr "添加选项以显示或隐藏时钟中的日期、星期和秒数"
 
 #: data/io.elementary.switchboard.datetime.appdata.xml.in:16
 #: data/io.elementary.switchboard.datetime.appdata.xml.in:22
@@ -49,4 +49,4 @@ msgstr "翻译更新"
 
 #: data/io.elementary.switchboard.datetime.appdata.xml.in:29
 msgid "Fix potential freeze when changing settings from multiple panes"
-msgstr ""
+msgstr "修复从多个窗格更改设置时潜在的冻结"
