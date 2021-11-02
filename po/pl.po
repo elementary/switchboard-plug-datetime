@@ -8,9 +8,9 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-15 22:20+0000\n"
-"PO-Revision-Date: 2018-10-09 17:07+0000\n"
-"Last-Translator: Piotr Strebski <strebski@gmail.com>\n"
-"Language-Team: Polish <https://weblate.elementary.io/projects/switchboard/"
+"PO-Revision-Date: 2021-11-02 09:15+0000\n"
+"Last-Translator: DarkKnightComes <darkknightcomes@gmail.com>\n"
+"Language-Team: Polish <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-datetime/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 3.0.1\n"
+"X-Generator: Weblate 4.4.2\n"
 "X-Launchpad-Export-Date: 2017-01-28 06:09+0000\n"
 
 #: src/MainView.vala:46
@@ -28,8 +28,6 @@ msgid "Network time:"
 msgstr "Czas sieciowy:"
 
 #: src/MainView.vala:58
-#, fuzzy
-#| msgid "Time Format:"
 msgid "Time format:"
 msgstr "Format czasu:"
 
@@ -39,21 +37,19 @@ msgstr "rano/po południu"
 
 #: src/MainView.vala:64
 msgid "24-hour"
-msgstr ""
+msgstr "24-godzinny"
 
 #: src/MainView.vala:66
-#, fuzzy
-#| msgid "Time Zone:"
 msgid "Time zone:"
 msgstr "Strefa czasowa:"
 
 #: src/MainView.vala:77
 msgid "Based on location:"
-msgstr ""
+msgstr "Bazując na lokacji:"
 
 #: src/MainView.vala:80
 msgid "Automatically updates the time zone when activated"
-msgstr ""
+msgstr "Automatycznie aktualizuje strefę czasową, gdy aktywowany"
 
 #: src/MainView.vala:98
 msgid "Show week numbers:"
@@ -61,11 +57,11 @@ msgstr "Wyświetl liczbę tygodni:"
 
 #: src/MainView.vala:107
 msgid "e.g. in Calendar and the Date & Time Panel indicator"
-msgstr ""
+msgstr "np. we wskaźniku Kalendarza i Panelu daty i czasu"
 
 #: src/MainView.vala:114
 msgid "Show in Panel:"
-msgstr ""
+msgstr "Pokaż w panelu:"
 
 #: src/MainView.vala:119
 msgid "Date"
@@ -73,11 +69,11 @@ msgstr "Data"
 
 #: src/MainView.vala:120
 msgid "Day of the week"
-msgstr ""
+msgstr "Dzień tygodnia"
 
 #: src/MainView.vala:121
 msgid "Seconds"
-msgstr ""
+msgstr "Sekundy"
 
 #: src/Plug.vala:29
 msgid "Date & Time"
@@ -666,7 +662,7 @@ msgstr "Ameryka/Sao_Paulo"
 #. /Translators: Comment for Timezone America/Sao_Paulo
 #: src/Translations.vala:227
 msgid "Brazil (southeast: GO, DF, MG, ES, RJ, SP, PR, SC, RS)"
-msgstr "Brazylia (południowy wschód:  GO, DF, MG, ES, RJ, SP, PR, SC, RS)"
+msgstr "Brazylia (południowy wschód: GO, DF, MG, ES, RJ, SP, PR, SC, RS)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:229
@@ -911,7 +907,7 @@ msgstr "Ameryka/Rainy_River"
 #. /Translators: Comment for Timezone America/Rainy_River
 #: src/Translations.vala:325
 msgid "Central - ON (Rainy R, Ft Frances)"
-msgstr "Centralny - ON  (Rainy River, Fort Frances)"
+msgstr "Centralny - ON (Rainy River, Fort Frances)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:327
