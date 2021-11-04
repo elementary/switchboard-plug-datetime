@@ -8,17 +8,17 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-15 22:20+0000\n"
-"PO-Revision-Date: 2019-11-17 21:24+0000\n"
-"Last-Translator: Piotr Strebski <strebski@gmail.com>\n"
-"Language-Team: Polish <https://l10n.elementary.io/projects/switchboard/date-"
-"time-plug-extra/pl/>\n"
+"PO-Revision-Date: 2021-11-04 08:10+0000\n"
+"Last-Translator: Marcin Serwin <marcin.serwin0@protonmail.com>\n"
+"Language-Team: Polish <https://l10n.elementary.io/projects/switchboard/"
+"date-time-plug-extra/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 3.7.1\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: data/io.elementary.switchboard.datetime.appdata.xml.in:5
 msgid "Date &amp; Time Settings"
@@ -31,7 +31,7 @@ msgstr "Konfiguruj datę, czas oraz wybierz strefę czasową"
 #: data/io.elementary.switchboard.datetime.appdata.xml.in:12
 #: data/io.elementary.switchboard.datetime.appdata.xml.in:27
 msgid "Minor updates"
-msgstr ""
+msgstr "Pomniejsze aktualizacje"
 
 #: data/io.elementary.switchboard.datetime.appdata.xml.in:14
 msgid "Move timezone popover contents to the main view"
