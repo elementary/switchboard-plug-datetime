@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-power\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-15 22:20+0000\n"
-"PO-Revision-Date: 2020-06-08 10:11+0000\n"
+"PO-Revision-Date: 2022-01-10 21:59+0000\n"
 "Last-Translator: p-bo <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-datetime/cs/>\n"
@@ -17,18 +17,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 4.4.2\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:04+0000\n"
 
 #: src/MainView.vala:46
-#, fuzzy
-#| msgid "Network Time:"
 msgid "Network time:"
 msgstr "Čas ze sítě:"
 
 #: src/MainView.vala:58
-#, fuzzy
-#| msgid "Time Format:"
 msgid "Time format:"
 msgstr "Formát času:"
 
@@ -41,20 +37,16 @@ msgid "24-hour"
 msgstr "24 hodinový"
 
 #: src/MainView.vala:66
-#, fuzzy
-#| msgid "Time Zone:"
 msgid "Time zone:"
 msgstr "Časové pásmo:"
 
 #: src/MainView.vala:77
 msgid "Based on location:"
-msgstr ""
+msgstr "V závislosti na umístění:"
 
 #: src/MainView.vala:80
-#, fuzzy
-#| msgid "Automatically update time zone"
 msgid "Automatically updates the time zone when activated"
-msgstr "Automaticky aktualizovat časové pásmo"
+msgstr "Automaticky aktualizovat časové pásmo když je aktivováno"
 
 #: src/MainView.vala:98
 msgid "Show week numbers:"
@@ -62,11 +54,11 @@ msgstr "Zobrazit čísla týdnů:"
 
 #: src/MainView.vala:107
 msgid "e.g. in Calendar and the Date & Time Panel indicator"
-msgstr ""
+msgstr "např. v indikátoru Kalendář a Datum a čas"
 
 #: src/MainView.vala:114
 msgid "Show in Panel:"
-msgstr ""
+msgstr "Zobrazit na panelu:"
 
 #: src/MainView.vala:119
 msgid "Date"
@@ -74,11 +66,11 @@ msgstr "Datum"
 
 #: src/MainView.vala:120
 msgid "Day of the week"
-msgstr ""
+msgstr "Den v týdnu"
 
 #: src/MainView.vala:121
 msgid "Seconds"
-msgstr ""
+msgstr "Sekund"
 
 #: src/Plug.vala:29
 msgid "Date & Time"
