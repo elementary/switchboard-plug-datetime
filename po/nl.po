@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-15 22:20+0000\n"
-"PO-Revision-Date: 2020-01-11 16:07+0000\n"
-"Last-Translator: Jaimie85 <alsemgeest@gmail.com>\n"
+"PO-Revision-Date: 2022-01-15 13:59+0000\n"
+"Last-Translator: Niels Van Laerhoven <niels1995@gmail.com>\n"
 "Language-Team: Dutch <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-datetime/nl/>\n"
 "Language: nl\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 4.4.2\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:04+0000\n"
 
 #: src/MainView.vala:46
@@ -48,7 +48,7 @@ msgstr "Tijdzone:"
 
 #: src/MainView.vala:77
 msgid "Based on location:"
-msgstr ""
+msgstr "Op basis van locatie:"
 
 #: src/MainView.vala:80
 #, fuzzy
@@ -66,7 +66,7 @@ msgstr ""
 
 #: src/MainView.vala:114
 msgid "Show in Panel:"
-msgstr ""
+msgstr "Toon in Paneel:"
 
 #: src/MainView.vala:119
 msgid "Date"
@@ -74,11 +74,11 @@ msgstr "Datum"
 
 #: src/MainView.vala:120
 msgid "Day of the week"
-msgstr ""
+msgstr "Dag van de week"
 
 #: src/MainView.vala:121
 msgid "Seconds"
-msgstr ""
+msgstr "Seconden"
 
 #: src/Plug.vala:29
 msgid "Date & Time"
