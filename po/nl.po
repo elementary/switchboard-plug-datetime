@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-15 22:20+0000\n"
 "PO-Revision-Date: 2022-01-15 13:59+0000\n"
-"Last-Translator: Niels Van Laerhoven <niels1995@gmail.com>\n"
+"Last-Translator: Dennis ten Hoove <dennistenhoove@protonmail.com>\n"
 "Language-Team: Dutch <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-datetime/nl/>\n"
 "Language: nl\n"
@@ -21,14 +21,10 @@ msgstr ""
 "X-Launchpad-Export-Date: 2017-01-12 06:04+0000\n"
 
 #: src/MainView.vala:46
-#, fuzzy
-#| msgid "Network Time:"
 msgid "Network time:"
 msgstr "Netwerk tijd:"
 
 #: src/MainView.vala:58
-#, fuzzy
-#| msgid "Time Format:"
 msgid "Time format:"
 msgstr "Tijd formaat:"
 
@@ -41,8 +37,6 @@ msgid "24-hour"
 msgstr "24-uur"
 
 #: src/MainView.vala:66
-#, fuzzy
-#| msgid "Time Zone:"
 msgid "Time zone:"
 msgstr "Tijdzone:"
 
@@ -51,10 +45,8 @@ msgid "Based on location:"
 msgstr "Op basis van locatie:"
 
 #: src/MainView.vala:80
-#, fuzzy
-#| msgid "Automatically update time zone"
 msgid "Automatically updates the time zone when activated"
-msgstr "Tijdzone automatisch bijwerken"
+msgstr "Tijdzone automatisch bijwerken wanneer ingeschakeld"
 
 #: src/MainView.vala:98
 msgid "Show week numbers:"
@@ -62,7 +54,7 @@ msgstr "Geef weeknummers weer:"
 
 #: src/MainView.vala:107
 msgid "e.g. in Calendar and the Date & Time Panel indicator"
-msgstr ""
+msgstr "Bijvoorbeeld in Agenda en de datum- en tijd paneelindicator"
 
 #: src/MainView.vala:114
 msgid "Show in Panel:"
