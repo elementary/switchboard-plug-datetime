@@ -164,7 +164,7 @@ public class DateTime.TimeZoneGrid : Gtk.Grid {
             city_list_store.set (iter, 0, key, 1, value);
             if (current_tz == value) {
                 city_view.get_selection ().select_iter (iter);
-                city_view.scroll_to_cell (city_list_store.get_path (iter), null, true, 0.5f, 0);
+                city_view.scroll_to_cell (city_list_store.get_path (iter), null, true, 0, 0);
             }
         });
 
