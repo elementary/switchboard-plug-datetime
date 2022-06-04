@@ -128,16 +128,16 @@ public class DateTime.TimeZoneGrid : Gtk.Grid {
             }
         });
 
-        var city_scrolled = new Gtk.ScrolledWindow (null, null);
-        city_scrolled.add (city_view);
+        var city_scrolled = new Gtk.ScrolledWindow ();
+        city_scrolled.child = city_view;
         city_scrolled.set_policy (Gtk.PolicyType.NEVER, Gtk.PolicyType.AUTOMATIC);
 
-        main_grid.add (continent_view);
-        main_grid.add (new Gtk.Separator (Gtk.Orientation.VERTICAL));
-        main_grid.add (city_scrolled);
-        main_grid.show_all ();
+        main_grid.attach (continent_view, 0, 0);
+        main_grid.attach (new Gtk.Separator (Gtk.Orientation.VERTICAL), 1, 0);
+        main_grid.attach (city_scrolled, 2, 0);
+        // main_grid.show_all ();
 
-        add (main_grid);
+        attach (main_grid, 0, 0);
     }
 
     public void set_timezone (string tz) {

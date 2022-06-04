@@ -17,13 +17,15 @@
  * Authored by: Corentin Noël <corentin@elementaryos.org>
  */
 
-public class DateTime.MainView : Gtk.ScrolledWindow {
+public class DateTime.MainView : Gtk.Widget {
+    private Gtk.ScrolledWindow main_widget;
     private Gtk.Image auto_time_zone_icon;
     private TimeZoneGrid time_zone_picker;
     private DateTime1 datetime1;
     private CurrentTimeManager ct_manager;
     private GLib.Settings clock_settings;
-    private Granite.Widgets.ModeButton time_format;
+    private Gtk.ToggleButton meridiem_time_format;
+    private Gtk.ToggleButton military_time_format;
     private Pantheon.AccountsService? pantheon_act = null;
 
     private static GLib.Settings time_zone_settings;
@@ -40,6 +42,7 @@ public class DateTime.MainView : Gtk.ScrolledWindow {
 
     static construct {
         time_zone_settings = new GLib.Settings ("org.gnome.desktop.datetime");
+        set_layout_manager_type (typeof (Gtk.BinLayout));
     }
 
     construct {
@@ -52,23 +55,36 @@ public class DateTime.MainView : Gtk.ScrolledWindow {
             valign = Gtk.Align.CENTER
         };
 
-        var time_picker = new Granite.Widgets.TimePicker ();
-        var date_picker = new Granite.Widgets.DatePicker ();
+        var time_picker = new Granite.TimePicker ();
+        var date_picker = new Granite.DatePicker ();
 
         var time_format_label = new Gtk.Label (_("Time format:")) {
             halign = Gtk.Align.END
         };
 
-        time_format = new Granite.Widgets.ModeButton ();
-        time_format.append_text (_("AM/PM"));
-        time_format.append_text (_("24-hour"));
+        meridiem_time_format = new Gtk.ToggleButton.with_label (_("AM/PM")) {
+            can_focus = false
+        };
+
+        military_time_format = new Gtk.ToggleButton.with_label (_("24-hour")) {
+            can_focus = false,
+            group = meridiem_time_format
+        };
+
+        var time_format_box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 0) {
+            homogeneous = true
+        };
+        time_format_box.append (meridiem_time_format);
+        time_format_box.append (military_time_format);
 
         var time_zone_label = new Gtk.Label (_("Time zone:")) {
             halign = Gtk.Align.END,
             valign = Gtk.Align.START
         };
 
-        auto_time_zone_icon = new Gtk.Image.from_icon_name ("location-inactive-symbolic", Gtk.IconSize.BUTTON);
+        auto_time_zone_icon = new Gtk.Image.from_icon_name ("location-inactive-symbolic") {
+            pixel_size = 16
+        };
 
         weak Gtk.StyleContext auto_time_zone_icon_context = auto_time_zone_icon.get_style_context ();
         auto_time_zone_icon_context.add_class (Granite.STYLE_CLASS_ACCENT);
@@ -80,20 +96,20 @@ public class DateTime.MainView : Gtk.ScrolledWindow {
             tooltip_text = _("Automatically updates the time zone when activated")
         };
 
-        var auto_time_zone_grid = new Gtk.Grid () {
-            column_spacing = 12,
+        var auto_time_zone_box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 12) {
+            // column_spacing = 12,
             hexpand = true,
             margin_bottom = 12
         };
 
-        auto_time_zone_grid.add (auto_time_zone_icon);
-        auto_time_zone_grid.add (auto_time_zone_switch_label);
-        auto_time_zone_grid.add (auto_time_zone_switch);
+        auto_time_zone_box.append (auto_time_zone_icon);
+        auto_time_zone_box.append (auto_time_zone_switch_label);
+        auto_time_zone_box.append (auto_time_zone_switch);
 
         time_zone_picker = new DateTime.TimeZoneGrid () {
             hexpand = true
         };
-        time_zone_picker.get_style_context ().add_class (Gtk.STYLE_CLASS_FRAME);
+        time_zone_picker.get_style_context ().add_class ("frame");
 
         var week_number_label = new Gtk.Label (_("Show week numbers:")) {
             halign = Gtk.Align.END
@@ -109,7 +125,7 @@ public class DateTime.MainView : Gtk.ScrolledWindow {
             wrap = true,
             xalign = 0
         };
-        week_number_info.get_style_context ().add_class (Gtk.STYLE_CLASS_DIM_LABEL);
+        week_number_info.get_style_context ().add_class (Granite.STYLE_CLASS_DIM_LABEL);
 
         var panel_label = new Gtk.Label (_("Show in Panel:")) {
             halign = Gtk.Align.END,
@@ -120,14 +136,14 @@ public class DateTime.MainView : Gtk.ScrolledWindow {
         var weekday_check = new Gtk.CheckButton.with_label (_("Day of the week"));
         var seconds_check = new Gtk.CheckButton.with_label (_("Seconds"));
 
-        var panel_check_grid = new Gtk.Grid () {
-            column_spacing = 12,
+        var panel_check_box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 12) {
+            // column_spacing = 12,
             margin_top = 6
         };
 
-        panel_check_grid.add (date_check);
-        panel_check_grid.add (weekday_check);
-        panel_check_grid.add (seconds_check);
+        panel_check_box.append (date_check);
+        panel_check_box.append (weekday_check);
+        panel_check_box.append (seconds_check);
 
         var grid = new Gtk.Grid () {
             column_spacing = 12,
@@ -138,10 +154,10 @@ public class DateTime.MainView : Gtk.ScrolledWindow {
         };
 
         grid.attach (time_format_label, 0, 0);
-        grid.attach (time_format, 1, 0, 3);
+        grid.attach (time_format_box, 1, 0, 3);
         grid.attach (time_zone_label, 0, 1);
         grid.attach (time_zone_picker, 1, 1, 3);
-        grid.attach (auto_time_zone_grid, 1, 2, 3);
+        grid.attach (auto_time_zone_box, 1, 2, 3);
         grid.attach (network_time_label, 0, 3);
         grid.attach (network_time_switch, 1, 3);
         grid.attach (time_picker, 2, 3);
@@ -150,12 +166,13 @@ public class DateTime.MainView : Gtk.ScrolledWindow {
         grid.attach (week_number_switch, 1, 4);
         grid.attach (week_number_info, 2, 4, 2);
         grid.attach (panel_label, 0, 5);
-        grid.attach (panel_check_grid, 1, 5, 3);
+        grid.attach (panel_check_box, 1, 5, 3);
 
-        hscrollbar_policy = Gtk.PolicyType.NEVER;
-        add (grid);
-
-        show_all ();
+        main_widget = new Gtk.ScrolledWindow () {
+            hscrollbar_policy = Gtk.PolicyType.NEVER,
+            child = grid
+        };
+        main_widget.set_parent (this);
 
         var source = SettingsSchemaSource.get_default ();
         var schema = source.lookup ("io.elementary.desktop.wingpanel.datetime", true);
@@ -167,7 +184,7 @@ public class DateTime.MainView : Gtk.ScrolledWindow {
             week_number_switch.visible = false;
             week_number_info.visible = false;
             panel_label.visible = false;
-            panel_check_grid.visible = false;
+            panel_check_box.visible = false;
         } else {
             wingpanel_settings = new GLib.Settings ("io.elementary.desktop.wingpanel.datetime");
             wingpanel_settings.bind ("clock-show-date", date_check, "active", SettingsBindFlags.DEFAULT);
@@ -224,8 +241,8 @@ public class DateTime.MainView : Gtk.ScrolledWindow {
         });
 
         clock_settings = new GLib.Settings ("org.gnome.desktop.interface");
-        time_format.mode_changed.connect (() => {
-            unowned string new_format = time_format.selected == 0 ? "12h" : "24h";
+        meridiem_time_format.toggled.connect (() => {
+            unowned string new_format = meridiem_time_format.active == true ? "12h" : "24h";
             clock_settings.set_string ("clock-format", new_format);
 
             if (wingpanel_settings != null) {
@@ -286,22 +303,30 @@ public class DateTime.MainView : Gtk.ScrolledWindow {
                 user_path,
                 GLib.DBusProxyFlags.GET_INVALIDATED_PROPERTIES
             );
-            time_format.set_active (pantheon_act.time_format == "12h" ? 0 : 1);
+
+            // the military_time_format toggle button won't be toggled if
+            // meridiem_time_format is 'not active' when this plug is opened
+
+            if (pantheon_act.time_format == "12h") {
+                meridiem_time_format.active = true;
+            } else {
+                military_time_format.active = true;
+            }
         } catch (Error e) {
             critical (e.message);
             // Connect to the GSettings instead
             clock_settings.changed["clock-format"].connect (() => {
                 if (clock_settings.get_string ("clock-format").contains ("12h")) {
-                    time_format.selected = 0;
+                    meridiem_time_format.active = true;
                 } else {
-                    time_format.selected = 1;
+                    meridiem_time_format.active = false;
                 }
             });
 
             if (clock_settings.get_string ("clock-format").contains ("12h")) {
-                time_format.selected = 0;
+                meridiem_time_format.active = true;
             } else {
-                time_format.selected = 1;
+                meridiem_time_format.active = false;
             }
         }
     }
@@ -327,6 +352,12 @@ public class DateTime.MainView : Gtk.ScrolledWindow {
 
         if (local_time.is_daylight_savings ()) {
             offset--;
+        }
+    }
+
+    ~MainView () {
+        while (this.get_last_child () != null) {
+            this.get_last_child ().unparent ();
         }
     }
 }
