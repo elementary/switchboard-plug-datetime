@@ -85,10 +85,8 @@ public class DateTime.MainView : Gtk.Widget {
         auto_time_zone_icon = new Gtk.Image.from_icon_name ("location-inactive-symbolic") {
             pixel_size = 16
         };
-
-        weak Gtk.StyleContext auto_time_zone_icon_context = auto_time_zone_icon.get_style_context ();
-        auto_time_zone_icon_context.add_class (Granite.STYLE_CLASS_ACCENT);
-        auto_time_zone_icon_context.add_class ("purple");
+        auto_time_zone_icon.add_css_class (Granite.STYLE_CLASS_ACCENT);
+        auto_time_zone_icon.add_css_class ("purple");
 
         var auto_time_zone_switch_label = new Gtk.Label (_("Based on location:"));
 
@@ -97,7 +95,6 @@ public class DateTime.MainView : Gtk.Widget {
         };
 
         var auto_time_zone_box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 12) {
-            // column_spacing = 12,
             hexpand = true,
             margin_bottom = 12
         };
@@ -109,7 +106,7 @@ public class DateTime.MainView : Gtk.Widget {
         time_zone_picker = new DateTime.TimeZoneGrid () {
             hexpand = true
         };
-        time_zone_picker.get_style_context ().add_class ("frame");
+        time_zone_picker.add_css_class ("frame");
 
         var week_number_label = new Gtk.Label (_("Show week numbers:")) {
             halign = Gtk.Align.END
@@ -125,7 +122,7 @@ public class DateTime.MainView : Gtk.Widget {
             wrap = true,
             xalign = 0
         };
-        week_number_info.get_style_context ().add_class (Granite.STYLE_CLASS_DIM_LABEL);
+        week_number_info.add_css_class (Granite.STYLE_CLASS_DIM_LABEL);
 
         var panel_label = new Gtk.Label (_("Show in Panel:")) {
             halign = Gtk.Align.END,
@@ -137,7 +134,6 @@ public class DateTime.MainView : Gtk.Widget {
         var seconds_check = new Gtk.CheckButton.with_label (_("Seconds"));
 
         var panel_check_box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 12) {
-            // column_spacing = 12,
             margin_top = 6
         };
 
