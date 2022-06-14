@@ -7,8 +7,8 @@
 
 You'll need the following dependencies:
 
-* libgranite-dev >= 5.0
-* libswitchboard-2.0-dev
+* libgranite-7-dev
+* libswitchboard-3-dev
 * meson
 * valac
 
