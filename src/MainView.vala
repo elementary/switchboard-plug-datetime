@@ -164,9 +164,13 @@ public class DateTime.MainView : Gtk.Widget {
         grid.attach (panel_label, 0, 5);
         grid.attach (panel_check_box, 1, 5, 3);
 
+        var clamp = new Adw.Clamp () {
+            child = grid
+        };
+
         main_widget = new Gtk.ScrolledWindow () {
             hscrollbar_policy = Gtk.PolicyType.NEVER,
-            child = grid
+            child = clamp
         };
         main_widget.set_parent (this);
 
