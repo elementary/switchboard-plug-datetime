@@ -46,18 +46,6 @@ public class DateTime.MainView : Gtk.Widget {
     }
 
     construct {
-        var network_time_label = new Gtk.Label (_("Network time:")) {
-            halign = Gtk.Align.END
-        };
-
-        var network_time_switch = new Gtk.Switch () {
-            halign = Gtk.Align.START,
-            valign = Gtk.Align.CENTER
-        };
-
-        var time_picker = new Granite.TimePicker ();
-        var date_picker = new Granite.DatePicker ();
-
         var time_format_label = new Gtk.Label (_("Time format:")) {
             halign = Gtk.Align.END
         };
@@ -108,6 +96,23 @@ public class DateTime.MainView : Gtk.Widget {
         };
         time_zone_picker.add_css_class ("frame");
 
+        var network_time_label = new Gtk.Label (_("Network time:")) {
+            halign = Gtk.Align.END
+        };
+
+        var network_time_switch = new Gtk.Switch () {
+            halign = Gtk.Align.START,
+            valign = Gtk.Align.CENTER
+        };
+
+        var time_picker = new Granite.TimePicker ();
+        var date_picker = new Granite.DatePicker ();
+
+        var network_time_box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 12);
+        network_time_box.append (network_time_switch);
+        network_time_box.append (time_picker);
+        network_time_box.append (date_picker);
+
         var week_number_label = new Gtk.Label (_("Show week numbers:")) {
             halign = Gtk.Align.END
         };
@@ -118,11 +123,13 @@ public class DateTime.MainView : Gtk.Widget {
         };
 
         var week_number_info = new Gtk.Label (_("e.g. in Calendar and the Date & Time Panel indicator")) {
-            max_width_chars = 40,
-            wrap = true,
             xalign = 0
         };
         week_number_info.add_css_class (Granite.STYLE_CLASS_DIM_LABEL);
+
+        var week_number_box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 12);
+        week_number_box.append (week_number_switch);
+        week_number_box.append (week_number_info);
 
         var panel_label = new Gtk.Label (_("Show in Panel:")) {
             halign = Gtk.Align.END,
@@ -146,6 +153,8 @@ public class DateTime.MainView : Gtk.Widget {
             halign = Gtk.Align.CENTER,
             margin_bottom = 24,
             margin_top = 24,
+            margin_start = 24,
+            margin_end = 24,
             row_spacing = 12
         };
 
@@ -155,12 +164,9 @@ public class DateTime.MainView : Gtk.Widget {
         grid.attach (time_zone_picker, 1, 1, 3);
         grid.attach (auto_time_zone_box, 1, 2, 3);
         grid.attach (network_time_label, 0, 3);
-        grid.attach (network_time_switch, 1, 3);
-        grid.attach (time_picker, 2, 3);
-        grid.attach (date_picker, 3, 3);
+        grid.attach (network_time_box, 1, 3, 3, 1);
         grid.attach (week_number_label, 0, 4);
-        grid.attach (week_number_switch, 1, 4);
-        grid.attach (week_number_info, 2, 4, 2);
+        grid.attach (week_number_box, 1, 4, 3, 1);
         grid.attach (panel_label, 0, 5);
         grid.attach (panel_check_box, 1, 5, 3);
 
