@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-power\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-15 22:20+0000\n"
-"PO-Revision-Date: 2019-07-21 15:24+0000\n"
+"PO-Revision-Date: 2022-08-05 16:24+0000\n"
 "Last-Translator: Jung-Kyu Park <bagjunggyu@gmail.com>\n"
 "Language-Team: Korean <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-datetime/ko/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.7.1\n"
+"X-Generator: Weblate 4.4.2\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:04+0000\n"
 
 #: src/MainView.vala:46
@@ -1562,7 +1562,7 @@ msgstr "아시아/폰티아나크(Pontianak)"
 #. /Translators: Comment for Timezone Asia/Pontianak
 #: src/Translations.vala:585
 msgid "Borneo (west, central)"
-msgstr "브로네오(Borneo  - 서부, 중앙)"
+msgstr "보르네오 (서부, 중앙)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:587
@@ -2034,9 +2034,7 @@ msgstr "아메리카/마나우스(Manaus)"
 #. /Translators: Comment for Timezone America/Matamoros
 #: src/Translations.vala:771
 msgid "Central Time US - Coahuila, Nuevo Leon, Tamaulipas (US border)"
-msgstr ""
-"미 중부 표준시 - 코아훌리아(Coahuila), 누보 레온(Nuevo Leon), 타마울리파스"
-"(Tamaulipas -  미국령)"
+msgstr "미 중부 표준시 - 코아훌리아(Coahuila), 누보 레온(Nuevo Leon), 타마울리파스(Tamaulipas - 미국령)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:773
