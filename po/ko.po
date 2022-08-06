@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-power\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-15 22:20+0000\n"
-"PO-Revision-Date: 2022-08-05 16:24+0000\n"
+"PO-Revision-Date: 2022-08-06 13:58+0000\n"
 "Last-Translator: Jung-Kyu Park <bagjunggyu@gmail.com>\n"
 "Language-Team: Korean <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-datetime/ko/>\n"
@@ -21,14 +21,10 @@ msgstr ""
 "X-Launchpad-Export-Date: 2017-01-12 06:04+0000\n"
 
 #: src/MainView.vala:46
-#, fuzzy
-#| msgid "Network Time:"
 msgid "Network time:"
 msgstr "네트워크 시간 :"
 
 #: src/MainView.vala:58
-#, fuzzy
-#| msgid "Time Format:"
 msgid "Time format:"
 msgstr "시간 형식 :"
 
@@ -38,23 +34,19 @@ msgstr "오전/오후"
 
 #: src/MainView.vala:64
 msgid "24-hour"
-msgstr ""
+msgstr "24 시간"
 
 #: src/MainView.vala:66
-#, fuzzy
-#| msgid "Time Zone:"
 msgid "Time zone:"
 msgstr "시간대:"
 
 #: src/MainView.vala:77
 msgid "Based on location:"
-msgstr ""
+msgstr "위치 기반:"
 
 #: src/MainView.vala:80
-#, fuzzy
-#| msgid "Automatically update time zone"
 msgid "Automatically updates the time zone when activated"
-msgstr "시간대 자동 업데이트"
+msgstr "활성화되면 시간대를 자동으로 업데이트합니다"
 
 #: src/MainView.vala:98
 msgid "Show week numbers:"
@@ -62,11 +54,11 @@ msgstr "주별 번호 표시:"
 
 #: src/MainView.vala:107
 msgid "e.g. in Calendar and the Date & Time Panel indicator"
-msgstr ""
+msgstr "예) 달력, 날짜 및 시간 패널 인디케이터"
 
 #: src/MainView.vala:114
 msgid "Show in Panel:"
-msgstr ""
+msgstr "패널에 표시:"
 
 #: src/MainView.vala:119
 msgid "Date"
@@ -74,11 +66,11 @@ msgstr "날짜"
 
 #: src/MainView.vala:120
 msgid "Day of the week"
-msgstr ""
+msgstr "요일"
 
 #: src/MainView.vala:121
 msgid "Seconds"
-msgstr ""
+msgstr "초"
 
 #: src/Plug.vala:29
 msgid "Date & Time"
