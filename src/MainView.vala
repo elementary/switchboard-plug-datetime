@@ -24,8 +24,8 @@ public class DateTime.MainView : Gtk.Widget {
     private DateTime1 datetime1;
     private CurrentTimeManager ct_manager;
     private GLib.Settings clock_settings;
-    private Gtk.ToggleButton meridiem_time_format;
-    private Gtk.ToggleButton military_time_format;
+    private Gtk.CheckButton meridiem_time_format;
+    private Gtk.CheckButton military_time_format;
     private Pantheon.AccountsService? pantheon_act = null;
 
     private static GLib.Settings time_zone_settings;
@@ -50,18 +50,13 @@ public class DateTime.MainView : Gtk.Widget {
             halign = Gtk.Align.END
         };
 
-        meridiem_time_format = new Gtk.ToggleButton.with_label (_("AM/PM")) {
-            can_focus = false
-        };
+        meridiem_time_format = new Gtk.CheckButton.with_label (_("AM/PM"));
 
-        military_time_format = new Gtk.ToggleButton.with_label (_("24-hour")) {
-            can_focus = false,
+        military_time_format = new Gtk.CheckButton.with_label (_("24-hour")) {
             group = meridiem_time_format
         };
 
-        var time_format_box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 0) {
-            homogeneous = true
-        };
+        var time_format_box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 12);
         time_format_box.append (meridiem_time_format);
         time_format_box.append (military_time_format);
 
