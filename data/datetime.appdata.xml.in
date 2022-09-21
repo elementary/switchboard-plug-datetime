@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="addon">
-  <id>io.elementary.switchboard.datetime</id>
-  <extends>io.elementary.switchboard</extends>
+  <id>io.elementary.settings.datetime</id>
+  <extends>io.elementary.settings</extends>
   <name>Date &amp; Time Settings</name>
   <summary>Configure date, time, and select time zone</summary>
   <icon type="stock">preferences-system-time</icon>
-  <translation type="gettext">datetime-plug</translation>
   <releases>
     <release version="2.2.0" date="2021-07-15" urgency="medium">
       <description>
@@ -39,7 +38,7 @@
   </releases>
   <screenshots>
       <screenshot type="default">
-          <image>https://raw.githubusercontent.com/elementary/switchboard-plug-datetime/master/data/screenshot.png</image>
+          <image>https://raw.githubusercontent.com/elementary/switchboard-plug-datetime/main/data/screenshot.png</image>
       </screenshot>
   </screenshots>
   <url type="homepage">https://elementary.io</url>
