@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-15 22:20+0000\n"
-"PO-Revision-Date: 2021-04-08 09:06+0000\n"
+"PO-Revision-Date: 2022-08-14 12:48+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-datetime/ja/>\n"
@@ -2832,7 +2832,7 @@ msgstr "アフリカ/ダルエスサラーム"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:1091
 msgid "Europe/Kiev"
-msgstr "ヨーロッパ/キエフ"
+msgstr "ヨーロッパ/キーウ"
 
 #. /Translators: Comment for Timezone Europe/Kiev
 #: src/Translations.vala:1093
