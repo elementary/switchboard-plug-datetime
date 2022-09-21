@@ -1,22 +1,20 @@
-Source: switchboard-plug-datetime
+Source: io.elementary.settings.datetime
 Section: x11
 Priority: optional
-Maintainer: elementary OS Team <builds@elementary.io>
+Maintainer: elementary, Inc. <builds@elementary.io>
 Build-Depends: debhelper (>= 10.5.1),
                gettext,
-               libgranite-dev,
-               libswitchboard-2.0-dev,
+               libgranite-7-dev,
+               libswitchboard-3-dev,
                meson,
                valac (>= 0.22)
 Standards-Version: 4.1.1
 Homepage: https://github.com/elementary/switchboard-plug-datetime
 
-Package: switchboard-plug-datetime
+Package: io.elementary.settings.datetime
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Recommends: elementary-default-settings (>= 5.2)
-Enhances: switchboard
-Conflicts: switchboard-plug-gcc-date
-Replaces: switchboard-plug-gcc-date
+Recommends: elementary-default-settings (>= 5.2), wingpanel-indicator-datetime
+Enhances: io.elementary.settings
 Description: Date & Time plug for Switchboard
  This plug configures system time and date.
