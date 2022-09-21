@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-15 22:20+0000\n"
-"PO-Revision-Date: 2022-09-21 15:56+0000\n"
+"PO-Revision-Date: 2022-09-21 17:12+0000\n"
 "Last-Translator: Aga Ismael <agaesmaeel@gmail.com>\n"
 "Language-Team: Kurdish (Central) <https://l10n.elementary.io/projects/"
 "switchboard/switchboard-plug-datetime/ckb/>\n"
@@ -844,167 +844,167 @@ msgstr "ڕۆژهەڵات - ON، QC (ژمارە DST 1967-73)"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:303
 msgid "America/Thunder_Bay"
-msgstr ""
+msgstr "ئەمریکا/تەندەر_بەی"
 
 #. /Translators: Comment for Timezone America/Thunder_Bay
 #: src/Translations.vala:305
 msgid "Eastern - ON (Thunder Bay)"
-msgstr ""
+msgstr "ڕۆژهەڵات - ON (تاندەر بەی)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:307
 msgid "America/Iqaluit"
-msgstr ""
+msgstr "ئەمریکا/ئیقالویت"
 
 #. /Translators: Comment for Timezone America/Iqaluit
 #: src/Translations.vala:309
 msgid "Eastern - NU (most east areas)"
-msgstr ""
+msgstr "ڕۆژهەڵات - NU (زۆربەی ناوچەکانی ڕۆژهەڵات)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:311
 msgid "America/Pangnirtung"
-msgstr ""
+msgstr "ئەمریکا/پانگنیرتونگ"
 
 #. /Translators: Comment for Timezone America/Pangnirtung
 #: src/Translations.vala:313
 msgid "Eastern - NU (Pangnirtung)"
-msgstr ""
+msgstr "ڕۆژهەڵات - NU (Pangnirtung)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:315
 msgid "America/Atikokan"
-msgstr ""
+msgstr "ئەمریکا/ئاتیکۆکان"
 
 #. /Translators: Comment for Timezone America/Atikokan
 #: src/Translations.vala:317
 msgid "EST - ON (Atikokan); NU (Coral H)"
-msgstr ""
+msgstr "EST - ئۆن (ئاتیکۆکان)؛ NU (کۆراڵ ‌H)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:319
 msgid "America/Winnipeg"
-msgstr ""
+msgstr "ئەمریکا/وینیپێگ"
 
 #. /Translators: Comment for Timezone America/Winnipeg
 #: src/Translations.vala:321
 msgid "Central - ON (west); Manitoba"
-msgstr ""
+msgstr "ناوەندی - ON (ڕۆژئاوا); مانیتۆبا"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:323
 msgid "America/Rainy_River"
-msgstr ""
+msgstr "ئەمریکا/ڕووباری_ڕەینی"
 
 #. /Translators: Comment for Timezone America/Rainy_River
 #: src/Translations.vala:325
 msgid "Central - ON (Rainy R, Ft Frances)"
-msgstr ""
+msgstr "ناوەند - ON (ڕەینی R، فۆرت فرانسیس)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:327
 msgid "America/Resolute"
-msgstr ""
+msgstr "ئەمریکا/ڕیسۆلیوت"
 
 #. /Translators: Comment for Timezone America/Resolute
 #: src/Translations.vala:329
 msgid "Central - NU (Resolute)"
-msgstr ""
+msgstr "ناوەندی - NU (ڕیسۆلیوت)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:331
 msgid "America/Rankin_Inlet"
-msgstr ""
+msgstr "ئەمریکا/رانکین_ئینلێت"
 
 #. /Translators: Comment for Timezone America/Rankin_Inlet
 #: src/Translations.vala:333
 msgid "Central - NU (central)"
-msgstr ""
+msgstr "ناوەندی - NU (ناوەند)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:335
 msgid "America/Regina"
-msgstr ""
+msgstr "ئەمریکا/ڕیجینا"
 
 #. /Translators: Comment for Timezone America/Regina
 #: src/Translations.vala:337
 msgid "CST - SK (most areas)"
-msgstr ""
+msgstr "CST - SK (زۆربەی ناوچەکان)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:339
 msgid "America/Swift_Current"
-msgstr ""
+msgstr "ئەمریکا/سویفت_کارێنت"
 
 #. /Translators: Comment for Timezone America/Swift_Current
 #: src/Translations.vala:341
 msgid "CST - SK (midwest)"
-msgstr ""
+msgstr "CST - SK (ناوەندی ڕۆژئاوا)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:343
 msgid "America/Edmonton"
-msgstr ""
+msgstr "ئەمریکا/ئەدمۆنتۆن"
 
 #. /Translators: Comment for Timezone America/Edmonton
 #: src/Translations.vala:345
 msgid "Mountain - AB; BC (E); SK (W)"
-msgstr ""
+msgstr "ماونتن - AB; BC (E); SK (W)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:347
 msgid "America/Cambridge_Bay"
-msgstr ""
+msgstr "ئەمریکا/کامبریج_بەی"
 
 #. /Translators: Comment for Timezone America/Cambridge_Bay
 #: src/Translations.vala:349
 msgid "Mountain - NU (west)"
-msgstr ""
+msgstr "ماونتن - NU (ڕۆژاوا)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:351
 msgid "America/Yellowknife"
-msgstr ""
+msgstr "ئەمریکا/یەڵۆنایف"
 
 #. /Translators: Comment for Timezone America/Yellowknife
 #: src/Translations.vala:353
 msgid "Mountain - NT (central)"
-msgstr ""
+msgstr "ماونتن - NT (ناوەند)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:355
 msgid "America/Inuvik"
-msgstr ""
+msgstr "ئەمریکا/ئینۆڤیک"
 
 #. /Translators: Comment for Timezone America/Inuvik
 #: src/Translations.vala:357
 msgid "Mountain - NT (west)"
-msgstr ""
+msgstr "ماونتن - NT (ڕۆژاوا)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:359
 msgid "America/Creston"
-msgstr ""
+msgstr "ئەمریکا/کرێستۆن"
 
 #. /Translators: Comment for Timezone America/Creston
 #: src/Translations.vala:361
 msgid "MST - BC (Creston)"
-msgstr ""
+msgstr "MST - BC (کریستن)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:363
 msgid "America/Dawson_Creek"
-msgstr ""
+msgstr "ئەمریکا/داوسن کریک"
 
 #. /Translators: Comment for Timezone America/Dawson_Creek
 #: src/Translations.vala:365
 msgid "MST - BC (Dawson Cr, Ft St John)"
-msgstr ""
+msgstr "MST - BC (داوسن سر، ئێف تی ئێس تی جۆن)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:367
 msgid "America/Fort_Nelson"
-msgstr ""
+msgstr "ئەمریکا/فۆرت نێڵسن"
 
 #. /Translators: Comment for Timezone America/Fort_Nelson
 #: src/Translations.vala:369
