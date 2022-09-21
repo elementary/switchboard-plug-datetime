@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-15 22:20+0000\n"
-"PO-Revision-Date: 2022-09-21 15:49+0000\n"
+"PO-Revision-Date: 2022-09-21 15:56+0000\n"
 "Last-Translator: Aga Ismael <agaesmaeel@gmail.com>\n"
 "Language-Team: Kurdish (Central) <https://l10n.elementary.io/projects/"
 "switchboard/switchboard-plug-datetime/ckb/>\n"
@@ -779,67 +779,67 @@ msgstr "ئەمریکا/هالیفاکس"
 #. /Translators: Comment for Timezone America/Halifax
 #: src/Translations.vala:277
 msgid "Atlantic - NS (most areas); PE"
-msgstr ""
+msgstr "ئەتڵانتیک - NS (زۆربەی ناوچەکان)؛ PE"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:279
 msgid "America/Glace_Bay"
-msgstr ""
+msgstr "ئەمریکا/گلایس_بەی"
 
 #. /Translators: Comment for Timezone America/Glace_Bay
 #: src/Translations.vala:281
 msgid "Atlantic - NS (Cape Breton)"
-msgstr ""
+msgstr "ئەتڵەنتیک - ئێن ئێس (کیپ بریتۆن)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:283
 msgid "America/Moncton"
-msgstr ""
+msgstr "ئەمریکا/مۆنکتۆن"
 
 #. /Translators: Comment for Timezone America/Moncton
 #: src/Translations.vala:285
 msgid "Atlantic - New Brunswick"
-msgstr ""
+msgstr "ئەتڵەنتیک - نیو برانسویک"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:287
 msgid "America/Goose_Bay"
-msgstr ""
+msgstr "ئەمریکا/گوز_بەی"
 
 #. /Translators: Comment for Timezone America/Goose_Bay
 #: src/Translations.vala:289
 msgid "Atlantic - Labrador (most areas)"
-msgstr ""
+msgstr "ئەتڵەنتیک - لابرادۆر (زۆربەی ناوچەکان)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:291
 msgid "America/Blanc-Sablon"
-msgstr ""
+msgstr "ئەمریکا/بلان-سابلۆن"
 
 #. /Translators: Comment for Timezone America/Blanc-Sablon
 #: src/Translations.vala:293
 msgid "AST - QC (Lower North Shore)"
-msgstr ""
+msgstr "AST - QC (لۆوەر نۆرس شۆر)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:295
 msgid "America/Toronto"
-msgstr ""
+msgstr "ئەمریکا/تۆرۆنتۆ"
 
 #. /Translators: Comment for Timezone America/Toronto
 #: src/Translations.vala:297
 msgid "Eastern - ON, QC (most areas)"
-msgstr ""
+msgstr "ڕۆژهەڵات ON، QC (زۆربەی ناوچەکان)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:299
 msgid "America/Nipigon"
-msgstr ""
+msgstr "ئەمریکا/نیپیگۆن"
 
 #. /Translators: Comment for Timezone America/Nipigon
 #: src/Translations.vala:301
 msgid "Eastern - ON, QC (no DST 1967-73)"
-msgstr ""
+msgstr "ڕۆژهەڵات - ON، QC (ژمارە DST 1967-73)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:303
