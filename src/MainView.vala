@@ -116,6 +116,7 @@ public class DateTime.MainView : Gtk.Widget {
         };
 
         var week_number_info = new Gtk.Label (_("e.g. in Calendar and the Date & Time Panel indicator")) {
+            wrap = true,
             xalign = 0
         };
         week_number_info.add_css_class (Granite.STYLE_CLASS_DIM_LABEL);
