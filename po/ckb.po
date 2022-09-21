@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-15 22:20+0000\n"
-"PO-Revision-Date: 2022-09-21 17:12+0000\n"
+"PO-Revision-Date: 2022-09-21 23:38+0000\n"
 "Last-Translator: Aga Ismael <agaesmaeel@gmail.com>\n"
 "Language-Team: Kurdish (Central) <https://l10n.elementary.io/projects/"
 "switchboard/switchboard-plug-datetime/ckb/>\n"
@@ -1009,387 +1009,387 @@ msgstr "ئەمریکا/فۆرت نێڵسن"
 #. /Translators: Comment for Timezone America/Fort_Nelson
 #: src/Translations.vala:369
 msgid "MST - BC (Ft Nelson)"
-msgstr ""
+msgstr "MST - بی سی (فۆرت نێڵسۆن)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:371
 msgid "America/Vancouver"
-msgstr ""
+msgstr "ئەمریکا/ڤانکۆڤەر"
 
 #. /Translators: Comment for Timezone America/Vancouver
 #: src/Translations.vala:373
 msgid "Pacific - BC (most areas)"
-msgstr ""
+msgstr "زەریای هێمن - بی سی (زۆربەی ناوچەکان)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:375
 msgid "America/Whitehorse"
-msgstr ""
+msgstr "ئەمریکا/وایتهۆرس"
 
 #. /Translators: Comment for Timezone America/Whitehorse
 #: src/Translations.vala:377
 msgid "Pacific - Yukon (south)"
-msgstr ""
+msgstr "زەریای هێمن - یوکۆن (باشوور)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:379
 msgid "America/Dawson"
-msgstr ""
+msgstr "ئەمریکا/داوسن"
 
 #. /Translators: Comment for Timezone America/Dawson
 #: src/Translations.vala:381
 msgid "Pacific - Yukon (north)"
-msgstr ""
+msgstr "زەریای هێمن - یوکۆن (باکور)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:383
 msgid "Indian/Cocos"
-msgstr ""
+msgstr "هیندی/کۆکۆس"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:385
 msgid "Africa/Kinshasa"
-msgstr ""
+msgstr "ئەفریقا/کینشاسا"
 
 #. /Translators: Comment for Timezone Africa/Kinshasa
 #: src/Translations.vala:387
 msgid "Dem. Rep. of Congo (west)"
-msgstr ""
+msgstr "کۆماری کۆنگۆ (ڕۆژئاوا)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:389
 msgid "Africa/Lubumbashi"
-msgstr ""
+msgstr "ئەفریقا/لوبومباشی"
 
 #. /Translators: Comment for Timezone Africa/Lubumbashi
 #: src/Translations.vala:391
 msgid "Dem. Rep. of Congo (east)"
-msgstr ""
+msgstr "کۆماری کۆنگۆ (ڕۆژهەڵات)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:393
 msgid "Africa/Bangui"
-msgstr ""
+msgstr "ئەفریقا/بانگوی"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:395
 msgid "Africa/Brazzaville"
-msgstr ""
+msgstr "ئەفریقا/برازاڤیل"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:397
 msgid "Europe/Zurich"
-msgstr ""
+msgstr "ئەوروپا/زیوریخ"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:399
 msgid "Africa/Abidjan"
-msgstr ""
+msgstr "ئەفریقا/ئەبدیجان"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:401
 msgid "Pacific/Rarotonga"
-msgstr ""
+msgstr "زەریای هێمن/رارۆتۆنگا"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:403
 msgid "America/Santiago"
-msgstr ""
+msgstr "ئەمریکا/سانتیاگۆ"
 
 #. /Translators: Comment for Timezone America/Santiago
 #: src/Translations.vala:405
 msgid "Chile (most areas)"
-msgstr ""
+msgstr "چیلی (زۆربەی ناوچەکان)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:407
 msgid "America/Punta_Arenas"
-msgstr ""
+msgstr "ئەمریکا/پۆنتا ئارێناس"
 
 #. /Translators: Comment for Timezone America/Punta_Arenas
 #: src/Translations.vala:409
 msgid "Region of Magallanes"
-msgstr ""
+msgstr "هەرێمی ماگالانێس"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:411
 msgid "Pacific/Easter"
-msgstr ""
+msgstr "زەریای هێمن/ئیستەر"
 
 #. /Translators: Comment for Timezone Pacific/Easter
 #: src/Translations.vala:413
 msgid "Easter Island"
-msgstr ""
+msgstr "دوورگەی ئیستەر"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:415
 msgid "Africa/Douala"
-msgstr ""
+msgstr "ئەفریقا/دوالا"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:417
 msgid "Asia/Shanghai"
-msgstr ""
+msgstr "ئاسیا/شەنگەهای"
 
 #. /Translators: Comment for Timezone Asia/Shanghai
 #: src/Translations.vala:419
 msgid "Beijing Time"
-msgstr ""
+msgstr "کاتی پەکین"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:421
 msgid "Asia/Urumqi"
-msgstr ""
+msgstr "ئاسیا/ئورومقی"
 
 #. /Translators: Comment for Timezone Asia/Urumqi
 #: src/Translations.vala:423
 msgid "Xinjiang Time"
-msgstr ""
+msgstr "کاتی شینجانگ"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:425
 msgid "America/Bogota"
-msgstr ""
+msgstr "ئەمریکا/بۆگۆتا"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:427
 msgid "America/Costa_Rica"
-msgstr ""
+msgstr "ئەمریکا/کۆستاریکا"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:429
 msgid "America/Havana"
-msgstr ""
+msgstr "ئەمریکا/هاڤانا"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:431
 msgid "Atlantic/Cape_Verde"
-msgstr ""
+msgstr "ئەتڵەنتیک/کیپ ڤێرد"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:433
 msgid "America/Curacao"
-msgstr ""
+msgstr "ئەمریکا/کوراکاو"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:435
 msgid "Indian/Christmas"
-msgstr ""
+msgstr "هیندی/کریسمس"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:437
 msgid "Asia/Nicosia"
-msgstr ""
+msgstr "ئاسیا/نیکۆسیا"
 
 #. /Translators: Comment for Timezone Asia/Nicosia
 #: src/Translations.vala:439
 msgid "Cyprus (most areas)"
-msgstr ""
+msgstr "قوبرس (زۆربەی ناوچەکان)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:441
 msgid "Asia/Famagusta"
-msgstr ""
+msgstr "ئاسیا/فاماگوستا"
 
 #. /Translators: Comment for Timezone Asia/Famagusta
 #: src/Translations.vala:443
 msgid "Northern Cyprus"
-msgstr ""
+msgstr "باکووری قوبرس"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:445
 msgid "Europe/Prague"
-msgstr ""
+msgstr "ئەوروپا/پراگ"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:447
 msgid "Europe/Berlin"
-msgstr ""
+msgstr "ئەوروپا/بەرلین"
 
 #. /Translators: Comment for Timezone Europe/Berlin
 #: src/Translations.vala:449
 msgid "Germany (most areas)"
-msgstr ""
+msgstr "ئەڵمانیا (زۆربەی ناوچەکان)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:451
 msgid "Europe/Busingen"
-msgstr ""
+msgstr "ئەوروپا/بوسینگن"
 
 #. /Translators: Comment for Timezone Europe/Busingen
 #: src/Translations.vala:453
 msgid "Busingen"
-msgstr ""
+msgstr "بوسینگن"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:455
 msgid "Africa/Djibouti"
-msgstr ""
+msgstr "ئەفریقا/جیبۆتی"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:457
 msgid "Europe/Copenhagen"
-msgstr ""
+msgstr "ئەوروپا/کۆپنهاگن"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:459
 msgid "America/Dominica"
-msgstr ""
+msgstr "ئەمریکا/دۆمینیکا"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:461
 msgid "America/Santo_Domingo"
-msgstr ""
+msgstr "ئەمریکا/سانتۆ_دۆمینگۆ"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:463
 msgid "Africa/Algiers"
-msgstr ""
+msgstr "ئەفریقا/جەزائیر"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:465
 msgid "America/Guayaquil"
-msgstr ""
+msgstr "ئەمریکا/گوایاکیل"
 
 #. /Translators: Comment for Timezone America/Guayaquil
 #: src/Translations.vala:467
 msgid "Ecuador (mainland)"
-msgstr ""
+msgstr "ئیکوادۆر (سەرزەوی)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:469
 msgid "Pacific/Galapagos"
-msgstr ""
+msgstr "زەریای هێمن/گالاپاگۆس"
 
 #. /Translators: Comment for Timezone Pacific/Galapagos
 #: src/Translations.vala:471
 msgid "Galapagos Islands"
-msgstr ""
+msgstr "دوورگەکانی گالاپاگۆس"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:473
 msgid "Europe/Tallinn"
-msgstr ""
+msgstr "ئەوروپا/تالین"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:475
 msgid "Africa/Cairo"
-msgstr ""
+msgstr "ئەفریقا/قاهیرە"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:477
 msgid "Africa/El_Aaiun"
-msgstr ""
+msgstr "ئەفریقا/ئێل_ئایون"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:479
 msgid "Africa/Asmara"
-msgstr ""
+msgstr "ئەفریقا/ئەسمەرا"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:481
 msgid "Europe/Madrid"
-msgstr ""
+msgstr "ئەوروپا/مەدرید"
 
 #. /Translators: Comment for Timezone Europe/Madrid
 #: src/Translations.vala:483
 msgid "Spain (mainland)"
-msgstr ""
+msgstr "ئیسپانیا (مەینلاند)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:485
 msgid "Africa/Ceuta"
-msgstr ""
+msgstr "ئەفریقا/سیوتا"
 
 #. /Translators: Comment for Timezone Africa/Ceuta
 #: src/Translations.vala:487
 msgid "Ceuta, Melilla"
-msgstr ""
+msgstr "سیوتا، مێلیلا"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:489
 msgid "Atlantic/Canary"
-msgstr ""
+msgstr "ئەتڵەسی/کەناری"
 
 #. /Translators: Comment for Timezone Atlantic/Canary
 #: src/Translations.vala:491
 msgid "Canary Islands"
-msgstr ""
+msgstr "دوورگەکانی کەناری"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:493
 msgid "Africa/Addis_Ababa"
-msgstr ""
+msgstr "ئەفریقا/ئەدیس_ئەبابا"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:495
 msgid "Europe/Helsinki"
-msgstr ""
+msgstr "ئەوروپا/هێلسنکی"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:497
 msgid "Pacific/Fiji"
-msgstr ""
+msgstr "زەریای هێمن/فیجی"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:499
 msgid "Atlantic/Stanley"
-msgstr ""
+msgstr "ئەتڵەنتیک/ستانلی"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:501
 msgid "Pacific/Chuuk"
-msgstr ""
+msgstr "زەریای هێمن/چوک"
 
 #. /Translators: Comment for Timezone Pacific/Chuuk
 #: src/Translations.vala:503
 msgid "Chuuk/Truk, Yap"
-msgstr ""
+msgstr "چوک/تروک، یاپ"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:505
 msgid "Pacific/Pohnpei"
-msgstr ""
+msgstr "زەریای هێمن/پۆهنپێی"
 
 #. /Translators: Comment for Timezone Pacific/Pohnpei
 #: src/Translations.vala:507
 msgid "Pohnpei/Ponape"
-msgstr ""
+msgstr "پۆهنپێی/پۆناپێ"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:509
 msgid "Pacific/Kosrae"
-msgstr ""
+msgstr "زەریای هێمن/کۆسرای"
 
 #. /Translators: Comment for Timezone Pacific/Kosrae
 #: src/Translations.vala:511
 msgid "Kosrae"
-msgstr ""
+msgstr "کۆسرایی"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:513
 msgid "Atlantic/Faroe"
-msgstr ""
+msgstr "ئەتڵەسی/فارۆ"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:515
 msgid "Europe/Paris"
-msgstr ""
+msgstr "ئەوروپا/پاریس"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:517
 msgid "Africa/Libreville"
-msgstr ""
+msgstr "ئەفریقا/لیبرڤیل"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:519
 msgid "Europe/London"
-msgstr ""
+msgstr "ئەوروپا/لەندەن"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:521
 msgid "America/Grenada"
-msgstr ""
+msgstr "ئەمریکا/گرێنادا"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:523
