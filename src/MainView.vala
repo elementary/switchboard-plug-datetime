@@ -65,9 +65,7 @@ public class DateTime.MainView : Gtk.Widget {
             valign = Gtk.Align.START
         };
 
-        auto_time_zone_icon = new Gtk.Image.from_icon_name ("location-inactive-symbolic") {
-            pixel_size = 16
-        };
+        auto_time_zone_icon = new Gtk.Image.from_icon_name ("location-inactive-symbolic");
         auto_time_zone_icon.add_css_class (Granite.STYLE_CLASS_ACCENT);
         auto_time_zone_icon.add_css_class ("purple");
 

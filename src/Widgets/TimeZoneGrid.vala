@@ -17,7 +17,7 @@
  * Authored by: Corentin Noël <corentin@elementaryos.org>
  */
 
-public class DateTime.TimeZoneGrid : Gtk.Grid {
+public class DateTime.TimeZoneGrid : Gtk.Box {
     public signal void request_timezone_change (string tz);
 
     private const string AFRICA = "Africa";
@@ -44,7 +44,6 @@ public class DateTime.TimeZoneGrid : Gtk.Grid {
     }
 
     public TimeZoneGrid () {
-        var main_grid = new Gtk.Grid ();
         continent_list_store = new Gtk.ListStore (2, typeof (string), typeof (string));
         continent_list_store.set_default_sort_func ((model, a, b) => {
             Value value_a;
@@ -108,7 +107,8 @@ public class DateTime.TimeZoneGrid : Gtk.Grid {
 
         city_list_store.set_sort_column_id (Gtk.TREE_SORTABLE_DEFAULT_SORT_COLUMN_ID, Gtk.SortType.ASCENDING);
         city_view = new Gtk.TreeView.with_model (city_list_store) {
-            headers_visible = false
+            headers_visible = false,
+            hexpand = true
         };
 
         var city_cellrenderer = new Gtk.CellRendererText () {
@@ -137,11 +137,8 @@ public class DateTime.TimeZoneGrid : Gtk.Grid {
             vscrollbar_policy = Gtk.PolicyType.AUTOMATIC
         };
 
-        main_grid.attach (continent_view, 0, 0);
-        main_grid.attach (new Gtk.Separator (Gtk.Orientation.VERTICAL), 1, 0);
-        main_grid.attach (city_scrolled, 2, 0);
-
-        attach (main_grid, 0, 0);
+        append (continent_view);
+        append (city_scrolled);
     }
 
     public void set_timezone (string tz) {
