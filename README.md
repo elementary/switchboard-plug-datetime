@@ -1,4 +1,4 @@
-# Switchboard Date & Time Plug
+# Date & Time Settings
 [![Translation status](https://l10n.elementary.io/widgets/switchboard/-/switchboard-plug-datetime/svg-badge.svg)](https://l10n.elementary.io/engage/switchboard/?utm_source=widget)
 
 ![screenshot](data/screenshot.png?raw=true)
@@ -7,8 +7,9 @@
 
 You'll need the following dependencies:
 
-* libgranite-dev >= 5.0
-* libswitchboard-2.0-dev
+* libgranite-7-dev
+* libadwaita-1-dev
+* libswitchboard-3-dev
 * meson
 * valac
 
@@ -20,7 +21,7 @@ Run `meson` to configure the build environment and then `ninja` to build
 
 To install, use `ninja install`
 
-    sudo ninja install
+    ninja install
 
 ## Regenerate the Translation.vala
 

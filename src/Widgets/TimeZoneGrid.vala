@@ -1,6 +1,5 @@
-// -*- Mode: vala; indent-tabs-mode: nil; tab-width: 4 -*-
 /*-
- * Copyright (c) 2014 Pantheon Developers (http://launchpad.net/switchboard-plug-datetime)
+ * Copyright (c) 2014 elementary, Inc. (https://elementary.io)
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -18,7 +17,7 @@
  * Authored by: Corentin Noël <corentin@elementaryos.org>
  */
 
-public class DateTime.TimeZoneGrid : Gtk.Grid {
+public class DateTime.TimeZoneGrid : Gtk.Box {
     public signal void request_timezone_change (string tz);
 
     private const string AFRICA = "Africa";
@@ -45,7 +44,6 @@ public class DateTime.TimeZoneGrid : Gtk.Grid {
     }
 
     public TimeZoneGrid () {
-        var main_grid = new Gtk.Grid ();
         continent_list_store = new Gtk.ListStore (2, typeof (string), typeof (string));
         continent_list_store.set_default_sort_func ((model, a, b) => {
             Value value_a;
@@ -76,13 +74,15 @@ public class DateTime.TimeZoneGrid : Gtk.Grid {
         continent_list_store.append (out iter);
         continent_list_store.set (iter, 0, _("Pacific"), 1, PACIFIC);
 
-        continent_view = new Gtk.TreeView.with_model (continent_list_store);
-        continent_view.get_style_context ().add_class ("sidebar");
-        continent_view.headers_visible = false;
+        continent_view = new Gtk.TreeView.with_model (continent_list_store) {
+            headers_visible = false
+        };
+        continent_view.add_css_class ("sidebar");
         continent_view.get_selection ().mode = Gtk.SelectionMode.BROWSE;
 
-        var cellrenderer = new Gtk.CellRendererText ();
-        cellrenderer.xpad = 12;
+        var cellrenderer = new Gtk.CellRendererText () {
+            xpad = 12
+        };
         continent_view.insert_column_with_attributes (-1, null, cellrenderer, "text", 0);
         continent_view.get_selection ().changed.connect (() => {
             Gtk.TreeIter activated_iter;
@@ -106,14 +106,17 @@ public class DateTime.TimeZoneGrid : Gtk.Grid {
         });
 
         city_list_store.set_sort_column_id (Gtk.TREE_SORTABLE_DEFAULT_SORT_COLUMN_ID, Gtk.SortType.ASCENDING);
-        city_view = new Gtk.TreeView.with_model (city_list_store);
-        city_view.headers_visible = false;
+        city_view = new Gtk.TreeView.with_model (city_list_store) {
+            headers_visible = false,
+            hexpand = true
+        };
 
-        var city_cellrenderer = new Gtk.CellRendererText ();
-        city_cellrenderer.ellipsize_set = true;
-        city_cellrenderer.width_chars = 50;
-        city_cellrenderer.wrap_mode = Pango.WrapMode.WORD_CHAR;
-        city_cellrenderer.ellipsize = Pango.EllipsizeMode.END;
+        var city_cellrenderer = new Gtk.CellRendererText () {
+            ellipsize_set = true,
+            width_chars = 50,
+            wrap_mode = Pango.WrapMode.WORD_CHAR,
+            ellipsize = Pango.EllipsizeMode.END
+        };
         city_view.insert_column_with_attributes (-1, null, city_cellrenderer, "text", 0);
         city_view.get_selection ().changed.connect (() => {
             if (setting_cities == true)
@@ -128,16 +131,14 @@ public class DateTime.TimeZoneGrid : Gtk.Grid {
             }
         });
 
-        var city_scrolled = new Gtk.ScrolledWindow (null, null);
-        city_scrolled.add (city_view);
-        city_scrolled.set_policy (Gtk.PolicyType.NEVER, Gtk.PolicyType.AUTOMATIC);
+        var city_scrolled = new Gtk.ScrolledWindow () {
+            child = city_view,
+            hscrollbar_policy = Gtk.PolicyType.NEVER,
+            vscrollbar_policy = Gtk.PolicyType.AUTOMATIC
+        };
 
-        main_grid.add (continent_view);
-        main_grid.add (new Gtk.Separator (Gtk.Orientation.VERTICAL));
-        main_grid.add (city_scrolled);
-        main_grid.show_all ();
-
-        add (main_grid);
+        append (continent_view);
+        append (city_scrolled);
     }
 
     public void set_timezone (string tz) {

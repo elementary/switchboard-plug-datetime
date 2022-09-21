@@ -8,7 +8,7 @@ plug_files = files(
     'Widgets/TimeZoneGrid.vala'
 )
 
-switchboard_dep = dependency('switchboard-2.0')
+switchboard_dep = dependency('switchboard-3')
 switchboard_plugsdir = switchboard_dep.get_pkgconfig_variable('plugsdir', define_variable: ['libdir', libdir])
 
 shared_module(
@@ -19,8 +19,9 @@ shared_module(
         dependency('glib-2.0'),
         dependency('gio-2.0'),
         dependency('gobject-2.0'),
-        dependency('granite', version: '>= 5.0.0'),
-        dependency('gtk+-3.0'),
+        dependency('granite-7'),
+        dependency('gtk4'),
+        dependency('libadwaita-1'),
         meson.get_compiler('vala').find_library('posix'),
         switchboard_dep,
         meson.get_compiler('c').find_library('m', required : false)
