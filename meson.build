@@ -4,7 +4,7 @@ project(
     version: '2.2.0'
 )
 
-gettext_name = meson.project_name() + '-plug'
+gettext_name = 'io.elementary.setings.' + meson.project_name()
 gnome = import('gnome')
 i18n = import('i18n')
 
@@ -26,7 +26,7 @@ endif
 
 config_data = configuration_data()
 config_data.set_quoted('LOCALEDIR', join_paths(get_option('prefix'), get_option('localedir')))
-config_data.set_quoted('GETTEXT_PACKAGE', meson.project_name() + '-plug')
+config_data.set_quoted('GETTEXT_PACKAGE', gettext_name)
 config_file = configure_file(
     input: 'src/Config.vala.in',
     output: '@BASENAME@',
