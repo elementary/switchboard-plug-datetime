@@ -46,6 +46,8 @@ public class DateTime.MainView : Gtk.Widget {
     }
 
     construct {
+        var appearance_header = new Granite.HeaderLabel (_("Appearance"));
+
         var time_format_label = new Gtk.Label (_("Time format:")) {
             halign = Gtk.Align.END
         };
@@ -60,51 +62,67 @@ public class DateTime.MainView : Gtk.Widget {
         time_format_box.append (meridiem_time_format);
         time_format_box.append (military_time_format);
 
-        var time_zone_label = new Gtk.Label (_("Time zone:")) {
-            halign = Gtk.Align.END,
-            valign = Gtk.Align.START
-        };
+        var time_zone_label = new Granite.HeaderLabel (_("Time Zone"));
 
-        auto_time_zone_icon = new Gtk.Image.from_icon_name ("location-inactive-symbolic");
+        auto_time_zone_icon = new Gtk.Image.from_icon_name ("location-inactive-symbolic") {
+            pixel_size = 24
+        };
         auto_time_zone_icon.add_css_class (Granite.STYLE_CLASS_ACCENT);
         auto_time_zone_icon.add_css_class ("purple");
 
-        var auto_time_zone_switch_label = new Gtk.Label (_("Based on location:"));
-
-        var auto_time_zone_switch = new Gtk.Switch () {
-            tooltip_text = _("Automatically updates the time zone when activated")
+        var auto_time_zone_label = new Gtk.Label (_("Based on location")) {
+            halign = Gtk.Align.START
         };
 
-        var auto_time_zone_box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 12) {
-            hexpand = true,
-            margin_bottom = 12
+        var auto_time_zone_hint = new Gtk.Label (_("Automatically updates the time zone when activated")) {
+            halign = Gtk.Align.START,
+            wrap = true
         };
+        auto_time_zone_hint.add_css_class (Granite.STYLE_CLASS_DIM_LABEL);
+        auto_time_zone_hint.add_css_class (Granite.STYLE_CLASS_SMALL_LABEL);
 
-        auto_time_zone_box.append (auto_time_zone_icon);
-        auto_time_zone_box.append (auto_time_zone_switch_label);
-        auto_time_zone_box.append (auto_time_zone_switch);
+        var auto_time_zone_radio = new Gtk.CheckButton ();
+
+        var auto_time_zone_grid = new Gtk.Grid () {
+            column_spacing = 3,
+            margin_start = 3
+        };
+        auto_time_zone_grid.attach (auto_time_zone_icon, 0, 0, 1, 2);
+        auto_time_zone_grid.attach (auto_time_zone_label, 1, 0);
+        auto_time_zone_grid.attach (auto_time_zone_hint, 1, 1);
+        auto_time_zone_grid.set_parent (auto_time_zone_radio);
+
+        var manual_time_zone_radio = new Gtk.CheckButton () {
+            group = auto_time_zone_radio
+        };
 
         time_zone_picker = new DateTime.TimeZoneGrid () {
-            hexpand = true
+            // hexpand = true,
+            margin_start = 6
         };
         time_zone_picker.add_css_class ("frame");
+        time_zone_picker.set_parent (manual_time_zone_radio);
 
-        var network_time_label = new Gtk.Label (_("Network time:")) {
-            halign = Gtk.Align.END
+        var date_time_header = new Granite.HeaderLabel (_("Date & Time"));
+
+        var network_time_radio = new Gtk.CheckButton.with_label (_("Set automatically"));
+
+        var manual_time_radio = new Gtk.CheckButton () {
+            group = network_time_radio
         };
 
-        var network_time_switch = new Gtk.Switch () {
-            halign = Gtk.Align.START,
-            valign = Gtk.Align.CENTER
+        var time_picker = new Granite.TimePicker () {
+            hexpand = true
         };
-
-        var time_picker = new Granite.TimePicker ();
         var date_picker = new Granite.DatePicker ();
 
-        var network_time_box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 12);
-        network_time_box.append (network_time_switch);
-        network_time_box.append (time_picker);
-        network_time_box.append (date_picker);
+        var manual_time_box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 12) {
+            homogeneous = true,
+            margin_start = 6
+        };
+        manual_time_box.append (time_picker);
+        manual_time_box.append (date_picker);
+        manual_time_box.set_parent (manual_time_radio);
 
         var week_number_label = new Gtk.Label (_("Show week numbers:")) {
             halign = Gtk.Align.END
@@ -126,17 +144,14 @@ public class DateTime.MainView : Gtk.Widget {
         week_number_box.append (week_number_info);
 
         var panel_label = new Gtk.Label (_("Show in Panel:")) {
-            halign = Gtk.Align.END,
-            margin_top = 6
+            halign = Gtk.Align.END
         };
 
         var date_check = new Gtk.CheckButton.with_label (_("Date"));
         var weekday_check = new Gtk.CheckButton.with_label (_("Day of the week"));
         var seconds_check = new Gtk.CheckButton.with_label (_("Seconds"));
 
-        var panel_check_box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 12) {
-            margin_top = 6
-        };
+        var panel_check_box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 12);
 
         panel_check_box.append (date_check);
         panel_check_box.append (weekday_check);
@@ -144,7 +159,6 @@ public class DateTime.MainView : Gtk.Widget {
 
         var grid = new Gtk.Grid () {
             column_spacing = 12,
-            halign = Gtk.Align.CENTER,
             margin_bottom = 24,
             margin_top = 24,
             margin_start = 24,
@@ -152,17 +166,24 @@ public class DateTime.MainView : Gtk.Widget {
             row_spacing = 12
         };
 
-        grid.attach (time_format_label, 0, 0);
-        grid.attach (time_format_box, 1, 0, 3);
-        grid.attach (time_zone_label, 0, 1);
-        grid.attach (time_zone_picker, 1, 1, 3);
-        grid.attach (auto_time_zone_box, 1, 2, 3);
-        grid.attach (network_time_label, 0, 3);
-        grid.attach (network_time_box, 1, 3, 3, 1);
-        grid.attach (week_number_label, 0, 4);
-        grid.attach (week_number_box, 1, 4, 3, 1);
-        grid.attach (panel_label, 0, 5);
-        grid.attach (panel_check_box, 1, 5, 3);
+        grid.attach (appearance_header, 0, 0, 2);
+        grid.attach (time_format_label, 0, 1);
+        grid.attach (time_format_box, 1, 1);
+
+        grid.attach (panel_label, 0, 2);
+        grid.attach (panel_check_box, 1, 2);
+
+        grid.attach (week_number_label, 0, 3);
+        grid.attach (week_number_box, 1, 3);
+
+        grid.attach (time_zone_label, 0, 4, 2);
+        grid.attach (auto_time_zone_radio, 0, 5, 2);
+        grid.attach (manual_time_zone_radio, 0, 6, 2);
+
+        grid.attach (date_time_header, 0, 7, 2);
+
+        grid.attach (network_time_radio, 0, 8, 2);
+        grid.attach (manual_time_radio, 0, 9, 2);
 
         var clamp = new Adw.Clamp () {
             child = grid
@@ -258,32 +279,33 @@ public class DateTime.MainView : Gtk.Widget {
 
         setup_time_format.begin ();
 
-        network_time_switch.notify["active"].connect (() => {
-            bool active = network_time_switch.active;
-            time_picker.sensitive = !active;
-            date_picker.sensitive = !active;
-            try {
-                datetime1.SetNTP (active, true);
-            } catch (Error e) {
-                critical (e.message);
-            }
-            ct_manager.datetime_has_changed ();
-        });
-
         try {
             datetime1 = Bus.get_proxy_sync (BusType.SYSTEM, "org.freedesktop.timedate1", "/org/freedesktop/timedate1");
+
+            if (datetime1.CanNTP == false) {
+                network_time_radio.sensitive = false;
+            } else if (datetime1.NTP) {
+                network_time_radio.active = true;
+            }
         } catch (IOError e) {
             critical (e.message);
         }
 
-        if (datetime1.CanNTP == false) {
-            network_time_switch.sensitive = false;
-        }
+        network_time_radio.toggled.connect (() => {
+            try {
+                datetime1.SetNTP (network_time_radio.active, true);
+                ct_manager.datetime_has_changed ();
+            } catch (Error e) {
+                manual_time_radio.activate ();
+                critical (e.message);
+            }
+        });
 
-        network_time_switch.active = datetime1.NTP;
         change_tz (datetime1.Timezone);
 
-        time_zone_settings.bind ("automatic-timezone", auto_time_zone_switch, "active", SettingsBindFlags.DEFAULT);
+        network_time_radio.bind_property ("active", manual_time_box, "sensitive", BindingFlags.INVERT_BOOLEAN | BindingFlags.SYNC_CREATE);
+
+        time_zone_settings.bind ("automatic-timezone", auto_time_zone_radio, "active", SettingsBindFlags.DEFAULT);
         time_zone_settings.bind ("automatic-timezone", time_zone_picker, "sensitive", SettingsBindFlags.INVERT_BOOLEAN);
         time_zone_settings.bind ("automatic-timezone", this, "automatic-timezone", SettingsBindFlags.GET);
     }
