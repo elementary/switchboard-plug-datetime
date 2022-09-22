@@ -161,27 +161,21 @@ public class DateTime.MainView : Gtk.Widget {
             column_spacing = 12,
             margin_bottom = 24,
             margin_top = 24,
-            margin_start = 24,
-            margin_end = 24,
+            margin_start = 12,
+            margin_end = 12,
             row_spacing = 12
         };
-
         grid.attach (appearance_header, 0, 0, 2);
         grid.attach (time_format_label, 0, 1);
         grid.attach (time_format_box, 1, 1);
-
         grid.attach (panel_label, 0, 2);
         grid.attach (panel_check_box, 1, 2);
-
         grid.attach (week_number_label, 0, 3);
         grid.attach (week_number_box, 1, 3);
-
         grid.attach (time_zone_label, 0, 4, 2);
         grid.attach (auto_time_zone_radio, 0, 5, 2);
         grid.attach (manual_time_zone_radio, 0, 6, 2);
-
         grid.attach (date_time_header, 0, 7, 2);
-
         grid.attach (network_time_radio, 0, 8, 2);
         grid.attach (manual_time_radio, 0, 9, 2);
 
