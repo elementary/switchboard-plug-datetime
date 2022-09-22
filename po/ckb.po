@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-15 22:20+0000\n"
-"PO-Revision-Date: 2022-09-21 23:56+0000\n"
+"PO-Revision-Date: 2022-09-22 00:16+0000\n"
 "Last-Translator: Aga Ismael <agaesmaeel@gmail.com>\n"
 "Language-Team: Kurdish (Central) <https://l10n.elementary.io/projects/"
 "switchboard/switchboard-plug-datetime/ckb/>\n"
@@ -1697,107 +1697,107 @@ msgstr "ئەمریکا/سانت_کیتس"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:643
 msgid "Asia/Pyongyang"
-msgstr ""
+msgstr "ئاسیا/پیۆنگیانگ"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:645
 msgid "Asia/Seoul"
-msgstr ""
+msgstr "ئاسیا/سیئۆل"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:647
 msgid "Asia/Kuwait"
-msgstr ""
+msgstr "ئاسیا/کوێت"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:649
 msgid "America/Cayman"
-msgstr ""
+msgstr "ئەمریکا/کایمان"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:651
 msgid "Asia/Almaty"
-msgstr ""
+msgstr "ئاسیا/ئەلماتی"
 
 #. /Translators: Comment for Timezone Asia/Almaty
 #: src/Translations.vala:653
 msgid "Kazakhstan (most areas)"
-msgstr ""
+msgstr "کازاخستان (زۆربەی ناوچەکان)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:655
 msgid "Asia/Qyzylorda"
-msgstr ""
+msgstr "ئاسیا/کایزایلۆردا"
 
 #. /Translators: Comment for Timezone Asia/Qyzylorda
 #: src/Translations.vala:657
 msgid "Qyzylorda/Kyzylorda/Kzyl-Orda"
-msgstr ""
+msgstr "کایزایلۆردا/کیزیلۆردا/خیل-ئۆردا"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:659
 msgid "Asia/Aqtobe"
-msgstr ""
+msgstr "ئاسیا/ئەقتۆب"
 
 #. /Translators: Comment for Timezone Asia/Aqtobe
 #: src/Translations.vala:661
 msgid "Aqtobe/Aktobe"
-msgstr ""
+msgstr "ئاقتۆبێ/ئاکتۆبێ"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:663
 msgid "Asia/Aqtau"
-msgstr ""
+msgstr "ئاسیا/ئاکتاو"
 
 #. /Translators: Comment for Timezone Asia/Aqtau
 #: src/Translations.vala:665
 msgid "Mangghystau/Mankistau"
-msgstr ""
+msgstr "مانگگیستاو/مانکیستاو"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:667
 msgid "Asia/Atyrau"
-msgstr ""
+msgstr "ئاسیا/ئاتیراو"
 
 #. /Translators: Comment for Timezone Asia/Atyrau
 #: src/Translations.vala:669
 msgid "Atyrau/Atirau/Gur'yev"
-msgstr ""
+msgstr "ئاتیراو/گوریێڤ"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:671
 msgid "Asia/Oral"
-msgstr ""
+msgstr "ئاسیا/ئۆراڵ"
 
 #. /Translators: Comment for Timezone Asia/Oral
 #: src/Translations.vala:673
 msgid "West Kazakhstan"
-msgstr ""
+msgstr "کازاخستانی ڕۆژاوا"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:675
 msgid "Asia/Vientiane"
-msgstr ""
+msgstr "ئاسیا/ڤینتیان"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:677
 msgid "Asia/Beirut"
-msgstr ""
+msgstr "ئاسیا/بەیروت"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:679
 msgid "America/St_Lucia"
-msgstr ""
+msgstr "ئەمریکا/سانت لوچیا"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:681
 msgid "Europe/Vaduz"
-msgstr ""
+msgstr "ئەوروپا/ڤادوز"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:683
 msgid "Asia/Colombo"
-msgstr ""
+msgstr "ئاسیا/کۆڵۆمبۆ"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:685
