@@ -29,10 +29,11 @@ public class DateTime.TimeZoneGrid : Gtk.Box {
     private const string EUROPE = "Europe";
     private const string INDIAN = "Indian";
     private const string PACIFIC = "Pacific";
-    Gtk.TreeView continent_view;
-    Gtk.ListStore continent_list_store;
     Gtk.TreeView city_view;
     Gtk.ListStore city_list_store;
+
+    private Gtk.ComboBoxText continent_combo;
+
     string old_selection;
     string current_tz;
     bool setting_cities = false;
@@ -44,57 +45,16 @@ public class DateTime.TimeZoneGrid : Gtk.Box {
     }
 
     public TimeZoneGrid () {
-        continent_list_store = new Gtk.ListStore (2, typeof (string), typeof (string));
-        continent_list_store.set_default_sort_func ((model, a, b) => {
-            Value value_a;
-            Value value_b;
-            model.get_value (a, 0, out value_a);
-            model.get_value (b, 0, out value_b);
-            return value_a.get_string ().collate (value_b.get_string ());
-        });
-
-        continent_list_store.set_sort_column_id (Gtk.TREE_SORTABLE_DEFAULT_SORT_COLUMN_ID, Gtk.SortType.ASCENDING);
-        Gtk.TreeIter iter;
-        continent_list_store.append (out iter);
-        continent_list_store.set (iter, 0, _("Africa"), 1, AFRICA);
-        continent_list_store.append (out iter);
-        continent_list_store.set (iter, 0, _("America"), 1, AMERICA);
-        continent_list_store.append (out iter);
-        continent_list_store.set (iter, 0, _("Antarctica"), 1, ANTARTICA);
-        continent_list_store.append (out iter);
-        continent_list_store.set (iter, 0, _("Asia"), 1, ASIA);
-        continent_list_store.append (out iter);
-        continent_list_store.set (iter, 0, _("Atlantic"), 1, ATLANTIC);
-        continent_list_store.append (out iter);
-        continent_list_store.set (iter, 0, _("Australia"), 1, AUSTRALIA);
-        continent_list_store.append (out iter);
-        continent_list_store.set (iter, 0, _("Europe"), 1, EUROPE);
-        continent_list_store.append (out iter);
-        continent_list_store.set (iter, 0, _("Indian"), 1, INDIAN);
-        continent_list_store.append (out iter);
-        continent_list_store.set (iter, 0, _("Pacific"), 1, PACIFIC);
-
-        continent_view = new Gtk.TreeView.with_model (continent_list_store) {
-            headers_visible = false
-        };
-        continent_view.add_css_class ("sidebar");
-        continent_view.get_selection ().mode = Gtk.SelectionMode.BROWSE;
-
-        var cellrenderer = new Gtk.CellRendererText () {
-            xpad = 12
-        };
-        continent_view.insert_column_with_attributes (-1, null, cellrenderer, "text", 0);
-        continent_view.get_selection ().changed.connect (() => {
-            Gtk.TreeIter activated_iter;
-            if (continent_view.get_selection ().get_selected (null, out activated_iter)) {
-                Value value;
-                continent_list_store.get_value (activated_iter, 1, out value);
-                if (old_selection != value.get_string ()) {
-                    change_city_from_continent (value.get_string ());
-                    old_selection = value.get_string ();
-                }
-            }
-        });
+        continent_combo = new Gtk.ComboBoxText ();
+        continent_combo.append (AFRICA, _("Africa"));
+        continent_combo.append (AMERICA, _("America"));
+        continent_combo.append (ANTARTICA, _("Antarctica"));
+        continent_combo.append (ASIA, _("Asia"));
+        continent_combo.append (ATLANTIC, _("Atlantic"));
+        continent_combo.append (AUSTRALIA, _("Australia"));
+        continent_combo.append (EUROPE, _("Europe"));
+        continent_combo.append (INDIAN, _("Indian"));
+        continent_combo.append (PACIFIC, _("Pacific"));
 
         city_list_store = new Gtk.ListStore (2, typeof (string), typeof (string));
         city_list_store.set_default_sort_func ((model, a, b) => {
@@ -137,23 +97,23 @@ public class DateTime.TimeZoneGrid : Gtk.Box {
             vscrollbar_policy = Gtk.PolicyType.AUTOMATIC
         };
 
-        append (continent_view);
+        spacing = 12;
+        append (continent_combo);
         append (city_scrolled);
+
+        continent_combo.changed.connect (() => {
+            if (old_selection != continent_combo.active_id) {
+                change_city_from_continent (continent_combo.active_id);
+                old_selection = continent_combo.active_id;
+            }
+        });
     }
 
     public void set_timezone (string tz) {
         current_tz = tz;
         var values = tz.split ("/", 3);
-        continent_list_store.@foreach ((model, path, iter) => {
-            Value value;
-            model.get_value (iter, 1, out value);
-            if (values[0] == value.get_string ()) {
-                continent_view.get_selection ().select_iter (iter);
-                return true;
-            }
 
-            return false;
-        });
+        continent_combo.active_id = values[0];
     }
 
     private void change_city_from_continent (string continent) {
