@@ -31,7 +31,7 @@ public class DateTime.TimeZoneGrid : Gtk.Box {
     private const string PACIFIC = "Pacific";
 
     private Gtk.ComboBoxText continent_combo;
-    private Gtk.Entry timezone_entry;
+    private Granite.ValidatedEntry timezone_entry;
     private Gtk.ListStore city_list_store;
 
     private string old_selection;
@@ -82,7 +82,7 @@ public class DateTime.TimeZoneGrid : Gtk.Box {
             text_column = 0
         };
 
-        timezone_entry = new Gtk.Entry () {
+        timezone_entry = new Granite.ValidatedEntry () {
             completion = entry_completion,
             hexpand = true,
             placeholder_text = _("City or time zone name")
@@ -112,9 +112,13 @@ public class DateTime.TimeZoneGrid : Gtk.Box {
                     Value key;
                     model.get_value (iter, 1, out key);
 
+                    timezone_entry.is_valid = true;
+
                     time_zone = key.get_string ();
                     request_timezone_change (time_zone);
                     return true;
+                 } else {
+                     timezone_entry.is_valid = false;
                  }
 
                  return false;
