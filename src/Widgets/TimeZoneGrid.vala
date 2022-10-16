@@ -64,17 +64,29 @@ public class DateTime.TimeZoneGrid : Gtk.Box {
     private void setup_factory (Gtk.SignalListItemFactory factory, Gtk.ListItem list_item) {
         var title = new Gtk.Label ("");
 
+        var time = new Gtk.Label ("") {
+            halign = Gtk.Align.END,
+            hexpand = true
+        };
+        time.add_css_class (Granite.STYLE_CLASS_DIM_LABEL);
+
         var box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 6);
         box.append (title);
+        box.append (time);
 
         list_item.set_data ("title", title);
+        list_item.set_data ("time", time);
         list_item.set_child (box);
     }
 
     private void bind_factory (Gtk.SignalListItemFactory factory, Gtk.ListItem list_item) {
         var timezone = (ICal.Timezone) list_item.get_item ();
         var title = list_item.get_data<Gtk.Label>("title");
-
         title.label = timezone.get_display_name ();
+
+        var datetime = new GLib.DateTime.now (new TimeZone.identifier (timezone.get_display_name ()));
+
+        var time = list_item.get_data<Gtk.Label>("time");
+        time.label = datetime.format ("%X");
     }
 }
