@@ -20,23 +20,6 @@
 public class DateTime.TimeZoneGrid : Gtk.Box {
     public signal void request_timezone_change (string tz);
 
-    private const string AFRICA = "Africa";
-    private const string AMERICA = "America";
-    private const string ANTARTICA = "Antarctica";
-    private const string ASIA = "Asia";
-    private const string ATLANTIC = "Atlantic";
-    private const string AUSTRALIA = "Australia";
-    private const string EUROPE = "Europe";
-    private const string INDIAN = "Indian";
-    private const string PACIFIC = "Pacific";
-
-    private Gtk.ComboBoxText continent_combo;
-    private Granite.ValidatedEntry timezone_entry;
-    private Gtk.ListStore city_list_store;
-
-    private string old_selection;
-    private bool setting_cities = false;
-
     private string _time_zone;
     public string time_zone {
         get {
@@ -44,102 +27,50 @@ public class DateTime.TimeZoneGrid : Gtk.Box {
         }
         set {
             _time_zone = value;
-            var values = value.split ("/", 3);
-
-            if (continent_combo.active_id != values[0]) {
-                continent_combo.active_id = values[0];
-            }
         }
     }
 
     public TimeZoneGrid () {
-        continent_combo = new Gtk.ComboBoxText ();
-        continent_combo.append (AFRICA, _("Africa"));
-        continent_combo.append (AMERICA, _("America"));
-        continent_combo.append (ANTARTICA, _("Antarctica"));
-        continent_combo.append (ASIA, _("Asia"));
-        continent_combo.append (ATLANTIC, _("Atlantic"));
-        continent_combo.append (AUSTRALIA, _("Australia"));
-        continent_combo.append (EUROPE, _("Europe"));
-        continent_combo.append (INDIAN, _("Indian"));
-        continent_combo.append (PACIFIC, _("Pacific"));
+        var timezone_list = new ListStore (typeof (ICal.Timezone));
 
-        city_list_store = new Gtk.ListStore (2, typeof (string), typeof (string));
-        city_list_store.set_default_sort_func ((model, a, b) => {
-            Value value_a;
-            Value value_b;
-            model.get_value (a, 0, out value_a);
-            model.get_value (b, 0, out value_b);
-            return value_a.get_string ().collate (value_b.get_string ());
-        });
+        var timezone_array = ICal.Timezone.get_builtin_timezones ();
+        for (int i = 0; i < timezone_array.size (); i++) {
+            timezone_list.append (timezone_array.timezone_element_at (i));
+        }
 
-        city_list_store.set_sort_column_id (Gtk.TREE_SORTABLE_DEFAULT_SORT_COLUMN_ID, Gtk.SortType.ASCENDING);
+        var list_factory = new Gtk.SignalListItemFactory ();
+        list_factory.setup.connect (setup_factory);
+        list_factory.bind.connect (bind_factory);
 
-        var entry_completion = new Gtk.EntryCompletion () {
-            minimum_key_length = 0,
-            model = city_list_store,
-            popup_completion = true,
-            text_column = 0
+        var dropdown = new Gtk.DropDown (timezone_list, null) {
+            factory = list_factory,
+            enable_search = true,
+            hexpand = true
         };
 
-        timezone_entry = new Granite.ValidatedEntry () {
-            completion = entry_completion,
-            hexpand = true,
-            placeholder_text = _("City or time zone name")
-        };
 
-        spacing = 12;
-        append (continent_combo);
-        append (timezone_entry);
+        append (dropdown);
 
-        continent_combo.changed.connect (() => {
-            if (old_selection != continent_combo.active_id) {
-                change_city_from_continent (continent_combo.active_id);
-                old_selection = continent_combo.active_id;
-            }
-        });
-
-        timezone_entry.changed.connect (() => {
-            if (setting_cities) {
-                return;
-            }
-
-            city_list_store.@foreach ((model, path, iter) => {
-                 Value value;
-                 model.get_value (iter, 0, out value);
-
-                 if (timezone_entry.text == value.get_string ()) {
-                    Value key;
-                    model.get_value (iter, 1, out key);
-
-                    timezone_entry.is_valid = true;
-
-                    time_zone = key.get_string ();
-                    request_timezone_change (time_zone);
-                    return true;
-                 } else {
-                     timezone_entry.is_valid = false;
-                 }
-
-                 return false;
-             });
+        dropdown.notify["selected"].connect (() => {
+            var timezone = (ICal.Timezone) dropdown.get_selected_item ();
+            request_timezone_change (timezone.get_display_name ());
         });
     }
 
-    private void change_city_from_continent (string continent) {
-        setting_cities = true;
-        city_list_store.clear ();
+    private void setup_factory (Gtk.SignalListItemFactory factory, Gtk.ListItem list_item) {
+        var title = new Gtk.Label ("");
 
-        Parser.get_default ().get_timezones_from_continent (continent).foreach ((key, value) => {
-            Gtk.TreeIter iter;
-            city_list_store.append (out iter);
-            city_list_store.set (iter, 0, key, 1, value);
+        var box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 6);
+        box.append (title);
 
-            if (time_zone == value) {
-                timezone_entry.text = key;
-            }
-        });
+        list_item.set_data ("title", title);
+        list_item.set_child (box);
+    }
 
-        setting_cities = false;
+    private void bind_factory (Gtk.SignalListItemFactory factory, Gtk.ListItem list_item) {
+        var timezone = (ICal.Timezone) list_item.get_item ();
+        var title = list_item.get_data<Gtk.Label>("title");
+
+        title.label = timezone.get_display_name ();
     }
 }
