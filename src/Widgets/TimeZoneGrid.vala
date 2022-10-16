@@ -53,11 +53,14 @@ public class DateTime.TimeZoneGrid : Gtk.Box {
             });
         }
 
+        var expression = new Gtk.CClosureExpression (typeof (string), null, null, (Callback) get_timezone_name, null, null);
+
         var list_factory = new Gtk.SignalListItemFactory ();
         list_factory.setup.connect (setup_factory);
         list_factory.bind.connect (bind_factory);
 
         dropdown = new Gtk.DropDown (timezone_list, null) {
+            expression = expression,
             factory = list_factory,
             enable_search = true,
             hexpand = true
@@ -69,6 +72,10 @@ public class DateTime.TimeZoneGrid : Gtk.Box {
             var timezone = (ICal.Timezone) dropdown.get_selected_item ();
             request_timezone_change (timezone.get_display_name ());
         });
+    }
+
+    static string get_timezone_name (ICal.Timezone timezone) {
+        return timezone.get_display_name ();
     }
 
     private void setup_factory (Gtk.SignalListItemFactory factory, Gtk.ListItem list_item) {
