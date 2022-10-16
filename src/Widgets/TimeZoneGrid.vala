@@ -20,18 +20,28 @@
 public class DateTime.TimeZoneGrid : Gtk.Box {
     public signal void request_timezone_change (string tz);
 
+    private Gtk.DropDown dropdown;
+    private ListStore timezone_list;
+
     private string _time_zone;
     public string time_zone {
         get {
             return _time_zone;
         }
         set {
+            for (int i = 0; i < timezone_list.get_n_items (); i++) {
+                if (((ICal.Timezone) timezone_list.get_item (i)).get_display_name () == value) {
+                    dropdown.selected = i;
+                    break;
+                }
+            }
+
             _time_zone = value;
         }
     }
 
     public TimeZoneGrid () {
-        var timezone_list = new ListStore (typeof (ICal.Timezone));
+        timezone_list = new ListStore (typeof (ICal.Timezone));
 
         var timezone_array = ICal.Timezone.get_builtin_timezones ();
         for (int i = 0; i < timezone_array.size (); i++) {
@@ -47,7 +57,7 @@ public class DateTime.TimeZoneGrid : Gtk.Box {
         list_factory.setup.connect (setup_factory);
         list_factory.bind.connect (bind_factory);
 
-        var dropdown = new Gtk.DropDown (timezone_list, null) {
+        dropdown = new Gtk.DropDown (timezone_list, null) {
             factory = list_factory,
             enable_search = true,
             hexpand = true
