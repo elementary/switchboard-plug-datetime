@@ -35,7 +35,12 @@ public class DateTime.TimeZoneGrid : Gtk.Box {
 
         var timezone_array = ICal.Timezone.get_builtin_timezones ();
         for (int i = 0; i < timezone_array.size (); i++) {
-            timezone_list.append (timezone_array.timezone_element_at (i));
+            timezone_list.insert_sorted (timezone_array.timezone_element_at (i), (a, b) => {
+                var a_name = ((ICal.Timezone) a).get_display_name ();
+                var b_name = ((ICal.Timezone) b).get_display_name ();
+
+                return a_name.collate (b_name);
+            });
         }
 
         var list_factory = new Gtk.SignalListItemFactory ();
@@ -47,7 +52,6 @@ public class DateTime.TimeZoneGrid : Gtk.Box {
             enable_search = true,
             hexpand = true
         };
-
 
         append (dropdown);
 
