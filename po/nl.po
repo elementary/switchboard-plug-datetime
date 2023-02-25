@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-15 22:20+0000\n"
-"PO-Revision-Date: 2022-08-14 02:55+0000\n"
+"PO-Revision-Date: 2023-02-26 11:25+0000\n"
 "Last-Translator: Dennis ten Hoove <dennistenhoove@protonmail.com>\n"
 "Language-Team: Dutch <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-datetime/nl/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 4.14.2\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:04+0000\n"
 
 #: src/MainView.vala:46
@@ -54,7 +54,7 @@ msgstr "Geef weeknummers weer:"
 
 #: src/MainView.vala:107
 msgid "e.g. in Calendar and the Date & Time Panel indicator"
-msgstr "Bijvoorbeeld in Agenda en de datum- en tijd paneelindicator"
+msgstr "bijvoorbeeld in Agenda en de Datum & Tijd paneelindicator"
 
 #: src/MainView.vala:114
 msgid "Show in Panel:"
