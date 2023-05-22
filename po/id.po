@@ -8,8 +8,9 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-15 22:20+0000\n"
-"PO-Revision-Date: 2020-11-18 15:15+0000\n"
-"Last-Translator: deovaliandro <mdv16h@student.unhas.ac.id>\n"
+"PO-Revision-Date: 2023-05-23 18:07+0000\n"
+"Last-Translator: Faisal Rachmadin <frachmadin@users.noreply.l10n.elementary."
+"io>\n"
 "Language-Team: Indonesian <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-datetime/id/>\n"
 "Language: id\n"
@@ -17,23 +18,18 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 4.17\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:04+0000\n"
 
 #: src/MainView.vala:46
-#, fuzzy
-#| msgid "Network Time:"
 msgid "Network time:"
-msgstr "Waktu Jaringan:"
+msgstr "Waktu jaringan:"
 
 #: src/MainView.vala:58
-#, fuzzy
-#| msgid "Time Format:"
 msgid "Time format:"
-msgstr "Waktu Jaringan:"
+msgstr "Format waktu:"
 
 #: src/MainView.vala:63
-#, fuzzy
 msgid "AM/PM"
 msgstr "AM/PM"
 
@@ -42,20 +38,16 @@ msgid "24-hour"
 msgstr "24-jam"
 
 #: src/MainView.vala:66
-#, fuzzy
-#| msgid "Time Zone:"
 msgid "Time zone:"
-msgstr "Zona Waktu:"
+msgstr "Zona waktu:"
 
 #: src/MainView.vala:77
 msgid "Based on location:"
-msgstr ""
+msgstr "Berdasarkan lokasi:"
 
 #: src/MainView.vala:80
-#, fuzzy
-#| msgid "Automatically update time zone"
 msgid "Automatically updates the time zone when activated"
-msgstr "Otomatis memperbaharui zona waktu"
+msgstr "Otomatis memperbarui zona waktu ketika aktif"
 
 #: src/MainView.vala:98
 msgid "Show week numbers:"
@@ -63,23 +55,23 @@ msgstr "Tunjukkan nomor minggu:"
 
 #: src/MainView.vala:107
 msgid "e.g. in Calendar and the Date & Time Panel indicator"
-msgstr ""
+msgstr "misalnya di Kalender dan indikator Panel Tanggal & Waktu"
 
 #: src/MainView.vala:114
 msgid "Show in Panel:"
-msgstr ""
+msgstr "Tampilkan di Panel:"
 
 #: src/MainView.vala:119
 msgid "Date"
-msgstr ""
+msgstr "Tanggal"
 
 #: src/MainView.vala:120
 msgid "Day of the week"
-msgstr ""
+msgstr "Hari dalam pekan"
 
 #: src/MainView.vala:121
 msgid "Seconds"
-msgstr ""
+msgstr "Detik"
 
 #: src/Plug.vala:29
 msgid "Date & Time"
@@ -182,7 +174,6 @@ msgstr "Antartika/DumontDUrville"
 
 #. /Translators: Comment for Timezone Antarctica/DumontDUrville
 #: src/Translations.vala:33
-#, fuzzy
 msgid "Dumont-d'Urville"
 msgstr "Dumont-d'Urville"
 
@@ -1562,22 +1553,22 @@ msgstr "Eropa/Budapest"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:579
 msgid "Asia/Jakarta"
-msgstr ""
+msgstr "Asia/Jakarta"
 
 #. /Translators: Comment for Timezone Asia/Jakarta
 #: src/Translations.vala:581
 msgid "Java, Sumatra"
-msgstr ""
+msgstr "Jawa, Sumatra"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:583
 msgid "Asia/Pontianak"
-msgstr ""
+msgstr "Asia/Pontianak"
 
 #. /Translators: Comment for Timezone Asia/Pontianak
 #: src/Translations.vala:585
 msgid "Borneo (west, central)"
-msgstr ""
+msgstr "Kalimantan (barat, tengah)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:587
@@ -1589,16 +1580,18 @@ msgstr "Asia/Makasar"
 msgid ""
 "Borneo (east, south); Sulawesi/Celebes, Bali, Nusa Tengarra; Timor (west)"
 msgstr ""
+"Kalimantan (timur, selatan); Sulawesi/Celebes, Bali, Nusa Tenggara; Timor "
+"Leste (barat)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:591
 msgid "Asia/Jayapura"
-msgstr ""
+msgstr "Asia/Jayapura"
 
 #. /Translators: Comment for Timezone Asia/Jayapura
 #: src/Translations.vala:593
 msgid "New Guinea (West Papua / Irian Jaya); Malukus/Moluccas"
-msgstr ""
+msgstr "Kepulauan Maluku; Nugini (Papua Barat / Papua)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:595
