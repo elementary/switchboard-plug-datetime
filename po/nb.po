@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-15 22:20+0000\n"
-"PO-Revision-Date: 2023-02-14 14:25+0000\n"
+"PO-Revision-Date: 2023-08-25 20:08+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://l10n.elementary.io/projects/"
 "switchboard/switchboard-plug-datetime/nb/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.2\n"
+"X-Generator: Weblate 4.17\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:05+0000\n"
 
 #: src/MainView.vala:46
@@ -2522,7 +2522,7 @@ msgstr "Asia/Krasnoyarsk"
 #. /Translators: Comment for Timezone Asia/Krasnoyarsk
 #: src/Translations.vala:969
 msgid "MSK+04 - Krasnoyarsk area"
-msgstr ""
+msgstr "MSK+04 - Krasnojarskområdet"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:971
@@ -2622,7 +2622,7 @@ msgstr "Asia/Kamchatka"
 #. /Translators: Comment for Timezone Asia/Kamchatka
 #: src/Translations.vala:1009
 msgid "MSK+09 - Kamchatka"
-msgstr ""
+msgstr "MSK+09 - Kamtsjatkahalvøya"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:1011
@@ -2632,7 +2632,7 @@ msgstr "Asia/Anadyr"
 #. /Translators: Comment for Timezone Asia/Anadyr
 #: src/Translations.vala:1013
 msgid "MSK+09 - Bering Sea"
-msgstr ""
+msgstr "MSK+09 - Beringhavet"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:1015
@@ -2832,7 +2832,7 @@ msgstr "Europa/Kiev"
 #. /Translators: Comment for Timezone Europe/Kiev
 #: src/Translations.vala:1093
 msgid "Ukraine (most areas)"
-msgstr ""
+msgstr "Ukraina (de fleste områdene)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:1095
@@ -3127,7 +3127,7 @@ msgstr "Amerika/Metalakta"
 #. /Translators: Comment for Timezone America/Metlakatla
 #: src/Translations.vala:1211
 msgid "Alaska - Annette Island"
-msgstr ""
+msgstr "Alaska - Annette Island"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:1213
