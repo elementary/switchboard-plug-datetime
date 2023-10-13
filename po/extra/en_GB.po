@@ -38,7 +38,8 @@ msgstr "Move timezone popover contents to the main view"
 
 #: data/io.elementary.switchboard.datetime.appdata.xml.in:15
 msgid "Add options to show or hide the date, weekday, and seconds in the clock"
-msgstr "Add options to show or hide the date, weekday, and seconds in the clock"
+msgstr ""
+"Add options to show or hide the date, weekday, and seconds in the clock"
 
 #: data/io.elementary.switchboard.datetime.appdata.xml.in:16
 #: data/io.elementary.switchboard.datetime.appdata.xml.in:22
