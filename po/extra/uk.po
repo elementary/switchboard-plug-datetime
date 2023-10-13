@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-15 22:20+0000\n"
+"POT-Creation-Date: 2023-10-13 05:31+0000\n"
 "PO-Revision-Date: 2022-05-29 23:10+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/switchboard/"
@@ -20,36 +20,33 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.4.2\n"
 
-#: data/io.elementary.switchboard.datetime.appdata.xml.in:5
+#: data/datetime.appdata.xml.in:5
 msgid "Date &amp; Time Settings"
 msgstr "Налаштування дати й часу"
 
-#: data/io.elementary.switchboard.datetime.appdata.xml.in:6
+#: data/datetime.appdata.xml.in:6
 msgid "Configure date, time, and select time zone"
 msgstr "Налаштування дати, часу та вибір часового поясу"
 
-#: data/io.elementary.switchboard.datetime.appdata.xml.in:12
-#: data/io.elementary.switchboard.datetime.appdata.xml.in:27
+#: data/datetime.appdata.xml.in:11 data/datetime.appdata.xml.in:26
 msgid "Minor updates"
 msgstr "Незначні оновлення"
 
-#: data/io.elementary.switchboard.datetime.appdata.xml.in:14
+#: data/datetime.appdata.xml.in:13
 msgid "Move timezone popover contents to the main view"
 msgstr "Налаштування часового поясу переміщено до головної вкладки"
 
-#: data/io.elementary.switchboard.datetime.appdata.xml.in:15
+#: data/datetime.appdata.xml.in:14
 msgid "Add options to show or hide the date, weekday, and seconds in the clock"
 msgstr ""
 "Додано опції показу або приховування дати, дня тижня та секунд у годиннику"
 
-#: data/io.elementary.switchboard.datetime.appdata.xml.in:16
-#: data/io.elementary.switchboard.datetime.appdata.xml.in:22
-#: data/io.elementary.switchboard.datetime.appdata.xml.in:30
-#: data/io.elementary.switchboard.datetime.appdata.xml.in:36
+#: data/datetime.appdata.xml.in:15 data/datetime.appdata.xml.in:21
+#: data/datetime.appdata.xml.in:29 data/datetime.appdata.xml.in:35
 msgid "Updated translations"
 msgstr "Оновлені переклади"
 
-#: data/io.elementary.switchboard.datetime.appdata.xml.in:29
+#: data/datetime.appdata.xml.in:28
 msgid "Fix potential freeze when changing settings from multiple panes"
 msgstr ""
 "Виправлено ймовірні зависання під час зміни налаштувань у кількох панелях"

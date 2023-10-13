@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-15 22:20+0000\n"
+"POT-Creation-Date: 2023-10-13 05:31+0000\n"
 "PO-Revision-Date: 2020-05-28 15:11+0000\n"
 "Last-Translator: Rantyrant <diseasemonger@gmail.com>\n"
 "Language-Team: Danish <https://l10n.elementary.io/projects/switchboard/date-"
@@ -19,34 +19,31 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 3.9.1\n"
 
-#: data/io.elementary.switchboard.datetime.appdata.xml.in:5
+#: data/datetime.appdata.xml.in:5
 msgid "Date &amp; Time Settings"
 msgstr ""
 
-#: data/io.elementary.switchboard.datetime.appdata.xml.in:6
+#: data/datetime.appdata.xml.in:6
 msgid "Configure date, time, and select time zone"
 msgstr "Konfigurér dato, klokkeslæt og vælg tidszone"
 
-#: data/io.elementary.switchboard.datetime.appdata.xml.in:12
-#: data/io.elementary.switchboard.datetime.appdata.xml.in:27
+#: data/datetime.appdata.xml.in:11 data/datetime.appdata.xml.in:26
 msgid "Minor updates"
 msgstr ""
 
-#: data/io.elementary.switchboard.datetime.appdata.xml.in:14
+#: data/datetime.appdata.xml.in:13
 msgid "Move timezone popover contents to the main view"
 msgstr ""
 
-#: data/io.elementary.switchboard.datetime.appdata.xml.in:15
+#: data/datetime.appdata.xml.in:14
 msgid "Add options to show or hide the date, weekday, and seconds in the clock"
 msgstr ""
 
-#: data/io.elementary.switchboard.datetime.appdata.xml.in:16
-#: data/io.elementary.switchboard.datetime.appdata.xml.in:22
-#: data/io.elementary.switchboard.datetime.appdata.xml.in:30
-#: data/io.elementary.switchboard.datetime.appdata.xml.in:36
+#: data/datetime.appdata.xml.in:15 data/datetime.appdata.xml.in:21
+#: data/datetime.appdata.xml.in:29 data/datetime.appdata.xml.in:35
 msgid "Updated translations"
 msgstr "Opdaterede oversættelser"
 
-#: data/io.elementary.switchboard.datetime.appdata.xml.in:29
+#: data/datetime.appdata.xml.in:28
 msgid "Fix potential freeze when changing settings from multiple panes"
 msgstr ""
