@@ -8,22 +8,22 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-13 05:31+0000\n"
-"PO-Revision-Date: 2022-10-28 21:56+0000\n"
-"Last-Translator: lenemter <lenemter@gmail.com>\n"
+"PO-Revision-Date: 2023-10-14 19:10+0000\n"
+"Last-Translator: кубик круглый <megarainbow29@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/switchboard/"
-"switchboard-plug-datetime/ru/>\n"
+"datetime/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.4.2\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.17\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:05+0000\n"
 
 #: src/MainView.vala:49
 msgid "Appearance"
-msgstr ""
+msgstr "Отображение"
 
 #: src/MainView.vala:51
 msgid "Time format:"
@@ -42,10 +42,8 @@ msgid "Time Zone"
 msgstr "Часовой пояс"
 
 #: src/MainView.vala:73
-#, fuzzy
-#| msgid "Based on location:"
 msgid "Based on location"
-msgstr "Основываясь на местоположении:"
+msgstr "Основываясь на местоположении"
 
 #: src/MainView.vala:77
 msgid "Automatically updates the time zone when activated"
@@ -57,7 +55,7 @@ msgstr "Дата и время"
 
 #: src/MainView.vala:108
 msgid "Set automatically"
-msgstr ""
+msgstr "Устанавливать автоматически"
 
 #: src/MainView.vala:127
 msgid "Show week numbers:"
@@ -65,7 +63,7 @@ msgstr "Показывать номера недель:"
 
 #: src/MainView.vala:136
 msgid "e.g. in Calendar and the Date & Time Panel indicator"
-msgstr "например, в календаре и индикаторе панели даты и времени"
+msgstr "Например, в Календаре и индикаторе на панели"
 
 #: src/MainView.vala:146
 msgid "Show in Panel:"
