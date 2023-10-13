@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-power\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-15 22:20+0000\n"
+"POT-Creation-Date: 2023-10-13 05:31+0000\n"
 "PO-Revision-Date: 2017-09-08 16:52+0000\n"
 "Last-Translator: M Aiman <m.aimanismail@gmail.com>\n"
 "Language-Team: Malay <https://weblate.elementary.io/projects/switchboard/"
@@ -20,85 +20,81 @@ msgstr ""
 "X-Generator: Weblate 2.16\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:05+0000\n"
 
-#: src/MainView.vala:46
-#, fuzzy
-#| msgid "Network Time:"
-msgid "Network time:"
-msgstr "Masa Rangkaian:"
+#: src/MainView.vala:49
+msgid "Appearance"
+msgstr ""
 
-#: src/MainView.vala:58
+#: src/MainView.vala:51
 #, fuzzy
 #| msgid "Time Format:"
 msgid "Time format:"
 msgstr "Format Waktu:"
 
-#: src/MainView.vala:63
+#: src/MainView.vala:55
 msgid "AM/PM"
 msgstr "AM/PM"
 
-#: src/MainView.vala:64
+#: src/MainView.vala:57
 msgid "24-hour"
 msgstr ""
 
-#: src/MainView.vala:66
-#, fuzzy
-#| msgid "Time Zone:"
-msgid "Time zone:"
-msgstr "Zon Waktu:"
-
-#: src/MainView.vala:77
-msgid "Based on location:"
-msgstr ""
-
-#: src/MainView.vala:80
-msgid "Automatically updates the time zone when activated"
-msgstr ""
-
-#: src/MainView.vala:98
-msgid "Show week numbers:"
-msgstr "Tunjuk bilangan minggu:"
-
-#: src/MainView.vala:107
-msgid "e.g. in Calendar and the Date & Time Panel indicator"
-msgstr ""
-
-#: src/MainView.vala:114
-msgid "Show in Panel:"
-msgstr ""
-
-#: src/MainView.vala:119
-msgid "Date"
-msgstr "Tarikh"
-
-#: src/MainView.vala:120
-msgid "Day of the week"
-msgstr ""
-
-#: src/MainView.vala:121
-msgid "Seconds"
-msgstr ""
-
-#: src/Plug.vala:29
-msgid "Date & Time"
-msgstr "Tarikh & Waktu"
-
-#: src/Plug.vala:30
-msgid "Configure date, time, and select time zone"
-msgstr "Konfigur tarikh, waktu, dan pilih zon waktu"
-
-#: src/Plug.vala:55
-msgid "Time Format"
-msgstr "Format Waktu"
-
-#: src/Plug.vala:56
+#: src/MainView.vala:65 src/Plug.vala:59
 msgid "Time Zone"
 msgstr "Zon Waktu"
 
-#: src/Plug.vala:57
+#: src/MainView.vala:73
+msgid "Based on location"
+msgstr ""
+
+#: src/MainView.vala:77
+msgid "Automatically updates the time zone when activated"
+msgstr ""
+
+#: src/MainView.vala:106 src/Plug.vala:32
+msgid "Date & Time"
+msgstr "Tarikh & Waktu"
+
+#: src/MainView.vala:108
+msgid "Set automatically"
+msgstr ""
+
+#: src/MainView.vala:127
+msgid "Show week numbers:"
+msgstr "Tunjuk bilangan minggu:"
+
+#: src/MainView.vala:136
+msgid "e.g. in Calendar and the Date & Time Panel indicator"
+msgstr ""
+
+#: src/MainView.vala:146
+msgid "Show in Panel:"
+msgstr ""
+
+#: src/MainView.vala:150
+msgid "Date"
+msgstr "Tarikh"
+
+#: src/MainView.vala:151
+msgid "Day of the week"
+msgstr ""
+
+#: src/MainView.vala:152
+msgid "Seconds"
+msgstr ""
+
+#: src/Plug.vala:33
+msgid "Configure date, time, and select time zone"
+msgstr "Konfigur tarikh, waktu, dan pilih zon waktu"
+
+#: src/Plug.vala:58
+msgid "Time Format"
+msgstr "Format Waktu"
+
+#: src/Plug.vala:60
 msgid "Network Time"
 msgstr "Waktu Rangkaian"
 
-#: src/Plug.vala:58
+#: src/Plug.vala:61
 #, fuzzy
 msgid "Show week numbers"
 msgstr "Tunjuk bilangan minggu:"
@@ -3100,7 +3096,7 @@ msgid "America/Los_Angeles"
 msgstr "Amerika/Los_Angeles"
 
 #. /Translators: Comment for Timezone America/Los_Angeles
-#: src/Translations.vala:1195 src/Widgets/TimeZoneGrid.vala:77
+#: src/Translations.vala:1195 src/Widgets/TimeZoneGrid.vala:75
 msgid "Pacific"
 msgstr "Pasifik"
 
@@ -3279,37 +3275,47 @@ msgstr "Afrika/Lusaka"
 msgid "Africa/Harare"
 msgstr "Afrika/Harare"
 
-#: src/Widgets/TimeZoneGrid.vala:61
+#: src/Widgets/TimeZoneGrid.vala:59
 msgid "Africa"
 msgstr "Afrika"
 
-#: src/Widgets/TimeZoneGrid.vala:63
+#: src/Widgets/TimeZoneGrid.vala:61
 msgid "America"
 msgstr "Amerika"
 
-#: src/Widgets/TimeZoneGrid.vala:65
+#: src/Widgets/TimeZoneGrid.vala:63
 msgid "Antarctica"
 msgstr "Antartika"
 
-#: src/Widgets/TimeZoneGrid.vala:67
+#: src/Widgets/TimeZoneGrid.vala:65
 msgid "Asia"
 msgstr "Asia"
 
-#: src/Widgets/TimeZoneGrid.vala:69
+#: src/Widgets/TimeZoneGrid.vala:67
 msgid "Atlantic"
 msgstr "Atlantik"
 
-#: src/Widgets/TimeZoneGrid.vala:71
+#: src/Widgets/TimeZoneGrid.vala:69
 msgid "Australia"
 msgstr "Australia"
 
-#: src/Widgets/TimeZoneGrid.vala:73
+#: src/Widgets/TimeZoneGrid.vala:71
 msgid "Europe"
 msgstr "Eropah"
 
-#: src/Widgets/TimeZoneGrid.vala:75
+#: src/Widgets/TimeZoneGrid.vala:73
 msgid "Indian"
 msgstr "India"
+
+#, fuzzy
+#~| msgid "Network Time:"
+#~ msgid "Network time:"
+#~ msgstr "Masa Rangkaian:"
+
+#, fuzzy
+#~| msgid "Time Zone:"
+#~ msgid "Time zone:"
+#~ msgstr "Zon Waktu:"
 
 #~ msgid "24h"
 #~ msgstr "24j"

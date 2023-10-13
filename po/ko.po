@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-power\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-15 22:20+0000\n"
+"POT-Creation-Date: 2023-10-13 05:31+0000\n"
 "PO-Revision-Date: 2022-08-06 13:58+0000\n"
 "Last-Translator: Jung-Kyu Park <bagjunggyu@gmail.com>\n"
 "Language-Team: Korean <https://l10n.elementary.io/projects/switchboard/"
@@ -20,79 +20,81 @@ msgstr ""
 "X-Generator: Weblate 4.4.2\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:04+0000\n"
 
-#: src/MainView.vala:46
-msgid "Network time:"
-msgstr "네트워크 시간 :"
+#: src/MainView.vala:49
+msgid "Appearance"
+msgstr ""
 
-#: src/MainView.vala:58
+#: src/MainView.vala:51
 msgid "Time format:"
 msgstr "시간 형식 :"
 
-#: src/MainView.vala:63
+#: src/MainView.vala:55
 msgid "AM/PM"
 msgstr "오전/오후"
 
-#: src/MainView.vala:64
+#: src/MainView.vala:57
 msgid "24-hour"
 msgstr "24 시간"
 
-#: src/MainView.vala:66
-msgid "Time zone:"
-msgstr "시간대:"
-
-#: src/MainView.vala:77
-msgid "Based on location:"
-msgstr "위치 기반:"
-
-#: src/MainView.vala:80
-msgid "Automatically updates the time zone when activated"
-msgstr "활성화되면 시간대를 자동으로 업데이트합니다"
-
-#: src/MainView.vala:98
-msgid "Show week numbers:"
-msgstr "주별 번호 표시:"
-
-#: src/MainView.vala:107
-msgid "e.g. in Calendar and the Date & Time Panel indicator"
-msgstr "예) 달력, 날짜 및 시간 패널 인디케이터"
-
-#: src/MainView.vala:114
-msgid "Show in Panel:"
-msgstr "패널에 표시:"
-
-#: src/MainView.vala:119
-msgid "Date"
-msgstr "날짜"
-
-#: src/MainView.vala:120
-msgid "Day of the week"
-msgstr "요일"
-
-#: src/MainView.vala:121
-msgid "Seconds"
-msgstr "초"
-
-#: src/Plug.vala:29
-msgid "Date & Time"
-msgstr "날짜와 시간"
-
-#: src/Plug.vala:30
-msgid "Configure date, time, and select time zone"
-msgstr "날짜, 시간, 그리고 시간대를 설정합니다"
-
-#: src/Plug.vala:55
-msgid "Time Format"
-msgstr "시간 형식"
-
-#: src/Plug.vala:56
+#: src/MainView.vala:65 src/Plug.vala:59
 msgid "Time Zone"
 msgstr "시간대"
 
-#: src/Plug.vala:57
+#: src/MainView.vala:73
+#, fuzzy
+#| msgid "Based on location:"
+msgid "Based on location"
+msgstr "위치 기반:"
+
+#: src/MainView.vala:77
+msgid "Automatically updates the time zone when activated"
+msgstr "활성화되면 시간대를 자동으로 업데이트합니다"
+
+#: src/MainView.vala:106 src/Plug.vala:32
+msgid "Date & Time"
+msgstr "날짜와 시간"
+
+#: src/MainView.vala:108
+msgid "Set automatically"
+msgstr ""
+
+#: src/MainView.vala:127
+msgid "Show week numbers:"
+msgstr "주별 번호 표시:"
+
+#: src/MainView.vala:136
+msgid "e.g. in Calendar and the Date & Time Panel indicator"
+msgstr "예) 달력, 날짜 및 시간 패널 인디케이터"
+
+#: src/MainView.vala:146
+msgid "Show in Panel:"
+msgstr "패널에 표시:"
+
+#: src/MainView.vala:150
+msgid "Date"
+msgstr "날짜"
+
+#: src/MainView.vala:151
+msgid "Day of the week"
+msgstr "요일"
+
+#: src/MainView.vala:152
+msgid "Seconds"
+msgstr "초"
+
+#: src/Plug.vala:33
+msgid "Configure date, time, and select time zone"
+msgstr "날짜, 시간, 그리고 시간대를 설정합니다"
+
+#: src/Plug.vala:58
+msgid "Time Format"
+msgstr "시간 형식"
+
+#: src/Plug.vala:60
 msgid "Network Time"
 msgstr "네트워크 시간"
 
-#: src/Plug.vala:58
+#: src/Plug.vala:61
 msgid "Show week numbers"
 msgstr "주별 번호 표시"
 
@@ -3088,7 +3090,7 @@ msgid "America/Los_Angeles"
 msgstr "아메리카/로스_엔젤레스(Los_Angeles)"
 
 #. /Translators: Comment for Timezone America/Los_Angeles
-#: src/Translations.vala:1195 src/Widgets/TimeZoneGrid.vala:77
+#: src/Translations.vala:1195 src/Widgets/TimeZoneGrid.vala:75
 msgid "Pacific"
 msgstr "태평양(Pacific)"
 
@@ -3267,37 +3269,43 @@ msgstr "아프리카/루사카(Lusaka)"
 msgid "Africa/Harare"
 msgstr "아프리카/하라레(Harare)"
 
-#: src/Widgets/TimeZoneGrid.vala:61
+#: src/Widgets/TimeZoneGrid.vala:59
 msgid "Africa"
 msgstr "아프리카(Africa)"
 
-#: src/Widgets/TimeZoneGrid.vala:63
+#: src/Widgets/TimeZoneGrid.vala:61
 msgid "America"
 msgstr "아메리카(America)"
 
-#: src/Widgets/TimeZoneGrid.vala:65
+#: src/Widgets/TimeZoneGrid.vala:63
 msgid "Antarctica"
 msgstr "남극 대륙(Antarctica)"
 
-#: src/Widgets/TimeZoneGrid.vala:67
+#: src/Widgets/TimeZoneGrid.vala:65
 msgid "Asia"
 msgstr "아시아(Asia)"
 
-#: src/Widgets/TimeZoneGrid.vala:69
+#: src/Widgets/TimeZoneGrid.vala:67
 msgid "Atlantic"
 msgstr "대서양(Atlantic)"
 
-#: src/Widgets/TimeZoneGrid.vala:71
+#: src/Widgets/TimeZoneGrid.vala:69
 msgid "Australia"
 msgstr "호주"
 
-#: src/Widgets/TimeZoneGrid.vala:73
+#: src/Widgets/TimeZoneGrid.vala:71
 msgid "Europe"
 msgstr "유럽(Europe)"
 
-#: src/Widgets/TimeZoneGrid.vala:75
+#: src/Widgets/TimeZoneGrid.vala:73
 msgid "Indian"
 msgstr "인도(Indian)"
+
+#~ msgid "Network time:"
+#~ msgstr "네트워크 시간 :"
+
+#~ msgid "Time zone:"
+#~ msgstr "시간대:"
 
 #~ msgid "24h"
 #~ msgstr "24시"
