@@ -2026,7 +2026,9 @@ msgstr "아메리카/마나우스(Manaus)"
 #. /Translators: Comment for Timezone America/Matamoros
 #: src/Translations.vala:771
 msgid "Central Time US - Coahuila, Nuevo Leon, Tamaulipas (US border)"
-msgstr "미 중부 표준시 - 코아훌리아(Coahuila), 누보 레온(Nuevo Leon), 타마울리파스(Tamaulipas - 미국령)"
+msgstr ""
+"미 중부 표준시 - 코아훌리아(Coahuila), 누보 레온(Nuevo Leon), 타마울리파스"
+"(Tamaulipas - 미국령)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:773
