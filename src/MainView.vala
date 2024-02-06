@@ -17,8 +17,7 @@
  * Authored by: Corentin Noël <corentin@elementaryos.org>
  */
 
-public class DateTime.MainView : Gtk.Widget {
-    private Gtk.ScrolledWindow main_widget;
+public class DateTime.MainView : Switchboard.SettingsPage {
     private Gtk.Image auto_time_zone_icon;
     private TimeZoneGrid time_zone_picker;
     private DateTime1 datetime1;
@@ -40,9 +39,15 @@ public class DateTime.MainView : Gtk.Widget {
         }
     }
 
+    public MainView () {
+        Object (
+            icon: new ThemedIcon ("preferences-system-time"),
+            title: _("Date & Time")
+        );
+    }
+
     static construct {
         time_zone_settings = new GLib.Settings ("org.gnome.desktop.datetime");
-        set_layout_manager_type (typeof (Gtk.BinLayout));
     }
 
     construct {
@@ -159,10 +164,6 @@ public class DateTime.MainView : Gtk.Widget {
 
         var grid = new Gtk.Grid () {
             column_spacing = 12,
-            margin_bottom = 24,
-            margin_top = 24,
-            margin_start = 12,
-            margin_end = 12,
             row_spacing = 12
         };
         grid.attach (appearance_header, 0, 0, 2);
@@ -179,15 +180,7 @@ public class DateTime.MainView : Gtk.Widget {
         grid.attach (network_time_radio, 0, 8, 2);
         grid.attach (manual_time_radio, 0, 9, 2);
 
-        var clamp = new Adw.Clamp () {
-            child = grid
-        };
-
-        main_widget = new Gtk.ScrolledWindow () {
-            hscrollbar_policy = Gtk.PolicyType.NEVER,
-            child = clamp
-        };
-        main_widget.set_parent (this);
+        child = grid;
 
         var source = SettingsSchemaSource.get_default ();
         var schema = source.lookup ("io.elementary.desktop.wingpanel.datetime", true);
@@ -368,12 +361,6 @@ public class DateTime.MainView : Gtk.Widget {
 
         if (local_time.is_daylight_savings ()) {
             offset--;
-        }
-    }
-
-    ~MainView () {
-        while (this.get_last_child () != null) {
-            this.get_last_child ().unparent ();
         }
     }
 }
