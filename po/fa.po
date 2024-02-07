@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-13 05:31+0000\n"
+"POT-Creation-Date: 2024-02-07 12:15+0000\n"
 "PO-Revision-Date: 2018-01-04 00:14+0000\n"
 "Last-Translator: awat (ئاوات ) <ali.aliyan1@gmail.com>\n"
 "Language-Team: Persian <https://weblate.elementary.io/projects/switchboard/"
@@ -20,65 +20,65 @@ msgstr ""
 "X-Generator: Weblate 2.18\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:05+0000\n"
 
-#: src/MainView.vala:49
+#: src/MainView.vala:45 src/MainView.vala:111 src/Plug.vala:32
+msgid "Date & Time"
+msgstr "تاریخ و زمان"
+
+#: src/MainView.vala:54
 msgid "Appearance"
 msgstr ""
 
-#: src/MainView.vala:51
+#: src/MainView.vala:56
 #, fuzzy
 #| msgid "Time Format:"
 msgid "Time format:"
 msgstr "قالب بندی زمان:"
 
-#: src/MainView.vala:55
+#: src/MainView.vala:60
 msgid "AM/PM"
 msgstr "ق.ظ./ب.ظ."
 
-#: src/MainView.vala:57
+#: src/MainView.vala:62
 msgid "24-hour"
 msgstr ""
 
-#: src/MainView.vala:65 src/Plug.vala:59
+#: src/MainView.vala:70 src/Plug.vala:59
 msgid "Time Zone"
 msgstr "منظقه زمانی"
 
-#: src/MainView.vala:73
+#: src/MainView.vala:78
 msgid "Based on location"
 msgstr ""
 
-#: src/MainView.vala:77
+#: src/MainView.vala:82
 msgid "Automatically updates the time zone when activated"
 msgstr ""
 
-#: src/MainView.vala:106 src/Plug.vala:32
-msgid "Date & Time"
-msgstr "تاریخ و زمان"
-
-#: src/MainView.vala:108
+#: src/MainView.vala:113
 msgid "Set automatically"
 msgstr ""
 
-#: src/MainView.vala:127
+#: src/MainView.vala:132
 msgid "Show week numbers:"
 msgstr "نمایش شماره هفته:"
 
-#: src/MainView.vala:136
+#: src/MainView.vala:141
 msgid "e.g. in Calendar and the Date & Time Panel indicator"
 msgstr ""
 
-#: src/MainView.vala:146
+#: src/MainView.vala:151
 msgid "Show in Panel:"
 msgstr ""
 
-#: src/MainView.vala:150
+#: src/MainView.vala:155
 msgid "Date"
 msgstr "تاریخ"
 
-#: src/MainView.vala:151
+#: src/MainView.vala:156
 msgid "Day of the week"
 msgstr ""
 
-#: src/MainView.vala:152
+#: src/MainView.vala:157
 msgid "Seconds"
 msgstr ""
 
