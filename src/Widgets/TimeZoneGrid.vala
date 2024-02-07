@@ -22,6 +22,7 @@ public class DateTime.TimeZoneGrid : Gtk.Box {
 
     private Gtk.DropDown dropdown;
     private ListStore timezone_list;
+    private string time_format;
 
     private string _time_zone;
     public string time_zone {
@@ -40,7 +41,12 @@ public class DateTime.TimeZoneGrid : Gtk.Box {
         }
     }
 
-    public TimeZoneGrid () {
+    construct {
+        time_format = Granite.DateTime.get_default_time_format (
+            new Settings ("org.gnome.desktop.interface").get_enum ("clock-format") == 1,
+            false
+        );
+
         timezone_list = new ListStore (typeof (ICal.Timezone));
 
         var timezone_array = ICal.Timezone.get_builtin_timezones ();
@@ -53,17 +59,25 @@ public class DateTime.TimeZoneGrid : Gtk.Box {
             });
         }
 
-        var expression = new Gtk.CClosureExpression (typeof (string), null, null, (Callback) get_timezone_name, null, null);
+        var expression = new Gtk.CClosureExpression (
+            typeof (string),
+            null,
+            {},
+            (Callback) get_timezone_name,
+            null,
+            null
+        );
 
         var list_factory = new Gtk.SignalListItemFactory ();
         list_factory.setup.connect (setup_factory);
         list_factory.bind.connect (bind_factory);
 
         dropdown = new Gtk.DropDown (timezone_list, null) {
+            enable_search = true,
             expression = expression,
             factory = list_factory,
-            enable_search = true,
-            hexpand = true
+            hexpand = true,
+            search_match_mode = SUBSTRING
         };
 
         append (dropdown);
@@ -75,15 +89,16 @@ public class DateTime.TimeZoneGrid : Gtk.Box {
     }
 
     static string get_timezone_name (ICal.Timezone timezone) {
-        return timezone.get_display_name ();
+        return Parser.format_city (timezone.get_display_name ());
     }
 
     private void setup_factory (Object object) {
         var title = new Gtk.Label ("");
 
         var time = new Gtk.Label ("") {
-            halign = Gtk.Align.END,
-            hexpand = true
+            halign = END,
+            hexpand = true,
+            use_markup = true
         };
         time.add_css_class (Granite.STYLE_CLASS_DIM_LABEL);
 
@@ -100,13 +115,42 @@ public class DateTime.TimeZoneGrid : Gtk.Box {
     private void bind_factory (Object object) {
         var list_item = object as Gtk.ListItem;
 
-        var timezone = (ICal.Timezone) list_item.get_item ();
+        var ical_timezone = (ICal.Timezone) list_item.get_item ();
+
         var title = list_item.get_data<Gtk.Label>("title");
-        title.label = timezone.get_display_name ();
+        try {
+            var glib_timezone = new TimeZone.identifier (ical_timezone.get_display_name ());
 
-        var datetime = new GLib.DateTime.now (new TimeZone.identifier (timezone.get_display_name ()));
+            var datetime = new GLib.DateTime.now (glib_timezone);
 
-        var time = list_item.get_data<Gtk.Label>("time");
-        time.label = datetime.format ("%X");
+            var offset = glib_timezone.get_offset (
+                glib_timezone.find_interval (UNIVERSAL, datetime.to_unix ())
+            );
+
+            title.label = "%s (%s)".printf (
+                Parser.format_city (ical_timezone.get_display_name ()),
+                seconds_to_utc_offset (offset)
+            );
+
+            var time = list_item.get_data<Gtk.Label>("time");
+            time.label = "<span font-features='tnum'>%s</span>".printf (datetime.format (time_format));
+        } catch {
+            title.label = Parser.format_city (ical_timezone.get_display_name ());
+        }
+    }
+
+    private string seconds_to_utc_offset (int seconds) {
+        if (seconds == 0) {
+            return _("UTC");
+        }
+
+        var hours = seconds / 3600;
+
+        if (hours > 0) {
+            return _("UTC +%i").printf (hours);
+        }
+
+        // Make sure we use typographical minus
+        return _("UTC −%i").printf (hours.abs ());
     }
 }
