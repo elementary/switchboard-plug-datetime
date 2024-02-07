@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-13 05:31+0000\n"
+"POT-Creation-Date: 2024-02-07 12:15+0000\n"
 "PO-Revision-Date: 2014-12-14 12:59+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,63 +13,63 @@ msgstr ""
 "X-Launchpad-Export-Date: 2017-01-12 06:03+0000\n"
 "X-Generator: Launchpad (build 18302)\n"
 
-#: src/MainView.vala:49
-msgid "Appearance"
-msgstr ""
-
-#: src/MainView.vala:51
-msgid "Time format:"
-msgstr ""
-
-#: src/MainView.vala:55
-msgid "AM/PM"
-msgstr ""
-
-#: src/MainView.vala:57
-msgid "24-hour"
-msgstr ""
-
-#: src/MainView.vala:65 src/Plug.vala:59
-msgid "Time Zone"
-msgstr ""
-
-#: src/MainView.vala:73
-msgid "Based on location"
-msgstr ""
-
-#: src/MainView.vala:77
-msgid "Automatically updates the time zone when activated"
-msgstr ""
-
-#: src/MainView.vala:106 src/Plug.vala:32
+#: src/MainView.vala:45 src/MainView.vala:111 src/Plug.vala:32
 msgid "Date & Time"
 msgstr ""
 
-#: src/MainView.vala:108
+#: src/MainView.vala:54
+msgid "Appearance"
+msgstr ""
+
+#: src/MainView.vala:56
+msgid "Time format:"
+msgstr ""
+
+#: src/MainView.vala:60
+msgid "AM/PM"
+msgstr ""
+
+#: src/MainView.vala:62
+msgid "24-hour"
+msgstr ""
+
+#: src/MainView.vala:70 src/Plug.vala:59
+msgid "Time Zone"
+msgstr ""
+
+#: src/MainView.vala:78
+msgid "Based on location"
+msgstr ""
+
+#: src/MainView.vala:82
+msgid "Automatically updates the time zone when activated"
+msgstr ""
+
+#: src/MainView.vala:113
 msgid "Set automatically"
 msgstr ""
 
-#: src/MainView.vala:127
+#: src/MainView.vala:132
 msgid "Show week numbers:"
 msgstr ""
 
-#: src/MainView.vala:136
+#: src/MainView.vala:141
 msgid "e.g. in Calendar and the Date & Time Panel indicator"
 msgstr ""
 
-#: src/MainView.vala:146
+#: src/MainView.vala:151
 msgid "Show in Panel:"
 msgstr ""
 
-#: src/MainView.vala:150
+#: src/MainView.vala:155
 msgid "Date"
 msgstr ""
 
-#: src/MainView.vala:151
+#: src/MainView.vala:156
 msgid "Day of the week"
 msgstr ""
 
-#: src/MainView.vala:152
+#: src/MainView.vala:157
 msgid "Seconds"
 msgstr ""
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-datetime\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-13 05:31+0000\n"
+"POT-Creation-Date: 2024-02-07 12:15+0000\n"
 "PO-Revision-Date: 2023-10-14 19:10+0000\n"
 "Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
 "Language-Team: French <https://l10n.elementary.io/projects/switchboard/"
@@ -20,63 +20,63 @@ msgstr ""
 "X-Generator: Weblate 4.17\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:04+0000\n"
 
-#: src/MainView.vala:49
-msgid "Appearance"
-msgstr "Apparence"
-
-#: src/MainView.vala:51
-msgid "Time format:"
-msgstr "Format de l'heure :"
-
-#: src/MainView.vala:55
-msgid "AM/PM"
-msgstr "AM/PM"
-
-#: src/MainView.vala:57
-msgid "24-hour"
-msgstr "24 heures"
-
-#: src/MainView.vala:65 src/Plug.vala:59
-msgid "Time Zone"
-msgstr "Fuseau horaire"
-
-#: src/MainView.vala:73
-msgid "Based on location"
-msgstr "D'après l'emplacement"
-
-#: src/MainView.vala:77
-msgid "Automatically updates the time zone when activated"
-msgstr "Mettre à jour le fuseau horaire automatiquement si activé"
-
-#: src/MainView.vala:106 src/Plug.vala:32
+#: src/MainView.vala:45 src/MainView.vala:111 src/Plug.vala:32
 msgid "Date & Time"
 msgstr "Date et Heure"
 
-#: src/MainView.vala:108
+#: src/MainView.vala:54
+msgid "Appearance"
+msgstr "Apparence"
+
+#: src/MainView.vala:56
+msgid "Time format:"
+msgstr "Format de l'heure :"
+
+#: src/MainView.vala:60
+msgid "AM/PM"
+msgstr "AM/PM"
+
+#: src/MainView.vala:62
+msgid "24-hour"
+msgstr "24 heures"
+
+#: src/MainView.vala:70 src/Plug.vala:59
+msgid "Time Zone"
+msgstr "Fuseau horaire"
+
+#: src/MainView.vala:78
+msgid "Based on location"
+msgstr "D'après l'emplacement"
+
+#: src/MainView.vala:82
+msgid "Automatically updates the time zone when activated"
+msgstr "Mettre à jour le fuseau horaire automatiquement si activé"
+
+#: src/MainView.vala:113
 msgid "Set automatically"
 msgstr "Définir automatiquement"
 
-#: src/MainView.vala:127
+#: src/MainView.vala:132
 msgid "Show week numbers:"
 msgstr "Afficher les numéros de semaines :"
 
-#: src/MainView.vala:136
+#: src/MainView.vala:141
 msgid "e.g. in Calendar and the Date & Time Panel indicator"
 msgstr "par ex. dans Calendrier et l'indicateur du panneau de Date et heure"
 
-#: src/MainView.vala:146
+#: src/MainView.vala:151
 msgid "Show in Panel:"
 msgstr "Afficher dans le panneau :"
 
-#: src/MainView.vala:150
+#: src/MainView.vala:155
 msgid "Date"
 msgstr "Date"
 
-#: src/MainView.vala:151
+#: src/MainView.vala:156
 msgid "Day of the week"
 msgstr "Jour de la semaine"
 
-#: src/MainView.vala:152
+#: src/MainView.vala:157
 msgid "Seconds"
 msgstr "Secondes"
 

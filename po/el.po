@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-13 05:31+0000\n"
+"POT-Creation-Date: 2024-02-07 12:15+0000\n"
 "PO-Revision-Date: 2017-02-13 17:01+0000\n"
 "Last-Translator: Christos Iatropoulos <Unknown>\n"
 "Language-Team: Greek <el@li.org>\n"
@@ -18,65 +18,65 @@ msgstr ""
 "X-Launchpad-Export-Date: 2017-02-14 06:01+0000\n"
 "X-Generator: Launchpad (build 18326)\n"
 
-#: src/MainView.vala:49
+#: src/MainView.vala:45 src/MainView.vala:111 src/Plug.vala:32
+msgid "Date & Time"
+msgstr "Ημερομηνία & ώρα"
+
+#: src/MainView.vala:54
 msgid "Appearance"
 msgstr ""
 
-#: src/MainView.vala:51
+#: src/MainView.vala:56
 #, fuzzy
 #| msgid "Time Format:"
 msgid "Time format:"
 msgstr "Μορφή ώρας:"
 
-#: src/MainView.vala:55
+#: src/MainView.vala:60
 msgid "AM/PM"
 msgstr ""
 
-#: src/MainView.vala:57
+#: src/MainView.vala:62
 msgid "24-hour"
 msgstr ""
 
-#: src/MainView.vala:65 src/Plug.vala:59
+#: src/MainView.vala:70 src/Plug.vala:59
 msgid "Time Zone"
 msgstr "Ζώνη ώρας"
 
-#: src/MainView.vala:73
+#: src/MainView.vala:78
 msgid "Based on location"
 msgstr ""
 
-#: src/MainView.vala:77
+#: src/MainView.vala:82
 msgid "Automatically updates the time zone when activated"
 msgstr ""
 
-#: src/MainView.vala:106 src/Plug.vala:32
-msgid "Date & Time"
-msgstr "Ημερομηνία & ώρα"
-
-#: src/MainView.vala:108
+#: src/MainView.vala:113
 msgid "Set automatically"
 msgstr ""
 
-#: src/MainView.vala:127
+#: src/MainView.vala:132
 msgid "Show week numbers:"
 msgstr ""
 
-#: src/MainView.vala:136
+#: src/MainView.vala:141
 msgid "e.g. in Calendar and the Date & Time Panel indicator"
 msgstr ""
 
-#: src/MainView.vala:146
+#: src/MainView.vala:151
 msgid "Show in Panel:"
 msgstr ""
 
-#: src/MainView.vala:150
+#: src/MainView.vala:155
 msgid "Date"
 msgstr "Ημερομηνία"
 
-#: src/MainView.vala:151
+#: src/MainView.vala:156
 msgid "Day of the week"
 msgstr ""
 
-#: src/MainView.vala:152
+#: src/MainView.vala:157
 msgid "Seconds"
 msgstr ""
 

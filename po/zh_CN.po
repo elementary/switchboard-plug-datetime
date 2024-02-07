@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-13 05:31+0000\n"
+"POT-Creation-Date: 2024-02-07 12:15+0000\n"
 "PO-Revision-Date: 2021-12-07 05:49+0000\n"
 "Last-Translator: colindemian <colindemian@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
@@ -20,65 +20,65 @@ msgstr ""
 "X-Generator: Weblate 4.4.2\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:06+0000\n"
 
-#: src/MainView.vala:49
+#: src/MainView.vala:45 src/MainView.vala:111 src/Plug.vala:32
+msgid "Date & Time"
+msgstr "日期和时间"
+
+#: src/MainView.vala:54
 msgid "Appearance"
 msgstr ""
 
-#: src/MainView.vala:51
+#: src/MainView.vala:56
 msgid "Time format:"
 msgstr "时间格式："
 
-#: src/MainView.vala:55
+#: src/MainView.vala:60
 msgid "AM/PM"
 msgstr "上午/下午"
 
-#: src/MainView.vala:57
+#: src/MainView.vala:62
 msgid "24-hour"
 msgstr "24 小时制"
 
-#: src/MainView.vala:65 src/Plug.vala:59
+#: src/MainView.vala:70 src/Plug.vala:59
 msgid "Time Zone"
 msgstr "时区"
 
-#: src/MainView.vala:73
+#: src/MainView.vala:78
 #, fuzzy
 #| msgid "Based on location:"
 msgid "Based on location"
 msgstr "根据地理位置："
 
-#: src/MainView.vala:77
+#: src/MainView.vala:82
 msgid "Automatically updates the time zone when activated"
 msgstr "激活后自动更新时区"
 
-#: src/MainView.vala:106 src/Plug.vala:32
-msgid "Date & Time"
-msgstr "日期和时间"
-
-#: src/MainView.vala:108
+#: src/MainView.vala:113
 msgid "Set automatically"
 msgstr ""
 
-#: src/MainView.vala:127
+#: src/MainView.vala:132
 msgid "Show week numbers:"
 msgstr "显示周数："
 
-#: src/MainView.vala:136
+#: src/MainView.vala:141
 msgid "e.g. in Calendar and the Date & Time Panel indicator"
 msgstr "例如日历应用、时间和日期面板"
 
-#: src/MainView.vala:146
+#: src/MainView.vala:151
 msgid "Show in Panel:"
 msgstr "顶栏显示："
 
-#: src/MainView.vala:150
+#: src/MainView.vala:155
 msgid "Date"
 msgstr "日期"
 
-#: src/MainView.vala:151
+#: src/MainView.vala:156
 msgid "Day of the week"
 msgstr "星期"
 
-#: src/MainView.vala:152
+#: src/MainView.vala:157
 msgid "Seconds"
 msgstr "秒"
 

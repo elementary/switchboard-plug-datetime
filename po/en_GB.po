@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-13 05:31+0000\n"
+"POT-Creation-Date: 2024-02-07 12:15+0000\n"
 "PO-Revision-Date: 2023-10-14 19:10+0000\n"
 "Last-Translator: David Hewitt <davidmhewitt@gmail.com>\n"
 "Language-Team: English (United Kingdom) <https://l10n.elementary.io/projects/"
@@ -20,63 +20,63 @@ msgstr ""
 "X-Generator: Weblate 4.17\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:06+0000\n"
 
-#: src/MainView.vala:49
-msgid "Appearance"
-msgstr "Appearance"
-
-#: src/MainView.vala:51
-msgid "Time format:"
-msgstr "Time format:"
-
-#: src/MainView.vala:55
-msgid "AM/PM"
-msgstr "AM/PM"
-
-#: src/MainView.vala:57
-msgid "24-hour"
-msgstr "24-hour"
-
-#: src/MainView.vala:65 src/Plug.vala:59
-msgid "Time Zone"
-msgstr "Time Zone"
-
-#: src/MainView.vala:73
-msgid "Based on location"
-msgstr "Based on location"
-
-#: src/MainView.vala:77
-msgid "Automatically updates the time zone when activated"
-msgstr "Automatically updates the time zone when activated"
-
-#: src/MainView.vala:106 src/Plug.vala:32
+#: src/MainView.vala:45 src/MainView.vala:111 src/Plug.vala:32
 msgid "Date & Time"
 msgstr "Date & Time"
 
-#: src/MainView.vala:108
+#: src/MainView.vala:54
+msgid "Appearance"
+msgstr "Appearance"
+
+#: src/MainView.vala:56
+msgid "Time format:"
+msgstr "Time format:"
+
+#: src/MainView.vala:60
+msgid "AM/PM"
+msgstr "AM/PM"
+
+#: src/MainView.vala:62
+msgid "24-hour"
+msgstr "24-hour"
+
+#: src/MainView.vala:70 src/Plug.vala:59
+msgid "Time Zone"
+msgstr "Time Zone"
+
+#: src/MainView.vala:78
+msgid "Based on location"
+msgstr "Based on location"
+
+#: src/MainView.vala:82
+msgid "Automatically updates the time zone when activated"
+msgstr "Automatically updates the time zone when activated"
+
+#: src/MainView.vala:113
 msgid "Set automatically"
 msgstr "Set automatically"
 
-#: src/MainView.vala:127
+#: src/MainView.vala:132
 msgid "Show week numbers:"
 msgstr "Show week numbers:"
 
-#: src/MainView.vala:136
+#: src/MainView.vala:141
 msgid "e.g. in Calendar and the Date & Time Panel indicator"
 msgstr "e.g. in Calendar and the Date & Time Panel indicator"
 
-#: src/MainView.vala:146
+#: src/MainView.vala:151
 msgid "Show in Panel:"
 msgstr "Show in Panel:"
 
-#: src/MainView.vala:150
+#: src/MainView.vala:155
 msgid "Date"
 msgstr "Date"
 
-#: src/MainView.vala:151
+#: src/MainView.vala:156
 msgid "Day of the week"
 msgstr "Day of the week"
 
-#: src/MainView.vala:152
+#: src/MainView.vala:157
 msgid "Seconds"
 msgstr "Seconds"
 
