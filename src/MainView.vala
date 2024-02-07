@@ -129,24 +129,19 @@ public class DateTime.MainView : Switchboard.SettingsPage {
         manual_time_box.append (date_picker);
         manual_time_box.set_parent (manual_time_radio);
 
-        var week_number_label = new Gtk.Label (_("Show week numbers:")) {
-            halign = Gtk.Align.END
-        };
-
         var week_number_switch = new Gtk.Switch () {
-            halign = Gtk.Align.START,
-            valign = Gtk.Align.CENTER
+            valign = CENTER
         };
 
-        var week_number_info = new Gtk.Label (_("e.g. in Calendar and the Date & Time Panel indicator")) {
-            wrap = true,
-            xalign = 0
+        var week_number_label = new Granite.HeaderLabel (_("Show Week Numbers")) {
+            hexpand = true,
+            mnemonic_widget = week_number_switch,
+            secondary_text = _("e.g. in Calendar and the Date & Time Panel indicator")
         };
-        week_number_info.add_css_class (Granite.STYLE_CLASS_DIM_LABEL);
 
         var week_number_box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 12);
+        week_number_box.append (week_number_label);
         week_number_box.append (week_number_switch);
-        week_number_box.append (week_number_info);
 
         var panel_label = new Gtk.Label (_("Show in Panel:")) {
             halign = Gtk.Align.END
@@ -171,8 +166,7 @@ public class DateTime.MainView : Switchboard.SettingsPage {
         grid.attach (time_format_box, 1, 1);
         grid.attach (panel_label, 0, 2);
         grid.attach (panel_check_box, 1, 2);
-        grid.attach (week_number_label, 0, 3);
-        grid.attach (week_number_box, 1, 3);
+        grid.attach (week_number_box, 0, 3, 2);
         grid.attach (time_zone_label, 0, 4, 2);
         grid.attach (auto_time_zone_radio, 0, 5, 2);
         grid.attach (manual_time_zone_radio, 0, 6, 2);
@@ -188,9 +182,7 @@ public class DateTime.MainView : Switchboard.SettingsPage {
         GLib.Settings wingpanel_settings = null;
 
         if (schema == null) {
-            week_number_label.visible = false;
-            week_number_switch.visible = false;
-            week_number_info.visible = false;
+            grid.remove (week_number_box);
             panel_label.visible = false;
             panel_check_box.visible = false;
         } else {
