@@ -78,7 +78,7 @@ public class DateTime.TimeZoneGrid : Gtk.Box {
         return timezone.get_display_name ();
     }
 
-    private void setup_factory (Gtk.SignalListItemFactory factory, Gtk.ListItem list_item) {
+    private void setup_factory (Object object) {
         var title = new Gtk.Label ("");
 
         var time = new Gtk.Label ("") {
@@ -91,12 +91,15 @@ public class DateTime.TimeZoneGrid : Gtk.Box {
         box.append (title);
         box.append (time);
 
+        var list_item = object as Gtk.ListItem;
         list_item.set_data ("title", title);
         list_item.set_data ("time", time);
         list_item.set_child (box);
     }
 
-    private void bind_factory (Gtk.SignalListItemFactory factory, Gtk.ListItem list_item) {
+    private void bind_factory (Object object) {
+        var list_item = object as Gtk.ListItem;
+
         var timezone = (ICal.Timezone) list_item.get_item ();
         var title = list_item.get_data<Gtk.Label>("title");
         title.label = timezone.get_display_name ();
