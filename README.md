@@ -9,7 +9,7 @@ You'll need the following dependencies:
 
 * libadwaita-1-dev
 * libgranite-7-dev
-* libical-glib-dev
+* libical-dev
 * libswitchboard-3-dev
 * meson
 * valac
