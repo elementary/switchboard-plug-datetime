@@ -117,7 +117,7 @@ public class DateTime.TimeZoneGrid : Gtk.Box {
 
         var ical_timezone = (ICal.Timezone) list_item.get_item ();
 
-        var title = list_item.get_data<Gtk.Label>("title");
+        var title = list_item.get_data<Gtk.Label> ("title");
         try {
             var glib_timezone = new TimeZone.identifier (ical_timezone.get_display_name ());
 
@@ -132,7 +132,7 @@ public class DateTime.TimeZoneGrid : Gtk.Box {
                 seconds_to_utc_offset (offset)
             );
 
-            var time = list_item.get_data<Gtk.Label>("time");
+            var time = list_item.get_data<Gtk.Label> ("time");
             time.label = "<span font-features='tnum'>%s</span>".printf (datetime.format (time_format));
         } catch {
             title.label = Parser.format_city (ical_timezone.get_display_name ());
