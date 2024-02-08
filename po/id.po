@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-07 12:15+0000\n"
+"POT-Creation-Date: 2024-02-08 22:53+0000\n"
 "PO-Revision-Date: 2023-06-02 08:07+0000\n"
 "Last-Translator: Faisal Rachmadin <frachmadin@users.noreply.l10n.elementary."
 "io>\n"
@@ -59,27 +59,29 @@ msgstr "Otomatis memperbarui zona waktu ketika aktif"
 msgid "Set automatically"
 msgstr ""
 
-#: src/MainView.vala:132
-msgid "Show week numbers:"
-msgstr "Tunjukkan nomor minggu:"
+#: src/MainView.vala:136 src/Plug.vala:61
+#, fuzzy
+#| msgid "Show week numbers"
+msgid "Show Week Numbers"
+msgstr "Tunjukkan nomor minggu"
 
-#: src/MainView.vala:141
+#: src/MainView.vala:139
 msgid "e.g. in Calendar and the Date & Time Panel indicator"
 msgstr "misalnya di Kalender dan indikator Panel Tanggal & Waktu"
 
-#: src/MainView.vala:151
+#: src/MainView.vala:146
 msgid "Show in Panel:"
 msgstr "Tampilkan di Panel:"
 
-#: src/MainView.vala:155
+#: src/MainView.vala:150
 msgid "Date"
 msgstr "Tanggal"
 
-#: src/MainView.vala:156
+#: src/MainView.vala:151
 msgid "Day of the week"
 msgstr "Hari dalam pekan"
 
-#: src/MainView.vala:157
+#: src/MainView.vala:152
 msgid "Seconds"
 msgstr "Detik"
 
@@ -94,10 +96,6 @@ msgstr "Format Waktu"
 #: src/Plug.vala:60
 msgid "Network Time"
 msgstr "Waktu Jaringan"
-
-#: src/Plug.vala:61
-msgid "Show week numbers"
-msgstr "Tunjukkan nomor minggu"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:3
@@ -3308,6 +3306,9 @@ msgstr ""
 #: src/Widgets/TimeZoneGrid.vala:73
 msgid "Indian"
 msgstr ""
+
+#~ msgid "Show week numbers:"
+#~ msgstr "Tunjukkan nomor minggu:"
 
 #~ msgid "Network time:"
 #~ msgstr "Waktu jaringan:"

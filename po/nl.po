@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-07 12:15+0000\n"
+"POT-Creation-Date: 2024-02-08 22:53+0000\n"
 "PO-Revision-Date: 2023-10-14 19:10+0000\n"
 "Last-Translator: DutchVipperloid <svenroelof@e.email>\n"
 "Language-Team: Dutch <https://l10n.elementary.io/projects/switchboard/"
@@ -56,27 +56,29 @@ msgstr "Tijdzone automatisch bijwerken wanneer ingeschakeld"
 msgid "Set automatically"
 msgstr "Stel automatisch in"
 
-#: src/MainView.vala:132
-msgid "Show week numbers:"
-msgstr "Geef weeknummers weer:"
+#: src/MainView.vala:136 src/Plug.vala:61
+#, fuzzy
+#| msgid "Show week numbers"
+msgid "Show Week Numbers"
+msgstr "Toon weeknummers"
 
-#: src/MainView.vala:141
+#: src/MainView.vala:139
 msgid "e.g. in Calendar and the Date & Time Panel indicator"
 msgstr "bijvoorbeeld in Agenda en de Datum & Tijd paneelindicator"
 
-#: src/MainView.vala:151
+#: src/MainView.vala:146
 msgid "Show in Panel:"
 msgstr "Toon in Paneel:"
 
-#: src/MainView.vala:155
+#: src/MainView.vala:150
 msgid "Date"
 msgstr "Datum"
 
-#: src/MainView.vala:156
+#: src/MainView.vala:151
 msgid "Day of the week"
 msgstr "Dag van de week"
 
-#: src/MainView.vala:157
+#: src/MainView.vala:152
 msgid "Seconds"
 msgstr "Seconden"
 
@@ -91,10 +93,6 @@ msgstr "Tijd formaat"
 #: src/Plug.vala:60
 msgid "Network Time"
 msgstr "Netwerk tijd"
-
-#: src/Plug.vala:61
-msgid "Show week numbers"
-msgstr "Toon weeknummers"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:3
@@ -3291,6 +3289,9 @@ msgstr "Europa"
 #: src/Widgets/TimeZoneGrid.vala:73
 msgid "Indian"
 msgstr "Indisch"
+
+#~ msgid "Show week numbers:"
+#~ msgstr "Geef weeknummers weer:"
 
 #~ msgid "Network time:"
 #~ msgstr "Netwerk tijd:"

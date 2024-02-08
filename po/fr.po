@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-datetime\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-07 12:15+0000\n"
+"POT-Creation-Date: 2024-02-08 22:53+0000\n"
 "PO-Revision-Date: 2023-10-14 19:10+0000\n"
 "Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
 "Language-Team: French <https://l10n.elementary.io/projects/switchboard/"
@@ -56,27 +56,29 @@ msgstr "Mettre à jour le fuseau horaire automatiquement si activé"
 msgid "Set automatically"
 msgstr "Définir automatiquement"
 
-#: src/MainView.vala:132
-msgid "Show week numbers:"
-msgstr "Afficher les numéros de semaines :"
+#: src/MainView.vala:136 src/Plug.vala:61
+#, fuzzy
+#| msgid "Show week numbers"
+msgid "Show Week Numbers"
+msgstr "Afficher les numéros de semaines"
 
-#: src/MainView.vala:141
+#: src/MainView.vala:139
 msgid "e.g. in Calendar and the Date & Time Panel indicator"
 msgstr "par ex. dans Calendrier et l'indicateur du panneau de Date et heure"
 
-#: src/MainView.vala:151
+#: src/MainView.vala:146
 msgid "Show in Panel:"
 msgstr "Afficher dans le panneau :"
 
-#: src/MainView.vala:155
+#: src/MainView.vala:150
 msgid "Date"
 msgstr "Date"
 
-#: src/MainView.vala:156
+#: src/MainView.vala:151
 msgid "Day of the week"
 msgstr "Jour de la semaine"
 
-#: src/MainView.vala:157
+#: src/MainView.vala:152
 msgid "Seconds"
 msgstr "Secondes"
 
@@ -91,10 +93,6 @@ msgstr "Format de l'heure"
 #: src/Plug.vala:60
 msgid "Network Time"
 msgstr "Heure réseau"
-
-#: src/Plug.vala:61
-msgid "Show week numbers"
-msgstr "Afficher les numéros de semaines"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:3
@@ -3293,6 +3291,9 @@ msgstr "Europe"
 #: src/Widgets/TimeZoneGrid.vala:73
 msgid "Indian"
 msgstr "Indien"
+
+#~ msgid "Show week numbers:"
+#~ msgstr "Afficher les numéros de semaines :"
 
 #~ msgid "Network time:"
 #~ msgstr "Heure réseau :"

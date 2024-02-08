@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-07 12:15+0000\n"
+"POT-Creation-Date: 2024-02-08 22:53+0000\n"
 "PO-Revision-Date: 2023-10-17 15:10+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/switchboard/"
@@ -57,27 +57,29 @@ msgstr "Автоматично оновлює часовий пояс коли �
 msgid "Set automatically"
 msgstr "Установлювати автоматично"
 
-#: src/MainView.vala:132
-msgid "Show week numbers:"
-msgstr "Показувати номери тижнів:"
+#: src/MainView.vala:136 src/Plug.vala:61
+#, fuzzy
+#| msgid "Show week numbers"
+msgid "Show Week Numbers"
+msgstr "Показувати номери тижнів"
 
-#: src/MainView.vala:141
+#: src/MainView.vala:139
 msgid "e.g. in Calendar and the Date & Time Panel indicator"
 msgstr "наприклад у календарі та індикаторі панелі дати та часу"
 
-#: src/MainView.vala:151
+#: src/MainView.vala:146
 msgid "Show in Panel:"
 msgstr "Показувати на панелі:"
 
-#: src/MainView.vala:155
+#: src/MainView.vala:150
 msgid "Date"
 msgstr "Дата"
 
-#: src/MainView.vala:156
+#: src/MainView.vala:151
 msgid "Day of the week"
 msgstr "День тижня"
 
-#: src/MainView.vala:157
+#: src/MainView.vala:152
 msgid "Seconds"
 msgstr "Секунди"
 
@@ -92,10 +94,6 @@ msgstr "Формат часу"
 #: src/Plug.vala:60
 msgid "Network Time"
 msgstr "Час з мережі"
-
-#: src/Plug.vala:61
-msgid "Show week numbers"
-msgstr "Показувати номери тижнів"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:3
@@ -3292,6 +3290,9 @@ msgstr "Європа"
 #: src/Widgets/TimeZoneGrid.vala:73
 msgid "Indian"
 msgstr "Індійський"
+
+#~ msgid "Show week numbers:"
+#~ msgstr "Показувати номери тижнів:"
 
 #~ msgid "Network time:"
 #~ msgstr "Час з мережі:"
