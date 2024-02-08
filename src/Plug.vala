@@ -58,7 +58,7 @@ public class DateTime.Plug : Switchboard.Plug {
         search_results.set ("%s → %s".printf (display_name, _("Time Format")), "");
         search_results.set ("%s → %s".printf (display_name, _("Time Zone")), "");
         search_results.set ("%s → %s".printf (display_name, _("Network Time")), "");
-        search_results.set ("%s → %s".printf (display_name, _("Show week numbers")), "");
+        search_results.set ("%s → %s".printf (display_name, _("Show Week Numbers")), "");
         return search_results;
     }
 }
