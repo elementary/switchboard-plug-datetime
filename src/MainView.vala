@@ -283,6 +283,7 @@ public class DateTime.MainView : Switchboard.SettingsPage {
         change_tz (datetime1.Timezone);
 
         network_time_radio.bind_property ("active", manual_time_box, "sensitive", BindingFlags.INVERT_BOOLEAN | BindingFlags.SYNC_CREATE);
+        auto_time_zone_radio.bind_property ("active", manual_time_zone_radio, "active", BindingFlags.INVERT_BOOLEAN | BindingFlags.SYNC_CREATE);
 
         time_zone_settings.bind ("automatic-timezone", auto_time_zone_radio, "active", SettingsBindFlags.DEFAULT);
         time_zone_settings.bind ("automatic-timezone", time_zone_picker, "sensitive", SettingsBindFlags.INVERT_BOOLEAN);
