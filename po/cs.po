@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-power\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-07 12:15+0000\n"
+"POT-Creation-Date: 2024-02-08 22:53+0000\n"
 "PO-Revision-Date: 2022-01-10 21:59+0000\n"
 "Last-Translator: p-bo <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://l10n.elementary.io/projects/switchboard/"
@@ -58,27 +58,29 @@ msgstr "Automaticky aktualizovat časové pásmo když je aktivováno"
 msgid "Set automatically"
 msgstr ""
 
-#: src/MainView.vala:132
-msgid "Show week numbers:"
-msgstr "Zobrazit čísla týdnů:"
+#: src/MainView.vala:136 src/Plug.vala:61
+#, fuzzy
+#| msgid "Show week numbers"
+msgid "Show Week Numbers"
+msgstr "Zobrazit čísla týdnů"
 
-#: src/MainView.vala:141
+#: src/MainView.vala:139
 msgid "e.g. in Calendar and the Date & Time Panel indicator"
 msgstr "např. v indikátoru Kalendář a Datum a čas"
 
-#: src/MainView.vala:151
+#: src/MainView.vala:146
 msgid "Show in Panel:"
 msgstr "Zobrazit na panelu:"
 
-#: src/MainView.vala:155
+#: src/MainView.vala:150
 msgid "Date"
 msgstr "Datum"
 
-#: src/MainView.vala:156
+#: src/MainView.vala:151
 msgid "Day of the week"
 msgstr "Den v týdnu"
 
-#: src/MainView.vala:157
+#: src/MainView.vala:152
 msgid "Seconds"
 msgstr "Sekund"
 
@@ -93,10 +95,6 @@ msgstr "Formát času"
 #: src/Plug.vala:60
 msgid "Network Time"
 msgstr "Čas ze sítě"
-
-#: src/Plug.vala:61
-msgid "Show week numbers"
-msgstr "Zobrazit čísla týdnů"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:3
@@ -3292,6 +3290,9 @@ msgstr "Evropa"
 #: src/Widgets/TimeZoneGrid.vala:73
 msgid "Indian"
 msgstr "Indický oceán"
+
+#~ msgid "Show week numbers:"
+#~ msgstr "Zobrazit čísla týdnů:"
 
 #~ msgid "Network time:"
 #~ msgstr "Čas ze sítě:"

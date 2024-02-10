@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-07 12:15+0000\n"
-"PO-Revision-Date: 2023-10-14 19:10+0000\n"
+"POT-Creation-Date: 2024-02-08 22:53+0000\n"
+"PO-Revision-Date: 2024-02-09 15:13+0000\n"
 "Last-Translator: кубик круглый <megarainbow29@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/switchboard/"
 "datetime/ru/>\n"
@@ -16,9 +16,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.17\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.0.2\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:05+0000\n"
 
 #: src/MainView.vala:45 src/MainView.vala:111 src/Plug.vala:32
@@ -51,33 +51,33 @@ msgstr "Основываясь на местоположении"
 
 #: src/MainView.vala:82
 msgid "Automatically updates the time zone when activated"
-msgstr "Автоматически обновляет часовой пояс"
+msgstr "Автоматически обновлять часовой пояс"
 
 #: src/MainView.vala:113
 msgid "Set automatically"
 msgstr "Устанавливать автоматически"
 
-#: src/MainView.vala:132
-msgid "Show week numbers:"
-msgstr "Показывать номера недель:"
+#: src/MainView.vala:136 src/Plug.vala:61
+msgid "Show Week Numbers"
+msgstr "Показывать номера недель"
 
-#: src/MainView.vala:141
+#: src/MainView.vala:139
 msgid "e.g. in Calendar and the Date & Time Panel indicator"
 msgstr "Например, в Календаре и индикаторе на панели"
 
-#: src/MainView.vala:151
+#: src/MainView.vala:146
 msgid "Show in Panel:"
 msgstr "Показывать на панели:"
 
-#: src/MainView.vala:155
+#: src/MainView.vala:150
 msgid "Date"
 msgstr "Дата"
 
-#: src/MainView.vala:156
+#: src/MainView.vala:151
 msgid "Day of the week"
 msgstr "День недели"
 
-#: src/MainView.vala:157
+#: src/MainView.vala:152
 msgid "Seconds"
 msgstr "Секунды"
 
@@ -92,10 +92,6 @@ msgstr "Формат времени"
 #: src/Plug.vala:60
 msgid "Network Time"
 msgstr "Время сети"
-
-#: src/Plug.vala:61
-msgid "Show week numbers"
-msgstr "Показывать номера недель"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:3
@@ -3295,6 +3291,9 @@ msgstr "Европа"
 #: src/Widgets/TimeZoneGrid.vala:73
 msgid "Indian"
 msgstr "Индийский"
+
+#~ msgid "Show week numbers:"
+#~ msgstr "Показывать номера недель:"
 
 #~ msgid "Network time:"
 #~ msgstr "Время из сети:"
