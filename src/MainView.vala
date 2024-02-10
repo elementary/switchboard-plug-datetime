@@ -18,7 +18,6 @@
  */
 
 public class DateTime.MainView : Switchboard.SettingsPage {
-    private Gtk.Image auto_time_zone_icon;
     private TimeZoneGrid time_zone_picker;
     private DateTime1 datetime1;
     private CurrentTimeManager ct_manager;
@@ -28,16 +27,6 @@ public class DateTime.MainView : Switchboard.SettingsPage {
     private Pantheon.AccountsService? pantheon_act = null;
 
     private static GLib.Settings time_zone_settings;
-
-    public bool automatic_timezone {
-        set {
-            if (value) {
-                auto_time_zone_icon.icon_name = "location-active-symbolic";
-            } else {
-                auto_time_zone_icon.icon_name = "location-inactive-symbolic";
-            }
-        }
-    }
 
     public MainView () {
         Object (
@@ -69,7 +58,7 @@ public class DateTime.MainView : Switchboard.SettingsPage {
 
         var time_zone_label = new Granite.HeaderLabel (_("Time Zone"));
 
-        auto_time_zone_icon = new Gtk.Image.from_icon_name ("location-inactive-symbolic") {
+        var auto_time_zone_icon = new Gtk.Image.from_icon_name ("location-inactive-symbolic") {
             pixel_size = 24
         };
         auto_time_zone_icon.add_css_class (Granite.STYLE_CLASS_ACCENT);
@@ -287,7 +276,18 @@ public class DateTime.MainView : Switchboard.SettingsPage {
 
         time_zone_settings.bind ("automatic-timezone", auto_time_zone_radio, "active", SettingsBindFlags.DEFAULT);
         time_zone_settings.bind ("automatic-timezone", time_zone_picker, "sensitive", SettingsBindFlags.INVERT_BOOLEAN);
-        time_zone_settings.bind ("automatic-timezone", this, "automatic-timezone", SettingsBindFlags.GET);
+
+        time_zone_settings.bind_with_mapping ("automatic-timezone", auto_time_zone_icon, "icon-name", GET,
+            (value, variant, user_data) => {
+                if (variant.get_boolean ()) {
+                    value.set_string ("location-active-symbolic");
+                } else {
+                    value.set_string ("location-inactive-symbolic");
+                }
+
+                return true;
+            }, () => { return true; }, null, null
+        );
     }
 
     private async void setup_time_format () {
