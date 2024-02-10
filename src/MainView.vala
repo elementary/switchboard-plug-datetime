@@ -279,12 +279,7 @@ public class DateTime.MainView : Switchboard.SettingsPage {
 
         time_zone_settings.bind_with_mapping ("automatic-timezone", auto_time_zone_icon, "icon-name", GET,
             (value, variant, user_data) => {
-                if (variant.get_boolean ()) {
-                    value.set_string ("location-active-symbolic");
-                } else {
-                    value.set_string ("location-inactive-symbolic");
-                }
-
+                value.set_string (variant.get_boolean () ? "location-active-symbolic" : "location-inactive-symbolic");
                 return true;
             }, () => { return true; }, null, null
         );
