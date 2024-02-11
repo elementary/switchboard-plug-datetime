@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-08 22:53+0000\n"
+"POT-Creation-Date: 2024-02-11 04:41+0000\n"
 "PO-Revision-Date: 2018-06-01 00:08+0000\n"
 "Last-Translator: Romanic Ion Nicușor <contact.romanic@gmail.com>\n"
 "Language-Team: Moldovan <https://weblate.elementary.io/projects/switchboard/"
@@ -54,7 +54,7 @@ msgid "Show Week Numbers"
 msgstr ""
 
 #: src/MainView.vala:139
-msgid "e.g. in Calendar and the Date & Time Panel indicator"
+msgid "e.g. in Calendar and the Date &amp; Time Panel indicator"
 msgstr ""
 
 #: src/MainView.vala:146

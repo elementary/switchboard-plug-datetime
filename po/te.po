@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-08 22:53+0000\n"
+"POT-Creation-Date: 2024-02-11 04:41+0000\n"
 "PO-Revision-Date: 2014-12-16 18:28+0000\n"
 "Last-Translator: Krishna Babu K <Unknown>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -54,7 +54,7 @@ msgid "Show Week Numbers"
 msgstr ""
 
 #: src/MainView.vala:139
-msgid "e.g. in Calendar and the Date & Time Panel indicator"
+msgid "e.g. in Calendar and the Date &amp; Time Panel indicator"
 msgstr ""
 
 #: src/MainView.vala:146

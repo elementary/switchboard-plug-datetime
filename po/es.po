@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-08 22:53+0000\n"
+"POT-Creation-Date: 2024-02-11 04:41+0000\n"
 "PO-Revision-Date: 2021-04-29 00:31+0000\n"
 "Last-Translator: Alvaro <alvaroaraoz_92@hotmail.com>\n"
 "Language-Team: Spanish <https://l10n.elementary.io/projects/switchboard/"
@@ -65,7 +65,9 @@ msgid "Show Week Numbers"
 msgstr "Mostrar números de semanas"
 
 #: src/MainView.vala:139
-msgid "e.g. in Calendar and the Date & Time Panel indicator"
+#, fuzzy
+#| msgid "e.g. in Calendar and the Date & Time Panel indicator"
+msgid "e.g. in Calendar and the Date &amp; Time Panel indicator"
 msgstr "p.ej. en Calendario y en el indicador del Panel de Fecha y Hora"
 
 #: src/MainView.vala:146

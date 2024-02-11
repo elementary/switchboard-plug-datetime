@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-08 22:53+0000\n"
+"POT-Creation-Date: 2024-02-11 04:41+0000\n"
 "PO-Revision-Date: 2018-02-17 10:10+0000\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://weblate.elementary.io/projects/"
@@ -64,7 +64,7 @@ msgid "Show Week Numbers"
 msgstr "顯示週數："
 
 #: src/MainView.vala:139
-msgid "e.g. in Calendar and the Date & Time Panel indicator"
+msgid "e.g. in Calendar and the Date &amp; Time Panel indicator"
 msgstr ""
 
 #: src/MainView.vala:146

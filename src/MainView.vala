@@ -125,7 +125,7 @@ public class DateTime.MainView : Switchboard.SettingsPage {
         var week_number_label = new Granite.HeaderLabel (_("Show Week Numbers")) {
             hexpand = true,
             mnemonic_widget = week_number_switch,
-            secondary_text = _("e.g. in Calendar and the Date & Time Panel indicator")
+            secondary_text = _("e.g. in Calendar and the Date &amp; Time Panel indicator")
         };
 
         var week_number_box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 12);
