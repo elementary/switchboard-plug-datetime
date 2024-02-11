@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-08 22:53+0000\n"
+"POT-Creation-Date: 2024-02-11 04:41+0000\n"
 "PO-Revision-Date: 2022-09-22 13:51+0000\n"
 "Last-Translator: Aga Ismael <agaesmaeel@gmail.com>\n"
 "Language-Team: Kurdish (Central) <https://l10n.elementary.io/projects/"
@@ -60,7 +60,9 @@ msgid "Show Week Numbers"
 msgstr "پشاندانی ژمارەی هەفتەکان"
 
 #: src/MainView.vala:139
-msgid "e.g. in Calendar and the Date & Time Panel indicator"
+#, fuzzy
+#| msgid "e.g. in Calendar and the Date & Time Panel indicator"
+msgid "e.g. in Calendar and the Date &amp; Time Panel indicator"
 msgstr "بۆ نموونە لە ڕۆژمێر و دەرخەری پانێڵی کات & ڕێکەوت"
 
 #: src/MainView.vala:146
