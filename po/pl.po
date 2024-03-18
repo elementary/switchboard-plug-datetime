@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-08 22:53+0000\n"
-"PO-Revision-Date: 2023-10-20 18:10+0000\n"
-"Last-Translator: Marcin Serwin <marcin.serwin0@protonmail.com>\n"
+"POT-Creation-Date: 2024-02-11 04:41+0000\n"
+"PO-Revision-Date: 2024-02-23 12:12+0000\n"
+"Last-Translator: Sebastian Bernat <srakap330@gmail.com>\n"
 "Language-Team: Polish <https://l10n.elementary.io/projects/switchboard/"
 "datetime/pl/>\n"
 "Language: pl\n"
@@ -58,13 +58,11 @@ msgid "Set automatically"
 msgstr "Ustaw automatycznie"
 
 #: src/MainView.vala:136 src/Plug.vala:61
-#, fuzzy
-#| msgid "Show week numbers"
 msgid "Show Week Numbers"
 msgstr "Wyświetl numer tygodnia"
 
 #: src/MainView.vala:139
-msgid "e.g. in Calendar and the Date & Time Panel indicator"
+msgid "e.g. in Calendar and the Date &amp; Time Panel indicator"
 msgstr "np. we wskaźniku Kalendarza i Panelu daty i czasu"
 
 #: src/MainView.vala:146
