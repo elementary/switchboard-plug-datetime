@@ -14,6 +14,7 @@ libdir = join_paths(prefix, get_option('libdir'))
 
 add_project_arguments(
     '-DGETTEXT_PACKAGE="@0@"'.format(gettext_name),
+    '-DLIBICAL_GLIB_UNSTABLE_API=1',
     language:'c'
 )
 
