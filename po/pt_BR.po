@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-11 04:41+0000\n"
-"PO-Revision-Date: 2020-01-24 01:08+0000\n"
-"Last-Translator: Rodrigo Oliveira <rod.oliveira@gmail.com>\n"
+"PO-Revision-Date: 2024-04-24 23:13+0000\n"
+"Last-Translator: Matheus Torres Carvalho <matheustcarvalho@hotmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://l10n.elementary.io/projects/"
-"switchboard/switchboard-plug-datetime/pt_BR/>\n"
+"switchboard/datetime/pt_BR/>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 5.0.2\n"
 "X-Launchpad-Export-Date: 2017-02-15 06:46+0000\n"
 
 #: src/MainView.vala:45 src/MainView.vala:111 src/Plug.vala:32
@@ -26,11 +26,9 @@ msgstr "Data e Hora"
 
 #: src/MainView.vala:54
 msgid "Appearance"
-msgstr ""
+msgstr "Aparência"
 
 #: src/MainView.vala:56
-#, fuzzy
-#| msgid "Time Format:"
 msgid "Time format:"
 msgstr "Formato da hora:"
 
@@ -48,31 +46,27 @@ msgstr "Fuso horário"
 
 #: src/MainView.vala:78
 msgid "Based on location"
-msgstr ""
+msgstr "Com base na localização"
 
 #: src/MainView.vala:82
-#, fuzzy
-#| msgid "Automatically update time zone"
 msgid "Automatically updates the time zone when activated"
-msgstr "Atualizar automaticamente o fuso horário"
+msgstr "Atualiza automaticamente o fuso horário quando ativado"
 
 #: src/MainView.vala:113
 msgid "Set automatically"
-msgstr ""
+msgstr "Definir automaticamente"
 
 #: src/MainView.vala:136 src/Plug.vala:61
-#, fuzzy
-#| msgid "Show week numbers"
 msgid "Show Week Numbers"
 msgstr "Mostrar números da semana"
 
 #: src/MainView.vala:139
 msgid "e.g. in Calendar and the Date &amp; Time Panel indicator"
-msgstr ""
+msgstr "por ex. no Calendário e no indicador do Painel de Data e Hora"
 
 #: src/MainView.vala:146
 msgid "Show in Panel:"
-msgstr ""
+msgstr "Mostrar no Painel:"
 
 #: src/MainView.vala:150
 msgid "Date"
@@ -80,11 +74,11 @@ msgstr "Data"
 
 #: src/MainView.vala:151
 msgid "Day of the week"
-msgstr ""
+msgstr "Dia da semana"
 
 #: src/MainView.vala:152
 msgid "Seconds"
-msgstr ""
+msgstr "Segundos"
 
 #: src/Plug.vala:33
 msgid "Configure date, time, and select time zone"
@@ -361,7 +355,7 @@ msgstr "Tierra del Fuego (TF)"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:107
 msgid "Pacific/Pago_Pago"
-msgstr "Pacífico/Pago Pago"
+msgstr "Pacífico/Pago_Pago"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:109
@@ -2019,7 +2013,7 @@ msgstr ""
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:769
 msgid "America/Matamoros"
-msgstr "America/Matamoros"
+msgstr "América/Matamoros"
 
 #. /Translators: Comment for Timezone America/Matamoros
 #: src/Translations.vala:771
@@ -2049,7 +2043,7 @@ msgstr "Mountain Time - Chihuahua (maioria das áreas)"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:781
 msgid "America/Ojinaga"
-msgstr "America/Ojinaga"
+msgstr "América/Ojinaga"
 
 #. /Translators: Comment for Timezone America/Ojinaga
 #: src/Translations.vala:783
@@ -2294,7 +2288,7 @@ msgstr "Região da faixa de Gaza"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:879
 msgid "Asia/Hebron"
-msgstr "Asia/Hebron"
+msgstr "Ásia/Hebrom"
 
 #. /Translators: Comment for Timezone Asia/Hebron
 #: src/Translations.vala:881
@@ -2534,7 +2528,7 @@ msgstr "MSK 5 - Irqutesque, Buriatia"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:975
 msgid "Asia/Chita"
-msgstr "Asia/Chita"
+msgstr "Ásia/Chita"
 
 #. /Translators: Comment for Timezone Asia/Chita
 #: src/Translations.vala:977
@@ -2554,7 +2548,7 @@ msgstr "MSK 6 - Rio Lena"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:983
 msgid "Asia/Khandyga"
-msgstr "Asia/Khandyga"
+msgstr "Ásia/Khandyga"
 
 #. /Translators: Comment for Timezone Asia/Khandyga
 #: src/Translations.vala:985
@@ -2574,7 +2568,7 @@ msgstr "MSk 7 - Rio Amur"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:991
 msgid "Asia/Ust-Nera"
-msgstr "Asia/Ust-Nera"
+msgstr "Ásia/Ust-Nera"
 
 #. /Translators: Comment for Timezone Asia/Ust-Nera
 #: src/Translations.vala:993
@@ -2604,7 +2598,7 @@ msgstr "MSK 8 - Ilha de Sacalin"
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:1003
 msgid "Asia/Srednekolymsk"
-msgstr "Asia/Srednekolymsk"
+msgstr "Ásia/Srednekolymsk"
 
 #. /Translators: Comment for Timezone Asia/Srednekolymsk
 #: src/Translations.vala:1005
