@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-11 04:41+0000\n"
-"PO-Revision-Date: 2024-05-09 13:13+0000\n"
+"PO-Revision-Date: 2024-05-27 08:13+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/switchboard/"
 "datetime/ja/>\n"
@@ -29,11 +29,11 @@ msgstr "時刻の書式:"
 
 #: src/MainView.vala:60
 msgid "AM/PM"
-msgstr "午前/午後表示"
+msgstr "午前/午後"
 
 #: src/MainView.vala:62
 msgid "24-hour"
-msgstr "24時間表示"
+msgstr "24 時制"
 
 #: src/MainView.vala:70 src/Plug.vala:59
 msgid "Time Zone"
