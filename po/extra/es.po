@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-11 04:41+0000\n"
-"PO-Revision-Date: 2024-06-13 01:03+0000\n"
+"PO-Revision-Date: 2024-06-14 00:51+0000\n"
 "Last-Translator: Italo Felipe Capasso Ballesteros <edwood.grant@gmail.com>\n"
 "Language-Team: Spanish <https://l10n.elementary.io/projects/switchboard/"
 "datetime-extra/es/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #: data/datetime.appdata.xml.in:5
 msgid "Date &amp; Time Settings"
-msgstr "Configuración de fecha y hora"
+msgstr "Configuración de Fecha y hora"
 
 #: data/datetime.appdata.xml.in:6
 msgid "Configure date, time, and select time zone"
@@ -34,10 +34,13 @@ msgstr "Actualizaciones menores"
 #: data/datetime.appdata.xml.in:13
 msgid "Move timezone popover contents to the main view"
 msgstr ""
+"Se ha trasladado el contenido del mensaje emergente a la vista principal"
 
 #: data/datetime.appdata.xml.in:14
 msgid "Add options to show or hide the date, weekday, and seconds in the clock"
 msgstr ""
+"Se agregaron opciones para mostrar u ocultar la fecha, el día de la semana y "
+"los segundos en el reloj"
 
 #: data/datetime.appdata.xml.in:15 data/datetime.appdata.xml.in:21
 #: data/datetime.appdata.xml.in:29 data/datetime.appdata.xml.in:35
