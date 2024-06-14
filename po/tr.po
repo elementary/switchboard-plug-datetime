@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-11 04:41+0000\n"
+"POT-Creation-Date: 2024-06-14 03:41+0000\n"
 "PO-Revision-Date: 2021-04-08 19:51+0000\n"
 "Last-Translator: Ozgur Baskin <bebeto_baskin@yahoo.com>\n"
 "Language-Team: Turkish <https://l10n.elementary.io/projects/switchboard/"
@@ -20,69 +20,69 @@ msgstr ""
 "X-Generator: Weblate 4.4.2\n"
 "X-Launchpad-Export-Date: 2017-02-19 05:56+0000\n"
 
-#: src/MainView.vala:45 src/MainView.vala:111 src/Plug.vala:32
+#: src/MainView.vala:34 src/MainView.vala:100 src/Plug.vala:32
 msgid "Date & Time"
 msgstr "Tarih ve Saat"
 
-#: src/MainView.vala:54
+#: src/MainView.vala:43
 msgid "Appearance"
 msgstr ""
 
-#: src/MainView.vala:56
+#: src/MainView.vala:45
 msgid "Time format:"
 msgstr "Saat biçimi:"
 
-#: src/MainView.vala:60
+#: src/MainView.vala:49
 msgid "AM/PM"
 msgstr "ÖÖ/ÖS"
 
-#: src/MainView.vala:62
+#: src/MainView.vala:51
 msgid "24-hour"
 msgstr "24 saat"
 
-#: src/MainView.vala:70 src/Plug.vala:59
+#: src/MainView.vala:59 src/Plug.vala:70
 msgid "Time Zone"
 msgstr "Saat Dilimi"
 
-#: src/MainView.vala:78
+#: src/MainView.vala:67
 #, fuzzy
 #| msgid "Based on location:"
 msgid "Based on location"
 msgstr "Konuma göre:"
 
-#: src/MainView.vala:82
+#: src/MainView.vala:71
 msgid "Automatically updates the time zone when activated"
 msgstr "Etkinleştirildiğinde saat dilimini otomatik olarak günceller"
 
-#: src/MainView.vala:113
+#: src/MainView.vala:102
 msgid "Set automatically"
 msgstr ""
 
-#: src/MainView.vala:136 src/Plug.vala:61
+#: src/MainView.vala:125 src/Plug.vala:72
 #, fuzzy
 #| msgid "Show week numbers"
 msgid "Show Week Numbers"
 msgstr "Hafta numaralarını göster"
 
-#: src/MainView.vala:139
+#: src/MainView.vala:128
 #, fuzzy
 #| msgid "e.g. in Calendar and the Date & Time Panel indicator"
 msgid "e.g. in Calendar and the Date &amp; Time Panel indicator"
 msgstr "örn. Takvim ve Tarih ve Saat Panel göstergesi"
 
-#: src/MainView.vala:146
+#: src/MainView.vala:135
 msgid "Show in Panel:"
 msgstr "Panelde göster:"
 
-#: src/MainView.vala:150
+#: src/MainView.vala:139
 msgid "Date"
 msgstr "Tarih"
 
-#: src/MainView.vala:151
+#: src/MainView.vala:140
 msgid "Day of the week"
 msgstr "Haftanın günü"
 
-#: src/MainView.vala:152
+#: src/MainView.vala:141
 msgid "Seconds"
 msgstr "Saniye"
 
@@ -90,11 +90,11 @@ msgstr "Saniye"
 msgid "Configure date, time, and select time zone"
 msgstr "Tarihi, saati yapılandırın ve saat dilimini seçin"
 
-#: src/Plug.vala:58
+#: src/Plug.vala:69
 msgid "Time Format"
 msgstr "Saat Biçimi"
 
-#: src/Plug.vala:60
+#: src/Plug.vala:71
 msgid "Network Time"
 msgstr "Ağ Saati"
 

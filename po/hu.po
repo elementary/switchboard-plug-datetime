@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-11 04:41+0000\n"
+"POT-Creation-Date: 2024-06-14 03:41+0000\n"
 "PO-Revision-Date: 2024-02-15 02:35+0000\n"
 "Last-Translator: TomiOhl <ohlslager.tom@gmail.com>\n"
 "Language-Team: Hungarian <https://l10n.elementary.io/projects/switchboard/"
@@ -19,63 +19,63 @@ msgstr ""
 "X-Generator: Weblate 5.0.2\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:04+0000\n"
 
-#: src/MainView.vala:45 src/MainView.vala:111 src/Plug.vala:32
+#: src/MainView.vala:34 src/MainView.vala:100 src/Plug.vala:32
 msgid "Date & Time"
 msgstr "Dátum és idő"
 
-#: src/MainView.vala:54
+#: src/MainView.vala:43
 msgid "Appearance"
 msgstr "Megjelenés"
 
-#: src/MainView.vala:56
+#: src/MainView.vala:45
 msgid "Time format:"
 msgstr "Időformátum:"
 
-#: src/MainView.vala:60
+#: src/MainView.vala:49
 msgid "AM/PM"
 msgstr "de./du."
 
-#: src/MainView.vala:62
+#: src/MainView.vala:51
 msgid "24-hour"
 msgstr "24 óra"
 
-#: src/MainView.vala:70 src/Plug.vala:59
+#: src/MainView.vala:59 src/Plug.vala:70
 msgid "Time Zone"
 msgstr "Időzóna"
 
-#: src/MainView.vala:78
+#: src/MainView.vala:67
 msgid "Based on location"
 msgstr "Tartózkodási hely szerint"
 
-#: src/MainView.vala:82
+#: src/MainView.vala:71
 msgid "Automatically updates the time zone when activated"
 msgstr "Időzóna automatikus frissítése"
 
-#: src/MainView.vala:113
+#: src/MainView.vala:102
 msgid "Set automatically"
 msgstr "Automatikus beállítás"
 
-#: src/MainView.vala:136 src/Plug.vala:61
+#: src/MainView.vala:125 src/Plug.vala:72
 msgid "Show Week Numbers"
 msgstr "Hetek számának megjelenítése"
 
-#: src/MainView.vala:139
+#: src/MainView.vala:128
 msgid "e.g. in Calendar and the Date &amp; Time Panel indicator"
 msgstr "pl. a Naptárban és a Dátum és idő állapotsor-indikátorban"
 
-#: src/MainView.vala:146
+#: src/MainView.vala:135
 msgid "Show in Panel:"
 msgstr "Megjelenítés az állapotsoron:"
 
-#: src/MainView.vala:150
+#: src/MainView.vala:139
 msgid "Date"
 msgstr "Dátum"
 
-#: src/MainView.vala:151
+#: src/MainView.vala:140
 msgid "Day of the week"
 msgstr "A hét napja"
 
-#: src/MainView.vala:152
+#: src/MainView.vala:141
 msgid "Seconds"
 msgstr "Másodperc"
 
@@ -83,11 +83,11 @@ msgstr "Másodperc"
 msgid "Configure date, time, and select time zone"
 msgstr "Dátum, idő és az időzóna beállítása"
 
-#: src/Plug.vala:58
+#: src/Plug.vala:69
 msgid "Time Format"
 msgstr "Időformátum"
 
-#: src/Plug.vala:60
+#: src/Plug.vala:71
 msgid "Network Time"
 msgstr "Hálózati idő"
 

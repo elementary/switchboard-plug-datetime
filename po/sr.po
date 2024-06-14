@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-11 04:41+0000\n"
+"POT-Creation-Date: 2024-06-14 03:41+0000\n"
 "PO-Revision-Date: 2021-03-11 12:19+0000\n"
 "Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>\n"
 "Language-Team: Serbian <https://l10n.elementary.io/projects/switchboard/"
@@ -16,78 +16,78 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.4.2\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:05+0000\n"
 
-#: src/MainView.vala:45 src/MainView.vala:111 src/Plug.vala:32
+#: src/MainView.vala:34 src/MainView.vala:100 src/Plug.vala:32
 msgid "Date & Time"
 msgstr "Датум и време"
 
-#: src/MainView.vala:54
+#: src/MainView.vala:43
 msgid "Appearance"
 msgstr ""
 
-#: src/MainView.vala:56
+#: src/MainView.vala:45
 #, fuzzy
 #| msgid "Time Format:"
 msgid "Time format:"
 msgstr "Запис времена:"
 
-#: src/MainView.vala:60
+#: src/MainView.vala:49
 msgid "AM/PM"
 msgstr "ПрП/ПоП"
 
-#: src/MainView.vala:62
+#: src/MainView.vala:51
 msgid "24-hour"
 msgstr "24-часовно"
 
-#: src/MainView.vala:70 src/Plug.vala:59
+#: src/MainView.vala:59 src/Plug.vala:70
 msgid "Time Zone"
 msgstr "Временска зона"
 
-#: src/MainView.vala:78
+#: src/MainView.vala:67
 #, fuzzy
 #| msgid "Based on your Location:"
 msgid "Based on location"
 msgstr "На основу вашег места:"
 
-#: src/MainView.vala:82
+#: src/MainView.vala:71
 msgid "Automatically updates the time zone when activated"
 msgstr "Сам освежи временску зону када је активирана"
 
-#: src/MainView.vala:113
+#: src/MainView.vala:102
 msgid "Set automatically"
 msgstr ""
 
-#: src/MainView.vala:136 src/Plug.vala:61
+#: src/MainView.vala:125 src/Plug.vala:72
 #, fuzzy
 #| msgid "Show week numbers"
 msgid "Show Week Numbers"
 msgstr "Прикажи бројеве седмица"
 
-#: src/MainView.vala:139
+#: src/MainView.vala:128
 msgid "e.g. in Calendar and the Date &amp; Time Panel indicator"
 msgstr ""
 
-#: src/MainView.vala:146
+#: src/MainView.vala:135
 #, fuzzy
 #| msgid "Show the date:"
 msgid "Show in Panel:"
 msgstr "Прикажи датум:"
 
-#: src/MainView.vala:150
+#: src/MainView.vala:139
 msgid "Date"
 msgstr ""
 
-#: src/MainView.vala:151
+#: src/MainView.vala:140
 #, fuzzy
 #| msgid "Show the day of the week:"
 msgid "Day of the week"
 msgstr "Прикажи дан у седмици:"
 
-#: src/MainView.vala:152
+#: src/MainView.vala:141
 #, fuzzy
 #| msgid "Show seconds:"
 msgid "Seconds"
@@ -97,11 +97,11 @@ msgstr "Прикажи секунде:"
 msgid "Configure date, time, and select time zone"
 msgstr "Подесите датум, време и изаберите временску зону"
 
-#: src/Plug.vala:58
+#: src/Plug.vala:69
 msgid "Time Format"
 msgstr "Запис времена"
 
-#: src/Plug.vala:60
+#: src/Plug.vala:71
 msgid "Network Time"
 msgstr "Мрежно време"
 
