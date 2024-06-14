@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-11 04:41+0000\n"
+"POT-Creation-Date: 2024-06-14 03:41+0000\n"
 "PO-Revision-Date: 2021-07-21 14:31+0000\n"
 "Last-Translator: supaeasy <ismo+github@wolffson.ch>\n"
 "Language-Team: German <https://l10n.elementary.io/projects/switchboard/date-"
@@ -19,34 +19,38 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.4.2\n"
 
-#: data/datetime.appdata.xml.in:5
+#: data/datetime.metainfo.xml.in:10
 msgid "Date &amp; Time Settings"
 msgstr "Datums- & Zeiteinstellungen"
 
-#: data/datetime.appdata.xml.in:6
+#: data/datetime.metainfo.xml.in:11
 msgid "Configure date, time, and select time zone"
 msgstr "Datum und Uhrzeit einstellen, Zeitzone auswählen"
 
-#: data/datetime.appdata.xml.in:11 data/datetime.appdata.xml.in:26
+#: data/datetime.metainfo.xml.in:26
+msgid "elementary, Inc."
+msgstr ""
+
+#: data/datetime.metainfo.xml.in:34 data/datetime.metainfo.xml.in:51
 msgid "Minor updates"
 msgstr "Kleinere Aktualisierungen"
 
-#: data/datetime.appdata.xml.in:13
+#: data/datetime.metainfo.xml.in:36
 msgid "Move timezone popover contents to the main view"
 msgstr "Zeitzonen Popover-Content zur Hauptansicht bewegt"
 
-#: data/datetime.appdata.xml.in:14
+#: data/datetime.metainfo.xml.in:37
 msgid "Add options to show or hide the date, weekday, and seconds in the clock"
 msgstr ""
 "Füge Option hinzu um Datum, Wochentag und Sekunden in der Uhr anzuzeigen "
 "oder zu verstecken"
 
-#: data/datetime.appdata.xml.in:15 data/datetime.appdata.xml.in:21
-#: data/datetime.appdata.xml.in:29 data/datetime.appdata.xml.in:35
+#: data/datetime.metainfo.xml.in:38 data/datetime.metainfo.xml.in:45
+#: data/datetime.metainfo.xml.in:54 data/datetime.metainfo.xml.in:61
 msgid "Updated translations"
 msgstr "Aktualisierte Übersetzungen"
 
-#: data/datetime.appdata.xml.in:28
+#: data/datetime.metainfo.xml.in:53
 msgid "Fix potential freeze when changing settings from multiple panes"
 msgstr ""
 "Mögliches Einfrieren verhindert, das beim Ändern von Einstellungen auf "
