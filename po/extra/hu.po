@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-14 03:41+0000\n"
+"POT-Creation-Date: 2024-06-14 03:47+0000\n"
 "PO-Revision-Date: 2022-10-13 01:10+0000\n"
 "Last-Translator: TomiOhl <ohlslager.tom@gmail.com>\n"
 "Language-Team: Hungarian <https://l10n.elementary.io/projects/switchboard/"
@@ -31,26 +31,32 @@ msgstr "Dátum, idő és az időzóna beállítása"
 msgid "elementary, Inc."
 msgstr ""
 
-#: data/datetime.metainfo.xml.in:34 data/datetime.metainfo.xml.in:51
+#: data/datetime.metainfo.xml.in:34 data/datetime.metainfo.xml.in:47
+#: data/datetime.metainfo.xml.in:64
 msgid "Minor updates"
 msgstr "Kisebb frissítések"
 
 #: data/datetime.metainfo.xml.in:36
+msgid "Improved screen reader support"
+msgstr ""
+
+#: data/datetime.metainfo.xml.in:37 data/datetime.metainfo.xml.in:51
+#: data/datetime.metainfo.xml.in:58 data/datetime.metainfo.xml.in:67
+#: data/datetime.metainfo.xml.in:74
+msgid "Updated translations"
+msgstr "Frissített fordítások"
+
+#: data/datetime.metainfo.xml.in:49
 msgid "Move timezone popover contents to the main view"
 msgstr "Az időzóna-választó tartalmának a fő nézetbe helyezése"
 
-#: data/datetime.metainfo.xml.in:37
+#: data/datetime.metainfo.xml.in:50
 msgid "Add options to show or hide the date, weekday, and seconds in the clock"
 msgstr ""
 "Beállítások az óránál lévő dátum, nap és másodperc megjelenítéséhez és "
 "elrejtéséhez"
 
-#: data/datetime.metainfo.xml.in:38 data/datetime.metainfo.xml.in:45
-#: data/datetime.metainfo.xml.in:54 data/datetime.metainfo.xml.in:61
-msgid "Updated translations"
-msgstr "Frissített fordítások"
-
-#: data/datetime.metainfo.xml.in:53
+#: data/datetime.metainfo.xml.in:66
 msgid "Fix potential freeze when changing settings from multiple panes"
 msgstr ""
 "Lehetséges fagyás javítása a többféle helyről való beállítások "

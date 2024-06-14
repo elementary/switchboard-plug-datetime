@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-14 03:41+0000\n"
+"POT-Creation-Date: 2024-06-14 03:47+0000\n"
 "PO-Revision-Date: 2021-08-24 18:20+0000\n"
 "Last-Translator: JohnDumpling <john_dumpling@protonmail.com>\n"
 "Language-Team: Slovak <https://l10n.elementary.io/projects/switchboard/date-"
@@ -31,26 +31,32 @@ msgstr "Nastavujte dátum, čas a vyberte časové pásmo"
 msgid "elementary, Inc."
 msgstr ""
 
-#: data/datetime.metainfo.xml.in:34 data/datetime.metainfo.xml.in:51
+#: data/datetime.metainfo.xml.in:34 data/datetime.metainfo.xml.in:47
+#: data/datetime.metainfo.xml.in:64
 msgid "Minor updates"
 msgstr "Menšie aktualizácie"
 
 #: data/datetime.metainfo.xml.in:36
+msgid "Improved screen reader support"
+msgstr ""
+
+#: data/datetime.metainfo.xml.in:37 data/datetime.metainfo.xml.in:51
+#: data/datetime.metainfo.xml.in:58 data/datetime.metainfo.xml.in:67
+#: data/datetime.metainfo.xml.in:74
+msgid "Updated translations"
+msgstr "Aktualizované preklady"
+
+#: data/datetime.metainfo.xml.in:49
 msgid "Move timezone popover contents to the main view"
 msgstr "Presunúť vyskakovacie okno časového pásma do hlavného zobrazenia"
 
-#: data/datetime.metainfo.xml.in:37
+#: data/datetime.metainfo.xml.in:50
 msgid "Add options to show or hide the date, weekday, and seconds in the clock"
 msgstr ""
 "Pridaná možnosť na zobrazenie alebo skrytie dátumu, dňa v týždni a sekúnd v "
 "zobrazení hodín"
 
-#: data/datetime.metainfo.xml.in:38 data/datetime.metainfo.xml.in:45
-#: data/datetime.metainfo.xml.in:54 data/datetime.metainfo.xml.in:61
-msgid "Updated translations"
-msgstr "Aktualizované preklady"
-
-#: data/datetime.metainfo.xml.in:53
+#: data/datetime.metainfo.xml.in:66
 msgid "Fix potential freeze when changing settings from multiple panes"
 msgstr ""
 "Opravené potenciálne zamrznutie pri zmene nastavení z viacerých panelov"

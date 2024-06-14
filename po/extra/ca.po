@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-14 03:41+0000\n"
+"POT-Creation-Date: 2024-06-14 03:47+0000\n"
 "PO-Revision-Date: 2021-07-19 19:06+0000\n"
 "Last-Translator: David M <rbndavid@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.elementary.io/projects/switchboard/date-"
@@ -31,26 +31,32 @@ msgstr "Configureu la data, l'hora i seleccioneu la zona horària."
 msgid "elementary, Inc."
 msgstr ""
 
-#: data/datetime.metainfo.xml.in:34 data/datetime.metainfo.xml.in:51
+#: data/datetime.metainfo.xml.in:34 data/datetime.metainfo.xml.in:47
+#: data/datetime.metainfo.xml.in:64
 msgid "Minor updates"
 msgstr "Actualitzacions menors"
 
 #: data/datetime.metainfo.xml.in:36
+msgid "Improved screen reader support"
+msgstr ""
+
+#: data/datetime.metainfo.xml.in:37 data/datetime.metainfo.xml.in:51
+#: data/datetime.metainfo.xml.in:58 data/datetime.metainfo.xml.in:67
+#: data/datetime.metainfo.xml.in:74
+msgid "Updated translations"
+msgstr "Traduccions actualitzades"
+
+#: data/datetime.metainfo.xml.in:49
 msgid "Move timezone popover contents to the main view"
 msgstr "Es mou la descripció emergent de la zona horària a la vista principal."
 
-#: data/datetime.metainfo.xml.in:37
+#: data/datetime.metainfo.xml.in:50
 msgid "Add options to show or hide the date, weekday, and seconds in the clock"
 msgstr ""
 "Addició d'opcions per mostrar o amagar la data, el dia de la setmana i els "
 "segons al rellotge"
 
-#: data/datetime.metainfo.xml.in:38 data/datetime.metainfo.xml.in:45
-#: data/datetime.metainfo.xml.in:54 data/datetime.metainfo.xml.in:61
-msgid "Updated translations"
-msgstr "Traduccions actualitzades"
-
-#: data/datetime.metainfo.xml.in:53
+#: data/datetime.metainfo.xml.in:66
 msgid "Fix potential freeze when changing settings from multiple panes"
 msgstr ""
 "Correcció de la congelació potencial quan es canvia la configuració des de "

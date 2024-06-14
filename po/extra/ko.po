@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-14 03:41+0000\n"
+"POT-Creation-Date: 2024-06-14 03:47+0000\n"
 "PO-Revision-Date: 2022-08-08 08:46+0000\n"
 "Last-Translator: Jung-Kyu Park <bagjunggyu@gmail.com>\n"
 "Language-Team: Korean <https://l10n.elementary.io/projects/switchboard/date-"
@@ -31,23 +31,29 @@ msgstr "날짜, 시간, 그리고 시간대를 설정합니다"
 msgid "elementary, Inc."
 msgstr ""
 
-#: data/datetime.metainfo.xml.in:34 data/datetime.metainfo.xml.in:51
+#: data/datetime.metainfo.xml.in:34 data/datetime.metainfo.xml.in:47
+#: data/datetime.metainfo.xml.in:64
 msgid "Minor updates"
 msgstr "소소한 업데이트"
 
 #: data/datetime.metainfo.xml.in:36
-msgid "Move timezone popover contents to the main view"
-msgstr "시간대 팝오버 콘텐츠를 메인 뷰로 이동"
+msgid "Improved screen reader support"
+msgstr ""
 
-#: data/datetime.metainfo.xml.in:37
-msgid "Add options to show or hide the date, weekday, and seconds in the clock"
-msgstr "시계에 날짜, 요일 및 초를 표시하거나 숨기는 옵션 추가"
-
-#: data/datetime.metainfo.xml.in:38 data/datetime.metainfo.xml.in:45
-#: data/datetime.metainfo.xml.in:54 data/datetime.metainfo.xml.in:61
+#: data/datetime.metainfo.xml.in:37 data/datetime.metainfo.xml.in:51
+#: data/datetime.metainfo.xml.in:58 data/datetime.metainfo.xml.in:67
+#: data/datetime.metainfo.xml.in:74
 msgid "Updated translations"
 msgstr "최신 번역"
 
-#: data/datetime.metainfo.xml.in:53
+#: data/datetime.metainfo.xml.in:49
+msgid "Move timezone popover contents to the main view"
+msgstr "시간대 팝오버 콘텐츠를 메인 뷰로 이동"
+
+#: data/datetime.metainfo.xml.in:50
+msgid "Add options to show or hide the date, weekday, and seconds in the clock"
+msgstr "시계에 날짜, 요일 및 초를 표시하거나 숨기는 옵션 추가"
+
+#: data/datetime.metainfo.xml.in:66
 msgid "Fix potential freeze when changing settings from multiple panes"
 msgstr "여러 창에서 설정을 변경할 때 생길 수 있는 문제 수정"
