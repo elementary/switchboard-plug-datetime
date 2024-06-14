@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-14 03:47+0000\n"
-"PO-Revision-Date: 2024-06-14 00:51+0000\n"
+"PO-Revision-Date: 2024-06-15 16:16+0000\n"
 "Last-Translator: Italo Felipe Capasso Ballesteros <edwood.grant@gmail.com>\n"
 "Language-Team: Spanish <https://l10n.elementary.io/projects/switchboard/"
 "datetime-extra/es/>\n"
@@ -29,7 +29,7 @@ msgstr "Configure la fecha y la hora y seleccione el huso horario"
 
 #: data/datetime.metainfo.xml.in:26
 msgid "elementary, Inc."
-msgstr ""
+msgstr "elementary, Inc."
 
 #: data/datetime.metainfo.xml.in:34 data/datetime.metainfo.xml.in:47
 #: data/datetime.metainfo.xml.in:64
@@ -38,7 +38,7 @@ msgstr "Actualizaciones menores"
 
 #: data/datetime.metainfo.xml.in:36
 msgid "Improved screen reader support"
-msgstr ""
+msgstr "Se mejoró el soporte para lectores de pantalla"
 
 #: data/datetime.metainfo.xml.in:37 data/datetime.metainfo.xml.in:51
 #: data/datetime.metainfo.xml.in:58 data/datetime.metainfo.xml.in:67
@@ -49,7 +49,8 @@ msgstr "Traducciones actualizadas"
 #: data/datetime.metainfo.xml.in:49
 msgid "Move timezone popover contents to the main view"
 msgstr ""
-"Se ha trasladado el contenido del mensaje emergente a la vista principal"
+"Se ha trasladado el contenido del mensaje emergente del huso horario a la "
+"vista principal"
 
 #: data/datetime.metainfo.xml.in:50
 msgid "Add options to show or hide the date, weekday, and seconds in the clock"
