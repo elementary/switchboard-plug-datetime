@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-14 03:47+0000\n"
-"PO-Revision-Date: 2024-06-15 16:16+0000\n"
+"PO-Revision-Date: 2024-07-04 08:16+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://l10n.elementary.io/projects/switchboard/"
 "datetime-extra/he/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 5.5.5\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #: data/datetime.metainfo.xml.in:10
 msgid "Date &amp; Time Settings"
@@ -29,7 +29,7 @@ msgstr "הגדרת התאריך, השעה ובחירה באזור זמן"
 
 #: data/datetime.metainfo.xml.in:26
 msgid "elementary, Inc."
-msgstr "elementary בע״מ."
+msgstr "elementary בע״מ"
 
 #: data/datetime.metainfo.xml.in:34 data/datetime.metainfo.xml.in:47
 #: data/datetime.metainfo.xml.in:64
