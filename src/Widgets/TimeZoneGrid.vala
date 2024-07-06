@@ -152,6 +152,6 @@ public class DateTime.TimeZoneGrid : Gtk.Box {
         }
 
         // Make sure we use typographical minus
-        return _("UTC −%i:%02i").printf (hours.abs (), minutes);
+        return _("UTC −%i:%02i").printf (hours.abs (), minutes.abs ());
     }
 }
