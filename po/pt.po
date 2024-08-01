@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-11 04:41+0000\n"
-"PO-Revision-Date: 2024-02-10 23:29+0000\n"
+"POT-Creation-Date: 2024-06-14 03:47+0000\n"
+"PO-Revision-Date: 2024-03-26 21:13+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://l10n.elementary.io/projects/switchboard/"
 "datetime/pt/>\n"
@@ -20,65 +20,63 @@ msgstr ""
 "X-Generator: Weblate 5.0.2\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:05+0000\n"
 
-#: src/MainView.vala:45 src/MainView.vala:111 src/Plug.vala:32
+#: src/MainView.vala:34 src/MainView.vala:100 src/Plug.vala:32
 msgid "Date & Time"
 msgstr "Data e Hora"
 
-#: src/MainView.vala:54
+#: src/MainView.vala:43
 msgid "Appearance"
 msgstr "Aparência"
 
-#: src/MainView.vala:56
+#: src/MainView.vala:45
 msgid "Time format:"
 msgstr "Formato da Hora:"
 
-#: src/MainView.vala:60
+#: src/MainView.vala:49
 msgid "AM/PM"
 msgstr "AM/PM"
 
-#: src/MainView.vala:62
+#: src/MainView.vala:51
 msgid "24-hour"
 msgstr "24-horas"
 
-#: src/MainView.vala:70 src/Plug.vala:59
+#: src/MainView.vala:59 src/Plug.vala:70
 msgid "Time Zone"
 msgstr "Fuso Horário"
 
-#: src/MainView.vala:78
+#: src/MainView.vala:67
 msgid "Based on location"
 msgstr "Com base na localização"
 
-#: src/MainView.vala:82
+#: src/MainView.vala:71
 msgid "Automatically updates the time zone when activated"
 msgstr "Atualiza automaticamente o fuso horário quando ativado"
 
-#: src/MainView.vala:113
+#: src/MainView.vala:102
 msgid "Set automatically"
 msgstr "Definir automaticamente"
 
-#: src/MainView.vala:136 src/Plug.vala:61
+#: src/MainView.vala:125 src/Plug.vala:72
 msgid "Show Week Numbers"
 msgstr "Mostrar números da semana"
 
-#: src/MainView.vala:139
-#, fuzzy
-#| msgid "e.g. in Calendar and the Date & Time Panel indicator"
+#: src/MainView.vala:128
 msgid "e.g. in Calendar and the Date &amp; Time Panel indicator"
 msgstr "por ex. no Calendário e no indicador do Painel de Data e Hora"
 
-#: src/MainView.vala:146
+#: src/MainView.vala:135
 msgid "Show in Panel:"
 msgstr "Mostrar no Painel:"
 
-#: src/MainView.vala:150
+#: src/MainView.vala:139
 msgid "Date"
 msgstr "Data"
 
-#: src/MainView.vala:151
+#: src/MainView.vala:140
 msgid "Day of the week"
 msgstr "Dia da semana"
 
-#: src/MainView.vala:152
+#: src/MainView.vala:141
 msgid "Seconds"
 msgstr "Segundos"
 
@@ -86,11 +84,11 @@ msgstr "Segundos"
 msgid "Configure date, time, and select time zone"
 msgstr "Configurar data, hora e selecionar o fuso horário"
 
-#: src/Plug.vala:58
+#: src/Plug.vala:69
 msgid "Time Format"
 msgstr "Formato da Hora"
 
-#: src/Plug.vala:60
+#: src/Plug.vala:71
 msgid "Network Time"
 msgstr "Hora da Internet"
 

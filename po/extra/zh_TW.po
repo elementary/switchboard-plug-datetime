@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-11 04:41+0000\n"
+"POT-Creation-Date: 2024-06-14 03:47+0000\n"
 "PO-Revision-Date: 2020-03-01 13:09+0000\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://l10n.elementary.io/projects/"
@@ -19,31 +19,41 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 3.9.1\n"
 
-#: data/datetime.appdata.xml.in:5
+#: data/datetime.metainfo.xml.in:10
 msgid "Date &amp; Time Settings"
 msgstr ""
 
-#: data/datetime.appdata.xml.in:6
+#: data/datetime.metainfo.xml.in:11
 msgid "Configure date, time, and select time zone"
 msgstr ""
 
-#: data/datetime.appdata.xml.in:11 data/datetime.appdata.xml.in:26
+#: data/datetime.metainfo.xml.in:26
+msgid "elementary, Inc."
+msgstr ""
+
+#: data/datetime.metainfo.xml.in:34 data/datetime.metainfo.xml.in:47
+#: data/datetime.metainfo.xml.in:64
 msgid "Minor updates"
 msgstr ""
 
-#: data/datetime.appdata.xml.in:13
-msgid "Move timezone popover contents to the main view"
+#: data/datetime.metainfo.xml.in:36
+msgid "Improved screen reader support"
 msgstr ""
 
-#: data/datetime.appdata.xml.in:14
-msgid "Add options to show or hide the date, weekday, and seconds in the clock"
-msgstr ""
-
-#: data/datetime.appdata.xml.in:15 data/datetime.appdata.xml.in:21
-#: data/datetime.appdata.xml.in:29 data/datetime.appdata.xml.in:35
+#: data/datetime.metainfo.xml.in:37 data/datetime.metainfo.xml.in:51
+#: data/datetime.metainfo.xml.in:58 data/datetime.metainfo.xml.in:67
+#: data/datetime.metainfo.xml.in:74
 msgid "Updated translations"
 msgstr "翻譯更新"
 
-#: data/datetime.appdata.xml.in:28
+#: data/datetime.metainfo.xml.in:49
+msgid "Move timezone popover contents to the main view"
+msgstr ""
+
+#: data/datetime.metainfo.xml.in:50
+msgid "Add options to show or hide the date, weekday, and seconds in the clock"
+msgstr ""
+
+#: data/datetime.metainfo.xml.in:66
 msgid "Fix potential freeze when changing settings from multiple panes"
 msgstr ""

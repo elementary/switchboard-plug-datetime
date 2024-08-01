@@ -7,48 +7,58 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-11 04:41+0000\n"
-"PO-Revision-Date: 2021-07-30 18:07+0000\n"
+"POT-Creation-Date: 2024-06-14 03:47+0000\n"
+"PO-Revision-Date: 2024-07-11 08:16+0000\n"
 "Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
-"Language-Team: French <https://l10n.elementary.io/projects/switchboard/date-"
-"time-plug-extra/fr/>\n"
+"Language-Team: French <https://l10n.elementary.io/projects/switchboard/"
+"datetime-extra/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 5.6.2\n"
 
-#: data/datetime.appdata.xml.in:5
+#: data/datetime.metainfo.xml.in:10
 msgid "Date &amp; Time Settings"
 msgstr "Paramètres de la date et de l'heure"
 
-#: data/datetime.appdata.xml.in:6
+#: data/datetime.metainfo.xml.in:11
 msgid "Configure date, time, and select time zone"
 msgstr "Configurer la date, l'heure et sélectionner le fuseau horaire"
 
-#: data/datetime.appdata.xml.in:11 data/datetime.appdata.xml.in:26
+#: data/datetime.metainfo.xml.in:26
+msgid "elementary, Inc."
+msgstr "elementary, Inc."
+
+#: data/datetime.metainfo.xml.in:34 data/datetime.metainfo.xml.in:47
+#: data/datetime.metainfo.xml.in:64
 msgid "Minor updates"
 msgstr "Mises à jour mineures"
 
-#: data/datetime.appdata.xml.in:13
+#: data/datetime.metainfo.xml.in:36
+msgid "Improved screen reader support"
+msgstr "Amélioration de l'accessibilité pour les lecteurs d'écran"
+
+#: data/datetime.metainfo.xml.in:37 data/datetime.metainfo.xml.in:51
+#: data/datetime.metainfo.xml.in:58 data/datetime.metainfo.xml.in:67
+#: data/datetime.metainfo.xml.in:74
+msgid "Updated translations"
+msgstr "Mise à jour des traductions"
+
+#: data/datetime.metainfo.xml.in:49
 msgid "Move timezone popover contents to the main view"
 msgstr ""
 "Déplacement du contenu de la fenêtre flottante du fuseau horaire vers la vue "
 "principale"
 
-#: data/datetime.appdata.xml.in:14
+#: data/datetime.metainfo.xml.in:50
 msgid "Add options to show or hide the date, weekday, and seconds in the clock"
 msgstr ""
 "Ajout d'options pour afficher ou masquer la date, le jour de la semaine et "
 "les secondes dans l'horloge"
 
-#: data/datetime.appdata.xml.in:15 data/datetime.appdata.xml.in:21
-#: data/datetime.appdata.xml.in:29 data/datetime.appdata.xml.in:35
-msgid "Updated translations"
-msgstr "Mise à jour des traductions"
-
-#: data/datetime.appdata.xml.in:28
+#: data/datetime.metainfo.xml.in:66
 msgid "Fix potential freeze when changing settings from multiple panes"
 msgstr ""
 "Correction d'un blocage potentiel lors de la modification de paramètre "

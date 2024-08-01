@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-power\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-11 04:41+0000\n"
+"POT-Creation-Date: 2024-06-14 03:47+0000\n"
 "PO-Revision-Date: 2014-12-16 18:28+0000\n"
 "Last-Translator: Felix <Unknown>\n"
 "Language-Team: Tamil <ta@li.org>\n"
@@ -18,63 +18,63 @@ msgstr ""
 "X-Launchpad-Export-Date: 2017-01-12 06:05+0000\n"
 "X-Generator: Launchpad (build 18302)\n"
 
-#: src/MainView.vala:45 src/MainView.vala:111 src/Plug.vala:32
+#: src/MainView.vala:34 src/MainView.vala:100 src/Plug.vala:32
 msgid "Date & Time"
 msgstr ""
 
-#: src/MainView.vala:54
+#: src/MainView.vala:43
 msgid "Appearance"
 msgstr ""
 
-#: src/MainView.vala:56
+#: src/MainView.vala:45
 msgid "Time format:"
 msgstr ""
 
-#: src/MainView.vala:60
+#: src/MainView.vala:49
 msgid "AM/PM"
 msgstr ""
 
-#: src/MainView.vala:62
+#: src/MainView.vala:51
 msgid "24-hour"
 msgstr ""
 
-#: src/MainView.vala:70 src/Plug.vala:59
+#: src/MainView.vala:59 src/Plug.vala:70
 msgid "Time Zone"
 msgstr ""
 
-#: src/MainView.vala:78
+#: src/MainView.vala:67
 msgid "Based on location"
 msgstr ""
 
-#: src/MainView.vala:82
+#: src/MainView.vala:71
 msgid "Automatically updates the time zone when activated"
 msgstr ""
 
-#: src/MainView.vala:113
+#: src/MainView.vala:102
 msgid "Set automatically"
 msgstr ""
 
-#: src/MainView.vala:136 src/Plug.vala:61
+#: src/MainView.vala:125 src/Plug.vala:72
 msgid "Show Week Numbers"
 msgstr ""
 
-#: src/MainView.vala:139
+#: src/MainView.vala:128
 msgid "e.g. in Calendar and the Date &amp; Time Panel indicator"
 msgstr ""
 
-#: src/MainView.vala:146
+#: src/MainView.vala:135
 msgid "Show in Panel:"
 msgstr ""
 
-#: src/MainView.vala:150
+#: src/MainView.vala:139
 msgid "Date"
 msgstr ""
 
-#: src/MainView.vala:151
+#: src/MainView.vala:140
 msgid "Day of the week"
 msgstr ""
 
-#: src/MainView.vala:152
+#: src/MainView.vala:141
 msgid "Seconds"
 msgstr ""
 
@@ -82,11 +82,11 @@ msgstr ""
 msgid "Configure date, time, and select time zone"
 msgstr ""
 
-#: src/Plug.vala:58
+#: src/Plug.vala:69
 msgid "Time Format"
 msgstr ""
 
-#: src/Plug.vala:60
+#: src/Plug.vala:71
 msgid "Network Time"
 msgstr ""
 

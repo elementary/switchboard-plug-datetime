@@ -21,8 +21,8 @@ shared_module(
         dependency('gobject-2.0'),
         dependency('granite-7'),
         dependency('gtk4'),
-        dependency('libadwaita-1'),
-        dependency('libical-glib'),
+        dependency('libadwaita-1', version: '>=1.4.0'),
+		dependency('libical-glib'),
         meson.get_compiler('vala').find_library('posix'),
         switchboard_dep,
         meson.get_compiler('c').find_library('m', required : false)

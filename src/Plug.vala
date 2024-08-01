@@ -18,7 +18,7 @@
  */
 
 public class DateTime.Plug : Switchboard.Plug {
-    private MainView main_view;
+    private Gtk.Box box;
 
     public Plug () {
         GLib.Intl.bindtextdomain (GETTEXT_PACKAGE, LOCALEDIR);
@@ -36,11 +36,22 @@ public class DateTime.Plug : Switchboard.Plug {
     }
 
     public override Gtk.Widget get_widget () {
-        if (main_view == null) {
-            main_view = new DateTime.MainView ();
+        if (box == null) {
+            var headerbar = new Adw.HeaderBar () {
+                show_title = false
+            };
+            headerbar.add_css_class (Granite.STYLE_CLASS_FLAT);
+
+            var main_view = new MainView () {
+                vexpand = true
+            };
+
+            box = new Gtk.Box (VERTICAL, 0);
+            box.append (headerbar);
+            box.append (main_view);
         }
 
-        return main_view;
+        return box;
     }
 
     public override void shown () {
