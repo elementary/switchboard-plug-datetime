@@ -329,14 +329,11 @@ public class DateTime.MainView : Switchboard.SettingsPage {
     }
 
     private void change_tz (string _tz) {
-        var tz = _(_tz);
-        var english_tz = _tz;
+        time_zone_picker.time_zone = _tz;
 
-        time_zone_picker.time_zone = tz;
-
-        if (datetime1.Timezone != english_tz) {
+        if (datetime1.Timezone != _tz) {
             try {
-                datetime1.set_timezone (english_tz, true);
+                datetime1.set_timezone (_tz, true);
             } catch (Error e) {
                 critical (e.message);
             }
