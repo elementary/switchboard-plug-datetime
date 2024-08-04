@@ -99,7 +99,7 @@ public class DateTime.TimeZoneGrid : Gtk.Box {
     }
 
     static string get_timezone_name (ICal.Timezone timezone) {
-        return Parser.format_city (timezone.get_display_name ());
+        return Parser.format_city (_(timezone.get_display_name ()));
     }
 
     private void setup_factory (Object object) {
@@ -126,6 +126,7 @@ public class DateTime.TimeZoneGrid : Gtk.Box {
         var list_item = object as Gtk.ListItem;
 
         var ical_timezone = (ICal.Timezone) list_item.get_item ();
+        var localized_tz = _(ical_timezone.get_display_name ());
 
         var title = list_item.get_data<Gtk.Label> ("title");
         try {
@@ -141,7 +142,7 @@ public class DateTime.TimeZoneGrid : Gtk.Box {
             // and the second "%s" represents the offset from UTC.
             // e.g. "America, Santiago (UTC - 4:00)"
             title.label = _("%s (%s)").printf (
-                Parser.format_city (ical_timezone.get_display_name ()),
+                Parser.format_city (localized_tz),
                 seconds_to_utc_offset (offset)
             );
 
@@ -149,7 +150,7 @@ public class DateTime.TimeZoneGrid : Gtk.Box {
             time.label = "<span font-features='tnum'>%s</span>".printf (datetime.format (time_format));
         } catch (Error e) {
             warning (e.message);
-            title.label = Parser.format_city (ical_timezone.get_display_name ());
+            title.label = Parser.format_city (localized_tz);
         }
     }
 
