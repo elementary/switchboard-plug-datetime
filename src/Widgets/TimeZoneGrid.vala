@@ -20,6 +20,12 @@
 public class DateTime.TimeZoneGrid : Gtk.Box {
     public signal void request_timezone_change (string tz);
 
+    // Enum representation of "clock-format" key in org.gnome.desktop.interface GSettings
+    enum ClockFormat {
+        24_H,
+        12_H
+    }
+
     private Gtk.DropDown dropdown;
     private ListStore timezone_list;
     private string time_format;
@@ -41,9 +47,13 @@ public class DateTime.TimeZoneGrid : Gtk.Box {
         }
     }
 
+    ~TimeZoneGrid () {
+        ICal.Timezone.free_builtin_timezones ();
+    }
+
     construct {
         time_format = Granite.DateTime.get_default_time_format (
-            new Settings ("org.gnome.desktop.interface").get_enum ("clock-format") == 1,
+            new Settings ("org.gnome.desktop.interface").get_enum ("clock-format") == ClockFormat.12_H,
             false
         );
 
@@ -89,7 +99,7 @@ public class DateTime.TimeZoneGrid : Gtk.Box {
     }
 
     static string get_timezone_name (ICal.Timezone timezone) {
-        return Parser.format_city (timezone.get_display_name ());
+        return Parser.format_city (_(timezone.get_display_name ()));
     }
 
     private void setup_factory (Object object) {
@@ -116,6 +126,7 @@ public class DateTime.TimeZoneGrid : Gtk.Box {
         var list_item = object as Gtk.ListItem;
 
         var ical_timezone = (ICal.Timezone) list_item.get_item ();
+        var localized_tz = _(ical_timezone.get_display_name ());
 
         var title = list_item.get_data<Gtk.Label> ("title");
         try {
@@ -127,15 +138,19 @@ public class DateTime.TimeZoneGrid : Gtk.Box {
                 glib_timezone.find_interval (UNIVERSAL, datetime.to_unix ())
             );
 
-            title.label = "%s (%s)".printf (
-                Parser.format_city (ical_timezone.get_display_name ()),
+            // TRANSLATORS: The first "%s" represents the timezone name
+            // and the second "%s" represents the offset from UTC.
+            // e.g. "America, Santiago (UTC - 4:00)"
+            title.label = _("%s (%s)").printf (
+                Parser.format_city (localized_tz),
                 seconds_to_utc_offset (offset)
             );
 
             var time = list_item.get_data<Gtk.Label> ("time");
             time.label = "<span font-features='tnum'>%s</span>".printf (datetime.format (time_format));
-        } catch {
-            title.label = Parser.format_city (ical_timezone.get_display_name ());
+        } catch (Error e) {
+            warning (e.message);
+            title.label = Parser.format_city (localized_tz);
         }
     }
 
