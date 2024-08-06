@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-14 03:47+0000\n"
+"POT-Creation-Date: 2024-08-06 22:22+0000\n"
 "PO-Revision-Date: 2024-07-01 13:16+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/switchboard/"
@@ -33,30 +33,30 @@ msgid "elementary, Inc."
 msgstr "elementary, Inc."
 
 #: data/datetime.metainfo.xml.in:34 data/datetime.metainfo.xml.in:47
-#: data/datetime.metainfo.xml.in:64
+#: data/datetime.metainfo.xml.in:60 data/datetime.metainfo.xml.in:77
 msgid "Minor updates"
 msgstr "Незначні оновлення"
 
-#: data/datetime.metainfo.xml.in:36
-msgid "Improved screen reader support"
-msgstr "Поліпшено підтримку зчитування з екрана"
-
-#: data/datetime.metainfo.xml.in:37 data/datetime.metainfo.xml.in:51
-#: data/datetime.metainfo.xml.in:58 data/datetime.metainfo.xml.in:67
-#: data/datetime.metainfo.xml.in:74
+#: data/datetime.metainfo.xml.in:36 data/datetime.metainfo.xml.in:50
+#: data/datetime.metainfo.xml.in:64 data/datetime.metainfo.xml.in:71
+#: data/datetime.metainfo.xml.in:80
 msgid "Updated translations"
 msgstr "Оновлені переклади"
 
 #: data/datetime.metainfo.xml.in:49
+msgid "Improved screen reader support"
+msgstr "Поліпшено підтримку зчитування з екрана"
+
+#: data/datetime.metainfo.xml.in:62
 msgid "Move timezone popover contents to the main view"
 msgstr "Налаштування часового поясу переміщено до головної вкладки"
 
-#: data/datetime.metainfo.xml.in:50
+#: data/datetime.metainfo.xml.in:63
 msgid "Add options to show or hide the date, weekday, and seconds in the clock"
 msgstr ""
 "Додано опції показу або приховування дати, дня тижня та секунд у годиннику"
 
-#: data/datetime.metainfo.xml.in:66
+#: data/datetime.metainfo.xml.in:79
 msgid "Fix potential freeze when changing settings from multiple panes"
 msgstr ""
 "Виправлено ймовірні зависання під час зміни налаштувань у кількох панелях"
