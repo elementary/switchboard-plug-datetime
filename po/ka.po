@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-14 03:47+0000\n"
-"PO-Revision-Date: 2023-10-23 05:10+0000\n"
-"Last-Translator: NorwayFun <temuri.doghonadze@gmail.com>\n"
+"PO-Revision-Date: 2024-08-06 22:22+0000\n"
+"Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Georgian <https://l10n.elementary.io/projects/switchboard/"
 "datetime/ka/>\n"
 "Language: ka\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.0.2\n"
+"X-Generator: Weblate 5.6.2\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:04+0000\n"
 
 #: src/MainView.vala:34 src/MainView.vala:100 src/Plug.vala:32
@@ -21,7 +21,7 @@ msgstr "თარიღი & დრო"
 
 #: src/MainView.vala:43
 msgid "Appearance"
-msgstr ""
+msgstr "გარემოს იერსახე"
 
 #: src/MainView.vala:45
 msgid "Time format:"
