@@ -1,5 +1,5 @@
 # Date & Time Settings
-[![Translation status](https://l10n.elementary.io/widgets/switchboard/-/datetime/svg-badge.svg)](https://l10n.elementary.io/engage/switchboard/?utm_source=widget)
+[![Translation status](https://l10n.elementary.io/widgets/switchboard/-/switchboard-plug-datetime/svg-badge.svg)](https://l10n.elementary.io/engage/switchboard/?utm_source=widget)
 
 ![screenshot](data/screenshot.png?raw=true)
 
@@ -7,8 +7,9 @@
 
 You'll need the following dependencies:
 
-* libgranite-7-dev
 * libadwaita-1-dev >= 1.4.0
+* libgranite-7-dev
+* libical-dev
 * libswitchboard-3-dev
 * meson
 * valac

@@ -91,10 +91,8 @@ public class DateTime.MainView : Switchboard.SettingsPage {
         };
 
         time_zone_picker = new DateTime.TimeZoneGrid () {
-            // hexpand = true,
             margin_start = 6
         };
-        time_zone_picker.add_css_class ("frame");
         time_zone_picker.set_parent (manual_time_zone_radio);
 
         var date_time_header = new Granite.HeaderLabel (_("Date & Time"));
