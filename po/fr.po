@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-datetime\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-14 03:47+0000\n"
+"POT-Creation-Date: 2024-08-06 22:22+0000\n"
 "PO-Revision-Date: 2024-03-05 16:12+0000\n"
 "Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
 "Language-Team: French <https://l10n.elementary.io/projects/switchboard/"
@@ -20,7 +20,7 @@ msgstr ""
 "X-Generator: Weblate 5.0.2\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:04+0000\n"
 
-#: src/MainView.vala:34 src/MainView.vala:100 src/Plug.vala:32
+#: src/MainView.vala:34 src/MainView.vala:98 src/Plug.vala:32
 msgid "Date & Time"
 msgstr "Date et Heure"
 
@@ -52,31 +52,31 @@ msgstr "D'après l'emplacement"
 msgid "Automatically updates the time zone when activated"
 msgstr "Mettre à jour le fuseau horaire automatiquement si activé"
 
-#: src/MainView.vala:102
+#: src/MainView.vala:100
 msgid "Set automatically"
 msgstr "Définir automatiquement"
 
-#: src/MainView.vala:125 src/Plug.vala:72
+#: src/MainView.vala:123 src/Plug.vala:72
 msgid "Show Week Numbers"
 msgstr "Afficher les numéros de semaines"
 
-#: src/MainView.vala:128
+#: src/MainView.vala:126
 msgid "e.g. in Calendar and the Date &amp; Time Panel indicator"
 msgstr "par ex. dans Calendrier et l'indicateur du panneau de Date et heure"
 
-#: src/MainView.vala:135
+#: src/MainView.vala:133
 msgid "Show in Panel:"
 msgstr "Afficher dans le panneau :"
 
-#: src/MainView.vala:139
+#: src/MainView.vala:137
 msgid "Date"
 msgstr "Date"
 
-#: src/MainView.vala:140
+#: src/MainView.vala:138
 msgid "Day of the week"
 msgstr "Jour de la semaine"
 
-#: src/MainView.vala:141
+#: src/MainView.vala:139
 msgid "Seconds"
 msgstr "Secondes"
 
@@ -3079,7 +3079,7 @@ msgid "America/Los_Angeles"
 msgstr "Amérique/Los_Angeles"
 
 #. /Translators: Comment for Timezone America/Los_Angeles
-#: src/Translations.vala:1195 src/Widgets/TimeZoneGrid.vala:75
+#: src/Translations.vala:1195
 msgid "Pacific"
 msgstr "Pacifique"
 
@@ -3258,37 +3258,52 @@ msgstr "Afrique/Lusaka"
 msgid "Africa/Harare"
 msgstr "Afrique/Harare"
 
-#: src/Widgets/TimeZoneGrid.vala:59
-msgid "Africa"
-msgstr "Afrique"
+#. TRANSLATORS: The first "%s" represents the timezone name
+#. and the second "%s" represents the offset from UTC.
+#. e.g. "America, Santiago (UTC - 4:00)"
+#: src/Widgets/TimeZoneGrid.vala:144
+#, c-format
+msgid "%s (%s)"
+msgstr ""
 
-#: src/Widgets/TimeZoneGrid.vala:61
-msgid "America"
-msgstr "Amérique"
+#: src/Widgets/TimeZoneGrid.vala:159
+msgid "UTC"
+msgstr ""
 
-#: src/Widgets/TimeZoneGrid.vala:63
-msgid "Antarctica"
-msgstr "Antarctique"
+#: src/Widgets/TimeZoneGrid.vala:166
+#, c-format
+msgid "UTC +%i:%02i"
+msgstr ""
 
-#: src/Widgets/TimeZoneGrid.vala:65
-msgid "Asia"
-msgstr "Asie"
+#. Make sure we use typographical minus
+#: src/Widgets/TimeZoneGrid.vala:170
+#, c-format
+msgid "UTC −%i:%02i"
+msgstr ""
 
-#: src/Widgets/TimeZoneGrid.vala:67
-msgid "Atlantic"
-msgstr "Atlantique"
+#~ msgid "Africa"
+#~ msgstr "Afrique"
 
-#: src/Widgets/TimeZoneGrid.vala:69
-msgid "Australia"
-msgstr "Australie"
+#~ msgid "America"
+#~ msgstr "Amérique"
 
-#: src/Widgets/TimeZoneGrid.vala:71
-msgid "Europe"
-msgstr "Europe"
+#~ msgid "Antarctica"
+#~ msgstr "Antarctique"
 
-#: src/Widgets/TimeZoneGrid.vala:73
-msgid "Indian"
-msgstr "Indien"
+#~ msgid "Asia"
+#~ msgstr "Asie"
+
+#~ msgid "Atlantic"
+#~ msgstr "Atlantique"
+
+#~ msgid "Australia"
+#~ msgstr "Australie"
+
+#~ msgid "Europe"
+#~ msgstr "Europe"
+
+#~ msgid "Indian"
+#~ msgstr "Indien"
 
 #~ msgid "Show week numbers:"
 #~ msgstr "Afficher les numéros de semaines :"

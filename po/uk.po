@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-14 03:47+0000\n"
+"POT-Creation-Date: 2024-08-06 22:22+0000\n"
 "PO-Revision-Date: 2024-02-11 21:05+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/switchboard/"
@@ -21,7 +21,7 @@ msgstr ""
 "X-Generator: Weblate 5.0.2\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:06+0000\n"
 
-#: src/MainView.vala:34 src/MainView.vala:100 src/Plug.vala:32
+#: src/MainView.vala:34 src/MainView.vala:98 src/Plug.vala:32
 msgid "Date & Time"
 msgstr "Дата й час"
 
@@ -53,31 +53,31 @@ msgstr "Залежно від розташування"
 msgid "Automatically updates the time zone when activated"
 msgstr "Автоматично оновлює часовий пояс коли увімкнено"
 
-#: src/MainView.vala:102
+#: src/MainView.vala:100
 msgid "Set automatically"
 msgstr "Установлювати автоматично"
 
-#: src/MainView.vala:125 src/Plug.vala:72
+#: src/MainView.vala:123 src/Plug.vala:72
 msgid "Show Week Numbers"
 msgstr "Показувати номери тижнів"
 
-#: src/MainView.vala:128
+#: src/MainView.vala:126
 msgid "e.g. in Calendar and the Date &amp; Time Panel indicator"
 msgstr "наприклад у календарі та індикаторі панелі дати й часу"
 
-#: src/MainView.vala:135
+#: src/MainView.vala:133
 msgid "Show in Panel:"
 msgstr "Показувати на панелі:"
 
-#: src/MainView.vala:139
+#: src/MainView.vala:137
 msgid "Date"
 msgstr "Дата"
 
-#: src/MainView.vala:140
+#: src/MainView.vala:138
 msgid "Day of the week"
 msgstr "День тижня"
 
-#: src/MainView.vala:141
+#: src/MainView.vala:139
 msgid "Seconds"
 msgstr "Секунди"
 
@@ -3078,7 +3078,7 @@ msgid "America/Los_Angeles"
 msgstr "Америка/Лос-Анджелес"
 
 #. /Translators: Comment for Timezone America/Los_Angeles
-#: src/Translations.vala:1195 src/Widgets/TimeZoneGrid.vala:75
+#: src/Translations.vala:1195
 msgid "Pacific"
 msgstr "Тихоокеанський"
 
@@ -3257,37 +3257,52 @@ msgstr "Африка/Лусака"
 msgid "Africa/Harare"
 msgstr "Африка/Хараре"
 
-#: src/Widgets/TimeZoneGrid.vala:59
-msgid "Africa"
-msgstr "Африка"
+#. TRANSLATORS: The first "%s" represents the timezone name
+#. and the second "%s" represents the offset from UTC.
+#. e.g. "America, Santiago (UTC - 4:00)"
+#: src/Widgets/TimeZoneGrid.vala:144
+#, c-format
+msgid "%s (%s)"
+msgstr ""
 
-#: src/Widgets/TimeZoneGrid.vala:61
-msgid "America"
-msgstr "Америка"
+#: src/Widgets/TimeZoneGrid.vala:159
+msgid "UTC"
+msgstr ""
 
-#: src/Widgets/TimeZoneGrid.vala:63
-msgid "Antarctica"
-msgstr "Антарктика"
+#: src/Widgets/TimeZoneGrid.vala:166
+#, c-format
+msgid "UTC +%i:%02i"
+msgstr ""
 
-#: src/Widgets/TimeZoneGrid.vala:65
-msgid "Asia"
-msgstr "Азія"
+#. Make sure we use typographical minus
+#: src/Widgets/TimeZoneGrid.vala:170
+#, c-format
+msgid "UTC −%i:%02i"
+msgstr ""
 
-#: src/Widgets/TimeZoneGrid.vala:67
-msgid "Atlantic"
-msgstr "Атлантика"
+#~ msgid "Africa"
+#~ msgstr "Африка"
 
-#: src/Widgets/TimeZoneGrid.vala:69
-msgid "Australia"
-msgstr "Австралія"
+#~ msgid "America"
+#~ msgstr "Америка"
 
-#: src/Widgets/TimeZoneGrid.vala:71
-msgid "Europe"
-msgstr "Європа"
+#~ msgid "Antarctica"
+#~ msgstr "Антарктика"
 
-#: src/Widgets/TimeZoneGrid.vala:73
-msgid "Indian"
-msgstr "Індійський"
+#~ msgid "Asia"
+#~ msgstr "Азія"
+
+#~ msgid "Atlantic"
+#~ msgstr "Атлантика"
+
+#~ msgid "Australia"
+#~ msgstr "Австралія"
+
+#~ msgid "Europe"
+#~ msgstr "Європа"
+
+#~ msgid "Indian"
+#~ msgstr "Індійський"
 
 #~ msgid "Show week numbers:"
 #~ msgstr "Показувати номери тижнів:"

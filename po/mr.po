@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-14 03:47+0000\n"
+"POT-Creation-Date: 2024-08-06 22:22+0000\n"
 "PO-Revision-Date: 2023-03-21 18:59+0000\n"
 "Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
 "Language-Team: Marathi <https://l10n.elementary.io/projects/switchboard/"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Weblate 4.16.4\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:05+0000\n"
 
-#: src/MainView.vala:34 src/MainView.vala:100 src/Plug.vala:32
+#: src/MainView.vala:34 src/MainView.vala:98 src/Plug.vala:32
 msgid "Date & Time"
 msgstr "तारीख व वेळ"
 
@@ -49,33 +49,33 @@ msgstr ""
 msgid "Automatically updates the time zone when activated"
 msgstr "वेळ क्षेत्र स्वयंचलितपणे अपडेट करा"
 
-#: src/MainView.vala:102
+#: src/MainView.vala:100
 msgid "Set automatically"
 msgstr ""
 
-#: src/MainView.vala:125 src/Plug.vala:72
+#: src/MainView.vala:123 src/Plug.vala:72
 #, fuzzy
 #| msgid "Show week numbers"
 msgid "Show Week Numbers"
 msgstr "आठवड्याचे क्रमांक दर्शवा"
 
-#: src/MainView.vala:128
+#: src/MainView.vala:126
 msgid "e.g. in Calendar and the Date &amp; Time Panel indicator"
 msgstr ""
 
-#: src/MainView.vala:135
+#: src/MainView.vala:133
 msgid "Show in Panel:"
 msgstr ""
 
-#: src/MainView.vala:139
+#: src/MainView.vala:137
 msgid "Date"
 msgstr ""
 
-#: src/MainView.vala:140
+#: src/MainView.vala:138
 msgid "Day of the week"
 msgstr ""
 
-#: src/MainView.vala:141
+#: src/MainView.vala:139
 msgid "Seconds"
 msgstr ""
 
@@ -3073,7 +3073,7 @@ msgid "America/Los_Angeles"
 msgstr "अमेरिका/लॉस_एंजिल्स"
 
 #. /Translators: Comment for Timezone America/Los_Angeles
-#: src/Translations.vala:1195 src/Widgets/TimeZoneGrid.vala:75
+#: src/Translations.vala:1195
 msgid "Pacific"
 msgstr "पॅसिफिक"
 
@@ -3252,37 +3252,52 @@ msgstr "आफ्रिका/लुसाका"
 msgid "Africa/Harare"
 msgstr "आफ्रिका/हरारे"
 
-#: src/Widgets/TimeZoneGrid.vala:59
-msgid "Africa"
-msgstr "आफ्रिका"
+#. TRANSLATORS: The first "%s" represents the timezone name
+#. and the second "%s" represents the offset from UTC.
+#. e.g. "America, Santiago (UTC - 4:00)"
+#: src/Widgets/TimeZoneGrid.vala:144
+#, c-format
+msgid "%s (%s)"
+msgstr ""
 
-#: src/Widgets/TimeZoneGrid.vala:61
-msgid "America"
-msgstr "अमेरिका"
+#: src/Widgets/TimeZoneGrid.vala:159
+msgid "UTC"
+msgstr ""
 
-#: src/Widgets/TimeZoneGrid.vala:63
-msgid "Antarctica"
-msgstr "अंटार्कटिका"
+#: src/Widgets/TimeZoneGrid.vala:166
+#, c-format
+msgid "UTC +%i:%02i"
+msgstr ""
 
-#: src/Widgets/TimeZoneGrid.vala:65
-msgid "Asia"
-msgstr "आशिया"
+#. Make sure we use typographical minus
+#: src/Widgets/TimeZoneGrid.vala:170
+#, c-format
+msgid "UTC −%i:%02i"
+msgstr ""
 
-#: src/Widgets/TimeZoneGrid.vala:67
-msgid "Atlantic"
-msgstr "अटलांटिक"
+#~ msgid "Africa"
+#~ msgstr "आफ्रिका"
 
-#: src/Widgets/TimeZoneGrid.vala:69
-msgid "Australia"
-msgstr "ऑस्ट्रेलिया"
+#~ msgid "America"
+#~ msgstr "अमेरिका"
 
-#: src/Widgets/TimeZoneGrid.vala:71
-msgid "Europe"
-msgstr "युरोप"
+#~ msgid "Antarctica"
+#~ msgstr "अंटार्कटिका"
 
-#: src/Widgets/TimeZoneGrid.vala:73
-msgid "Indian"
-msgstr "भारतीय"
+#~ msgid "Asia"
+#~ msgstr "आशिया"
+
+#~ msgid "Atlantic"
+#~ msgstr "अटलांटिक"
+
+#~ msgid "Australia"
+#~ msgstr "ऑस्ट्रेलिया"
+
+#~ msgid "Europe"
+#~ msgstr "युरोप"
+
+#~ msgid "Indian"
+#~ msgstr "भारतीय"
 
 #~ msgid "Show week numbers:"
 #~ msgstr "आठवड्याचे क्रमांक दाखवा:"
