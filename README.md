@@ -1,5 +1,5 @@
 # Date & Time Settings
-[![Translation status](https://l10n.elementary.io/widgets/switchboard/-/switchboard-plug-datetime/svg-badge.svg)](https://l10n.elementary.io/engage/switchboard/?utm_source=widget)
+[![Translation status](https://l10n.elementary.io/widget/switchboard/datetime/svg-badge.svg)](https://l10n.elementary.io/engage/switchboard/)
 
 ![screenshot](data/screenshot.png?raw=true)
 
