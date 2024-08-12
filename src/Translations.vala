@@ -78,7 +78,7 @@ _("Tucuman (TM)");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("America/Argentina/Catamarca");
 ///Translators: Comment for Timezone America/Argentina/Catamarca
-_("Catamarca (CT); Chubut (CH)");
+_("Catamarca (CT), Chubut (CH)");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("America/Argentina/La_Rioja");
 ///Translators: Comment for Timezone America/Argentina/La_Rioja
@@ -118,11 +118,7 @@ _("Macquarie Island");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("Australia/Hobart");
 ///Translators: Comment for Timezone Australia/Hobart
-_("Tasmania (most areas)");
-///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
-_("Australia/Currie");
-///Translators: Comment for Timezone Australia/Currie
-_("Tasmania (King Island)");
+_("Tasmania");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("Australia/Melbourne");
 ///Translators: Comment for Timezone Australia/Melbourne
@@ -200,7 +196,7 @@ _("Atlantic islands");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("America/Belem");
 ///Translators: Comment for Timezone America/Belem
-_("Para (east); Amapa");
+_("Para (east), Amapa");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("America/Fortaleza");
 ///Translators: Comment for Timezone America/Fortaleza
@@ -270,11 +266,11 @@ _("America/Belize");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("America/St_Johns");
 ///Translators: Comment for Timezone America/St_Johns
-_("Newfoundland; Labrador (southeast)");
+_("Newfoundland, Labrador (SE)");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("America/Halifax");
 ///Translators: Comment for Timezone America/Halifax
-_("Atlantic - NS (most areas); PE");
+_("Atlantic - NS (most areas), PE");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("America/Glace_Bay");
 ///Translators: Comment for Timezone America/Glace_Bay
@@ -294,35 +290,19 @@ _("AST - QC (Lower North Shore)");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("America/Toronto");
 ///Translators: Comment for Timezone America/Toronto
-_("Eastern - ON, QC (most areas)");
-///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
-_("America/Nipigon");
-///Translators: Comment for Timezone America/Nipigon
-_("Eastern - ON, QC (no DST 1967-73)");
-///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
-_("America/Thunder_Bay");
-///Translators: Comment for Timezone America/Thunder_Bay
-_("Eastern - ON (Thunder Bay)");
+_("Eastern - ON & QC (most areas)");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("America/Iqaluit");
 ///Translators: Comment for Timezone America/Iqaluit
-_("Eastern - NU (most east areas)");
-///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
-_("America/Pangnirtung");
-///Translators: Comment for Timezone America/Pangnirtung
-_("Eastern - NU (Pangnirtung)");
+_("Eastern - NU (most areas)");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("America/Atikokan");
 ///Translators: Comment for Timezone America/Atikokan
-_("EST - ON (Atikokan); NU (Coral H)");
+_("EST - ON (Atikokan), NU (Coral H)");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("America/Winnipeg");
 ///Translators: Comment for Timezone America/Winnipeg
-_("Central - ON (west); Manitoba");
-///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
-_("America/Rainy_River");
-///Translators: Comment for Timezone America/Rainy_River
-_("Central - ON (Rainy R, Ft Frances)");
+_("Central - ON (west), Manitoba");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("America/Resolute");
 ///Translators: Comment for Timezone America/Resolute
@@ -342,15 +322,11 @@ _("CST - SK (midwest)");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("America/Edmonton");
 ///Translators: Comment for Timezone America/Edmonton
-_("Mountain - AB; BC (E); SK (W)");
+_("Mountain - AB, BC(E), NT(E), SK(W)");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("America/Cambridge_Bay");
 ///Translators: Comment for Timezone America/Cambridge_Bay
 _("Mountain - NU (west)");
-///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
-_("America/Yellowknife");
-///Translators: Comment for Timezone America/Yellowknife
-_("Mountain - NT (central)");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("America/Inuvik");
 ///Translators: Comment for Timezone America/Inuvik
@@ -368,17 +344,17 @@ _("America/Fort_Nelson");
 ///Translators: Comment for Timezone America/Fort_Nelson
 _("MST - BC (Ft Nelson)");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
-_("America/Vancouver");
-///Translators: Comment for Timezone America/Vancouver
-_("Pacific - BC (most areas)");
-///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("America/Whitehorse");
 ///Translators: Comment for Timezone America/Whitehorse
-_("Pacific - Yukon (south)");
+_("MST - Yukon (east)");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("America/Dawson");
 ///Translators: Comment for Timezone America/Dawson
-_("Pacific - Yukon (north)");
+_("MST - Yukon (west)");
+///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
+_("America/Vancouver");
+///Translators: Comment for Timezone America/Vancouver
+_("Pacific - BC (most areas)");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("Indian/Cocos");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
@@ -402,7 +378,7 @@ _("Pacific/Rarotonga");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("America/Santiago");
 ///Translators: Comment for Timezone America/Santiago
-_("Chile (most areas)");
+_("most of Chile");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("America/Punta_Arenas");
 ///Translators: Comment for Timezone America/Punta_Arenas
@@ -436,7 +412,7 @@ _("Indian/Christmas");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("Asia/Nicosia");
 ///Translators: Comment for Timezone Asia/Nicosia
-_("Cyprus (most areas)");
+_("most of Cyprus");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("Asia/Famagusta");
 ///Translators: Comment for Timezone Asia/Famagusta
@@ -446,7 +422,7 @@ _("Europe/Prague");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("Europe/Berlin");
 ///Translators: Comment for Timezone Europe/Berlin
-_("Germany (most areas)");
+_("most of Germany");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("Europe/Busingen");
 ///Translators: Comment for Timezone Europe/Busingen
@@ -530,9 +506,9 @@ _("Africa/Accra");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("Europe/Gibraltar");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
-_("America/Godthab");
-///Translators: Comment for Timezone America/Godthab
-_("Greenland (most areas)");
+_("America/Nuuk");
+///Translators: Comment for Timezone America/Nuuk
+_("most of Greenland");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("America/Danmarkshavn");
 ///Translators: Comment for Timezone America/Danmarkshavn
@@ -586,11 +562,11 @@ _("Borneo (west, central)");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("Asia/Makassar");
 ///Translators: Comment for Timezone Asia/Makassar
-_("Borneo (east, south); Sulawesi/Celebes, Bali, Nusa Tengarra; Timor (west)");
+_("Borneo (east, south), Sulawesi/Celebes, Bali, Nusa Tengarra, Timor (west)");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("Asia/Jayapura");
 ///Translators: Comment for Timezone Asia/Jayapura
-_("New Guinea (West Papua / Irian Jaya); Malukus/Moluccas");
+_("New Guinea (West Papua / Irian Jaya), Malukus/Moluccas");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("Europe/Dublin");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
@@ -628,8 +604,8 @@ _("Pacific/Tarawa");
 ///Translators: Comment for Timezone Pacific/Tarawa
 _("Gilbert Islands");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
-_("Pacific/Enderbury");
-///Translators: Comment for Timezone Pacific/Enderbury
+_("Pacific/Kanton");
+///Translators: Comment for Timezone Pacific/Kanton
 _("Phoenix Islands");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("Pacific/Kiritimati");
@@ -650,11 +626,15 @@ _("America/Cayman");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("Asia/Almaty");
 ///Translators: Comment for Timezone Asia/Almaty
-_("Kazakhstan (most areas)");
+_("most of Kazakhstan");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("Asia/Qyzylorda");
 ///Translators: Comment for Timezone Asia/Qyzylorda
 _("Qyzylorda/Kyzylorda/Kzyl-Orda");
+///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
+_("Asia/Qostanay");
+///Translators: Comment for Timezone Asia/Qostanay
+_("Qostanay/Kostanay/Kustanay");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("Asia/Aqtobe");
 ///Translators: Comment for Timezone Asia/Aqtobe
@@ -708,7 +688,7 @@ _("Indian/Antananarivo");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("Pacific/Majuro");
 ///Translators: Comment for Timezone Pacific/Majuro
-_("Marshall Islands (most areas)");
+_("most of Marshall Islands");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("Pacific/Kwajalein");
 ///Translators: Comment for Timezone Pacific/Kwajalein
@@ -722,7 +702,7 @@ _("Asia/Yangon");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("Asia/Ulaanbaatar");
 ///Translators: Comment for Timezone Asia/Ulaanbaatar
-_("Mongolia (most areas)");
+_("most of Mongolia");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("Asia/Hovd");
 ///Translators: Comment for Timezone Asia/Hovd
@@ -752,47 +732,51 @@ _("Africa/Blantyre");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("America/Mexico_City");
 ///Translators: Comment for Timezone America/Mexico_City
-_("Central Time");
+_("Central Mexico");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("America/Cancun");
 ///Translators: Comment for Timezone America/Cancun
-_("Eastern Standard Time - Quintana Roo");
+_("Quintana Roo");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("America/Merida");
 ///Translators: Comment for Timezone America/Merida
-_("Central Time - Campeche, Yucatan");
+_("Campeche, Yucatan");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("America/Monterrey");
 ///Translators: Comment for Timezone America/Monterrey
-_("Central Time - Durango; Coahuila, Nuevo Leon, Tamaulipas (most areas)");
+_("Durango; Coahuila, Nuevo Leon, Tamaulipas (most areas)");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("America/Matamoros");
 ///Translators: Comment for Timezone America/Matamoros
-_("Central Time US - Coahuila, Nuevo Leon, Tamaulipas (US border)");
-///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
-_("America/Mazatlan");
-///Translators: Comment for Timezone America/Mazatlan
-_("Mountain Time - Baja California Sur, Nayarit, Sinaloa");
+_("Coahuila, Nuevo Leon, Tamaulipas (US border)");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("America/Chihuahua");
 ///Translators: Comment for Timezone America/Chihuahua
-_("Mountain Time - Chihuahua (most areas)");
+_("Chihuahua (most areas)");
+///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
+_("America/Ciudad_Juarez");
+///Translators: Comment for Timezone America/Ciudad_Juarez
+_("Chihuahua (US border - west)");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("America/Ojinaga");
 ///Translators: Comment for Timezone America/Ojinaga
-_("Mountain Time US - Chihuahua (US border)");
+_("Chihuahua (US border - east)");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
-_("America/Hermosillo");
-///Translators: Comment for Timezone America/Hermosillo
-_("Mountain Standard Time - Sonora");
-///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
-_("America/Tijuana");
-///Translators: Comment for Timezone America/Tijuana
-_("Pacific Time US - Baja California");
+_("America/Mazatlan");
+///Translators: Comment for Timezone America/Mazatlan
+_("Baja California Sur, Nayarit (most areas), Sinaloa");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("America/Bahia_Banderas");
 ///Translators: Comment for Timezone America/Bahia_Banderas
-_("Central Time - Bahia de Banderas");
+_("Bahia de Banderas");
+///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
+_("America/Hermosillo");
+///Translators: Comment for Timezone America/Hermosillo
+_("Sonora");
+///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
+_("America/Tijuana");
+///Translators: Comment for Timezone America/Tijuana
+_("Baja California");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("Asia/Kuala_Lumpur");
 ///Translators: Comment for Timezone Asia/Kuala_Lumpur
@@ -828,7 +812,7 @@ _("Pacific/Niue");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("Pacific/Auckland");
 ///Translators: Comment for Timezone Pacific/Auckland
-_("New Zealand (most areas)");
+_("most of New Zealand");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("Pacific/Chatham");
 ///Translators: Comment for Timezone Pacific/Chatham
@@ -854,7 +838,7 @@ _("Gambier Islands");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("Pacific/Port_Moresby");
 ///Translators: Comment for Timezone Pacific/Port_Moresby
-_("Papua New Guinea (most areas)");
+_("most of Papua New Guinea");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("Pacific/Bougainville");
 ///Translators: Comment for Timezone Pacific/Bougainville
@@ -914,15 +898,15 @@ _("MSK+00 - Moscow area");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("Europe/Simferopol");
 ///Translators: Comment for Timezone Europe/Simferopol
-_("MSK+00 - Crimea");
-///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
-_("Europe/Volgograd");
-///Translators: Comment for Timezone Europe/Volgograd
-_("MSK+00 - Volgograd");
+_("Crimea");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("Europe/Kirov");
 ///Translators: Comment for Timezone Europe/Kirov
 _("MSK+00 - Kirov");
+///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
+_("Europe/Volgograd");
+///Translators: Comment for Timezone Europe/Volgograd
+_("MSK+00 - Volgograd");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("Europe/Astrakhan");
 ///Translators: Comment for Timezone Europe/Astrakhan
@@ -1002,7 +986,7 @@ _("MSK+08 - Sakhalin Island");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("Asia/Srednekolymsk");
 ///Translators: Comment for Timezone Asia/Srednekolymsk
-_("MSK+08 - Sakha (E); North Kuril Is");
+_("MSK+08 - Sakha (E), N Kuril Is");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("Asia/Kamchatka");
 ///Translators: Comment for Timezone Asia/Kamchatka
@@ -1088,17 +1072,9 @@ _("Asia/Taipei");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("Africa/Dar_es_Salaam");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
-_("Europe/Kiev");
-///Translators: Comment for Timezone Europe/Kiev
-_("Ukraine (most areas)");
-///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
-_("Europe/Uzhgorod");
-///Translators: Comment for Timezone Europe/Uzhgorod
-_("Ruthenia");
-///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
-_("Europe/Zaporozhye");
-///Translators: Comment for Timezone Europe/Zaporozhye
-_("Zaporozh'ye/Zaporizhia; Lugansk/Luhansk (east)");
+_("Europe/Kyiv");
+///Translators: Comment for Timezone Europe/Kyiv
+_("most of Ukraine");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("Africa/Kampala");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
@@ -1184,11 +1160,11 @@ _("Mountain (most areas)");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("America/Boise");
 ///Translators: Comment for Timezone America/Boise
-_("Mountain - ID (south); OR (east)");
+_("Mountain - ID (south), OR (east)");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("America/Phoenix");
 ///Translators: Comment for Timezone America/Phoenix
-_("MST - Arizona (except Navajo)");
+_("MST - AZ (except Navajo)");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("America/Los_Angeles");
 ///Translators: Comment for Timezone America/Los_Angeles
@@ -1220,7 +1196,7 @@ _("Alaska (west)");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("America/Adak");
 ///Translators: Comment for Timezone America/Adak
-_("Aleutian Islands");
+_("Alaska - western Aleutians");
 ///Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 _("Pacific/Honolulu");
 ///Translators: Comment for Timezone Pacific/Honolulu
