@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-12 09:16+0000\n"
-"PO-Revision-Date: 2024-08-17 06:16+0000\n"
+"PO-Revision-Date: 2024-08-20 11:16+0000\n"
 "Last-Translator: Marcin Serwin <marcin@serwin.dev>\n"
 "Language-Team: Polish <https://l10n.elementary.io/projects/switchboard/"
 "datetime/pl/>\n"
@@ -1500,13 +1500,10 @@ msgstr "Azja/Makassar"
 
 #. /Translators: Comment for Timezone Asia/Makassar
 #: src/Translations.vala:565
-#, fuzzy
-#| msgid ""
-#| "Borneo (east, south); Sulawesi/Celebes, Bali, Nusa Tengarra; Timor (west)"
 msgid ""
 "Borneo (east, south), Sulawesi/Celebes, Bali, Nusa Tengarra, Timor (west)"
 msgstr ""
-"Borneo (wschodnie, południowe); Sulawesi/Celebes, Bali, Nusa Tengarra; Timor "
+"Borneo (wschodnie, południowe), Sulawesi/Celebes, Bali, Nusa Tengarra, Timor "
 "(wschód)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
@@ -1516,10 +1513,8 @@ msgstr "Azja/Jayapura"
 
 #. /Translators: Comment for Timezone Asia/Jayapura
 #: src/Translations.vala:569
-#, fuzzy
-#| msgid "New Guinea (West Papua / Irian Jaya); Malukus/Moluccas"
 msgid "New Guinea (West Papua / Irian Jaya), Malukus/Moluccas"
-msgstr "Nowa Gwinea (zachodnia Papaua / Irian Jaya); Malukus/Moluccas"
+msgstr "Nowa Gwinea (zachodnia Papaua / Irian Jaya), Malukus/Moluccas"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:571
@@ -1613,10 +1608,8 @@ msgstr "Wyspy Gilberta"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:607
-#, fuzzy
-#| msgid "Pacific/Johnston"
 msgid "Pacific/Kanton"
-msgstr "Pacyfik/Johnston"
+msgstr "Pacyfik/Kanton"
 
 #. /Translators: Comment for Timezone Pacific/Kanton
 #: src/Translations.vala:609
@@ -1946,7 +1939,7 @@ msgstr "Ameryka/Cancun"
 #. /Translators: Comment for Timezone America/Cancun
 #: src/Translations.vala:739
 msgid "Quintana Roo"
-msgstr ""
+msgstr "Quintana Roo"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:741
@@ -1955,10 +1948,8 @@ msgstr "Ameryka/Merida"
 
 #. /Translators: Comment for Timezone America/Merida
 #: src/Translations.vala:743
-#, fuzzy
-#| msgid "Central Time - Campeche, Yucatan"
 msgid "Campeche, Yucatan"
-msgstr "Czas środkowy - Campeche, Jukatan"
+msgstr "Campeche, Jukatan"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:745
@@ -1967,13 +1958,8 @@ msgstr "Ameryka/Moterrey"
 
 #. /Translators: Comment for Timezone America/Monterrey
 #: src/Translations.vala:747
-#, fuzzy
-#| msgid ""
-#| "Central Time - Durango; Coahuila, Nuevo Leon, Tamaulipas (most areas)"
 msgid "Durango; Coahuila, Nuevo Leon, Tamaulipas (most areas)"
-msgstr ""
-"Czas centralny - Durango; Coahuila, Nuevo Leon, Tamaulipas (większość "
-"obszarów)"
+msgstr "Durango; Coahuila, Nuevo Leon, Tamaulipas (większość obszarów)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:749
@@ -1982,11 +1968,8 @@ msgstr "Ameryka/Matamoros"
 
 #. /Translators: Comment for Timezone America/Matamoros
 #: src/Translations.vala:751
-#, fuzzy
-#| msgid "Central Time US - Coahuila, Nuevo Leon, Tamaulipas (US border)"
 msgid "Coahuila, Nuevo Leon, Tamaulipas (US border)"
-msgstr ""
-"Czas centralny US - Coahuila, Nuevo Leon, Tamaulipas (granica amerykańska)"
+msgstr "Coahuila, Nuevo Leon, Tamaulipas (granica amerykańska)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:753
@@ -1995,17 +1978,13 @@ msgstr "Ameryka/Chihuahua"
 
 #. /Translators: Comment for Timezone America/Chihuahua
 #: src/Translations.vala:755
-#, fuzzy
-#| msgid "Chile (most areas)"
 msgid "Chihuahua (most areas)"
-msgstr "Chile (większość obszarów)"
+msgstr "Chihuahua (większość obszarów)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:757
-#, fuzzy
-#| msgid "America/Chihuahua"
 msgid "America/Ciudad_Juarez"
-msgstr "Ameryka/Chihuahua"
+msgstr "Ameryka/Ciudad_Juarez"
 
 #. /Translators: Comment for Timezone America/Ciudad_Juarez
 #: src/Translations.vala:759
