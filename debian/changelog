@@ -1,3 +1,9 @@
+io.elementary.settings.datetime (8.1.0) bionic; urgency=medium
+
+  * Release 8.1.0 (#132)
+
+ -- elementary, Inc. <builds@elementary.io>  Wed, 09 Oct 2024 19:59:42 +0000
+
 io.elementary.settings.datetime (8.0.0) bionic; urgency=medium
 
   * Release 8.0.0 (#126)
