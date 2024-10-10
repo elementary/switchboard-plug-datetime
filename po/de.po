@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-12 09:16+0000\n"
-"PO-Revision-Date: 2024-10-10 12:58+0000\n"
+"PO-Revision-Date: 2024-10-11 13:16+0000\n"
 "Last-Translator: Uwe S <saabisto@gmx.de>\n"
 "Language-Team: German <https://l10n.elementary.io/projects/switchboard/"
 "datetime/de/>\n"
@@ -3133,7 +3133,7 @@ msgstr "Amerika/Indiana/Indianapolis"
 #. /Translators: Comment for Timezone America/Indiana/Indianapolis
 #: src/Translations.vala:1107
 msgid "Eastern - IN (most areas)"
-msgstr "Eastern - IN (meiste Regionen)"
+msgstr "Eastern – IN (meiste Regionen)"
 
 #
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
