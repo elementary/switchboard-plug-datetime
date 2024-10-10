@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-12 09:16+0000\n"
-"PO-Revision-Date: 2024-10-10 12:39+0000\n"
+"PO-Revision-Date: 2024-10-10 12:58+0000\n"
 "Last-Translator: Uwe S <saabisto@gmx.de>\n"
 "Language-Team: German <https://l10n.elementary.io/projects/switchboard/"
 "datetime/de/>\n"
@@ -862,7 +862,7 @@ msgstr "Amerika/Goose_Bay"
 #. /Translators: Comment for Timezone America/Goose_Bay
 #: src/Translations.vala:285
 msgid "Atlantic - Labrador (most areas)"
-msgstr "Atlantik - Labrador (meiste Regionen)"
+msgstr "Atlantik – Labrador (meiste Regionen)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:287
@@ -979,7 +979,7 @@ msgstr "Amerika/Cambridge_Bay"
 #. /Translators: Comment for Timezone America/Cambridge_Bay
 #: src/Translations.vala:329
 msgid "Mountain - NU (west)"
-msgstr "Mountain - NU (West)"
+msgstr "Mountain – NU (West)"
 
 #
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
@@ -990,7 +990,7 @@ msgstr "Amerika/Inuvik"
 #. /Translators: Comment for Timezone America/Inuvik
 #: src/Translations.vala:333
 msgid "Mountain - NT (west)"
-msgstr "Mountain - NT (West)"
+msgstr "Mountain – NT (West)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:335
@@ -2560,7 +2560,7 @@ msgstr "Europa/Moskau"
 #. /Translators: Comment for Timezone Europe/Moscow
 #: src/Translations.vala:897
 msgid "MSK+00 - Moscow area"
-msgstr "MSK+00 - Moskau Region"
+msgstr "MSK+00 – Region Moskau"
 
 #
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
@@ -2581,7 +2581,7 @@ msgstr "Europa/Kirow"
 #. /Translators: Comment for Timezone Europe/Kirov
 #: src/Translations.vala:905
 msgid "MSK+00 - Kirov"
-msgstr "MSK+00 - Kirow"
+msgstr "MSK+00 – Kirow"
 
 #
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
@@ -2592,7 +2592,7 @@ msgstr "Europa/Wolgograd"
 #. /Translators: Comment for Timezone Europe/Volgograd
 #: src/Translations.vala:909
 msgid "MSK+00 - Volgograd"
-msgstr "MSK+00 - Wolgograd"
+msgstr "MSK+00 – Wolgograd"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:911
@@ -2602,7 +2602,7 @@ msgstr "Europa/Astrachan"
 #. /Translators: Comment for Timezone Europe/Astrakhan
 #: src/Translations.vala:913
 msgid "MSK+01 - Astrakhan"
-msgstr "MSK+01 - Astrachan"
+msgstr "MSK+01 – Astrachan"
 
 #
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
@@ -2613,7 +2613,7 @@ msgstr "Europa/Saratow"
 #. /Translators: Comment for Timezone Europe/Saratov
 #: src/Translations.vala:917
 msgid "MSK+01 - Saratov"
-msgstr "MSK+00 - Saratow"
+msgstr "MSK+00 – Saratow"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:919
@@ -2623,7 +2623,7 @@ msgstr "Europa/Uljanowsk"
 #. /Translators: Comment for Timezone Europe/Ulyanovsk
 #: src/Translations.vala:921
 msgid "MSK+01 - Ulyanovsk"
-msgstr "MSK+01 - Uljanowsk"
+msgstr "MSK+01 – Uljanowsk"
 
 #
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
@@ -2634,7 +2634,7 @@ msgstr "Europa/Samara"
 #. /Translators: Comment for Timezone Europe/Samara
 #: src/Translations.vala:925
 msgid "MSK+01 - Samara, Udmurtia"
-msgstr "MSK+01 - Samara, Udmurtien"
+msgstr "MSK+01 – Samara, Udmurtien"
 
 #
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
@@ -2645,7 +2645,7 @@ msgstr "Asien/Jekaterinburg"
 #. /Translators: Comment for Timezone Asia/Yekaterinburg
 #: src/Translations.vala:929
 msgid "MSK+02 - Urals"
-msgstr "MSK+02 - Ural"
+msgstr "MSK+02 – Ural"
 
 #
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
@@ -2667,7 +2667,7 @@ msgstr "Asien/Nowosibirsk"
 #. /Translators: Comment for Timezone Asia/Novosibirsk
 #: src/Translations.vala:937
 msgid "MSK+04 - Novosibirsk"
-msgstr "MSK+04 - Nowosibirsk"
+msgstr "MSK+04 – Nowosibirsk"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:939
@@ -2698,7 +2698,7 @@ msgstr "Asien/Nowokusnezk"
 #. /Translators: Comment for Timezone Asia/Novokuznetsk
 #: src/Translations.vala:949
 msgid "MSK+04 - Kemerovo"
-msgstr "MSK+04 - Kemerowo"
+msgstr "MSK+04 – Kemerowo"
 
 #
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
@@ -2709,7 +2709,7 @@ msgstr "Asien/Krasnojarsk"
 #. /Translators: Comment for Timezone Asia/Krasnoyarsk
 #: src/Translations.vala:953
 msgid "MSK+04 - Krasnoyarsk area"
-msgstr "MSK+04 - Krasnojarsk Region"
+msgstr "MSK+04 – Region Krasnojarsk"
 
 #
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
@@ -2720,7 +2720,7 @@ msgstr "Asien/Irkutsk"
 #. /Translators: Comment for Timezone Asia/Irkutsk
 #: src/Translations.vala:957
 msgid "MSK+05 - Irkutsk, Buryatia"
-msgstr "MSK+05 - Irkutsk, Burjatien"
+msgstr "MSK+05 – Irkutsk, Burjatien"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:959
@@ -2730,7 +2730,7 @@ msgstr "Asien/Chita"
 #. /Translators: Comment for Timezone Asia/Chita
 #: src/Translations.vala:961
 msgid "MSK+06 - Zabaykalsky"
-msgstr "MSK+06 - Transbaikalien"
+msgstr "MSK+06 – Sabaikalski"
 
 #
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
@@ -2772,7 +2772,7 @@ msgstr "Asien/Ust-Nera"
 #. /Translators: Comment for Timezone Asia/Ust-Nera
 #: src/Translations.vala:977
 msgid "MSK+07 - Oymyakonsky"
-msgstr "MSK+07 - Oimjakonski"
+msgstr "MSK+07 – Oimjakonski"
 
 #
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
@@ -2794,7 +2794,7 @@ msgstr "Asien/Sachalin"
 #. /Translators: Comment for Timezone Asia/Sakhalin
 #: src/Translations.vala:985
 msgid "MSK+08 - Sakhalin Island"
-msgstr "MSK+08 - Insel Sachalin"
+msgstr "MSK+08 – Insel Sachalin"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:987
@@ -2815,7 +2815,7 @@ msgstr "Asien/Kamtschatka"
 #. /Translators: Comment for Timezone Asia/Kamchatka
 #: src/Translations.vala:993
 msgid "MSK+09 - Kamchatka"
-msgstr "MSK+09 - Kamtschatka"
+msgstr "MSK+09 – Kamtschatka"
 
 #
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
@@ -2826,7 +2826,7 @@ msgstr "Asien/Anadyr"
 #. /Translators: Comment for Timezone Asia/Anadyr
 #: src/Translations.vala:997
 msgid "MSK+09 - Bering Sea"
-msgstr "MSK+09 - Beringmeer"
+msgstr "MSK+09 – Beringmeer"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:999
@@ -3100,7 +3100,7 @@ msgstr "Amerika/Detroit"
 #. /Translators: Comment for Timezone America/Detroit
 #: src/Translations.vala:1095
 msgid "Eastern - MI (most areas)"
-msgstr "Eastern - MI (meiste Regionen)"
+msgstr "Eastern – MI (meiste Regionen)"
 
 #
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
@@ -3111,7 +3111,7 @@ msgstr "Amerika/Kentucky/Louisville"
 #. /Translators: Comment for Timezone America/Kentucky/Louisville
 #: src/Translations.vala:1099
 msgid "Eastern - KY (Louisville area)"
-msgstr "Eastern - KY (Louisville Region)"
+msgstr "Eastern – KY (Region Louisville)"
 
 #
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
