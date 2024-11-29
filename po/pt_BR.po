@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-12 09:16+0000\n"
-"PO-Revision-Date: 2024-04-24 23:13+0000\n"
-"Last-Translator: Matheus Torres Carvalho <matheustcarvalho@hotmail.com>\n"
+"PO-Revision-Date: 2024-11-30 16:16+0000\n"
+"Last-Translator: Guilherme Faura <guilhermefaura@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://l10n.elementary.io/projects/"
 "switchboard/datetime/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.0.2\n"
+"X-Generator: Weblate 5.6.2\n"
 "X-Launchpad-Export-Date: 2017-02-15 06:46+0000\n"
 
 #: src/MainView.vala:34 src/MainView.vala:98 src/Plug.vala:32
@@ -289,10 +289,8 @@ msgstr "América/Argentina/Catamarca"
 
 #. /Translators: Comment for Timezone America/Argentina/Catamarca
 #: src/Translations.vala:81
-#, fuzzy
-#| msgid "Catamarca (CT); Chubut (CH)"
 msgid "Catamarca (CT), Chubut (CH)"
-msgstr "Catamarca (CT); Chubut (CH)"
+msgstr "Catamarca (CT), Chubut (CH)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:83
@@ -392,7 +390,7 @@ msgstr "Austrália/Hobart"
 #. /Translators: Comment for Timezone Australia/Hobart
 #: src/Translations.vala:121
 msgid "Tasmania"
-msgstr ""
+msgstr "Tasmânia"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:123
@@ -586,10 +584,8 @@ msgstr "América/Belem"
 
 #. /Translators: Comment for Timezone America/Belem
 #: src/Translations.vala:199
-#, fuzzy
-#| msgid "Para (east); Amapa"
 msgid "Para (east), Amapa"
-msgstr "Pará (leste); Amapá"
+msgstr "Pará (leste), Amapá"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:201
@@ -763,10 +759,8 @@ msgstr "América/St Johns"
 
 #. /Translators: Comment for Timezone America/St_Johns
 #: src/Translations.vala:269
-#, fuzzy
-#| msgid "Newfoundland; Labrador (southeast)"
 msgid "Newfoundland, Labrador (SE)"
-msgstr "Newfoundland; Labrador (sudeste)"
+msgstr "Terra Nova, Labrador (SE)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:271
