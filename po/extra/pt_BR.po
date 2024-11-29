@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-12 09:16+0000\n"
-"PO-Revision-Date: 2024-08-06 22:22+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2024-11-30 16:16+0000\n"
+"Last-Translator: Guilherme Faura <guilhermefaura@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://l10n.elementary.io/projects/"
 "switchboard/datetime-extra/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -44,15 +44,18 @@ msgstr "Traduções atualizadas"
 
 #: data/datetime.metainfo.xml.in:49
 msgid "Improved screen reader support"
-msgstr ""
+msgstr "Suporte aprimorado ao leitor de tela"
 
 #: data/datetime.metainfo.xml.in:62
 msgid "Move timezone popover contents to the main view"
 msgstr ""
+"Mova o conteúdo do popover de fuso horário para a visualização principal"
 
 #: data/datetime.metainfo.xml.in:63
 msgid "Add options to show or hide the date, weekday, and seconds in the clock"
 msgstr ""
+"Adicione opções para mostrar ou ocultar data, dia da semana e segundos no "
+"relógio"
 
 #: data/datetime.metainfo.xml.in:79
 msgid "Fix potential freeze when changing settings from multiple panes"
