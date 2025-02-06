@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-12 09:16+0000\n"
-"PO-Revision-Date: 2024-07-11 08:16+0000\n"
+"PO-Revision-Date: 2025-02-07 17:16+0000\n"
 "Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
 "Language-Team: French <https://l10n.elementary.io/projects/switchboard/"
 "datetime-extra/fr/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.6.2\n"
+"X-Generator: Weblate 5.9.2\n"
 
 #: data/datetime.metainfo.xml.in:10
 msgid "Date &amp; Time Settings"
@@ -44,7 +44,7 @@ msgstr "Mise à jour des traductions"
 
 #: data/datetime.metainfo.xml.in:49
 msgid "Improved screen reader support"
-msgstr "Amélioration de l'accessibilité pour les lecteurs d'écran"
+msgstr "Amélioration de la prise en charge des lecteurs d'écran"
 
 #: data/datetime.metainfo.xml.in:62
 msgid "Move timezone popover contents to the main view"
