@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-12 09:16+0000\n"
-"PO-Revision-Date: 2024-12-26 01:09+0000\n"
+"PO-Revision-Date: 2025-02-17 14:46+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://l10n.elementary.io/projects/switchboard/"
 "datetime/pt/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.8.4\n"
+"X-Generator: Weblate 5.9.2\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:05+0000\n"
 
 #: src/MainView.vala:34 src/MainView.vala:98 src/Plug.vala:32
@@ -1365,7 +1365,7 @@ msgstr "América/Nuuk"
 #. /Translators: Comment for Timezone America/Nuuk
 #: src/Translations.vala:511
 msgid "most of Greenland"
-msgstr ""
+msgstr "maior parte da Gronelândia"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:513
@@ -1499,13 +1499,10 @@ msgstr "Ásia/Makassar"
 
 #. /Translators: Comment for Timezone Asia/Makassar
 #: src/Translations.vala:565
-#, fuzzy
-#| msgid ""
-#| "Borneo (east, south); Sulawesi/Celebes, Bali, Nusa Tengarra; Timor (west)"
 msgid ""
 "Borneo (east, south), Sulawesi/Celebes, Bali, Nusa Tengarra, Timor (west)"
 msgstr ""
-"Borneo (este, sul); Sulawesi/Celebes, Bali, Nusa Tengarra; Timor (oeste)"
+"Borneo (este, sul), Sulawesi/Celebes, Bali, Nusa Tengarra, Timor (oeste)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:567
@@ -1514,10 +1511,8 @@ msgstr "Ásia/Jayapura"
 
 #. /Translators: Comment for Timezone Asia/Jayapura
 #: src/Translations.vala:569
-#, fuzzy
-#| msgid "New Guinea (West Papua / Irian Jaya); Malukus/Moluccas"
 msgid "New Guinea (West Papua / Irian Jaya), Malukus/Moluccas"
-msgstr "New Guinea (West Papua / Irian Jaya); Malukus/Moluccas"
+msgstr "Nova Guiné (West Papua / Irian Jaya), Malukus/Moluccas"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:571
@@ -1693,7 +1688,7 @@ msgstr "Ásia/Pontianak"
 #. /Translators: Comment for Timezone Asia/Qostanay
 #: src/Translations.vala:637
 msgid "Qostanay/Kostanay/Kustanay"
-msgstr ""
+msgstr "Qostanay/Kostanay/Kustanay"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:639
@@ -1865,7 +1860,7 @@ msgstr "Ásia/Ulaanbaatar"
 #. /Translators: Comment for Timezone Asia/Ulaanbaatar
 #: src/Translations.vala:705
 msgid "most of Mongolia"
-msgstr ""
+msgstr "maior parte da Mongólia"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:707
@@ -1952,7 +1947,7 @@ msgstr "América/Cancun"
 #. /Translators: Comment for Timezone America/Cancun
 #: src/Translations.vala:739
 msgid "Quintana Roo"
-msgstr ""
+msgstr "Quintana Roo"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:741
@@ -2062,7 +2057,7 @@ msgstr "América/Hermosillo"
 #. /Translators: Comment for Timezone America/Hermosillo
 #: src/Translations.vala:775
 msgid "Sonora"
-msgstr ""
+msgstr "Sonora"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:777
@@ -2164,7 +2159,7 @@ msgstr "Pacífico/Auckland"
 #. /Translators: Comment for Timezone Pacific/Auckland
 #: src/Translations.vala:815
 msgid "most of New Zealand"
-msgstr ""
+msgstr "maior parte da Nova Zelândia"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:817
@@ -2381,7 +2376,7 @@ msgstr "Europa/Simferopol"
 #. /Translators: Comment for Timezone Europe/Simferopol
 #: src/Translations.vala:901
 msgid "Crimea"
-msgstr ""
+msgstr "Crimeia"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:903
@@ -2825,7 +2820,7 @@ msgstr "Europa/Kiev"
 #. /Translators: Comment for Timezone Europe/Kyiv
 #: src/Translations.vala:1077
 msgid "most of Ukraine"
-msgstr ""
+msgstr "maior parte da Ucrânia"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:1079
