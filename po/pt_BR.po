@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-12 09:16+0000\n"
-"PO-Revision-Date: 2024-11-30 16:16+0000\n"
+"PO-Revision-Date: 2025-07-28 13:55+0000\n"
 "Last-Translator: Guilherme Faura <guilhermefaura@gmail.com>\n"
-"Language-Team: Portuguese (Brazil) <https://l10n.elementary.io/projects/"
-"switchboard/datetime/pt_BR/>\n"
+"Language-Team: Portuguese (Brazil) <https://l10n.elementaryos.org/projects/"
+"settings/datetime/pt_BR/>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.6.2\n"
+"X-Generator: Weblate 5.11.4\n"
 "X-Launchpad-Export-Date: 2017-02-15 06:46+0000\n"
 
 #: src/MainView.vala:34 src/MainView.vala:98 src/Plug.vala:32
@@ -769,10 +769,8 @@ msgstr "América/Halifax"
 
 #. /Translators: Comment for Timezone America/Halifax
 #: src/Translations.vala:273
-#, fuzzy
-#| msgid "Atlantic - NS (most areas); PE"
 msgid "Atlantic - NS (most areas), PE"
-msgstr "Atlantic - NS (maior parte das áreas); PE"
+msgstr "Atlântico - NS (maior parte das áreas), PE"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:275
@@ -821,10 +819,8 @@ msgstr "América/Toronto"
 
 #. /Translators: Comment for Timezone America/Toronto
 #: src/Translations.vala:293
-#, fuzzy
-#| msgid "Eastern - ON, QC (most areas)"
 msgid "Eastern - ON & QC (most areas)"
-msgstr "Eastern - ON, QC (maioria das áreas)"
+msgstr "Leste - ON & QC (maioria das áreas)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:295
@@ -833,10 +829,8 @@ msgstr "América/Iqaluit"
 
 #. /Translators: Comment for Timezone America/Iqaluit
 #: src/Translations.vala:297
-#, fuzzy
-#| msgid "Eastern - IN (most areas)"
 msgid "Eastern - NU (most areas)"
-msgstr "Eastern - Indiana (maioria das áreas)"
+msgstr "Leste - NU (maioria das áreas)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:299
