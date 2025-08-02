@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-12 09:16+0000\n"
-"PO-Revision-Date: 2024-08-06 22:22+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
-"Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
-"switchboard/datetime/zh_Hans/>\n"
+"PO-Revision-Date: 2025-08-03 05:55+0000\n"
+"Last-Translator: JieXu <xujie0739@qq.com>\n"
+"Language-Team: Chinese (Simplified Han script) <https://"
+"l10n.elementaryos.org/projects/settings/datetime/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.6.2\n"
+"X-Generator: Weblate 5.11.4\n"
 "X-Launchpad-Export-Date: 2017-01-12 06:06+0000\n"
 
 #: src/MainView.vala:34 src/MainView.vala:98 src/Plug.vala:32
@@ -45,10 +45,8 @@ msgid "Time Zone"
 msgstr "时区"
 
 #: src/MainView.vala:67
-#, fuzzy
-#| msgid "Based on location:"
 msgid "Based on location"
-msgstr "根据地理位置："
+msgstr "基于地理位置"
 
 #: src/MainView.vala:71
 msgid "Automatically updates the time zone when activated"
@@ -56,11 +54,9 @@ msgstr "激活后自动更新时区"
 
 #: src/MainView.vala:100
 msgid "Set automatically"
-msgstr ""
+msgstr "自动设置"
 
 #: src/MainView.vala:123 src/Plug.vala:72
-#, fuzzy
-#| msgid "Show week numbers"
 msgid "Show Week Numbers"
 msgstr "显示周数"
 
@@ -295,10 +291,8 @@ msgstr "美洲/阿根廷/卡塔马卡"
 
 #. /Translators: Comment for Timezone America/Argentina/Catamarca
 #: src/Translations.vala:81
-#, fuzzy
-#| msgid "Catamarca (CT); Chubut (CH)"
 msgid "Catamarca (CT), Chubut (CH)"
-msgstr "卡塔马卡省 (CT); 丘布特省 (CH)"
+msgstr "卡塔马卡 (CT); 丘布特省(CH)"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:83
@@ -398,7 +392,7 @@ msgstr "澳洲/霍巴特"
 #. /Translators: Comment for Timezone Australia/Hobart
 #: src/Translations.vala:121
 msgid "Tasmania"
-msgstr ""
+msgstr "塔斯马尼亚"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:123
@@ -592,10 +586,8 @@ msgstr "美洲/贝伦"
 
 #. /Translators: Comment for Timezone America/Belem
 #: src/Translations.vala:199
-#, fuzzy
-#| msgid "Para (east); Amapa"
 msgid "Para (east), Amapa"
-msgstr "Para (east); Amapa"
+msgstr "帕拉（东部）、阿马帕"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:201
@@ -605,7 +597,7 @@ msgstr "美洲/福塔莱萨"
 #. /Translators: Comment for Timezone America/Fortaleza
 #: src/Translations.vala:203
 msgid "Brazil (northeast: MA, PI, CE, RN, PB)"
-msgstr "Brazil (northeast: MA, PI, CE, RN, PB)"
+msgstr "巴西（东北部：马拉尼昂、皮奥伊、塞阿拉、北大河、帕拉伊巴）"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:205
@@ -655,7 +647,8 @@ msgstr "美洲/圣保罗"
 #. /Translators: Comment for Timezone America/Sao_Paulo
 #: src/Translations.vala:223
 msgid "Brazil (southeast: GO, DF, MG, ES, RJ, SP, PR, SC, RS)"
-msgstr "Brazil (southeast: GO, DF, MG, ES, RJ, SP, PR, SC, RS)"
+msgstr "巴西（东南部：戈亚斯、联邦区、米纳斯吉拉斯、埃斯皮里图、里约热内卢、圣保罗、"
+"巴拉那、圣卡塔琳娜、南里奥格兰德）"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:225
@@ -685,7 +678,7 @@ msgstr "美国/圣塔伦"
 #. /Translators: Comment for Timezone America/Santarem
 #: src/Translations.vala:235
 msgid "Para (west)"
-msgstr "Para (west)"
+msgstr "帕拉（西部）"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:237
@@ -715,7 +708,7 @@ msgstr "美洲/马瑙斯"
 #. /Translators: Comment for Timezone America/Manaus
 #: src/Translations.vala:247
 msgid "Amazonas (east)"
-msgstr "Amazonas (east)"
+msgstr "亚马孙州（东部）"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:249
@@ -725,7 +718,7 @@ msgstr "美洲/埃鲁内佩"
 #. /Translators: Comment for Timezone America/Eirunepe
 #: src/Translations.vala:251
 msgid "Amazonas (west)"
-msgstr "Amazonas (west)"
+msgstr "亚马孙州（西部）"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:253
