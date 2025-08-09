@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: maya\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-12 09:16+0000\n"
-"PO-Revision-Date: 2025-08-03 05:55+0000\n"
+"PO-Revision-Date: 2025-08-10 04:55+0000\n"
 "Last-Translator: JieXu <xujie0739@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://"
 "l10n.elementaryos.org/projects/settings/datetime/zh_Hans/>\n"
@@ -762,10 +762,8 @@ msgstr "美洲/圣约翰斯"
 
 #. /Translators: Comment for Timezone America/St_Johns
 #: src/Translations.vala:269
-#, fuzzy
-#| msgid "Newfoundland; Labrador (southeast)"
 msgid "Newfoundland, Labrador (SE)"
-msgstr "Newfoundland; Labrador (southeast)"
+msgstr "纽芬兰、拉布拉多（东南部）"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:271
@@ -1016,7 +1014,7 @@ msgstr "非洲/卢本巴希"
 #. /Translators: Comment for Timezone Africa/Lubumbashi
 #: src/Translations.vala:367
 msgid "Dem. Rep. of Congo (east)"
-msgstr ""
+msgstr "刚果民主共和国（东部）"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:369
@@ -1051,7 +1049,7 @@ msgstr "美洲/圣地亚哥"
 #. /Translators: Comment for Timezone America/Santiago
 #: src/Translations.vala:381
 msgid "most of Chile"
-msgstr ""
+msgstr "智利大部分地区"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:383
@@ -2294,7 +2292,7 @@ msgstr "欧洲/里斯本"
 #. /Translators: Comment for Timezone Europe/Lisbon
 #: src/Translations.vala:869
 msgid "Portugal (mainland)"
-msgstr ""
+msgstr "葡萄牙（本土）"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:871
@@ -2374,7 +2372,7 @@ msgstr "欧洲/辛菲罗波尔"
 #. /Translators: Comment for Timezone Europe/Simferopol
 #: src/Translations.vala:901
 msgid "Crimea"
-msgstr ""
+msgstr "克里米亚"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:903
@@ -2554,7 +2552,7 @@ msgstr "亚洲/海参崴"
 #. /Translators: Comment for Timezone Asia/Vladivostok
 #: src/Translations.vala:973
 msgid "MSK+07 - Amur River"
-msgstr ""
+msgstr "MSK+07 - 黑龙江/阿穆尔河"
 
 #. /Translators: Secondary "/" and all "_" will be replaced by ", " and " ".
 #: src/Translations.vala:975
